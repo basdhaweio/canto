@@ -1,0 +1,501 @@
+{
+  "id": "unit-3",
+  "number": 3,
+  "title": "Family and Friends",
+  "sources": ["Unit 3 Family and Friends.pdf", "Unit 3 Practice.pdf"],
+  "goals": [],
+  "vocab": [
+    { "id": "u3-v001", "zh": "边处，边度", "jp": "bin1 cyu3, bin1 dou6", "en": "Where? Which place?", "section": "Dialogue 1", "pos": "pronoun", "notes": "Either form may be used" },
+    { "id": "u3-v002", "zh": "返", "jp": "faan1", "en": "To return", "section": "Dialogue 1", "pos": "verb", "notes": "Also: to go where one usually goes" },
+    { "id": "u3-v003", "zh": "屋企", "jp": "nguk1 kei2", "en": "Family, home", "section": "Dialogue 1", "pos": "noun", "notes": "" },
+    { "id": "u3-v004", "zh": "做乜嘢", "jp": "zou6 mat1 je5", "en": "Why? For what reason?", "section": "Dialogue 1", "pos": "phrase", "notes": "Literally 'to do what?'" },
+    { "id": "u3-v005", "zh": "做", "jp": "zou6", "en": "To do", "section": "Dialogue 1", "pos": "verb", "notes": "" },
+    { "id": "u3-v006", "zh": "妈妈", "jp": "maa4 maa1", "en": "Mother", "section": "Dialogue 1", "pos": "noun", "notes": "" },
+    { "id": "u3-v007", "zh": "睇医生", "jp": "tai2 ji1 sang1", "en": "To see the doctor", "section": "Dialogue 1", "pos": "phrase", "notes": "" },
+    { "id": "u3-v008", "zh": "医生", "jp": "ji1 sang1", "en": "Doctor", "section": "Dialogue 1", "pos": "noun", "notes": "" },
+    { "id": "u3-v009", "zh": "同", "jp": "tung4", "en": "With, and (a shorter form of tung4 maai4)", "section": "Dialogue 1", "pos": "", "notes": "" },
+    { "id": "u3-v010", "zh": "一齐", "jp": "jat1 cai4", "en": "Together", "section": "Dialogue 1", "pos": "adverb", "notes": "Comes in front of the verb" },
+    { "id": "u3-v011", "zh": "住", "jp": "zyu6", "en": "To dwell, to live", "section": "Dialogue 1", "pos": "verb", "notes": "" },
+    { "id": "u3-v012", "zh": "吖", "jp": "aa4", "en": "A question word (that's right), isn't it?", "section": "Dialogue 1", "pos": "particle", "notes": "Final particle asking for confirmation" },
+    { "id": "u3-v013", "zh": "爸爸", "jp": "baa4 baa1", "en": "Father", "section": "Dialogue 1", "pos": "noun", "notes": "" },
+    { "id": "u3-v014", "zh": "兄弟", "jp": "hing1 dai6", "en": "Brothers", "section": "Dialogue 1", "pos": "noun", "notes": "" },
+    { "id": "u3-v015", "zh": "姐妹", "jp": "ze2 mui6", "en": "Sisters", "section": "Dialogue 1", "pos": "noun", "notes": "" },
+    { "id": "u3-v016", "zh": "咁，咁样", "jp": "gam2, gam2 joeng2", "en": "In that case, so", "section": "Dialogue 1", "pos": "", "notes": "" },
+    { "id": "u3-v017", "zh": "间", "jp": "gaan1", "en": "Classifier for houses and rooms", "section": "Dialogue 1", "pos": "classifier", "notes": "" },
+    { "id": "u3-v018", "zh": "屋", "jp": "nguk1", "en": "House", "section": "Dialogue 1", "pos": "noun", "notes": "" },
+    { "id": "u3-v019", "zh": "一定", "jp": "jat1 ding6", "en": "Certainly", "section": "Dialogue 1", "pos": "adverb", "notes": "" },
+    { "id": "u3-v020", "zh": "大", "jp": "daai6", "en": "Big", "section": "Dialogue 1", "pos": "adj", "notes": "" },
+    { "id": "u3-v021", "zh": "勒", "jp": "laak3", "en": "A statement word (that's how the case stands now)", "section": "Dialogue 1", "pos": "particle", "notes": "Final particle" },
+    { "id": "u3-v022", "zh": "都几，几", "jp": "dou1 gei2, gei2", "en": "Quite, rather, fairly", "section": "Dialogue 1", "pos": "adverb", "notes": "" },
+    { "id": "u3-v023", "zh": "要", "jp": "jiu3", "en": "Must, need to", "section": "Dialogue 1", "pos": "verb", "notes": "" },
+    { "id": "u3-v024", "zh": "走", "jp": "zau2", "en": "To run, to run away, to leave", "section": "Dialogue 1", "pos": "verb", "notes": "" },
+    { "id": "u3-v025", "zh": "耐", "jp": "noi6", "en": "A long time", "section": "Dialogue 2", "pos": "", "notes": "" },
+    { "id": "u3-v026", "zh": "好耐冇见", "jp": "hou2 noi6 mou5 gin3", "en": "Long time no see", "section": "Dialogue 2", "pos": "phrase", "notes": "" },
+    { "id": "u3-v027", "zh": "冇", "jp": "mou5", "en": "Have not (negative of jau5)", "section": "Dialogue 2", "pos": "verb", "notes": "jau5 is not negated with m4" },
+    { "id": "u3-v028", "zh": "香港", "jp": "hoeng1 gong2", "en": "Hong Kong", "section": "Dialogue 2", "pos": "noun", "notes": "" },
+    { "id": "u3-v029", "zh": "花园道", "jp": "faa1 jyun4 dou6", "en": "Garden Road", "section": "Dialogue 2", "pos": "noun", "notes": "" },
+    { "id": "u3-v030", "zh": "花园", "jp": "faa1 jyun2", "en": "Garden (note the tone change)", "section": "Dialogue 2", "pos": "noun", "notes": "Note the tone change: jyun4 in faa1 jyun4 dou6, jyun2 on its own" },
+    { "id": "u3-v031", "zh": "道", "jp": "dou6", "en": "Street, road", "section": "Dialogue 2", "pos": "noun", "notes": "" },
+    { "id": "u3-v032", "zh": "号", "jp": "hou6", "en": "Number", "section": "Dialogue 2", "pos": "noun", "notes": "" },
+    { "id": "u3-v033", "zh": "楼", "jp": "lau4", "en": "Flat, a high building, a story", "section": "Dialogue 2", "pos": "noun", "notes": "Pronounced lau2 in the dialogue (saam1 lau2, jat1 cang4 lau2)" },
+    { "id": "u3-v034", "zh": "多", "jp": "do1", "en": "Many, much", "section": "Dialogue 2", "pos": "adj", "notes": "" },
+    { "id": "u3-v035", "zh": "巴士", "jp": "baa1 si2", "en": "Bus", "section": "Dialogue 2", "pos": "noun", "notes": "" },
+    { "id": "u3-v036", "zh": "的士", "jp": "dik1 si2", "en": "Taxi", "section": "Dialogue 2", "pos": "noun", "notes": "" },
+    { "id": "u3-v037", "zh": "搭", "jp": "daap3", "en": "To travel by/catch/take (public transport)", "section": "Dialogue 2", "pos": "verb", "notes": "" },
+    { "id": "u3-v038", "zh": "仲", "jp": "zung6", "en": "Still, yet", "section": "Dialogue 2", "pos": "adverb", "notes": "" },
+    { "id": "u3-v039", "zh": "咖啡", "jp": "gaa3 fe1", "en": "Coffee", "section": "Dialogue 2", "pos": "noun", "notes": "" },
+    { "id": "u3-v040", "zh": "街", "jp": "gaai1", "en": "Street", "section": "Dialogue 2", "pos": "noun", "notes": "" },
+    { "id": "u3-v041", "zh": "地下", "jp": "dei6 haa2", "en": "Ground floor, the ground, the floor", "section": "Dialogue 2", "pos": "noun", "notes": "" },
+    { "id": "u3-v042", "zh": "时间", "jp": "si4 gaan3", "en": "Time", "section": "Dialogue 2", "pos": "noun", "notes": "" },
+    { "id": "u3-v043", "zh": "请", "jp": "cing2", "en": "Please", "section": "Dialogue 2", "pos": "", "notes": "" },
+    { "id": "u3-v044", "zh": "黎", "jp": "lai4", "en": "To come", "section": "Dialogue 2", "pos": "verb", "notes": "" },
+    { "id": "u3-v045", "zh": "坐", "jp": "co5", "en": "To sit", "section": "Dialogue 2", "pos": "verb", "notes": "" },
+    { "id": "u3-v046", "zh": "探", "jp": "taam3", "en": "To see, to visit", "section": "Dialogue 2", "pos": "verb", "notes": "" },
+    { "id": "u3-v047", "zh": "车房", "jp": "ce1 fong4", "en": "Garage", "section": "Dialogue 2", "pos": "noun", "notes": "" },
+    { "id": "u3-v048", "zh": "层", "jp": "cang4", "en": "Classifier for a flat, story, deck", "section": "Dialogue 2", "pos": "classifier", "notes": "" },
+    { "id": "u3-v049", "zh": "啫", "jp": "ze1/zek1", "en": "(Particle) only, and that's all", "section": "Dialogue 2", "pos": "particle", "notes": "Final particle" },
+    { "id": "u3-v050", "zh": "唔係几/好", "jp": "m4 hai6 gei2/hou2", "en": "Not very", "section": "Dialogue 2", "pos": "phrase", "notes": "hai6 is slipped into the 'not very' construction" },
+    { "id": "u3-v051", "zh": "嘅", "jp": "ge3", "en": "(Particle) Makes a statement more emphatic: that's how it is and that's how it's going to stay", "section": "Dialogue 2", "pos": "particle", "notes": "Final particle" },
+    { "id": "u3-v052", "zh": "喇", "jp": "laa1", "en": "A particle urging someone to agree with you or to do one thing for you", "section": "Dialogue 2", "pos": "particle", "notes": "Final particle" },
+    { "id": "u3-v053", "zh": "有", "jp": "jau5", "en": "To have; there is", "section": "Grammar", "pos": "verb", "notes": "Negative is mou5, not m4 jau5; question form jau5 mou5" },
+    { "id": "u3-v054", "zh": "", "jp": "zai2", "en": "Son", "section": "Grammar", "pos": "noun", "notes": "" },
+    { "id": "u3-v055", "zh": "", "jp": "neoi2", "en": "Daughter", "section": "Grammar", "pos": "noun", "notes": "" },
+    { "id": "u3-v056", "zh": "", "jp": "faan1 heoi3", "en": "To go back (return in a direction away from the speaker)", "section": "Grammar", "pos": "verb", "notes": "" },
+    { "id": "u3-v057", "zh": "", "jp": "jau5 cin2", "en": "Rich", "section": "Grammar", "pos": "adj", "notes": "jau5 + cin2 (money)" },
+    { "id": "u3-v058", "zh": "有心", "jp": "jau5 sam1", "en": "Thoughtful, kind", "section": "Grammar", "pos": "adj", "notes": "jau5 + sam1 (heart)" },
+    { "id": "u3-v059", "zh": "", "jp": "jau5 jung6", "en": "Useful", "section": "Grammar", "pos": "adj", "notes": "jau5 + jung6 (use)" },
+    { "id": "u3-v060", "zh": "", "jp": "mou5 jung6", "en": "Useless", "section": "Grammar", "pos": "adj", "notes": "mou5 + jung6 (use)" },
+    { "id": "u3-v061", "zh": "", "jp": "jau5 liu2", "en": "Substantial, learned", "section": "Grammar", "pos": "adj", "notes": "jau5 + liu2 (substance)" },
+    { "id": "u3-v062", "zh": "", "jp": "mou5 liu2", "en": "Vacuous, ignorant", "section": "Grammar", "pos": "adj", "notes": "mou5 + liu2 (substance)" }
+  ],
+  "dialogues": [
+    {
+      "id": "u3-d1",
+      "title": "Dialogue 1",
+      "setting": "Mr. Ho meets Mr Wong on the street",
+      "lines": [
+        { "id": "u3-d1-l01", "speaker": "Ho", "zh": "王先生，你去边处呀？", "jp": "Wong4 sin1 saang1, nei5 heoi3 bin1 cyu3 aa3?", "en": "Mr. Wong, where are you going?" },
+        { "id": "u3-d1-l02", "speaker": "Wong", "zh": "早晨，何先生，我返屋企。", "jp": "zou2 san4, Ho4 sin1 saang1, ngo5 faan1 nguk1 kei2", "en": "Good morning, Mr. Ho, I'm going home" },
+        { "id": "u3-d1-l03", "speaker": "Ho", "zh": "你返屋企做乜嘢呀？", "jp": "nei5 faan1 nguk1 kei2 zou6 mat1 je5 aa3?", "en": "Why are you going home?" },
+        { "id": "u3-d1-l04", "speaker": "Wong", "zh": "我带我妈妈去睇医生。", "jp": "ngo5 daai3 ngo5 maa4 maa1 heoi3 tai2 ji1 sang1", "en": "I'm bringing my mom to the doctor" },
+        { "id": "u3-d1-l05", "speaker": "Ho", "zh": "你同妈妈一齐住吖？", "jp": "nei5 tung4 maa4 maa1 jat1 cai4 zyu6 aa4?", "en": "You live with your mom?" },
+        { "id": "u3-d1-l06", "speaker": "Wong", "zh": "係，我同爸爸，妈妈，兄弟，姐妹，七个人一齐住。", "jp": "hai6, ngo5 tung4 baa4 baa1, maa4 maa1, hing1 dai6, ze2 mui6, cat1 go3 jan4 jat1 cai4 zyu6", "en": "Yes, I live with my father, my mother, my brothers, my sisters, a total of 7 people" },
+        { "id": "u3-d1-l07", "speaker": "Ho", "zh": "七个人一齐住…咁样，你地间屋一定好大勒。", "jp": "cat1 go3 jan4 jat1 cai4 zyu6… gam2 joeng2, nei5 dei6 gaan1 nguk1 jat1 ding6 hou2 daai6 laak3", "en": "Seven people living together… so your house must be very big" },
+        { "id": "u3-d1-l08", "speaker": "Wong", "zh": "係，都几大。对唔住，何先生，我要走勒，再见。", "jp": "hai6, dou1 gei2 daai6. deoi3 m4 zyu6, Ho4 sin1 saang1, ngo5 jiu3 zau2 laak3, zoi3 gin3", "en": "Yes, quite big. Sorry, Mr. Ho, I have to go. Good-bye" },
+        { "id": "u3-d1-l09", "speaker": "Ho", "zh": "再见，王先生。", "jp": "zoi3 gin3, Wong4 sin1 saang1", "en": "Goodbye, Mr. Wong" }
+      ],
+      "questions": []
+    },
+    {
+      "id": "u3-d2",
+      "title": "Dialogue 2",
+      "setting": "Mr. Ho hasn't seen Mr. Cheung for a long while. They meet by chance.",
+      "lines": [
+        { "id": "u3-d2-l01", "speaker": "Ho", "zh": "张先生，好耐冇见。你好吗？你而家喺边度住呀？", "jp": "zoeng1 sin1 saang1, hou2 noi6 mou5 gin3. nei5 hou2 maa3? nei5 ji4 gaa1 hai2 bin1 dou6 zyu6 aa3?", "en": "Mr. Cheung, long time no see. How are you? Where do you live now?" },
+        { "id": "u3-d2-l02", "speaker": "Cheung", "zh": "我而家住喺香港花园道二十八号三楼。", "jp": "ngo5 ji4 gaa1 zyu6 hai2 hoeng1 gong2 faa1 jyun4 dou6 ji6 sap6 baat3 hou6 saam1 lau2", "en": "I live on the Third Floor of No. 28 Hong Kong Garden Street" },
+        { "id": "u3-d2-l03", "speaker": "Ho", "zh": "花园道好唔好住呀？", "jp": "faa1 jyun4 dou6 hou2 m4 hou2 zyu6 aa3?", "en": "Is Garden Street good to live at?" },
+        { "id": "u3-d2-l04", "speaker": "Cheung", "zh": "好住。花园道有好多巴士同的士搭。何先生，你住喺边处呀？", "jp": "hou2 zyu6. faa1 jyun4 dou6 jau5 hou2 do1 baa1 si2 tung4 dik1 si2 daap3. ho4 sin1 saang1, nei5 zyu6 hai2 bin1 cyu3 aa3?", "en": "It is good. Garden street has many buses and taxies. Mr. Ho, where do you live?" },
+        { "id": "u3-d2-l05", "speaker": "Ho", "zh": "我仲住喺咖啡街七十三号地下。你有时间请黎坐喇。", "jp": "ngo5 zung6 zyu6 hai2 gaa3 fe1 gaai1 cat1 sap6 saam1 hou6 dei6 haa2. nei5 jau5 si4 gaan3 cing2 lai4 co5 laa1", "en": "I still live on the Ground floor of No. 73 Coffee Street. Please come visit when you have time" },
+        { "id": "u3-d2-l06", "speaker": "Cheung", "zh": "你有心。你间屋有车房吗？", "jp": "nei5 jau5 sam1. nei5 gaan1 nguk1 jau5 ce1 fong4 maa3?", "en": "Kind of you to say. Does your house have a garage?" },
+        { "id": "u3-d2-l07", "speaker": "Ho", "zh": "我唔係住一间屋，我住一层楼啫。呢层楼唔係几大，冇车房嘅。", "jp": "ngo5 m4 hai6 zyu6 jat1 gaan1 nguk1, ngo5 zyu6 jat1 cang4 lau2 ze1. ni1 cang4 lau2 m4 hai6 gei2 daai6, mou5 ce1 fong4 ge3", "en": "I don't live in a house. I live on just one floor. This floor isn't very big. There isn't a garage" },
+        { "id": "u3-d2-l08", "speaker": "Cheung", "zh": "好，有时间我黎探你，再见。", "jp": "hou2, jau5 si4 gaan3 ngo5 lai4 taam3 nei5, zoi3 gin3", "en": "Ok, I will come visit when I have time. Goodbye" },
+        { "id": "u3-d2-l09", "speaker": "Ho", "zh": "再见。", "jp": "zoi3 gin3", "en": "Goodbye" }
+      ],
+      "questions": [
+        "Ho4 sin1 saang1 zyu6 hai2 bin1 cyu3 aa?",
+        "Zoeng1 sin1 saang1 zyu6 hai2 bin1 cyu3 aa?",
+        "Ho4 sin1 saang1 ge3 lau2 jau5 mou5 ce1 fong4 aa3?",
+        "Zoeng1 sin1 saang1 soeng2 m4 soeng2 taam3 Ho4 sin1 saang1 aa3?",
+        "Jau5 mou5 baa1 si2 heoi3 Faa1 jyun4 dou6 aa3?"
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "u3-g01",
+      "title": "Where?",
+      "summary": "bin1 dou6? and bin1 cyu3 both mean where? and work to the same rule as bin1 go3 who? and mat1 je5 what?",
+      "body": "bin1 dou6? Where? Works to the same rule as bin1 go3 who? And mat1 je5 what?\nbin1 dou6? And bin1 cyu3 both mean Where? And you can use whichever of them you prefer",
+      "examples": [
+        { "id": "u3-g01-e01", "jp": "nei5 heoi3 bin1 dou6 aa3?", "zh": "", "en": "Where are you going?", "lit": "" },
+        { "id": "u3-g01-e02", "jp": "ngo5 heoi3 se2 zi6 lau4", "zh": "", "en": "I'm going to the office", "lit": "" }
+      ],
+      "tags": ["question-words", "where", "location"]
+    },
+    {
+      "id": "u3-g02",
+      "title": "Faan1 To return",
+      "summary": "faan1 means to return; faan1 heoi3 is to go back, and faan1 also means to go where one usually goes.",
+      "body": "Faan1 means to return. It combines easily with heoi3 to go as meaning to faan1 heoi3 go back, that is to return in a direction away from me the speaker.\nFaan1 also means to go where one usually goes.",
+      "examples": [
+        { "id": "u3-g02-e01", "jp": "nei5 faan1 heoi3 m4 faan1 heoi3 aa3", "zh": "", "en": "Are you going back?", "lit": "" },
+        { "id": "u3-g02-e02", "jp": "nei5 faan1 m4 faan1 heoi3 aa3", "zh": "", "en": "Are you going back? (more commonly shortened form)", "lit": "" },
+        { "id": "u3-g02-e03", "jp": "wong4 siu2 ze2 faan1 nguk1 kei5", "zh": "", "en": "Miss Wong is going home", "lit": "" },
+        { "id": "u3-g02-e04", "jp": "ngo5 faan1 se2 zi6 lau4", "zh": "", "en": "I'm going to the office", "lit": "" }
+      ],
+      "tags": ["verbs", "faan1", "movement"]
+    },
+    {
+      "id": "u3-g03",
+      "title": "Why?",
+      "summary": "zou6 mat1 je5 literally means to do what? but has come to mean why?; it can be positioned quite freely in the sentence.",
+      "body": "zou6 mat1 je5 literally means to do what? But it has come to mean why?\nIt can be positioned quite freely in the sentence without any change of meaning: all the following examples mean Why must you sell your car?",
+      "examples": [
+        { "id": "u3-g03-e01", "jp": "nei5 zou6 mat1 je5 jiu3 maai6 ce1 aa3?", "zh": "", "en": "Why must you sell your car?", "lit": "" },
+        { "id": "u3-g03-e02", "jp": "zou6 mat1 je5 nei5 jiu3 maai6 ce1 aa3?", "zh": "", "en": "Why must you sell your car?", "lit": "" },
+        { "id": "u3-g03-e03", "jp": "nei5 jiu3 maai6 ce1 zou6 mat1 je5 aa3?", "zh": "", "en": "Why must you sell your car?", "lit": "" }
+      ],
+      "tags": ["question-words", "why", "word-order"]
+    },
+    {
+      "id": "u3-g04",
+      "title": "Yes and No",
+      "summary": "There are no words for yes and no; answer with the positive or negative form of the verb, or with hai6 / m4 hai6 when the verb is not the focus.",
+      "body": "There are no words for yes and no in Cantonese.\nYou should use the positive or negative form of the appropriate verb, in answer to a question.\nIf it is not the verb itself which is the focus of the question, it is useful to use hai6 it is the case or m4 hai6 it is not the case, as in the dialogue.\nhai6 and m4 hai6 come as close to yes and no as Cantonese gets.",
+      "examples": [
+        { "id": "u3-g04-e01", "jp": "nei5 heoi3 m4 heoi3 zung1 gwok3 aa3?", "zh": "", "en": "Are you going to China?", "lit": "" },
+        { "id": "u3-g04-e02", "jp": "heoi3", "zh": "", "en": "Yes", "lit": "" },
+        { "id": "u3-g04-e03", "jp": "m4 heoi3", "zh": "", "en": "No", "lit": "" }
+      ],
+      "tags": ["yes-no", "hai6", "answers"]
+    },
+    {
+      "id": "u3-g05",
+      "title": "The adverb jat1 cai4 \"together\"",
+      "summary": "jat1 cai4 together is an adverb and, like almost all adverbs, comes in front of the verb.",
+      "body": "jat1 cai4 together, all together is an adverb and like almost all adverbs it comes in front of the verb in the sentence.",
+      "examples": [
+        { "id": "u3-g05-e01", "jp": "jat1 cai4 zyu6", "zh": "", "en": "To live together", "lit": "" },
+        { "id": "u3-g05-e02", "jp": "jat1 cai4 faan1 jing1 gwok3", "zh": "", "en": "To return to Britain together", "lit": "" }
+      ],
+      "tags": ["adverbs", "word-order"]
+    },
+    {
+      "id": "u3-g06",
+      "title": "That's right, isn't it?",
+      "summary": "aa4 comes at the end of a sentence to ask for confirmation that what you have said is correct.",
+      "body": "The word aa4 comes at the end of a sentence to ask for confirmation that what you have said is correct.",
+      "examples": [
+        { "id": "u3-g06-e01", "jp": "nei5 hai6 zoeng1 sin1 saang1 aa4?", "zh": "", "en": "You're Mr. Cheung, aren't you?", "lit": "" },
+        { "id": "u3-g06-e02", "jp": "nei5 heoi3 jing1 gwok3 aa4?", "zh": "", "en": "I take it you're going to England, right?", "lit": "" }
+      ],
+      "tags": ["particles", "final-particles", "aa4"]
+    },
+    {
+      "id": "u3-g07",
+      "title": "That's how the case stands now",
+      "summary": "laak3 comes at the end of the sentence to state the current position, often implying that things have changed.",
+      "body": "Laak3 comes at the end of the sentence to state what the current position is.\nNaturally enough that means that often there has been some change before that position has been arrived at.",
+      "examples": [
+        { "id": "u3-g07-e01", "jp": "ngo5 jiu3 heoi3 laak3", "zh": "", "en": "I must be going now", "lit": "" },
+        { "id": "u3-g07-e02", "jp": "keoi5 m4 soeng2 maai5 ce1 laak3", "zh": "", "en": "He doesn't want to buy a car anymore", "lit": "" }
+      ],
+      "tags": ["particles", "final-particles", "laak3"]
+    },
+    {
+      "id": "u3-g08",
+      "title": "Possession and existence: jau5",
+      "summary": "jau5 to have serves as a main verb and as an auxiliary. Its negative is not m4 jau5 but a separate verb, mou5 not to have.",
+      "body": "The verb jau5 serves both as a main verb (I have a question) and as an auxiliary (have you sent the letter?).\nThe verb jau5 to have is an oddity. It is not made negative with m4: instead the negative of jau5 is another verb, mou5 not to have.",
+      "examples": [
+        { "id": "u3-g08-e01", "jp": "ngo5 jau5 jat1 go3 zai2 jat1 go3 neoi2", "zh": "", "en": "I have a son and a daughter", "lit": "" },
+        { "id": "u3-g08-e02", "jp": "nei5 zung6 jau5 gei1 wui6", "zh": "", "en": "You still have a chance", "lit": "" },
+        { "id": "u3-g08-e03", "jp": "keoi5 jau5 gei2 gaan1 nguk1", "zh": "", "en": "She has several houses", "lit": "" },
+        { "id": "u3-g08-e04", "jp": "nei5 hai6 m4 hai6 jing1 gwok3 jan4 aa3?", "zh": "", "en": "Are you English?", "lit": "" },
+        { "id": "u3-g08-e05", "jp": "nei5 jau5 mou5 jing1 gwok3 ce1 aa3?", "zh": "", "en": "A: Have you got an English car?", "lit": "" },
+        { "id": "u3-g08-e06", "jp": "ngo5 mou5 ce1", "zh": "", "en": "B: I haven't got a car", "lit": "" },
+        { "id": "u3-g08-e07", "jp": "nei5 mou5 ging1 jim6", "zh": "", "en": "You don't have experience", "lit": "" },
+        { "id": "u3-g08-e08", "jp": "ngo5 dei6 mou5 sai3 lou6 zai2", "zh": "", "en": "We don't have any children", "lit": "" },
+        { "id": "u3-g08-e09", "jp": "keoi5 dei6 mou5 nguk1 kei5", "zh": "", "en": "They don't have a home", "lit": "" }
+      ],
+      "tags": ["jau5", "mou5", "possession", "negation"]
+    },
+    {
+      "id": "u3-g09",
+      "title": "The verb jau5: question form",
+      "summary": "The question form puts jau5 and mou5 together as jau5 mou5 (not *jau5 m4 jau5).",
+      "body": "The question form is composed by putting jau5 'have' and mou5 'not have' together as jau5 mou5 (not *jau5 m4 jau5).",
+      "examples": [
+        { "id": "u3-g09-e01", "jp": "nei5 jau5 mou5 man6 tai4 aa3?", "zh": "", "en": "Do you have any questions?", "lit": "" },
+        { "id": "u3-g09-e02", "jp": "ngo5 dei6 jau5 mou5 si4 gaan3 aa3?", "zh": "", "en": "Do we have time?", "lit": "" },
+        { "id": "u3-g09-e03", "jp": "keoi5 dei6 jau5 mou5 cin2 aa3?", "zh": "", "en": "Do they have money?", "lit": "" }
+      ],
+      "tags": ["jau5", "mou5", "questions"]
+    },
+    {
+      "id": "u3-g10",
+      "title": "Existential jau5",
+      "summary": "jau5 can also mean there is, mou5 there is not, and jau5 mou5 is there…?. The sentence simply begins with the place expression; a verb can be added to show what is to be done with the item introduced.",
+      "body": "jau5 can also mean 'there is'. Similarly, mou5 can mean 'there is not' and jau5 mou5 'Is there…?'\nNo preposition is needed: the sentence simply begins with the place expression.\njau5 in this sense also serves to introduce an indefinite noun phrase.\nA verb can be added to show what is to be done with the item introduced by jau5/mou5.",
+      "examples": [
+        { "id": "u3-g10-e01", "jp": "hoeng1 gong2 jau5 hou2 do1 dik1 si2", "zh": "", "en": "There are lots of taxis in Hong Kong", "lit": "Hong Kong have very many taxis" },
+        { "id": "u3-g10-e02", "jp": "ni1 dou6 mou5 hung4 maau1", "zh": "", "en": "There are no pandas here", "lit": "Here not-have pandas" },
+        { "id": "u3-g10-e03", "jp": "toi2 soeng6 min6 jau5 gei2 zek3 dip2", "zh": "", "en": "There are a few plates on the table", "lit": "Table on-top have a few plates" },
+        { "id": "u3-g10-e04", "jp": "jau5 go3 jan4 wan2 nei5", "zh": "", "en": "A person is looking for you", "lit": "Have a person seeking you" },
+        { "id": "u3-g10-e05", "jp": "jau5 gei2 go3 hok6 saang1 hou2 nau1", "zh": "", "en": "Several students are angry", "lit": "Have several students very angry" },
+        { "id": "u3-g10-e06", "jp": "jau5 hou2 do1 haak3 jan4 lai4 zo2", "zh": "", "en": "Many guests came", "lit": "Have many guests came" },
+        { "id": "u3-g10-e07", "jp": "ngo5 gam1 jat6 jau5 gung1 fo3 zou6", "zh": "", "en": "I have homework to do today", "lit": "I today have homework to do" },
+        { "id": "u3-g10-e08", "jp": "ni1 dou6 mou5 saam1 maai5", "zh": "", "en": "There are no clothes to buy here", "lit": "Here have no clothes to buy" },
+        { "id": "u3-g10-e09", "jp": "jap6 bin6 jau5 mou5 je5 sik6 aa3?", "zh": "", "en": "Is there anything to eat inside?", "lit": "Inside have or have not anything to eat" }
+      ],
+      "tags": ["jau5", "mou5", "existence", "there-is"]
+    },
+    {
+      "id": "u3-g11",
+      "title": "jau5 as auxiliary",
+      "summary": "jau5 also serves as an auxiliary, but normally only in the negative form mou5 and in questions as jau5 mou5.",
+      "body": "jau5 also serves as an auxiliary but normally only in the negative form mou5 and in questions as jau5 mou5.",
+      "examples": [
+        { "id": "u3-g11-e01", "jp": "keoi5 gam1 jat6 mou5 faan1 gung1", "zh": "", "en": "He hasn't been to work today", "lit": "" },
+        { "id": "u3-g11-e02", "jp": "ngo5 mou5 zou6 gwo3 sin1 saang1", "zh": "", "en": "I've never been a teacher", "lit": "" },
+        { "id": "u3-g11-e03", "jp": "keoi5 dei6 jau5 mou5 bun1 nguk1 aa3?", "zh": "", "en": "A: Have they moved house?", "lit": "" },
+        { "id": "u3-g11-e04", "jp": "jau5 aa3 (bun1 zo2 laa3)", "zh": "", "en": "B: Yes (they have)", "lit": "" },
+        { "id": "u3-g11-e05", "jp": "nei5 jau5 mou5 hok6 gwo3 pou2 tung1 waa2 aa3?", "zh": "", "en": "A: Have you learned Putonghua?", "lit": "" },
+        { "id": "u3-g11-e06", "jp": "mou5 aa3 (mou5 hok6 gwo3 aa3)", "zh": "", "en": "B: No (I haven't)", "lit": "" }
+      ],
+      "tags": ["jau5", "mou5", "auxiliary", "perfect"]
+    },
+    {
+      "id": "u3-g12",
+      "title": "Adjectives formed with jau5",
+      "summary": "jau5 and mou5 can be added to nouns to form adjectives.",
+      "body": "Jau5 and mou5 can also be added to nouns to form adjectives.",
+      "examples": [
+        { "id": "u3-g12-e01", "jp": "jau5 cin2", "zh": "", "en": "Rich", "lit": "jau5 + cin2 (money)" },
+        { "id": "u3-g12-e02", "jp": "jau5 sam1", "zh": "有心", "en": "Thoughtful, kind", "lit": "jau5 + sam1 (heart)" },
+        { "id": "u3-g12-e03", "jp": "jau5 jung6", "zh": "", "en": "Useful", "lit": "jau5 + jung6 (use)" },
+        { "id": "u3-g12-e04", "jp": "mou5 jung6", "zh": "", "en": "Useless", "lit": "mou5 + jung6 (use)" },
+        { "id": "u3-g12-e05", "jp": "jau5 liu2", "zh": "", "en": "Substantial, learned", "lit": "jau5 + liu2 (substance)" },
+        { "id": "u3-g12-e06", "jp": "mou5 liu2", "zh": "", "en": "Vacuous, ignorant", "lit": "mou5 + liu2 (substance)" }
+      ],
+      "tags": ["jau5", "mou5", "adjectives", "word-formation"]
+    },
+    {
+      "id": "u3-g13",
+      "title": "From the general to the particular",
+      "summary": "Chinese gives addresses (and, later, dates and times) from the general to the particular, from the large to the small: the opposite of English.",
+      "body": "When Mr. Cheung gives his address in the dialogue, you will see that he gives it in the order Hong Kong, Garden Road, No. 28, 3rd floor - i.e. in the opposite way to English.\nChinese always prefers to work from the general to the particular, from the large to the small.\nWe shall see later that it is the same with dates and times, so that the Chinese would translate 3:18p.m. on 17 May 2021 in the order 2021, May 17 p.m. 3:18.",
+      "examples": [
+        { "id": "u3-g13-e01", "jp": "hoeng1 gong2 faa1 jyun4 dou6 ji6 sap6 baat3 hou6 saam1 lau2", "zh": "香港花园道二十八号三楼", "en": "Hong Kong, Garden Road, No. 28, 3rd floor", "lit": "" }
+      ],
+      "tags": ["addresses", "word-order", "new-concept"]
+    },
+    {
+      "id": "u3-g14",
+      "title": "ze1",
+      "summary": "ze1/zek1 is tacked on to the end of a sentence to give the meaning only, that's all.",
+      "body": "ze1/zek1 is a very useful little word which is tacked on to the end of sentence to give the meaning only, that's all.",
+      "examples": [
+        { "id": "u3-g14-e01", "jp": "ngo5 jau5 loeng5 zi1 bat1", "zh": "", "en": "I've got two pens", "lit": "" },
+        { "id": "u3-g14-e02", "jp": "keoi5 jau5 jat1 zi1 bat1 ze1", "zh": "", "en": "He's only got one pen", "lit": "" }
+      ],
+      "tags": ["particles", "final-particles", "ze1"]
+    },
+    {
+      "id": "u3-g15",
+      "title": "Not very",
+      "summary": "The verb hai6 is slipped into the not very construction: m4 hai6 gei2 … / m4 hai6 hou2 ….",
+      "body": "You will need to remember that the verb hai6 is slipped into this not very construction.",
+      "examples": [
+        { "id": "u3-g15-e01", "jp": "daai6", "zh": "", "en": "Big", "lit": "" },
+        { "id": "u3-g15-e02", "jp": "m4 daai6", "zh": "", "en": "Not big", "lit": "" },
+        { "id": "u3-g15-e03", "jp": "hou2 daai6", "zh": "", "en": "Very big", "lit": "" },
+        { "id": "u3-g15-e04", "jp": "m4 hai6 gei2 daai6/m4 hai6 hou2 daai6", "zh": "", "en": "Not very big", "lit": "" },
+        { "id": "u3-g15-e05", "jp": "ni1 cang4 lau2 m4 hai6 gei2 gwai3", "zh": "", "en": "This flat is not very expensive", "lit": "" },
+        { "id": "u3-g15-e06", "jp": "wong4 siu2 ze2 m4 hai6 hou2 leng3", "zh": "", "en": "Miss Wong is not very pretty", "lit": "" }
+      ],
+      "tags": ["adjectives", "hai6", "negation", "degree"]
+    },
+    {
+      "id": "u3-g16",
+      "title": "Emphatic hai6 and ge3",
+      "summary": "hai6 can serve to emphasize the following word(s), especially with the particle ge3 at the end of the sentence.",
+      "body": "Hai6 can serve to emphasize the following word(s), especially with the particle ge3 at the end of the sentence.",
+      "examples": [
+        { "id": "u3-g16-e01", "jp": "hai6 nei5 bong1 ngo5 ge3", "zh": "", "en": "It was you who helped me (emphasizing the subject nei5)", "lit": "" },
+        { "id": "u3-g16-e02", "jp": "ni1 bun2 syu1 hai6 bin1 go3 ge3?", "zh": "", "en": "Who was it that gave (us) this book? (emphasizing the subject bin1 go3)", "lit": "This book is who gave" },
+        { "id": "u3-g16-e03", "jp": "fung1 seon3 hai6 gam1 jat6 gei3 dou3 ge3", "zh": "", "en": "It was today the letter arrived (emphasizing the adverb gam1 jat6)", "lit": "The letter is today arrived" }
+      ],
+      "tags": ["hai6", "ge3", "emphasis", "particles"]
+    },
+    {
+      "id": "u3-g17",
+      "title": "A recap: Final particles",
+      "summary": "Final particles are words added to the end of the sentence to round it off or give an extra meaning; a reminder of those learned so far.",
+      "body": "Words that are added to the end of the sentence to round it off or to give an extra meaning. They are usually called final particles and they are used a great deal in everyday speech. Here's a reminder of those you already know.\nmaa3 - a spoken question mark. It makes a statement into a question.\nne1? - the shortcut question word which asks follow-up questions.\naa3? - the final particle which is added to sentences which already contain positive-negative-type questions or question words like mat1 je5\ngaa3? - the particle made when ge3 is followed by aa3?\naa4? - the question word which expects the listeners to be in agreement: that's right, isn't it?\nlaak3 - the word which shows that things were different before but this is how the situation stands now.\nze1/zek1 - only, that's all\nlaa1 - the word you use when you are trying to urge someone to do something for you or to persuade someone to agree with you.\nge3 - makes a statement more emphatic: That's the way it is!",
+      "examples": [
+        { "id": "u3-g17-e01", "jp": "maa3", "zh": "吗", "en": "A spoken question mark. It makes a statement into a question", "lit": "" },
+        { "id": "u3-g17-e02", "jp": "ne1", "zh": "", "en": "The shortcut question word which asks follow-up questions", "lit": "" },
+        { "id": "u3-g17-e03", "jp": "aa3", "zh": "呀", "en": "The final particle which is added to sentences which already contain positive-negative-type questions or question words like mat1 je5", "lit": "" },
+        { "id": "u3-g17-e04", "jp": "gaa3", "zh": "", "en": "The particle made when ge3 is followed by aa3?", "lit": "" },
+        { "id": "u3-g17-e05", "jp": "aa4", "zh": "吖", "en": "The question word which expects the listeners to be in agreement: that's right, isn't it?", "lit": "" },
+        { "id": "u3-g17-e06", "jp": "laak3", "zh": "勒", "en": "The word which shows that things were different before but this is how the situation stands now", "lit": "" },
+        { "id": "u3-g17-e07", "jp": "ze1/zek1", "zh": "啫", "en": "Only, that's all", "lit": "" },
+        { "id": "u3-g17-e08", "jp": "laa1", "zh": "喇", "en": "The word you use when you are trying to urge someone to do something for you or to persuade someone to agree with you", "lit": "" },
+        { "id": "u3-g17-e09", "jp": "ge3", "zh": "嘅", "en": "Makes a statement more emphatic: That's the way it is!", "lit": "" }
+      ],
+      "tags": ["particles", "final-particles", "recap"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "u3-e1",
+      "title": "Exercise 1",
+      "source": "Unit 3 Family and Friends.pdf",
+      "instructions": "Sort out these jumbled words into meaningful sentences",
+      "type": "reorder",
+      "items": [
+        { "id": "u3-e1-i01", "prompt": "Baa4 baa1 ji1 sang1 Ho4 sin1 saang1 hai6.", "answer": "Ho4 sin1 saang1 baa4 baa1 hai6 ji1 sang1", "answer_en": "Mr. Ho's father is a doctor", "hint": "", "confidence": "high" },
+        { "id": "u3-e1-i02", "prompt": "Zou6 mat1 je5 hai2 nguk1 kei2 Wong4 taai3 taai2 aa3?", "answer": "Wong4 taai3 taai2 zou6 mat1 je5 hai2 nguk1 kei2 aa3?", "answer_en": "Why is Mrs. Wong at home?", "hint": "zou6 mat1 je5 can be positioned freely (see grammar 3)", "confidence": "medium" },
+        { "id": "u3-e1-i03", "prompt": "Tai2 ji1 sang1 ngo5 heoi3 m4 soeng2.", "answer": "Ngo5 m4 soeng2 heoi3 tai2 ji1 sang1", "answer_en": "I don't want to go to see the doctor", "hint": "", "confidence": "high" },
+        { "id": "u3-e1-i04", "prompt": "Ngo5 dei6 se2 zi6 lau4 jat1 cai4 faan1.", "answer": "Ngo5 dei6 jat1 cai4 faan1 se2 zi6 lau4", "answer_en": "We go to the office together", "hint": "jat1 cai4 comes in front of the verb", "confidence": "high" }
+      ]
+    },
+    {
+      "id": "u3-e2",
+      "title": "Exercise 2",
+      "source": "Unit 3 Family and Friends.pdf",
+      "instructions": "Fill in the blanks with words which will make sense of the sentences",
+      "type": "fill",
+      "items": [
+        { "id": "u3-e2-i01", "prompt": "Wong4 taai3 taai2 heoi3 tai2 ___ ___.", "answer": "ji1 sang1", "answer_en": "Mrs. Wong is going to see the doctor", "hint": "", "confidence": "high" },
+        { "id": "u3-e2-i02", "prompt": "Ngo5 dei6 ___ heoi3 Wong4 sin1 saang1 ___ ___.", "answer": "jat1 cai4 … nguk1 kei2", "answer_en": "We are going to Mr. Wong's home together", "hint": "", "confidence": "medium" },
+        { "id": "u3-e2-i03", "prompt": "Ngo5 baa4 baa1 hai6 ____ ____.", "answer": "ji1 sang1", "answer_en": "My father is a doctor", "hint": "Any two-syllable occupation or identity fits", "confidence": "medium" },
+        { "id": "u3-e2-i04", "prompt": "Ngo5 dei6 zyu6 hai2 ____ ____.", "answer": "hoeng1 gong2", "answer_en": "We live in Hong Kong", "hint": "Any place name fits", "confidence": "medium" }
+      ]
+    },
+    {
+      "id": "u3-e3",
+      "title": "Exercise 3",
+      "source": "Unit 3 Family and Friends.pdf",
+      "instructions": "You have just bumped into your old friend Mr. Wong in the street in Hong Kong. You haven't seen him for several months. How do you greet him? Ask after his wife and where he lives now. Apologize to him and say that you have to catch a bus to Garden Road now to visit your father whom you have to take to see the doctor.",
+      "type": "open",
+      "items": [
+        { "id": "u3-e3-i01", "prompt": "Greet Mr. Wong, ask after his wife and where he lives now, then apologize and say you have to catch a bus to Garden Road to visit your father whom you have to take to see the doctor.", "answer": "", "answer_en": "", "hint": "Useful phrases: hou2 noi6 mou5 gin3; nei5 taai3 taai2 hou2 maa3; nei5 ji4 gaa1 zyu6 hai2 bin1 dou6 aa3; deoi3 m4 zyu6; ngo5 jiu3 daap3 baa1 si2 heoi3 faa1 jyun4 dou6; taam3 ngo5 baa4 baa1; daai3 keoi5 heoi3 tai2 ji1 sang1", "confidence": "none" }
+      ]
+    },
+    {
+      "id": "u3-e4",
+      "title": "Picture quiz",
+      "source": "Unit 3 Family and Friends.pdf",
+      "instructions": "Here's the Wong family (figures a to g in the picture: a man in a suit, a woman, a young man holding books, a young woman, and three small children).",
+      "type": "open",
+      "items": [
+        { "id": "u3-e4-i01", "prompt": "How would C address A?", "answer": "baa4 baa1", "answer_en": "Father", "hint": "", "confidence": "medium" },
+        { "id": "u3-e4-i02", "prompt": "How would D address B?", "answer": "maa4 maa1", "answer_en": "Mother", "hint": "", "confidence": "medium" },
+        { "id": "u3-e4-i03", "prompt": "How would D address A?", "answer": "baa4 baa1", "answer_en": "Father", "hint": "", "confidence": "medium" },
+        { "id": "u3-e4-i04", "prompt": "How would you address D?", "answer": "Wong4 siu2 ze2", "answer_en": "Miss Wong", "hint": "", "confidence": "medium" },
+        { "id": "u3-e4-i05", "prompt": "How would you address B?", "answer": "Wong4 taai3 taai2", "answer_en": "Mrs. Wong", "hint": "", "confidence": "medium" },
+        { "id": "u3-e4-i06", "prompt": "Which one do you think is the Mr Wong who figures in the dialogue?", "answer": "c", "answer_en": "The grown-up son: in the dialogue Mr. Wong lives with his father, mother, brothers and sisters, seven people in all", "hint": "", "confidence": "low" }
+      ]
+    },
+    {
+      "id": "u3-e5",
+      "title": "Hai6 m4 hai6 aa3?",
+      "source": "Unit 3 Family and Friends.pdf",
+      "instructions": "Test your understanding of Dialogue 2 by answering hai6 it is so or m4 hai6 it is not so to the following statements",
+      "type": "truefalse",
+      "items": [
+        { "id": "u3-e5-i01", "prompt": "Faa1 jyun4 dou6 m4 hou2 zyu6.", "answer": "m4 hai6", "answer_en": "Not so: Mr. Cheung says Garden Road is good to live at (hou2 zyu6)", "hint": "", "confidence": "high" },
+        { "id": "u3-e5-i02", "prompt": "Ho4 sin1 saang1 zyu6 hai2 jat1 gaan1 nguk1", "answer": "m4 hai6", "answer_en": "Not so: he lives on one floor (jat1 cang4 lau2), not in a house", "hint": "", "confidence": "high" },
+        { "id": "u3-e5-i03", "prompt": "Ho4 sin1 saang1 zyu6 hai2 dei6 haa2.", "answer": "hai6", "answer_en": "True: he lives on the ground floor of No. 73 Coffee Street", "hint": "", "confidence": "high" },
+        { "id": "u3-e5-i04", "prompt": "Ho4 sin1 saang1 ge3 ce1 fong4 hou2 daai6.", "answer": "m4 hai6", "answer_en": "Not so: his flat has no garage (mou5 ce1 fong4)", "hint": "", "confidence": "high" },
+        { "id": "u3-e5-i05", "prompt": "Zoeng1 sin1 saang1 heoi3 Ho4 sin1 saang1 nguk1 kei2.", "answer": "hai6", "answer_en": "True: Mr. Cheung says he will come to visit when he has time", "hint": "", "confidence": "medium" }
+      ]
+    },
+    {
+      "id": "u3-e6",
+      "title": "Practice 1",
+      "source": "Unit 3 Practice.pdf",
+      "instructions": "Use hai6 and ge3 to emphasize the italicized word(s). Example: ngo5 gaau3 jing1 man2 (I teach English) —> ngo5 hai6 gaau3 jing1 man2 ge3",
+      "type": "fill",
+      "items": [
+        { "id": "u3-e6-i01", "prompt": "lou5 baan2 gong2 bei2 ngo5 teng1", "answer": "hai6 lou5 baan2 gong2 bei2 ngo5 teng1 ge3", "answer_en": "The boss told me (emphasize: lou5 baan2 / The boss)", "hint": "Emphasize lou5 baan2", "confidence": "high" },
+        { "id": "u3-e6-i02", "prompt": "ngo5 bei2 bun2 syu1 nei5", "answer": "hai6 ngo5 bei2 bun2 syu1 nei5 ge3", "answer_en": "I gave you the book (emphasize: ngo5 bei2 / I gave)", "hint": "Emphasize ngo5 bei2", "confidence": "high" },
+        { "id": "u3-e6-i03", "prompt": "keoi5 gam1 ziu1 zau2", "answer": "keoi5 hai6 gam1 ziu1 zau2 ge3", "answer_en": "He left this morning (emphasize: gam1 ziu1 / this morning)", "hint": "Emphasize gam1 ziu1", "confidence": "high" },
+        { "id": "u3-e6-i04", "prompt": "gin6 saam1 gei2 si4 maai5", "answer": "gin6 saam1 hai6 gei2 si4 maai5 ge3", "answer_en": "When was this shirt bought? (emphasize: gei2 si4 / When)", "hint": "Emphasize gei2 si4", "confidence": "high" },
+        { "id": "u3-e6-i05", "prompt": "go3 coeng1 bin1 go3 hoi1?", "answer": "go3 coeng1 hai6 bin1 go3 hoi1 ge3?", "answer_en": "Who opened the window? (emphasize: bin1 go3 / Who)", "hint": "Emphasize bin1 go3", "confidence": "high" },
+        { "id": "u3-e6-i06", "prompt": "ngo5 hai2 ni1 dou6 dang2 nei5", "answer": "ngo5 hai6 hai2 ni1 dou6 dang2 nei5 ge3", "answer_en": "I'll wait for you here (emphasize: hai2 ni1 dou6 / here)", "hint": "Emphasize hai2 ni1 dou6", "confidence": "high" },
+        { "id": "u3-e6-i07", "prompt": "keoi5 taai3 taai2 wan2 keoi5", "answer": "hai6 keoi5 taai3 taai2 wan2 keoi5 ge3", "answer_en": "His wife found it (emphasize: keoi5 taai3 taai2 / His wife)", "hint": "Emphasize keoi5 taai3 taai2", "confidence": "high" },
+        { "id": "u3-e6-i08", "prompt": "keoi5 hai2 taai3 gwok3 zong6 ce1", "answer": "keoi5 hai6 hai2 taai3 gwok3 zong6 ce1 ge3", "answer_en": "He had a car crash in Thailand (emphasize: hai2 taai3 gwok3 / in Thailand)", "hint": "Emphasize hai2 taai3 gwok3", "confidence": "high" }
+      ]
+    },
+    {
+      "id": "u3-e7",
+      "title": "Practice 2",
+      "source": "Unit 3 Practice.pdf",
+      "instructions": "Turn the following statement into questions, positive or negative statements as specified. Example: ngo5 jau5 man6 tai4 (I have a problem) —> negative: ngo5 mou5 man6 tai4",
+      "type": "fill",
+      "items": [
+        { "id": "u3-e7-i01", "prompt": "ngo5 jau5 ji3 gin3 (I have an opinion) —> Negative", "answer": "ngo5 mou5 ji3 gin3", "answer_en": "I don't have an opinion", "hint": "", "confidence": "high" },
+        { "id": "u3-e7-i02", "prompt": "nei5 jau5 bei3 mat6 (You have a secret) —> Question", "answer": "nei5 jau5 mou5 bei3 mat6 aa3?", "answer_en": "Do you have a secret?", "hint": "", "confidence": "high" },
+        { "id": "u3-e7-i03", "prompt": "gam1 jat6 jau5 siu1 sik1 (Today we have the latest information) —> Negative", "answer": "gam1 jat6 mou5 siu1 sik1", "answer_en": "There is no news today", "hint": "", "confidence": "high" },
+        { "id": "u3-e7-i04", "prompt": "faat3 gwok3 jau5 zung1 gwok3 jan4 (There are Chinese people in France) —> Question", "answer": "faat3 gwok3 jau5 mou5 zung1 gwok3 jan4 aa3?", "answer_en": "Are there Chinese people in France?", "hint": "", "confidence": "high" },
+        { "id": "u3-e7-i05", "prompt": "ceot1 bin6 mou5 jan4 (There's nobody outside) —> Positive", "answer": "ceot1 bin6 jau5 jan4", "answer_en": "There is somebody outside", "hint": "", "confidence": "high" },
+        { "id": "u3-e7-i06", "prompt": "keoi5 jau5 beng6 (She has a disease) —> Negative", "answer": "keoi5 mou5 beng6", "answer_en": "She doesn't have a disease", "hint": "", "confidence": "high" },
+        { "id": "u3-e7-i07", "prompt": "nei5 jau5 lai5 mat6 (You have a gift) —> Question", "answer": "nei5 jau5 mou5 lai5 mat6 aa3?", "answer_en": "Do you have a gift?", "hint": "", "confidence": "high" },
+        { "id": "u3-e7-i08", "prompt": "bun2 syu1 jau5 zung1 man2 zi6 (These are Chinese characters in the book) —> Negative", "answer": "bun2 syu1 mou5 zung1 man2 zi6", "answer_en": "There are no Chinese characters in the book", "hint": "", "confidence": "high" },
+        { "id": "u3-e7-i09", "prompt": "saa1 tin4 jau5 fo2 ce1 zaam6 (There's a railway station at Shatin) —> Question", "answer": "saa1 tin4 jau5 mou5 fo2 ce1 zaam6 aa3?", "answer_en": "Is there a railway station at Shatin?", "hint": "", "confidence": "high" },
+        { "id": "u3-e7-i10", "prompt": "kam4 jat6 mou5 taai3 joeng4 (There was no sunshine yesterday) —> Positive", "answer": "kam4 jat6 jau5 taai3 joeng4", "answer_en": "There was sunshine yesterday", "hint": "", "confidence": "high" }
+      ]
+    },
+    {
+      "id": "u3-e8",
+      "title": "Practice 3",
+      "source": "Unit 3 Practice.pdf",
+      "instructions": "Answer the following questions affirmatively or negatively as indicated. Add the sentence-final particle aa3 for politeness.",
+      "type": "reply",
+      "items": [
+        { "id": "u3-e8-i01", "prompt": "nei5 ci4 dou3 aa3? (Are you late? Answer: no)", "answer": "mou5 ci4 dou3 aa3", "answer_en": "No, I'm not late", "hint": "", "confidence": "low" },
+        { "id": "u3-e8-i02", "prompt": "nei5 hei2 zo2 san1 laa3? (Have you woken up? Yes)", "answer": "hei2 zo2 san1 aa3", "answer_en": "Yes, I have woken up", "hint": "", "confidence": "low" },
+        { "id": "u3-e8-i03", "prompt": "nei5 beng6 zo2 aa3? (Are you sick? No)", "answer": "mou5 beng6 aa3", "answer_en": "No, I'm not sick", "hint": "", "confidence": "low" },
+        { "id": "u3-e8-i04", "prompt": "keoi5 zau2 zo2 me1? (Has he left? Yes)", "answer": "zau2 zo2 aa3", "answer_en": "Yes, he has left", "hint": "", "confidence": "low" },
+        { "id": "u3-e8-i05", "prompt": "nei5 gin3 gwo3 ngo5 me1? (Have you seen me before? No)", "answer": "mou5 gin3 gwo3 aa3", "answer_en": "No, I haven't seen you before", "hint": "Pattern: mou5 hok6 gwo3 aa3 (grammar: jau5 as auxiliary)", "confidence": "medium" },
+        { "id": "u3-e8-i06", "prompt": "keoi5 sik1 nei5 ge3 me1? (Does she know you? No)", "answer": "m4 sik1 aa3", "answer_en": "No, she doesn't know me", "hint": "", "confidence": "medium" },
+        { "id": "u3-e8-i07", "prompt": "keoi5 fan3 zo2 laa3? (Has she fallen asleep? Yes)", "answer": "fan3 zo2 aa3", "answer_en": "Yes, she has fallen asleep", "hint": "", "confidence": "low" },
+        { "id": "u3-e8-i08", "prompt": "keoi5 jau1 sik1 gan2 aa3? (Is he resting? Yes)", "answer": "jau1 sik1 gan2 aa3", "answer_en": "Yes, he is resting", "hint": "", "confidence": "low" },
+        { "id": "u3-e8-i09", "prompt": "keoi5 hou2 gui6 aa3? (Is he tired? Yes)", "answer": "hou2 gui6 aa3", "answer_en": "Yes, he is very tired", "hint": "", "confidence": "medium" },
+        { "id": "u3-e8-i10", "prompt": "maa5 gaau3 sau6 hoi1 gan2 wui2 aa3? (Is Professor Ma having a meeting? No)", "answer": "mou5 hoi1 gan2 wui2 aa3", "answer_en": "No, he isn't having a meeting", "hint": "", "confidence": "low" },
+        { "id": "u3-e8-i11", "prompt": "nei5 m4 sik1 keoi5 me1? (Don't you know him? No)", "answer": "m4 sik1 aa3", "answer_en": "No, I don't know him", "hint": "", "confidence": "medium" },
+        { "id": "u3-e8-i12", "prompt": "nei5 mou5 faan1 gung1 aa3? (Don't you need to go to work? No)", "answer": "mou5 faan1 gung1 aa3", "answer_en": "No, I'm not going to work", "hint": "", "confidence": "medium" }
+      ]
+    },
+    {
+      "id": "u3-e9",
+      "title": "Practice 4",
+      "source": "Unit 3 Practice.pdf",
+      "instructions": "Answer the following questions about yourself using jau5 or mou5 as appropriate:",
+      "type": "reply",
+      "items": [
+        { "id": "u3-e9-i01", "prompt": "nei5 jau5 mou5 jat1 baak3 man1 aa3? ($100)", "answer": "", "answer_en": "", "hint": "Answer with jau5 aa3 or mou5 aa3", "confidence": "none" },
+        { "id": "u3-e9-i02", "prompt": "nei5 hai2 Hoeng1 Gong2 jau5 mou5 pang4 jau5 aa3? (friends?)", "answer": "", "answer_en": "", "hint": "Answer with jau5 aa3 or mou5 aa3", "confidence": "none" },
+        { "id": "u3-e9-i03", "prompt": "nei5 dei6 jau5 mou5 din6 nou5 aa3? (computer)", "answer": "", "answer_en": "", "hint": "Answer with jau5 aa3 or mou5 aa3", "confidence": "none" },
+        { "id": "u3-e9-i04", "prompt": "nei5 gaan1 fong2 jau5 mou5 hung1 gaan1 aa3? (space in your room)", "answer": "", "answer_en": "", "hint": "Answer with jau5 aa3 or mou5 aa3", "confidence": "none" },
+        { "id": "u3-e9-i05", "prompt": "nei5 jau5 mou5 si4 gaan3 hok6 gwong2 dung1 waa2 aa3? (time to study Cantonese)", "answer": "", "answer_en": "", "hint": "Answer with jau5 aa3 or mou5 aa3", "confidence": "none" },
+        { "id": "u3-e9-i06", "prompt": "nei5 dei6 jau5 mou5 heoi3 gwo3 gwong2 zau1 aa3? (been to Guangzhou)", "answer": "", "answer_en": "", "hint": "Answer with jau5 aa3 or mou5 aa3", "confidence": "none" },
+        { "id": "u3-e9-i07", "prompt": "nei5 gam1 jat6 jau5 mou5 tai2 san1 man2 aa3? (watch the news today)", "answer": "", "answer_en": "", "hint": "Answer with jau5 aa3 or mou5 aa3", "confidence": "none" },
+        { "id": "u3-e9-i08", "prompt": "nei5 jau5 mou5 hing3 ceoi3 zyun2 gung1 aa3? (interested in changing your job)", "answer": "", "answer_en": "", "hint": "Answer with jau5 aa3 or mou5 aa3", "confidence": "none" }
+      ]
+    },
+    {
+      "id": "u3-e10",
+      "title": "Practice 5",
+      "source": "Unit 3 Practice.pdf",
+      "instructions": "Translate these questions/statements into Cantonese",
+      "type": "translate",
+      "items": [
+        { "id": "u3-e10-i01", "prompt": "Do you have a car (ce1)?", "answer": "nei5 jau5 mou5 ce1 aa3?", "answer_en": "Do you have a car?", "hint": "", "confidence": "high" },
+        { "id": "u3-e10-i02", "prompt": "Do you have brothers or sisters (hing1 dai6 ze2 mui6)?", "answer": "nei5 jau5 mou5 hing1 dai6 ze2 mui6 aa3?", "answer_en": "Do you have brothers or sisters?", "hint": "", "confidence": "high" },
+        { "id": "u3-e10-i03", "prompt": "Do you have a mobile phone (sau2 tai4 din6 waa2)?", "answer": "nei5 jau5 mou5 sau2 tai4 din6 waa2 aa3?", "answer_en": "Do you have a mobile phone?", "hint": "", "confidence": "high" },
+        { "id": "u3-e10-i04", "prompt": "Have you been to Beijing (bak1 ging1)?", "answer": "nei5 jau5 mou5 heoi3 gwo3 bak1 ging1 aa3?", "answer_en": "Have you been to Beijing?", "hint": "Pattern: nei5 dei6 jau5 mou5 heoi3 gwo3 gwong2 zau1 aa3 (Practice 4)", "confidence": "high" },
+        { "id": "u3-e10-i05", "prompt": "Has she visited (taam3 gwo3) you?", "answer": "keoi5 jau5 mou5 taam3 gwo3 nei5 aa3?", "answer_en": "Has she visited you?", "hint": "", "confidence": "high" },
+        { "id": "u3-e10-i06", "prompt": "There are no birds (zoek3 zai2) here.", "answer": "ni1 dou6 mou5 zoek3 zai2", "answer_en": "There are no birds here", "hint": "Pattern: ni1 dou6 mou5 hung4 maau1", "confidence": "high" },
+        { "id": "u3-e10-i07", "prompt": "There are many minibus (siu2 baa1) in Hong Kong.", "answer": "hoeng1 gong2 jau5 hou2 do1 siu2 baa1", "answer_en": "There are many minibuses in Hong Kong", "hint": "Pattern: hoeng1 gong2 jau5 hou2 do1 dik1 si2", "confidence": "high" },
+        { "id": "u3-e10-i08", "prompt": "Is there anybody inside (jap6 bin6)?", "answer": "jap6 bin6 jau5 mou5 jan4 aa3?", "answer_en": "Is there anybody inside?", "hint": "", "confidence": "high" },
+        { "id": "u3-e10-i09", "prompt": "Are there students in the classroom (fo3 sat1)?", "answer": "fo3 sat1 jau5 mou5 hok6 saang1 aa3?", "answer_en": "Are there students in the classroom?", "hint": "", "confidence": "high" },
+        { "id": "u3-e10-i10", "prompt": "Is there any good news (hou2 siu1 sik1) today?", "answer": "gam1 jat6 jau5 mou5 hou2 siu1 sik1 aa3?", "answer_en": "Is there any good news today?", "hint": "", "confidence": "high" }
+      ]
+    }
+  ],
+  "notes": []
+}

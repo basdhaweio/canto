@@ -1,0 +1,578 @@
+{
+  "id": "unit-6",
+  "number": 6,
+  "title": "Getting Around",
+  "sources": ["Unit 6 Getting around.pdf", "Unit 6 Practice.pdf"],
+  "goals": [],
+  "vocab": [
+    { "id": "u6-v001", "zh": "飞机", "jp": "fei1 gei1", "en": "Aircraft", "section": "Dialogue 1", "pos": "noun", "notes": "" },
+    { "id": "u6-v002", "zh": "飞机场", "jp": "fei1 gei1 coeng4", "en": "Airport", "section": "Dialogue 1", "pos": "noun", "notes": "" },
+    { "id": "u6-v003", "zh": "请问", "jp": "cing2 man6", "en": "Please, may I ask…?", "section": "Dialogue 1", "pos": "phrase", "notes": "" },
+    { "id": "u6-v004", "zh": "先", "jp": "sin1", "en": "First", "section": "Dialogue 1", "pos": "", "notes": "" },
+    { "id": "u6-v005", "zh": "由", "jp": "jau4", "en": "From", "section": "Dialogue 1", "pos": "", "notes": "" },
+    { "id": "u6-v006", "zh": "小巴", "jp": "siu2 baa1", "en": "Mini-bus", "section": "Dialogue 1", "pos": "noun", "notes": "" },
+    { "id": "u6-v007", "zh": "一直", "jp": "jat1 zik6", "en": "Straight, directly", "section": "Dialogue 1", "pos": "", "notes": "" },
+    { "id": "u6-v008", "zh": "过", "jp": "gwo3", "en": "Go past, go across, go", "section": "Dialogue 1", "pos": "verb", "notes": "" },
+    { "id": "u6-v009", "zh": "街口", "jp": "gaai1 hau2", "en": "Road junction", "section": "Dialogue 1", "pos": "noun", "notes": "" },
+    { "id": "u6-v010", "zh": "到", "jp": "dou3", "en": "To arrive, arrive at, reach", "section": "Dialogue 1", "pos": "verb", "notes": "" },
+    { "id": "u6-v011", "zh": "马路", "jp": "maa5 lou6", "en": "Road", "section": "Dialogue 1", "pos": "noun", "notes": "" },
+    { "id": "u6-v012", "zh": "巴士站", "jp": "baa1 si2 zaam6", "en": "Bus station", "section": "Dialogue 1", "pos": "noun", "notes": "" },
+    { "id": "u6-v013", "zh": "落", "jp": "lok6", "en": "To alight from", "section": "Dialogue 1", "pos": "verb", "notes": "" },
+    { "id": "u6-v014", "zh": "转", "jp": "zyun2", "en": "To turn, to change to", "section": "Dialogue 1", "pos": "verb", "notes": "" },
+    { "id": "u6-v015", "zh": "小轮", "jp": "siu2 leon4", "en": "Ferry", "section": "Dialogue 1", "pos": "noun", "notes": "" },
+    { "id": "u6-v016", "zh": "地下铁路", "jp": "dei6 haa6 tit3 lou6", "en": "Underground railway", "section": "Dialogue 1", "pos": "noun", "notes": "" },
+    { "id": "u6-v017", "zh": "市区", "jp": "si5 keoi1", "en": "Urban area", "section": "Dialogue 1", "pos": "noun", "notes": "" },
+    { "id": "u6-v018", "zh": "大会堂", "jp": "daai6 wui6 tong4", "en": "City hall", "section": "Dialogue 1", "pos": "noun", "notes": "" },
+    { "id": "u6-v019", "zh": "地铁站", "jp": "dei6 tit3 zaam6", "en": "Underground station", "section": "Dialogue 1", "pos": "noun", "notes": "" },
+    { "id": "u6-v020", "zh": "但係", "jp": "daan6 hai6", "en": "But", "section": "Dialogue 1", "pos": "", "notes": "" },
+    { "id": "u6-v021", "zh": "话", "jp": "waa6", "en": "To say", "section": "Dialogue 1", "pos": "verb", "notes": "" },
+
+    { "id": "u6-v022", "zh": "老", "jp": "lou5", "en": "Elderly, old", "section": "Dialogue 2", "pos": "adj", "notes": "" },
+    { "id": "u6-v023", "zh": "第", "jp": "dai6", "en": "The first, the second", "section": "Dialogue 2", "pos": "", "notes": "ordinal prefix" },
+    { "id": "u6-v024", "zh": "伦敦", "jp": "leon4 deon1", "en": "London", "section": "Dialogue 2", "pos": "noun", "notes": "" },
+    { "id": "u6-v025", "zh": "听", "jp": "teng1", "en": "To listen", "section": "Dialogue 2", "pos": "verb", "notes": "" },
+    { "id": "u6-v026", "zh": "玩", "jp": "waan2", "en": "To play, to enjoy", "section": "Dialogue 2", "pos": "verb", "notes": "" },
+    { "id": "u6-v027", "zh": "火车", "jp": "fo2 ce1", "en": "Railway train", "section": "Dialogue 2", "pos": "noun", "notes": "" },
+    { "id": "u6-v028", "zh": "向", "jp": "hoeng3", "en": "Towards", "section": "Dialogue 2", "pos": "", "notes": "" },
+    { "id": "u6-v029", "zh": "北", "jp": "bak1", "en": "North", "section": "Dialogue 2", "pos": "noun", "notes": "" },
+    { "id": "u6-v030", "zh": "行", "jp": "haang4", "en": "To go towards", "section": "Dialogue 2", "pos": "verb", "notes": "" },
+    { "id": "u6-v031", "zh": "参观", "jp": "caam1 gun1", "en": "To visit", "section": "Dialogue 2", "pos": "verb", "notes": "" },
+    { "id": "u6-v032", "zh": "剑桥", "jp": "gim3 kiu4", "en": "Cambridge", "section": "Dialogue 2", "pos": "noun", "notes": "" },
+    { "id": "u6-v033", "zh": "大学", "jp": "daai6 hok6", "en": "University", "section": "Dialogue 2", "pos": "noun", "notes": "" },
+    { "id": "u6-v034", "zh": "世界", "jp": "sai3 gaai3", "en": "The world", "section": "Dialogue 2", "pos": "noun", "notes": "" },
+    { "id": "u6-v035", "zh": "最", "jp": "zeoi3", "en": "Most", "section": "Dialogue 2", "pos": "", "notes": "" },
+    { "id": "u6-v036", "zh": "有名", "jp": "jau5 meng2", "en": "Famous", "section": "Dialogue 2", "pos": "adj", "notes": "" },
+    { "id": "u6-v037", "zh": "…之一", "jp": "… zi1 jat1", "en": "One of the…", "section": "Dialogue 2", "pos": "", "notes": "" },
+    { "id": "u6-v038", "zh": "…完", "jp": "… jyun4", "en": "Finished", "section": "Dialogue 2", "pos": "", "notes": "verb ending" },
+    { "id": "u6-v039", "zh": "之后", "jp": "zi1 hau6", "en": "After", "section": "Dialogue 2", "pos": "", "notes": "placed at the end of the time expression" },
+    { "id": "u6-v040", "zh": "部", "jp": "bou6", "en": "Area, part", "section": "Dialogue 2", "pos": "noun", "notes": "" },
+    { "id": "u6-v041", "zh": "东", "jp": "dung1", "en": "East", "section": "Dialogue 2", "pos": "noun", "notes": "" },
+    { "id": "u6-v042", "zh": "乡下", "jp": "hoeng1 haa2", "en": "Countryside", "section": "Dialogue 2", "pos": "noun", "notes": "" },
+    { "id": "u6-v043", "zh": "主意", "jp": "zyu2 ji3", "en": "Idea", "section": "Dialogue 2", "pos": "noun", "notes": "" },
+    { "id": "u6-v044", "zh": "中意", "jp": "zung1 ji3", "en": "To like", "section": "Dialogue 2", "pos": "verb", "notes": "" },
+    { "id": "u6-v045", "zh": "地方", "jp": "dei6 fong1", "en": "Place", "section": "Dialogue 2", "pos": "noun", "notes": "" },
+    { "id": "u6-v046", "zh": "可以", "jp": "ho2 ji5", "en": "Can, may", "section": "Dialogue 2", "pos": "verb", "notes": "permission / absence of obstacles" },
+    { "id": "u6-v047", "zh": "晚", "jp": "maan5", "en": "Evening, night", "section": "Dialogue 2", "pos": "noun", "notes": "" },
+    { "id": "u6-v048", "zh": "日", "jp": "jat6", "en": "Day", "section": "Dialogue 2", "pos": "noun", "notes": "" },
+    { "id": "u6-v049", "zh": "揸车", "jp": "zaa1 ce1", "en": "To drive", "section": "Dialogue 2", "pos": "verb", "notes": "" },
+    { "id": "u6-v050", "zh": "送", "jp": "sung3", "en": "To deliver, send", "section": "Dialogue 2", "pos": "verb", "notes": "" },
+    { "id": "u6-v051", "zh": "南", "jp": "naam4", "en": "South", "section": "Dialogue 2", "pos": "noun", "notes": "" },
+    { "id": "u6-v052", "zh": "渔港", "jp": "jyu4 gong2", "en": "Fishing port", "section": "Dialogue 2", "pos": "noun", "notes": "" },
+    { "id": "u6-v053", "zh": "…过", "jp": "… gwo3", "en": "Verb ending, to have experienced", "section": "Dialogue 2", "pos": "particle", "notes": "" },
+    { "id": "u6-v054", "zh": "次", "jp": "ci3", "en": "A time, an occasion", "section": "Dialogue 2", "pos": "classifier", "notes": "" },
+    { "id": "u6-v055", "zh": "离岛", "jp": "lei4 dou2", "en": "Outlying island", "section": "Dialogue 2", "pos": "noun", "notes": "" },
+    { "id": "u6-v056", "zh": "之内", "jp": "zi1 noi6", "en": "Within", "section": "Dialogue 2", "pos": "", "notes": "" },
+    { "id": "u6-v057", "zh": "好似…唔似", "jp": "hou2 ci5 … m4 ci5", "en": "To be more like…than like…", "section": "Dialogue 2", "pos": "phrase", "notes": "" },
+    { "id": "u6-v058", "zh": "走难", "jp": "zau2 naan6", "en": "To flee from disaster, to be a refugee", "section": "Dialogue 2", "pos": "verb", "notes": "" },
+
+    { "id": "u6-v059", "zh": "再", "jp": "zoi3", "en": "Then", "section": "Grammar", "pos": "", "notes": "Adverb, comes before the verb (Grammar 3); characters from Dialogue 1" },
+    { "id": "u6-v060", "zh": "地铁", "jp": "dei6 tit3", "en": "Underground railway (short form of dei6 haa6 tit3 lou6), the MTR", "section": "Grammar", "pos": "noun", "notes": "Grammar 4; characters from Dialogue 1" },
+    { "id": "u6-v061", "zh": "", "jp": "zung1 waan4", "en": "Central district (Hong Kong)", "section": "Grammar", "pos": "noun", "notes": "Grammar 4" },
+    { "id": "u6-v062", "zh": "", "jp": "tin1 sing1 maa5 tau4", "en": "Star Ferry Pier", "section": "Grammar", "pos": "noun", "notes": "Grammar 4" },
+    { "id": "u6-v063", "zh": "", "jp": "sai1", "en": "West", "section": "Grammar", "pos": "noun", "notes": "Grammar 8 Directions" },
+    { "id": "u6-v064", "zh": "", "jp": "dung1 bak1", "en": "Northeast", "section": "Grammar", "pos": "noun", "notes": "Grammar 8; Cantonese says 'Eastnorth'" },
+    { "id": "u6-v065", "zh": "", "jp": "dung1 naam4", "en": "Southeast", "section": "Grammar", "pos": "noun", "notes": "Grammar 8" },
+    { "id": "u6-v066", "zh": "", "jp": "sai1 naam4", "en": "Southwest", "section": "Grammar", "pos": "noun", "notes": "Grammar 8" },
+    { "id": "u6-v067", "zh": "", "jp": "sai1 bak1", "en": "Northwest", "section": "Grammar", "pos": "noun", "notes": "Grammar 8" },
+    { "id": "u6-v068", "zh": "", "jp": "ging1", "en": "Via", "section": "Grammar", "pos": "", "notes": "Movement: introduces an intermediate step between starting point and end point" },
+    { "id": "u6-v069", "zh": "", "jp": "lei4", "en": "(Distance) from", "section": "Grammar", "pos": "", "notes": "Movement: indicates distance from a location; no verb needed" },
+    { "id": "u6-v070", "zh": "", "jp": "toi4 waan1", "en": "Taiwan", "section": "Grammar", "pos": "noun", "notes": "Movement examples" },
+    { "id": "u6-v071", "zh": "", "jp": "sik1 nei4", "en": "Sydney", "section": "Grammar", "pos": "noun", "notes": "Movement examples" },
+    { "id": "u6-v072", "zh": "", "jp": "dung1 ging1", "en": "Tokyo", "section": "Grammar", "pos": "noun", "notes": "Movement examples" },
+    { "id": "u6-v073", "zh": "", "jp": "saam1 faan4 si5", "en": "San Francisco", "section": "Grammar", "pos": "noun", "notes": "Movement examples" },
+    { "id": "u6-v074", "zh": "", "jp": "hoeng1 gong2 dou2", "en": "Hong Kong island", "section": "Grammar", "pos": "noun", "notes": "Movement examples" },
+    { "id": "u6-v075", "zh": "", "jp": "seoi6 dou6", "en": "Tunnel", "section": "Grammar", "pos": "noun", "notes": "Movement examples" },
+    { "id": "u6-v076", "zh": "", "jp": "ji1 jyun2", "en": "Hospital", "section": "Grammar", "pos": "noun", "notes": "Movement examples" },
+    { "id": "u6-v077", "zh": "", "jp": "dak1", "en": "Verb ending: can, be able", "section": "Grammar", "pos": "particle", "notes": "Grammar 11; goes directly onto a verb" },
+    { "id": "u6-v078", "zh": "", "jp": "di1", "en": "A little (marks a comparison when no 'than' is expressed)", "section": "Grammar", "pos": "", "notes": "Making comparison" },
+    { "id": "u6-v079", "zh": "", "jp": "bei2", "en": "Compare; than (formal comparison)", "section": "Grammar", "pos": "", "notes": "bei2 and the object of comparison come before the adjective" },
+    { "id": "u6-v080", "zh": "", "jp": "zung6", "en": "Even (in comparisons)", "section": "Grammar", "pos": "", "notes": "comes before the adjective" },
+    { "id": "u6-v081", "zh": "", "jp": "hou2 do1", "en": "Much, a lot", "section": "Grammar", "pos": "", "notes": "adverb of degree in comparisons" },
+    { "id": "u6-v082", "zh": "", "jp": "siu2 siu2", "en": "A little", "section": "Grammar", "pos": "", "notes": "adverb of degree in comparisons" },
+    { "id": "u6-v083", "zh": "", "jp": "gei2 pui5", "en": "Several times (more)", "section": "Grammar", "pos": "", "notes": "Modifying comparisons" },
+    { "id": "u6-v084", "zh": "", "jp": "zi3", "en": "Most (colloquial alternative to zeoi3)", "section": "Grammar", "pos": "", "notes": "Superlatives" },
+    { "id": "u6-v085", "zh": "", "jp": "bak1 ging1", "en": "Beijing", "section": "Grammar", "pos": "noun", "notes": "bei2 examples" }
+  ],
+  "dialogues": [
+    {
+      "id": "u6-d1",
+      "title": "Dialogue 1",
+      "setting": "Mr. Wong is a stranger in town and asks a local person the way",
+      "lines": [
+        { "id": "u6-d1-l01", "speaker": "Wong", "zh": "我要搭飞机返英国，请问去飞机场要搭几多号巴士呀？", "jp": "ngo5 jiu3 daap3 fei1 gei1 faan1 jing1 gwok3, cing2 man6 heoi3 fei1 gei1 coeng4 jiu3 daap3 gei2 do1 hou6 baa1 si2 aa3?", "en": "I need to take a flight to Britain, which bus should I take to the airport?" },
+        { "id": "u6-d1-l02", "speaker": "Local", "zh": "呢处冇巴士去飞机场啵。你要先由呢处搭小巴一直去，过三个街口到大马路，喺巴士站你要落小巴，再转搭十五号巴士去飞机场喇。", "jp": "ni1 cyu3 mou5 baa1 si2 heoi3 fei1 gei1 coeng4 bo3. nei5 jiu3 sin1 jau4 ni1 cyu3 daap3 siu2 baa1 jat1 zik6 heoi3, gwo3 saam1 go3 gaai1 hau2 dou3 daai6 maa5 lou6, hai2 baa1 si2 zaam6 nei5 jiu3 lok6 siu2 baa1, zoi3 zyun2 daap3 sap6 ng5 hou6 baa1 si2 heoi3 fei1 gei1 coeng4 laa1", "en": "There is no bus from here to airport. You need to take the mini bus from here, pass three blocks to the big street, get off the mini bus at the bus station, transfer to No.15 bus to airport" },
+        { "id": "u6-d1-l03", "speaker": "Wong", "zh": "咁，有冇小轮去飞机场呢？", "jp": "gam2, jau5 mou5 siu2 leon4 heoi3 fei1 gei1 coeng4 ne1?", "en": "Then, any ferry to the airport?" },
+        { "id": "u6-d1-l04", "speaker": "Local", "zh": "冇小轮去机场啵。", "jp": "mou5 siu2 leon4 heoi3 gei1 coeng4 bo3", "en": "No ferry to the airport" },
+        { "id": "u6-d1-l05", "speaker": "Wong", "zh": "我好想搭地下铁路。有冇地下铁路去机场呢？", "jp": "ngo5 hou2 soeng2 daap3 dei6 haa6 tit3 lou6. jau5 mou5 dei6 haa6 tit3 lou6 heoi3 gei1 coeng4 ne1?", "en": "I really want to take the underground railway, any underground railway to the airport?" },
+        { "id": "u6-d1-l06", "speaker": "Local", "zh": "都冇啵！地铁只去市区啫。", "jp": "dou1 mou5 bo3! dei6 tit3 zi2 heoi3 si5 keoi1 ze1", "en": "There isn't any either, subway only goes to the urban area" },
+        { "id": "u6-d1-l07", "speaker": "Wong", "zh": "咁，我去大会堂喇！有冇地铁去呀？地铁站喺边处啊？", "jp": "gam2, ngo5 heoi3 daai6 wui6 tong4 laa1! jau5 mou5 dei6 tit3 heoi3 aa3? dei6 tit3 zaam6 hai2 bin1 cyu3 aa3?", "en": "Then, I'll go to the city hall! Does the underground railway go there? Where is the underground station?" },
+        { "id": "u6-d1-l08", "speaker": "Local", "zh": "有，地铁站喺嗰度，但係你话要搭飞机返英国。喺大会堂冇飞机场啵。", "jp": "jau5, dei6 tit3 zaam6 hai2 go2 dou6, daan6 hai6 nei5 waa6 jiu3 daap3 fei1 gei1 faan1 jing1 gwok3. hai2 daai6 wui6 tong4 mou5 fei1 gei1 coeng4 bo3", "en": "Yes, there is the underground station. But you said you have to take a flight to Britain, there is no airport at the city hall" }
+      ],
+      "questions": [
+        "True or false? Wong4 sin1 saang1 jiu3 daap3 fei1 gei1 faan1 Jing-gwok3.",
+        "True or false? Wong4 sin1 saang1 jiu3 daap3 sap6 ng5 hou6 baa1 si2 heoi3 fei1 gei1 coeng4.",
+        "True or false? Jau5 siu2 leon4 heoi3 fei1 gei1 coeng4.",
+        "True or false? Dou1 jau5 dei6 haa6 tit3 lou6 heoi3 fei1 gei1 coeng4.",
+        "True or false? Daan6 hai6 mou5 dei6 tit3 heoi3 Daai6 wui6 tong4."
+      ]
+    },
+    {
+      "id": "u6-d2",
+      "title": "Dialogue 2",
+      "setting": "Mr. Wong visits Britain and is met by his friend Mr. Chan",
+      "lines": [
+        { "id": "u6-d2-l01", "speaker": "Wong", "zh": "老陈，我第一次黎伦敦，请你话我听去边处玩好呢？", "jp": "lou5 can2, ngo5 dai6 jat1 ci3 lai4 leon4 deon1, cing2 nei5 waa6 ngo5 teng1 heoi3 bin1 cyu3 waan2 hou2 ne1?", "en": "Old Chan, this is my first time visiting London, please tell me where should I go?" },
+        { "id": "u6-d2-l02", "speaker": "Chan", "zh": "等我带你去玩喇。我地搭火车先向北行，去参观剑桥大学。", "jp": "dang2 ngo5 daai3 nei5 heoi3 waan2 laa1. ngo5 dei6 daap3 fo2 ce1 sin1 hoeng3 bak1 haang4, heoi3 caam1 gun1 gim3 kiu4 daai6 hok6", "en": "Let me take you around. Let's take the train towards North to visit Cambridge University" },
+        { "id": "u6-d2-l03", "speaker": "Wong", "zh": "好呀。剑桥大学係世界最有名嘅大学之一。", "jp": "hou2 aa3. gim3 kiu4 daai6 hok6 hai6 sai3 gaai3 zeoi3 jau5 meng2 ge3 daai6 hok6 zi1 jat1", "en": "Alright, Cambridge University is one of the most famous universities in the world" },
+        { "id": "u6-d2-l04", "speaker": "Chan", "zh": "参观完之后，我地搭巴士去英国东部睇吓嗰处嘅乡下。", "jp": "caam1 gun1 jyun4 zi1 hau6, ngo5 dei6 daap3 baa1 si2 heoi3 jing1 gwok3 dung1 bou6 tai2 haa5 go2 cyu3 ge3 hoeng1 haa2", "en": "After visiting, let's take the bus to Eastern England to see the countryside" },
+        { "id": "u6-d2-l05", "speaker": "Wong", "zh": "好主意。我好中意去乡下地方玩。", "jp": "hou2 zyu2 ji3. ngo5 hou2 zung1 ji3 heoi3 hoeng1 haa2 dei6 fong1 waan2", "en": "Good idea. I like to visit the countryside very much" },
+        { "id": "u6-d2-l06", "speaker": "Chan", "zh": "喺嗰处我有一个好朋友，我地可以喺佢屋企住一晚。第二日请佢揸车送我地去英国南部嘅渔港睇吓。", "jp": "hai2 go2 cyu3 ngo5 jau5 jat1 go3 hou2 pang4 jau5, ngo5 dei6 ho2 ji5 hai2 keoi5 nguk1 kei5 zyu6 jat1 maan5. dai6 ji6 jat6 cing2 keoi5 zaa1 ce1 sung3 ngo5 dei6 heoi3 jing1 gwok3 naam4 bou6 ge3 jyu4 gong2 tai2 haa5", "en": "I have a good friend there, we can stay at his house for one night, then the next day we will ask him to drive us to Southern England to see the fishing port" },
+        { "id": "u6-d2-l07", "speaker": "Wong", "zh": "香港都有渔港，我去过好多次勒。", "jp": "hoeng1 gong2 dou1 jau5 jyu4 gong2, ngo5 heoi3 gwo3 hou2 do1 ci3 laak3", "en": "There are fishing ports in Hong Kong too, I've been there many times" },
+        { "id": "u6-d2-l08", "speaker": "Chan", "zh": "我地由渔港再搭小轮去离岛。", "jp": "ngo5 dei6 jau4 jyu4 gong2 zoi3 daap3 siu2 leon4 heoi3 lei4 dou2", "en": "We will take the ferry from the fishing port to the outlying island" },
+        { "id": "u6-d2-l09", "speaker": "Wong", "zh": "我唔想去离岛勒。两日之内去咁多地方，又搭咁耐车，我话好似走难唔似去玩咁。", "jp": "ngo5 m4 soeng2 heoi3 lei4 dou2 laak3. loeng5 jat6 zi1 noi6 heoi3 gam3 do1 dei6 fong1, jau6 daap3 gam3 noi6 ce1, ngo5 waa6 hou2 ci5 zau2 naan6 m4 ci5 heoi3 waan2 gam2", "en": "I don't want to go to the outlying island. We have to go to so many places within two days, spend so much time on the car, this feels more like fleeing from a disaster than a vacation" }
+      ],
+      "questions": [
+        "Can4 sin1 saang1 hai6 m4 hai6 dai6 jat1 ci3 lai4 Leon4 deon1 aa3?",
+        "Gim3 kiu4 daai6 hok6 hai6 m4 hai6 hai2 Leon4 deon1 fu6 gan6 aa3?",
+        "Jing1-gwok3 dung1 bou6 jau5 hou2 do1 jau5 meng2 ge3 jyu4 gong2, hai6 m4 hai6 aa3?",
+        "Can4 sin1 saang1 hou2 zung1 ji3 heoi3 lei4 dou2 waan2, hai6 m4 hai6 aa3?"
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "u6-g01",
+      "title": "cing2 man6: please may I ask…?",
+      "summary": "cing2 man6 is the polite way to begin a question to a stranger or to someone of higher status.",
+      "body": "cing2 man6, a combination of please and ask, is the polite way to begin a question to a stranger and is very useful therefore when asking directions. It is also the respectful way to begin a question to someone of higher status than yourself.",
+      "examples": [
+        { "id": "u6-g01-e01", "jp": "cing2 man6", "zh": "请问", "en": "Please, may I ask…?", "lit": "" }
+      ],
+      "tags": ["politeness", "questions", "directions"]
+    },
+    {
+      "id": "u6-g02",
+      "title": "To travel by",
+      "summary": "co5 (to sit) can be used like daap3 to mean to travel by, but daap3 cannot be used to mean to sit.",
+      "body": "In unit 3 we were introduced to daap3 to travel by and in the same unit we met co5 to sit. Co5 can actually be used like daap3 to mean to travel by as well, probably because when you take transport you sit on it (if you're lucky!).\nBeware, however: you cannot do the opposite and get away with making daap3 mean to sit",
+      "examples": [
+        { "id": "u6-g02-e01", "jp": "daap3 baa1 si2", "zh": "", "en": "To travel by bus", "lit": "" },
+        { "id": "u6-g02-e02", "jp": "co5 baa1 si2", "zh": "", "en": "To travel by bus", "lit": "" }
+      ],
+      "tags": ["transport", "verbs"]
+    },
+    {
+      "id": "u6-g03",
+      "title": "First this, then that",
+      "summary": "The adverbs first and then are sin1 and zoi3; they come before verbs.",
+      "body": "The adverbs first and then are sin1 and zoi3. Being adverbs they come before verbs.",
+      "examples": [
+        { "id": "u6-g03-e01", "jp": "keoi5 sin1 heoi3 gei1 coeng4 zoi3 co5 baa1 si6 faan1 nguk1 kei5", "zh": "", "en": "He's going first to the airport and then taking the bus home", "lit": "" }
+      ],
+      "tags": ["adverbs", "sequence"]
+    },
+    {
+      "id": "u6-g04",
+      "title": "More shortcuts",
+      "summary": "The full word for underground railway, dei6 haa6 tit3 lou6, is usually reduced to dei6 tit3.",
+      "body": "The full formal word for an underground railway dei6 haa6 tit3 lou6 is far too much of a mouthful for most people, who reduce it to dei6 tit3.\nThe underground railway in Hong Kong, dei6 tit3, is known in English as the MTR, short for Mass Transit Railway.\nSince 1998 it has been possible to interchange to the very fast Airport Express Line between Chek Lap Kok International Airport and Central district (zung1 waan4) next to the famous Star Ferry Pier (Tin1 sing1 maa5 tau4).",
+      "examples": [
+        { "id": "u6-g04-e01", "jp": "dei6 haa6 tit3 lou6", "zh": "地下铁路", "en": "Underground railway (full formal word)", "lit": "" },
+        { "id": "u6-g04-e02", "jp": "dei6 tit3", "zh": "地铁", "en": "Underground railway (short form), the MTR", "lit": "" },
+        { "id": "u6-g04-e03", "jp": "zung1 waan4", "zh": "", "en": "Central district", "lit": "" },
+        { "id": "u6-g04-e04", "jp": "tin1 sing1 maa5 tau4", "zh": "", "en": "Star Ferry Pier", "lit": "" }
+      ],
+      "tags": ["transport", "abbreviations", "place names"]
+    },
+    {
+      "id": "u6-g05",
+      "title": "lou5",
+      "summary": "lou5 (elderly) is used only for people and animals; lou5 + surname is a familiar address to a man, and the surname changes to a mid rising tone.",
+      "body": "lou5 means elderly, aged and is used only for people and animals (that is you would not describe a building or a book as lou5). It is often used with the surname as a familiar or affectionate term of address to a man (rarely to a woman).\nNote that when this is done the tone of the surname is changed to a mid rising tone from the original low falling tone.",
+      "examples": [
+        { "id": "u6-g05-e01", "jp": "lou5 wong2…", "zh": "", "en": "Wong, old chap, …", "lit": "" },
+        { "id": "u6-g05-e02", "jp": "wong4", "zh": "王/黄", "en": "Wong", "lit": "" },
+        { "id": "u6-g05-e03", "jp": "lou5 wong2", "zh": "", "en": "Old Wong", "lit": "" },
+        { "id": "u6-g05-e04", "jp": "can4", "zh": "陈", "en": "Chan", "lit": "" },
+        { "id": "u6-g05-e05", "jp": "lou5 can2", "zh": "", "en": "Old Chan", "lit": "" }
+      ],
+      "tags": ["address", "tone change", "surnames"]
+    },
+    {
+      "id": "u6-g06",
+      "title": "Ordinal numbers",
+      "summary": "Ordinals are formed with dai6 before the cardinal number (dai6 ji6, not loeng5); dai6 ji6 can also mean the next, the other, the others.",
+      "body": "We met the cardinal numbers (one, two, three, four, etc.) in Unit 2. The ordinal numbers (the first, the second, the third, the fourth, etc.) are formed by putting dai6 in front of the cardinal number.\nYou will remember from Unit 2 that the number two obeys different rules. So that becomes ji6 becomes loeng5 in front of classifiers. Note that with ordinal numbers there is no such exception.\ndai6 ji6 as well as the second can quite logically extend to mean the next.\nIt can also logically extend to mean the other.\nBut you need to stretch your mind a little further to take in the notion that dai6 ji6 can mean the others.",
+      "examples": [
+        { "id": "u6-g06-e01", "jp": "jat1 go3 jan4", "zh": "", "en": "One person", "lit": "" },
+        { "id": "u6-g06-e02", "jp": "dai6 jat1 go3 jan4", "zh": "", "en": "The first person", "lit": "" },
+        { "id": "u6-g06-e03", "jp": "loeng5 go3 jan4", "zh": "", "en": "Two people", "lit": "" },
+        { "id": "u6-g06-e04", "jp": "dai6 ji6 go3 jan4", "zh": "", "en": "The second person", "lit": "" },
+        { "id": "u6-g06-e05", "jp": "dai6 ji6 jat6 keoi5 zau2 zo2 laak3", "zh": "", "en": "He left the next day", "lit": "" },
+        { "id": "u6-g06-e06", "jp": "ngo5 zung6 jau5 dai6 ji6 zi1 bat1", "zh": "", "en": "I've still got another pen", "lit": "" },
+        { "id": "u6-g06-e07", "jp": "dai6 ji6 di1 bat1 dou1 hai6 keoi5 ge3", "zh": "", "en": "The other pens are all hers", "lit": "" }
+      ],
+      "tags": ["numbers", "ordinals"]
+    },
+    {
+      "id": "u6-g07",
+      "title": "To tell",
+      "summary": "When tell means tell someone about something, use waa6 … teng1.",
+      "body": "Tell has various meanings in English and they are not all translated by the same word in Cantonese. When tell means tell someone about something you can use waa6",
+      "examples": [
+        { "id": "u6-g07-e01", "jp": "keoi5 waa6 ngo5 teng1 keoi5 m4 sik1 zaa1 ce1", "zh": "", "en": "He told me he doesn't know how to drive", "lit": "" }
+      ],
+      "tags": ["verbs"]
+    },
+    {
+      "id": "u6-g08",
+      "title": "Directions",
+      "summary": "The four directions are dung1, naam4, sai1, bak1; intermediate directions are the opposite way round from English (Eastnorth for Northeast).",
+      "body": "Cantonese lists the four directions in the order given here, though English speakers normally start with north. The intermediate directions are straightforward provided you remember that they are always the opposite way round from English, i.e. Cantonese says Eastnorth where English says Northeast.",
+      "examples": [
+        { "id": "u6-g08-e01", "jp": "dung1", "zh": "东", "en": "East", "lit": "" },
+        { "id": "u6-g08-e02", "jp": "naam4", "zh": "南", "en": "South", "lit": "" },
+        { "id": "u6-g08-e03", "jp": "sai1", "zh": "", "en": "West", "lit": "" },
+        { "id": "u6-g08-e04", "jp": "bak1", "zh": "北", "en": "North", "lit": "" },
+        { "id": "u6-g08-e05", "jp": "dung1 bak1", "zh": "", "en": "Northeast", "lit": "" },
+        { "id": "u6-g08-e06", "jp": "dung1 naam4", "zh": "", "en": "Southeast", "lit": "" },
+        { "id": "u6-g08-e07", "jp": "sai1 naam4", "zh": "", "en": "Southwest", "lit": "" },
+        { "id": "u6-g08-e08", "jp": "sai1 bak1", "zh": "", "en": "Northwest", "lit": "" }
+      ],
+      "tags": ["directions"]
+    },
+    {
+      "id": "u6-g09",
+      "title": "Movement: hoeng3, jau4, dou3, ging1, lei4",
+      "summary": "hoeng3 = towards; jau4 = starting point (from), with dou3 for the end point; ging1 = via; lei4 = distance from a location. Prepositional phrases come before the verb.",
+      "body": "Movement towards a point in space may be expressed by hoeng3.\nTo express a starting point in time or space, jau4 is used as follows.\nPrepositional phrase comes before the verb\njau4 is also used together with dou3 indicating the end point of a journey in time or space.\nGing1 'via' introduces an intermediate step between the starting point and end point.\nLei4 is used to indicate distance from a location.\nA verb is not needed here",
+      "examples": [
+        { "id": "u6-g09-e01", "jp": "nei5 jing1 goi1 hoeng3 ni1 bin6 haang4", "zh": "", "en": "You should walk this way", "lit": "" },
+        { "id": "u6-g09-e02", "jp": "nei5 jing1 goi1 haang4 ni1 bin6", "zh": "", "en": "You should walk this way (alternative)", "lit": "" },
+        { "id": "u6-g09-e03", "jp": "m4 hou2 hoeng3 go2 bin6 mong6", "zh": "", "en": "Don't look in that direction", "lit": "" },
+        { "id": "u6-g09-e04", "jp": "m4 hou2 mong6 go2 bin6", "zh": "", "en": "Don't look in that direction (alternative)", "lit": "" },
+        { "id": "u6-g09-e05", "jp": "ngo5 gam1 jat6 jau4 baat3 dim2 hoi1 ci2 soeng5 tong4", "zh": "", "en": "Today I had classes from eight o'clock onwards", "lit": "I today from eight o'clock beginning attended lessons" },
+        { "id": "u6-g09-e06", "jp": "jau4 toi4 waan1 lai4 hoeng1 gong2 jiu3 jat1 go3 zung1 tau4 fei1 gei1", "zh": "", "en": "It's an hour flight from Taiwan to Hong Kong", "lit": "From Taiwan coming Hong Kong needs one hour's plane" },
+        { "id": "u6-g09-e07", "jp": "jau4 ni1 dou6 heoi3 sik1 nei4 gei2 jyun5 aa3?", "zh": "", "en": "How far is it from here to Sydney?", "lit": "From here go to Sydney how far" },
+        { "id": "u6-g09-e08", "jp": "ngo5 dei6 jau4 gam1 ziu1 dang2 dou3 ji4 gaa1", "zh": "", "en": "We've been waiting from this morning till now", "lit": "" },
+        { "id": "u6-g09-e09", "jp": "jau4 daai6 hok6 dou3 nguk1 kei5 jiu3 bun3 go3 zung1 tau4", "zh": "", "en": "It takes half an hour to get from the university to home", "lit": "" },
+        { "id": "u6-g09-e10", "jp": "keoi5 jau4 sai3 dou3 daai6 dou1 hai6 gam2 ge3", "zh": "", "en": "He's always been like this", "lit": "From small to big" },
+        { "id": "u6-g09-e11", "jp": "ngo5 dei6 ging1 dung1 ging1 heoi3 saam1 faan4 si5", "zh": "", "en": "We're going to San Francisco via Tokyo", "lit": "We pass Tokyo go to San Francisco" },
+        { "id": "u6-g09-e12", "jp": "nei5 ho2 ji5 jau4 hoeng1 gong2 dou2 ging1 seoi6 dou6 dou3 nguk1 kei5", "zh": "", "en": "You can go home from Hong Kong island via the tunnel", "lit": "You can from Hong Kong island pass the tunnel arrive home" },
+        { "id": "u6-g09-e13", "jp": "ji1 jyun2 lei4 ni1 dou6 gei2 jyun5 aa3?", "zh": "", "en": "How far is the hospital from here?", "lit": "Hospital from here how far?" },
+        { "id": "u6-g09-e14", "jp": "ngo5 nguk1 kei5 lei4 gei1 coeng4 ji6 sap6 fan1 zung1", "zh": "", "en": "My home is twenty minutes from the airport", "lit": "My home from the airport twenty minutes" }
+      ],
+      "tags": ["movement", "prepositions", "directions", "distance"]
+    },
+    {
+      "id": "u6-g10",
+      "title": "Another verb ending: -jyun4 finished",
+      "summary": "-jyun4 as a verb ending shows that the action of the verb is all over with.",
+      "body": "jyun4 means the end or to finish. It is used as a verb ending to show that the action of the verb is all over with.",
+      "examples": [
+        { "id": "u6-g10-e01", "jp": "sik6 jyun4", "zh": "", "en": "Finished eating", "lit": "" },
+        { "id": "u6-g10-e02", "jp": "caam1 gun1 jyun4", "zh": "", "en": "Finished visiting", "lit": "" }
+      ],
+      "tags": ["verb endings", "aspect"]
+    },
+    {
+      "id": "u6-g11",
+      "title": "'Time when'",
+      "summary": "Time-when expressions come before the verb of the main statement; after-clauses end with zi1 hau6.",
+      "body": "Time expression which begin with after are translated with zi1 hau6 in Cantonese, but zi1 hau6 is placed at the end of the time expression not at the beginning.\nIn English the after you'd gone could come at the end of the sentence (She told me you don't like prawns after you'd gone), but with expressions which pinpoint the time when something happens Cantonese likes to have the information before the verb of the main statement is given, so you do not have the option of putting nei5 zau2 zo2 zi1 hau6 at the end.\nOther time when expressions you have met so far, such as gam1 jat6 today and lai5 baai3 ng5 Friday, as well as the many you haven't yet met (at 6 o'clock; in May last year; when I got there; before he had breakfast; in 1492 AD), all obey the same rule.",
+      "examples": [
+        { "id": "u6-g11-e01", "jp": "nei5 zau2 zo2 zi1 hau6, keoi5 waa6 ngo5 teng1 nei5 m4 zung1 ji3 sik6 haa1", "zh": "", "en": "After you'd gone she told me you don't like prawns", "lit": "" },
+        { "id": "u6-g11-e02", "jp": "lai5 baai3 jat6 nei5 heoi3 m4 heoi3 aa1?", "zh": "", "en": "Are you going on Sunday?", "lit": "" },
+        { "id": "u6-g11-e03", "jp": "ngo5 gam1 jat6 soeng2 heoi3 jau4 seoi2", "zh": "", "en": "I'd like to go swimming today", "lit": "" }
+      ],
+      "tags": ["time", "word order"]
+    },
+    {
+      "id": "u6-g12",
+      "title": "Can, able to",
+      "summary": "sik1 = have learned how to; ho2 ji5 = permission / absence of obstacles; verb ending -dak1 is an all-purpose can that attaches directly to a verb.",
+      "body": "You met sik1 in Unit 4 and in this unit comes ho2 ji5: both mean can, able to. They are not usually interchangeable. sik1 really means to have learned how to and implies that you are able to do something because you have acquired the skill to do it (speak a foreign language, ride a bicycle, eat with chopsticks, etc.). ho2 ji5 operates in the realm of permission (may) and absence of obstacles to doing something.\nAnother way to say can, be able is by using the verb ending -dak1. This is actually the same word that we met in Unit 5, but in this use it must go directly onto a verb.\nWith -dak1 there is no guidance as to whether he can drive because he knows how to, because his father says he may, because he has his full physical powers or because there is a car available, so it is a good all-purpose way of saying can. Do remember though that -dak1 can only be put onto a verb, not onto any other part of speech.",
+      "examples": [
+        { "id": "u6-g12-e01", "jp": "nei5 sik1 m4 sik1 zaa1 ce1 aa3?", "zh": "", "en": "Can you drive (do you know how to drive)?", "lit": "" },
+        { "id": "u6-g12-e02", "jp": "nei5 ho2 ji5 m4 ho2 ji5 zaa1 ce1 aa3?", "zh": "", "en": "Can you drive (Have you got a license? Is the car available?)", "lit": "" },
+        { "id": "u6-g12-e03", "jp": "ngo5 m4 heoi3 dak1", "zh": "", "en": "I can't go", "lit": "" },
+        { "id": "u6-g12-e04", "jp": "keoi5 zaa1 dak1 ce1", "zh": "", "en": "He can drive", "lit": "" }
+      ],
+      "tags": ["modals", "verb endings"]
+    },
+    {
+      "id": "u6-g13",
+      "title": "'Time how long'",
+      "summary": "Time expressions showing how long something goes for come after the main verb.",
+      "body": "Time expressions which show how long something goes for (as opposed to the time when something happens) come after the main verb in Cantonese.",
+      "examples": [
+        { "id": "u6-g13-e01", "jp": "daap3 gam3 noi6 ce1", "zh": "", "en": "Traveling in a car for so long", "lit": "" },
+        { "id": "u6-g13-e02", "jp": "ngo5 dei6 hai2 hoeng1 gong2 zyu6 loeng5 go3 lai5 baai3", "zh": "", "en": "We are staying in Hong Kong for two weeks", "lit": "" },
+        { "id": "u6-g13-e03", "jp": "keoi5 co5 zo2 ng5 go3 zung1 tau4 fei1 gei1", "zh": "", "en": "He was on the plane for five hours", "lit": "" }
+      ],
+      "tags": ["time", "duration", "word order"]
+    },
+    {
+      "id": "u6-g14",
+      "title": "Yet another verb ending: -gwo3 to have had the experience",
+      "summary": "-gwo3 shows the verb has been experienced at some time; -zo2 shows completion at a particular point in time.",
+      "body": "gwo3 literally means to go past, as you saw earlier in this unit. As a verb ending -gwo3 shows that the verb has been experienced at some time.\n-zo2, as we saw in Unit 4, shows that an action has been completed at a particular point in time; -gwo3 shows the an action has at some time or other occurred.",
+      "examples": [
+        { "id": "u6-g14-e01", "jp": "ngo5 sik6 gwo3 haa1", "zh": "", "en": "I have had prawns (I have experienced eating prawns)", "lit": "" },
+        { "id": "u6-g14-e02", "jp": "keoi5 heoi3 zo2 hoeng1 gong2", "zh": "", "en": "He went to Hong Kong", "lit": "" },
+        { "id": "u6-g14-e03", "jp": "keoi5 heoi3 gwo3 hoeng1 gong2", "zh": "", "en": "He has been to Hong Kong", "lit": "" },
+        { "id": "u6-g14-e04", "jp": "wong4 taai3 taai2 gam1 jat6 tai2 zo2 ji1 saang1", "zh": "", "en": "Mrs. Wong went to the doctor's today", "lit": "" },
+        { "id": "u6-g14-e05", "jp": "nei5 tai2 gwo3 ji1 saang1 maa1?", "zh": "", "en": "Have you ever been to the doctor's?", "lit": "" }
+      ],
+      "tags": ["verb endings", "aspect"]
+    },
+    {
+      "id": "u6-g15",
+      "title": "Making comparison",
+      "summary": "gwo3 = 'more (adjective) than (noun)' with English-like word order; when no 'than' is expressed, di1 is used instead.",
+      "body": "Where two things are explicitly being compared, gwo3 is used to mean 'more (adjective) than (noun)'. The word order is similar to English.\nIf the object of comparison is not expressed (i.e. there is no 'than…'), di1 is used instead.\nDi1 literally means 'a little' but here serves largely to indicate a difference between the two items with respect to some property",
+      "examples": [
+        { "id": "u6-g15-e01", "jp": "Jenny sai3 gwo3 ngo5", "zh": "", "en": "Jenny is younger than me", "lit": "" },
+        { "id": "u6-g15-e02", "jp": "baat3 lau2 hou2 gwo3 ji6 lau2", "zh": "", "en": "The eighth floor is better than the second floor", "lit": "" },
+        { "id": "u6-g15-e03", "jp": "ni1 deoi3 gwai3 gwo3 go2 deoi3", "zh": "", "en": "This pair is more expensive than that one", "lit": "" },
+        { "id": "u6-g15-e04", "jp": "Jenny sai3 di1", "zh": "", "en": "Jenny is younger", "lit": "" },
+        { "id": "u6-g15-e05", "jp": "baat3 lau2 hou2 di1", "zh": "", "en": "The eighth floor is better", "lit": "" },
+        { "id": "u6-g15-e06", "jp": "ni1 deoi3 gwai3 di1", "zh": "", "en": "This pair is more expensive", "lit": "" }
+      ],
+      "tags": ["comparison", "adjectives"]
+    },
+    {
+      "id": "u6-g16",
+      "title": "Modifying comparisons",
+      "summary": "Adverbs of degree (hou2 do1, siu2 siu2, gei2 pui5) go at the end of a gwo3 comparison, and replace di1; zung6 'even' comes before the adjective.",
+      "body": "Both kinds of comparison can be modified by adverbs of degree such as hou2 do1 'much' and siu2 siu2 'a little' as follows:\n(i) in comparison with gwo3, the adverb of degree is simply added at the end of the construction.\n(ii) in comparisons where di1 would normally be used, a degree word such as hou2 do1 'a lot' replaces di1.\nThe reason for this is that di1 literally means 'a bit', so that to combine it with an adverb like hou2 do1 'a lot' would be a contradiction in terms. This shows that di1 as in leng3 di1 is not really equivalent to the suffix -er in English 'prettier'\nZung6 'even' can be applied to both the gwo3 and di1 constructions, but comes before the adjective.\ndi1 can be omitted here since the presence of zung6 implies that a comparison is being made",
+      "examples": [
+        { "id": "u6-g16-e01", "jp": "nei5 lek1 gwo3 keoi5 hou2 do1", "zh": "", "en": "You're much smarter than him", "lit": "" },
+        { "id": "u6-g16-e02", "jp": "keoi5 gou1 gwo3 nei5 siu2 siu2", "zh": "", "en": "She's a little taller than you", "lit": "" },
+        { "id": "u6-g16-e03", "jp": "ngo5 daai6 gwo3 keoi5 jat1 nin4", "zh": "", "en": "I'm a year older than her", "lit": "" },
+        { "id": "u6-g16-e04", "jp": "ni1 go3 leng3 hou2 do1", "zh": "", "en": "This one is much nicer (from ni1 go3 leng3 di1)", "lit": "" },
+        { "id": "u6-g16-e05", "jp": "ni1 go3 gwai3 siu2 siu2", "zh": "", "en": "This one is a little more expensive (from ni1 go3 gwai3 di1)", "lit": "" },
+        { "id": "u6-g16-e06", "jp": "ni1 go3 cung5 gei2 pui5", "zh": "", "en": "This one is several times heavier (from ni1 go3 cung5 di1)", "lit": "" },
+        { "id": "u6-g16-e07", "jp": "gam1 ci3 zung6 hou2 gwo3 soeng6 ci3", "zh": "", "en": "This time is even better than last time", "lit": "" },
+        { "id": "u6-g16-e08", "jp": "gam2 joeng2 zung6 hou2 (di1)", "zh": "", "en": "This way is even better", "lit": "" }
+      ],
+      "tags": ["comparison", "adverbs of degree"]
+    },
+    {
+      "id": "u6-g17",
+      "title": "Alternative forms of comparison: bei2",
+      "summary": "With bei2, the object of comparison comes before the adjective; a modifying phrase still comes after the adjective.",
+      "body": "The word order is quite different since bei2 and the object of comparison come before the adjective.\nA modifying phrase comes after the adjective, as with gwo3.",
+      "examples": [
+        { "id": "u6-g17-e01", "jp": "haa6 tin1 bei2 dung1 tin1 coeng4", "zh": "", "en": "Summer is longer than winter", "lit": "Summer compare winter long" },
+        { "id": "u6-g17-e02", "jp": "hoeng1 gong2 ge3 zau2 dim3 bei2 bak1 ging1 do1", "zh": "", "en": "There are more hotels in Hong Kong than Beijing", "lit": "Hong Kong's hotels compare Beijing more" },
+        { "id": "u6-g17-e03", "jp": "keoi5 bei2 ngo5 sai3 jat1 nin4", "zh": "", "en": "She's a year younger than me", "lit": "She compare me young(er) one year" },
+        { "id": "u6-g17-e04", "jp": "ngo5 bei2 ngo5 lou5 po4 daai6 saam1 nin4", "zh": "", "en": "I'm three years older than my wife", "lit": "I compare my wife big three years" }
+      ],
+      "tags": ["comparison", "bei2"]
+    },
+    {
+      "id": "u6-g18",
+      "title": "Bei2 vs. gwo3",
+      "summary": "bei2 is more formal and allows change-of-state comparisons; gwo3 can also be omitted if a phrase showing the degree of difference is added.",
+      "body": "Bei2 is more formal than gwo3. The bei2 form allow some comparisons which would not be possible with gwo3, such as those expressing a change of state.\nYet another alternative is to omit gwo3 but add a phrase showing the degree of difference.",
+      "examples": [
+        { "id": "u6-g18-e01", "jp": "keoi5 bei2 gau6 nin2 sau3 zo2", "zh": "", "en": "She's got thinner since last year", "lit": "She compare last year got thinner" },
+        { "id": "u6-g18-e02", "jp": "nei5 bei2 soeng6 ci3 zeon3 bou6 zo2", "zh": "", "en": "You've improved since last time", "lit": "You compared last time improved" },
+        { "id": "u6-g18-e03", "jp": "keoi5 gou1 jan4 dei6 jat1 go3 tau4", "zh": "", "en": "He's a head taller than everyone else", "lit": "He tall people one head" },
+        { "id": "u6-g18-e04", "jp": "ngo5 dei6 faai3 keoi5 jat1 bou6", "zh": "", "en": "We're a step ahead of him", "lit": "We fast him one step" }
+      ],
+      "tags": ["comparison", "bei2", "register"]
+    },
+    {
+      "id": "u6-g19",
+      "title": "Comparison with dimensional adjectives",
+      "summary": "daai6 and sai3 are often used without gwo3 to mean 'older' and 'younger', with the degree phrase after the object.",
+      "body": "This comparison is commonly found with daai6 and sai3, which are often used in this way to mean 'older' and 'younger' respectively.",
+      "examples": [
+        { "id": "u6-g19-e01", "jp": "nei5 go4 go1 daai6 nei5 gei2 do1 aa3?", "zh": "", "en": "How much older is your brother than you?", "lit": "Your brother big you how much?" },
+        { "id": "u6-g19-e02", "jp": "keoi5 sai3 ngo5 jat1 nin4", "zh": "", "en": "She's a year younger than me", "lit": "She small me one year" }
+      ],
+      "tags": ["comparison", "age"]
+    },
+    {
+      "id": "u6-g20",
+      "title": "Comparison of adverbs",
+      "summary": "gwo3, di1 or bei2 are added to adverbial constructions with dak1; when the verb has an object, both verb and object are repeated.",
+      "body": "Comparison using gwo3, di1, or bei2 are added to adverbial constructions with dak1.\nThe main difficulty arises where the verb has an object and both are repeated.",
+      "examples": [
+        { "id": "u6-g20-e01", "jp": "keoi5 duk6 dak1 faai3 gwo3 ngo5", "zh": "", "en": "He reads faster than I do", "lit": "He read manner quicker than me" },
+        { "id": "u6-g20-e02", "jp": "nei5 se2 dak1 leng3 di1", "zh": "", "en": "You write better", "lit": "You write manner nicer" },
+        { "id": "u6-g20-e03", "jp": "keoi5 dei6 bei2 ngo5 dei6 zou6 dak1 hou2", "zh": "", "en": "They do it better than we do", "lit": "They compare us do manner well" },
+        { "id": "u6-g20-e04", "jp": "keoi5 tai2 zung1 man2 tai2 dak1 faai3 gwo3 ngo5", "zh": "", "en": "He reads Chinese more quickly than I do", "lit": "He reads Chinese reads manner quick than me" },
+        { "id": "u6-g20-e05", "jp": "nei5 se2 zi6 se2 dak1 leng3 di1", "zh": "", "en": "You write characters better", "lit": "You write characters write manner nicer" },
+        { "id": "u6-g20-e06", "jp": "keoi5 dei6 zou6 saang1 ji3 bei2 ngo5 dei6 zou6 dak1 hou2", "zh": "", "en": "They do business better than we do", "lit": "They do business compare us do manner well" }
+      ],
+      "tags": ["comparison", "adverbs", "dak1"]
+    },
+    {
+      "id": "u6-g21",
+      "title": "Superlatives",
+      "summary": "Superlatives use zeoi3 (or colloquial zi3), attributively with ge3 or predicatively with hai6; the range of comparison is specified before the superlative.",
+      "body": "Expressed straightforwardly by zeoi3, or as a colloquial alternative by zi3.\nThese forms are typically used as follows:\n(i) attributively with ge3\n(ii) predicatively with hai6\nThe order is often reversed beginning with the superlative expression as the subject.\nThe range in which the comparison is to be made is specified before the superlative form.",
+      "examples": [
+        { "id": "u6-g21-e01", "jp": "zeoi3 leng3", "zh": "", "en": "Most beautiful", "lit": "" },
+        { "id": "u6-g21-e02", "jp": "zeoi3 fong1 bin6", "zh": "", "en": "Most convenient", "lit": "" },
+        { "id": "u6-g21-e03", "jp": "zeoi3 hing1 fan5", "zh": "", "en": "Most excited", "lit": "" },
+        { "id": "u6-g21-e04", "jp": "zi3 lek1", "zh": "", "en": "The smartest", "lit": "" },
+        { "id": "u6-g21-e05", "jp": "zi3 peng4", "zh": "", "en": "The cheapest", "lit": "" },
+        { "id": "u6-g21-e06", "jp": "zi3 zeng3", "zh": "", "en": "The best, coolest (slang)", "lit": "" },
+        { "id": "u6-g21-e07", "jp": "zeoi3 fong1 bin6 ge3 zou6 faat3", "zh": "", "en": "The most convenient method", "lit": "" },
+        { "id": "u6-g21-e08", "jp": "zeoi3 gan2 jiu3 ge3 siu1 sik1", "zh": "", "en": "The most important news", "lit": "" },
+        { "id": "u6-g21-e09", "jp": "zeoi3 peng4 ge3 gei1 piu3", "zh": "", "en": "Cheapest air tickets", "lit": "" },
+        { "id": "u6-g21-e10", "jp": "gam2 joeng2 zeoi3 fong1 bin6", "zh": "", "en": "This way is the most convenient", "lit": "" },
+        { "id": "u6-g21-e11", "jp": "ni1 zung2 zi3 dai2", "zh": "", "en": "This kind is the best value", "lit": "" },
+        { "id": "u6-g21-e12", "jp": "zeoi3 fong1 bin6 hai6 ni1 go3 dei6 dim2", "zh": "", "en": "This location is most convenient", "lit": "Most convenient is this location" },
+        { "id": "u6-g21-e13", "jp": "zi3 peng4 hai6 ni1 zek3 paai4 zi2", "zh": "", "en": "This brand is the cheapest", "lit": "Most cheap is this brand" },
+        { "id": "u6-g21-e14", "jp": "hoeng1 gong2 zeoi3 ceot1 meng2 ge3 go1 sau2", "zh": "", "en": "The most famous singer in Hong Kong", "lit": "Hong Kong most famous singer" },
+        { "id": "u6-g21-e15", "jp": "cyun4 gwok3 zeoi3 daai6 ge3 ngan4 hong4", "zh": "", "en": "The biggest bank in the whole country", "lit": "Whole country most big bank" },
+        { "id": "u6-g21-e16", "jp": "gam3 do1 zau2 lau4 zeoi3 hou2 sik6 hai6 ni1 gaan1", "zh": "", "en": "This is the best of all the restaurants to eat at", "lit": "So many restaurants most good-to-eat is this one" }
+      ],
+      "tags": ["superlatives", "comparison"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "u6-e1",
+      "title": "Exercise 1",
+      "source": "Unit 6 Getting around.pdf",
+      "instructions": "Insert the lettered elements into each sentence. Elements: A. daap3 ce1; B. sap6 ng5 hou6; C. sai3 gaai3 zeoi3 jau5 meng2 ge3; D. m4 heoi3 fei1 gei1 coeng4; E. gwo3 saam1 go3 gaai1 hau2 dou3 faa1 jyun4 dou6",
+      "type": "fill",
+      "items": [
+        { "id": "u6-e1-i01", "prompt": "gim3 kiu4 daai6 hok6 hai6 daai6 hok6 zi1 jat1", "answer": "gim3 kiu4 daai6 hok6 hai6 sai3 gaai3 zeoi3 jau5 meng2 ge3 daai6 hok6 zi1 jat1", "answer_en": "Cambridge University is one of the most famous universities in the world", "hint": "Element C", "confidence": "high" },
+        { "id": "u6-e1-i02", "prompt": "jau4 leon4 deon1 heoi3 gim3 kiu4 daai6 hok6 caam1 gun1 jiu3 hoeng3 bak1 haang4", "answer": "jau4 leon4 deon1 daap3 ce1 heoi3 gim3 kiu4 daai6 hok6 caam1 gun1 jiu3 hoeng3 bak1 haang4", "answer_en": "To go by car from London to visit Cambridge University you have to head north", "hint": "Element A", "confidence": "medium" },
+        { "id": "u6-e1-i03", "prompt": "jau4 ni1 cyu3 daap3 baa1 si2 heoi3 fei1 gei1 coeng4 jiu3 gei2 do1 cin2 aa3?", "answer": "jau4 ni1 cyu3 daap3 sap6 ng5 hou6 baa1 si2 heoi3 fei1 gei1 coeng4 jiu3 gei2 do1 cin2 aa3?", "answer_en": "How much does it cost to take the No. 15 bus from here to the airport?", "hint": "Element B", "confidence": "high" },
+        { "id": "u6-e1-i04", "prompt": "ni1 cyu3 ge3 dei6 haa6 tit3 lou6 zi2 heoi3 daai6 wui6 tong4", "answer": "ni1 cyu3 ge3 dei6 haa6 tit3 lou6 zi2 heoi3 daai6 wui6 tong4 m4 heoi3 fei1 gei1 coeng4", "answer_en": "The underground railway here only goes to the City Hall, not to the airport", "hint": "Element D", "confidence": "high" },
+        { "id": "u6-e1-i05", "prompt": "nei5 jiu3 daap3 baa1 si2 heoi3 fei1 gei1 coeng4", "answer": "nei5 jiu3 gwo3 saam1 go3 gaai1 hau2 dou3 faa1 jyun4 dou6 daap3 baa1 si2 heoi3 fei1 gei1 coeng4", "answer_en": "You have to go past three junctions to Garden Road and take the bus to the airport", "hint": "Element E", "confidence": "medium" }
+      ]
+    },
+    {
+      "id": "u6-e2",
+      "title": "Exercise 2",
+      "source": "Unit 6 Getting around.pdf",
+      "instructions": "Tell direction using Cantonese. Use the map: the airport (fei1 gei1 coeng4) and the City Hall (daai6 wui6 tong4) both lie on the same east-west road (airport to the west, City Hall to the east). From the City Hall junction a road runs south, crossing three streets, then turns east to the restaurant (zau2 lau4).",
+      "type": "open",
+      "items": [
+        { "id": "u6-e2-i01", "prompt": "张先生张太太请我食饭。唔该你话我听由飞机场点样去酒楼呀？ Zoeng1 sin1 saang1 Zoeng1 taai3 taai2 cing2 ngo5 sik6 faan6. m4 goi1 nei5 waa6 ngo5 teng1 jau4 fei1 gei1 coeng4 dim2 joeng2 heoi3 zau2 lau4 aa3?", "answer": "", "answer_en": "Mr. and Mrs. Cheung have invited me to dinner. Please tell me how to get from the airport to the restaurant", "hint": "Use jau4 … hoeng3 … haang4, gwo3 … go3 gaai1 hau2, dou3, zyun2 and the directions dung1 / naam4", "confidence": "none" }
+      ]
+    },
+    {
+      "id": "u6-e3",
+      "title": "Dialogue 1: True or False?",
+      "source": "Unit 6 Getting around.pdf",
+      "instructions": "True or False? Decide according to Dialogue 1.",
+      "type": "truefalse",
+      "items": [
+        { "id": "u6-e3-i01", "prompt": "Wong4 sin1 saang1 jiu3 daap3 fei1 gei1 faan1 Jing-gwok3.", "answer": "True", "answer_en": "Mr. Wong has to take a plane back to Britain", "hint": "", "confidence": "high" },
+        { "id": "u6-e3-i02", "prompt": "Wong4 sin1 saang1 jiu3 daap3 sap6 ng5 hou6 baa1 si2 heoi3 fei1 gei1 coeng4.", "answer": "True", "answer_en": "Mr. Wong has to take the No. 15 bus to the airport", "hint": "", "confidence": "high" },
+        { "id": "u6-e3-i03", "prompt": "Jau5 siu2 leon4 heoi3 fei1 gei1 coeng4.", "answer": "False", "answer_en": "There is a ferry to the airport", "hint": "mou5 siu2 leon4 heoi3 gei1 coeng4", "confidence": "high" },
+        { "id": "u6-e3-i04", "prompt": "Dou1 jau5 dei6 haa6 tit3 lou6 heoi3 fei1 gei1 coeng4.", "answer": "False", "answer_en": "There is also an underground railway to the airport", "hint": "dei6 tit3 zi2 heoi3 si5 keoi1", "confidence": "high" },
+        { "id": "u6-e3-i05", "prompt": "Daan6 hai6 mou5 dei6 tit3 heoi3 Daai6 wui6 tong4.", "answer": "False", "answer_en": "But there is no underground to the City Hall", "hint": "jau5, dei6 tit3 zaam6 hai2 go2 dou6", "confidence": "high" }
+      ]
+    },
+    {
+      "id": "u6-e4",
+      "title": "Dialogue 2: Answer the questions",
+      "source": "Unit 6 Getting around.pdf",
+      "instructions": "Answer the questions according to Dialogue 2.",
+      "type": "open",
+      "items": [
+        { "id": "u6-e4-i01", "prompt": "Can4 sin1 saang1 hai6 m4 hai6 dai6 jat1 ci3 lai4 Leon4 deon1 aa3?", "answer": "m4 hai6", "answer_en": "No (it is Mr. Wong who is in London for the first time)", "hint": "", "confidence": "medium" },
+        { "id": "u6-e4-i02", "prompt": "Gim3 kiu4 daai6 hok6 hai6 m4 hai6 hai2 Leon4 deon1 fu6 gan6 aa3?", "answer": "", "answer_en": "", "hint": "They take the train north from London to Cambridge", "confidence": "none" },
+        { "id": "u6-e4-i03", "prompt": "Jing1-gwok3 dung1 bou6 jau5 hou2 do1 jau5 meng2 ge3 jyu4 gong2, hai6 m4 hai6 aa3?", "answer": "m4 hai6", "answer_en": "No (the fishing port is in southern England; eastern England is countryside)", "hint": "", "confidence": "medium" },
+        { "id": "u6-e4-i04", "prompt": "Can4 sin1 saang1 hou2 zung1 ji3 heoi3 lei4 dou2 waan2, hai6 m4 hai6 aa3?", "answer": "", "answer_en": "", "hint": "It is Mr. Wong who does not want to go to the outlying island; Mr. Chan proposed it", "confidence": "none" }
+      ]
+    },
+    {
+      "id": "u6-e5",
+      "title": "Practice 1",
+      "source": "Unit 6 Practice.pdf",
+      "instructions": "Decide whether the following comparisons would use gwo3 or di1, and translate as much of the sentence as you can into Cantonese.",
+      "type": "translate",
+      "items": [
+        { "id": "u6-e5-i01", "prompt": "It's warmer today", "answer": "gam1 jat6 nyun5 di1", "answer_en": "di1 (no 'than')", "hint": "di1", "confidence": "medium" },
+        { "id": "u6-e5-i02", "prompt": "She's happier now", "answer": "", "answer_en": "di1 (no 'than')", "hint": "di1", "confidence": "none" },
+        { "id": "u6-e5-i03", "prompt": "My friend is older than me", "answer": "ngo5 pang4 jau5 daai6 gwo3 ngo5", "answer_en": "gwo3 (explicit 'than')", "hint": "gwo3", "confidence": "high" },
+        { "id": "u6-e5-i04", "prompt": "She's much taller than before", "answer": "keoi5 gou1 gwo3 ji5 cin4 hou2 do1", "answer_en": "gwo3 (explicit 'than'), degree adverb at the end", "hint": "gwo3", "confidence": "medium" },
+        { "id": "u6-e5-i05", "prompt": "It's slower this time", "answer": "", "answer_en": "di1 (no 'than')", "hint": "di1", "confidence": "none" },
+        { "id": "u6-e5-i06", "prompt": "This restaurant is cheaper than that one", "answer": "ni1 gaan1 zau2 lau4 peng4 gwo3 go2 gaan1", "answer_en": "gwo3 (explicit 'than')", "hint": "gwo3", "confidence": "high" },
+        { "id": "u6-e5-i07", "prompt": "I like dancing more than singing", "answer": "", "answer_en": "gwo3 (explicit 'than')", "hint": "gwo3", "confidence": "none" },
+        { "id": "u6-e5-i08", "prompt": "Your idea is better", "answer": "nei5 ge3 zyu2 ji3 hou2 di1", "answer_en": "di1 (no 'than')", "hint": "di1", "confidence": "high" }
+      ]
+    },
+    {
+      "id": "u6-e6",
+      "title": "Practice 2",
+      "source": "Unit 6 Practice.pdf",
+      "instructions": "Make any meaningful comparison between the following.",
+      "type": "open",
+      "items": [
+        { "id": "u6-e6-i01", "prompt": "Today (gam1 jat6) and yesterday (kam4 jat6)", "answer": "", "answer_en": "", "hint": "", "confidence": "none" },
+        { "id": "u6-e6-i02", "prompt": "Girls (neoi5 zai2) and boys (naam4 zai2)", "answer": "", "answer_en": "", "hint": "", "confidence": "none" },
+        { "id": "u6-e6-i03", "prompt": "Shirts (seot1 saam1) and ties (leng5 taai1)", "answer": "", "answer_en": "", "hint": "", "confidence": "none" },
+        { "id": "u6-e6-i04", "prompt": "Toronto (do1 leon4 do1) and London (leon4 deon1)", "answer": "", "answer_en": "", "hint": "", "confidence": "none" },
+        { "id": "u6-e6-i05", "prompt": "Chinese (zung1 man2) and English (jing1 man2)", "answer": "", "answer_en": "", "hint": "", "confidence": "none" },
+        { "id": "u6-e6-i06", "prompt": "Swimming (jau4 seoi2) and jogging (paau2 bou6)", "answer": "", "answer_en": "", "hint": "", "confidence": "none" },
+        { "id": "u6-e6-i07", "prompt": "Cantonese food (gwong2 dung1 coi3) and Chiu Chow food (ciu4 zau1 coi3)", "answer": "", "answer_en": "", "hint": "", "confidence": "none" },
+        { "id": "u6-e6-i08", "prompt": "Doing business (zou6 saang1 ji3) and teaching (gaau3 syu1)", "answer": "", "answer_en": "", "hint": "", "confidence": "none" }
+      ]
+    },
+    {
+      "id": "u6-e7",
+      "title": "Practice 3",
+      "source": "Unit 6 Practice.pdf",
+      "instructions": "Make the following comparisons more explicit using the adverb given in brackets.",
+      "type": "fill",
+      "items": [
+        { "id": "u6-e7-i01", "prompt": "gam1 nin2 dung3 gwo3 gau6 nin2 — This year is (much) colder than last year", "answer": "gam1 nin2 dung3 gwo3 gau6 nin2 hou2 do1", "answer_en": "This year is much colder than last year", "hint": "hou2 do1 at the end", "confidence": "high" },
+        { "id": "u6-e7-i02", "prompt": "gam1 jat6 nyun5 di1 — It's (much) warmer today", "answer": "gam1 jat6 nyun5 hou2 do1", "answer_en": "It's much warmer today", "hint": "hou2 do1 replaces di1", "confidence": "high" },
+        { "id": "u6-e7-i03", "prompt": "nei5 di1 tau4 faat3 ji4 gaa1 dyun2 di1 — Your hair is (a little) shorter now", "answer": "nei5 di1 tau4 faat3 ji4 gaa1 dyun2 siu2 siu2", "answer_en": "Your hair is a little shorter now", "hint": "siu2 siu2 replaces di1", "confidence": "high" },
+        { "id": "u6-e7-i04", "prompt": "hoeng1 gong2 gwai3 gwo3 ni1 dou6 — Hong Kong is (several times) more expensive than here", "answer": "hoeng1 gong2 gwai3 gwo3 ni1 dou6 gei2 pui5", "answer_en": "Hong Kong is several times more expensive than here", "hint": "gei2 pui5 at the end", "confidence": "high" },
+        { "id": "u6-e7-i05", "prompt": "ngo5 gui6 gwo3 keoi5 — I'm (even) more tired than she is", "answer": "ngo5 zung6 gui6 gwo3 keoi5", "answer_en": "I'm even more tired than she is", "hint": "zung6 before the adjective", "confidence": "high" },
+        { "id": "u6-e7-i06", "prompt": "sik6 faan6 peng4 gwo3 sik6 min6 — Eating rice is (even) cheaper than eating noodles", "answer": "sik6 faan6 zung6 peng4 gwo3 sik6 min6", "answer_en": "Eating rice is even cheaper than eating noodles", "hint": "zung6 before the adjective", "confidence": "high" },
+        { "id": "u6-e7-i07", "prompt": "gam1 ci3 hok6 fai3 bei2 soeng6 ci3 gwai3 — This time the tuition is (a hundred dollars) more expensive than last time", "answer": "gam1 ci3 hok6 fai3 bei2 soeng6 ci3 gwai3 jat1 baak3 man1", "answer_en": "This time the tuition is a hundred dollars more expensive than last time", "hint": "degree phrase after the adjective, as with gwo3 ('a hundred dollars' is not taught in this unit)", "confidence": "low" },
+        { "id": "u6-e7-i08", "prompt": "keoi5 gou1 gwo3 ngo5 — She is (three times) taller than me", "answer": "keoi5 gou1 gwo3 ngo5 saam1 pui5", "answer_en": "She is three times taller than me", "hint": "cf. gei2 pui5 'several times'", "confidence": "medium" }
+      ]
+    },
+    {
+      "id": "u6-e8",
+      "title": "Practice 4A",
+      "source": "Unit 6 Practice.pdf",
+      "instructions": "Express the following comparisons colloquially with gwo3. Example: fo2 ce1 bei2 baa1 si2 faai3 → fo2 ce1 faai3 gwo3 baa1 si2 (The train is faster than the bus)",
+      "type": "reorder",
+      "items": [
+        { "id": "u6-e8-i01", "prompt": "hoi2 jyu2 bei2 joeng5 jyu2 gwai3 — Wild fish are more expensive than farmed fish", "answer": "hoi2 jyu2 gwai3 gwo3 joeng5 jyu2", "answer_en": "Wild fish are more expensive than farmed fish", "hint": "", "confidence": "high" },
+        { "id": "u6-e8-i02", "prompt": "hoeng1 pin3 bei2 hung4 caa4 hoeng1 — Jasmine tea is more fragrant than black tea", "answer": "hoeng1 pin3 hoeng1 gwo3 hung4 caa4", "answer_en": "Jasmine tea is more fragrant than black tea", "hint": "", "confidence": "high" },
+        { "id": "u6-e8-i03", "prompt": "laan4 faa1 bei2 guk1 faa1 leng3 — Orchids are prettier than chrysanthemums", "answer": "laan4 faa1 leng3 gwo3 guk1 faa1", "answer_en": "Orchids are prettier than chrysanthemums", "hint": "", "confidence": "high" },
+        { "id": "u6-e8-i04", "prompt": "go3 neoi5 bei2 go3 zai2 daai6 loeng5 seoi3 — The daughter is two years older than the son", "answer": "go3 neoi5 daai6 gwo3 go3 zai2 loeng5 seoi3", "answer_en": "The daughter is two years older than the son", "hint": "degree phrase stays at the end", "confidence": "high" },
+        { "id": "u6-e8-i05", "prompt": "ni1 baan1 hok6 saang1 bei2 go2 baan1 hok6 saang1 kan4 lik6 — This class is more hard-working than that one", "answer": "ni1 baan1 hok6 saang1 kan4 lik6 gwo3 go2 baan1 hok6 saang1", "answer_en": "This class is more hard-working than that one", "hint": "", "confidence": "high" }
+      ]
+    },
+    {
+      "id": "u6-e9",
+      "title": "Practice 4B",
+      "source": "Unit 6 Practice.pdf",
+      "instructions": "Express the following comparisons colloquially with bei2.",
+      "type": "reorder",
+      "items": [
+        { "id": "u6-e9-i01", "prompt": "gau6 haai4 syu1 fuk6 gwo3 san1 haai4 — Old shoes are more comfortable than new ones", "answer": "gau6 haai4 bei2 san1 haai4 syu1 fuk6", "answer_en": "Old shoes are more comfortable than new ones", "hint": "", "confidence": "high" },
+        { "id": "u6-e9-i02", "prompt": "ji4 gaa1 heoi3 ou3 zau1 jung4 ji6 gwo3 ji5 cin4 — Going to Australia now is easier than before", "answer": "ji4 gaa1 heoi3 ou3 zau1 bei2 ji5 cin4 jung4 ji6", "answer_en": "Going to Australia now is easier than before", "hint": "", "confidence": "high" },
+        { "id": "u6-e9-i03", "prompt": "gung1 si1 gam1 nin2 zaan6 dak1 do1 gwo3 gau6 nin2 — The company has earned more this year than last year", "answer": "gung1 si1 gam1 nin2 bei2 gau6 nin2 zaan6 dak1 do1", "answer_en": "The company has earned more this year than last year", "hint": "bei2 + object before the dak1 construction", "confidence": "medium" },
+        { "id": "u6-e9-i04", "prompt": "ni1 bun2 siu2 syut3 hou2 tai2 gwo3 dai6 jat1 bun2 — This novel is better than the first one", "answer": "ni1 bun2 siu2 syut3 bei2 dai6 jat1 bun2 hou2 tai2", "answer_en": "This novel is better than the first one", "hint": "", "confidence": "high" },
+        { "id": "u6-e9-i05", "prompt": "nei5 gam1 ci3 zou6 dak1 hou2 gwo3 soeng6 ci3 — This time you're doing better than last time", "answer": "nei5 gam1 ci3 bei2 soeng6 ci3 zou6 dak1 hou2", "answer_en": "This time you're doing better than last time", "hint": "cf. keoi5 dei6 bei2 ngo5 dei6 zou6 dak1 hou2", "confidence": "medium" }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "u6-n1",
+      "title": "The MTR (dei6 tit3)",
+      "body": "The underground railway in Hong Kong, dei6 tit3, is known in English as the MTR, short for Mass Transit Railway. The first section of it was opened in 1979, 43km were in service by 1989 and new extensions are constantly being added. It is air-conditioned throughout (including the tunnels), clean, fast and efficient and fares are low. Hong Kong people are noticeably proud of the system. The trains have no barriers between the coaches, so that you can stand at one end and look down the full length of the side of the train as it snakes its way through the tunnels. For speed of travel through crowded Hong Kong it cannot bettered.\nSince 1998 it has been possible to interchange to the very fast Airport Express Line which shuttles at up to 135 kilometers an hour between the new Chek Lap Kok International Airport and the very heart of Hong Kong in Central district (zung1 waan4) next to the famous Star Ferry Pier (Tin1 sing1 maa5 tau4)."
+    }
+  ]
+}

@@ -1,0 +1,5370 @@
+{
+  "id": "unit-0",
+  "number": 0,
+  "title": "Phonology",
+  "sources": [
+    "Unit 0 Phonology.pdf",
+    "Unit 0 Practice.pdf"
+  ],
+  "goals": [
+    "Learn the sound system of Cantonese: initial and final consonants, vowels and diphthongs, the six tones and colloquial tone change",
+    "Overview: Cantonese is named after the city of Canton (Guangzhou in Mandarin)",
+    "Overview: spoken in Guangdong, Guangxi, Hong Kong, Macau, oversea Chinese communities (Vietnam, Singapore, Malaysia, Toronto, Vancouver, LA, SF, NY)",
+    "Overview: mistakenly regarded as a \"dialect\" of Chinese (especially in mainland China)",
+    "Overview: Mandarin grammar cannot be applied straightforwardly to Cantonese",
+    "Overview: Cantonese and Mandarin are as different as various Romance languages"
+  ],
+  "vocab": [
+    {
+      "id": "u0-v001",
+      "zh": "",
+      "jp": "bat1",
+      "en": "Pen",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Unaspirated b- (aspiration contrast); vowel a as in 'but'"
+    },
+    {
+      "id": "u0-v002",
+      "zh": "",
+      "jp": "deoi3",
+      "en": "Pair",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Unaspirated d-"
+    },
+    {
+      "id": "u0-v003",
+      "zh": "",
+      "jp": "gwai3",
+      "en": "Expensive",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Unaspirated g-/gw-"
+    },
+    {
+      "id": "u0-v004",
+      "zh": "",
+      "jp": "gwaa3",
+      "en": "Hang",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Labio-velar gw-: velar consonant articulated together with bilabial [w]"
+    },
+    {
+      "id": "u0-v005",
+      "zh": "",
+      "jp": "kwan4",
+      "en": "Skirt",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Labio-velar kw-"
+    },
+    {
+      "id": "u0-v006",
+      "zh": "",
+      "jp": "zi1",
+      "en": "To know",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "z/c before front vowel i: alveo-palatal, close to English 'June'/'choose'; aspiration contrast; contrast with ci1 (To stick)"
+    },
+    {
+      "id": "u0-v007",
+      "zh": "",
+      "jp": "ci1",
+      "en": "To stick",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "z/c before front vowel i: alveo-palatal, close to English 'June'/'choose'; aspiration contrast; contrast with zi1 (To know)"
+    },
+    {
+      "id": "u0-v008",
+      "zh": "",
+      "jp": "zyu1",
+      "en": "Pig",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "z/c before front vowel yu: alveo-palatal; aspiration contrast; contrast with cyun1 (Village)"
+    },
+    {
+      "id": "u0-v009",
+      "zh": "",
+      "jp": "cyun1",
+      "en": "Village",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "z/c before front vowel yu: alveo-palatal; aspiration contrast; contrast with zyu1 (Pig)"
+    },
+    {
+      "id": "u0-v010",
+      "zh": "",
+      "jp": "zeoi1",
+      "en": "To chase",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "z/c before eoi: alveo-palatal; aspiration contrast; contrast with ceoi1 (To blow)"
+    },
+    {
+      "id": "u0-v011",
+      "zh": "",
+      "jp": "ceoi1",
+      "en": "To blow",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "z/c before eoi: alveo-palatal; aspiration contrast; contrast with zeoi1 (To chase)"
+    },
+    {
+      "id": "u0-v012",
+      "zh": "",
+      "jp": "zaa1",
+      "en": "To drive",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "z/c before other vowels: alveolar [ts]/[ts'] like d and t; aspiration contrast; contrast with caa4 (Tea)"
+    },
+    {
+      "id": "u0-v013",
+      "zh": "",
+      "jp": "caa4",
+      "en": "Tea",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "z/c before other vowels: alveolar [ts]/[ts'] like d and t; aspiration contrast; contrast with zaa1 (To drive)"
+    },
+    {
+      "id": "u0-v014",
+      "zh": "",
+      "jp": "zong6",
+      "en": "Crash",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "z/c before other vowels: alveolar [ts]/[ts']; aspiration contrast; contrast with co3 (Wrong)"
+    },
+    {
+      "id": "u0-v015",
+      "zh": "",
+      "jp": "co3",
+      "en": "Wrong",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "z/c before other vowels: alveolar [ts]/[ts']; aspiration contrast; contrast with zong6 (Crash)"
+    },
+    {
+      "id": "u0-v016",
+      "zh": "",
+      "jp": "waa6",
+      "en": "Say",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Semivowel w- as in English"
+    },
+    {
+      "id": "u0-v017",
+      "zh": "",
+      "jp": "wui5",
+      "en": "Will",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Semivowel w- as in English | Practice 5A: diphthong drill (monosyllabic); paired with hoi1 wui2 (Have a meeting)"
+    },
+    {
+      "id": "u0-v018",
+      "zh": "",
+      "jp": "jiu3",
+      "en": "Want",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Semivowel j- as in English (like y) | Practice 5A: diphthong drill (monosyllabic); paired with ziu3 gu3 (Take care)"
+    },
+    {
+      "id": "u0-v019",
+      "zh": "",
+      "jp": "jung6",
+      "en": "Use",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Semivowel j- as in English (like y)"
+    },
+    {
+      "id": "u0-v020",
+      "zh": "",
+      "jp": "ngo5",
+      "en": "I/me",
+      "section": "Phonology",
+      "pos": "pronoun",
+      "notes": "Initial ng- (as in 'si-nger'); often heard as o5 with the ng- dropped | Tone 2 high rising vs tone 5 low rising; contrast with ngo2 (Goose) | Low rising tone: begins with a slight dip, like a hesitant 'well...'"
+    },
+    {
+      "id": "u0-v021",
+      "zh": "",
+      "jp": "ngaap3",
+      "en": "Duck",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Initial ng- often dropped: also aap3"
+    },
+    {
+      "id": "u0-v022",
+      "zh": "五",
+      "jp": "ng5",
+      "en": "Five",
+      "section": "Phonology",
+      "pos": "number",
+      "notes": "Syllabic nasal ng; also pronounced m5 | Practice 1: consonant drill"
+    },
+    {
+      "id": "u0-v023",
+      "zh": "",
+      "jp": "nei5",
+      "en": "You",
+      "section": "Phonology",
+      "pos": "pronoun",
+      "notes": "Begins with n-, but most speakers pronounce it with l- instead"
+    },
+    {
+      "id": "u0-v024",
+      "zh": "",
+      "jp": "neoi5 jan2",
+      "en": "Woman",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "n/l variation: also leoi5 jan2; jan2 shows changed tone (jan4 person) | Changed tone: jan4 becomes jan2 at the end of the compound"
+    },
+    {
+      "id": "u0-v025",
+      "zh": "",
+      "jp": "nam2",
+      "en": "Think",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "n/l variation: also lam2"
+    },
+    {
+      "id": "u0-v026",
+      "zh": "",
+      "jp": "ni1 dou6",
+      "en": "Here",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "n/l variation: also li1 dou6"
+    },
+    {
+      "id": "u0-v027",
+      "zh": "唔",
+      "jp": "m4",
+      "en": "Not (the main negative word)",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Syllabic nasal m"
+    },
+    {
+      "id": "u0-v028",
+      "zh": "吴",
+      "jp": "ng4",
+      "en": "Ng (a common surname)",
+      "section": "Phonology",
+      "pos": "surname",
+      "notes": "Syllabic nasal ng"
+    },
+    {
+      "id": "u0-v029",
+      "zh": "",
+      "jp": "baat3",
+      "en": "Eight",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Final stop -t vs -k (unreleased, as in 'yep'); contrast with baak3 (Hundred) | Practice 1: consonant drill"
+    },
+    {
+      "id": "u0-v030",
+      "zh": "",
+      "jp": "baak3",
+      "en": "Hundred",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Final stop -t vs -k (unreleased, as in 'yep'); contrast with baat3 (Eight)"
+    },
+    {
+      "id": "u0-v031",
+      "zh": "",
+      "jp": "sap1 ce1",
+      "en": "Wet car",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Final stop -p; contrast with sat1 ce1 (missing car) and sak1 ce1 (traffic jam)"
+    },
+    {
+      "id": "u0-v032",
+      "zh": "",
+      "jp": "sat1 ce1",
+      "en": "Missing car",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Final stop -t; contrast with sap1 ce1 (wet car) and sak1 ce1 (traffic jam)"
+    },
+    {
+      "id": "u0-v033",
+      "zh": "",
+      "jp": "sak1 ce1",
+      "en": "Traffic jam",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Final stop -k; contrast with sap1 ce1 (wet car) and sat1 ce1 (missing car)"
+    },
+    {
+      "id": "u0-v034",
+      "zh": "",
+      "jp": "saam1",
+      "en": "Three",
+      "section": "Phonology",
+      "pos": "number",
+      "notes": "Final nasal -m; contrast with saan1 (to close) and saang1 (alive); vowel aa as in 'father' | Short a vs long aa (vowel length); contrast with sam1 (Heart)"
+    },
+    {
+      "id": "u0-v035",
+      "zh": "",
+      "jp": "saan1",
+      "en": "To close",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Final nasal -n; contrast with saam1 (three) and saang1 (alive)"
+    },
+    {
+      "id": "u0-v036",
+      "zh": "",
+      "jp": "saang1",
+      "en": "Alive",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Final nasal -ng; contrast with saam1 (three) and saan1 (to close)"
+    },
+    {
+      "id": "u0-v037",
+      "zh": "",
+      "jp": "naam4",
+      "en": "South",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Final nasal -m; contrast with naan4 (difficult) and laang5 (cold)"
+    },
+    {
+      "id": "u0-v038",
+      "zh": "",
+      "jp": "naan4",
+      "en": "Difficult",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Final nasal -n; contrast with naam4 (south) and laang5 (cold)"
+    },
+    {
+      "id": "u0-v039",
+      "zh": "",
+      "jp": "laang5",
+      "en": "Cold",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Final nasal -ng; contrast with naam4 (south) and naan4 (difficult)"
+    },
+    {
+      "id": "u0-v040",
+      "zh": "",
+      "jp": "hok6 saang1",
+      "en": "Student",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Don't pronounce -ng as -n (not hok6 saan1)"
+    },
+    {
+      "id": "u0-v041",
+      "zh": "",
+      "jp": "si1",
+      "en": "Silk",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Vowel i, similar to 'see'"
+    },
+    {
+      "id": "u0-v042",
+      "zh": "",
+      "jp": "leng3",
+      "en": "Pretty",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Vowel e, similar to 'pet' | Practice 3 minimal pair: i vs e before -ng; contrast with ling3 (Shiny)"
+    },
+    {
+      "id": "u0-v043",
+      "zh": "",
+      "jp": "do1",
+      "en": "Many",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Vowel o, similar to 'paw'"
+    },
+    {
+      "id": "u0-v044",
+      "zh": "",
+      "jp": "fu3",
+      "en": "Trousers",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Vowel u, similar to 'fool' | Practice 6 tone drill: tone 3 (mid level) in the series fu1-fu6"
+    },
+    {
+      "id": "u0-v045",
+      "zh": "",
+      "jp": "syu1",
+      "en": "Book",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Vowel yu, similar to French 'tu' | Tone 1 high level vs tone 6 low level; contrast with syu6 (Tree)"
+    },
+    {
+      "id": "u0-v046",
+      "zh": "",
+      "jp": "seon3",
+      "en": "Letter",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Vowel eo, similar to French 'Peugeot' | Practice 1: consonant drill"
+    },
+    {
+      "id": "u0-v047",
+      "zh": "",
+      "jp": "sam1",
+      "en": "Heart",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Short a vs long aa (vowel length); contrast with saam1 (Three)"
+    },
+    {
+      "id": "u0-v048",
+      "zh": "",
+      "jp": "man6",
+      "en": "Ask",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Short a vs long aa (vowel length); contrast with maan6 (Slow)"
+    },
+    {
+      "id": "u0-v049",
+      "zh": "",
+      "jp": "maan6",
+      "en": "Slow",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Short a vs long aa (vowel length); contrast with man6 (Ask)"
+    },
+    {
+      "id": "u0-v050",
+      "zh": "",
+      "jp": "hang4",
+      "en": "Permanent",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Short a vs long aa (vowel length); contrast with haang4 (Walk)"
+    },
+    {
+      "id": "u0-v051",
+      "zh": "",
+      "jp": "haang4",
+      "en": "Walk",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Short a vs long aa (vowel length); contrast with hang4 (Permanent)"
+    },
+    {
+      "id": "u0-v052",
+      "zh": "",
+      "jp": "kat1",
+      "en": "Cough",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Short a vs long aa (vowel length); contrast with kaa1 (Card)"
+    },
+    {
+      "id": "u0-v053",
+      "zh": "",
+      "jp": "kaa1",
+      "en": "Card",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Short a vs long aa (vowel length); contrast with kat1 (Cough)"
+    },
+    {
+      "id": "u0-v054",
+      "zh": "",
+      "jp": "sik6",
+      "en": "Eat",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "High vowel more open before -k; contrast with sek6 (Stone) | Practice 3 minimal pair: i vs e before -k; contrast with sek6 (Stone)"
+    },
+    {
+      "id": "u0-v055",
+      "zh": "",
+      "jp": "sek6",
+      "en": "Stone",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "High vowel more open before -k; contrast with sik6 (Eat) | Practice 3 minimal pair: i vs e before -k; contrast with sik6 (Eat)"
+    },
+    {
+      "id": "u0-v056",
+      "zh": "",
+      "jp": "ging1",
+      "en": "Pass by",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "High vowel more open before -ng; contrast with geng1 (Be afraid)"
+    },
+    {
+      "id": "u0-v057",
+      "zh": "",
+      "jp": "geng1",
+      "en": "Be afraid",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "High vowel more open before -ng; contrast with ging1 (Pass by)"
+    },
+    {
+      "id": "u0-v058",
+      "zh": "",
+      "jp": "luk6",
+      "en": "Six",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "High vowel more open before -k; contrast with lok6 (To go down) | Practice 1: consonant drill"
+    },
+    {
+      "id": "u0-v059",
+      "zh": "",
+      "jp": "lok6",
+      "en": "To go down",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "High vowel more open before -k; contrast with luk6 (Six)"
+    },
+    {
+      "id": "u0-v060",
+      "zh": "",
+      "jp": "tung4",
+      "en": "With",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "High vowel more open before -ng; contrast with tong4 (Sugar)"
+    },
+    {
+      "id": "u0-v061",
+      "zh": "",
+      "jp": "tong4",
+      "en": "Sugar",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "High vowel more open before -ng; contrast with tung4 (With)"
+    },
+    {
+      "id": "u0-v062",
+      "zh": "",
+      "jp": "zeok3",
+      "en": "Wear",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Vowel eo before -k vs -t; contrast with ceot1 (Go out)"
+    },
+    {
+      "id": "u0-v063",
+      "zh": "",
+      "jp": "ceot1",
+      "en": "Go out",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Vowel eo before -k vs -t; contrast with zeok3 (Wear)"
+    },
+    {
+      "id": "u0-v064",
+      "zh": "",
+      "jp": "coeng1",
+      "en": "Window",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Vowel eo before -ng vs -n; contrast with zeon1 (Bottle) | Practice 2 minimal pair: z vs c (aspiration); contrast with zoeng1 (Sheet (of paper))"
+    },
+    {
+      "id": "u0-v065",
+      "zh": "",
+      "jp": "zeon1",
+      "en": "Bottle",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Vowel eo before -ng vs -n; contrast with coeng1 (Window) | Practice 2 minimal pair: z vs c (aspiration); contrast with ceon1 (Spring) | Practice 4: rounded vowels yu and eo"
+    },
+    {
+      "id": "u0-v066",
+      "zh": "",
+      "jp": "giu3",
+      "en": "Call(ed)",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Diphthong iu, as in English 'few' | Practice 5A: diphthong drill (monosyllabic); paired with giu1 ngou6 (Proud)"
+    },
+    {
+      "id": "u0-v067",
+      "zh": "",
+      "jp": "coi3",
+      "en": "Vegetable",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Diphthong oi, as in English 'boy'"
+    },
+    {
+      "id": "u0-v068",
+      "zh": "",
+      "jp": "dou3",
+      "en": "Arrive",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Diphthong ou, as in English 'hold'"
+    },
+    {
+      "id": "u0-v069",
+      "zh": "",
+      "jp": "sei3",
+      "en": "Four",
+      "section": "Phonology",
+      "pos": "number",
+      "notes": "Diphthong ei, as in English 'say'"
+    },
+    {
+      "id": "u0-v070",
+      "zh": "",
+      "jp": "gui6",
+      "en": "Tired",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Diphthong ui, as in English 'goo-ey' but one syllable | Practice 5A: diphthong drill (monosyllabic); paired with hau6 fui3 (Regret)"
+    },
+    {
+      "id": "u0-v071",
+      "zh": "",
+      "jp": "seoi3",
+      "en": "Tax",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Diphthong eoi: front rounded vowel eo followed by the glide i | Practice 6 tone drill: tone 3 (mid level) in the series seoi1-seoi6"
+    },
+    {
+      "id": "u0-v072",
+      "zh": "",
+      "jp": "sai1",
+      "en": "West",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Diphthong ai vs aai (aai as in 'sky'); contrast with saai1 (To waste)"
+    },
+    {
+      "id": "u0-v073",
+      "zh": "",
+      "jp": "saai1",
+      "en": "To waste",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Diphthong ai vs aai (aai as in 'sky'); contrast with sai1 (West)"
+    },
+    {
+      "id": "u0-v074",
+      "zh": "",
+      "jp": "mai5",
+      "en": "Uncooked rice",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Diphthong ai vs aai (aai as in 'sky'); contrast with maai5 (To buy)"
+    },
+    {
+      "id": "u0-v075",
+      "zh": "",
+      "jp": "maai5",
+      "en": "To buy",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Diphthong ai vs aai (aai as in 'sky'); contrast with mai5 (Uncooked rice)"
+    },
+    {
+      "id": "u0-v076",
+      "zh": "",
+      "jp": "gau3",
+      "en": "Enough",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Diphthong au vs aau (aau as in 'how'); contrast with gaau3 (To teach) | Tone 3 mid level vs tone 6 low level; contrast with gau6 (Old, dated) | Practice 2 minimal pair: g vs k (aspiration); contrast with kau3 (Deduct)"
+    },
+    {
+      "id": "u0-v077",
+      "zh": "",
+      "jp": "gaau3",
+      "en": "To teach",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Diphthong au vs aau (aau as in 'how'); contrast with gau3 (Enough)"
+    },
+    {
+      "id": "u0-v078",
+      "zh": "",
+      "jp": "lau6",
+      "en": "Leak",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Diphthong au vs aau (aau as in 'how'); contrast with naau6 (To scold)"
+    },
+    {
+      "id": "u0-v079",
+      "zh": "",
+      "jp": "naau6",
+      "en": "To scold",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Diphthong au vs aau (aau as in 'how'); contrast with lau6 (Leak)"
+    },
+    {
+      "id": "u0-v080",
+      "zh": "",
+      "jp": "san1",
+      "en": "New",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Tone 1 high level vs tone 6 low level; contrast with san6 (Kidney) | Practice 3 minimal pair: short a vs long aa; contrast with saan1 (Mountain) | Practice 9 example: san1 new + man4 information -> san1 man2 news"
+    },
+    {
+      "id": "u0-v081",
+      "zh": "",
+      "jp": "san6",
+      "en": "Kidney",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Tone 1 high level vs tone 6 low level; contrast with san1 (New)"
+    },
+    {
+      "id": "u0-v082",
+      "zh": "",
+      "jp": "syu6",
+      "en": "Tree",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Tone 1 high level vs tone 6 low level; contrast with syu1 (Book)"
+    },
+    {
+      "id": "u0-v083",
+      "zh": "",
+      "jp": "gau6",
+      "en": "Old, dated",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Tone 3 mid level vs tone 6 low level; contrast with gau3 (Enough)"
+    },
+    {
+      "id": "u0-v084",
+      "zh": "",
+      "jp": "dim3",
+      "en": "To touch",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Tone 3 mid level vs tone 6 low level; contrast with dim6 (OK, done)"
+    },
+    {
+      "id": "u0-v085",
+      "zh": "",
+      "jp": "dim6",
+      "en": "OK, done",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Tone 3 mid level vs tone 6 low level; contrast with dim3 (To touch)"
+    },
+    {
+      "id": "u0-v086",
+      "zh": "",
+      "jp": "lau1",
+      "en": "Jacket",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Tone 1 high level vs tone 4 low falling; contrast with lau4 (Apartment)"
+    },
+    {
+      "id": "u0-v087",
+      "zh": "",
+      "jp": "lau4",
+      "en": "Apartment",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Tone 1 high level vs tone 4 low falling; contrast with lau1 (Jacket)"
+    },
+    {
+      "id": "u0-v088",
+      "zh": "",
+      "jp": "ngo2",
+      "en": "Goose",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Tone 2 high rising vs tone 5 low rising; contrast with ngo5 (I/me)"
+    },
+    {
+      "id": "u0-v089",
+      "zh": "",
+      "jp": "jat1 bun3",
+      "en": "One half",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "bun3 mid level vs bun2 high rising; contrast with jat1 bun2 (One (book))"
+    },
+    {
+      "id": "u0-v090",
+      "zh": "",
+      "jp": "jat1 bun2",
+      "en": "One (book)",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "bun3 mid level vs bun2 high rising; contrast with jat1 bun3 (One half)"
+    },
+    {
+      "id": "u0-v091",
+      "zh": "",
+      "jp": "ci2",
+      "en": "Teeth",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Tone 2 high rising vs tone 5 low rising; contrast with ci5 (Resemble)"
+    },
+    {
+      "id": "u0-v092",
+      "zh": "",
+      "jp": "ci5",
+      "en": "Resemble",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Tone 2 high rising vs tone 5 low rising; contrast with ci2 (Teeth)"
+    },
+    {
+      "id": "u0-v093",
+      "zh": "",
+      "jp": "lai4",
+      "en": "Come",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Low falling tone (4th): 'creaky' voice as pitch reaches the bottom of the range, like 'cy' in 'fancy'"
+    },
+    {
+      "id": "u0-v094",
+      "zh": "",
+      "jp": "dim2",
+      "en": "How",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "High rising tone: resembles a question showing surprise"
+    },
+    {
+      "id": "u0-v095",
+      "zh": "",
+      "jp": "jan4",
+      "en": "Person",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Low falling tone: resembles a calm but definitive 'no' | Tone change: neoi5 jan2 (woman)"
+    },
+    {
+      "id": "u0-v096",
+      "zh": "",
+      "jp": "jyut6",
+      "en": "Month",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Tone change: noun at the end of a compound takes tone 2; contrast with co5 jyut2 (Spend a month resting after giving birth)"
+    },
+    {
+      "id": "u0-v097",
+      "zh": "",
+      "jp": "co5 jyut2",
+      "en": "Spend a month resting after giving birth",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Tone change: noun at the end of a compound takes tone 2; contrast with jyut6 (Month)"
+    },
+    {
+      "id": "u0-v098",
+      "zh": "",
+      "jp": "man4 hok6",
+      "en": "Literature",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Tone change: man4 becomes man2 at the end of a compound; contrast with jing1 man2 (English (language))"
+    },
+    {
+      "id": "u0-v099",
+      "zh": "",
+      "jp": "jing1 man2",
+      "en": "English (language)",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Tone change: man4 becomes man2 at the end of a compound; contrast with man4 hok6 (Literature)"
+    },
+    {
+      "id": "u0-v100",
+      "zh": "",
+      "jp": "jyu4 daan2",
+      "en": "Fish-cake",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Tone change: jyu4 becomes jyu2 at the end of a phrase; contrast with tiu4 jyu2 (A/the fish)"
+    },
+    {
+      "id": "u0-v101",
+      "zh": "",
+      "jp": "tiu4 jyu2",
+      "en": "A/the fish",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Tone change: jyu4 becomes jyu2 at the end of a phrase; contrast with jyu4 daan2 (Fish-cake)"
+    },
+    {
+      "id": "u0-v102",
+      "zh": "",
+      "jp": "lau4 tai1",
+      "en": "Staircase",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Tone change: lau4 becomes lau2 at the end of a compound; contrast with deng2 lau2 (Top floor, penthouse)"
+    },
+    {
+      "id": "u0-v103",
+      "zh": "",
+      "jp": "deng2 lau2",
+      "en": "Top floor, penthouse",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Tone change: lau4 becomes lau2 at the end of a compound; contrast with lau4 tai1 (Staircase)"
+    },
+    {
+      "id": "u0-v104",
+      "zh": "",
+      "jp": "jat1 hap6 syu1",
+      "en": "A box of books",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Tone change: hap6 becomes hap2 at the end of a phrase; contrast with jat1 go3 hap2 (A box)"
+    },
+    {
+      "id": "u0-v105",
+      "zh": "",
+      "jp": "jat1 go3 hap2",
+      "en": "A box",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Tone change: hap6 becomes hap2 at the end of a phrase; contrast with jat1 hap6 syu1 (A box of books)"
+    },
+    {
+      "id": "u0-v106",
+      "zh": "",
+      "jp": "jat1 dip6 coi3",
+      "en": "A dish of vegetables",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Tone change: dip6 becomes dip2 at the end of a phrase; contrast with jat1 zek3 dip2 (A dish)"
+    },
+    {
+      "id": "u0-v107",
+      "zh": "",
+      "jp": "jat1 zek3 dip2",
+      "en": "A dish",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Tone change: dip6 becomes dip2 at the end of a phrase; contrast with jat1 dip6 coi3 (A dish of vegetables)"
+    },
+    {
+      "id": "u0-v108",
+      "zh": "",
+      "jp": "can4 saang1",
+      "en": "Mr. Chan",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Tone change with prefix aa3-; contrast with aa3 can2 (Chan (colloquial))"
+    },
+    {
+      "id": "u0-v109",
+      "zh": "",
+      "jp": "aa3 can2",
+      "en": "Chan (colloquial)",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Tone change with prefix aa3-; contrast with can4 saang1 (Mr. Chan)"
+    },
+    {
+      "id": "u0-v110",
+      "zh": "",
+      "jp": "lai4 saang1",
+      "en": "Mr. Lai",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Tone change with prefix lou5-; contrast with lou5 lai2 (Old (Mr) Lai)"
+    },
+    {
+      "id": "u0-v111",
+      "zh": "",
+      "jp": "lou5 lai2",
+      "en": "Old (Mr) Lai",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Tone change with prefix lou5-; contrast with lai4 saang1 (Mr. Lai)"
+    },
+    {
+      "id": "u0-v112",
+      "zh": "",
+      "jp": "so4",
+      "en": "Foolish",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Reduplicated adjective: second syllable changes to high rising tone; contrast with so4 so2 dei2 (Silly)"
+    },
+    {
+      "id": "u0-v113",
+      "zh": "",
+      "jp": "so4 so2 dei2",
+      "en": "Silly",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Reduplicated adjective: second syllable changes to high rising tone; contrast with so4 (Foolish)"
+    },
+    {
+      "id": "u0-v114",
+      "zh": "",
+      "jp": "fei4",
+      "en": "Fat",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Reduplicated adjective: second syllable changes to high rising tone; contrast with fei4 fei2 dei2 (Chubby)"
+    },
+    {
+      "id": "u0-v115",
+      "zh": "",
+      "jp": "fei4 fei2 dei2",
+      "en": "Chubby",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Reduplicated adjective: second syllable changes to high rising tone; contrast with fei4 (Fat)"
+    },
+    {
+      "id": "u0-v116",
+      "zh": "",
+      "jp": "taap3",
+      "en": "Tower",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 1: consonant drill"
+    },
+    {
+      "id": "u0-v117",
+      "zh": "",
+      "jp": "ze3",
+      "en": "Borrow",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 1: consonant drill"
+    },
+    {
+      "id": "u0-v118",
+      "zh": "",
+      "jp": "ngo6",
+      "en": "Hungry",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 1: consonant drill"
+    },
+    {
+      "id": "u0-v119",
+      "zh": "",
+      "jp": "ngaam1",
+      "en": "Exactly",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 1: consonant drill"
+    },
+    {
+      "id": "u0-v120",
+      "zh": "",
+      "jp": "coeng3",
+      "en": "Sing",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 1: consonant drill"
+    },
+    {
+      "id": "u0-v121",
+      "zh": "",
+      "jp": "jat6",
+      "en": "Day",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 1: consonant drill"
+    },
+    {
+      "id": "u0-v122",
+      "zh": "",
+      "jp": "bin3",
+      "en": "Change",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 2 minimal pair: b vs p (aspiration); contrast with pin3 (A slice)"
+    },
+    {
+      "id": "u0-v123",
+      "zh": "",
+      "jp": "pin3",
+      "en": "A slice",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 2 minimal pair: b vs p (aspiration); contrast with bin3 (Change)"
+    },
+    {
+      "id": "u0-v124",
+      "zh": "",
+      "jp": "baai3",
+      "en": "Worship",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 2 minimal pair: b vs p (aspiration); contrast with paai3 (Distribute)"
+    },
+    {
+      "id": "u0-v125",
+      "zh": "",
+      "jp": "paai3",
+      "en": "Distribute",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 2 minimal pair: b vs p (aspiration); contrast with baai3 (Worship)"
+    },
+    {
+      "id": "u0-v126",
+      "zh": "",
+      "jp": "daai3",
+      "en": "Bring",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 2 minimal pair: d vs t (aspiration); contrast with taai3 (Too (excessively))"
+    },
+    {
+      "id": "u0-v127",
+      "zh": "",
+      "jp": "taai3",
+      "en": "Too (excessively)",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 2 minimal pair: d vs t (aspiration); contrast with daai3 (Bring)"
+    },
+    {
+      "id": "u0-v128",
+      "zh": "",
+      "jp": "din1",
+      "en": "Mad",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 2 minimal pair: d vs t (aspiration); contrast with tin1 (Sky)"
+    },
+    {
+      "id": "u0-v129",
+      "zh": "",
+      "jp": "tin1",
+      "en": "Sky",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 2 minimal pair: d vs t (aspiration); contrast with din1 (Mad) | Practice 9: first element of tin1 paang2 (Roof top)"
+    },
+    {
+      "id": "u0-v130",
+      "zh": "",
+      "jp": "zeoi1",
+      "en": "Chase",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 2 minimal pair: z vs c (aspiration); contrast with ceoi1 (Blow)"
+    },
+    {
+      "id": "u0-v131",
+      "zh": "",
+      "jp": "ceoi1",
+      "en": "Blow",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 2 minimal pair: z vs c (aspiration); contrast with zeoi1 (Chase)"
+    },
+    {
+      "id": "u0-v132",
+      "zh": "",
+      "jp": "ceon1",
+      "en": "Spring",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 2 minimal pair: z vs c (aspiration); contrast with zeon1 (Bottle)"
+    },
+    {
+      "id": "u0-v133",
+      "zh": "",
+      "jp": "gok3",
+      "en": "Feel",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 2 minimal pair: g vs k (aspiration); contrast with kok3 (Accurate)"
+    },
+    {
+      "id": "u0-v134",
+      "zh": "",
+      "jp": "kok3",
+      "en": "Accurate",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 2 minimal pair: g vs k (aspiration); contrast with gok3 (Feel)"
+    },
+    {
+      "id": "u0-v135",
+      "zh": "",
+      "jp": "kau3",
+      "en": "Deduct",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 2 minimal pair: g vs k (aspiration); contrast with gau3 (Enough)"
+    },
+    {
+      "id": "u0-v136",
+      "zh": "",
+      "jp": "gwan3",
+      "en": "Stick",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 2 minimal pair: gw vs kw (aspiration); contrast with kwan3 (Difficult)"
+    },
+    {
+      "id": "u0-v137",
+      "zh": "",
+      "jp": "kwan3",
+      "en": "Difficult",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 2 minimal pair: gw vs kw (aspiration); contrast with gwan3 (Stick)"
+    },
+    {
+      "id": "u0-v138",
+      "zh": "",
+      "jp": "zoeng1",
+      "en": "Sheet (of paper)",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 2 minimal pair: z vs c (aspiration); contrast with coeng1 (Window)"
+    },
+    {
+      "id": "u0-v139",
+      "zh": "",
+      "jp": "gan1",
+      "en": "Follow",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 3 minimal pair: short a vs long aa; contrast with gaan1 (Classifier for house)"
+    },
+    {
+      "id": "u0-v140",
+      "zh": "",
+      "jp": "gaan1",
+      "en": "Classifier for house",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 3 minimal pair: short a vs long aa; contrast with gan1 (Follow)"
+    },
+    {
+      "id": "u0-v141",
+      "zh": "",
+      "jp": "fan1",
+      "en": "Separate",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 3 minimal pair: short a vs long aa; contrast with faan1 (Back, return)"
+    },
+    {
+      "id": "u0-v142",
+      "zh": "",
+      "jp": "faan1",
+      "en": "Back, return",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 3 minimal pair: short a vs long aa; contrast with fan1 (Separate)"
+    },
+    {
+      "id": "u0-v143",
+      "zh": "",
+      "jp": "saan1",
+      "en": "Mountain",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 3 minimal pair: short a vs long aa; contrast with san1 (New)"
+    },
+    {
+      "id": "u0-v144",
+      "zh": "",
+      "jp": "gam1",
+      "en": "Gold",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 3 minimal pair: short a vs long aa; contrast with gaam1 (Prison)"
+    },
+    {
+      "id": "u0-v145",
+      "zh": "",
+      "jp": "gaam1",
+      "en": "Prison",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 3 minimal pair: short a vs long aa; contrast with gam1 (Gold)"
+    },
+    {
+      "id": "u0-v146",
+      "zh": "",
+      "jp": "lam2",
+      "en": "Think",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 3 minimal pair: short a vs long aa; contrast with laam2 (Hug, embrace)"
+    },
+    {
+      "id": "u0-v147",
+      "zh": "",
+      "jp": "laam2",
+      "en": "Hug, embrace",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 3 minimal pair: short a vs long aa; contrast with lam2 (Think)"
+    },
+    {
+      "id": "u0-v148",
+      "zh": "",
+      "jp": "gam2",
+      "en": "Dare",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 3 minimal pair: short a vs long aa; contrast with gaam2 (Deduct, reduce (price))"
+    },
+    {
+      "id": "u0-v149",
+      "zh": "",
+      "jp": "gaam2",
+      "en": "Deduct, reduce (price)",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 3 minimal pair: short a vs long aa; contrast with gam2 (Dare)"
+    },
+    {
+      "id": "u0-v150",
+      "zh": "",
+      "jp": "lam4",
+      "en": "To water",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 3 minimal pair: short a vs long aa; contrast with laam4 (Blue)"
+    },
+    {
+      "id": "u0-v151",
+      "zh": "",
+      "jp": "laam4",
+      "en": "Blue",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 3 minimal pair: short a vs long aa; contrast with lam4 (To water)"
+    },
+    {
+      "id": "u0-v152",
+      "zh": "",
+      "jp": "gai1",
+      "en": "Chicken",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 3 minimal pair: ai vs aai; contrast with gaai1 (Street)"
+    },
+    {
+      "id": "u0-v153",
+      "zh": "",
+      "jp": "gaai1",
+      "en": "Street",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 3 minimal pair: ai vs aai; contrast with gai1 (Chicken)"
+    },
+    {
+      "id": "u0-v154",
+      "zh": "",
+      "jp": "lai5",
+      "en": "Polite",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 3 minimal pair: ai vs aai (and l vs n); contrast with naai5 (Milk)"
+    },
+    {
+      "id": "u0-v155",
+      "zh": "",
+      "jp": "naai5",
+      "en": "Milk",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 3 minimal pair: ai vs aai (and l vs n); contrast with lai5 (Polite)"
+    },
+    {
+      "id": "u0-v156",
+      "zh": "",
+      "jp": "cau1",
+      "en": "Autumn",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 3 minimal pair: au vs aau; contrast with caau1 (Copy)"
+    },
+    {
+      "id": "u0-v157",
+      "zh": "",
+      "jp": "caau1",
+      "en": "Copy",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 3 minimal pair: au vs aau; contrast with cau1 (Autumn)"
+    },
+    {
+      "id": "u0-v158",
+      "zh": "",
+      "jp": "ling3",
+      "en": "Shiny",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 3 minimal pair: i vs e before -ng; contrast with leng3 (Pretty)"
+    },
+    {
+      "id": "u0-v159",
+      "zh": "",
+      "jp": "ping4",
+      "en": "Flat",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 3 minimal pair: i vs e before -ng; contrast with peng4 (Cheap)"
+    },
+    {
+      "id": "u0-v160",
+      "zh": "",
+      "jp": "peng4",
+      "en": "Cheap",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 3 minimal pair: i vs e before -ng; contrast with ping4 (Flat)"
+    },
+    {
+      "id": "u0-v161",
+      "zh": "",
+      "jp": "lik1",
+      "en": "Take, pick",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 3 minimal pair: i vs e before -k; contrast with lek1 (Clever, smart)"
+    },
+    {
+      "id": "u0-v162",
+      "zh": "",
+      "jp": "lek1",
+      "en": "Clever, smart",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 3 minimal pair: i vs e before -k; contrast with lik1 (Take, pick)"
+    },
+    {
+      "id": "u0-v163",
+      "zh": "",
+      "jp": "ging1",
+      "en": "Pass",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 3 minimal pair: i vs e before -ng; contrast with geng1 (Fear)"
+    },
+    {
+      "id": "u0-v164",
+      "zh": "",
+      "jp": "geng1",
+      "en": "Fear",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 3 minimal pair: i vs e before -ng; contrast with ging1 (Pass)"
+    },
+    {
+      "id": "u0-v165",
+      "zh": "",
+      "jp": "mok6",
+      "en": "Curtain, screen",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 3 minimal pair: o vs u before -k; contrast with muk6 (Wood)"
+    },
+    {
+      "id": "u0-v166",
+      "zh": "",
+      "jp": "muk6",
+      "en": "Wood",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 3 minimal pair: o vs u before -k; contrast with mok6 (Curtain, screen)"
+    },
+    {
+      "id": "u0-v167",
+      "zh": "",
+      "jp": "song3",
+      "en": "Lose, die",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 3 minimal pair: o vs u before -ng; contrast with sung3 (Send)"
+    },
+    {
+      "id": "u0-v168",
+      "zh": "",
+      "jp": "sung3",
+      "en": "Send",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 3 minimal pair: o vs u before -ng; contrast with song3 (Lose, die)"
+    },
+    {
+      "id": "u0-v169",
+      "zh": "",
+      "jp": "lok6",
+      "en": "Happy",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 3 minimal pair: o vs u before -k; contrast with luk6 (Green)"
+    },
+    {
+      "id": "u0-v170",
+      "zh": "",
+      "jp": "luk6",
+      "en": "Green",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 3 minimal pair: o vs u before -k; contrast with lok6 (Happy)"
+    },
+    {
+      "id": "u0-v171",
+      "zh": "",
+      "jp": "dok6",
+      "en": "Measure",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 3 minimal pair: o vs u before -k; contrast with duk6 (Read)"
+    },
+    {
+      "id": "u0-v172",
+      "zh": "",
+      "jp": "duk6",
+      "en": "Read",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 3 minimal pair: o vs u before -k; contrast with dok6 (Measure)"
+    },
+    {
+      "id": "u0-v173",
+      "zh": "",
+      "jp": "mong6",
+      "en": "To stare",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 3 minimal pair: o vs u before -ng; contrast with mung6 (Dream)"
+    },
+    {
+      "id": "u0-v174",
+      "zh": "",
+      "jp": "mung6",
+      "en": "Dream",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 3 minimal pair: o vs u before -ng; contrast with mong6 (To stare)"
+    },
+    {
+      "id": "u0-v175",
+      "zh": "",
+      "jp": "syut3",
+      "en": "Snow",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 4: rounded vowels yu and eo"
+    },
+    {
+      "id": "u0-v176",
+      "zh": "",
+      "jp": "hyut3",
+      "en": "Blood",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 4: rounded vowels yu and eo"
+    },
+    {
+      "id": "u0-v177",
+      "zh": "",
+      "jp": "hoeng1",
+      "en": "Fragrant",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 4: rounded vowels yu and eo"
+    },
+    {
+      "id": "u0-v178",
+      "zh": "",
+      "jp": "koeng4",
+      "en": "Strong",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 4: rounded vowels yu and eo"
+    },
+    {
+      "id": "u0-v179",
+      "zh": "",
+      "jp": "jyun6 ji3",
+      "en": "Willing",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 4: rounded vowels yu and eo"
+    },
+    {
+      "id": "u0-v180",
+      "zh": "",
+      "jp": "cyun3",
+      "en": "To spell/an inch",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 4: rounded vowels yu and eo"
+    },
+    {
+      "id": "u0-v181",
+      "zh": "",
+      "jp": "lyun6",
+      "en": "Chaotic, messy",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 4: rounded vowels yu and eo"
+    },
+    {
+      "id": "u0-v182",
+      "zh": "",
+      "jp": "zyu6",
+      "en": "To live",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 4: rounded vowels yu and eo"
+    },
+    {
+      "id": "u0-v183",
+      "zh": "",
+      "jp": "dyun2",
+      "en": "Short",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 4: rounded vowels yu and eo"
+    },
+    {
+      "id": "u0-v184",
+      "zh": "",
+      "jp": "jyu6 bei6",
+      "en": "Prepare",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 4: rounded vowels yu and eo"
+    },
+    {
+      "id": "u0-v185",
+      "zh": "",
+      "jp": "kyut3 ding6",
+      "en": "Decide",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 4: rounded vowels yu and eo"
+    },
+    {
+      "id": "u0-v186",
+      "zh": "",
+      "jp": "jyut6 beng2",
+      "en": "Mooncake",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 4: rounded vowels yu and eo"
+    },
+    {
+      "id": "u0-v187",
+      "zh": "",
+      "jp": "leon6 zeon6",
+      "en": "Clumsy",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 4: rounded vowels yu and eo"
+    },
+    {
+      "id": "u0-v188",
+      "zh": "",
+      "jp": "maau4 teon5",
+      "en": "Contradiction",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 4: rounded vowels yu and eo"
+    },
+    {
+      "id": "u0-v189",
+      "zh": "",
+      "jp": "mei6",
+      "en": "Not yet",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 5A: diphthong drill (monosyllabic); paired with mei6 dou6 (Taste)"
+    },
+    {
+      "id": "u0-v190",
+      "zh": "",
+      "jp": "mei6 dou6",
+      "en": "Taste",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 5B: diphthong drill (disyllabic); paired with mei6 (Not yet)"
+    },
+    {
+      "id": "u0-v191",
+      "zh": "",
+      "jp": "gei3",
+      "en": "Mail",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 5A: diphthong drill (monosyllabic); paired with zi6 gei2 (Oneself)"
+    },
+    {
+      "id": "u0-v192",
+      "zh": "",
+      "jp": "zi6 gei2",
+      "en": "Oneself",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 5B: diphthong drill (disyllabic); paired with gei3 (Mail)"
+    },
+    {
+      "id": "u0-v193",
+      "zh": "",
+      "jp": "ziu3 gu3",
+      "en": "Take care",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 5B: diphthong drill (disyllabic); paired with jiu3 (Want)"
+    },
+    {
+      "id": "u0-v194",
+      "zh": "",
+      "jp": "siu3",
+      "en": "Smile",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 5A: diphthong drill (monosyllabic); paired with diu3 jyu2 (Fishing)"
+    },
+    {
+      "id": "u0-v195",
+      "zh": "",
+      "jp": "diu3 jyu2",
+      "en": "Fishing",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 5B: diphthong drill (disyllabic); paired with siu3 (Smile)"
+    },
+    {
+      "id": "u0-v196",
+      "zh": "",
+      "jp": "tiu3",
+      "en": "Jump",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 5A: diphthong drill (monosyllabic); paired with tiu3 mou5 (To dance)"
+    },
+    {
+      "id": "u0-v197",
+      "zh": "",
+      "jp": "tiu3 mou5",
+      "en": "To dance",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 5B: diphthong drill (disyllabic); paired with tiu3 (Jump)"
+    },
+    {
+      "id": "u0-v198",
+      "zh": "",
+      "jp": "mui5",
+      "en": "Every, each",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 5A: diphthong drill (monosyllabic); paired with mui6 mui2 (Sister)"
+    },
+    {
+      "id": "u0-v199",
+      "zh": "",
+      "jp": "mui6 mui2",
+      "en": "Sister",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 5B: diphthong drill (disyllabic); paired with mui5 (Every, each)"
+    },
+    {
+      "id": "u0-v200",
+      "zh": "",
+      "jp": "miu5",
+      "en": "(Time) seconds",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 5A: diphthong drill (monosyllabic); paired with kei4 miu6 (Wonderful)"
+    },
+    {
+      "id": "u0-v201",
+      "zh": "",
+      "jp": "kei4 miu6",
+      "en": "Wonderful",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 5B: diphthong drill (disyllabic); paired with miu5 ((Time) seconds)"
+    },
+    {
+      "id": "u0-v202",
+      "zh": "",
+      "jp": "hau6 fui3",
+      "en": "Regret",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 5B: diphthong drill (disyllabic); paired with gui6 (Tired)"
+    },
+    {
+      "id": "u0-v203",
+      "zh": "",
+      "jp": "giu1 ngou6",
+      "en": "Proud",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 5B: diphthong drill (disyllabic); paired with giu3 (Call(ed))"
+    },
+    {
+      "id": "u0-v204",
+      "zh": "",
+      "jp": "hoi1 wui2",
+      "en": "Have a meeting",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 5B: diphthong drill (disyllabic); paired with wui5 (Will)"
+    },
+    {
+      "id": "u0-v205",
+      "zh": "",
+      "jp": "doi2",
+      "en": "Bag",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 5A: diphthong drill (monosyllabic); paired with zoi3 gin3 (See you)"
+    },
+    {
+      "id": "u0-v206",
+      "zh": "",
+      "jp": "zoi3 gin3",
+      "en": "See you",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 5B: diphthong drill (disyllabic); paired with doi2 (Bag)"
+    },
+    {
+      "id": "u0-v207",
+      "zh": "",
+      "jp": "goi2",
+      "en": "Change",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 5A: diphthong drill (monosyllabic); paired with jing1 goi1 (Should)"
+    },
+    {
+      "id": "u0-v208",
+      "zh": "",
+      "jp": "jing1 goi1",
+      "en": "Should",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 5B: diphthong drill (disyllabic); paired with goi2 (Change)"
+    },
+    {
+      "id": "u0-v209",
+      "zh": "",
+      "jp": "gou1",
+      "en": "Tall",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 5A: diphthong drill (monosyllabic); paired with gwong2 gou3 (Advertisement)"
+    },
+    {
+      "id": "u0-v210",
+      "zh": "",
+      "jp": "gwong2 gou3",
+      "en": "Advertisement",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 5B: diphthong drill (disyllabic); paired with gou1 (Tall)"
+    },
+    {
+      "id": "u0-v211",
+      "zh": "",
+      "jp": "lou5",
+      "en": "Old",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 5A: diphthong drill (monosyllabic); paired with din6 nou5 (Computer)"
+    },
+    {
+      "id": "u0-v212",
+      "zh": "",
+      "jp": "din6 nou5",
+      "en": "Computer",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 5B: diphthong drill (disyllabic); paired with lou5 (Old)"
+    },
+    {
+      "id": "u0-v213",
+      "zh": "",
+      "jp": "teoi1",
+      "en": "Push",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 5A: diphthong drill (monosyllabic); paired with teoi3 jau1 (Retire)"
+    },
+    {
+      "id": "u0-v214",
+      "zh": "",
+      "jp": "teoi3 jau1",
+      "en": "Retire",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 5B: diphthong drill (disyllabic); paired with teoi1 (Push)"
+    },
+    {
+      "id": "u0-v215",
+      "zh": "",
+      "jp": "si1",
+      "en": "Poem",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 6 tone drill: tone 1 (high level) in the series si1-si6"
+    },
+    {
+      "id": "u0-v216",
+      "zh": "",
+      "jp": "si2",
+      "en": "History",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 6 tone drill: tone 2 (high rising) in the series si1-si6"
+    },
+    {
+      "id": "u0-v217",
+      "zh": "",
+      "jp": "si3",
+      "en": "Try",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 6 tone drill: tone 3 (mid level) in the series si1-si6"
+    },
+    {
+      "id": "u0-v218",
+      "zh": "",
+      "jp": "si4",
+      "en": "Time",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 6 tone drill: tone 4 (low falling) in the series si1-si6"
+    },
+    {
+      "id": "u0-v219",
+      "zh": "",
+      "jp": "si5",
+      "en": "Market",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 6 tone drill: tone 5 (low rising) in the series si1-si6"
+    },
+    {
+      "id": "u0-v220",
+      "zh": "",
+      "jp": "si6",
+      "en": "Matter",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 6 tone drill: tone 6 (low level) in the series si1-si6"
+    },
+    {
+      "id": "u0-v221",
+      "zh": "",
+      "jp": "fan1",
+      "en": "Split",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 6 tone drill: tone 1 (high level) in the series fan1-fan6"
+    },
+    {
+      "id": "u0-v222",
+      "zh": "",
+      "jp": "fan2",
+      "en": "Powder",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 6 tone drill: tone 2 (high rising) in the series fan1-fan6"
+    },
+    {
+      "id": "u0-v223",
+      "zh": "",
+      "jp": "fan3",
+      "en": "Lie",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 6 tone drill: tone 3 (mid level) in the series fan1-fan6"
+    },
+    {
+      "id": "u0-v224",
+      "zh": "",
+      "jp": "fan4",
+      "en": "Grave",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 6 tone drill: tone 4 (low falling) in the series fan1-fan6"
+    },
+    {
+      "id": "u0-v225",
+      "zh": "",
+      "jp": "fan5",
+      "en": "Excited",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 6 tone drill: tone 5 (low rising) in the series fan1-fan6"
+    },
+    {
+      "id": "u0-v226",
+      "zh": "",
+      "jp": "fan6",
+      "en": "Portion",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 6 tone drill: tone 6 (low level) in the series fan1-fan6"
+    },
+    {
+      "id": "u0-v227",
+      "zh": "",
+      "jp": "seoi1",
+      "en": "Need",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 6 tone drill: tone 1 (high level) in the series seoi1-seoi6"
+    },
+    {
+      "id": "u0-v228",
+      "zh": "",
+      "jp": "seoi2",
+      "en": "Water",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 6 tone drill: tone 2 (high rising) in the series seoi1-seoi6"
+    },
+    {
+      "id": "u0-v229",
+      "zh": "",
+      "jp": "seoi4",
+      "en": "Suspend",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 6 tone drill: tone 4 (low falling) in the series seoi1-seoi6"
+    },
+    {
+      "id": "u0-v230",
+      "zh": "",
+      "jp": "seoi5",
+      "en": "Clue",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 6 tone drill: tone 5 (low rising) in the series seoi1-seoi6"
+    },
+    {
+      "id": "u0-v231",
+      "zh": "",
+      "jp": "seoi6",
+      "en": "Tunnel",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 6 tone drill: tone 6 (low level) in the series seoi1-seoi6"
+    },
+    {
+      "id": "u0-v232",
+      "zh": "",
+      "jp": "jau1",
+      "en": "Rest",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 6 tone drill: tone 1 (high level) in the series jau1-jau6"
+    },
+    {
+      "id": "u0-v233",
+      "zh": "",
+      "jp": "jau2",
+      "en": "Petrol",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 6 tone drill: tone 2 (high rising) in the series jau1-jau6"
+    },
+    {
+      "id": "u0-v234",
+      "zh": "",
+      "jp": "jau3",
+      "en": "Slender",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 6 tone drill: tone 3 (mid level) in the series jau1-jau6"
+    },
+    {
+      "id": "u0-v235",
+      "zh": "",
+      "jp": "jau4",
+      "en": "Swim",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 6 tone drill: tone 4 (low falling) in the series jau1-jau6"
+    },
+    {
+      "id": "u0-v236",
+      "zh": "",
+      "jp": "jau5",
+      "en": "Have",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 6 tone drill: tone 5 (low rising) in the series jau1-jau6"
+    },
+    {
+      "id": "u0-v237",
+      "zh": "",
+      "jp": "jau6",
+      "en": "Again",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 6 tone drill: tone 6 (low level) in the series jau1-jau6"
+    },
+    {
+      "id": "u0-v238",
+      "zh": "",
+      "jp": "fu1",
+      "en": "Husband",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 6 tone drill: tone 1 (high level) in the series fu1-fu6"
+    },
+    {
+      "id": "u0-v239",
+      "zh": "",
+      "jp": "fu2",
+      "en": "Bitter",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 6 tone drill: tone 2 (high rising) in the series fu1-fu6"
+    },
+    {
+      "id": "u0-v240",
+      "zh": "",
+      "jp": "fu4",
+      "en": "Support",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 6 tone drill: tone 4 (low falling) in the series fu1-fu6"
+    },
+    {
+      "id": "u0-v241",
+      "zh": "",
+      "jp": "fu5",
+      "en": "Woman",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 6 tone drill: tone 5 (low rising) in the series fu1-fu6"
+    },
+    {
+      "id": "u0-v242",
+      "zh": "",
+      "jp": "fu6",
+      "en": "Father",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 6 tone drill: tone 6 (low level) in the series fu1-fu6"
+    },
+    {
+      "id": "u0-v243",
+      "zh": "",
+      "jp": "fo2 ce1",
+      "en": "Train",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 8 tone pair: fo2 vs fo3; contrast with fo3 ce1 (Lorry)"
+    },
+    {
+      "id": "u0-v244",
+      "zh": "",
+      "jp": "fo3 ce1",
+      "en": "Lorry",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 8 tone pair: fo2 vs fo3; contrast with fo2 ce1 (Train)"
+    },
+    {
+      "id": "u0-v245",
+      "zh": "",
+      "jp": "ci1 sin3",
+      "en": "Crazy",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 8 tone pair: tones 1-3 vs 4-6; contrast with ci4 sin6 (Charity)"
+    },
+    {
+      "id": "u0-v246",
+      "zh": "",
+      "jp": "ci4 sin6",
+      "en": "Charity",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 8 tone pair: tones 1-3 vs 4-6; contrast with ci1 sin3 (Crazy)"
+    },
+    {
+      "id": "u0-v247",
+      "zh": "",
+      "jp": "lou5 jan4",
+      "en": "Old person",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 8 tone pair: lou5 vs lou6; contrast with lou6 jan4 (Pedestrian)"
+    },
+    {
+      "id": "u0-v248",
+      "zh": "",
+      "jp": "lou6 jan4",
+      "en": "Pedestrian",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 8 tone pair: lou5 vs lou6; contrast with lou5 jan4 (Old person)"
+    },
+    {
+      "id": "u0-v249",
+      "zh": "",
+      "jp": "gaai1 si5",
+      "en": "Market",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 8 tone pair: tones 1-5 vs 3-4 (and aai vs ai); contrast with gai3 si4 (Count the time)"
+    },
+    {
+      "id": "u0-v250",
+      "zh": "",
+      "jp": "gai3 si4",
+      "en": "Count the time",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 8 tone pair: tones 1-5 vs 3-4 (and aai vs ai); contrast with gaai1 si5 (Market)"
+    },
+    {
+      "id": "u0-v251",
+      "zh": "",
+      "jp": "sai2 san1",
+      "en": "To wash one's body",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 8 tone pair: san1 vs san6; contrast with sai2 san6 (Clean the kidney (dialysis))"
+    },
+    {
+      "id": "u0-v252",
+      "zh": "",
+      "jp": "sai2 san6",
+      "en": "Clean the kidney (dialysis)",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 8 tone pair: san1 vs san6; contrast with sai2 san1 (To wash one's body)"
+    },
+    {
+      "id": "u0-v253",
+      "zh": "",
+      "jp": "laang1 saam1",
+      "en": "Sweater",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 8 tone pair: laang1 vs laan6; contrast with laan6 saam1 (Worn-out clothes)"
+    },
+    {
+      "id": "u0-v254",
+      "zh": "",
+      "jp": "laan6 saam1",
+      "en": "Worn-out clothes",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 8 tone pair: laang1 vs laan6; contrast with laang1 saam1 (Sweater)"
+    },
+    {
+      "id": "u0-v255",
+      "zh": "",
+      "jp": "gu2 si5",
+      "en": "Stock market",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 8 tone pair: tones 2-5 vs 3-6; contrast with gu3 si6 (Story)"
+    },
+    {
+      "id": "u0-v256",
+      "zh": "",
+      "jp": "gu3 si6",
+      "en": "Story",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 8 tone pair: tones 2-5 vs 3-6; contrast with gu2 si5 (Stock market)"
+    },
+    {
+      "id": "u0-v257",
+      "zh": "",
+      "jp": "maai6 lau2",
+      "en": "Sell a flat",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 8 tone pair: tones 6-2 vs 5-1; contrast with maai5 lau1 (Buy a jacket)"
+    },
+    {
+      "id": "u0-v258",
+      "zh": "",
+      "jp": "maai5 lau1",
+      "en": "Buy a jacket",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 8 tone pair: tones 6-2 vs 5-1; contrast with maai6 lau2 (Sell a flat)"
+    },
+    {
+      "id": "u0-v259",
+      "zh": "",
+      "jp": "gau2 dim2",
+      "en": "9 o'clock",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 8 tone pair: dim2 vs dim6 (and au vs aau); contrast with gaau2 dim6 (Manage to do something)"
+    },
+    {
+      "id": "u0-v260",
+      "zh": "",
+      "jp": "gaau2 dim6",
+      "en": "Manage to do something",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 8 tone pair: dim2 vs dim6 (and au vs aau); contrast with gau2 dim2 (9 o'clock)"
+    },
+    {
+      "id": "u0-v261",
+      "zh": "",
+      "jp": "soeng1 mong4",
+      "en": "Casualty",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 8 tone pair: tones 1-4 vs 5-5; contrast with soeng5 mong5 (Get on the Internet)"
+    },
+    {
+      "id": "u0-v262",
+      "zh": "",
+      "jp": "soeng5 mong5",
+      "en": "Get on the Internet",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 8 tone pair: tones 1-4 vs 5-5; contrast with soeng1 mong4 (Casualty)"
+    },
+    {
+      "id": "u0-v263",
+      "zh": "",
+      "jp": "man4",
+      "en": "Information",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 9 example: takes changed tone in san1 man2 (news)"
+    },
+    {
+      "id": "u0-v264",
+      "zh": "",
+      "jp": "san1 man2",
+      "en": "News",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Changed tone: man4 -> man2 (Practice 9 example)"
+    },
+    {
+      "id": "u0-v265",
+      "zh": "",
+      "jp": "hau6",
+      "en": "Behind",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 9: first element of hau6 mun2 (Back door)"
+    },
+    {
+      "id": "u0-v266",
+      "zh": "",
+      "jp": "mun4",
+      "en": "Door",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 9: takes the high-rising changed tone in hau6 mun2 (Back door) | Practice 9: takes the high-rising changed tone in ou3 mun2 (Macau (place name))"
+    },
+    {
+      "id": "u0-v267",
+      "zh": "",
+      "jp": "hau6 mun2",
+      "en": "Back door",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Changed tone: mun4 -> mun2 (romanisation derived by the Practice 9 rule; the answer column is blank on the sheet)"
+    },
+    {
+      "id": "u0-v268",
+      "zh": "",
+      "jp": "jau4",
+      "en": "Oil",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 9: first element of jau4 tiu2 (Chinese fried doughnut) | Practice 9: takes the high-rising changed tone in jap6 jau2 (Fill up with petrol)"
+    },
+    {
+      "id": "u0-v269",
+      "zh": "",
+      "jp": "tiu4",
+      "en": "Strip",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 9: takes the high-rising changed tone in jau4 tiu2 (Chinese fried doughnut)"
+    },
+    {
+      "id": "u0-v270",
+      "zh": "",
+      "jp": "jau4 tiu2",
+      "en": "Chinese fried doughnut",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Changed tone: tiu4 -> tiu2 (romanisation derived by the Practice 9 rule; the answer column is blank on the sheet)"
+    },
+    {
+      "id": "u0-v271",
+      "zh": "",
+      "jp": "bun3",
+      "en": "Half",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 9: first element of bun3 je2 (Midnight)"
+    },
+    {
+      "id": "u0-v272",
+      "zh": "",
+      "jp": "je6",
+      "en": "Late",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 9: takes the high-rising changed tone in bun3 je2 (Midnight) | Practice 9: takes the high-rising changed tone in siu1 je2 (Late-night meal)"
+    },
+    {
+      "id": "u0-v273",
+      "zh": "",
+      "jp": "bun3 je2",
+      "en": "Midnight",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Changed tone: je6 -> je2 (romanisation derived by the Practice 9 rule; the answer column is blank on the sheet)"
+    },
+    {
+      "id": "u0-v274",
+      "zh": "",
+      "jp": "siu1",
+      "en": "Burn",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 9: first element of siu1 je2 (Late-night meal)"
+    },
+    {
+      "id": "u0-v275",
+      "zh": "",
+      "jp": "siu1 je2",
+      "en": "Late-night meal",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Changed tone: je6 -> je2 (romanisation derived by the Practice 9 rule; the answer column is blank on the sheet)"
+    },
+    {
+      "id": "u0-v276",
+      "zh": "",
+      "jp": "dak1",
+      "en": "German",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 9: first element of dak1 man2 (German)"
+    },
+    {
+      "id": "u0-v277",
+      "zh": "",
+      "jp": "man4",
+      "en": "Language",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 9: takes the high-rising changed tone in dak1 man2 (German)"
+    },
+    {
+      "id": "u0-v278",
+      "zh": "",
+      "jp": "dak1 man2",
+      "en": "German",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Changed tone: man4 -> man2 (romanisation derived by the Practice 9 rule; the answer column is blank on the sheet)"
+    },
+    {
+      "id": "u0-v279",
+      "zh": "",
+      "jp": "paang4",
+      "en": "Scaffolding",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 9: takes the high-rising changed tone in tin1 paang2 (Roof top)"
+    },
+    {
+      "id": "u0-v280",
+      "zh": "",
+      "jp": "tin1 paang2",
+      "en": "Roof top",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Changed tone: paang4 -> paang2 (romanisation derived by the Practice 9 rule; the answer column is blank on the sheet)"
+    },
+    {
+      "id": "u0-v281",
+      "zh": "",
+      "jp": "saam1 zek3",
+      "en": "Three (classifier)",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 9: first element of saam1 zek3 dip2 (Three dishes)"
+    },
+    {
+      "id": "u0-v282",
+      "zh": "",
+      "jp": "dip6",
+      "en": "Dish",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 9: takes the high-rising changed tone in saam1 zek3 dip2 (Three dishes)"
+    },
+    {
+      "id": "u0-v283",
+      "zh": "",
+      "jp": "saam1 zek3 dip2",
+      "en": "Three dishes",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Changed tone: dip6 -> dip2 (romanisation derived by the Practice 9 rule; the answer column is blank on the sheet)"
+    },
+    {
+      "id": "u0-v284",
+      "zh": "",
+      "jp": "ou3",
+      "en": "Bay",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 9: first element of ou3 mun2 (Macau (place name))"
+    },
+    {
+      "id": "u0-v285",
+      "zh": "",
+      "jp": "ou3 mun2",
+      "en": "Macau (place name)",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Changed tone: mun4 -> mun2 (romanisation derived by the Practice 9 rule; the answer column is blank on the sheet)"
+    },
+    {
+      "id": "u0-v286",
+      "zh": "",
+      "jp": "jap6",
+      "en": "Put in",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 9: first element of jap6 jau2 (Fill up with petrol)"
+    },
+    {
+      "id": "u0-v287",
+      "zh": "",
+      "jp": "jap6 jau2",
+      "en": "Fill up with petrol",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Changed tone: jau4 -> jau2 (romanisation derived by the Practice 9 rule; the answer column is blank on the sheet)"
+    },
+    {
+      "id": "u0-v288",
+      "zh": "",
+      "jp": "faa1",
+      "en": "Flower",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 9: first element of faa1 jyun2 (Garden)"
+    },
+    {
+      "id": "u0-v289",
+      "zh": "",
+      "jp": "jyun4",
+      "en": "Garden",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Practice 9: takes the high-rising changed tone in faa1 jyun2 (Garden)"
+    },
+    {
+      "id": "u0-v290",
+      "zh": "",
+      "jp": "faa1 jyun2",
+      "en": "Garden",
+      "section": "Phonology",
+      "pos": "",
+      "notes": "Changed tone: jyun4 -> jyun2 (romanisation derived by the Practice 9 rule; the answer column is blank on the sheet)"
+    }
+  ],
+  "dialogues": [],
+  "grammar": [
+    {
+      "id": "u0-g01",
+      "title": "Consonants: initials",
+      "summary": "Cantonese initials fall into unaspirated, aspirated, fricative and nasal/liquid series; the unaspirated/aspirated pairs (b/p, d/t, g/k, gw/kw, z/c) are distinguished only by a burst of air.",
+      "body": "Initials table (Unaspirated / Aspirated / Fricative / Nasal-liquid):\nBilabial: b / p / f / m\nDental/alveolar: d / t / s / n, l\nVelar/glottal: g / k / h / ng\nLabio-velar: gw / kw\nAlveolar affricates: z / c\n- The fricatives and nasals are pronounced the same as in English\n- The first two columns may post more difficulty because they are distinguished by aspiration - a burst of air (e.g., bat1 'pen', d- as in deoi3 'pair' and g- as in gwai3 'expensive')\n- In the labio-velar consonants gw and kw, the initial velar consonant is articulated more or less simultaneously with the bilabial [w] (e.g., gwaa3 'hang' and kwan4 'skirt')",
+      "examples": [
+        {
+          "id": "u0-g01-e01",
+          "jp": "bat1",
+          "zh": "",
+          "en": "Pen",
+          "lit": ""
+        },
+        {
+          "id": "u0-g01-e02",
+          "jp": "deoi3",
+          "zh": "",
+          "en": "Pair",
+          "lit": ""
+        },
+        {
+          "id": "u0-g01-e03",
+          "jp": "gwai3",
+          "zh": "",
+          "en": "Expensive",
+          "lit": ""
+        },
+        {
+          "id": "u0-g01-e04",
+          "jp": "gwaa3",
+          "zh": "",
+          "en": "Hang",
+          "lit": ""
+        },
+        {
+          "id": "u0-g01-e05",
+          "jp": "kwan4",
+          "zh": "",
+          "en": "Skirt",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "phonology",
+        "consonants",
+        "initials",
+        "aspiration"
+      ]
+    },
+    {
+      "id": "u0-g02",
+      "title": "Consonants: the affricates z and c",
+      "summary": "z and c are distinguished by aspiration; their exact sound depends on the following vowel (alveo-palatal before i, yu, eo/eoi; alveolar elsewhere).",
+      "body": "- [z] and [c] are distinguished by aspiration, pronunciation differed by following vowels\n- (i) Before the front vowels i, yu and eo or eoi they are alveo-palatal, respectively, formed with the tongue touching both the alveolar ridge and the palate, the sounds are fairly close to their English counterparts as in 'June' and 'choose'\n- (ii) In all other cases they are alveolar, [ts] and [ts'] respectively, formed at the front of the mouth (like d and t) at the alveolar ridge just behind the teeth",
+      "examples": [
+        {
+          "id": "u0-g02-e01",
+          "jp": "zi1",
+          "zh": "",
+          "en": "To know",
+          "lit": ""
+        },
+        {
+          "id": "u0-g02-e02",
+          "jp": "ci1",
+          "zh": "",
+          "en": "To stick",
+          "lit": ""
+        },
+        {
+          "id": "u0-g02-e03",
+          "jp": "zyu1",
+          "zh": "",
+          "en": "Pig",
+          "lit": ""
+        },
+        {
+          "id": "u0-g02-e04",
+          "jp": "cyun1",
+          "zh": "",
+          "en": "Village",
+          "lit": ""
+        },
+        {
+          "id": "u0-g02-e05",
+          "jp": "zeoi1",
+          "zh": "",
+          "en": "To chase",
+          "lit": ""
+        },
+        {
+          "id": "u0-g02-e06",
+          "jp": "ceoi1",
+          "zh": "",
+          "en": "To blow",
+          "lit": ""
+        },
+        {
+          "id": "u0-g02-e07",
+          "jp": "zaa1",
+          "zh": "",
+          "en": "To drive",
+          "lit": ""
+        },
+        {
+          "id": "u0-g02-e08",
+          "jp": "caa4",
+          "zh": "",
+          "en": "Tea",
+          "lit": ""
+        },
+        {
+          "id": "u0-g02-e09",
+          "jp": "zong6",
+          "zh": "",
+          "en": "Crash",
+          "lit": ""
+        },
+        {
+          "id": "u0-g02-e10",
+          "jp": "co3",
+          "zh": "",
+          "en": "Wrong",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "phonology",
+        "consonants",
+        "initials",
+        "affricates"
+      ]
+    },
+    {
+      "id": "u0-g03",
+      "title": "Semivowels w- and j-",
+      "summary": "The semivowels w- and j- begin syllables and sound much as in English.",
+      "body": "- The semivowels w- and j- also occur at the beginning of a syllable. They can be pronounced much the same as in English",
+      "examples": [
+        {
+          "id": "u0-g03-e01",
+          "jp": "waa6",
+          "zh": "",
+          "en": "Say",
+          "lit": ""
+        },
+        {
+          "id": "u0-g03-e02",
+          "jp": "wui5",
+          "zh": "",
+          "en": "Will",
+          "lit": ""
+        },
+        {
+          "id": "u0-g03-e03",
+          "jp": "jiu3",
+          "zh": "",
+          "en": "Want",
+          "lit": ""
+        },
+        {
+          "id": "u0-g03-e04",
+          "jp": "jung6",
+          "zh": "",
+          "en": "Use",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "phonology",
+        "consonants",
+        "initials",
+        "semivowels"
+      ]
+    },
+    {
+      "id": "u0-g04",
+      "title": "Consonants: nasals (ng- and n/l)",
+      "summary": "The velar nasal ng- can begin a syllable but is frequently dropped by speakers; words beginning with n- are mostly pronounced with l- instead.",
+      "body": "The velar nasal written as ng- is a single consonant which presents two problems:\n1. It is basically the same sound in English words like 'sing' and 'singer', but in Cantonese it can begin a syllable, as in ngo5 'I/me' (can be produced by pronouncing 'singer' as 'si-nger')\n2. Cantonese speakers frequently do not pronounce it where expected. Thus the pronoun 'I' is often heard as o5, 'duck' is either ngaap3 or aap3, while ng5 'five' may be pronounced as m5 instead.\nSimilar problem arises with the distinction between n and l, although certain words begin with n, notably the pronoun nei5 'you', most speakers pronounce these with l instead:",
+      "examples": [
+        {
+          "id": "u0-g04-e01",
+          "jp": "ngo5",
+          "zh": "",
+          "en": "I/me",
+          "lit": ""
+        },
+        {
+          "id": "u0-g04-e02",
+          "jp": "o5",
+          "zh": "",
+          "en": "I/me (ng- dropped)",
+          "lit": ""
+        },
+        {
+          "id": "u0-g04-e03",
+          "jp": "ngaap3",
+          "zh": "",
+          "en": "Duck",
+          "lit": ""
+        },
+        {
+          "id": "u0-g04-e04",
+          "jp": "aap3",
+          "zh": "",
+          "en": "Duck (ng- dropped)",
+          "lit": ""
+        },
+        {
+          "id": "u0-g04-e05",
+          "jp": "ng5",
+          "zh": "",
+          "en": "Five",
+          "lit": ""
+        },
+        {
+          "id": "u0-g04-e06",
+          "jp": "m5",
+          "zh": "",
+          "en": "Five (variant of ng5)",
+          "lit": ""
+        },
+        {
+          "id": "u0-g04-e07",
+          "jp": "nei5",
+          "zh": "",
+          "en": "You",
+          "lit": ""
+        },
+        {
+          "id": "u0-g04-e08",
+          "jp": "neoi5 jan2",
+          "zh": "",
+          "en": "Woman",
+          "lit": ""
+        },
+        {
+          "id": "u0-g04-e09",
+          "jp": "leoi5 jan2",
+          "zh": "",
+          "en": "Woman (l- variant)",
+          "lit": ""
+        },
+        {
+          "id": "u0-g04-e10",
+          "jp": "nam2",
+          "zh": "",
+          "en": "Think",
+          "lit": ""
+        },
+        {
+          "id": "u0-g04-e11",
+          "jp": "lam2",
+          "zh": "",
+          "en": "Think (l- variant)",
+          "lit": ""
+        },
+        {
+          "id": "u0-g04-e12",
+          "jp": "ni1 dou6",
+          "zh": "",
+          "en": "Here",
+          "lit": ""
+        },
+        {
+          "id": "u0-g04-e13",
+          "jp": "li1 dou6",
+          "zh": "",
+          "en": "Here (l- variant)",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "phonology",
+        "consonants",
+        "initials",
+        "nasals"
+      ]
+    },
+    {
+      "id": "u0-g05",
+      "title": "Syllabic nasals",
+      "summary": "m and ng occur as syllables in their own right: m4 'not', ng5 'five', ng4 'Ng'.",
+      "body": "- The nasal consonants m and ng occur as syllables in their own right\n- The most frequently encountered examples are:\n- 唔 m4 not (the main negative word)\n- 五 ng5 five (also pronounced m5)\n- 吴 ng4 Ng (a common surname)",
+      "examples": [
+        {
+          "id": "u0-g05-e01",
+          "jp": "m4",
+          "zh": "唔",
+          "en": "Not (the main negative word)",
+          "lit": ""
+        },
+        {
+          "id": "u0-g05-e02",
+          "jp": "ng5",
+          "zh": "五",
+          "en": "Five (also pronounced m5)",
+          "lit": ""
+        },
+        {
+          "id": "u0-g05-e03",
+          "jp": "ng4",
+          "zh": "吴",
+          "en": "Ng (a common surname)",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "phonology",
+        "consonants",
+        "syllabic-nasals"
+      ]
+    },
+    {
+      "id": "u0-g06",
+      "title": "Consonants: finals",
+      "summary": "Only the stops -p, -t, -k (unreleased) and the nasals -m, -n, -ng occur at the end of a syllable.",
+      "body": "Only two kinds of consonants occur at the end of a syllable\n1. the stops -p, -t, -k (unreleased as in \"yep\" in English), more difficult to hear than produce:\n   baat3 Eight vs. baak3 hundred\n   sap1 ce1 wet car vs. sat1 ce1 Missing car vs. sak1 ce1 Traffic jam\n2. The nasals -m, -n, -ng: these are easily pronounced:\n   saam1 Three vs. saan1 To close vs. saang1 Alive\n   naam4 South vs. naan4 Difficult vs. laang5 cold\nNote don't pronounce -ng words with -n such as hok6 saang1 'student' for hok6 saan1",
+      "examples": [
+        {
+          "id": "u0-g06-e01",
+          "jp": "baat3",
+          "zh": "",
+          "en": "Eight",
+          "lit": ""
+        },
+        {
+          "id": "u0-g06-e02",
+          "jp": "baak3",
+          "zh": "",
+          "en": "Hundred",
+          "lit": ""
+        },
+        {
+          "id": "u0-g06-e03",
+          "jp": "sap1 ce1",
+          "zh": "",
+          "en": "Wet car",
+          "lit": ""
+        },
+        {
+          "id": "u0-g06-e04",
+          "jp": "sat1 ce1",
+          "zh": "",
+          "en": "Missing car",
+          "lit": ""
+        },
+        {
+          "id": "u0-g06-e05",
+          "jp": "sak1 ce1",
+          "zh": "",
+          "en": "Traffic jam",
+          "lit": ""
+        },
+        {
+          "id": "u0-g06-e06",
+          "jp": "saam1",
+          "zh": "",
+          "en": "Three",
+          "lit": ""
+        },
+        {
+          "id": "u0-g06-e07",
+          "jp": "saan1",
+          "zh": "",
+          "en": "To close",
+          "lit": ""
+        },
+        {
+          "id": "u0-g06-e08",
+          "jp": "saang1",
+          "zh": "",
+          "en": "Alive",
+          "lit": ""
+        },
+        {
+          "id": "u0-g06-e09",
+          "jp": "naam4",
+          "zh": "",
+          "en": "South",
+          "lit": ""
+        },
+        {
+          "id": "u0-g06-e10",
+          "jp": "naan4",
+          "zh": "",
+          "en": "Difficult",
+          "lit": ""
+        },
+        {
+          "id": "u0-g06-e11",
+          "jp": "laang5",
+          "zh": "",
+          "en": "Cold",
+          "lit": ""
+        },
+        {
+          "id": "u0-g06-e12",
+          "jp": "hok6 saang1",
+          "zh": "",
+          "en": "Student",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "phonology",
+        "consonants",
+        "finals"
+      ]
+    },
+    {
+      "id": "u0-g07",
+      "title": "Vowels: eight in Cantonese",
+      "summary": "Cantonese has eight vowels: a, aa, i, e, o, u, yu, eo.",
+      "body": "Vowel / Cantonese / Translation / English counterpart:\na - bat1 Pen - Similar to the vowel in \"but\"\naa - saam1 Three - Similar to the vowel in \"father\"\ni - si1 Silk - Similar to the vowel in \"see\"\ne - leng3 Pretty - Similar to the vowel in \"pet\"\no - do1 Many - Similar to the vowel in \"paw\"\nu - fu3 Trousers - Similar to the vowel in \"fool\"\nyu - syu1 Book - Similar to the vowel in French \"tu\"\neo - seon3 letter - Similar to the vowel in French \"Peugeot\"",
+      "examples": [
+        {
+          "id": "u0-g07-e01",
+          "jp": "bat1",
+          "zh": "",
+          "en": "Pen (a, as in 'but')",
+          "lit": ""
+        },
+        {
+          "id": "u0-g07-e02",
+          "jp": "saam1",
+          "zh": "",
+          "en": "Three (aa, as in 'father')",
+          "lit": ""
+        },
+        {
+          "id": "u0-g07-e03",
+          "jp": "si1",
+          "zh": "",
+          "en": "Silk (i, as in 'see')",
+          "lit": ""
+        },
+        {
+          "id": "u0-g07-e04",
+          "jp": "leng3",
+          "zh": "",
+          "en": "Pretty (e, as in 'pet')",
+          "lit": ""
+        },
+        {
+          "id": "u0-g07-e05",
+          "jp": "do1",
+          "zh": "",
+          "en": "Many (o, as in 'paw')",
+          "lit": ""
+        },
+        {
+          "id": "u0-g07-e06",
+          "jp": "fu3",
+          "zh": "",
+          "en": "Trousers (u, as in 'fool')",
+          "lit": ""
+        },
+        {
+          "id": "u0-g07-e07",
+          "jp": "syu1",
+          "zh": "",
+          "en": "Book (yu, as in French 'tu')",
+          "lit": ""
+        },
+        {
+          "id": "u0-g07-e08",
+          "jp": "seon3",
+          "zh": "",
+          "en": "Letter (eo, as in French 'Peugeot')",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "phonology",
+        "vowels"
+      ]
+    },
+    {
+      "id": "u0-g08",
+      "title": "Vowels: long and short a",
+      "summary": "Minimal pairs distinguished only by vowel length (a vs aa).",
+      "body": "- The following minimal pairs differ in the length of the vowel:\nsam1 heart / saam1 Three\nman6 Ask / maan6 Slow\nhang4 Permanent / haang4 Walk\nkat1 Cough / kaa1 Card",
+      "examples": [
+        {
+          "id": "u0-g08-e01",
+          "jp": "sam1",
+          "zh": "",
+          "en": "Heart",
+          "lit": ""
+        },
+        {
+          "id": "u0-g08-e02",
+          "jp": "saam1",
+          "zh": "",
+          "en": "Three",
+          "lit": ""
+        },
+        {
+          "id": "u0-g08-e03",
+          "jp": "man6",
+          "zh": "",
+          "en": "Ask",
+          "lit": ""
+        },
+        {
+          "id": "u0-g08-e04",
+          "jp": "maan6",
+          "zh": "",
+          "en": "Slow",
+          "lit": ""
+        },
+        {
+          "id": "u0-g08-e05",
+          "jp": "hang4",
+          "zh": "",
+          "en": "Permanent",
+          "lit": ""
+        },
+        {
+          "id": "u0-g08-e06",
+          "jp": "haang4",
+          "zh": "",
+          "en": "Walk",
+          "lit": ""
+        },
+        {
+          "id": "u0-g08-e07",
+          "jp": "kat1",
+          "zh": "",
+          "en": "Cough",
+          "lit": ""
+        },
+        {
+          "id": "u0-g08-e08",
+          "jp": "kaa1",
+          "zh": "",
+          "en": "Card",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "phonology",
+        "vowels",
+        "vowel-length"
+      ]
+    },
+    {
+      "id": "u0-g09",
+      "title": "Vowels: front rounded vowels yu and eo",
+      "summary": "yu and eo are single vowels made at the front of the mouth with rounded lips (like French u / eu).",
+      "body": "- The digraphs yu and eo represent single vowels produced at the front of the mouth with rounded lips\n- yu is similar to French 'u' and German 'ü'. In English something like it appears in the second syllable of 'issue'.\n- eo is similar to French 'eu' as in the second syllable in 'hors d'oeuvre'. English speakers may try to pronounce 'her' with rounded lips (as if pouting)",
+      "examples": [],
+      "tags": [
+        "phonology",
+        "vowels",
+        "rounded-vowels"
+      ]
+    },
+    {
+      "id": "u0-g10",
+      "title": "Variable vowels",
+      "summary": "High vowels become more open before the velar consonants -k and -ng.",
+      "body": "- The sound of a vowel can be affected by a following consonant. High vowels become more open before the velar consonants -k and -ng:\nsik6 eat / sek6 Stone\nging1 Pass by / geng1 Be afraid\nluk6 six / lok6 To go down\ntung4 with / tong4 sugar\nzeok3 wear / ceot1 Go out\ncoeng1 window / zeon1 Bottle",
+      "examples": [
+        {
+          "id": "u0-g10-e01",
+          "jp": "sik6",
+          "zh": "",
+          "en": "Eat",
+          "lit": ""
+        },
+        {
+          "id": "u0-g10-e02",
+          "jp": "sek6",
+          "zh": "",
+          "en": "Stone",
+          "lit": ""
+        },
+        {
+          "id": "u0-g10-e03",
+          "jp": "ging1",
+          "zh": "",
+          "en": "Pass by",
+          "lit": ""
+        },
+        {
+          "id": "u0-g10-e04",
+          "jp": "geng1",
+          "zh": "",
+          "en": "Be afraid",
+          "lit": ""
+        },
+        {
+          "id": "u0-g10-e05",
+          "jp": "luk6",
+          "zh": "",
+          "en": "Six",
+          "lit": ""
+        },
+        {
+          "id": "u0-g10-e06",
+          "jp": "lok6",
+          "zh": "",
+          "en": "To go down",
+          "lit": ""
+        },
+        {
+          "id": "u0-g10-e07",
+          "jp": "tung4",
+          "zh": "",
+          "en": "With",
+          "lit": ""
+        },
+        {
+          "id": "u0-g10-e08",
+          "jp": "tong4",
+          "zh": "",
+          "en": "Sugar",
+          "lit": ""
+        },
+        {
+          "id": "u0-g10-e09",
+          "jp": "zeok3",
+          "zh": "",
+          "en": "Wear",
+          "lit": ""
+        },
+        {
+          "id": "u0-g10-e10",
+          "jp": "ceot1",
+          "zh": "",
+          "en": "Go out",
+          "lit": ""
+        },
+        {
+          "id": "u0-g10-e11",
+          "jp": "coeng1",
+          "zh": "",
+          "en": "Window",
+          "lit": ""
+        },
+        {
+          "id": "u0-g10-e12",
+          "jp": "zeon1",
+          "zh": "",
+          "en": "Bottle",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "phonology",
+        "vowels",
+        "variable-vowels"
+      ]
+    },
+    {
+      "id": "u0-g11",
+      "title": "Vowels: diphthongs",
+      "summary": "Diphthongs shift from one vowel to another within one syllable: iu, oi, ou, ei, ui, eoi.",
+      "body": "- These combinations of two vowel sounds are produced by shifting from one vowel to another over the course of one syllable:\niu - giu3 call(ed) - As in English 'few'\noi - coi3 Vegetable - As in English 'boy'\nou - dou3 Arrive - As in English 'hold'\nei - sei3 Four - As in English 'say'\nui - gui6 Tired - As in English 'goo-ey' (but pronounced as only one syllable)\neoi - seoi3 tax - The front rounded vowel eo followed by the glide i",
+      "examples": [
+        {
+          "id": "u0-g11-e01",
+          "jp": "giu3",
+          "zh": "",
+          "en": "Call(ed) (iu, as in 'few')",
+          "lit": ""
+        },
+        {
+          "id": "u0-g11-e02",
+          "jp": "coi3",
+          "zh": "",
+          "en": "Vegetable (oi, as in 'boy')",
+          "lit": ""
+        },
+        {
+          "id": "u0-g11-e03",
+          "jp": "dou3",
+          "zh": "",
+          "en": "Arrive (ou, as in 'hold')",
+          "lit": ""
+        },
+        {
+          "id": "u0-g11-e04",
+          "jp": "sei3",
+          "zh": "",
+          "en": "Four (ei, as in 'say')",
+          "lit": ""
+        },
+        {
+          "id": "u0-g11-e05",
+          "jp": "gui6",
+          "zh": "",
+          "en": "Tired (ui, as in 'goo-ey' in one syllable)",
+          "lit": ""
+        },
+        {
+          "id": "u0-g11-e06",
+          "jp": "seoi3",
+          "zh": "",
+          "en": "Tax (eoi: eo followed by the glide i)",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "phonology",
+        "vowels",
+        "diphthongs"
+      ]
+    },
+    {
+      "id": "u0-g12",
+      "title": "Vowels: diphthongs with short a and long aa",
+      "summary": "Diphthongs come in short-a (ai, au) and long-aa (aai, aau) versions; aai is like 'sky', aau like 'how'.",
+      "body": "- There are diphthongs corresponding to both short a and long aa, the long diphthongs are close to those in English: aai is similar to that in 'sky', aau to that in 'how'\nai: sai1 west / aai: saai1 to waste\nai: mai5 Uncooked rice / aai: maai5 to buy\nau: gau3 enough / aau: gaau3 to teach\nau: lau6 leak / aau: naau6 to scold",
+      "examples": [
+        {
+          "id": "u0-g12-e01",
+          "jp": "sai1",
+          "zh": "",
+          "en": "West",
+          "lit": ""
+        },
+        {
+          "id": "u0-g12-e02",
+          "jp": "saai1",
+          "zh": "",
+          "en": "To waste",
+          "lit": ""
+        },
+        {
+          "id": "u0-g12-e03",
+          "jp": "mai5",
+          "zh": "",
+          "en": "Uncooked rice",
+          "lit": ""
+        },
+        {
+          "id": "u0-g12-e04",
+          "jp": "maai5",
+          "zh": "",
+          "en": "To buy",
+          "lit": ""
+        },
+        {
+          "id": "u0-g12-e05",
+          "jp": "gau3",
+          "zh": "",
+          "en": "Enough",
+          "lit": ""
+        },
+        {
+          "id": "u0-g12-e06",
+          "jp": "gaau3",
+          "zh": "",
+          "en": "To teach",
+          "lit": ""
+        },
+        {
+          "id": "u0-g12-e07",
+          "jp": "lau6",
+          "zh": "",
+          "en": "Leak",
+          "lit": ""
+        },
+        {
+          "id": "u0-g12-e08",
+          "jp": "naau6",
+          "zh": "",
+          "en": "To scold",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "phonology",
+        "vowels",
+        "diphthongs",
+        "vowel-length"
+      ]
+    },
+    {
+      "id": "u0-g13",
+      "title": "Tones: deviation in pitch changes the identity of a word",
+      "summary": "The same syllable with a different tone is a different word.",
+      "body": "Deviation in pitch changes the identity of a word\nHigh level / Low level / Mid level / Low level (column headings as printed on the slide):\nsan1 New / san6 kidney / gau3 enough / gau6 old, dated\nsyu1 book / syu6 tree / dim3 To touch / dim6 OK, done\nlau1 jacket / lau4 apartment / ngo2 goose / ngo5 I\njat1 bun3 One half / jat1 bun2 One (book) / ci2 teeth / ci5 resemble",
+      "examples": [
+        {
+          "id": "u0-g13-e01",
+          "jp": "san1",
+          "zh": "",
+          "en": "New",
+          "lit": ""
+        },
+        {
+          "id": "u0-g13-e02",
+          "jp": "san6",
+          "zh": "",
+          "en": "Kidney",
+          "lit": ""
+        },
+        {
+          "id": "u0-g13-e03",
+          "jp": "gau3",
+          "zh": "",
+          "en": "Enough",
+          "lit": ""
+        },
+        {
+          "id": "u0-g13-e04",
+          "jp": "gau6",
+          "zh": "",
+          "en": "Old, dated",
+          "lit": ""
+        },
+        {
+          "id": "u0-g13-e05",
+          "jp": "syu1",
+          "zh": "",
+          "en": "Book",
+          "lit": ""
+        },
+        {
+          "id": "u0-g13-e06",
+          "jp": "syu6",
+          "zh": "",
+          "en": "Tree",
+          "lit": ""
+        },
+        {
+          "id": "u0-g13-e07",
+          "jp": "dim3",
+          "zh": "",
+          "en": "To touch",
+          "lit": ""
+        },
+        {
+          "id": "u0-g13-e08",
+          "jp": "dim6",
+          "zh": "",
+          "en": "OK, done",
+          "lit": ""
+        },
+        {
+          "id": "u0-g13-e09",
+          "jp": "lau1",
+          "zh": "",
+          "en": "Jacket",
+          "lit": ""
+        },
+        {
+          "id": "u0-g13-e10",
+          "jp": "lau4",
+          "zh": "",
+          "en": "Apartment",
+          "lit": ""
+        },
+        {
+          "id": "u0-g13-e11",
+          "jp": "ngo2",
+          "zh": "",
+          "en": "Goose",
+          "lit": ""
+        },
+        {
+          "id": "u0-g13-e12",
+          "jp": "ngo5",
+          "zh": "",
+          "en": "I",
+          "lit": ""
+        },
+        {
+          "id": "u0-g13-e13",
+          "jp": "jat1 bun3",
+          "zh": "",
+          "en": "One half",
+          "lit": ""
+        },
+        {
+          "id": "u0-g13-e14",
+          "jp": "jat1 bun2",
+          "zh": "",
+          "en": "One (book)",
+          "lit": ""
+        },
+        {
+          "id": "u0-g13-e15",
+          "jp": "ci2",
+          "zh": "",
+          "en": "Teeth",
+          "lit": ""
+        },
+        {
+          "id": "u0-g13-e16",
+          "jp": "ci5",
+          "zh": "",
+          "en": "Resemble",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "phonology",
+        "tones"
+      ]
+    },
+    {
+      "id": "u0-g14",
+      "title": "The six tones",
+      "summary": "For beginners six tones are plenty (Hong Kong Cantonese): 1 high level, 2 high rising, 3 mid level, 4 low falling, 5 low rising, 6 low level.",
+      "body": "How many tones? Different dialects of Cantonese vary\n- For beginner six tone are plenty (based on Hong Kong Cantonese) shown with vowel a as an example\nTone table (Rising / Level / Falling):\nHigh: a2 rising (high to mid), a1 level\nMid: a3 level\nLow: a5 rising (low to mid), a6 level, a4 falling\nPitch chart: 1 high level; 2 rises from low-mid to high; 3 mid level; 5 rises from low-mid to mid; 6 low-mid level; 4 falls from low-mid to low",
+      "examples": [
+        {
+          "id": "u0-g14-e01",
+          "jp": "a1",
+          "zh": "",
+          "en": "Tone 1: high level",
+          "lit": ""
+        },
+        {
+          "id": "u0-g14-e02",
+          "jp": "a2",
+          "zh": "",
+          "en": "Tone 2: high rising",
+          "lit": ""
+        },
+        {
+          "id": "u0-g14-e03",
+          "jp": "a3",
+          "zh": "",
+          "en": "Tone 3: mid level",
+          "lit": ""
+        },
+        {
+          "id": "u0-g14-e04",
+          "jp": "a4",
+          "zh": "",
+          "en": "Tone 4: low falling",
+          "lit": ""
+        },
+        {
+          "id": "u0-g14-e05",
+          "jp": "a5",
+          "zh": "",
+          "en": "Tone 5: low rising",
+          "lit": ""
+        },
+        {
+          "id": "u0-g14-e06",
+          "jp": "a6",
+          "zh": "",
+          "en": "Tone 6: low level",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "phonology",
+        "tones",
+        "tone-table"
+      ]
+    },
+    {
+      "id": "u0-g15",
+      "title": "Tones: useful strategies for beginners",
+      "summary": "The three level tones are easiest; tone 1 is like 'see!', tone 6 like 'se' in 'select', tone 3 halfway; tone 4 has a creaky voice; English intonation approximates the rising and falling tones.",
+      "body": "- 3 level tones (high, mid, and low) are relatively easy to recognize and produce (in musical terms, the difference between the high and mid is 1.5 tones, and between mid and low is 1 whole tone)\n- Tone 1 is similar to English \"see!\", tone 6 is similar to \"se\" in \"select\", tone 3 is halfway between tones 1 and 6.\n- It is more demanding to distinguish between low level and low falling, but the low-falling tone (i.e. 4th) as in lai4 'come' can often be recognized by a 'creaky' voice quality as the pitch reaches the bottom of the speakers voice range (similar to \"cy\" in \"fancy\")\nEnglish intonation patterns approximate some of the tones:\n- High-rising tone as in dim2 'how' resembles a question showing surprise\n- Low-rising tone as in ngo5 'I' begins with slight dip and can be compared to a hesitant 'well...'\n- Low falling tone as in jan4 'person' resembles a dismissive intonation as in a calm but definitive 'no'",
+      "examples": [
+        {
+          "id": "u0-g15-e01",
+          "jp": "lai4",
+          "zh": "",
+          "en": "Come (low falling, tone 4)",
+          "lit": ""
+        },
+        {
+          "id": "u0-g15-e02",
+          "jp": "dim2",
+          "zh": "",
+          "en": "How (high rising, tone 2)",
+          "lit": ""
+        },
+        {
+          "id": "u0-g15-e03",
+          "jp": "ngo5",
+          "zh": "",
+          "en": "I (low rising, tone 5)",
+          "lit": ""
+        },
+        {
+          "id": "u0-g15-e04",
+          "jp": "jan4",
+          "zh": "",
+          "en": "Person (low falling, tone 4)",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "phonology",
+        "tones",
+        "strategies"
+      ]
+    },
+    {
+      "id": "u0-g16",
+      "title": "Tone change (i): nouns at the end of a compound or phrase",
+      "summary": "In colloquial speech the affected syllable takes a high rising tone (tone 2) instead of its usual low tone; this happens to nouns at the end of a compound or phrase.",
+      "body": "- Occurs in colloquial speech\n- The affective syllable pronounced with a high rising tone (tone 2) instead of the usual low (level or falling) tone.\n- (i) Nouns at the end of a compound or phrase:\njan4 Person but neoi5 jan2 woman\njyut6 month but co5 jyut2 Spend a month resting after giving birth\nman4 hok6 literature but jing1 man2 English (language)\njyu4 daan2 fish-cake but tiu4 jyu2 a/the fish\nlau4 tai1 staircase but deng2 lau2 Top floor, penthouse\njat1 hap6 syu1 A box of books but jat1 go3 hap2 A box\njat1 dip6 coi3 A dish of vegetables but jat1 zek3 dip2 A dish",
+      "examples": [
+        {
+          "id": "u0-g16-e01",
+          "jp": "jan4",
+          "zh": "",
+          "en": "Person",
+          "lit": ""
+        },
+        {
+          "id": "u0-g16-e02",
+          "jp": "neoi5 jan2",
+          "zh": "",
+          "en": "Woman",
+          "lit": ""
+        },
+        {
+          "id": "u0-g16-e03",
+          "jp": "jyut6",
+          "zh": "",
+          "en": "Month",
+          "lit": ""
+        },
+        {
+          "id": "u0-g16-e04",
+          "jp": "co5 jyut2",
+          "zh": "",
+          "en": "Spend a month resting after giving birth",
+          "lit": ""
+        },
+        {
+          "id": "u0-g16-e05",
+          "jp": "man4 hok6",
+          "zh": "",
+          "en": "Literature",
+          "lit": ""
+        },
+        {
+          "id": "u0-g16-e06",
+          "jp": "jing1 man2",
+          "zh": "",
+          "en": "English (language)",
+          "lit": ""
+        },
+        {
+          "id": "u0-g16-e07",
+          "jp": "jyu4 daan2",
+          "zh": "",
+          "en": "Fish-cake",
+          "lit": ""
+        },
+        {
+          "id": "u0-g16-e08",
+          "jp": "tiu4 jyu2",
+          "zh": "",
+          "en": "A/the fish",
+          "lit": ""
+        },
+        {
+          "id": "u0-g16-e09",
+          "jp": "lau4 tai1",
+          "zh": "",
+          "en": "Staircase",
+          "lit": ""
+        },
+        {
+          "id": "u0-g16-e10",
+          "jp": "deng2 lau2",
+          "zh": "",
+          "en": "Top floor, penthouse",
+          "lit": ""
+        },
+        {
+          "id": "u0-g16-e11",
+          "jp": "jat1 hap6 syu1",
+          "zh": "",
+          "en": "A box of books",
+          "lit": ""
+        },
+        {
+          "id": "u0-g16-e12",
+          "jp": "jat1 go3 hap2",
+          "zh": "",
+          "en": "A box",
+          "lit": ""
+        },
+        {
+          "id": "u0-g16-e13",
+          "jp": "jat1 dip6 coi3",
+          "zh": "",
+          "en": "A dish of vegetables",
+          "lit": ""
+        },
+        {
+          "id": "u0-g16-e14",
+          "jp": "jat1 zek3 dip2",
+          "zh": "",
+          "en": "A dish",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "phonology",
+        "tones",
+        "tone-change"
+      ]
+    },
+    {
+      "id": "u0-g17",
+      "title": "Tone change (ii) and (iii): names with aa3-/lou5- and reduplicated adjectives",
+      "summary": "Names with the prefix aa3- or lou5- and the second syllable of reduplicated adjectives also take the high rising changed tone.",
+      "body": "- (ii) Names with the prefix aa3- or lou5-:\ncan4 saang1 Mr. Chan but aa3 can2 Chan (colloquial)\nlai4 saang1 Mr. Lai but lou5 lai2 Old (Mr) Lai\n- (iii) Reduplicated adjectives, in which the second syllable changes to a high rising tone\nso4 foolish but so4 so2 dei2 silly\nfei4 fat but fei4 fei2 dei2 Chubby",
+      "examples": [
+        {
+          "id": "u0-g17-e01",
+          "jp": "can4 saang1",
+          "zh": "",
+          "en": "Mr. Chan",
+          "lit": ""
+        },
+        {
+          "id": "u0-g17-e02",
+          "jp": "aa3 can2",
+          "zh": "",
+          "en": "Chan (colloquial)",
+          "lit": ""
+        },
+        {
+          "id": "u0-g17-e03",
+          "jp": "lai4 saang1",
+          "zh": "",
+          "en": "Mr. Lai",
+          "lit": ""
+        },
+        {
+          "id": "u0-g17-e04",
+          "jp": "lou5 lai2",
+          "zh": "",
+          "en": "Old (Mr) Lai",
+          "lit": ""
+        },
+        {
+          "id": "u0-g17-e05",
+          "jp": "so4",
+          "zh": "",
+          "en": "Foolish",
+          "lit": ""
+        },
+        {
+          "id": "u0-g17-e06",
+          "jp": "so4 so2 dei2",
+          "zh": "",
+          "en": "Silly",
+          "lit": ""
+        },
+        {
+          "id": "u0-g17-e07",
+          "jp": "fei4",
+          "zh": "",
+          "en": "Fat",
+          "lit": ""
+        },
+        {
+          "id": "u0-g17-e08",
+          "jp": "fei4 fei2 dei2",
+          "zh": "",
+          "en": "Chubby",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "phonology",
+        "tones",
+        "tone-change"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "u0-e1",
+      "title": "Exercise 1",
+      "source": "Unit 0 Practice.pdf",
+      "instructions": "Pronounce the following words paying particular attention to the consonants.",
+      "type": "listen",
+      "items": [
+        {
+          "id": "u0-e1-i01",
+          "prompt": "baat3",
+          "answer": "Eight",
+          "answer_en": "Eight",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e1-i02",
+          "prompt": "taap3",
+          "answer": "Tower",
+          "answer_en": "Tower",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e1-i03",
+          "prompt": "ze3",
+          "answer": "Borrow",
+          "answer_en": "Borrow",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e1-i04",
+          "prompt": "ngo6",
+          "answer": "Hungry",
+          "answer_en": "Hungry",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e1-i05",
+          "prompt": "ngaam1",
+          "answer": "Exactly",
+          "answer_en": "Exactly",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e1-i06",
+          "prompt": "luk6",
+          "answer": "Six",
+          "answer_en": "Six",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e1-i07",
+          "prompt": "seon3",
+          "answer": "Letter",
+          "answer_en": "Letter",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e1-i08",
+          "prompt": "coeng3",
+          "answer": "Sing",
+          "answer_en": "Sing",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e1-i09",
+          "prompt": "ng5",
+          "answer": "Five",
+          "answer_en": "Five",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e1-i10",
+          "prompt": "jat6",
+          "answer": "Day",
+          "answer_en": "Day",
+          "hint": "",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "id": "u0-e2",
+      "title": "Exercise 2",
+      "source": "Unit 0 Practice.pdf",
+      "instructions": "The following words are \"minimal pairs\" differing in only one feature. Identify this difference and make sure that your pronunciation distinguishes the two words.",
+      "type": "listen",
+      "items": [
+        {
+          "id": "u0-e2-i01",
+          "prompt": "bin3",
+          "answer": "Change",
+          "answer_en": "Change",
+          "hint": "Consonant contrast: b vs p (aspiration); pair with pin3 (A slice)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e2-i02",
+          "prompt": "pin3",
+          "answer": "A slice",
+          "answer_en": "A slice",
+          "hint": "Consonant contrast: b vs p (aspiration); pair with bin3 (Change)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e2-i03",
+          "prompt": "baai3",
+          "answer": "Worship",
+          "answer_en": "Worship",
+          "hint": "Consonant contrast: b vs p (aspiration); pair with paai3 (Distribute)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e2-i04",
+          "prompt": "paai3",
+          "answer": "Distribute",
+          "answer_en": "Distribute",
+          "hint": "Consonant contrast: b vs p (aspiration); pair with baai3 (Worship)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e2-i05",
+          "prompt": "daai3",
+          "answer": "Bring",
+          "answer_en": "Bring",
+          "hint": "Consonant contrast: d vs t (aspiration); pair with taai3 (Too (excessively))",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e2-i06",
+          "prompt": "taai3",
+          "answer": "Too (excessively)",
+          "answer_en": "Too (excessively)",
+          "hint": "Consonant contrast: d vs t (aspiration); pair with daai3 (Bring)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e2-i07",
+          "prompt": "din1",
+          "answer": "Mad",
+          "answer_en": "Mad",
+          "hint": "Consonant contrast: d vs t (aspiration); pair with tin1 (Sky)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e2-i08",
+          "prompt": "tin1",
+          "answer": "Sky",
+          "answer_en": "Sky",
+          "hint": "Consonant contrast: d vs t (aspiration); pair with din1 (Mad)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e2-i09",
+          "prompt": "zeoi1",
+          "answer": "Chase",
+          "answer_en": "Chase",
+          "hint": "Consonant contrast: z vs c (aspiration); pair with ceoi1 (Blow)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e2-i10",
+          "prompt": "ceoi1",
+          "answer": "Blow",
+          "answer_en": "Blow",
+          "hint": "Consonant contrast: z vs c (aspiration); pair with zeoi1 (Chase)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e2-i11",
+          "prompt": "zeon1",
+          "answer": "Bottle",
+          "answer_en": "Bottle",
+          "hint": "Consonant contrast: z vs c (aspiration); pair with ceon1 (Spring)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e2-i12",
+          "prompt": "ceon1",
+          "answer": "Spring",
+          "answer_en": "Spring",
+          "hint": "Consonant contrast: z vs c (aspiration); pair with zeon1 (Bottle)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e2-i13",
+          "prompt": "gok3",
+          "answer": "Feel",
+          "answer_en": "Feel",
+          "hint": "Consonant contrast: g vs k (aspiration); pair with kok3 (Accurate)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e2-i14",
+          "prompt": "kok3",
+          "answer": "Accurate",
+          "answer_en": "Accurate",
+          "hint": "Consonant contrast: g vs k (aspiration); pair with gok3 (Feel)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e2-i15",
+          "prompt": "gau3",
+          "answer": "Enough",
+          "answer_en": "Enough",
+          "hint": "Consonant contrast: g vs k (aspiration); pair with kau3 (Deduct)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e2-i16",
+          "prompt": "kau3",
+          "answer": "Deduct",
+          "answer_en": "Deduct",
+          "hint": "Consonant contrast: g vs k (aspiration); pair with gau3 (Enough)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e2-i17",
+          "prompt": "gwan3",
+          "answer": "Stick",
+          "answer_en": "Stick",
+          "hint": "Consonant contrast: gw vs kw (aspiration); pair with kwan3 (Difficult)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e2-i18",
+          "prompt": "kwan3",
+          "answer": "Difficult",
+          "answer_en": "Difficult",
+          "hint": "Consonant contrast: gw vs kw (aspiration); pair with gwan3 (Stick)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e2-i19",
+          "prompt": "zoeng1",
+          "answer": "Sheet (of paper)",
+          "answer_en": "Sheet (of paper)",
+          "hint": "Consonant contrast: z vs c (aspiration); pair with coeng1 (Window)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e2-i20",
+          "prompt": "coeng1",
+          "answer": "Window",
+          "answer_en": "Window",
+          "hint": "Consonant contrast: z vs c (aspiration); pair with zoeng1 (Sheet (of paper))",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "id": "u0-e3",
+      "title": "Exercise 3",
+      "source": "Unit 0 Practice.pdf",
+      "instructions": "Pronounce the following minimal pairs (pay attention to the vowels)",
+      "type": "listen",
+      "items": [
+        {
+          "id": "u0-e3-i01",
+          "prompt": "gan1",
+          "answer": "Follow",
+          "answer_en": "Follow",
+          "hint": "Vowel contrast: short a vs long aa; pair with gaan1 (Classifier for house)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e3-i02",
+          "prompt": "gaan1",
+          "answer": "Classifier for house",
+          "answer_en": "Classifier for house",
+          "hint": "Vowel contrast: short a vs long aa; pair with gan1 (Follow)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e3-i03",
+          "prompt": "fan1",
+          "answer": "Separate",
+          "answer_en": "Separate",
+          "hint": "Vowel contrast: short a vs long aa; pair with faan1 (Back, return)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e3-i04",
+          "prompt": "faan1",
+          "answer": "Back, return",
+          "answer_en": "Back, return",
+          "hint": "Vowel contrast: short a vs long aa; pair with fan1 (Separate)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e3-i05",
+          "prompt": "san1",
+          "answer": "New",
+          "answer_en": "New",
+          "hint": "Vowel contrast: short a vs long aa; pair with saan1 (Mountain)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e3-i06",
+          "prompt": "saan1",
+          "answer": "Mountain",
+          "answer_en": "Mountain",
+          "hint": "Vowel contrast: short a vs long aa; pair with san1 (New)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e3-i07",
+          "prompt": "gam1",
+          "answer": "Gold",
+          "answer_en": "Gold",
+          "hint": "Vowel contrast: short a vs long aa; pair with gaam1 (Prison)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e3-i08",
+          "prompt": "gaam1",
+          "answer": "Prison",
+          "answer_en": "Prison",
+          "hint": "Vowel contrast: short a vs long aa; pair with gam1 (Gold)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e3-i09",
+          "prompt": "lam2",
+          "answer": "Think",
+          "answer_en": "Think",
+          "hint": "Vowel contrast: short a vs long aa; pair with laam2 (Hug, embrace)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e3-i10",
+          "prompt": "laam2",
+          "answer": "Hug, embrace",
+          "answer_en": "Hug, embrace",
+          "hint": "Vowel contrast: short a vs long aa; pair with lam2 (Think)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e3-i11",
+          "prompt": "gam2",
+          "answer": "Dare",
+          "answer_en": "Dare",
+          "hint": "Vowel contrast: short a vs long aa; pair with gaam2 (Deduct, reduce (price))",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e3-i12",
+          "prompt": "gaam2",
+          "answer": "Deduct, reduce (price)",
+          "answer_en": "Deduct, reduce (price)",
+          "hint": "Vowel contrast: short a vs long aa; pair with gam2 (Dare)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e3-i13",
+          "prompt": "lam4",
+          "answer": "To water",
+          "answer_en": "To water",
+          "hint": "Vowel contrast: short a vs long aa; pair with laam4 (Blue)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e3-i14",
+          "prompt": "laam4",
+          "answer": "Blue",
+          "answer_en": "Blue",
+          "hint": "Vowel contrast: short a vs long aa; pair with lam4 (To water)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e3-i15",
+          "prompt": "gai1",
+          "answer": "Chicken",
+          "answer_en": "Chicken",
+          "hint": "Vowel contrast: ai vs aai; pair with gaai1 (Street)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e3-i16",
+          "prompt": "gaai1",
+          "answer": "Street",
+          "answer_en": "Street",
+          "hint": "Vowel contrast: ai vs aai; pair with gai1 (Chicken)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e3-i17",
+          "prompt": "lai5",
+          "answer": "Polite",
+          "answer_en": "Polite",
+          "hint": "Vowel contrast: ai vs aai (and l vs n); pair with naai5 (Milk)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e3-i18",
+          "prompt": "naai5",
+          "answer": "Milk",
+          "answer_en": "Milk",
+          "hint": "Vowel contrast: ai vs aai (and l vs n); pair with lai5 (Polite)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e3-i19",
+          "prompt": "cau1",
+          "answer": "Autumn",
+          "answer_en": "Autumn",
+          "hint": "Vowel contrast: au vs aau; pair with caau1 (Copy)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e3-i20",
+          "prompt": "caau1",
+          "answer": "Copy",
+          "answer_en": "Copy",
+          "hint": "Vowel contrast: au vs aau; pair with cau1 (Autumn)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e3-i21",
+          "prompt": "ling3",
+          "answer": "Shiny",
+          "answer_en": "Shiny",
+          "hint": "Vowel contrast: i vs e before -ng; pair with leng3 (Pretty)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e3-i22",
+          "prompt": "leng3",
+          "answer": "Pretty",
+          "answer_en": "Pretty",
+          "hint": "Vowel contrast: i vs e before -ng; pair with ling3 (Shiny)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e3-i23",
+          "prompt": "ping4",
+          "answer": "Flat",
+          "answer_en": "Flat",
+          "hint": "Vowel contrast: i vs e before -ng; pair with peng4 (Cheap)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e3-i24",
+          "prompt": "peng4",
+          "answer": "Cheap",
+          "answer_en": "Cheap",
+          "hint": "Vowel contrast: i vs e before -ng; pair with ping4 (Flat)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e3-i25",
+          "prompt": "lik1",
+          "answer": "Take, pick",
+          "answer_en": "Take, pick",
+          "hint": "Vowel contrast: i vs e before -k; pair with lek1 (Clever, smart)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e3-i26",
+          "prompt": "lek1",
+          "answer": "Clever, smart",
+          "answer_en": "Clever, smart",
+          "hint": "Vowel contrast: i vs e before -k; pair with lik1 (Take, pick)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e3-i27",
+          "prompt": "sik6",
+          "answer": "Eat",
+          "answer_en": "Eat",
+          "hint": "Vowel contrast: i vs e before -k; pair with sek6 (Stone)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e3-i28",
+          "prompt": "sek6",
+          "answer": "Stone",
+          "answer_en": "Stone",
+          "hint": "Vowel contrast: i vs e before -k; pair with sik6 (Eat)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e3-i29",
+          "prompt": "ging1",
+          "answer": "Pass",
+          "answer_en": "Pass",
+          "hint": "Vowel contrast: i vs e before -ng; pair with geng1 (Fear)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e3-i30",
+          "prompt": "geng1",
+          "answer": "Fear",
+          "answer_en": "Fear",
+          "hint": "Vowel contrast: i vs e before -ng; pair with ging1 (Pass)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e3-i31",
+          "prompt": "mok6",
+          "answer": "Curtain, screen",
+          "answer_en": "Curtain, screen",
+          "hint": "Vowel contrast: o vs u before -k; pair with muk6 (Wood)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e3-i32",
+          "prompt": "muk6",
+          "answer": "Wood",
+          "answer_en": "Wood",
+          "hint": "Vowel contrast: o vs u before -k; pair with mok6 (Curtain, screen)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e3-i33",
+          "prompt": "song3",
+          "answer": "Lose, die",
+          "answer_en": "Lose, die",
+          "hint": "Vowel contrast: o vs u before -ng; pair with sung3 (Send)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e3-i34",
+          "prompt": "sung3",
+          "answer": "Send",
+          "answer_en": "Send",
+          "hint": "Vowel contrast: o vs u before -ng; pair with song3 (Lose, die)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e3-i35",
+          "prompt": "lok6",
+          "answer": "Happy",
+          "answer_en": "Happy",
+          "hint": "Vowel contrast: o vs u before -k; pair with luk6 (Green)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e3-i36",
+          "prompt": "luk6",
+          "answer": "Green",
+          "answer_en": "Green",
+          "hint": "Vowel contrast: o vs u before -k; pair with lok6 (Happy)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e3-i37",
+          "prompt": "dok6",
+          "answer": "Measure",
+          "answer_en": "Measure",
+          "hint": "Vowel contrast: o vs u before -k; pair with duk6 (Read)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e3-i38",
+          "prompt": "duk6",
+          "answer": "Read",
+          "answer_en": "Read",
+          "hint": "Vowel contrast: o vs u before -k; pair with dok6 (Measure)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e3-i39",
+          "prompt": "mong6",
+          "answer": "To stare",
+          "answer_en": "To stare",
+          "hint": "Vowel contrast: o vs u before -ng; pair with mung6 (Dream)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e3-i40",
+          "prompt": "mung6",
+          "answer": "Dream",
+          "answer_en": "Dream",
+          "hint": "Vowel contrast: o vs u before -ng; pair with mong6 (To stare)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "id": "u0-e4",
+      "title": "Exercise 4",
+      "source": "Unit 0 Practice.pdf",
+      "instructions": "Pronounce the following words, paying special attention to the rounded vowels yu and eo",
+      "type": "listen",
+      "items": [
+        {
+          "id": "u0-e4-i01",
+          "prompt": "syut3",
+          "answer": "Snow",
+          "answer_en": "Snow",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e4-i02",
+          "prompt": "hyut3",
+          "answer": "Blood",
+          "answer_en": "Blood",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e4-i03",
+          "prompt": "hoeng1",
+          "answer": "Fragrant",
+          "answer_en": "Fragrant",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e4-i04",
+          "prompt": "koeng4",
+          "answer": "Strong",
+          "answer_en": "Strong",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e4-i05",
+          "prompt": "jyun6 ji3",
+          "answer": "Willing",
+          "answer_en": "Willing",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e4-i06",
+          "prompt": "cyun3",
+          "answer": "To spell/an inch",
+          "answer_en": "To spell/an inch",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e4-i07",
+          "prompt": "lyun6",
+          "answer": "Chaotic, messy",
+          "answer_en": "Chaotic, messy",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e4-i08",
+          "prompt": "zeon1",
+          "answer": "Bottle",
+          "answer_en": "Bottle",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e4-i09",
+          "prompt": "zyu6",
+          "answer": "To live",
+          "answer_en": "To live",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e4-i10",
+          "prompt": "dyun2",
+          "answer": "Short",
+          "answer_en": "Short",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e4-i11",
+          "prompt": "jyu6 bei6",
+          "answer": "Prepare",
+          "answer_en": "Prepare",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e4-i12",
+          "prompt": "kyut3 ding6",
+          "answer": "Decide",
+          "answer_en": "Decide",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e4-i13",
+          "prompt": "jyut6 beng2",
+          "answer": "Mooncake",
+          "answer_en": "Mooncake",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e4-i14",
+          "prompt": "leon6 zeon6",
+          "answer": "Clumsy",
+          "answer_en": "Clumsy",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e4-i15",
+          "prompt": "maau4 teon5",
+          "answer": "Contradiction",
+          "answer_en": "Contradiction",
+          "hint": "",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "id": "u0-e5",
+      "title": "Exercise 5",
+      "source": "Unit 0 Practice.pdf",
+      "instructions": "Pronounce the following pairs of words paying special attention to the diphthongs (A. Monosyllabic, B. Disyllabic)",
+      "type": "listen",
+      "items": [
+        {
+          "id": "u0-e5-i01",
+          "prompt": "mei6",
+          "answer": "Not yet",
+          "answer_en": "Not yet",
+          "hint": "A. Monosyllabic; paired with mei6 dou6 (Taste)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e5-i02",
+          "prompt": "mei6 dou6",
+          "answer": "Taste",
+          "answer_en": "Taste",
+          "hint": "B. Disyllabic; paired with mei6 (Not yet)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e5-i03",
+          "prompt": "gei3",
+          "answer": "Mail",
+          "answer_en": "Mail",
+          "hint": "A. Monosyllabic; paired with zi6 gei2 (Oneself)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e5-i04",
+          "prompt": "zi6 gei2",
+          "answer": "Oneself",
+          "answer_en": "Oneself",
+          "hint": "B. Disyllabic; paired with gei3 (Mail)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e5-i05",
+          "prompt": "jiu3",
+          "answer": "Want",
+          "answer_en": "Want",
+          "hint": "A. Monosyllabic; paired with ziu3 gu3 (Take care)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e5-i06",
+          "prompt": "ziu3 gu3",
+          "answer": "Take care",
+          "answer_en": "Take care",
+          "hint": "B. Disyllabic; paired with jiu3 (Want)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e5-i07",
+          "prompt": "siu3",
+          "answer": "Smile",
+          "answer_en": "Smile",
+          "hint": "A. Monosyllabic; paired with diu3 jyu2 (Fishing)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e5-i08",
+          "prompt": "diu3 jyu2",
+          "answer": "Fishing",
+          "answer_en": "Fishing",
+          "hint": "B. Disyllabic; paired with siu3 (Smile)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e5-i09",
+          "prompt": "tiu3",
+          "answer": "Jump",
+          "answer_en": "Jump",
+          "hint": "A. Monosyllabic; paired with tiu3 mou5 (To dance)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e5-i10",
+          "prompt": "tiu3 mou5",
+          "answer": "To dance",
+          "answer_en": "To dance",
+          "hint": "B. Disyllabic; paired with tiu3 (Jump)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e5-i11",
+          "prompt": "mui5",
+          "answer": "Every, each",
+          "answer_en": "Every, each",
+          "hint": "A. Monosyllabic; paired with mui6 mui2 (Sister)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e5-i12",
+          "prompt": "mui6 mui2",
+          "answer": "Sister",
+          "answer_en": "Sister",
+          "hint": "B. Disyllabic; paired with mui5 (Every, each)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e5-i13",
+          "prompt": "miu5",
+          "answer": "(Time) seconds",
+          "answer_en": "(Time) seconds",
+          "hint": "A. Monosyllabic; paired with kei4 miu6 (Wonderful)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e5-i14",
+          "prompt": "kei4 miu6",
+          "answer": "Wonderful",
+          "answer_en": "Wonderful",
+          "hint": "B. Disyllabic; paired with miu5 ((Time) seconds)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e5-i15",
+          "prompt": "gui6",
+          "answer": "Tired",
+          "answer_en": "Tired",
+          "hint": "A. Monosyllabic; paired with hau6 fui3 (Regret)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e5-i16",
+          "prompt": "hau6 fui3",
+          "answer": "Regret",
+          "answer_en": "Regret",
+          "hint": "B. Disyllabic; paired with gui6 (Tired)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e5-i17",
+          "prompt": "giu3",
+          "answer": "Call(ed)",
+          "answer_en": "Call(ed)",
+          "hint": "A. Monosyllabic; paired with giu1 ngou6 (Proud)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e5-i18",
+          "prompt": "giu1 ngou6",
+          "answer": "Proud",
+          "answer_en": "Proud",
+          "hint": "B. Disyllabic; paired with giu3 (Call(ed))",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e5-i19",
+          "prompt": "wui5",
+          "answer": "Will",
+          "answer_en": "Will",
+          "hint": "A. Monosyllabic; paired with hoi1 wui2 (Have a meeting)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e5-i20",
+          "prompt": "hoi1 wui2",
+          "answer": "Have a meeting",
+          "answer_en": "Have a meeting",
+          "hint": "B. Disyllabic; paired with wui5 (Will)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e5-i21",
+          "prompt": "doi2",
+          "answer": "Bag",
+          "answer_en": "Bag",
+          "hint": "A. Monosyllabic; paired with zoi3 gin3 (See you)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e5-i22",
+          "prompt": "zoi3 gin3",
+          "answer": "See you",
+          "answer_en": "See you",
+          "hint": "B. Disyllabic; paired with doi2 (Bag)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e5-i23",
+          "prompt": "goi2",
+          "answer": "Change",
+          "answer_en": "Change",
+          "hint": "A. Monosyllabic; paired with jing1 goi1 (Should)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e5-i24",
+          "prompt": "jing1 goi1",
+          "answer": "Should",
+          "answer_en": "Should",
+          "hint": "B. Disyllabic; paired with goi2 (Change)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e5-i25",
+          "prompt": "gou1",
+          "answer": "Tall",
+          "answer_en": "Tall",
+          "hint": "A. Monosyllabic; paired with gwong2 gou3 (Advertisement)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e5-i26",
+          "prompt": "gwong2 gou3",
+          "answer": "Advertisement",
+          "answer_en": "Advertisement",
+          "hint": "B. Disyllabic; paired with gou1 (Tall)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e5-i27",
+          "prompt": "lou5",
+          "answer": "Old",
+          "answer_en": "Old",
+          "hint": "A. Monosyllabic; paired with din6 nou5 (Computer)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e5-i28",
+          "prompt": "din6 nou5",
+          "answer": "Computer",
+          "answer_en": "Computer",
+          "hint": "B. Disyllabic; paired with lou5 (Old)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e5-i29",
+          "prompt": "teoi1",
+          "answer": "Push",
+          "answer_en": "Push",
+          "hint": "A. Monosyllabic; paired with teoi3 jau1 (Retire)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e5-i30",
+          "prompt": "teoi3 jau1",
+          "answer": "Retire",
+          "answer_en": "Retire",
+          "hint": "B. Disyllabic; paired with teoi1 (Push)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "id": "u0-e6",
+      "title": "Exercise 6",
+      "source": "Unit 0 Practice.pdf",
+      "instructions": "Read the following syllables (pay particular attention to the tones)",
+      "type": "listen",
+      "items": [
+        {
+          "id": "u0-e6-i01",
+          "prompt": "si1",
+          "answer": "Poem",
+          "answer_en": "Poem",
+          "hint": "Tone 1 (high level)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e6-i02",
+          "prompt": "si2",
+          "answer": "History",
+          "answer_en": "History",
+          "hint": "Tone 2 (high rising)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e6-i03",
+          "prompt": "si3",
+          "answer": "Try",
+          "answer_en": "Try",
+          "hint": "Tone 3 (mid level)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e6-i04",
+          "prompt": "si4",
+          "answer": "Time",
+          "answer_en": "Time",
+          "hint": "Tone 4 (low falling)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e6-i05",
+          "prompt": "si5",
+          "answer": "Market",
+          "answer_en": "Market",
+          "hint": "Tone 5 (low rising)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e6-i06",
+          "prompt": "si6",
+          "answer": "Matter",
+          "answer_en": "Matter",
+          "hint": "Tone 6 (low level)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e6-i07",
+          "prompt": "fan1",
+          "answer": "Split",
+          "answer_en": "Split",
+          "hint": "Tone 1 (high level)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e6-i08",
+          "prompt": "fan2",
+          "answer": "Powder",
+          "answer_en": "Powder",
+          "hint": "Tone 2 (high rising)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e6-i09",
+          "prompt": "fan3",
+          "answer": "Lie",
+          "answer_en": "Lie",
+          "hint": "Tone 3 (mid level)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e6-i10",
+          "prompt": "fan4",
+          "answer": "Grave",
+          "answer_en": "Grave",
+          "hint": "Tone 4 (low falling)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e6-i11",
+          "prompt": "fan5",
+          "answer": "Excited",
+          "answer_en": "Excited",
+          "hint": "Tone 5 (low rising)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e6-i12",
+          "prompt": "fan6",
+          "answer": "Portion",
+          "answer_en": "Portion",
+          "hint": "Tone 6 (low level)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e6-i13",
+          "prompt": "seoi1",
+          "answer": "Need",
+          "answer_en": "Need",
+          "hint": "Tone 1 (high level)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e6-i14",
+          "prompt": "seoi2",
+          "answer": "Water",
+          "answer_en": "Water",
+          "hint": "Tone 2 (high rising)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e6-i15",
+          "prompt": "seoi3",
+          "answer": "Tax",
+          "answer_en": "Tax",
+          "hint": "Tone 3 (mid level)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e6-i16",
+          "prompt": "seoi4",
+          "answer": "Suspend",
+          "answer_en": "Suspend",
+          "hint": "Tone 4 (low falling)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e6-i17",
+          "prompt": "seoi5",
+          "answer": "Clue",
+          "answer_en": "Clue",
+          "hint": "Tone 5 (low rising)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e6-i18",
+          "prompt": "seoi6",
+          "answer": "Tunnel",
+          "answer_en": "Tunnel",
+          "hint": "Tone 6 (low level)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e6-i19",
+          "prompt": "jau1",
+          "answer": "Rest",
+          "answer_en": "Rest",
+          "hint": "Tone 1 (high level)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e6-i20",
+          "prompt": "jau2",
+          "answer": "Petrol",
+          "answer_en": "Petrol",
+          "hint": "Tone 2 (high rising)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e6-i21",
+          "prompt": "jau3",
+          "answer": "Slender",
+          "answer_en": "Slender",
+          "hint": "Tone 3 (mid level)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e6-i22",
+          "prompt": "jau4",
+          "answer": "Swim",
+          "answer_en": "Swim",
+          "hint": "Tone 4 (low falling)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e6-i23",
+          "prompt": "jau5",
+          "answer": "Have",
+          "answer_en": "Have",
+          "hint": "Tone 5 (low rising)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e6-i24",
+          "prompt": "jau6",
+          "answer": "Again",
+          "answer_en": "Again",
+          "hint": "Tone 6 (low level)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e6-i25",
+          "prompt": "fu1",
+          "answer": "Husband",
+          "answer_en": "Husband",
+          "hint": "Tone 1 (high level)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e6-i26",
+          "prompt": "fu2",
+          "answer": "Bitter",
+          "answer_en": "Bitter",
+          "hint": "Tone 2 (high rising)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e6-i27",
+          "prompt": "fu3",
+          "answer": "Trousers",
+          "answer_en": "Trousers",
+          "hint": "Tone 3 (mid level)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e6-i28",
+          "prompt": "fu4",
+          "answer": "Support",
+          "answer_en": "Support",
+          "hint": "Tone 4 (low falling)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e6-i29",
+          "prompt": "fu5",
+          "answer": "Woman",
+          "answer_en": "Woman",
+          "hint": "Tone 5 (low rising)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e6-i30",
+          "prompt": "fu6",
+          "answer": "Father",
+          "answer_en": "Father",
+          "hint": "Tone 6 (low level)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "id": "u0-e7",
+      "title": "Exercise 7",
+      "source": "Unit 0 Practice.pdf",
+      "instructions": "Read out the following sentences which illustrate the same sequence of six tones",
+      "type": "listen",
+      "items": [
+        {
+          "id": "u0-e7-i01",
+          "prompt": "di1 gu2 piu3 kong4 soeng5 lok6",
+          "answer": "The shares are going up and down (in value) like crazy",
+          "answer_en": "The shares are going up and down (in value) like crazy",
+          "hint": "Tones 1-2-3-4-5-6 in order",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e7-i02",
+          "prompt": "nguk1 kei2 gam3 kung4 mou5 jung6",
+          "answer": "The household is so poor, it's no use",
+          "answer_en": "The household is so poor, it's no use",
+          "hint": "Tones 1-2-3-4-5-6 in order",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e7-i03",
+          "prompt": "gam1 nin2 gwai3 m4 maai5 zyu6",
+          "answer": "This year it's expensive, (we) won't buy it yet",
+          "answer_en": "This year it's expensive, (we) won't buy it yet",
+          "hint": "Tones 1-2-3-4-5-6 in order",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e7-i04",
+          "prompt": "san1 lau2 taai3 naan4 maai5 maai6",
+          "answer": "New flats are too difficult to buy and sell",
+          "answer_en": "New flats are too difficult to buy and sell",
+          "hint": "Tones 1-2-3-4-5-6 in order",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e7-i05",
+          "prompt": "bin1 gwai2 go3 tung4 keoi5 zyu6",
+          "answer": "Who on earth is living with him?",
+          "answer_en": "Who on earth is living with him?",
+          "hint": "Tones 1-2-3-4-5-6 in order",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e7-i06",
+          "prompt": "zing1 hou2 saai3 sing4 maan5 sik6",
+          "answer": "After steaming everything, spend the whole evening eating it",
+          "answer_en": "After steaming everything, spend the whole evening eating it",
+          "hint": "Tones 1-2-3-4-5-6 in order",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "id": "u0-e8",
+      "title": "Exercise 8",
+      "source": "Unit 0 Practice.pdf",
+      "instructions": "Pronounce the following pairs differing in tones",
+      "type": "listen",
+      "items": [
+        {
+          "id": "u0-e8-i01",
+          "prompt": "fo2 ce1",
+          "answer": "Train",
+          "answer_en": "Train",
+          "hint": "Tone contrast: fo2 vs fo3; pair with fo3 ce1 (Lorry)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e8-i02",
+          "prompt": "fo3 ce1",
+          "answer": "Lorry",
+          "answer_en": "Lorry",
+          "hint": "Tone contrast: fo2 vs fo3; pair with fo2 ce1 (Train)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e8-i03",
+          "prompt": "ci1 sin3",
+          "answer": "Crazy",
+          "answer_en": "Crazy",
+          "hint": "Tone contrast: tones 1-3 vs 4-6; pair with ci4 sin6 (Charity)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e8-i04",
+          "prompt": "ci4 sin6",
+          "answer": "Charity",
+          "answer_en": "Charity",
+          "hint": "Tone contrast: tones 1-3 vs 4-6; pair with ci1 sin3 (Crazy)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e8-i05",
+          "prompt": "lou5 jan4",
+          "answer": "Old person",
+          "answer_en": "Old person",
+          "hint": "Tone contrast: lou5 vs lou6; pair with lou6 jan4 (Pedestrian)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e8-i06",
+          "prompt": "lou6 jan4",
+          "answer": "Pedestrian",
+          "answer_en": "Pedestrian",
+          "hint": "Tone contrast: lou5 vs lou6; pair with lou5 jan4 (Old person)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e8-i07",
+          "prompt": "gaai1 si5",
+          "answer": "Market",
+          "answer_en": "Market",
+          "hint": "Tone contrast: tones 1-5 vs 3-4 (and aai vs ai); pair with gai3 si4 (Count the time)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e8-i08",
+          "prompt": "gai3 si4",
+          "answer": "Count the time",
+          "answer_en": "Count the time",
+          "hint": "Tone contrast: tones 1-5 vs 3-4 (and aai vs ai); pair with gaai1 si5 (Market)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e8-i09",
+          "prompt": "sai2 san1",
+          "answer": "To wash one's body",
+          "answer_en": "To wash one's body",
+          "hint": "Tone contrast: san1 vs san6; pair with sai2 san6 (Clean the kidney (dialysis))",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e8-i10",
+          "prompt": "sai2 san6",
+          "answer": "Clean the kidney (dialysis)",
+          "answer_en": "Clean the kidney (dialysis)",
+          "hint": "Tone contrast: san1 vs san6; pair with sai2 san1 (To wash one's body)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e8-i11",
+          "prompt": "laang1 saam1",
+          "answer": "Sweater",
+          "answer_en": "Sweater",
+          "hint": "Tone contrast: laang1 vs laan6; pair with laan6 saam1 (Worn-out clothes)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e8-i12",
+          "prompt": "laan6 saam1",
+          "answer": "Worn-out clothes",
+          "answer_en": "Worn-out clothes",
+          "hint": "Tone contrast: laang1 vs laan6; pair with laang1 saam1 (Sweater)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e8-i13",
+          "prompt": "gu2 si5",
+          "answer": "Stock market",
+          "answer_en": "Stock market",
+          "hint": "Tone contrast: tones 2-5 vs 3-6; pair with gu3 si6 (Story)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e8-i14",
+          "prompt": "gu3 si6",
+          "answer": "Story",
+          "answer_en": "Story",
+          "hint": "Tone contrast: tones 2-5 vs 3-6; pair with gu2 si5 (Stock market)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e8-i15",
+          "prompt": "maai6 lau2",
+          "answer": "Sell a flat",
+          "answer_en": "Sell a flat",
+          "hint": "Tone contrast: tones 6-2 vs 5-1; pair with maai5 lau1 (Buy a jacket)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e8-i16",
+          "prompt": "maai5 lau1",
+          "answer": "Buy a jacket",
+          "answer_en": "Buy a jacket",
+          "hint": "Tone contrast: tones 6-2 vs 5-1; pair with maai6 lau2 (Sell a flat)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e8-i17",
+          "prompt": "gau2 dim2",
+          "answer": "9 o'clock",
+          "answer_en": "9 o'clock",
+          "hint": "Tone contrast: dim2 vs dim6 (and au vs aau); pair with gaau2 dim6 (Manage to do something)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e8-i18",
+          "prompt": "gaau2 dim6",
+          "answer": "Manage to do something",
+          "answer_en": "Manage to do something",
+          "hint": "Tone contrast: dim2 vs dim6 (and au vs aau); pair with gau2 dim2 (9 o'clock)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e8-i19",
+          "prompt": "soeng1 mong4",
+          "answer": "Casualty",
+          "answer_en": "Casualty",
+          "hint": "Tone contrast: tones 1-4 vs 5-5; pair with soeng5 mong5 (Get on the Internet)",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e8-i20",
+          "prompt": "soeng5 mong5",
+          "answer": "Get on the Internet",
+          "answer_en": "Get on the Internet",
+          "hint": "Tone contrast: tones 1-4 vs 5-5; pair with soeng1 mong4 (Casualty)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "id": "u0-e9",
+      "title": "Exercise 9",
+      "source": "Unit 0 Practice.pdf",
+      "instructions": "Change the tone of the italicized syllable or word to the high-rising changed tone as used in colloquial speech, for example, san1 new + man4 information -> san1 man2 news:",
+      "type": "fill",
+      "items": [
+        {
+          "id": "u0-e9-i01",
+          "prompt": "san1 new + man4 information",
+          "answer": "san1 man2",
+          "answer_en": "News",
+          "hint": "Worked example printed on the sheet",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e9-i02",
+          "prompt": "hau6 Behind + mun4 Door",
+          "answer": "hau6 mun2",
+          "answer_en": "Back door",
+          "hint": "Change the italicised syllable mun4 to tone 2",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e9-i03",
+          "prompt": "jau4 Oil + tiu4 Strip",
+          "answer": "jau4 tiu2",
+          "answer_en": "Chinese fried doughnut",
+          "hint": "Change the italicised syllable tiu4 to tone 2",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e9-i04",
+          "prompt": "bun3 Half + je6 Late",
+          "answer": "bun3 je2",
+          "answer_en": "Midnight",
+          "hint": "Change the italicised syllable je6 to tone 2",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e9-i05",
+          "prompt": "siu1 Burn + je6 Late",
+          "answer": "siu1 je2",
+          "answer_en": "Late-night meal",
+          "hint": "Change the italicised syllable je6 to tone 2",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e9-i06",
+          "prompt": "dak1 German + man4 Language",
+          "answer": "dak1 man2",
+          "answer_en": "German",
+          "hint": "Change the italicised syllable man4 to tone 2",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e9-i07",
+          "prompt": "tin1 Sky + paang4 Scaffolding",
+          "answer": "tin1 paang2",
+          "answer_en": "Roof top",
+          "hint": "Change the italicised syllable paang4 to tone 2",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e9-i08",
+          "prompt": "saam1 zek3 Three (classifier) + dip6 Dish",
+          "answer": "saam1 zek3 dip2",
+          "answer_en": "Three dishes",
+          "hint": "Change the italicised syllable dip6 to tone 2",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e9-i09",
+          "prompt": "ou3 Bay + mun4 Door",
+          "answer": "ou3 mun2",
+          "answer_en": "Macau (place name)",
+          "hint": "Change the italicised syllable mun4 to tone 2",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e9-i10",
+          "prompt": "jap6 Put in + jau4 Oil",
+          "answer": "jap6 jau2",
+          "answer_en": "Fill up with petrol",
+          "hint": "Change the italicised syllable jau4 to tone 2",
+          "confidence": "high"
+        },
+        {
+          "id": "u0-e9-i11",
+          "prompt": "faa1 Flower + jyun4 Garden",
+          "answer": "faa1 jyun2",
+          "answer_en": "Garden",
+          "hint": "Change the italicised syllable jyun4 to tone 2",
+          "confidence": "high"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "u0-n1",
+      "title": "The Cantonese language",
+      "body": "Named after the city of Canton (Guangzhou in Mandarin). Spoken in Guangdong, Guangxi, Hong Kong, Macau and oversea Chinese communities (Vietnam, Singapore, Malaysia, Toronto, Vancouver, LA, SF, NY). Mistakenly regarded as a \"dialect\" of Chinese (especially in mainland China). Mandarin grammar cannot be applied straightforwardly to Cantonese; Cantonese and Mandarin are as different as various Romance languages."
+    },
+    {
+      "id": "u0-n2",
+      "title": "How many tones?",
+      "body": "Different dialects of Cantonese vary. For beginners six tones are plenty (based on Hong Kong Cantonese). The slide's pitch chart shows tone 1 high level, tone 2 rising to high, tone 3 mid level, tone 5 rising to mid, tone 6 low-mid level and tone 4 falling to low."
+    },
+    {
+      "id": "u0-n3",
+      "title": "Course",
+      "body": "Cantonese Tutoring Beginner, Unit 0 Overview and Phonology, Dr. Candise."
+    }
+  ]
+}

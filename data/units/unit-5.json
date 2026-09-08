@@ -1,0 +1,3943 @@
+{
+  "id": "unit-5",
+  "number": 5,
+  "title": "Shops and Markets",
+  "sources": [
+    "Unit 5 Shops and markets.pdf",
+    "Unit 5 Practice.pdf"
+  ],
+  "goals": [],
+  "vocab": [
+    {
+      "id": "u5-v001",
+      "zh": "礼拜",
+      "jp": "lai5 baai3",
+      "en": "Week",
+      "section": "Dialogue 1",
+      "pos": "noun",
+      "notes": "Classified with go3; printed together with 星期 sing1 kei4 on the slide"
+    },
+    {
+      "id": "u5-v002",
+      "zh": "星期",
+      "jp": "sing1 kei4",
+      "en": "Week",
+      "section": "Dialogue 1",
+      "pos": "noun",
+      "notes": "Alternative to lai5 baai3; substitute it in any day-of-the-week word"
+    },
+    {
+      "id": "u5-v003",
+      "zh": "礼拜一",
+      "jp": "lai5 baai3 jat1",
+      "en": "Monday",
+      "section": "Dialogue 1",
+      "pos": "noun",
+      "notes": "Careful with the tone: jat1 Monday vs jat6 Sunday"
+    },
+    {
+      "id": "u5-v004",
+      "zh": "礼拜日",
+      "jp": "lai5 baai3 jat6",
+      "en": "Sunday",
+      "section": "Dialogue 1",
+      "pos": "noun",
+      "notes": "jat6 = sun; not numbered like the other days"
+    },
+    {
+      "id": "u5-v005",
+      "zh": "大减价",
+      "jp": "daai6 gaam2 gaa3",
+      "en": "A sale",
+      "section": "Dialogue 1",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u5-v006",
+      "zh": "铺头",
+      "jp": "pou3 tau2",
+      "en": "Shop",
+      "section": "Dialogue 1",
+      "pos": "noun",
+      "notes": "Classifier gaan1"
+    },
+    {
+      "id": "u5-v007",
+      "zh": "吖吗",
+      "jp": "aa1 maa3",
+      "en": "Final particle, you should realize, don't you know",
+      "section": "Dialogue 1",
+      "pos": "particle",
+      "notes": "Written 吖嘛 in the dialogues"
+    },
+    {
+      "id": "u5-v008",
+      "zh": "入",
+      "jp": "jap6",
+      "en": "To enter",
+      "section": "Dialogue 1",
+      "pos": "verb",
+      "notes": ""
+    },
+    {
+      "id": "u5-v009",
+      "zh": "睇",
+      "jp": "tai2",
+      "en": "To look at",
+      "section": "Dialogue 1",
+      "pos": "verb",
+      "notes": ""
+    },
+    {
+      "id": "u5-v010",
+      "zh": "吓",
+      "jp": "haa5",
+      "en": "Verb ending, have a little-",
+      "section": "Dialogue 1",
+      "pos": "particle",
+      "notes": "Printed as Haa5 on the vocabulary slide; written 下 in the Dialogue 1 characters"
+    },
+    {
+      "id": "u5-v011",
+      "zh": "哇",
+      "jp": "waa3",
+      "en": "Wow!",
+      "section": "Dialogue 1",
+      "pos": "particle",
+      "notes": ""
+    },
+    {
+      "id": "u5-v012",
+      "zh": "件",
+      "jp": "gin6",
+      "en": "Classifier for most items of clothing",
+      "section": "Dialogue 1",
+      "pos": "classifier",
+      "notes": ""
+    },
+    {
+      "id": "u5-v013",
+      "zh": "衫裙",
+      "jp": "saam1 kwan4",
+      "en": "Dress",
+      "section": "Dialogue 1",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u5-v014",
+      "zh": "平",
+      "jp": "peng4",
+      "en": "Cheap",
+      "section": "Dialogue 1",
+      "pos": "adj",
+      "notes": ""
+    },
+    {
+      "id": "u5-v015",
+      "zh": "啵",
+      "jp": "bo3",
+      "en": "Final particle, let me remind you, let me tell you",
+      "section": "Dialogue 1",
+      "pos": "particle",
+      "notes": ""
+    },
+    {
+      "id": "u5-v016",
+      "zh": "质地",
+      "jp": "zat1 dei2",
+      "en": "Quality",
+      "section": "Dialogue 1",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u5-v017",
+      "zh": "又…又…",
+      "jp": "jau6 … jau6 …",
+      "en": "Both…and…",
+      "section": "Dialogue 1",
+      "pos": "adverb",
+      "notes": "jau6 is an adverb and comes in front of each verb"
+    },
+    {
+      "id": "u5-v018",
+      "zh": "款式",
+      "jp": "fun2 sik1",
+      "en": "Style",
+      "section": "Dialogue 1",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u5-v019",
+      "zh": "新",
+      "jp": "san1",
+      "en": "New, up to date",
+      "section": "Dialogue 1",
+      "pos": "adj",
+      "notes": ""
+    },
+    {
+      "id": "u5-v020",
+      "zh": "红色嘅",
+      "jp": "hung4 sik1 ge3",
+      "en": "Red",
+      "section": "Dialogue 1",
+      "pos": "adj",
+      "notes": "hung4 red + sik1 color + ge3 linking to a noun"
+    },
+    {
+      "id": "u5-v021",
+      "zh": "颜色",
+      "jp": "ngaan4 sik1",
+      "en": "Color",
+      "section": "Dialogue 1",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u5-v022",
+      "zh": "呢处",
+      "jp": "ni1 cyu3",
+      "en": "Here",
+      "section": "Dialogue 1",
+      "pos": "pronoun",
+      "notes": "Also ni1 dou6"
+    },
+    {
+      "id": "u5-v023",
+      "zh": "少少",
+      "jp": "siu2 siu2",
+      "en": "A little bit, somewhat",
+      "section": "Dialogue 1",
+      "pos": "adverb",
+      "notes": ""
+    },
+    {
+      "id": "u5-v024",
+      "zh": "烂",
+      "jp": "laan6",
+      "en": "Broken, damaged",
+      "section": "Dialogue 1",
+      "pos": "adj",
+      "notes": ""
+    },
+    {
+      "id": "u5-v025",
+      "zh": "咩",
+      "jp": "me1",
+      "en": "Final particle, do you mean to say that…",
+      "section": "Dialogue 1",
+      "pos": "particle",
+      "notes": "Expresses great surprise or disbelief"
+    },
+    {
+      "id": "u5-v026",
+      "zh": "等",
+      "jp": "dang2",
+      "en": "Let, allow",
+      "section": "Dialogue 1",
+      "pos": "verb",
+      "notes": "Also 'to wait' (Unit 4); dang2 ngo5 at the start of a sentence = let me…"
+    },
+    {
+      "id": "u5-v027",
+      "zh": "其他",
+      "jp": "kei4 taa1",
+      "en": "Other",
+      "section": "Dialogue 1",
+      "pos": "adj",
+      "notes": ""
+    },
+    {
+      "id": "u5-v028",
+      "zh": "次货",
+      "jp": "ci3 fo3",
+      "en": "Seconds",
+      "section": "Dialogue 1",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u5-v029",
+      "zh": "咦",
+      "jp": "ji2",
+      "en": "Exclamation of surprise, hello, what's this?",
+      "section": "Dialogue 1",
+      "pos": "particle",
+      "notes": ""
+    },
+    {
+      "id": "u5-v030",
+      "zh": "虾",
+      "jp": "haa1",
+      "en": "Prawn, shrimp",
+      "section": "Dialogue 2",
+      "pos": "noun",
+      "notes": "Classifier zek3"
+    },
+    {
+      "id": "u5-v031",
+      "zh": "几多",
+      "jp": "gei2 do1",
+      "en": "How much? How many?",
+      "section": "Dialogue 2",
+      "pos": "pronoun",
+      "notes": ""
+    },
+    {
+      "id": "u5-v032",
+      "zh": "钱",
+      "jp": "cin2",
+      "en": "Money",
+      "section": "Dialogue 2",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u5-v033",
+      "zh": "斤",
+      "jp": "gan1",
+      "en": "A catty (= 20 ounces)",
+      "section": "Dialogue 2",
+      "pos": "classifier",
+      "notes": ""
+    },
+    {
+      "id": "u5-v034",
+      "zh": "蚊",
+      "jp": "man1",
+      "en": "Dollar",
+      "section": "Dialogue 2",
+      "pos": "classifier",
+      "notes": ""
+    },
+    {
+      "id": "u5-v035",
+      "zh": "细",
+      "jp": "sai3",
+      "en": "Small",
+      "section": "Dialogue 2",
+      "pos": "adj",
+      "notes": ""
+    },
+    {
+      "id": "u5-v036",
+      "zh": "会",
+      "jp": "wui5",
+      "en": "To be able to, to know how to",
+      "section": "Dialogue 2",
+      "pos": "verb",
+      "notes": ""
+    },
+    {
+      "id": "u5-v037",
+      "zh": "得",
+      "jp": "dak1",
+      "en": "OK, can do, acceptable",
+      "section": "Dialogue 2",
+      "pos": "adj",
+      "notes": "dak1 m4 dak1 aa3? = will that do?"
+    },
+    {
+      "id": "u5-v038",
+      "zh": "只",
+      "jp": "zek3",
+      "en": "Classifier for animals",
+      "section": "Dialogue 2",
+      "pos": "classifier",
+      "notes": ""
+    },
+    {
+      "id": "u5-v039",
+      "zh": "游水",
+      "jp": "jau4 seoi2",
+      "en": "To swim",
+      "section": "Dialogue 2",
+      "pos": "verb",
+      "notes": ""
+    },
+    {
+      "id": "u5-v040",
+      "zh": "水",
+      "jp": "seoi2",
+      "en": "Water",
+      "section": "Dialogue 2",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u5-v041",
+      "zh": "嘅啦",
+      "jp": "ge3 laa3",
+      "en": "Final particle giving strong emphasis",
+      "section": "Dialogue 2",
+      "pos": "particle",
+      "notes": ""
+    },
+    {
+      "id": "u5-v042",
+      "zh": "档口",
+      "jp": "dong3 hau2",
+      "en": "Street stall",
+      "section": "Dialogue 2",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u5-v043",
+      "zh": "点样",
+      "jp": "dim2 joeng2",
+      "en": "How, in what way?",
+      "section": "Dialogue 2",
+      "pos": "pronoun",
+      "notes": ""
+    },
+    {
+      "id": "u5-v044",
+      "zh": "即係",
+      "jp": "zik1 hai6",
+      "en": "That is, that is to say",
+      "section": "Dialogue 2",
+      "pos": "phrase",
+      "notes": ""
+    },
+    {
+      "id": "u5-v045",
+      "zh": "免费",
+      "jp": "min5 fai3",
+      "en": "Free of charge",
+      "section": "Dialogue 2",
+      "pos": "adj",
+      "notes": ""
+    },
+    {
+      "id": "u5-v046",
+      "zh": "呐",
+      "jp": "naa4",
+      "en": "There, here you go, here it is, look",
+      "section": "Dialogue 2",
+      "pos": "particle",
+      "notes": "Written 嗱 in the Dialogue 2 characters"
+    },
+    {
+      "id": "u5-v047",
+      "zh": "多谢",
+      "jp": "do1 ze6",
+      "en": "Thank you",
+      "section": "Dialogue 2",
+      "pos": "phrase",
+      "notes": "Heartfelt thanks; always used when receiving money (cf. m4 goi1)"
+    },
+    {
+      "id": "u5-v048",
+      "zh": "死",
+      "jp": "sei2",
+      "en": "Dead, to die",
+      "section": "Dialogue 2",
+      "pos": "adj",
+      "notes": ""
+    },
+    {
+      "id": "u5-v049",
+      "zh": "",
+      "jp": "lai5 baai3 ji6",
+      "en": "Tuesday",
+      "section": "Grammar",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u5-v050",
+      "zh": "",
+      "jp": "lai5 baai3 saam1",
+      "en": "Wednesday",
+      "section": "Grammar",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u5-v051",
+      "zh": "",
+      "jp": "lai5 baai3 sei3",
+      "en": "Thursday",
+      "section": "Grammar",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u5-v052",
+      "zh": "",
+      "jp": "lai5 baai3 ng5",
+      "en": "Friday",
+      "section": "Grammar",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u5-v053",
+      "zh": "",
+      "jp": "lai5 baai3 luk6",
+      "en": "Saturday",
+      "section": "Grammar",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u5-v054",
+      "zh": "",
+      "jp": "jap6 heoi3",
+      "en": "Go in",
+      "section": "Grammar",
+      "pos": "verb",
+      "notes": "Directional verb + heoi3/lai4"
+    },
+    {
+      "id": "u5-v055",
+      "zh": "",
+      "jp": "jap6 lai4",
+      "en": "Come in",
+      "section": "Grammar",
+      "pos": "verb",
+      "notes": "Directional verb + heoi3/lai4"
+    },
+    {
+      "id": "u5-v056",
+      "zh": "",
+      "jp": "ceot1 heoi3",
+      "en": "Go out",
+      "section": "Grammar",
+      "pos": "verb",
+      "notes": "Directional verb + heoi3/lai4"
+    },
+    {
+      "id": "u5-v057",
+      "zh": "",
+      "jp": "ceot1 lai4",
+      "en": "Come out",
+      "section": "Grammar",
+      "pos": "verb",
+      "notes": "Directional verb + heoi3/lai4"
+    },
+    {
+      "id": "u5-v058",
+      "zh": "",
+      "jp": "soeng5 heoi3",
+      "en": "Go up",
+      "section": "Grammar",
+      "pos": "verb",
+      "notes": "Directional verb + heoi3/lai4"
+    },
+    {
+      "id": "u5-v059",
+      "zh": "",
+      "jp": "soeng5 lai4",
+      "en": "Come up",
+      "section": "Grammar",
+      "pos": "verb",
+      "notes": "Directional verb + heoi3/lai4"
+    },
+    {
+      "id": "u5-v060",
+      "zh": "",
+      "jp": "lok6 heoi3",
+      "en": "Go down",
+      "section": "Grammar",
+      "pos": "verb",
+      "notes": "Directional verb + heoi3/lai4"
+    },
+    {
+      "id": "u5-v061",
+      "zh": "",
+      "jp": "lok6 lai4",
+      "en": "Come down",
+      "section": "Grammar",
+      "pos": "verb",
+      "notes": "Directional verb + heoi3/lai4"
+    },
+    {
+      "id": "u5-v062",
+      "zh": "",
+      "jp": "gwo3 heoi3",
+      "en": "Go over",
+      "section": "Grammar",
+      "pos": "verb",
+      "notes": "Directional verb + heoi3/lai4"
+    },
+    {
+      "id": "u5-v063",
+      "zh": "",
+      "jp": "gwo3 lai4",
+      "en": "Come over",
+      "section": "Grammar",
+      "pos": "verb",
+      "notes": "Directional verb + heoi3/lai4"
+    },
+    {
+      "id": "u5-v064",
+      "zh": "",
+      "jp": "faan1 heoi3",
+      "en": "Go back",
+      "section": "Grammar",
+      "pos": "verb",
+      "notes": "Directional verb + heoi3/lai4"
+    },
+    {
+      "id": "u5-v065",
+      "zh": "",
+      "jp": "faan1 lai4",
+      "en": "Come back",
+      "section": "Grammar",
+      "pos": "verb",
+      "notes": "Directional verb + heoi3/lai4"
+    },
+    {
+      "id": "u5-v066",
+      "zh": "",
+      "jp": "soeng5 ce1",
+      "en": "Get on a car, bus, etc.",
+      "section": "Grammar",
+      "pos": "phrase",
+      "notes": "Directional verb used as a verb in its own right with a place object"
+    },
+    {
+      "id": "u5-v067",
+      "zh": "",
+      "jp": "lok6 ce1",
+      "en": "Get off a car, bus, etc.",
+      "section": "Grammar",
+      "pos": "phrase",
+      "notes": "Directional verb used as a verb in its own right with a place object"
+    },
+    {
+      "id": "u5-v068",
+      "zh": "",
+      "jp": "soeng5 saan1",
+      "en": "Go up a hill",
+      "section": "Grammar",
+      "pos": "phrase",
+      "notes": "Directional verb used as a verb in its own right with a place object"
+    },
+    {
+      "id": "u5-v069",
+      "zh": "",
+      "jp": "lok6 saan1",
+      "en": "Go down a hill",
+      "section": "Grammar",
+      "pos": "phrase",
+      "notes": "Directional verb used as a verb in its own right with a place object"
+    },
+    {
+      "id": "u5-v070",
+      "zh": "",
+      "jp": "jap6 ging2",
+      "en": "Enter a country (at the border)",
+      "section": "Grammar",
+      "pos": "phrase",
+      "notes": "Directional verb used as a verb in its own right with a place object"
+    },
+    {
+      "id": "u5-v071",
+      "zh": "",
+      "jp": "ceot1 ging2",
+      "en": "Leave a country (at the border)",
+      "section": "Grammar",
+      "pos": "phrase",
+      "notes": "Directional verb used as a verb in its own right with a place object"
+    },
+    {
+      "id": "u5-v072",
+      "zh": "",
+      "jp": "jap6 jyun2",
+      "en": "Enter hospital",
+      "section": "Grammar",
+      "pos": "phrase",
+      "notes": "Directional verb used as a verb in its own right with a place object"
+    },
+    {
+      "id": "u5-v073",
+      "zh": "",
+      "jp": "ceot1 jyun2",
+      "en": "Leave hospital",
+      "section": "Grammar",
+      "pos": "phrase",
+      "notes": "Directional verb used as a verb in its own right with a place object"
+    },
+    {
+      "id": "u5-v074",
+      "zh": "",
+      "jp": "gwo3 maa5 lou6",
+      "en": "Cross the road",
+      "section": "Grammar",
+      "pos": "phrase",
+      "notes": "Directional verb used as a verb in its own right with a place object"
+    },
+    {
+      "id": "u5-v075",
+      "zh": "",
+      "jp": "gwo3 hoi2",
+      "en": "Cross the sea, harbor, etc.",
+      "section": "Grammar",
+      "pos": "phrase",
+      "notes": "Directional verb used as a verb in its own right with a place object"
+    },
+    {
+      "id": "u5-v076",
+      "zh": "",
+      "jp": "faan1 nguk1 kei5",
+      "en": "Return home",
+      "section": "Grammar",
+      "pos": "phrase",
+      "notes": "Directional verb used as a verb in its own right with a place object"
+    },
+    {
+      "id": "u5-v077",
+      "zh": "",
+      "jp": "faan1 gung1",
+      "en": "Go (lit. return) to work",
+      "section": "Grammar",
+      "pos": "phrase",
+      "notes": "Directional verb used as a verb in its own right with a place object"
+    },
+    {
+      "id": "u5-v078",
+      "zh": "",
+      "jp": "ni1 dou6",
+      "en": "Here",
+      "section": "Grammar",
+      "pos": "pronoun",
+      "notes": "Same as ni1 cyu3"
+    },
+    {
+      "id": "u5-v079",
+      "zh": "",
+      "jp": "go2 cyu3",
+      "en": "There",
+      "section": "Grammar",
+      "pos": "pronoun",
+      "notes": ""
+    },
+    {
+      "id": "u5-v080",
+      "zh": "",
+      "jp": "go2 dou6",
+      "en": "There",
+      "section": "Grammar",
+      "pos": "pronoun",
+      "notes": "Same as go2 cyu3"
+    },
+    {
+      "id": "u5-v081",
+      "zh": "",
+      "jp": "m4 sai2",
+      "en": "There's no need to",
+      "section": "Grammar",
+      "pos": "phrase",
+      "notes": "Polite response to thanks: m4 sai2 m4 goi1 / m4 sai2 do1 ze6"
+    },
+    {
+      "id": "u5-v082",
+      "zh": "",
+      "jp": "ji4 gaa1",
+      "en": "Now",
+      "section": "Grammar",
+      "pos": "adverb",
+      "notes": "Present"
+    },
+    {
+      "id": "u5-v083",
+      "zh": "",
+      "jp": "gam1 jat6",
+      "en": "Today",
+      "section": "Grammar",
+      "pos": "adverb",
+      "notes": "Present"
+    },
+    {
+      "id": "u5-v084",
+      "zh": "",
+      "jp": "tau4 sin1",
+      "en": "Just now",
+      "section": "Grammar",
+      "pos": "adverb",
+      "notes": "Recent past"
+    },
+    {
+      "id": "u5-v085",
+      "zh": "",
+      "jp": "ngaam1 ngaam1",
+      "en": "Just",
+      "section": "Grammar",
+      "pos": "adverb",
+      "notes": "Recent past"
+    },
+    {
+      "id": "u5-v086",
+      "zh": "",
+      "jp": "zi1 cin4",
+      "en": "Before",
+      "section": "Grammar",
+      "pos": "adverb",
+      "notes": "Past"
+    },
+    {
+      "id": "u5-v087",
+      "zh": "",
+      "jp": "bun2 loi4",
+      "en": "Originally",
+      "section": "Grammar",
+      "pos": "adverb",
+      "notes": "Past"
+    },
+    {
+      "id": "u5-v088",
+      "zh": "",
+      "jp": "soeng6 ci3",
+      "en": "Last time",
+      "section": "Grammar",
+      "pos": "adverb",
+      "notes": "Past"
+    },
+    {
+      "id": "u5-v089",
+      "zh": "",
+      "jp": "go2 zan6 si4",
+      "en": "Then",
+      "section": "Grammar",
+      "pos": "adverb",
+      "notes": "Past"
+    },
+    {
+      "id": "u5-v090",
+      "zh": "",
+      "jp": "kam4 jat6",
+      "en": "Yesterday",
+      "section": "Grammar",
+      "pos": "adverb",
+      "notes": "Past"
+    },
+    {
+      "id": "u5-v091",
+      "zh": "",
+      "jp": "cin4 jat6",
+      "en": "The day before yesterday",
+      "section": "Grammar",
+      "pos": "adverb",
+      "notes": "Past"
+    },
+    {
+      "id": "u5-v092",
+      "zh": "",
+      "jp": "zik1 haak1",
+      "en": "Right away, immediately",
+      "section": "Grammar",
+      "pos": "adverb",
+      "notes": "Future; printed zik1 hak1 in the example sentence on slide 31"
+    },
+    {
+      "id": "u5-v093",
+      "zh": "",
+      "jp": "dai6 ji6 si4",
+      "en": "In the future",
+      "section": "Grammar",
+      "pos": "adverb",
+      "notes": "Future; also dai6 si4"
+    },
+    {
+      "id": "u5-v094",
+      "zh": "",
+      "jp": "dai6 si4",
+      "en": "In the future",
+      "section": "Grammar",
+      "pos": "adverb",
+      "notes": "Future; short form of dai6 ji6 si4"
+    },
+    {
+      "id": "u5-v095",
+      "zh": "",
+      "jp": "haa6 ci3",
+      "en": "Next time",
+      "section": "Grammar",
+      "pos": "adverb",
+      "notes": "Future"
+    },
+    {
+      "id": "u5-v096",
+      "zh": "",
+      "jp": "dou3 si4",
+      "en": "When the time comes",
+      "section": "Grammar",
+      "pos": "adverb",
+      "notes": "Future"
+    },
+    {
+      "id": "u5-v097",
+      "zh": "",
+      "jp": "ting1 jat6",
+      "en": "Tomorrow",
+      "section": "Grammar",
+      "pos": "adverb",
+      "notes": "Future"
+    },
+    {
+      "id": "u5-v098",
+      "zh": "",
+      "jp": "hau6 jat6",
+      "en": "The day after tomorrow",
+      "section": "Grammar",
+      "pos": "adverb",
+      "notes": "Future"
+    },
+    {
+      "id": "u5-v099",
+      "zh": "",
+      "jp": "sing4 jat6",
+      "en": "Always",
+      "section": "Grammar",
+      "pos": "adverb",
+      "notes": ""
+    },
+    {
+      "id": "u5-v100",
+      "zh": "",
+      "jp": "do1 sou3",
+      "en": "Mostly",
+      "section": "Grammar",
+      "pos": "adverb",
+      "notes": ""
+    },
+    {
+      "id": "u5-v101",
+      "zh": "",
+      "jp": "jau5 (zan6) si4",
+      "en": "Sometimes",
+      "section": "Grammar",
+      "pos": "adverb",
+      "notes": ""
+    },
+    {
+      "id": "u5-v102",
+      "zh": "",
+      "jp": "jat1 si4 si4 / jat1 si2 si4",
+      "en": "Occasionally",
+      "section": "Grammar",
+      "pos": "adverb",
+      "notes": ""
+    },
+    {
+      "id": "u5-v103",
+      "zh": "",
+      "jp": "ping4 si4",
+      "en": "Normally",
+      "section": "Grammar",
+      "pos": "adverb",
+      "notes": ""
+    },
+    {
+      "id": "u5-v104",
+      "zh": "",
+      "jp": "jat1 ci3",
+      "en": "Once",
+      "section": "Grammar",
+      "pos": "adverb",
+      "notes": ""
+    },
+    {
+      "id": "u5-v105",
+      "zh": "",
+      "jp": "loeng5 ci3",
+      "en": "Twice",
+      "section": "Grammar",
+      "pos": "adverb",
+      "notes": ""
+    },
+    {
+      "id": "u5-v106",
+      "zh": "",
+      "jp": "saam1 ci3",
+      "en": "Three times",
+      "section": "Grammar",
+      "pos": "adverb",
+      "notes": ""
+    },
+    {
+      "id": "u5-v107",
+      "zh": "",
+      "jp": "gei2 ci3",
+      "en": "Several times",
+      "section": "Grammar",
+      "pos": "adverb",
+      "notes": ""
+    },
+    {
+      "id": "u5-v108",
+      "zh": "",
+      "jp": "ging1 soeng4",
+      "en": "Usually",
+      "section": "Grammar",
+      "pos": "adverb",
+      "notes": ""
+    },
+    {
+      "id": "u5-v109",
+      "zh": "",
+      "jp": "mui5",
+      "en": "Each",
+      "section": "Grammar",
+      "pos": "adverb",
+      "notes": ""
+    },
+    {
+      "id": "u5-v110",
+      "zh": "",
+      "jp": "mui5 ci3",
+      "en": "Every time",
+      "section": "Grammar",
+      "pos": "adverb",
+      "notes": "Or ci3 ci3; no classifier (not *mui5 go3 ci3)"
+    },
+    {
+      "id": "u5-v111",
+      "zh": "",
+      "jp": "ci3 ci3",
+      "en": "Every time",
+      "section": "Grammar",
+      "pos": "adverb",
+      "notes": "Reduplicated form of mui5 ci3"
+    },
+    {
+      "id": "u5-v112",
+      "zh": "",
+      "jp": "mui5 jat6",
+      "en": "Every day",
+      "section": "Grammar",
+      "pos": "adverb",
+      "notes": "Or jat6 jat6; no classifier (not *mui5 go3 jat6)"
+    },
+    {
+      "id": "u5-v113",
+      "zh": "",
+      "jp": "jat6 jat6",
+      "en": "Every day",
+      "section": "Grammar",
+      "pos": "adverb",
+      "notes": "Reduplicated form of mui5 jat6"
+    },
+    {
+      "id": "u5-v114",
+      "zh": "",
+      "jp": "mui5 nin4",
+      "en": "Every year",
+      "section": "Grammar",
+      "pos": "adverb",
+      "notes": "Or nin4 nin4; no classifier (not *mui5 go3 nin4)"
+    },
+    {
+      "id": "u5-v115",
+      "zh": "",
+      "jp": "nin4 nin4",
+      "en": "Every year",
+      "section": "Grammar",
+      "pos": "adverb",
+      "notes": "Reduplicated form of mui5 nin4"
+    },
+    {
+      "id": "u5-v116",
+      "zh": "",
+      "jp": "mui5 ziu1",
+      "en": "Every morning",
+      "section": "Grammar",
+      "pos": "adverb",
+      "notes": "Or ziu1 ziu1; no classifier (not *mui5 go3 ziu1)"
+    },
+    {
+      "id": "u5-v117",
+      "zh": "",
+      "jp": "ziu1 ziu1",
+      "en": "Every morning",
+      "section": "Grammar",
+      "pos": "adverb",
+      "notes": "Reduplicated form of mui5 ziu1"
+    },
+    {
+      "id": "u5-v118",
+      "zh": "",
+      "jp": "mui5 maan5",
+      "en": "Every evening",
+      "section": "Grammar",
+      "pos": "adverb",
+      "notes": "Or maan5 maan5; no classifier (not *mui5 go3 maan5)"
+    },
+    {
+      "id": "u5-v119",
+      "zh": "",
+      "jp": "maan5 maan5",
+      "en": "Every evening",
+      "section": "Grammar",
+      "pos": "adverb",
+      "notes": "Reduplicated form of mui5 maan5"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "u5-d1",
+      "title": "Dialogue 1",
+      "setting": "Miss Wong and Miss Cheung are shopping in a fashion store",
+      "lines": [
+        {
+          "id": "u5-d1-l01",
+          "speaker": "Wong",
+          "zh": "今日係礼拜一，唔係礼拜日，点解呢间铺头咁多人呢？",
+          "jp": "gam1 jat6 hai6 lai5 baai3 jat1, m4 hai6 lai5 baai3 jat6, dim2 gaai2 ni1 gaan1 pou3 tau2 gam3 do1 jan4 ne1?",
+          "en": "Today is Monday, not Sunday, how come this store is so crowded?"
+        },
+        {
+          "id": "u5-d1-l02",
+          "speaker": "Cheung",
+          "zh": "呢间铺头大减价吖嘛。我地入去睇吓好吗？",
+          "jp": "ni1 gaan1 pou3 tau2 daai6 gaam2 gaa3 aa1 maa3. ngo5 dei6 jap6 heoi3 tai2 haa5 hou2 maa1?",
+          "en": "This store is having a big sale. Let's go inside and check it out, ok?"
+        },
+        {
+          "id": "u5-d1-l03",
+          "speaker": "Wong",
+          "zh": "好呀，哇！你睇，嗰件衫裙真係好平啵！",
+          "jp": "hou2 aa3, waa3! nei5 tai2, go2 gin6 saam1 kwan4 zan1 hai6 hou2 peng4 bo3!",
+          "en": "Sure. Wow! Look, that dress is really cheap!"
+        },
+        {
+          "id": "u5-d1-l04",
+          "speaker": "Cheung",
+          "zh": "係啵。质地又好；款式又新；颜色又靓；真係好勒。",
+          "jp": "hai6 bo3. zat1 dei2 jau6 hou2; fun2 sik1 jau6 san1; ngaan4 sik1 jau6 leng3; zan1 hai6 hou2 laak3.",
+          "en": "You are right! The quality is good, the style is new, the color is pretty, it's really good"
+        },
+        {
+          "id": "u5-d1-l05",
+          "speaker": "Wong",
+          "zh": "咁，我就买呢件喇。",
+          "jp": "gam2, ngo5 zau6 maai5 ni1 gin6 laa1.",
+          "en": "Then, I'll buy this one"
+        },
+        {
+          "id": "u5-d1-l06",
+          "speaker": "Cheung",
+          "zh": "我都想买嗰件红色嘅。",
+          "jp": "ngo5 dou1 soeng2 maai5 go2 gin6 hung4 sik1 ge3.",
+          "en": "I also want to buy that red one"
+        },
+        {
+          "id": "u5-d1-l07",
+          "speaker": "Wong",
+          "zh": "咦，呢处有少少烂咗啵。",
+          "jp": "ji2, ni1 cyu3 jau5 siu2 siu2 laan6 zo2 bo3.",
+          "en": "What's this? There's a small tear here"
+        },
+        {
+          "id": "u5-d1-l08",
+          "speaker": "Cheung",
+          "zh": "係咩？哦！係啵！我呢件都有少少烂咗。等我睇下其他嘅有冇烂呢。",
+          "jp": "hai6 me1? ngo4! hai6 bo3! ngo5 ni1 gin6 dou1 jau5 siu2 siu2 laan6 zo2. dang2 ngo5 tai2 haa5 kei4 taa1 ge3 jau5 mou5 laan6 ne1.",
+          "en": "Really? Oh! right! Mine also has a small tear. Let me see if there are others that have tears"
+        },
+        {
+          "id": "u5-d1-l09",
+          "speaker": "Wong",
+          "zh": "唔使睇啦，件件都有少少烂嘅，因为佢地都係次货，所以咁平。",
+          "jp": "m4 sai2 tai2 laa1, gin6 gin6 dou1 jau5 siu2 siu2 laan6 ge3, jan1 wai4 keoi5 dei6 dou1 hai6 ci3 fo3, so2 ji5 gam3 peng4.",
+          "en": "No need to look, every one has a small tear. Because they are all seconds, therefore they are so cheap"
+        }
+      ],
+      "questions": [
+        "Wong4 siu2 ze2 go2 gin6 saam1 kwan4 peng4 m4 peng4 aa3? Leng3 m4 leng3 aa3?",
+        "Wong4 siu2 ze2 go2 gin6 saam1 kwan4 jau5 mou5 laan6 gaa3? Zoeng1 siu2 ze2 go2 gin6 ne1?"
+      ]
+    },
+    {
+      "id": "u5-d2",
+      "title": "Dialogue 2",
+      "setting": "Miss Cheung gets a bargain (perhaps) from the fish seller in the market",
+      "lines": [
+        {
+          "id": "u5-d2-l01",
+          "speaker": "Cheung",
+          "zh": "呢啲虾几多钱一斤呀？",
+          "jp": "ni1 di1 haa1 gei2 do1 cin2 jat1 gan1 aa3?",
+          "en": "How much per catty are these shrimps?"
+        },
+        {
+          "id": "u5-d2-l02",
+          "speaker": "Seller",
+          "zh": "八十五蚊一斤。",
+          "jp": "baat3 sap6 ng5 man1 jat1 gan1.",
+          "en": "$85 per catty"
+        },
+        {
+          "id": "u5-d2-l03",
+          "speaker": "Cheung",
+          "zh": "呢啲虾咁细，八十五蚊一斤太贵勒。七十蚊一斤得唔得呀？",
+          "jp": "ni1 di1 haa1 gam3 sai3, baat3 sap6 ng5 man1 jat1 gan1 taai3 gwai3 laak3. cat1 sap6 man1 jat1 gan1 dak1 m4 dak1 aa3?",
+          "en": "These shrimps are so small, $85/catty is too expensive, how about $70/catty?"
+        },
+        {
+          "id": "u5-d2-l04",
+          "speaker": "Seller",
+          "zh": "唔得！小姐，你睇，只只虾都好新鲜会游水。八十五蚊一斤唔贵嘅啦。",
+          "jp": "m4 dak1! siu2 ze2, nei5 tai2, zek3 zek3 haa1 dou1 hou2 san1 sin1 wui5 jau4 seoi2. baat3 sap6 ng5 man1 jat1 gan1 m4 gwai3 ge3 laa3.",
+          "en": "No, Miss, you see, every shrimp is very fresh and swimming. $85/catty is not expensive"
+        },
+        {
+          "id": "u5-d2-l05",
+          "speaker": "Cheung",
+          "zh": "嗰处嘅档口只係要七十二蚊一斤啫。点解你地要八十五蚊一斤呀？",
+          "jp": "go2 cyu3 ge3 dong3 hau2 zi2 hai6 jiu3 cat1 sap6 ji6 man1 jat1 gan1 ze1. dim2 gaai2 nei5 dei6 jiu3 baat3 sap6 ng5 man1 jat1 gan1 aa3?",
+          "en": "That stall is only selling for $72/catty, how come yours is $85/catty?"
+        },
+        {
+          "id": "u5-d2-l06",
+          "speaker": "Seller",
+          "zh": "因为我地係，买一送一吖嘛。",
+          "jp": "jan1 wai4 ngo5 dei6 hai6, maai5 jat1 sung3 jat1, aa1 maa3.",
+          "en": "Because mine is buy one get one free"
+        },
+        {
+          "id": "u5-d2-l07",
+          "speaker": "Cheung",
+          "zh": "点样买一送一呀？",
+          "jp": "dim2 joeng2 maai5 jat1 sung3 jat1 aa3?",
+          "en": "How does buy one get one free work?"
+        },
+        {
+          "id": "u5-d2-l08",
+          "speaker": "Seller",
+          "zh": "即係买一斤虾，免费送一斤虾喇。",
+          "jp": "zik1 hai6 maai5 jat1 gan1 haa1, min5 fai3 sung3 jat1 gan1 haa1 laa1.",
+          "en": "Buy one catty of shrimp, get one catty of shrimp for free"
+        },
+        {
+          "id": "u5-d2-l09",
+          "speaker": "Cheung",
+          "zh": "好！我要一斤喇。嗱，呢处八十五蚊。",
+          "jp": "hou2! ngo5 jiu3 jat1 gan1 laa1. naa4, ni1 cyu3 baat3 sap6 ng5 man1.",
+          "en": "Good, I want one catty, here's $85"
+        },
+        {
+          "id": "u5-d2-l10",
+          "speaker": "Seller",
+          "zh": "多谢，嗱，呢处两斤虾。",
+          "jp": "do1 ze6, naa4, ni1 cyu3 loeng5 gan1 haa1.",
+          "en": "Thank you, then, here's two catties of shrimps"
+        },
+        {
+          "id": "u5-d2-l11",
+          "speaker": "Cheung",
+          "zh": "点解咁多死虾架？",
+          "jp": "dim2 gaai2 gam3 do1 sei2 haa1 gaa3?",
+          "en": "Why are there so many dead shrimps?"
+        },
+        {
+          "id": "u5-d2-l12",
+          "speaker": "Seller",
+          "zh": "买一斤游水虾，送一斤死虾吖嘛。",
+          "jp": "maai5 jat1 gan1 jau4 seoi2 haa1, sung3 jat1 gan1 sei2 haa1 aa1 maa3.",
+          "en": "Buy one catty of swimming shrimps, get one catty of dead shrimps for free"
+        }
+      ],
+      "questions": [
+        "Zoeng1 siu2 ze2 hai2 dong3 hau2 soeng2 maai5 mat1 je5 aa3?",
+        "Di1 haa1 gei2 do1 cin2 jat1 gan1 aa3?",
+        "Kei4 taa1 dong3 hau2 ge3 haa1, gei2 do1 cin2 jat1 gan1 aa3?",
+        "Zoeng2 siu2 ze2 maai5 zo2 haa1 dim2 gaai2 hou2 nau1 aa3?"
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "u5-g01",
+      "title": "The week",
+      "summary": "lai5 baai3 (or sing1 kei4) means week and is classified with go3. Monday to Saturday are numbered 1-6; Sunday uses jat6 'sun'.",
+      "body": "lai5 baai3 means week: it is classified with go3, so one week is jat1 go3 lai5 baai3, two weeks is loeng5 go3 lai5 baai3 and so on.\nThe days of the week are simply numbered 1-6 from Monday to Saturday.\nSunday is not numbered, instead the word for sun jat6 is used, so lai5 baai3 jat6 is Sunday. Go very carefully with your tones or you will mix up Sunday (lai5 baai3 jat6) and Monday (lai5 baai3 jat1).\nSome people say sing1 kei4 instead of lai5 baai3 and you may do so too if you wish. Simply substitute sing1 kei4 for lai5 baai3 in any of the words in the above list.",
+      "examples": [
+        {
+          "id": "u5-g01-e01",
+          "jp": "jat1 go3 lai5 baai3",
+          "zh": "",
+          "en": "One week",
+          "lit": ""
+        },
+        {
+          "id": "u5-g01-e02",
+          "jp": "loeng5 go3 lai5 baai3",
+          "zh": "",
+          "en": "Two weeks",
+          "lit": ""
+        },
+        {
+          "id": "u5-g01-e03",
+          "jp": "lai5 baai3 jat1",
+          "zh": "",
+          "en": "Monday",
+          "lit": ""
+        },
+        {
+          "id": "u5-g01-e04",
+          "jp": "lai5 baai3 ji6",
+          "zh": "",
+          "en": "Tuesday",
+          "lit": ""
+        },
+        {
+          "id": "u5-g01-e05",
+          "jp": "lai5 baai3 saam1",
+          "zh": "",
+          "en": "Wednesday",
+          "lit": ""
+        },
+        {
+          "id": "u5-g01-e06",
+          "jp": "lai5 baai3 sei3",
+          "zh": "",
+          "en": "Thursday",
+          "lit": ""
+        },
+        {
+          "id": "u5-g01-e07",
+          "jp": "lai5 baai3 ng5",
+          "zh": "",
+          "en": "Friday",
+          "lit": ""
+        },
+        {
+          "id": "u5-g01-e08",
+          "jp": "lai5 baai3 luk6",
+          "zh": "",
+          "en": "Saturday",
+          "lit": ""
+        },
+        {
+          "id": "u5-g01-e09",
+          "jp": "lai5 baai3 jat6",
+          "zh": "",
+          "en": "Sunday",
+          "lit": ""
+        },
+        {
+          "id": "u5-g01-e10",
+          "jp": "sing1 kei4",
+          "zh": "",
+          "en": "Week (alternative to lai5 baai3)",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "time",
+        "week",
+        "classifiers"
+      ]
+    },
+    {
+      "id": "u5-g02",
+      "title": "Ne1 again",
+      "summary": "ne1 also ends rhetorical questions, when no answer is expected or you are wondering to yourself.",
+      "body": "We have met ne1? as a final particle which asks a follow-up question. It is also used after rhetorical questions, that is when you do not expect an answer or perhaps when you are wondering to yourself.",
+      "examples": [
+        {
+          "id": "u5-g02-e01",
+          "jp": "go2 go3 jan4 hai6 bin1 go3 ne1?",
+          "zh": "",
+          "en": "I wonder who that can be?",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "particles",
+        "questions"
+      ]
+    },
+    {
+      "id": "u5-g03",
+      "title": "The verbs heoi3 'go' and lai4 'come' (i): as main verbs",
+      "summary": "heoi3 and lai4 are used by themselves as main verbs and can be followed directly by a destination.",
+      "body": "(i) used by themselves as main verbs.\nBoth can be followed directly by a place name or other expression of the destination.",
+      "examples": [
+        {
+          "id": "u5-g03-e01",
+          "jp": "ngo5 dei6 jat1 cai4 heoi3 laa1",
+          "zh": "",
+          "en": "Let's go together",
+          "lit": ""
+        },
+        {
+          "id": "u5-g03-e02",
+          "jp": "keoi5 ting1 jat6 m4 lai4 laa3",
+          "zh": "",
+          "en": "She's not coming tomorrow",
+          "lit": ""
+        },
+        {
+          "id": "u5-g03-e03",
+          "jp": "ngo5 jat1 jyut6 heoi3 mei5 gwok3",
+          "zh": "",
+          "en": "I'm going to America in January",
+          "lit": ""
+        },
+        {
+          "id": "u5-g03-e04",
+          "jp": "ngo5 dei6 ji4 gaa1 heoi3 fo2 ce1 zaam6",
+          "zh": "",
+          "en": "We're going to the railway station now",
+          "lit": ""
+        },
+        {
+          "id": "u5-g03-e05",
+          "jp": "keoi5 dei6 m4 lai4 jing1 gwok3",
+          "zh": "",
+          "en": "They're not coming to England",
+          "lit": ""
+        },
+        {
+          "id": "u5-g03-e06",
+          "jp": "nei5 gei2 si4 lai4 ngo5 nguk1 kei5 aa3?",
+          "zh": "",
+          "en": "When are you coming to my place?",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "verbs",
+        "heoi3",
+        "lai4",
+        "direction"
+      ]
+    },
+    {
+      "id": "u5-g04",
+      "title": "The verbs heoi3 'go' and lai4 'come' (ii): with directional verbs",
+      "summary": "Directional verbs (jap6, ceot1, soeng5, lok6, gwo3, faan1) combine with heoi3/lai4 and are used like simple verbs.",
+      "body": "(ii) used together with directional verbs.\nThese combinations are used in the same way as the simple verbs.",
+      "examples": [
+        {
+          "id": "u5-g04-e01",
+          "jp": "jap6 heoi3",
+          "zh": "",
+          "en": "Go in",
+          "lit": ""
+        },
+        {
+          "id": "u5-g04-e02",
+          "jp": "jap6 lai4",
+          "zh": "",
+          "en": "Come in",
+          "lit": ""
+        },
+        {
+          "id": "u5-g04-e03",
+          "jp": "ceot1 heoi3",
+          "zh": "",
+          "en": "Go out",
+          "lit": ""
+        },
+        {
+          "id": "u5-g04-e04",
+          "jp": "ceot1 lai4",
+          "zh": "",
+          "en": "Come out",
+          "lit": ""
+        },
+        {
+          "id": "u5-g04-e05",
+          "jp": "soeng5 heoi3",
+          "zh": "",
+          "en": "Go up",
+          "lit": ""
+        },
+        {
+          "id": "u5-g04-e06",
+          "jp": "soeng5 lai4",
+          "zh": "",
+          "en": "Come up",
+          "lit": ""
+        },
+        {
+          "id": "u5-g04-e07",
+          "jp": "lok6 heoi3",
+          "zh": "",
+          "en": "Go down",
+          "lit": ""
+        },
+        {
+          "id": "u5-g04-e08",
+          "jp": "lok6 lai4",
+          "zh": "",
+          "en": "Come down",
+          "lit": ""
+        },
+        {
+          "id": "u5-g04-e09",
+          "jp": "gwo3 heoi3",
+          "zh": "",
+          "en": "Go over",
+          "lit": ""
+        },
+        {
+          "id": "u5-g04-e10",
+          "jp": "gwo3 lai4",
+          "zh": "",
+          "en": "Come over",
+          "lit": ""
+        },
+        {
+          "id": "u5-g04-e11",
+          "jp": "faan1 heoi3",
+          "zh": "",
+          "en": "Go back",
+          "lit": ""
+        },
+        {
+          "id": "u5-g04-e12",
+          "jp": "faan1 lai4",
+          "zh": "",
+          "en": "Come back",
+          "lit": ""
+        },
+        {
+          "id": "u5-g04-e13",
+          "jp": "ngo5 soeng5 heoi3 bak1 ging1 hoi1 wui2",
+          "zh": "",
+          "en": "I'm going up to Beijing for a meeting",
+          "lit": "I ascend go Beijing hold meeting"
+        },
+        {
+          "id": "u5-g04-e14",
+          "jp": "ngo5 dei6 lok6 heoi3 sik6 faan6 laa1",
+          "zh": "",
+          "en": "Let's go down and eat",
+          "lit": "We descend go eat rice"
+        },
+        {
+          "id": "u5-g04-e15",
+          "jp": "nei5 gei2 si4 gwo3 lai4 taam3 ngo5 aa3?",
+          "zh": "",
+          "en": "When are you coming over to visit me?",
+          "lit": "You when over come visit me"
+        }
+      ],
+      "tags": [
+        "verbs",
+        "heoi3",
+        "lai4",
+        "direction"
+      ]
+    },
+    {
+      "id": "u5-g05",
+      "title": "The verbs heoi3 'go' and lai4 'come' (iii): manner verbs and objects",
+      "summary": "A manner verb can precede the directional verb (manner-direction-come/go); with a transitive verb, the directional verb and heoi3/lai4 follow the object.",
+      "body": "A third verb may be added before the directional verb to express the manner of movement, resulting in a sequence of three verbs: (manner-direction-come/go).\nWhen used with a transitive verb, the directional verb and heoi3/lai4 follow the object.",
+      "examples": [
+        {
+          "id": "u5-g05-e01",
+          "jp": "fei1 jap6 lai4",
+          "zh": "",
+          "en": "Fly in",
+          "lit": ""
+        },
+        {
+          "id": "u5-g05-e02",
+          "jp": "fei1 ceot1 heoi3",
+          "zh": "",
+          "en": "Fly out",
+          "lit": ""
+        },
+        {
+          "id": "u5-g05-e03",
+          "jp": "dit3 lok6 lai4",
+          "zh": "",
+          "en": "Come falling down",
+          "lit": ""
+        },
+        {
+          "id": "u5-g05-e04",
+          "jp": "dit3 lok6 heoi3",
+          "zh": "",
+          "en": "Go falling down",
+          "lit": ""
+        },
+        {
+          "id": "u5-g05-e05",
+          "jp": "tiu3 soeng5 lai4",
+          "zh": "",
+          "en": "Jump up (here)",
+          "lit": ""
+        },
+        {
+          "id": "u5-g05-e06",
+          "jp": "tiu3 soeng5 heoi3",
+          "zh": "",
+          "en": "Jump up (there)",
+          "lit": ""
+        },
+        {
+          "id": "u5-g05-e07",
+          "jp": "haang4 faan1 lai4",
+          "zh": "",
+          "en": "Walk back (here)",
+          "lit": ""
+        },
+        {
+          "id": "u5-g05-e08",
+          "jp": "haang4 gwo3 lai4",
+          "zh": "",
+          "en": "Walk over (there)",
+          "lit": ""
+        },
+        {
+          "id": "u5-g05-e09",
+          "jp": "ngo5 dei6 soeng2 daai3 di1 san1 tung4 si6 jap6 lai4",
+          "zh": "",
+          "en": "We'd like to bring in some new colleagues",
+          "lit": "We wish to bring some new colleagues in come"
+        },
+        {
+          "id": "u5-g05-e10",
+          "jp": "ngo5 ling1 di1 hang4 lei5 soeng5 lai4 sin1",
+          "zh": "",
+          "en": "I'll bring the luggage up first",
+          "lit": "I carry the luggage up come first"
+        },
+        {
+          "id": "u5-g05-e11",
+          "jp": "m4 goi1 nei5 dai6 di1 sung3 gwo3 lai4",
+          "zh": "",
+          "en": "Could you pass the dishes over, please",
+          "lit": "Please you pass the food over come"
+        }
+      ],
+      "tags": [
+        "verbs",
+        "heoi3",
+        "lai4",
+        "direction",
+        "serial verbs"
+      ]
+    },
+    {
+      "id": "u5-g06",
+      "title": "The verbs heoi3 'go' and lai4 'come' (iv): aspect markers and serial verbs",
+      "summary": "Aspect markers zo2 and gan2 go after the first verb of the sequence; four-verb patterns with both lai4 and heoi3 mean 'back and forth'.",
+      "body": "Aspect marker like zo2 '-ed' and gan2 '-ing' appear after the first verb of the sequence.\nThese sequences of verbs are known as serial verb constructions. One such pattern, using both lai4 and heoi3, uses four verbs in a row.",
+      "examples": [
+        {
+          "id": "u5-g06-e01",
+          "jp": "keoi5 dei6 ceot1 zo2 heoi3 hou2 noi6 laa3",
+          "zh": "",
+          "en": "They've been out for a long time",
+          "lit": ""
+        },
+        {
+          "id": "u5-g06-e02",
+          "jp": "lou5 baan2 faan1 gan2 lai4 ge3 laa3",
+          "zh": "",
+          "en": "The boss is on his way (lit. coming) back",
+          "lit": ""
+        },
+        {
+          "id": "u5-g06-e03",
+          "jp": "zek3 zoek3 zai2 fei1 zo2 jap6 lai4 cyu4 fong2",
+          "zh": "",
+          "en": "The bird has flown into the kitchen",
+          "lit": ""
+        },
+        {
+          "id": "u5-g06-e04",
+          "jp": "di1 seoi2 lau6 gan2 lok6 lai4 haa6 min6",
+          "zh": "",
+          "en": "The water is flowing downwards",
+          "lit": ""
+        },
+        {
+          "id": "u5-g06-e05",
+          "jp": "haang4 lai4 haang4 heoi3",
+          "zh": "",
+          "en": "Walk to and fro",
+          "lit": ""
+        },
+        {
+          "id": "u5-g06-e06",
+          "jp": "fei1 lai4 fei1 heoi3",
+          "zh": "",
+          "en": "Fly back and forth",
+          "lit": ""
+        },
+        {
+          "id": "u5-g06-e07",
+          "jp": "lam2 lai4 lam2 heoi3",
+          "zh": "",
+          "en": "Think it over and over",
+          "lit": ""
+        },
+        {
+          "id": "u5-g06-e08",
+          "jp": "si3 lai4 si3 heoi3",
+          "zh": "",
+          "en": "Try and try again",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "verbs",
+        "heoi3",
+        "lai4",
+        "aspect",
+        "serial verbs"
+      ]
+    },
+    {
+      "id": "u5-g07",
+      "title": "The verbs heoi3 'go' and lai4 'come' (v): directional verbs with place objects",
+      "summary": "Directional verbs are also verbs in their own right, taking a place expression as object; this gives several set phrases.",
+      "body": "Directional verbs are also used as verbs in their own right, with a place expression as their object. This pattern includes a number of useful set phrases.",
+      "examples": [
+        {
+          "id": "u5-g07-e01",
+          "jp": "soeng5/lok6 ce1",
+          "zh": "",
+          "en": "Get on/off a car, bus, etc.",
+          "lit": ""
+        },
+        {
+          "id": "u5-g07-e02",
+          "jp": "soeng5/lok6 saan1",
+          "zh": "",
+          "en": "Go up/down a hill",
+          "lit": ""
+        },
+        {
+          "id": "u5-g07-e03",
+          "jp": "jap6/ceot1 ging2",
+          "zh": "",
+          "en": "Enter/leave a country (at the border)",
+          "lit": ""
+        },
+        {
+          "id": "u5-g07-e04",
+          "jp": "jap6/ceot1 jyun2",
+          "zh": "",
+          "en": "Enter/leave hospital",
+          "lit": ""
+        },
+        {
+          "id": "u5-g07-e05",
+          "jp": "gwo3 maa5 lou6",
+          "zh": "",
+          "en": "Cross the road",
+          "lit": ""
+        },
+        {
+          "id": "u5-g07-e06",
+          "jp": "gwo3 hoi2",
+          "zh": "",
+          "en": "Cross the sea, harbor, etc.",
+          "lit": ""
+        },
+        {
+          "id": "u5-g07-e07",
+          "jp": "faan1 nguk1 kei5",
+          "zh": "",
+          "en": "Return home",
+          "lit": ""
+        },
+        {
+          "id": "u5-g07-e08",
+          "jp": "faan1 gung1",
+          "zh": "",
+          "en": "Go (lit. return) to work",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "verbs",
+        "direction",
+        "set phrases"
+      ]
+    },
+    {
+      "id": "u5-g08",
+      "title": "Another verb ending: -haa5",
+      "summary": "-haa5 after a verb gives the idea of doing something for a bit.",
+      "body": "In unit 4 we met the verb ending -zo2, -gan2. Another one is -haa5, which gives the idea of doing something for a bit.",
+      "examples": [
+        {
+          "id": "u5-g08-e01",
+          "jp": "tai2 haa5",
+          "zh": "",
+          "en": "Have a glance at (look a bit)",
+          "lit": ""
+        },
+        {
+          "id": "u5-g08-e02",
+          "jp": "dang2 haa5",
+          "zh": "",
+          "en": "Wait for a moment (wait a bit)",
+          "lit": ""
+        },
+        {
+          "id": "u5-g08-e03",
+          "jp": "co5 haa5",
+          "zh": "",
+          "en": "Sit for a while (sit a bit)",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "verb endings",
+        "aspect"
+      ]
+    },
+    {
+      "id": "u5-g09",
+      "title": "jau6 … jau6 …: both…and…",
+      "summary": "jau6 'furthermore' is an adverb, so it comes in front of each verb even when repeated to mean both…and…",
+      "body": "jau6 basically means furthermore and it is an adverb. It has to obey the rule for such adverbs and comes in front of verbs, even when it is being repeated to give the meaning both…and… In the dialogue, we see that it does obey (the three verbs are hou2 to be good, san1 to be new, and leng3 to be pretty).",
+      "examples": [
+        {
+          "id": "u5-g09-e01",
+          "jp": "Wong4 sin1 saang1 jau6 heoi3, Wong4 taai3 taai2 jau6 heoi3",
+          "zh": "",
+          "en": "Both Mr. and Mrs. Wong are going",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "adverbs",
+        "conjunctions"
+      ]
+    },
+    {
+      "id": "u5-g10",
+      "title": "Colors",
+      "summary": "hung4 'red' is normally used as hung4 sik1 'red-colored'; ge3 links it to a noun.",
+      "body": "hung4 means red, but it is most easily used in combination with sik1 color as hung4 sik1 red-colored. ge3 is added to link hung4 sik1 with a noun.",
+      "examples": [
+        {
+          "id": "u5-g10-e01",
+          "jp": "keoi5 ge3 ce1 hai6 mat1 je5 ngaan4 sik1 gaa3?",
+          "zh": "",
+          "en": "What color's his car?",
+          "lit": ""
+        },
+        {
+          "id": "u5-g10-e02",
+          "jp": "hai6 hung4 sik1 ge3 ce1",
+          "zh": "",
+          "en": "It's a red car",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "colors",
+        "ge3",
+        "adjectives"
+      ]
+    },
+    {
+      "id": "u5-g11",
+      "title": "Here and there",
+      "summary": "here = ni1 cyu3 / ni1 dou6 (this place); there = go2 cyu3 / go2 dou6 (that place).",
+      "body": "In Unit 3 we met bin1 cyu3 and bin1 dou6 where bin1 means which? And cyu3 and dou6 both mean place, so which place? And where? Logically enough, here and there made from this place and that place.",
+      "examples": [
+        {
+          "id": "u5-g11-e01",
+          "jp": "ni1 cyu3 / ni1 dou6",
+          "zh": "",
+          "en": "Here",
+          "lit": ""
+        },
+        {
+          "id": "u5-g11-e02",
+          "jp": "go2 cyu3 / go2 dou6",
+          "zh": "",
+          "en": "There",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "place",
+        "pronouns"
+      ]
+    },
+    {
+      "id": "u5-g12",
+      "title": "Final particle me1",
+      "summary": "me1 turns a question into an expression of great surprise or disbelief; the answer is almost always hai6 or m4 hai6.",
+      "body": "If you want to express great incredulity in a question in English (You can speak 57 languages fluently?!) you raise your voice almost to a squeak at the end of the question; but of course it is less easy to do that in Cantonese because of the need to observe tone. me1 does the job for you.\nIt indicates great surprise, astonishment, near disbelief, surely that's not the case, is it? Do you mean to say that…? The answer given is almost always hai6 or m4 hai6 (it is the case or it is not the case).",
+      "examples": [],
+      "tags": [
+        "particles",
+        "questions"
+      ]
+    },
+    {
+      "id": "u5-g13",
+      "title": "dang2 again",
+      "summary": "dang2 ngo5 means wait for me (to) and, at the start of a sentence, let me…",
+      "body": "dang2 means to wait, dang2 ngo5 means wait for me or wait for me to.\nFrom wait for me to eat to let me eat is not a big jump and you will find that Cantonese often uses dang2 ngo5 where English would say let me… Generally if dang2 ngo5 comes at the beginning of a sentence it is likely to be used in the sense of let me…; and if it comes embedded in a sentence then it is likely to mean wait for.",
+      "examples": [
+        {
+          "id": "u5-g13-e01",
+          "jp": "dang2 ngo5 sik6 faan6",
+          "zh": "",
+          "en": "Wait for me to eat",
+          "lit": ""
+        },
+        {
+          "id": "u5-g13-e02",
+          "jp": "dang2 ngo5 bong1 nei5 sau2",
+          "zh": "",
+          "en": "Let me help you",
+          "lit": ""
+        },
+        {
+          "id": "u5-g13-e03",
+          "jp": "m4 hou2 dang2 ngo5 sik6 faan6",
+          "zh": "",
+          "en": "Don't wait for me to eat",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "dang2",
+        "verbs"
+      ]
+    },
+    {
+      "id": "u5-g14",
+      "title": "Double classifiers",
+      "summary": "Doubling a classifier and adding dou1 before the verb means every one of, each one of.",
+      "body": "Doubling-up classifiers and adding dou1 all before the verb is a useful way of conveying the idea every one of, each one of.",
+      "examples": [
+        {
+          "id": "u5-g14-e01",
+          "jp": "gaan1 gaan1 nguk1 dou1 hou2 leng3",
+          "zh": "",
+          "en": "Every house is very pretty",
+          "lit": ""
+        },
+        {
+          "id": "u5-g14-e02",
+          "jp": "zi1 zi1 mei5 gwok3 bat1 dou1 gwai3",
+          "zh": "",
+          "en": "Every American pen is expensive",
+          "lit": ""
+        },
+        {
+          "id": "u5-g14-e03",
+          "jp": "gin6 gin6 saam1 kwan4 dou1 m4 peng4",
+          "zh": "",
+          "en": "Every dress is not cheap",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "classifiers",
+        "dou1"
+      ]
+    },
+    {
+      "id": "u5-g15",
+      "title": "So much each",
+      "summary": "Prices and rates use the formula: amount + man1 + jat1 + classifier (e.g. loeng5 man1 jat1 gan1, $2 a catty).",
+      "body": "Note the simple formula for giving prices.\nThe same kind of formula can be used with other terms.",
+      "examples": [
+        {
+          "id": "u5-g15-e01",
+          "jp": "A: gei2 do1 cin2 jat1 gan1 aa3?",
+          "zh": "",
+          "en": "A: How much per catty?",
+          "lit": ""
+        },
+        {
+          "id": "u5-g15-e02",
+          "jp": "B: loeng5 man1 jat1 gan1",
+          "zh": "",
+          "en": "B: $2 a catty",
+          "lit": ""
+        },
+        {
+          "id": "u5-g15-e03",
+          "jp": "saam1 kwan4 60 man1 jat1 gin6",
+          "zh": "",
+          "en": "Dresses cost $60 each",
+          "lit": ""
+        },
+        {
+          "id": "u5-g15-e04",
+          "jp": "jat1 go3 jan4 jat1 zi1 bat1",
+          "zh": "",
+          "en": "One pen per person",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "money",
+        "prices",
+        "classifiers"
+      ]
+    },
+    {
+      "id": "u5-g16",
+      "title": "How about it? Again",
+      "summary": "dak1 m4 dak1 aa3? asks for someone's agreement after a statement: will that do? is that OK by you?",
+      "body": "In Unit 2 we met hou2 m4 hou2 aa3? as a way of asking someone's opinion after making a statement. dak1 m4 dak1 aa3? is perhaps even more commonly used for the same purpose, meaning will that do?, is that OK by you? Are you happy with that?",
+      "examples": [
+        {
+          "id": "u5-g16-e01",
+          "jp": "hou2 m4 hou2 aa3?",
+          "zh": "",
+          "en": "How about it? (asking someone's opinion after a statement)",
+          "lit": ""
+        },
+        {
+          "id": "u5-g16-e02",
+          "jp": "dak1 m4 dak1 aa3?",
+          "zh": "",
+          "en": "Will that do? Is that OK by you? Are you happy with that?",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "questions",
+        "dak1"
+      ]
+    },
+    {
+      "id": "u5-g17",
+      "title": "Thank you",
+      "summary": "m4 goi1 is for everyday minor politeness; do1 ze6 is for heartfelt thanks and is always used when receiving money. The polite response is m4 sai2.",
+      "body": "You have now met two words for thank you: m4 goi1 and do1 ze6. They are used in different ways and it is important to try to sort them out.\nm4 goi1 is used for everyday minor politeness, such as thanking someone for holding a door open for you, for passing you the soy sauce, or for doing the washing-up.\ndo1 ze6 is used for more heartfelt thanks, for example in gratitude to someone for a present received, for saving your life or for finding you a job. It is always used when receiving money.\nSo, when you take the goods from a shopkeeper, you may or may not say m4 goi1 (depending how polite you feel like being), but he will certainly say do1 ze6 when he takes your money. The polite response to someone who thanks you is m4 sai2.",
+      "examples": [
+        {
+          "id": "u5-g17-e01",
+          "jp": "m4 goi1",
+          "zh": "",
+          "en": "Thank you (everyday minor politeness)",
+          "lit": ""
+        },
+        {
+          "id": "u5-g17-e02",
+          "jp": "do1 ze6",
+          "zh": "",
+          "en": "Thank you (heartfelt; always when receiving money)",
+          "lit": ""
+        },
+        {
+          "id": "u5-g17-e03",
+          "jp": "m4 sai2",
+          "zh": "",
+          "en": "There's no need to",
+          "lit": ""
+        },
+        {
+          "id": "u5-g17-e04",
+          "jp": "m4 sai2 m4 goi1",
+          "zh": "",
+          "en": "There's no need to (reply to m4 goi1)",
+          "lit": ""
+        },
+        {
+          "id": "u5-g17-e05",
+          "jp": "m4 sai2 do1 ze6",
+          "zh": "",
+          "en": "There's no need to (reply to do1 ze6)",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "politeness",
+        "thank you"
+      ]
+    },
+    {
+      "id": "u5-g18",
+      "title": "Adverbs of manner with dak1",
+      "summary": "Manner adverbs follow the pattern verb - dak1 - adjective; if the verb has an object, the verb is repeated so dak1 follows it directly.",
+      "body": "Several types of adverb phrase can be used to modify a verb or verb phrase.\nWith dak1 (word order: verb - dak1 - adjective).\nWhen the verb is followed by an object, the verb is repeated so that dak1 immediately follows the verb.",
+      "examples": [
+        {
+          "id": "u5-g18-e01",
+          "jp": "gaa3 ce1 haang4 dak1 hou2 maan6",
+          "zh": "",
+          "en": "The car moves very slowly",
+          "lit": "The car travel manner very slow"
+        },
+        {
+          "id": "u5-g18-e02",
+          "jp": "di1 haak3 jan4 sik6 dak1 gei2 hoi1 sam1",
+          "zh": "",
+          "en": "The guests are eating quite happily",
+          "lit": "The guests eat manner quite happy"
+        },
+        {
+          "id": "u5-g18-e03",
+          "jp": "go3 gong2 si1 gong2 dak1 taai3 faai3",
+          "zh": "",
+          "en": "The lecturer talks too fast",
+          "lit": "The lecturer speak manner too fast"
+        },
+        {
+          "id": "u5-g18-e04",
+          "jp": "ngo5 coeng3 go1 coeng3 dak1 hou2 caa1",
+          "zh": "",
+          "en": "I sing very badly",
+          "lit": "I sing songs sing manner very bad"
+        },
+        {
+          "id": "u5-g18-e05",
+          "jp": "keoi5 waak3 waa2 waak3 dak1 gei2 leng3",
+          "zh": "",
+          "en": "She draws quite nicely",
+          "lit": "She paints pictures paints manner quite nice"
+        },
+        {
+          "id": "u5-g18-e06",
+          "jp": "nei5 gong2 je5 gong2 dak1 taai3 daai6 seng1",
+          "zh": "",
+          "en": "You speak too loud",
+          "lit": "You speak things speak manner too big voice"
+        }
+      ],
+      "tags": [
+        "adverbs",
+        "manner",
+        "dak1"
+      ]
+    },
+    {
+      "id": "u5-g19",
+      "title": "Adverb phrases with gam2",
+      "summary": "Adjective + gam2 'thus' forms an adverbial phrase placed before the verb; gam2 joeng2 means 'in this way'.",
+      "body": "An adjective together with gam2 'thus' forms an adverbial phrase which comes before the verb.\nThe use of gam2 by itself vs. gam2 joeng2 to mean 'in this way'.",
+      "examples": [
+        {
+          "id": "u5-g19-e01",
+          "jp": "di1 gun1 zung3 hou2 daai6 seng1 gam2 paak3 sau2",
+          "zh": "",
+          "en": "The audience applauded loudly",
+          "lit": "The audience very big voice thus clap hands"
+        },
+        {
+          "id": "u5-g19-e02",
+          "jp": "go3 jau4 haak3 hou2 jau5 lai5 maau6 gam2 man6 ngo5",
+          "zh": "",
+          "en": "The tourist asked me very politely",
+          "lit": "The tourist very politely thus asked me"
+        },
+        {
+          "id": "u5-g19-e03",
+          "jp": "go3 si1 gei1 hou2 daai6 lik6 gam2 saan1 mun4",
+          "zh": "",
+          "en": "The driver closed the door hard",
+          "lit": "The driver very big-force thus closed door"
+        },
+        {
+          "id": "u5-g19-e04",
+          "jp": "ngo5 m4 wui5 gam2 joeng2",
+          "zh": "",
+          "en": "I wouldn't put it like that",
+          "lit": ""
+        },
+        {
+          "id": "u5-g19-e05",
+          "jp": "keoi5 m4 jing1 goi1 gam2 joeng2 saai1 cin2",
+          "zh": "",
+          "en": "He shouldn't waste money in this way",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "adverbs",
+        "manner",
+        "gam2"
+      ]
+    },
+    {
+      "id": "u5-g20",
+      "title": "Reduplicated adverbs",
+      "summary": "Some manner adverbs repeat an adjective and add -dei2 (or no suffix); the repeated syllable may change to a high rising tone; two-syllable adjectives repeat each syllable separately.",
+      "body": "A limited number of adverbs of manner are formed by repeating an adjective and adding the suffix -dei2.\nThese are placed before the verb they modify.\nA few such forms are also used without -dei2.\nThe repeated adverb may take on a changed tone (with a low tone becoming a high rising tone).\nIn adjectives with two syllables, each syllable is repeated separately.",
+      "examples": [
+        {
+          "id": "u5-g20-e01",
+          "jp": "gwaai1",
+          "zh": "",
+          "en": "Obedient",
+          "lit": ""
+        },
+        {
+          "id": "u5-g20-e02",
+          "jp": "gwaai1 gwaai1 dei2",
+          "zh": "",
+          "en": "Obediently",
+          "lit": ""
+        },
+        {
+          "id": "u5-g20-e03",
+          "jp": "heng1",
+          "zh": "",
+          "en": "Light",
+          "lit": ""
+        },
+        {
+          "id": "u5-g20-e04",
+          "jp": "heng1 heng1 dei2",
+          "zh": "",
+          "en": "Lightly",
+          "lit": ""
+        },
+        {
+          "id": "u5-g20-e05",
+          "jp": "nei5 jiu3 gwaai1 gwaai1 dei2 zou6 gung1 fo3",
+          "zh": "",
+          "en": "You have to obediently do your homework",
+          "lit": "You need obediently do homework"
+        },
+        {
+          "id": "u5-g20-e06",
+          "jp": "jau5 jan4 heng1 heng1 dei2 paak3 mun4",
+          "zh": "",
+          "en": "Someone knocks lightly on the door",
+          "lit": "Have person lightly knock door"
+        },
+        {
+          "id": "u5-g20-e07",
+          "jp": "maan6",
+          "zh": "",
+          "en": "Slow",
+          "lit": ""
+        },
+        {
+          "id": "u5-g20-e08",
+          "jp": "maan6 maan2 haang4",
+          "zh": "",
+          "en": "To walk slowly",
+          "lit": ""
+        },
+        {
+          "id": "u5-g20-e09",
+          "jp": "hoi1 sam1",
+          "zh": "",
+          "en": "Happy",
+          "lit": ""
+        },
+        {
+          "id": "u5-g20-e10",
+          "jp": "hoi1 hoi1 sam1 sam1 zou6 je5",
+          "zh": "",
+          "en": "To work happily",
+          "lit": ""
+        },
+        {
+          "id": "u5-g20-e11",
+          "jp": "zing6",
+          "zh": "",
+          "en": "Quiet",
+          "lit": ""
+        },
+        {
+          "id": "u5-g20-e12",
+          "jp": "zing6 zing2 dei2",
+          "zh": "",
+          "en": "Quietly",
+          "lit": ""
+        },
+        {
+          "id": "u5-g20-e13",
+          "jp": "gaan2 daan1",
+          "zh": "",
+          "en": "Simple",
+          "lit": ""
+        },
+        {
+          "id": "u5-g20-e14",
+          "jp": "gaan2 gaan2 daan1 daan1",
+          "zh": "",
+          "en": "Simply",
+          "lit": ""
+        },
+        {
+          "id": "u5-g20-e15",
+          "jp": "hing1 sung1",
+          "zh": "",
+          "en": "Relaxed",
+          "lit": ""
+        },
+        {
+          "id": "u5-g20-e16",
+          "jp": "hing1 hing1 sung1 sung1",
+          "zh": "",
+          "en": "In a relaxed manner",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "adverbs",
+        "manner",
+        "reduplication",
+        "tone change"
+      ]
+    },
+    {
+      "id": "u5-g21",
+      "title": "Position of adverbs of manner",
+      "summary": "All these adverb forms come before the verb; reduplicated adverbs (especially multi-syllable ones) can combine with gam2.",
+      "body": "All these forms of adverb come before the verb they modify.\nReduplicated adverbs, especially those of more than one syllable, can combine with gam2 as described in above.",
+      "examples": [
+        {
+          "id": "u5-g21-e01",
+          "jp": "nei5 zing6 zing2 dei2 jap6 heoi3 laa1",
+          "zh": "",
+          "en": "Go in quietly",
+          "lit": ""
+        },
+        {
+          "id": "u5-g21-e02",
+          "jp": "keoi5 tau1 tau1 dei2 zau2 zo2",
+          "zh": "",
+          "en": "He left secretly",
+          "lit": ""
+        },
+        {
+          "id": "u5-g21-e03",
+          "jp": "keoi5 gaan2 gaan2 daan1 daan1 gam2 hing3 zuk1 saang1 jat6",
+          "zh": "",
+          "en": "She celebrated her birthday in a simple way",
+          "lit": ""
+        },
+        {
+          "id": "u5-g21-e04",
+          "jp": "ngo5 dei6 hing1 hing1 sung1 sung1 gaan2 gaan2 daan1 daan1 gam2 dou6 gaa3",
+          "zh": "",
+          "en": "We spend our holiday in a laid-back, simple style",
+          "lit": ""
+        },
+        {
+          "id": "u5-g21-e05",
+          "jp": "keoi5 so4 so2 dei6 gam2 siu3",
+          "zh": "",
+          "en": "He smiles in a foolish way",
+          "lit": ""
+        },
+        {
+          "id": "u5-g21-e06",
+          "jp": "nei5 syu1 syu1 fuk6 fuk6 gam2 fan3 hai2 dou6",
+          "zh": "",
+          "en": "Lie down here comfortably",
+          "lit": ""
+        },
+        {
+          "id": "u5-g21-e07",
+          "jp": "keoi5 dei6 hai2 dou6 hing1 hing1 sung1 sung1 gam2 teng1 go1",
+          "zh": "",
+          "en": "They're listening to songs in a relaxed manner",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "adverbs",
+        "manner",
+        "word order",
+        "gam2"
+      ]
+    },
+    {
+      "id": "u5-g22",
+      "title": "Adverbs of time",
+      "summary": "Cantonese verbs do not show tense, so time adverbs (now, just now, before, tomorrow…) specify when; they come before the verb or before the subject.",
+      "body": "Adverbs of time: since verbs do not indicate tense in Cantonese, adverbs are especially important in specifying when events take place.\nIn English the tense of the verb indicates when things take place and the adverb can easily be omitted, but in Cantonese only the adverb indicates the time.\nPresent: ji4 gaa1 now, gam1 jat6 today. Recent past: tau4 sin1 just now, ngaam1 ngaam1 just. Past: zi1 cin4 before, bun2 loi4 originally, soeng6 ci3 last time, go2 zan6 si4 then, kam4 jat6 yesterday, cin4 jat6 the day before yesterday. Future: zik1 haak1 right away / immediately, dai6 ji6 si4 / dai6 si4 in the future, haa6 ci3 next time, dou3 si4 when the time comes, ting1 jat6 tomorrow, hau6 jat6 the day after tomorrow.\nAdverbs of time may come before the verb.\nAdverbs of time may come before the subject.",
+      "examples": [
+        {
+          "id": "u5-g22-e01",
+          "jp": "keoi5 ji4 gaa1 zung6 hai2 ji1 jyun2",
+          "zh": "",
+          "en": "She's still in hospital (now)",
+          "lit": ""
+        },
+        {
+          "id": "u5-g22-e02",
+          "jp": "keoi5 go2 zan6 si4 zung6 hai2 ji1 jyun2",
+          "zh": "",
+          "en": "She was still in hospital (then)",
+          "lit": ""
+        },
+        {
+          "id": "u5-g22-e03",
+          "jp": "ngo5 zik1 hak1 heoi3 jing1 gwok3 taam3 nei5",
+          "zh": "",
+          "en": "I'm going to visit you in England (right away)",
+          "lit": ""
+        },
+        {
+          "id": "u5-g22-e04",
+          "jp": "ngo5 dai6 ji6 si4 heoi3 jing1 gwok3 taam3 nei5",
+          "zh": "",
+          "en": "I'll visit you in England (in the future)",
+          "lit": ""
+        },
+        {
+          "id": "u5-g22-e05",
+          "jp": "ji4 gaa1",
+          "zh": "",
+          "en": "Now",
+          "lit": ""
+        },
+        {
+          "id": "u5-g22-e06",
+          "jp": "gam1 jat6",
+          "zh": "",
+          "en": "Today",
+          "lit": ""
+        },
+        {
+          "id": "u5-g22-e07",
+          "jp": "tau4 sin1",
+          "zh": "",
+          "en": "Just now",
+          "lit": ""
+        },
+        {
+          "id": "u5-g22-e08",
+          "jp": "ngaam1 ngaam1",
+          "zh": "",
+          "en": "Just",
+          "lit": ""
+        },
+        {
+          "id": "u5-g22-e09",
+          "jp": "zi1 cin4",
+          "zh": "",
+          "en": "Before",
+          "lit": ""
+        },
+        {
+          "id": "u5-g22-e10",
+          "jp": "bun2 loi4",
+          "zh": "",
+          "en": "Originally",
+          "lit": ""
+        },
+        {
+          "id": "u5-g22-e11",
+          "jp": "soeng6 ci3",
+          "zh": "",
+          "en": "Last time",
+          "lit": ""
+        },
+        {
+          "id": "u5-g22-e12",
+          "jp": "go2 zan6 si4",
+          "zh": "",
+          "en": "Then",
+          "lit": ""
+        },
+        {
+          "id": "u5-g22-e13",
+          "jp": "kam4 jat6",
+          "zh": "",
+          "en": "Yesterday",
+          "lit": ""
+        },
+        {
+          "id": "u5-g22-e14",
+          "jp": "cin4 jat6",
+          "zh": "",
+          "en": "The day before yesterday",
+          "lit": ""
+        },
+        {
+          "id": "u5-g22-e15",
+          "jp": "zik1 haak1",
+          "zh": "",
+          "en": "Right away, immediately",
+          "lit": ""
+        },
+        {
+          "id": "u5-g22-e16",
+          "jp": "dai6 ji6 si4, dai6 si4",
+          "zh": "",
+          "en": "In the future",
+          "lit": ""
+        },
+        {
+          "id": "u5-g22-e17",
+          "jp": "haa6 ci3",
+          "zh": "",
+          "en": "Next time",
+          "lit": ""
+        },
+        {
+          "id": "u5-g22-e18",
+          "jp": "dou3 si4",
+          "zh": "",
+          "en": "When the time comes",
+          "lit": ""
+        },
+        {
+          "id": "u5-g22-e19",
+          "jp": "ting1 jat6",
+          "zh": "",
+          "en": "Tomorrow",
+          "lit": ""
+        },
+        {
+          "id": "u5-g22-e20",
+          "jp": "hau6 jat6",
+          "zh": "",
+          "en": "The day after tomorrow",
+          "lit": ""
+        },
+        {
+          "id": "u5-g22-e21",
+          "jp": "ngo5 dei6 ji4 gaa1 ceot1 heoi3",
+          "zh": "",
+          "en": "We're going out now (adverb before the verb)",
+          "lit": ""
+        },
+        {
+          "id": "u5-g22-e22",
+          "jp": "keoi5 ngaam1 ngaam1 zau2 zo2",
+          "zh": "",
+          "en": "He just left (adverb before the verb)",
+          "lit": ""
+        },
+        {
+          "id": "u5-g22-e23",
+          "jp": "bun2 loi4 ngo5 soeng2 duk6 ji1 fo1",
+          "zh": "",
+          "en": "Originally I wanted to study medicine (adverb before the subject)",
+          "lit": ""
+        },
+        {
+          "id": "u5-g22-e24",
+          "jp": "tau4 sin1 keoi5 m4 gei3 dak1 daai3 so2 si4",
+          "zh": "",
+          "en": "Just now he forgot his keys (adverb before the subject)",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "adverbs",
+        "time",
+        "word order"
+      ]
+    },
+    {
+      "id": "u5-g23",
+      "title": "Adverbs of frequency",
+      "summary": "Frequency adverbs (sing4 jat6 always, jat1 ci3 once…) and mui5 'each' phrases; one-syllable time words reduplicate (jat6 jat6) and take no classifier; 'once a year' phrases are often split around the verb.",
+      "body": "Useful adverbs to describe the frequency of an action include: sing4 jat6 always, do1 sou3 mostly, jau5 (zan6) si4 sometimes, jat1 si4 si4 / jat1 si2 si4 occasionally, ping4 si4 normally, jat1 ci3 once, loeng5 ci3 twice, saam1 ci3 three times, gei2 ci3 several times, ging1 soeng4 usually.\nmui5 'each' can be used to form adverbial phrases.\nSeveral common time expressions of one syllable do not take a classifier, and can form reduplicated adverbs: mui5 ci3 or ci3 ci3 (not *mui5 go3 ci3), mui5 jat6 or jat6 jat6 (not *mui5 go3 jat6), mui5 nin4 or nin4 nin4 (not *mui5 go3 nin4), mui5 ziu1 or ziu1 ziu1 (not *mui5 go3 ziu1), mui5 maan5 or maan5 maan5 (not *mui5 go3 maan5).\nThey generally come before the verb.\nThe order in phrases such as the following describing the frequency of the action: jat1 nin4 jat1 ci3 (lit. one year one time).\nSuch phrases are often split up with the more general term coming before the verb and the more specific frequency expression after.\nAdverbs of frequency may come after the verb and object.",
+      "examples": [
+        {
+          "id": "u5-g23-e01",
+          "jp": "sing4 jat6",
+          "zh": "",
+          "en": "Always",
+          "lit": ""
+        },
+        {
+          "id": "u5-g23-e02",
+          "jp": "do1 sou3",
+          "zh": "",
+          "en": "Mostly",
+          "lit": ""
+        },
+        {
+          "id": "u5-g23-e03",
+          "jp": "jau5 (zan6) si4",
+          "zh": "",
+          "en": "Sometimes",
+          "lit": ""
+        },
+        {
+          "id": "u5-g23-e04",
+          "jp": "jat1 si4 si4 / jat1 si2 si4",
+          "zh": "",
+          "en": "Occasionally",
+          "lit": ""
+        },
+        {
+          "id": "u5-g23-e05",
+          "jp": "ping4 si4",
+          "zh": "",
+          "en": "Normally",
+          "lit": ""
+        },
+        {
+          "id": "u5-g23-e06",
+          "jp": "jat1 ci3",
+          "zh": "",
+          "en": "Once",
+          "lit": ""
+        },
+        {
+          "id": "u5-g23-e07",
+          "jp": "loeng5 ci3",
+          "zh": "",
+          "en": "Twice",
+          "lit": ""
+        },
+        {
+          "id": "u5-g23-e08",
+          "jp": "saam1 ci3",
+          "zh": "",
+          "en": "Three times",
+          "lit": ""
+        },
+        {
+          "id": "u5-g23-e09",
+          "jp": "gei2 ci3",
+          "zh": "",
+          "en": "Several times",
+          "lit": ""
+        },
+        {
+          "id": "u5-g23-e10",
+          "jp": "ging1 soeng4",
+          "zh": "",
+          "en": "Usually",
+          "lit": ""
+        },
+        {
+          "id": "u5-g23-e11",
+          "jp": "mui5 go3 jyut6",
+          "zh": "",
+          "en": "Every month",
+          "lit": ""
+        },
+        {
+          "id": "u5-g23-e12",
+          "jp": "mui5 go3 sing1 kei4",
+          "zh": "",
+          "en": "Every week",
+          "lit": ""
+        },
+        {
+          "id": "u5-g23-e13",
+          "jp": "mui5 ci3 / ci3 ci3",
+          "zh": "",
+          "en": "Every time (not *mui5 go3 ci3)",
+          "lit": ""
+        },
+        {
+          "id": "u5-g23-e14",
+          "jp": "mui5 jat6 / jat6 jat6",
+          "zh": "",
+          "en": "Every day (not *mui5 go3 jat6)",
+          "lit": ""
+        },
+        {
+          "id": "u5-g23-e15",
+          "jp": "mui5 nin4 / nin4 nin4",
+          "zh": "",
+          "en": "Every year (not *mui5 go3 nin4)",
+          "lit": ""
+        },
+        {
+          "id": "u5-g23-e16",
+          "jp": "mui5 ziu1 / ziu1 ziu1",
+          "zh": "",
+          "en": "Every morning (not *mui5 go3 ziu1)",
+          "lit": ""
+        },
+        {
+          "id": "u5-g23-e17",
+          "jp": "mui5 maan5 / maan5 maan5",
+          "zh": "",
+          "en": "Every evening (not *mui5 go3 maan5)",
+          "lit": ""
+        },
+        {
+          "id": "u5-g23-e18",
+          "jp": "keoi5 mui5 ziu1 luk6 dim2 hei2 san1 ge3",
+          "zh": "",
+          "en": "He gets up at six every morning",
+          "lit": "He each morning six o'clock gets up"
+        },
+        {
+          "id": "u5-g23-e19",
+          "jp": "keoi5 jat6 jat6 sai2 tau4",
+          "zh": "",
+          "en": "She washes her hair every day",
+          "lit": "She daily washes hair"
+        },
+        {
+          "id": "u5-g23-e20",
+          "jp": "jat1 nin4 jat1 ci3",
+          "zh": "",
+          "en": "Once a year",
+          "lit": "One year one time"
+        },
+        {
+          "id": "u5-g23-e21",
+          "jp": "mui5 go3 jyut6 jat1 ci3",
+          "zh": "",
+          "en": "Once a month",
+          "lit": "Each month one time"
+        },
+        {
+          "id": "u5-g23-e22",
+          "jp": "ngo5 dei6 jat1 nin4 heoi3 jat1 ci3 dou6 gaa3",
+          "zh": "",
+          "en": "We go on holiday once a year",
+          "lit": "We one year go one time spend holiday"
+        },
+        {
+          "id": "u5-g23-e23",
+          "jp": "ngo5 dei6 nin4 nin4 faan1 heoi3 jat1 ci3",
+          "zh": "",
+          "en": "We go back once a year",
+          "lit": "We each year return go one time"
+        },
+        {
+          "id": "u5-g23-e24",
+          "jp": "ngo5 heoi3 gwo3 daai6 luk6 jat1 ci3",
+          "zh": "",
+          "en": "I've been to mainland China once",
+          "lit": ""
+        },
+        {
+          "id": "u5-g23-e25",
+          "jp": "ngo5 gin3 gwo3 ji1 sang1 saam1 ci3",
+          "zh": "",
+          "en": "I've seen the doctor three times",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "adverbs",
+        "frequency",
+        "mui5",
+        "reduplication",
+        "word order"
+      ]
+    },
+    {
+      "id": "u5-g24",
+      "title": "Adverbs of frequency and duration: position",
+      "summary": "Frequency and duration expressions go either between the verb and its object, or after verb + object with the transitive verb repeated.",
+      "body": "Adverbs of both frequency and duration can be used in the following ways:\n(i) Between the verb and the object.\n(ii) After the verb and object, with repetition of the transitive verb.",
+      "examples": [
+        {
+          "id": "u5-g24-e01",
+          "jp": "ngo5 heoi3 gwo3 jat1 ci3 daai6 luk6",
+          "zh": "",
+          "en": "I've been to the mainland once",
+          "lit": ""
+        },
+        {
+          "id": "u5-g24-e02",
+          "jp": "keoi5 zyu2 gwo3 gei2 ci3 faan6",
+          "zh": "",
+          "en": "He's cooked dinner a few times",
+          "lit": ""
+        },
+        {
+          "id": "u5-g24-e03",
+          "jp": "ngo5 gam1 jat6 sai2 zo2 loeng5 ci3 tau4",
+          "zh": "",
+          "en": "I've washed my hair twice today",
+          "lit": ""
+        },
+        {
+          "id": "u5-g24-e04",
+          "jp": "ngo5 gin3 gwo3 saam1 ci3 ji1 sang1",
+          "zh": "",
+          "en": "I've seen the doctor three times",
+          "lit": ""
+        },
+        {
+          "id": "u5-g24-e05",
+          "jp": "keoi5 duk6 zo2 saam1 nin4 zung1 man2",
+          "zh": "",
+          "en": "He has studied Chinese for three years",
+          "lit": ""
+        },
+        {
+          "id": "u5-g24-e06",
+          "jp": "ngo5 diu3 zo2 sing4 jat6 jyu2",
+          "zh": "",
+          "en": "I've been fishing for a whole day",
+          "lit": ""
+        },
+        {
+          "id": "u5-g24-e07",
+          "jp": "ngo5 tai2 zo2 jat1 go3 zung1 tau4 syu1",
+          "zh": "",
+          "en": "I've read for an hour",
+          "lit": ""
+        },
+        {
+          "id": "u5-g24-e08",
+          "jp": "keoi5 sik6 zo2 jat1 go3 jyut6 joek6",
+          "zh": "",
+          "en": "She has been on medication for a month",
+          "lit": ""
+        },
+        {
+          "id": "u5-g24-e09",
+          "jp": "keoi5 haau2 si3 haau2 zo2 gei2 ci3",
+          "zh": "",
+          "en": "She's taken the exam several times",
+          "lit": ""
+        },
+        {
+          "id": "u5-g24-e10",
+          "jp": "keoi5 zyu2 faan6 zyu2 zo2 gei2 ci3",
+          "zh": "",
+          "en": "He's cooked dinner a few times",
+          "lit": ""
+        },
+        {
+          "id": "u5-g24-e11",
+          "jp": "ngo5 duk6 zung1 man2 duk6 zo2 saam1 nin4",
+          "zh": "",
+          "en": "I've been studying Chinese for three years",
+          "lit": ""
+        },
+        {
+          "id": "u5-g24-e12",
+          "jp": "keoi5 zyu6 ji1 jyun2 zyu6 zo2 jat1 go3 jyut6",
+          "zh": "",
+          "en": "She's been in hospital for a month",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "adverbs",
+        "frequency",
+        "duration",
+        "word order"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "u5-e1",
+      "title": "Exercise 1",
+      "source": "Unit 5 Shops and markets.pdf",
+      "instructions": "Insert the parenthesis element to make a sentence so it is still meaningful.",
+      "type": "fill",
+      "items": [
+        {
+          "id": "u5-e1-i01",
+          "prompt": "mei5 gwok3 ce1 hou2 gwai3 (hung4 sik1 ge3)",
+          "answer": "hung4 sik1 ge3 mei5 gwok3 ce1 hou2 gwai3",
+          "answer_en": "Red American cars are very expensive",
+          "hint": "ge3 links hung4 sik1 to the noun that follows",
+          "confidence": "medium"
+        },
+        {
+          "id": "u5-e1-i02",
+          "prompt": "ngo5 sik1 jau4 seoi2 (baa4 baa1)",
+          "answer": "ngo5 baa4 baa1 sik1 jau4 seoi2",
+          "answer_en": "My father knows how to swim",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u5-e1-i03",
+          "prompt": "Wong4 taai3 taai2 heoi3 maai5 je5 (pou3 tau2)",
+          "answer": "Wong4 taai3 taai2 heoi3 pou3 tau2 maai5 je5",
+          "answer_en": "Mrs. Wong goes to the shop to buy things",
+          "hint": "heoi3 is followed directly by the destination",
+          "confidence": "high"
+        },
+        {
+          "id": "u5-e1-i04",
+          "prompt": "keoi5 gam1 jat6 m4 sik6 faan6 (soeng2)",
+          "answer": "keoi5 gam1 jat6 m4 soeng2 sik6 faan6",
+          "answer_en": "He doesn't want to eat today",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u5-e1-i05",
+          "prompt": "Ho4 saang1 m4 sik6 Ho4 taai3 zyu2 ge3 sung3 (taai2)",
+          "answer": "Ho4 saang1 m4 sik6 Ho4 taai3 taai2 zyu2 ge3 sung3",
+          "answer_en": "Mr. Ho doesn't eat the food Mrs. Ho cooks",
+          "hint": "",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "id": "u5-e2",
+      "title": "Exercise 2",
+      "source": "Unit 5 Shops and markets.pdf",
+      "instructions": "Put the correct classifier into the blank space.",
+      "type": "fill",
+      "items": [
+        {
+          "id": "u5-e2-i01",
+          "prompt": "go2 _____ nguk1 hai6 Ho4 sin1 saang1 ge3.",
+          "answer": "gaan1",
+          "answer_en": "That house is Mr. Ho's",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u5-e2-i02",
+          "prompt": "keoi5 go2 _____ saam1 kwan4 jau5 siu2 siu2 laan6 zo2.",
+          "answer": "gin6",
+          "answer_en": "That dress of hers has a small tear",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u5-e2-i03",
+          "prompt": "Wong4 siu2 ze2 ge3 baa4 baa1 m4 hai6 _____ zung1 gwok3 jan4.",
+          "answer": "go3",
+          "answer_en": "Miss Wong's father is not Chinese",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u5-e2-i04",
+          "prompt": "ni1 ______ mei5 gwok3 bat1 hou2 gwai3.",
+          "answer": "zi1",
+          "answer_en": "This American pen is very expensive",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u5-e2-i05",
+          "prompt": "go2 ______ lung4 haa1 dou1 hou2 daai6.",
+          "answer": "di1",
+          "answer_en": "Those lobsters are all very big",
+          "hint": "dou1 suggests a plural; zek3 would also fit for a single lobster",
+          "confidence": "medium"
+        },
+        {
+          "id": "u5-e2-i06",
+          "prompt": "______ haa1 dou1 sei2 zo2.",
+          "answer": "zek3 zek3",
+          "answer_en": "Every shrimp is dead",
+          "hint": "Double classifier + dou1 = every one of",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "id": "u5-e3",
+      "title": "Exercise 3",
+      "source": "Unit 5 Shops and markets.pdf",
+      "instructions": "Try your math skills.",
+      "type": "open",
+      "items": [
+        {
+          "id": "u5-e3-i01",
+          "prompt": "lung4 haa1 sap6 sei3 man1 jat1 gan1, Wong4 taai3 taai2 maai5 zo2 loeng5 gan1. keoi5 jiu3 bei2 gei2 do1 cin2 aa3?",
+          "answer": "ji6 sap6 baat3 man1",
+          "answer_en": "$28 (lobster is $14 a catty; she bought two catties)",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u5-e3-i02",
+          "prompt": "ni1 go3 dong3 hau2 ge3 haa1 m4 gwai3: saam1 sap6 jat1 man1 jat1 gan1, maai5 jat1 gan1 sung3 bun3 gan1. Wong4 taai3 taai2 jiu3 saam1 gan1, keoi5 jiu3 bei2 gei2 do1 cin2 aa3?",
+          "answer": "luk6 sap6 ji6 man1",
+          "answer_en": "$62 (buying two catties at $31 gets one catty free, making three catties)",
+          "hint": "Slide prints keoi3 for keoi5",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "id": "u5-e4",
+      "title": "Practice 1",
+      "source": "Unit 5 Practice.pdf",
+      "instructions": "Add the adverbial phrase provided to the following sentences.",
+      "type": "fill",
+      "items": [
+        {
+          "id": "u5-e4-i01",
+          "prompt": "keoi5 dei6 haang4 faan1 nguk1 kei2 (maan6 maan2)",
+          "answer": "keoi5 dei6 maan6 maan2 haang4 faan1 nguk1 kei2",
+          "answer_en": "They walk home slowly",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u5-e4-i02",
+          "prompt": "keoi5 gaai3 siu6 zi6 gei2 (hou2 hing1 fan5 gam2)",
+          "answer": "keoi5 hou2 hing1 fan5 gam2 gaai3 siu6 zi6 gei2",
+          "answer_en": "He introduces himself excitedly",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u5-e4-i03",
+          "prompt": "keoi5 man6 zo2 jat1 go3 man6 tai4 (hou2 daai6 daam2 gam2)",
+          "answer": "keoi5 hou2 daai6 daam2 gam2 man6 zo2 jat1 go3 man6 tai4",
+          "answer_en": "He asked a question boldly",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u5-e4-i04",
+          "prompt": "keoi5 so2 zo2 dou6 mun4 (hou2 siu2 sam1 gam2)",
+          "answer": "keoi5 hou2 siu2 sam1 gam2 so2 zo2 dou6 mun4",
+          "answer_en": "She locked the door carefully",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u5-e4-i05",
+          "prompt": "ngo5 go3 zai2 waak3 zo2 gei2 fuk1 waa2 (hou2 faai3 gam2)",
+          "answer": "ngo5 go3 zai2 hou2 faai3 gam2 waak3 zo2 gei2 fuk1 waa2",
+          "answer_en": "My son drew several pictures quickly",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u5-e4-i06",
+          "prompt": "keoi5 hok6 gan2 gwong2 dung1 waa2 (hou2 nou5 lik6 gam2)",
+          "answer": "keoi5 hou2 nou5 lik6 gam2 hok6 gan2 gwong2 dung1 waa2",
+          "answer_en": "He is studying Cantonese diligently",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u5-e4-i07",
+          "prompt": "di1 hok6 saang1 teng1 gan2 jin2 gong2 (hou2 zyun1 sam1 gam2)",
+          "answer": "di1 hok6 saang1 hou2 zyun1 sam1 gam2 teng1 gan2 jin2 gong2",
+          "answer_en": "The students are listening to the lecture attentively",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u5-e4-i08",
+          "prompt": "di1 hoeng1 gong2 hok6 saang1 jeng4 zo2 bei2 coi3 (hou2 hing1 sung1 gam2)",
+          "answer": "di1 hoeng1 gong2 hok6 saang1 hou2 hing1 sung1 gam2 jeng4 zo2 bei2 coi3",
+          "answer_en": "The Hong Kong students won the competition comfortably",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u5-e4-i09",
+          "prompt": "ji3 ngoi6 faat3 sang1 zo2 (hou2 dat6 jin4 gam2)",
+          "answer": "ji3 ngoi6 hou2 dat6 jin4 gam2 faat3 sang1 zo2",
+          "answer_en": "The accident happened suddenly",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u5-e4-i10",
+          "prompt": "ngo5 zung1 ji3 hing3 zuk1 saang1 jat6 (hing1 hing1 sung1 sung1 gam2)",
+          "answer": "ngo5 zung1 ji3 hing1 hing1 sung1 sung1 gam2 hing3 zuk1 saang1 jat6",
+          "answer_en": "I like to celebrate birthdays happily",
+          "hint": "",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "id": "u5-e5",
+      "title": "Practice 2",
+      "source": "Unit 5 Practice.pdf",
+      "instructions": "Use dak1 to create adverbial phrases using the adjectives provided, repeating the verb where necessary (numbers 6-10). Example: keoi5 paau2 dak1 hou2 faai3 (He runs quickly); keoi5 zaa1 ce1 zaa1 dak1 hou2 m4 siu2 sam1 (He drives carelessly).",
+      "type": "fill",
+      "items": [
+        {
+          "id": "u5-e5-i01",
+          "prompt": "nei5 se2 _____ hou2 hou2",
+          "answer": "nei5 se2 dak1 hou2 hou2",
+          "answer_en": "You write well",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u5-e5-i02",
+          "prompt": "gaa3 fei1 gei1 fei1 _____ hou2 dai1",
+          "answer": "gaa3 fei1 gei1 fei1 dak1 hou2 dai1",
+          "answer_en": "The plane flies low",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u5-e5-i03",
+          "prompt": "ngo5 dei6 fan3 _____ hou2 syu1 fuk6",
+          "answer": "ngo5 dei6 fan3 dak1 hou2 syu1 fuk6",
+          "answer_en": "We sleep comfortably",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u5-e5-i04",
+          "prompt": "keoi5 dei6 waan2 _____ hou2 hoi1 sam1",
+          "answer": "keoi5 dei6 waan2 dak1 hou2 hoi1 sam1",
+          "answer_en": "They play happily",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u5-e5-i05",
+          "prompt": "keoi5 tiu3 _____ hou2 jyun5",
+          "answer": "keoi5 tiu3 dak1 hou2 jyun5",
+          "answer_en": "She jumps a long way",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u5-e5-i06",
+          "prompt": "keoi5 jing2 soeng2 _____ hou2 leng3",
+          "answer": "keoi5 jing2 soeng2 jing2 dak1 hou2 leng3",
+          "answer_en": "She takes pictures well",
+          "hint": "Repeat the verb",
+          "confidence": "high"
+        },
+        {
+          "id": "u5-e5-i07",
+          "prompt": "ngo5 jau4 seoi2 _____ hou2 maan6",
+          "answer": "ngo5 jau4 seoi2 jau4 dak1 hou2 maan6",
+          "answer_en": "I swim slowly",
+          "hint": "Repeat the verb",
+          "confidence": "high"
+        },
+        {
+          "id": "u5-e5-i08",
+          "prompt": "keoi5 coeng3 go1 _____ hou2 sai3 seng1",
+          "answer": "keoi5 coeng3 go1 coeng3 dak1 hou2 sai3 seng1",
+          "answer_en": "She sings softly",
+          "hint": "Repeat the verb",
+          "confidence": "high"
+        },
+        {
+          "id": "u5-e5-i09",
+          "prompt": "ngo5 zyu2 faan6 _____ hou2 faai3",
+          "answer": "ngo5 zyu2 faan6 zyu2 dak1 hou2 faai3",
+          "answer_en": "I cook quickly",
+          "hint": "Repeat the verb",
+          "confidence": "high"
+        },
+        {
+          "id": "u5-e5-i10",
+          "prompt": "ngo5 tiu3 mou5 _____ hou2 caa1",
+          "answer": "ngo5 tiu3 mou5 tiu3 dak1 hou2 caa1",
+          "answer_en": "I dance badly",
+          "hint": "Repeat the verb",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "id": "u5-e6",
+      "title": "Practice 3",
+      "source": "Unit 5 Practice.pdf",
+      "instructions": "Fill in the gaps with a suitable manner adverbial with gam2.",
+      "type": "fill",
+      "items": [
+        {
+          "id": "u5-e6-i01",
+          "prompt": "ngo5 (I) _____ se2 ni1 fung1 seon3 (write this letter)",
+          "answer": "",
+          "answer_en": "",
+          "hint": "Adjective + gam2 before the verb, e.g. hou2 siu2 sam1 gam2",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e6-i02",
+          "prompt": "ngo5 dei6 (We) _____ tai2 bou3 zi2 (read the newspaper)",
+          "answer": "",
+          "answer_en": "",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e6-i03",
+          "prompt": "keoi5 (He) _____ fan3 hai2 cong4 soeng6 min6 (sleep on the bed)",
+          "answer": "",
+          "answer_en": "",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e6-i04",
+          "prompt": "keoi5 dei6 (They) _____ zau2 zo2 (have left)",
+          "answer": "",
+          "answer_en": "",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e6-i05",
+          "prompt": "lei2 siu2 ze2 (Miss Lee) _____ daap3 ngo5 go3 man6 tai4 (answer my question)",
+          "answer": "",
+          "answer_en": "",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e6-i06",
+          "prompt": "lou5 baan2 (The boss) _____ saan1 zo2 dou6 mun4 (closed the door)",
+          "answer": "",
+          "answer_en": "",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e6-i07",
+          "prompt": "jip6 gaau3 sau6 (Professor Yip) _____ gong2 syu1 (give a lecture)",
+          "answer": "",
+          "answer_en": "",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e6-i08",
+          "prompt": "di1 hok6 saang1 (The students) _____ teng1 syu1 (listen to the lecture)",
+          "answer": "",
+          "answer_en": "",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e6-i09",
+          "prompt": "go3 bi5 bi1 (The baby) _____ waan2 gan2 (playing)",
+          "answer": "",
+          "answer_en": "",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e6-i10",
+          "prompt": "keoi5 (She) _____ haam3 gan2 (crying)",
+          "answer": "",
+          "answer_en": "",
+          "hint": "",
+          "confidence": "none"
+        }
+      ]
+    },
+    {
+      "id": "u5-e7",
+      "title": "Practice 4",
+      "source": "Unit 5 Practice.pdf",
+      "instructions": "Add a suitable adverb to the following, paying attention to the position of the adverb.",
+      "type": "fill",
+      "items": [
+        {
+          "id": "u5-e7-i01",
+          "prompt": "ngo5 hai2 zim1 saa1 zeoi2 (yesterday)",
+          "answer": "ngo5 kam4 jat6 hai2 zim1 saa1 zeoi2",
+          "answer_en": "I was in Tsimshatsui yesterday",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u5-e7-i02",
+          "prompt": "keoi5 dou3 zo2 gei1 coeng4 (just now)",
+          "answer": "keoi5 tau4 sin1 dou3 zo2 gei1 coeng4",
+          "answer_en": "She arrived at the airport just now",
+          "hint": "ngaam1 ngaam1 also possible",
+          "confidence": "high"
+        },
+        {
+          "id": "u5-e7-i03",
+          "prompt": "ngo5 gin3 gwo3 keoi5 (before)",
+          "answer": "ngo5 zi1 cin4 gin3 gwo3 keoi5",
+          "answer_en": "I've met him before",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u5-e7-i04",
+          "prompt": "keoi5 dei6 jeng4 zo2 tau4 zoeng2 (last time)",
+          "answer": "keoi5 dei6 soeng6 ci3 jeng4 zo2 tau4 zoeng2",
+          "answer_en": "They won the first prize last time",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u5-e7-i05",
+          "prompt": "ngo5 dei6 zung6 sai3 (then)",
+          "answer": "ngo5 dei6 go2 zan6 si4 zung6 sai3",
+          "answer_en": "We were still small then",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u5-e7-i06",
+          "prompt": "ngo5 zou6 wu6 si6 ge3 (originally)",
+          "answer": "ngo5 bun2 loi4 zou6 wu6 si6 ge3",
+          "answer_en": "I used to be a nurse originally",
+          "hint": "bun2 loi4 may also come before the subject",
+          "confidence": "high"
+        },
+        {
+          "id": "u5-e7-i07",
+          "prompt": "ngo5 dei6 wan2 nei5 (next time)",
+          "answer": "ngo5 dei6 haa6 ci3 wan2 nei5",
+          "answer_en": "We'll contact you next time",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u5-e7-i08",
+          "prompt": "keoi5 hou2 nau1 (immediately)",
+          "answer": "keoi5 zik1 haak1 hou2 nau1",
+          "answer_en": "He's angry immediately",
+          "hint": "",
+          "confidence": "medium"
+        },
+        {
+          "id": "u5-e7-i09",
+          "prompt": "ngo5 ceng2 nei5 sik6 faan6 (in the future)",
+          "answer": "ngo5 dai6 ji6 si4 ceng2 nei5 sik6 faan6",
+          "answer_en": "I invite you to eat in the future",
+          "hint": "dai6 si4 also possible",
+          "confidence": "high"
+        },
+        {
+          "id": "u5-e7-i10",
+          "prompt": "ngo5 dei6 hai2 mei5 gwok3 zyu6 gwo3 (before)",
+          "answer": "ngo5 dei6 zi1 cin4 hai2 mei5 gwok3 zyu6 gwo3",
+          "answer_en": "We used to live in America before",
+          "hint": "",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "id": "u5-e8",
+      "title": "Practice 5",
+      "source": "Unit 5 Practice.pdf",
+      "instructions": "Say how often you engage in the following activities (fictitiously where necessary).",
+      "type": "open",
+      "items": [
+        {
+          "id": "u5-e8-i01",
+          "prompt": "Play tennis (daa2 mong5 kau4)",
+          "answer": "",
+          "answer_en": "",
+          "hint": "Use a frequency adverb, e.g. ngo5 mui5 go3 sing1 kei4 daa2 jat1 ci3 mong5 kau4",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e8-i02",
+          "prompt": "Go swimming (heoi3 jau4 seoi2)",
+          "answer": "",
+          "answer_en": "",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e8-i03",
+          "prompt": "Watch television (tai2 din6 si6)",
+          "answer": "",
+          "answer_en": "",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e8-i04",
+          "prompt": "Read the newspaper (tai2 bou3 zi2)",
+          "answer": "",
+          "answer_en": "",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e8-i05",
+          "prompt": "Wash your hair (sai2 tau4)",
+          "answer": "",
+          "answer_en": "",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e8-i06",
+          "prompt": "Have a haircut (zin2 tau4 faat3)",
+          "answer": "",
+          "answer_en": "",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e8-i07",
+          "prompt": "Buy groceries (maai5 sung3)",
+          "answer": "",
+          "answer_en": "",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e8-i08",
+          "prompt": "Go to a concert (heoi3 jin2 coeng3 wui2)",
+          "answer": "",
+          "answer_en": "",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e8-i09",
+          "prompt": "Eat ice cream (sik6 syut3 gou1)",
+          "answer": "",
+          "answer_en": "",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e8-i10",
+          "prompt": "Visit relative (taam3 can1 cik1)",
+          "answer": "",
+          "answer_en": "",
+          "hint": "",
+          "confidence": "none"
+        }
+      ]
+    },
+    {
+      "id": "u5-e9",
+      "title": "Practice 6",
+      "source": "Unit 5 Practice.pdf",
+      "instructions": "State how long you do the following every day.",
+      "type": "open",
+      "items": [
+        {
+          "id": "u5-e9-i01",
+          "prompt": "Play video game (daa2 gei1)",
+          "answer": "",
+          "answer_en": "",
+          "hint": "Duration goes between verb and object or after a repeated verb, e.g. ngo5 daa2 gei1 daa2 jat1 go3 zung1 tau4",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e9-i02",
+          "prompt": "Practice Cantonese (lin6 gwong2 dung1 waa2)",
+          "answer": "",
+          "answer_en": "",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e9-i03",
+          "prompt": "Talk on the phone (gong2 din6 waa2)",
+          "answer": "",
+          "answer_en": "",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e9-i04",
+          "prompt": "Cooking (zyu2 faan6)",
+          "answer": "",
+          "answer_en": "",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e9-i05",
+          "prompt": "Listen to music (teng1 jam1 ngok6)",
+          "answer": "",
+          "answer_en": "",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e9-i06",
+          "prompt": "Reading (tai2 syu1)",
+          "answer": "",
+          "answer_en": "",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e9-i07",
+          "prompt": "Chat with friends (king1 gai2)",
+          "answer": "",
+          "answer_en": "",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e9-i08",
+          "prompt": "Stay on the internet (soeng5 mong5)",
+          "answer": "",
+          "answer_en": "",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e9-i09",
+          "prompt": "Take a shower (cung1 loeng4)",
+          "answer": "",
+          "answer_en": "",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e9-i10",
+          "prompt": "Write in a diary (se2 jat6 gei3)",
+          "answer": "",
+          "answer_en": "",
+          "hint": "",
+          "confidence": "none"
+        }
+      ]
+    },
+    {
+      "id": "u5-e10",
+      "title": "Practice 7",
+      "source": "Unit 5 Practice.pdf",
+      "instructions": "Add an adverb of duration in the space provided. Note that the following sentences involve reduplication of the verb.",
+      "type": "fill",
+      "items": [
+        {
+          "id": "u5-e10-i01",
+          "prompt": "keoi5 hoi1 wui2 hoi1 zo2 _____",
+          "answer": "",
+          "answer_en": "She has been in a meeting",
+          "hint": "Any duration, e.g. loeng5 go3 zung1 tau4",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e10-i02",
+          "prompt": "ngo5 dei6 sik6 faan6 sik6 zo2 _____",
+          "answer": "",
+          "answer_en": "We have been having a meal",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e10-i03",
+          "prompt": "keoi5 dei6 daa2 bo1 daa2 zo2 _____",
+          "answer": "",
+          "answer_en": "They have been playing a ball game",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e10-i04",
+          "prompt": "ngo5 se2 seon3 se2 zo2 _____",
+          "answer": "",
+          "answer_en": "I have been writing letters",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e10-i05",
+          "prompt": "keoi5 goi2 gyun2 goi2 zo2 _____",
+          "answer": "",
+          "answer_en": "She has been marking papers",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e10-i06",
+          "prompt": "lok6 jyu5 lok6 zo2 _____",
+          "answer": "",
+          "answer_en": "It's been raining",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e10-i07",
+          "prompt": "keoi5 coeng3 go1 coeng3 zo2 _____",
+          "answer": "",
+          "answer_en": "He's been singing",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e10-i08",
+          "prompt": "di1 hok6 saang1 zou6 gung1 fo3 zou6 zo2 _____",
+          "answer": "",
+          "answer_en": "The students have been doing homework",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e10-i09",
+          "prompt": "keoi5 dei6 aai3 gaau1 aai3 zo2 _____",
+          "answer": "",
+          "answer_en": "They've been arguing",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e10-i10",
+          "prompt": "keoi5 zaa1 ce1 zaa1 zo2 _____",
+          "answer": "",
+          "answer_en": "He's been driving",
+          "hint": "",
+          "confidence": "none"
+        }
+      ]
+    },
+    {
+      "id": "u5-e11",
+      "title": "Practice 8",
+      "source": "Unit 5 Practice.pdf",
+      "instructions": "Expand the sentence given by adding a directional verb. Example: heoi3 hoeng1 gong2 (go to Hong Kong) -> gwo3 heoi3 hoeng1 gong2 (go over to Hong Kong) / faan1 heoi3 hoeng1 gong2 (go back to Hong Kong).",
+      "type": "open",
+      "items": [
+        {
+          "id": "u5-e11-i01",
+          "prompt": "lai4 ngo5 nguk1 kei5",
+          "answer": "",
+          "answer_en": "Come to my place",
+          "hint": "Several directional verbs fit (e.g. gwo3 lai4, faan1 lai4, soeng5 lai4)",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e11-i02",
+          "prompt": "heoi3 hok6 haau6",
+          "answer": "",
+          "answer_en": "Go to school",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e11-i03",
+          "prompt": "heoi3 lau4 soeng6",
+          "answer": "",
+          "answer_en": "Go upstairs",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e11-i04",
+          "prompt": "lai4 jing1 gwok3",
+          "answer": "",
+          "answer_en": "Come to England",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e11-i05",
+          "prompt": "heoi3 se2 zi6 lau4",
+          "answer": "",
+          "answer_en": "Go to the office",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e11-i06",
+          "prompt": "lai4 tai2 haa5",
+          "answer": "",
+          "answer_en": "Come and take a look",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e11-i07",
+          "prompt": "lai4 taam3 ngo5 dei6",
+          "answer": "",
+          "answer_en": "Come to visit us",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e11-i08",
+          "prompt": "heoi3 hoi1 wui2",
+          "answer": "",
+          "answer_en": "Go to a meeting",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e11-i09",
+          "prompt": "lai4 sik6 faan6",
+          "answer": "",
+          "answer_en": "Come and eat",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e11-i10",
+          "prompt": "heoi3 zou6 je5",
+          "answer": "",
+          "answer_en": "Go to work",
+          "hint": "",
+          "confidence": "none"
+        }
+      ]
+    },
+    {
+      "id": "u5-e12",
+      "title": "Practice 9",
+      "source": "Unit 5 Practice.pdf",
+      "instructions": "Add a suitable object to the verb sequence given to show the destination.",
+      "type": "fill",
+      "items": [
+        {
+          "id": "u5-e12-i01",
+          "prompt": "ngo5 ting1 jat6 heoi3 ______",
+          "answer": "",
+          "answer_en": "I'm going tomorrow",
+          "hint": "Any place name",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e12-i02",
+          "prompt": "nei5 lai4 ______ sik6 faan6",
+          "answer": "",
+          "answer_en": "Come to eat",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e12-i03",
+          "prompt": "ngo5 gwo3 heoi3 ______ wan2 jan4",
+          "answer": "",
+          "answer_en": "I'm going over to look for someone",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e12-i04",
+          "prompt": "nei5 dak1 haan4 soeng5 lai4 ______ co5",
+          "answer": "",
+          "answer_en": "Come up for a visit (lit. to sit) when you're free",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e12-i05",
+          "prompt": "ngo5 dei6 jiu3 fei1 faan1 heoi3 ______",
+          "answer": "",
+          "answer_en": "We have to fly back",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e12-i06",
+          "prompt": "go3 neoi5 zai2 zau2 ceot1 heoi3 ______",
+          "answer": "",
+          "answer_en": "The girl ran out",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e12-i07",
+          "prompt": "ngo5 di1 can1 cik1 faan1 lai4 ______ dou6 gaa3",
+          "answer": "",
+          "answer_en": "My relatives are coming back for a holiday",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e12-i08",
+          "prompt": "nei5 ho2 ji5 lok6 heoi3 ______ maai5 je5",
+          "answer": "",
+          "answer_en": "You can go down to do some shopping",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e12-i09",
+          "prompt": "ngo5 zik1 hak1 jap6 heoi3 ______ wun6 saam1",
+          "answer": "",
+          "answer_en": "I'm going in to change right away",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u5-e12-i10",
+          "prompt": "ngo5 tung4 si6 gwo3 lai4 ______ king1 gai2",
+          "answer": "",
+          "answer_en": "My colleague is coming over to chat",
+          "hint": "",
+          "confidence": "none"
+        }
+      ]
+    },
+    {
+      "id": "u5-e13",
+      "title": "Practice 10",
+      "source": "Unit 5 Practice.pdf",
+      "instructions": "Fill in the blanks according to the translation.",
+      "type": "fill",
+      "items": [
+        {
+          "id": "u5-e13-i01",
+          "prompt": "____ ____ gau2 lung4",
+          "answer": "gwo3 heoi3 gau2 lung4",
+          "answer_en": "Go over to Kowloon",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u5-e13-i02",
+          "prompt": "____ ____ ngo5 gaan1 fong2",
+          "answer": "jap6 lai4 ngo5 gaan1 fong2",
+          "answer_en": "Come into my room",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u5-e13-i03",
+          "prompt": "____ ____ hoeng1 gong2",
+          "answer": "lok6 lai4 hoeng1 gong2",
+          "answer_en": "Come down to Hong Kong (e.g., from mainland China)",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u5-e13-i04",
+          "prompt": "____ ____ bak1 ging1",
+          "answer": "soeng5 heoi3 bak1 ging1",
+          "answer_en": "Go up to Beijing",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u5-e13-i05",
+          "prompt": "____ ____ haak3 teng1",
+          "answer": "ceot1 heoi3 haak3 teng1",
+          "answer_en": "Go out to the living room",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u5-e13-i06",
+          "prompt": "____ ____ nguk1 kei5",
+          "answer": "faan1 lai4 nguk1 kei5",
+          "answer_en": "Come back home",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u5-e13-i07",
+          "prompt": "jau4 sap6 lau2 dit3 ____ ____",
+          "answer": "jau4 sap6 lau2 dit3 lok6 lai4",
+          "answer_en": "Fall down from the tenth floor",
+          "hint": "lok6 heoi3 also possible depending on the speaker's position",
+          "confidence": "medium"
+        },
+        {
+          "id": "u5-e13-i08",
+          "prompt": "tiu3 ____ ____ gaa3 fo2 ce1",
+          "answer": "tiu3 soeng5 heoi3 gaa3 fo2 ce1",
+          "answer_en": "Jump onto the train",
+          "hint": "soeng5 lai4 if the speaker is on the train",
+          "confidence": "medium"
+        },
+        {
+          "id": "u5-e13-i09",
+          "prompt": "haang4 ____ ____ syu1 fong2",
+          "answer": "haang4 jap6 heoi3 syu1 fong2",
+          "answer_en": "Walk into the study",
+          "hint": "jap6 lai4 if the speaker is in the study",
+          "confidence": "medium"
+        },
+        {
+          "id": "u5-e13-i10",
+          "prompt": "fei1 ____ ____ ou3 zau1",
+          "answer": "fei1 faan1 heoi3 ou3 zau1",
+          "answer_en": "Fly back to Australia",
+          "hint": "",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "id": "u5-e14",
+      "title": "Practice 11",
+      "source": "Unit 5 Practice.pdf",
+      "instructions": "Add an aspect marker (zo2 or gan2) in the appropriate place according to the English translation.",
+      "type": "fill",
+      "items": [
+        {
+          "id": "u5-e14-i01",
+          "prompt": "gaa3 fo3 ce1 faan1 lai4",
+          "answer": "gaa3 fo3 ce1 faan1 gan2 lai4",
+          "answer_en": "The truck is coming back",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u5-e14-i02",
+          "prompt": "di1 seon3 gei3 heoi3 mei5 gwok3",
+          "answer": "di1 seon3 gei3 zo2 heoi3 mei5 gwok3",
+          "answer_en": "The letters have been sent to the United States",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u5-e14-i03",
+          "prompt": "di1 gu2 piu3 sing1 soeng5 heoi3 gou1 wai2",
+          "answer": "di1 gu2 piu3 sing1 zo2 soeng5 heoi3 gou1 wai2",
+          "answer_en": "The shares have risen to a high",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u5-e14-i04",
+          "prompt": "keoi5 hai2 fong2 haang4 ceot1 lai4",
+          "answer": "keoi5 hai2 fong2 haang4 gan2 ceot1 lai4",
+          "answer_en": "He's coming out of his room",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u5-e14-i05",
+          "prompt": "keoi5 dei6 paa4 soeng5 lai4 saan1 deng2",
+          "answer": "keoi5 dei6 paa4 gan2 soeng5 lai4 saan1 deng2",
+          "answer_en": "They're climbing up the top of the mountain",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u5-e14-i06",
+          "prompt": "bun2 syu1 dit3 lok6 heoi3 dei6 haa2",
+          "answer": "bun2 syu1 dit3 zo2 lok6 heoi3 dei6 haa2",
+          "answer_en": "The book has fallen down onto the floor",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u5-e14-i07",
+          "prompt": "go3 kam4 bun1 gwo3 heoi3 deoi3 min6",
+          "answer": "go3 kam4 bun1 zo2 gwo3 heoi3 deoi3 min6",
+          "answer_en": "The piano has been moved to the opposite side",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u5-e14-i08",
+          "prompt": "gaa3 ce1 jap6 lai4 ting4 ce1 coeng4",
+          "answer": "gaa3 ce1 jap6 gan2 lai4 ting4 ce1 coeng4",
+          "answer_en": "The car is driving into the car park",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u5-e14-i09",
+          "prompt": "keoi5 haang4 ceot1 heoi3 gaai1 dou6",
+          "answer": "keoi5 haang4 gan2 ceot1 heoi3 gaai1 dou6",
+          "answer_en": "She's walking out onto the street",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u5-e14-i10",
+          "prompt": "keoi5 dei6 bun1 lok6 heoi3 jat1 lau2",
+          "answer": "keoi5 dei6 bun1 gan2 lok6 heoi3 jat1 lau2",
+          "answer_en": "They're moving down to the first floor",
+          "hint": "",
+          "confidence": "high"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "u5-n1",
+      "title": "Let me pay!",
+      "body": "In restaurants you will often hear Chinese customers vying with each other to pay the bill. The winner gaining in \"face\" what he/she loses in pocket. The standard wording used is dang2 ngo5 bei2 Let me pay! (lit: let me give!)\nYou too can play that game, but be sure you have the money about you in case you should be (un)lucky enough to win!"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "id": "unit-7",
+  "number": 7,
+  "title": "Review of Units 1-6",
+  "sources": ["Unit 7 Review.pdf"],
+  "goals": [],
+  "vocab": [],
+  "dialogues": [
+    {
+      "id": "u7-d1",
+      "title": "Passage 1",
+      "setting": "Read this passage out loud",
+      "lines": [
+        { "id": "u7-d1-l01", "speaker": "", "zh": "昨日妈妈问我地想唔想食沙律？", "jp": "zok6 jat6 maa4 maa1 man6 ngo5 dei6 soeng2 m4 soeng2 sik6 saa1 leot6", "en": "Yesterday Mum asked us whether we wanted to eat salad" },
+        { "id": "u7-d1-l02", "speaker": "", "zh": "我地个个都话好想食。", "jp": "ngo5 dei6 go3 go3 dou1 waa6 hou2 soeng2 sik6", "en": "Every one of us said we really wanted to" },
+        { "id": "u7-d1-l03", "speaker": "", "zh": "妈妈话，“好好，我就整龙虾沙律俾你地食喇。", "jp": "maa4 maa1 waa6, “hou2 hou2, ngo5 zau6 zing2 lung4 haa1 saa1 leot6 bei2 nei5 dei6 sik6 laa1", "en": "Mum said, “Fine, then I'll make lobster salad for you to eat" },
+        { "id": "u7-d1-l04", "speaker": "", "zh": "呐，宜家我去买龙虾，你地去买啲新鲜生果返黎喇。”", "jp": "naa4, ji4 gaa1 ngo5 heoi3 maai5 lung4 haa1, nei5 dei6 heoi3 maai5 di1 san1 sin1 saang1 gwo2 faan1 lai4 laa1”", "en": "Now, I'll go and buy the lobster; you go and buy some fresh fruit and bring it back”" },
+        { "id": "u7-d1-l05", "speaker": "", "zh": "我地买咗好多新鲜生果返屋企，又一齐喺厨房预备嗰啲生果。", "jp": "ngo5 dei6 maai5 zo2 hou2 do1 san1 sin1 saang1 gwo2 faan1 nguk1 kei5, jau6 jat1 cai4 hai2 cyu4 fong2 jyu6 bei6 go2 di1 saang1 gwo2", "en": "We bought lots of fresh fruit and brought it home, and together prepared that fruit in the kitchen" },
+        { "id": "u7-d1-l06", "speaker": "", "zh": "半个钟头之后妈妈返黎勒。", "jp": "bun3 go3 zung1 tau4 zi1 hau6 maa4 maa1 faan1 lai4 laak3", "en": "Half an hour later Mum came back" },
+        { "id": "u7-d1-l07", "speaker": "", "zh": "佢话，“今日啲龙虾又细又唔新鲜，所以我冇买，只係买咗啲大虾啫。", "jp": "keoi5 waa6, “gam1 jat6 di1 lung4 haa1 jau6 sai3 jau6 m4 san1 sin1, so2 ji5 ngo5 mou5 maai5, zi2 hai6 maai5 zo2 di1 daai6 haa1 ze1", "en": "She said, “Today the lobsters were both small and not fresh, so I didn't buy any; I only bought some prawns" },
+        { "id": "u7-d1-l08", "speaker": "", "zh": "你地就食大虾沙律当龙虾沙律喇。”", "jp": "nei5 dei6 zau6 sik6 daai6 haa1 saa1 leot6 dong3 lung4 haa1 saa1 leot6 laa1”", "en": "So you'll just eat prawn salad in place of lobster salad”" }
+      ],
+      "questions": []
+    },
+    {
+      "id": "u7-d2",
+      "title": "Passage 2",
+      "setting": "Read out loud the following passage and translate it into English",
+      "lines": [
+        { "id": "u7-d2-l01", "speaker": "", "zh": "今日我返写字楼。", "jp": "gam1 jat6 ngo5 faan1 se2 zi6 lau4", "en": "Today I went to the office" },
+        { "id": "u7-d2-l02", "speaker": "", "zh": "何先生话我听礼拜六佢要搭飞机返去英国，所以喺礼拜三之后就唔返写字楼勒。", "jp": "Ho4 sin1 saang1 waa6 ngo5 teng1 lai5 baai3 luk6 keoi5 jiu3 daap3 fei1 gei1 faan1 heoi3 jing1 gwok3, so2 ji5 hai2 lai5 baai3 saam1 zi1 hau6 zau6 m4 faan1 se2 zi6 lau4 laak3", "en": "Mr. Ho told me that next Saturday he has to fly back to Britain, so after Wednesday he won't be coming to the office any more" },
+        { "id": "u7-d2-l03", "speaker": "", "zh": "何先生係我最好嘅朋友之一，佢呢次返去英国之后，我估就唔返黎嘅勒。", "jp": "Ho4 sin1 saang1 hai6 ngo5 zeoi3 hou2 ge3 pang4 jau5 zi1 jat1, keoi5 ni1 ci3 faan1 heoi3 jing1 gwok3 zi1 hau6, ngo5 gu2 zau6 m4 faan1 lai4 ge3 lak6", "en": "Mr. Ho is one of my best friends; after he goes back to Britain this time, I guess he won't be coming back" },
+        { "id": "u7-d2-l04", "speaker": "", "zh": "咁，我要送乜嘢俾佢好呢？", "jp": "gam2, ngo5 jiu3 sung3 mat1 je5 bei2 keoi5 hou2 ne1", "en": "So, what would be a good present for me to give him?" },
+        { "id": "u7-d2-l05", "speaker": "", "zh": "我想咗好耐都冇主意，就去问王小姐同张太太，", "jp": "ngo5 soeng2 zo2 hou2 noi6 dou1 mou5 zyu2 ji3, zau6 heoi3 man6 Wong4 siu2 ze2 tung4 Zoeng1 taai3 taai3", "en": "I thought about it for a long time and still had no idea, so I went to ask Miss Wong and Mrs. Cheung" },
+        { "id": "u7-d2-l06", "speaker": "", "zh": "王小姐话，“我地三个人一齐请何先生食饭喇！好吗？”", "jp": "Wong4 siu2 ze2 waa6, “ngo5 dei6 saam1 go3 jan4 jat1 cai4 cing2 Ho4 sin1 saang1 sik6 faan6 laa1! hou2 maa1?”", "en": "Miss Wong said, “Let the three of us invite Mr. Ho to a meal together! OK?”" },
+        { "id": "u7-d2-l07", "speaker": "", "zh": "张太太话，“如果何太太可以同何先生一齐黎，咁就最好勒。”", "jp": "Zoeng1 taai3 taai3 waa6, “jyu4 gwo2 Ho4 taai3 taai3 ho2 ji5 tung4 Ho4 sin1 saang1 jat1 cai4 lai4, gam2 zau6 zeoi3 hou2 laak3”", "en": "Mrs. Cheung said, “If Mrs. Ho can come along with Mr. Ho, that would be best of all”" },
+        { "id": "u7-d2-l08", "speaker": "", "zh": "我话小姐同太太嘅主意一定係最好嘅。", "jp": "ngo5 waa6 siu2 ze2 tung4 taai3 taai3 ge3 zyu2 ji3 jat1 ding6 hai6 zeoi3 hou2 ge3", "en": "I said that Miss Wong's and Mrs. Cheung's idea was definitely the best" },
+        { "id": "u7-d2-l09", "speaker": "", "zh": "你话係唔係呀？", "jp": "nei5 waa6 hai6 m4 hai6 aa3", "en": "What do you say, is it or isn't it?" }
+      ],
+      "questions": []
+    }
+  ],
+  "grammar": [],
+  "exercises": [
+    {
+      "id": "u7-e1",
+      "title": "Exercise 1",
+      "source": "Unit 7 Review.pdf",
+      "instructions": "Based on the previous passage (Passage 1), True or False?",
+      "type": "truefalse",
+      "items": [
+        { "id": "u7-e1-i01", "prompt": "昨日妈妈话佢好想食沙律。 zok6 jat6 maa4 maa1 waa6 keoi5 hou2 soeng2 sik6 saa1 leot6", "answer": "False", "answer_en": "Mum asked whether we wanted salad; it was we who said we really wanted to eat it", "hint": "", "confidence": "high" },
+        { "id": "u7-e1-i02", "prompt": "妈妈只识整龙虾沙律。 maa4 maa1 zi2 sik1 zing2 lung4 haa1 saa1 leot6", "answer": "False", "answer_en": "The passage never says Mum can only make lobster salad; in the end she serves prawn salad instead", "hint": "", "confidence": "medium" },
+        { "id": "u7-e1-i03", "prompt": "我地买咗好多新鲜生果返屋企。 ngo5 dei6 maai5 zo2 hou2 do1 san1 sin1 saang1 gwo2 faan1 nguk1 kei5", "answer": "True", "answer_en": "We bought lots of fresh fruit and brought it home", "hint": "", "confidence": "high" },
+        { "id": "u7-e1-i04", "prompt": "妈妈买咗一只好大嘅龙虾。 maa4 maa1 maai5 zo2 jat1 zek3 hou2 daai6 ge3 lung4 haa1", "answer": "False", "answer_en": "The lobsters were small and not fresh, so Mum didn't buy any", "hint": "", "confidence": "high" },
+        { "id": "u7-e1-i05", "prompt": "妈妈整嘅龙虾沙律好好味。 maa4 maa1 zing2 ge3 lung4 haa1 saa1 leot6 hou2 hou2 mei6", "answer": "False", "answer_en": "Mum didn't make lobster salad at all; she made prawn salad", "hint": "", "confidence": "high" }
+      ]
+    },
+    {
+      "id": "u7-e2",
+      "title": "Exercise 2",
+      "source": "Unit 7 Review.pdf",
+      "instructions": "Answer the following questions in Cantonese",
+      "type": "reply",
+      "items": [
+        { "id": "u7-e2-i01", "prompt": "妈妈买咗乜嘢返屋企呀？ maa4 maa1 maai5 zo2 mat1 je5 faan1 nguk1 kei5 aa3?", "answer": "妈妈买咗啲大虾返屋企。 maa4 maa1 maai5 zo2 di1 daai6 haa1 faan1 nguk1 kei5", "answer_en": "Mum bought some prawns and brought them home", "hint": "See Passage 1", "confidence": "high" },
+        { "id": "u7-e2-i02", "prompt": "我地买咗乜嘢返屋企呀？ ngo5 dei6 maai5 zo2 mat1 je5 faan1 nguk1 kei5 aa3?", "answer": "我地买咗好多新鲜生果返屋企。 ngo5 dei6 maai5 zo2 hou2 do1 san1 sin1 saang1 gwo2 faan1 nguk1 kei5", "answer_en": "We bought lots of fresh fruit and brought it home", "hint": "See Passage 1", "confidence": "high" },
+        { "id": "u7-e2-i03", "prompt": "昨日啲龙虾新唔新鲜呀？ zok6 jat6 di1 lung4 haa1 san1 m4 san1 sin1 aa3?", "answer": "昨日啲龙虾唔新鲜。 zok6 jat6 di1 lung4 haa1 m4 san1 sin1", "answer_en": "Yesterday's lobsters were not fresh", "hint": "See Passage 1", "confidence": "high" },
+        { "id": "u7-e2-i04", "prompt": "你识唔识整沙律呀？ nei5 sik1 m4 sik1 zing2 saa1 leot6 aa3?", "answer": "", "answer_en": "", "hint": "Do you know how to make salad? Answer about yourself", "confidence": "none" },
+        { "id": "u7-e2-i05", "prompt": "喺你屋企附近嘅酒楼有冇沙律卖呀？ hai2 nei5 nguk1 kei5 fu6 gan6 ge3 zau2 lau4 jau5 mou5 saa1 leot6 maai6 aa3?", "answer": "", "answer_en": "", "hint": "Do the restaurants near your home sell salad? Answer about yourself", "confidence": "none" }
+      ]
+    },
+    {
+      "id": "u7-e3",
+      "title": "Exercise 3",
+      "source": "Unit 7 Review.pdf",
+      "instructions": "Translate into Cantonese",
+      "type": "translate",
+      "items": [
+        { "id": "u7-e3-i01", "prompt": "Have you ever tasted beef salad?", "answer": "", "answer_en": "", "hint": "", "confidence": "none" },
+        { "id": "u7-e3-i02", "prompt": "This American pen is one of the pens I most want to buy.", "answer": "", "answer_en": "", "hint": "", "confidence": "none" },
+        { "id": "u7-e3-i03", "prompt": "This is the first time I've been to your office.", "answer": "", "answer_en": "", "hint": "", "confidence": "none" }
+      ]
+    },
+    {
+      "id": "u7-e4a",
+      "title": "Exercise 4a",
+      "source": "Unit 7 Review.pdf",
+      "instructions": "You can hear one end of a phone conversation: see if you can guess what the other end might be. Supply A's line before each of B's replies.",
+      "type": "reply",
+      "items": [
+        { "id": "u7-e4a-i01", "prompt": "A: ____ / B: 唔紧要。你宜家喺边度呀？ m4 gan2 jiu3. nei5 ji4 gaa1 hai2 bin1 dou6 aa3?", "answer": "", "answer_en": "B: Never mind. Where are you now?", "hint": "", "confidence": "none" },
+        { "id": "u7-e4a-i02", "prompt": "A: ____ / B: 噢，喺屋企，乜嘢事呀？ ou3, hai2 nguk1 kei5, mat1 je5 si6 aa3?", "answer": "", "answer_en": "B: Oh, at home; what's the matter?", "hint": "", "confidence": "none" },
+        { "id": "u7-e4a-i03", "prompt": "A: ____ / B: 好，好。多谢，多谢。喺边处食呀？ hou2, hou2. do1 ze6, do1 ze6. hai2 bin1 cyu3 sik6 aa3?", "answer": "", "answer_en": "B: Fine, fine. Thank you, thank you. Where shall we eat?", "hint": "", "confidence": "none" }
+      ]
+    },
+    {
+      "id": "u7-e4b",
+      "title": "Exercise 4b",
+      "source": "Unit 7 Review.pdf",
+      "instructions": "You can hear one end of a phone conversation: see if you can guess what the other end might be. Supply A's line before each of B's replies.",
+      "type": "reply",
+      "items": [
+        { "id": "u7-e4b-i01", "prompt": "A: ____ / B: 好，好。你呢？ hou2, hou2. nei5 ne1?", "answer": "", "answer_en": "B: Fine, fine. And you?", "hint": "", "confidence": "none" },
+        { "id": "u7-e4b-i02", "prompt": "A: ____ / B: 佢都几好。有心。你太太呢？ keoi5 dou1 gei2 hou2. jau5 sam1. nei5 taai3 taai2 ne1?", "answer": "", "answer_en": "B: She's quite well too. Kind of you to ask. And your wife?", "hint": "", "confidence": "none" },
+        { "id": "u7-e4b-i03", "prompt": "A: ____ / B: 对唔住，我今日唔返写字楼，唔可以同你返。星期四，好唔好呀？ deoi3 m4 zyu6, ngo5 gam1 jat6 m4 faan1 se2 zi6 lau4, m4 ho2 ji5 tung4 nei5 faan1. sing1 kei4 sei3, hou2 m4 hou2 aa3?", "answer": "", "answer_en": "B: Sorry, I'm not going to the office today, so I can't go with you. How about Thursday?", "hint": "", "confidence": "none" },
+        { "id": "u7-e4b-i04", "prompt": "A: ____ / B: 我唔想揸车去，想坐巴士去。 ngo5 m4 soeng2 zaa1 ce1 heoi3, soeng2 co5 baa1 si6 heoi3", "answer": "", "answer_en": "B: I don't want to drive there; I want to go by bus", "hint": "", "confidence": "none" },
+        { "id": "u7-e4b-i05", "prompt": "A: ____ / B: 坐六号喇。 co5 luk6 hou6 laa1", "answer": "", "answer_en": "B: Take the number 6", "hint": "", "confidence": "none" },
+        { "id": "u7-e4b-i06", "prompt": "A: ____ / B: 好，礼拜四再见。 hou2, lai5 baai3 sei3 zoi3 gin3", "answer": "", "answer_en": "B: OK, see you on Thursday", "hint": "", "confidence": "none" }
+      ]
+    },
+    {
+      "id": "u7-e5",
+      "title": "Exercise 5",
+      "source": "Unit 7 Review.pdf",
+      "instructions": "Fill in the blanks.",
+      "type": "fill",
+      "items": [
+        { "id": "u7-e5-i01", "prompt": "王生係佢爸爸，王太係____。 Wong4 saang1 hai6 keoi5 baa4 baa1, Wong4 taai2 hai6 ____", "answer": "佢妈妈 keoi5 maa4 maa1", "answer_en": "Mr. Wong is his father; Mrs. Wong is his mother", "hint": "", "confidence": "high" },
+        { "id": "u7-e5-i02", "prompt": "我冇爸爸，妈妈，兄弟，姐妹，屋企只有我____个人啫。 ngo5 mou5 baa4 baa1, maa4 maa1, hing1 dai6, ze2 mui2, nguk1 kei5 zi2 jau5 ngo5 ____ go3 jan4 ze1", "answer": "一 jat1", "answer_en": "I have no father, mother, brothers or sisters; at home there is only me, one person", "hint": "", "confidence": "high" },
+        { "id": "u7-e5-i03", "prompt": "坐飞机贵，但係坐巴士____。 co5 fei1 gei1 gwai3, daan6 hai6 co5 baa1 si6 ____", "answer": "平 peng4", "answer_en": "Flying is expensive, but taking the bus is cheap", "hint": "", "confidence": "medium" },
+        { "id": "u7-e5-i04", "prompt": "我地礼拜日____使返写字楼。 ngo5 dei6 lai5 baai3 jat6 ____ sai2 faan1 se2 zi6 lau4", "answer": "唔 m4", "answer_en": "We don't need to go to the office on Sunday", "hint": "", "confidence": "high" },
+        { "id": "u7-e5-i05", "prompt": "何先生冇钱，唔____搭地铁。 Ho4 sin1 saang1 mou5 cin2, m4 ____ daap3 dei6 tit3", "answer": "可以 ho2 ji5", "answer_en": "Mr. Ho has no money, so he can't take the MTR", "hint": "", "confidence": "medium" }
+      ]
+    },
+    {
+      "id": "u7-e6",
+      "title": "Exercise 6",
+      "source": "Unit 7 Review.pdf",
+      "instructions": "Insert the appropriate plug to create meaningful new sentences. Plugs: A. 世界 sai3 gaai3; B. 三个人 saam1 go3 jan4; C. 之一 zi1 jat1; D. 一定 jat1 ding6; E. 一齐 jat1 cai4",
+      "type": "fill",
+      "items": [
+        { "id": "u7-e6-i01", "prompt": "我地呢个星期六搭飞机去英国玩。 ngo5 dei6 ni1 go3 sing1 kei4 luk6 daap3 fei1 gei1 heoi3 jing1 gwok3 waan2", "answer": "B. 我地三个人呢个星期六搭飞机去英国玩。 ngo5 dei6 saam1 go3 jan4 ni1 go3 sing1 kei4 luk6 daap3 fei1 gei1 heoi3 jing1 gwok3 waan2", "answer_en": "The three of us are flying to Britain this Saturday for fun", "hint": "", "confidence": "medium" },
+        { "id": "u7-e6-i02", "prompt": "王太太同王先生黎我嘅写字楼。 wong4 taai3 taai3 tung4 wong4 sin1 saang1 lai4 ngo5 ge3 se2 zi6 lau4", "answer": "E. 王太太同王先生一齐黎我嘅写字楼。 wong4 taai3 taai3 tung4 wong4 sin1 saang1 jat1 cai4 lai4 ngo5 ge3 se2 zi6 lau4", "answer_en": "Mrs. Wong and Mr. Wong come to my office together", "hint": "", "confidence": "medium" },
+        { "id": "u7-e6-i03", "prompt": "你嘅主意係几好嘅。 nei5 ge3 zyu2 ji3 hai6 gei2 hou2 ge3", "answer": "D. 你嘅主意一定係几好嘅。 nei5 ge3 zyu2 ji3 jat1 ding6 hai6 gei2 hou2 ge3", "answer_en": "Your idea is certainly quite good", "hint": "", "confidence": "medium" },
+        { "id": "u7-e6-i04", "prompt": "呢间大学係有名嘅大学。 ni1 gaan1 daai6 hok6 hai6 jau5 meng2 ge3 daai6 hok6", "answer": "A. 呢间大学係世界有名嘅大学。 ni1 gaan1 daai6 hok6 hai6 sai3 gaai3 jau5 meng2 ge3 daai6 hok6", "answer_en": "This university is a world-famous university", "hint": "", "confidence": "medium" },
+        { "id": "u7-e6-i05", "prompt": "伦敦係英国最多人嘅地方。 leon4 deon1 hai6 jing1 gwok3 zeoi3 do1 jan4 ge3 dei6 fong1", "answer": "C. 伦敦係英国最多人嘅地方之一。 leon4 deon1 hai6 jing1 gwok3 zeoi3 do1 jan4 ge3 dei6 fong1 zi1 jat1", "answer_en": "London is one of the most populous places in Britain", "hint": "", "confidence": "medium" }
+      ]
+    },
+    {
+      "id": "u7-e7",
+      "title": "Passage 2 translation",
+      "source": "Unit 7 Review.pdf",
+      "instructions": "Read out loud the following passage and translate it into English (Passage 2, see dialogue u7-d2)",
+      "type": "translate",
+      "items": [
+        { "id": "u7-e7-i01", "prompt": "今日我返写字楼。何先生话我听礼拜六佢要搭飞机返去英国，所以喺礼拜三之后就唔返写字楼勒。何先生係我最好嘅朋友之一，佢呢次返去英国之后，我估就唔返黎嘅勒。咁，我要送乜嘢俾佢好呢？我想咗好耐都冇主意，就去问王小姐同张太太，王小姐话，“我地三个人一齐请何先生食饭喇！好吗？”张太太话，“如果何太太可以同何先生一齐黎，咁就最好勒。”我话小姐同太太嘅主意一定係最好嘅。你话係唔係呀？", "answer": "Today I went to the office. Mr. Ho told me that next Saturday he has to fly back to Britain, so after Wednesday he won't be coming to the office any more. Mr. Ho is one of my best friends; after he goes back to Britain this time, I guess he won't be coming back. So, what would be a good present for me to give him? I thought about it for a long time and still had no idea, so I went to ask Miss Wong and Mrs. Cheung. Miss Wong said, “Let the three of us invite Mr. Ho to a meal together! OK?” Mrs. Cheung said, “If Mrs. Ho can come along with Mr. Ho, that would be best of all.” I said that Miss Wong's and Mrs. Cheung's idea was definitely the best. What do you say, is it or isn't it?", "answer_en": "", "hint": "Line-by-line Jyutping is in dialogue u7-d2", "confidence": "medium" }
+      ]
+    }
+  ],
+  "notes": [
+    { "id": "u7-n1", "title": "About this unit", "body": "Unit 7 is a review of Units 1-6 (Dr. Candise Lin). It introduces no new vocabulary or grammar: it consists of two reading passages (Passage 1 about buying lobster for a salad; Passage 2 about a farewell meal for Mr. Ho) and six exercises: true/false and comprehension questions on Passage 1, translation into Cantonese, two one-sided phone conversations (4a, 4b), fill-in-the-blanks, and inserting plugs (世界, 三个人, 之一, 一定, 一齐) into sentences. Vocabulary worth revising from the passages: 沙律 saa1 leot6 (salad), 龙虾 lung4 haa1 (lobster), 大虾 daai6 haa1 (prawn), 新鲜 san1 sin1 (fresh), 生果 saang1 gwo2 (fruit), 厨房 cyu4 fong2 (kitchen), 预备 jyu6 bei6 (prepare), 当 dong3 (treat as / in place of), 主意 zyu2 ji3 (idea), 送 sung3 (give as a present), 估 gu2 (guess), 如果 jyu4 gwo2 (if)." }
+  ]
+}

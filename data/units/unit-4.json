@@ -1,0 +1,2154 @@
+{
+  "id": "unit-4",
+  "number": 4,
+  "title": "Eating in and Eating Out",
+  "sources": [
+    "Unit 4 Eating in and Eating Out.pdf",
+    "Unit 4 Practice.pdf"
+  ],
+  "goals": [],
+  "vocab": [
+    {
+      "id": "u4-v001",
+      "zh": "太…啦…",
+      "jp": "taai3 … laa3 …",
+      "en": "Too… exceedingly…",
+      "section": "Dialogue 1",
+      "pos": "phrase",
+      "notes": "Frame: taai3 + adjective + laa3"
+    },
+    {
+      "id": "u4-v002",
+      "zh": "客气",
+      "jp": "haak3 hei3",
+      "en": "Polite",
+      "section": "Dialogue 1",
+      "pos": "adj",
+      "notes": ""
+    },
+    {
+      "id": "u4-v003",
+      "zh": "煮",
+      "jp": "zyu2",
+      "en": "To cook",
+      "section": "Dialogue 1",
+      "pos": "verb",
+      "notes": "Lonely verb: takes faan6 as all-purpose object"
+    },
+    {
+      "id": "u4-v004",
+      "zh": "咁",
+      "jp": "gam3",
+      "en": "So",
+      "section": "Dialogue 1",
+      "pos": "adverb",
+      "notes": ""
+    },
+    {
+      "id": "u4-v005",
+      "zh": "𩠌",
+      "jp": "sung3",
+      "en": "Food, dish other than rice or soup",
+      "section": "Dialogue 1",
+      "pos": "noun",
+      "notes": "Rare character 𩠌"
+    },
+    {
+      "id": "u4-v006",
+      "zh": "请",
+      "jp": "cing2",
+      "en": "To invite",
+      "section": "Dialogue 1",
+      "pos": "verb",
+      "notes": "Also means please (Unit 3)"
+    },
+    {
+      "id": "u4-v007",
+      "zh": "食饭",
+      "jp": "sik6 faan6",
+      "en": "To eat",
+      "section": "Dialogue 1",
+      "pos": "verb",
+      "notes": "sik6 is a lonely verb: faan6 is its all-purpose object"
+    },
+    {
+      "id": "u4-v008",
+      "zh": "食",
+      "jp": "sik6",
+      "en": "To eat",
+      "section": "Dialogue 1",
+      "pos": "verb",
+      "notes": ""
+    },
+    {
+      "id": "u4-v009",
+      "zh": "饭",
+      "jp": "faan6",
+      "en": "Rice, food",
+      "section": "Dialogue 1",
+      "pos": "noun",
+      "notes": "Cooked rice only"
+    },
+    {
+      "id": "u4-v010",
+      "zh": "便饭",
+      "jp": "bin6 faan6",
+      "en": "A meal of whatever",
+      "section": "Dialogue 1",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u4-v011",
+      "zh": "随便",
+      "jp": "ceoi4 bin2",
+      "en": "As you please",
+      "section": "Dialogue 1",
+      "pos": "phrase",
+      "notes": ""
+    },
+    {
+      "id": "u4-v012",
+      "zh": "茶",
+      "jp": "caa4",
+      "en": "Tea",
+      "section": "Dialogue 1",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u4-v013",
+      "zh": "厨房",
+      "jp": "cyu4 fong2",
+      "en": "Kitchen",
+      "section": "Dialogue 1",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u4-v014",
+      "zh": "…紧",
+      "jp": "… gan2",
+      "en": "A verb ending for continuing action, -ing",
+      "section": "Dialogue 1",
+      "pos": "particle",
+      "notes": "Verb ending: action going on at the time"
+    },
+    {
+      "id": "u4-v015",
+      "zh": "唔使",
+      "jp": "m4 sai2",
+      "en": "No need to",
+      "section": "Dialogue 1",
+      "pos": "verb",
+      "notes": "Negative of jiu3 'need to'; question form sai2 m4 sai2"
+    },
+    {
+      "id": "u4-v016",
+      "zh": "等",
+      "jp": "dang2",
+      "en": "To wait",
+      "section": "Dialogue 1",
+      "pos": "verb",
+      "notes": ""
+    },
+    {
+      "id": "u4-v017",
+      "zh": "真（係）",
+      "jp": "zan1 (hai6)",
+      "en": "Truly, really",
+      "section": "Dialogue 1",
+      "pos": "adverb",
+      "notes": ""
+    },
+    {
+      "id": "u4-v018",
+      "zh": "好食",
+      "jp": "hou2 sik6",
+      "en": "Delicious",
+      "section": "Dialogue 1",
+      "pos": "adj",
+      "notes": ""
+    },
+    {
+      "id": "u4-v019",
+      "zh": "好似…一样",
+      "jp": "hou2 ci5 … jat1 joeng6",
+      "en": "Just like…",
+      "section": "Dialogue 1",
+      "pos": "phrase",
+      "notes": ""
+    },
+    {
+      "id": "u4-v020",
+      "zh": "酒楼",
+      "jp": "zau2 lau4",
+      "en": "Chinese restaurant",
+      "section": "Dialogue 1",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u4-v021",
+      "zh": "帮…手",
+      "jp": "bong1 … sau2",
+      "en": "To help…",
+      "section": "Dialogue 1",
+      "pos": "verb",
+      "notes": "Object goes between bong1 and sau2"
+    },
+    {
+      "id": "u4-v022",
+      "zh": "用",
+      "jp": "jung6",
+      "en": "To use, to spend",
+      "section": "Dialogue 1",
+      "pos": "verb",
+      "notes": ""
+    },
+    {
+      "id": "u4-v023",
+      "zh": "…咗",
+      "jp": "… zo2",
+      "en": "A verb ending for completed action, -ed",
+      "section": "Dialogue 1",
+      "pos": "particle",
+      "notes": "Verb ending: completed action; usually backed up by laak3"
+    },
+    {
+      "id": "u4-v024",
+      "zh": "预备",
+      "jp": "jyu6 bei6",
+      "en": "To prepare, to get ready",
+      "section": "Dialogue 1",
+      "pos": "verb",
+      "notes": ""
+    },
+    {
+      "id": "u4-v025",
+      "zh": "餐",
+      "jp": "caan1",
+      "en": "Classifier for food, a meal",
+      "section": "Dialogue 1",
+      "pos": "classifier",
+      "notes": ""
+    },
+    {
+      "id": "u4-v026",
+      "zh": "半",
+      "jp": "bun3",
+      "en": "Half",
+      "section": "Dialogue 1",
+      "pos": "number",
+      "notes": ""
+    },
+    {
+      "id": "u4-v027",
+      "zh": "钟头",
+      "jp": "zung1 tau4",
+      "en": "Hour",
+      "section": "Dialogue 1",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u4-v028",
+      "zh": "只（係）",
+      "jp": "zi2 (hai6)",
+      "en": "Only",
+      "section": "Dialogue 1",
+      "pos": "adverb",
+      "notes": ""
+    },
+    {
+      "id": "u4-v029",
+      "zh": "信",
+      "jp": "seon3",
+      "en": "To believe, to trust",
+      "section": "Dialogue 1",
+      "pos": "verb",
+      "notes": ""
+    },
+    {
+      "id": "u4-v030",
+      "zh": "啲",
+      "jp": "di1",
+      "en": "Plural classifier",
+      "section": "Dialogue 1",
+      "pos": "classifier",
+      "notes": "Plural / unspecified quantity"
+    },
+    {
+      "id": "u4-v031",
+      "zh": "都",
+      "jp": "dou1",
+      "en": "All, both",
+      "section": "Dialogue 1",
+      "pos": "adverb",
+      "notes": "Also 'also'; comes immediately before the verb and after the noun it refers to"
+    },
+    {
+      "id": "u4-v032",
+      "zh": "附近",
+      "jp": "fu6 gan6",
+      "en": "Nearby",
+      "section": "Dialogue 1",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u4-v033",
+      "zh": "哦",
+      "jp": "ngo5",
+      "en": "Oh really! Oh, now I understand",
+      "section": "Dialogue 1",
+      "pos": "particle",
+      "notes": "Exclamation"
+    },
+    {
+      "id": "u4-v034",
+      "zh": "伙计",
+      "jp": "fo2 gei3",
+      "en": "Waiter",
+      "section": "Dialogue 2",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u4-v035",
+      "zh": "汤",
+      "jp": "tong1",
+      "en": "Soup",
+      "section": "Dialogue 2",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u4-v036",
+      "zh": "新鲜",
+      "jp": "san1 sin1",
+      "en": "Fresh",
+      "section": "Dialogue 2",
+      "pos": "adj",
+      "notes": ""
+    },
+    {
+      "id": "u4-v037",
+      "zh": "牛肉",
+      "jp": "ngau4 juk6",
+      "en": "Beef",
+      "section": "Dialogue 2",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u4-v038",
+      "zh": "牛",
+      "jp": "ngau4",
+      "en": "Cow, ox",
+      "section": "Dialogue 2",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u4-v039",
+      "zh": "肉",
+      "jp": "juk6",
+      "en": "Meat, flesh",
+      "section": "Dialogue 2",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u4-v040",
+      "zh": "就",
+      "jp": "zau6",
+      "en": "Then",
+      "section": "Dialogue 2",
+      "pos": "adverb",
+      "notes": ""
+    },
+    {
+      "id": "u4-v041",
+      "zh": "主菜",
+      "jp": "zyu2 coi3",
+      "en": "Main course",
+      "section": "Dialogue 2",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u4-v042",
+      "zh": "介绍",
+      "jp": "gaai3 siu6",
+      "en": "Recommend",
+      "section": "Dialogue 2",
+      "pos": "verb",
+      "notes": ""
+    },
+    {
+      "id": "u4-v043",
+      "zh": "龙虾",
+      "jp": "lung4 haa1",
+      "en": "Lobster",
+      "section": "Dialogue 2",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u4-v044",
+      "zh": "好味",
+      "jp": "hou2 mei6",
+      "en": "Delicious",
+      "section": "Dialogue 2",
+      "pos": "adj",
+      "notes": ""
+    },
+    {
+      "id": "u4-v045",
+      "zh": "如果",
+      "jp": "jyu4 gwo2",
+      "en": "If",
+      "section": "Dialogue 2",
+      "pos": "conjunction",
+      "notes": ""
+    },
+    {
+      "id": "u4-v046",
+      "zh": "送…俾…",
+      "jp": "sung3 … bei2 …",
+      "en": "To give x as a present to y",
+      "section": "Dialogue 2",
+      "pos": "verb",
+      "notes": "sung3 X bei2 Y; bei2 alone = to give to, hand over to"
+    },
+    {
+      "id": "u4-v047",
+      "zh": "生果",
+      "jp": "saang1 gwo2",
+      "en": "Fruit",
+      "section": "Dialogue 2",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u4-v048",
+      "zh": "沙律",
+      "jp": "saa1 leot2",
+      "en": "Salad",
+      "section": "Dialogue 2",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u4-v049",
+      "zh": "点解?",
+      "jp": "dim2 gaai2",
+      "en": "Why?",
+      "section": "Dialogue 2",
+      "pos": "phrase",
+      "notes": ""
+    },
+    {
+      "id": "u4-v050",
+      "zh": "因为",
+      "jp": "jan1 wai6",
+      "en": "Because",
+      "section": "Dialogue 2",
+      "pos": "conjunction",
+      "notes": ""
+    },
+    {
+      "id": "u4-v051",
+      "zh": "昨日",
+      "jp": "zok6 jat6",
+      "en": "Yesterday",
+      "section": "Dialogue 2",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u4-v052",
+      "zh": "整",
+      "jp": "zing2",
+      "en": "To make",
+      "section": "Dialogue 2",
+      "pos": "verb",
+      "notes": ""
+    },
+    {
+      "id": "u4-v053",
+      "zh": "今日",
+      "jp": "gam1 jat6",
+      "en": "Today",
+      "section": "Dialogue 2",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u4-v054",
+      "zh": "少",
+      "jp": "siu2",
+      "en": "Few",
+      "section": "Dialogue 2",
+      "pos": "adj",
+      "notes": ""
+    },
+    {
+      "id": "u4-v055",
+      "zh": "所以",
+      "jp": "so2 ji5",
+      "en": "Therefore",
+      "section": "Dialogue 2",
+      "pos": "conjunction",
+      "notes": ""
+    },
+    {
+      "id": "u4-v056",
+      "zh": "识",
+      "jp": "sik1",
+      "en": "To know how to",
+      "section": "Dialogue 2",
+      "pos": "verb",
+      "notes": ""
+    },
+    {
+      "id": "u4-v057",
+      "zh": "做生意",
+      "jp": "zou6 saang1 ji3",
+      "en": "To do business",
+      "section": "Dialogue 2",
+      "pos": "verb",
+      "notes": ""
+    },
+    {
+      "id": "u4-v058",
+      "zh": "唔好",
+      "jp": "m4 hou2",
+      "en": "Don't",
+      "section": "Dialogue 2",
+      "pos": "phrase",
+      "notes": "mai5 is a ruder equivalent"
+    },
+    {
+      "id": "u4-v059",
+      "zh": "嬲",
+      "jp": "nau1",
+      "en": "Angry",
+      "section": "Dialogue 2",
+      "pos": "adj",
+      "notes": ""
+    },
+    {
+      "id": "u4-v060",
+      "zh": "再",
+      "jp": "zoi3",
+      "en": "Again",
+      "section": "Dialogue 2",
+      "pos": "adverb",
+      "notes": ""
+    },
+    {
+      "id": "u4-v061",
+      "zh": "朝早",
+      "jp": "ziu1 zou2",
+      "en": "Morning",
+      "section": "Dialogue 2",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u4-v062",
+      "zh": "早",
+      "jp": "zou2",
+      "en": "Early",
+      "section": "Dialogue 2",
+      "pos": "adj",
+      "notes": ""
+    },
+    {
+      "id": "u4-v063",
+      "zh": "甜品",
+      "jp": "tim4 ban2",
+      "en": "Dessert",
+      "section": "Dialogue 2",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u4-v064",
+      "zh": "话",
+      "jp": "waa6",
+      "en": "Words",
+      "section": "Dialogue 2",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u4-v065",
+      "zh": "当",
+      "jp": "dong3",
+      "en": "To regard as",
+      "section": "Dialogue 2",
+      "pos": "verb",
+      "notes": ""
+    },
+    {
+      "id": "u4-v066",
+      "zh": "垃圾桶",
+      "jp": "laap6 saap6 tung2",
+      "en": "Rubbish bin",
+      "section": "Dialogue 2",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u4-v067",
+      "zh": "垃圾",
+      "jp": "laap6 saap6",
+      "en": "Rubbish",
+      "section": "Dialogue 2",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u4-v068",
+      "zh": "",
+      "jp": "din1",
+      "en": "Crazy",
+      "section": "Grammar",
+      "pos": "adj",
+      "notes": "Reduplicated: din1 din1 dei2 rather crazy (tone 1 unchanged)"
+    },
+    {
+      "id": "u4-v069",
+      "zh": "",
+      "jp": "fu2",
+      "en": "Bitter",
+      "section": "Grammar",
+      "pos": "adj",
+      "notes": "Reduplicated: fu2 fu2 dei2 rather bitter (tone 2 unchanged)"
+    },
+    {
+      "id": "u4-v070",
+      "zh": "",
+      "jp": "sau3",
+      "en": "Thin",
+      "section": "Grammar",
+      "pos": "adj",
+      "notes": "Reduplicated: sau3 sau2 dei2 rather thin"
+    },
+    {
+      "id": "u4-v071",
+      "zh": "",
+      "jp": "tim4",
+      "en": "Sweet",
+      "section": "Grammar",
+      "pos": "adj",
+      "notes": "Reduplicated: tim4 tim2 dei2 rather sweet"
+    },
+    {
+      "id": "u4-v072",
+      "zh": "",
+      "jp": "jit6",
+      "en": "Warm",
+      "section": "Grammar",
+      "pos": "adj",
+      "notes": "Reduplicated: jit6 jit2 dei2 rather warm"
+    },
+    {
+      "id": "u4-v073",
+      "zh": "",
+      "jp": "mun6",
+      "en": "Bored/boring",
+      "section": "Grammar",
+      "pos": "adj",
+      "notes": "Reduplicated: mun6 mun2 dei2 rather bored (or boring)"
+    },
+    {
+      "id": "u4-v074",
+      "zh": "",
+      "jp": "… dei2",
+      "en": "Suffix for reduplicated adjectives (rather…)",
+      "section": "Grammar",
+      "pos": "particle",
+      "notes": "Repeated syllable changes to high rising tone unless already tone 1 or 2"
+    },
+    {
+      "id": "u4-v075",
+      "zh": "",
+      "jp": "gei2",
+      "en": "Quite",
+      "section": "Grammar",
+      "pos": "adverb",
+      "notes": "Modifies adjectives in place of hou2"
+    },
+    {
+      "id": "u4-v076",
+      "zh": "",
+      "jp": "zeoi3",
+      "en": "Most",
+      "section": "Grammar",
+      "pos": "adverb",
+      "notes": "Modifies adjectives: zeoi3 nin4 hing1 the youngest"
+    },
+    {
+      "id": "u4-v077",
+      "zh": "",
+      "jp": "gau3 (saai3)",
+      "en": "(More than) enough",
+      "section": "Grammar",
+      "pos": "adverb",
+      "notes": "tiu4 sing2 gau3 (saai3) coeng4 the string is (more than) long enough"
+    },
+    {
+      "id": "u4-v078",
+      "zh": "",
+      "jp": "bei2",
+      "en": "To give, to give to, to hand over to",
+      "section": "Grammar",
+      "pos": "verb",
+      "notes": "keoi5 bei2 jat1 zi1 bat1 ngo5 he hands me a pen"
+    },
+    {
+      "id": "u4-v079",
+      "zh": "",
+      "jp": "mai5",
+      "en": "Don't",
+      "section": "Grammar",
+      "pos": "verb",
+      "notes": "Shortcut for m4 hou2; a bit ruder because it is so abrupt sounding"
+    },
+    {
+      "id": "u4-v080",
+      "zh": "",
+      "jp": "gam1 ziu1 (zou2)",
+      "en": "This morning",
+      "section": "Grammar",
+      "pos": "noun",
+      "notes": "Shortcut for gam1 jat6 ziu1 zou2"
+    },
+    {
+      "id": "u4-v081",
+      "zh": "",
+      "jp": "zok6 ziu1 (zou2)",
+      "en": "Yesterday morning",
+      "section": "Grammar",
+      "pos": "noun",
+      "notes": "Shortcut for zok6 jat6 ziu1 zou2"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "u4-d1",
+      "title": "Dialogue 1",
+      "setting": "Mr. Ho invites Mr. Wong to his home for a meal",
+      "lines": [
+        {
+          "id": "u4-d1-l01",
+          "speaker": "Wong",
+          "zh": "何先生，你太客气啦，煮咁多𩠌请我食饭。",
+          "jp": "ho4 sin1 saang1, nei5 taai3 haak3 hei3 laa1, zyu2 gam3 do1 sung3 cing2 ngo5 sik6 faan6",
+          "en": "Mr. Ho, you are very welcome, cook so much food to treat me"
+        },
+        {
+          "id": "u4-d1-l02",
+          "speaker": "Ho",
+          "zh": "便饭啫，随便食喇。要唔要茶呀？",
+          "jp": "bin6 faan6 ze1, ceoi4 bin2 sik6 laa1. jiu3 m4 jiu3 caa4 aa3?",
+          "en": "It's nothing, eat as much as you like, do you want some tea?"
+        },
+        {
+          "id": "u4-d1-l03",
+          "speaker": "Wong",
+          "zh": "唔要，唔该。何太太呢？佢喺边度呀？",
+          "jp": "m4 jiu3, m4 goi1. ho4 taai3 taai2 ne1? keoi5 hai2 bin1 dou6 aa3?",
+          "en": "No, thanks. What about Mrs. Ho? Where is she?"
+        },
+        {
+          "id": "u4-d1-l04",
+          "speaker": "Ho",
+          "zh": "佢喺厨房煮紧饭，唔使等佢啦。",
+          "jp": "keoi5 hai2 cyu4 fong2 zyu2 gan2 faan6, m4 sai2 dang2 keoi5 laa1",
+          "en": "She is cooking in the kitchen, no need to wait for her"
+        },
+        {
+          "id": "u4-d1-l05",
+          "speaker": "Wong",
+          "zh": "何太太煮嘅𩠌真好食勒。好似酒楼嘅一样。何先生你有冇帮佢手呀？",
+          "jp": "ho4 taai3 taai2 zyu2 ge3 sung3 zan1 hou2 sik6 laak3. hou2 ci5 zau2 lau4 ge3 jat1 joeng6. ho4 sin1 saang1 nei5 jau5 mou5 bong1 keoi5 sau2 aa3?",
+          "en": "Mrs. Ho's cooking is really delicious, tastes like those from the restaurant. Did you help her Mr. Ho?"
+        },
+        {
+          "id": "u4-d1-l06",
+          "speaker": "Ho",
+          "zh": "冇呀！",
+          "jp": "mou5 aa3!",
+          "en": "I didn't"
+        },
+        {
+          "id": "u4-d1-l07",
+          "speaker": "Wong",
+          "zh": "何太太一定用咗好多时间预备呢餐饭勒。",
+          "jp": "ho4 taai3 taai2 jat1 ding6 jung6 zo2 hou2 do1 si4 gaan3 jyu6 bei6 ni1 caan1 faan6 laak3",
+          "en": "Mrs. Ho must have used a lot of time to prepare this meal"
+        },
+        {
+          "id": "u4-d1-l08",
+          "speaker": "Ho",
+          "zh": "佢用咗半个钟头啫。",
+          "jp": "keoi5 jung6 zo2 bun3 go3 zung1 tau4 ze1",
+          "en": "She only used half an hour"
+        },
+        {
+          "id": "u4-d1-l09",
+          "speaker": "Wong",
+          "zh": "只係半个钟头吖？我唔信。",
+          "jp": "zi2 hai6 bun3 go3 zung1 tau4 aa4? ngo5 m4 seon3",
+          "en": "Only half an hour? I don't believe you"
+        },
+        {
+          "id": "u4-d1-l10",
+          "speaker": "Ho",
+          "zh": "係真架。啲𩠌都係佢去附近嘅酒楼买嘅。",
+          "jp": "hai6 zan1 gaa3. di1 sung3 dou1 hai6 keoi5 heoi3 fu6 gan6 ge3 zau2 lau4 maai5 ge3",
+          "en": "It's true! She bought these dish from the restaurant nearby"
+        },
+        {
+          "id": "u4-d1-l11",
+          "speaker": "Wong",
+          "zh": "哦！",
+          "jp": "ngo5!",
+          "en": "Oh really!"
+        }
+      ],
+      "questions": [
+        "True or false? Ho4 sin1 saang1 cing2 Wong4 sin1 saang1 heoi3 zau2 lau4 sik6 faan6.",
+        "True or false? Ho4 sin1 saang1 zyu2 zo2 loeng5 go3 sung3 cing2 Wong4 sin1 saang1 sik6.",
+        "True or false? Ho4 sin1 saang1 bong1 Ho4 taai3 taai2 sau2 zyu2 faan6.",
+        "True or false? Ho4 sin1 saang1, Ho4 taai3 taai2 jung6 zo2 loeng5 go3 bun3 zung1 tau4 zyu2 faan6.",
+        "True or false? Ho4 taai3 taai2 m4 zyu2 sung3, keoi5 zi2 hai6 heoi3 zau2 lau4 maai5 sung3."
+      ]
+    },
+    {
+      "id": "u4-d2",
+      "title": "Dialogue 2",
+      "setting": "Mr. Ho tries to order a meal from a waiter",
+      "lines": [
+        {
+          "id": "u4-d2-l01",
+          "speaker": "Ho",
+          "zh": "伙计，我想要一个汤，你地嘅汤新唔新鲜呀？",
+          "jp": "fo2 gei3, ngo5 soeng2 jiu3 jat1 go3 tong1, nei5 dei6 ge3 tong1 san1 m4 san1 sin1 aa3?",
+          "en": "Waiter, I want to order a soup, is your soup fresh?"
+        },
+        {
+          "id": "u4-d2-l02",
+          "speaker": "Waiter",
+          "zh": "先生，你要个牛肉汤喇。好新鲜架。",
+          "jp": "sin1 saang1, nei5 jiu3 go3 ngau4 juk6 tong1 laa1. hou2 san1 sin1 gaa3",
+          "en": "Mr. you should order a beef soup, it's very fresh"
+        },
+        {
+          "id": "u4-d2-l03",
+          "speaker": "Ho",
+          "zh": "好，我就要个牛肉汤。主菜有乜嘢好介绍呀？",
+          "jp": "hou2, ngo5 zau6 jiu3 go3 ngau4 juk6 tong1. zyu2 coi3 jau5 mat1 je5 hou2 gaai3 siu6 aa3?",
+          "en": "Good, I'll get a beef soup. What do you recommend for the main dish?"
+        },
+        {
+          "id": "u4-d2-l04",
+          "speaker": "Waiter",
+          "zh": "龙虾饭喇，好好味架。如果你要呢个饭，我地送生果沙律俾你。",
+          "jp": "lung4 haa1 faan6 laa1, hou2 hou2 mei6 gaa3. jyu4 gwo2 nei5 jiu3 ni1 go3 faan6, ngo5 dei6 sung3 saang1 gwo2 saa1 leot2 bei2 nei5",
+          "en": "Lobster rice. It's very delicious. If you order this rice, I'll give you fruit salad for free"
+        },
+        {
+          "id": "u4-d2-l05",
+          "speaker": "Ho",
+          "zh": "点解送生果沙律呀？",
+          "jp": "dim2 gaai2 sung3 saang1 gwo2 saa1 leot2 aa3?",
+          "en": "Why free fruit salad?"
+        },
+        {
+          "id": "u4-d2-l06",
+          "speaker": "Waiter",
+          "zh": "因为我地嘅厨房昨日整左太多，今日仲有唔少，所以就送俾你食喇。",
+          "jp": "jan1 wai6 ngo5 dei6 ge3 cyu4 fong2 zok6 jat6 zing2 zo2 taai3 do1, gam1 jat6 zung6 jau5 m4 siu2, so2 ji5 zau6 sung3 bei2 nei5 sik6 laa1",
+          "en": "Because our kitchen made too much yesterday, still have some leftover today therefore we gave you for free"
+        },
+        {
+          "id": "u4-d2-l07",
+          "speaker": "Ho",
+          "zh": "你地昨日整嘅生果沙律今日俾我食，你识唔识做生意架？",
+          "jp": "nei5 dei6 zok3 jat6 zing2 ge3 saang1 gwo2 saa1 leot2 gam1 jat6 bei2 ngo5 sik6, nei5 sik1 m4 sik1 zou6 saang1 ji3 gaa3?",
+          "en": "You gave me yesterday's fruit salad? Do you know how to run a business?"
+        },
+        {
+          "id": "u4-d2-l08",
+          "speaker": "Waiter",
+          "zh": "先生，你唔好嬲。我再送今朝早整嘅甜品俾你，好吗？仲係好好味架。",
+          "jp": "sin1 saang1, nei5 m4 hou2 nau1. ngo5 zoi3 sung3 gam1 ziu1 zou2 zing2 ge3 tim4 ban2 bei2 nei5, hou2 maa3? zung6 hai6 hou2 hou2 mei6 gaa3",
+          "en": "Mr. don't be mad. I'll give you this morning's desert as well, ok? It's still very delicious"
+        },
+        {
+          "id": "u4-d2-l09",
+          "speaker": "Ho",
+          "zh": "乜嘢话？昨日嘅生果沙律：今朝早嘅甜品！你当我係垃圾桶吖！",
+          "jp": "mat1 je5 waa2? zok6 jat6 ge3 saang1 gwo2 saa1 leot2: gam1 ziu1 zou2 ge3 tim4 ban2! nei5 dong3 ngo5 hai6 laap6 saap6 tung2 aa4!",
+          "en": "What the heck. Yesterday's fruit salad? This morning's desert? You thought I'm a trash can!"
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "grammar": [
+    {
+      "id": "u4-g01",
+      "title": "cing2 to invite",
+      "summary": "cing2 means please (Unit 3) and also to invite.",
+      "body": "In Unit 3 we saw that cing2 means please. It has another meaning of to invite.",
+      "examples": [
+        {
+          "id": "u4-g01-e01",
+          "jp": "keoi5 cing2 ngo5 heoi3 keoi5 nguk1 kei5",
+          "zh": "",
+          "en": "He invites me to go to his home",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "verbs",
+        "cing2"
+      ]
+    },
+    {
+      "id": "u4-g02",
+      "title": "Lonely verbs",
+      "summary": "Some verbs (sik6, zyu2) feel incomplete without an object, so the all-purpose object faan6 is supplied.",
+      "body": "Some verbs feel incomplete if they have no object, so Cantonese will supply an all-purpose object to comfort their loneliness! In English we have no problem with saying he is eating, but the Cantonese verb sik6 is unhappy on its own and if it is not specified what he is eating then the all purpose object faan6 rice will be added.\nzyu2 to cook is another verb which takes faan6 for want of anything more definite and we will meet other such verbs and other all purpose objects in later units.",
+      "examples": [
+        {
+          "id": "u4-g02-e01",
+          "jp": "keoi5 sik6 faan6",
+          "zh": "",
+          "en": "He is eating",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "verbs",
+        "objects",
+        "faan6"
+      ]
+    },
+    {
+      "id": "u4-g03",
+      "title": "Adverbs of place",
+      "summary": "The adverb saying where an action happens comes before or after the subject, but always before the verb.",
+      "body": "The adverb which says where an action is happening comes either before or after the subject depending on the sense, but in any case it always comes before the verb.",
+      "examples": [
+        {
+          "id": "u4-g03-e01",
+          "jp": "keoi5 hai2 nguk1 kei5 co5",
+          "zh": "",
+          "en": "She is sitting indoors",
+          "lit": ""
+        },
+        {
+          "id": "u4-g03-e02",
+          "jp": "hai2 se2 zi6 lau4 nei5 jau5 mou5 bat1 aa3?",
+          "zh": "",
+          "en": "Have you got a pen in the office?",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "adverbs",
+        "place",
+        "word order",
+        "hai2"
+      ]
+    },
+    {
+      "id": "u4-g04",
+      "title": "Two new verb endings: gan2 and zo2",
+      "summary": "…gan2 marks an action going on at the time; …zo2 marks a completed action, usually backed up by laak3.",
+      "body": "…gan2 is tagged onto a verb to emphasize that the action is actually going on at the time.\n…zo2 is tagged onto a verb in the same way to show that the action has been completed. Usually the particle laak3 is added at the end of the sentence to back it up.",
+      "examples": [
+        {
+          "id": "u4-g04-e01",
+          "jp": "wong4 sin1 saang1 tai2 gan2 ji1 saang1",
+          "zh": "",
+          "en": "Mr. Wong is seeing the doctor",
+          "lit": ""
+        },
+        {
+          "id": "u4-g04-e02",
+          "jp": "keoi5 tai2 zo2 ji1 saang1 laak3",
+          "zh": "",
+          "en": "He saw the doctor",
+          "lit": ""
+        },
+        {
+          "id": "u4-g04-e03",
+          "jp": "ngo5 maai5 zo2 mei5 gwok3 ce1 laak3",
+          "zh": "",
+          "en": "I bought an American car",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "verb endings",
+        "aspect",
+        "gan2",
+        "zo2",
+        "laak3"
+      ]
+    },
+    {
+      "id": "u4-g05",
+      "title": "An irregular verb: jiu3/sai2",
+      "summary": "To need to is jiu3 but its negative is m4 sai2 (question sai2 m4 sai2); when jiu3 means to want, the negative is m4 jiu3 (question jiu3 m4 jiu3).",
+      "body": "To need to is jiu3 but not to need to is m4 sai2.\nHowever, when jiu3 means to want its negative is m4 jiu3.\nThe question form for to need to is sai2 m4 sai2.\nThe question form for to want is jiu3 m4 jiu3.",
+      "examples": [
+        {
+          "id": "u4-g05-e01",
+          "jp": "ngo5 dei6 jiu3 dang2 keoi5",
+          "zh": "",
+          "en": "We need to wait for her",
+          "lit": ""
+        },
+        {
+          "id": "u4-g05-e02",
+          "jp": "ngo5 dei6 m4 sai2 dang2 keoi5 laa1",
+          "zh": "",
+          "en": "We don't need to wait for her",
+          "lit": ""
+        },
+        {
+          "id": "u4-g05-e03",
+          "jp": "ngo5 jiu3 maai5 ce1",
+          "zh": "",
+          "en": "I need to buy a car",
+          "lit": ""
+        },
+        {
+          "id": "u4-g05-e04",
+          "jp": "ngo5 m4 sai2 maai5 ce1",
+          "zh": "",
+          "en": "I don't need to buy a car",
+          "lit": ""
+        },
+        {
+          "id": "u4-g05-e05",
+          "jp": "ngo5 m4 jiu3 faan6",
+          "zh": "",
+          "en": "I don't want any rice",
+          "lit": ""
+        },
+        {
+          "id": "u4-g05-e06",
+          "jp": "ngo5 dei6 sai2 m4 sai2 dang2 keoi5 aa3?",
+          "zh": "",
+          "en": "Do we need to wait for her?",
+          "lit": ""
+        },
+        {
+          "id": "u4-g05-e07",
+          "jp": "nei5 jiu3 m4 jiu3 faan6 aa3?",
+          "zh": "",
+          "en": "Do you want some rice?",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "verbs",
+        "negation",
+        "questions",
+        "jiu3",
+        "sai2"
+      ]
+    },
+    {
+      "id": "u4-g06",
+      "title": "Another use of ge3",
+      "summary": "Besides possession, ge3 links a descriptive phrase (adjectives) to a noun.",
+      "body": "We saw in unit 2 that ge3 shows possession: ngo5 ge3 ce1 my car. It also is used to link a descriptive phrase (adjectives) to a noun.",
+      "examples": [
+        {
+          "id": "u4-g06-e01",
+          "jp": "hou2 gwai3 ge3 gaa3 fe1",
+          "zh": "",
+          "en": "Very expensive coffee",
+          "lit": ""
+        },
+        {
+          "id": "u4-g06-e02",
+          "jp": "maai5 gwai3 bat1 ge3 jan4",
+          "zh": "",
+          "en": "The person who is buying an expensive pen",
+          "lit": ""
+        },
+        {
+          "id": "u4-g06-e03",
+          "jp": "keoi5 zyu6 ge3 nguk1",
+          "zh": "",
+          "en": "The house that he lives in",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "ge3",
+        "adjectives",
+        "relative clauses"
+      ]
+    },
+    {
+      "id": "u4-g07",
+      "title": "Adjectives",
+      "summary": "Attributive adjectives modify nouns (with ge3); predicative adjectives drop hai6 and usually take hou2, or another modifier such as gei2, gam3, taai3 or gau3 (saai3).",
+      "body": "Attributive adjectives modify the nouns.\nAdjectives can be modified by hou2 'very' or zeoi3 'most'.\nPredicative adjectives are used to state that something has a certain property. The verb hai6 'to be' is not used, but instead the adverb hou2 is usually included.\nOther modifiers such as gei2 'quite' and gam3 'so' can appear in place of hou2.",
+      "examples": [
+        {
+          "id": "u4-g07-e01",
+          "jp": "peng4 ge3 saam1",
+          "zh": "",
+          "en": "Cheap clothes",
+          "lit": ""
+        },
+        {
+          "id": "u4-g07-e02",
+          "jp": "gwaai1 ge3 sai3 lou6 zai2",
+          "zh": "",
+          "en": "Good obedient children",
+          "lit": ""
+        },
+        {
+          "id": "u4-g07-e03",
+          "jp": "co3 ge3 kyut3 ding6",
+          "zh": "",
+          "en": "A wrong decision",
+          "lit": ""
+        },
+        {
+          "id": "u4-g07-e04",
+          "jp": "hou2 kan4 lik6 ge3 hok6 saang1",
+          "zh": "",
+          "en": "Very hard-working students",
+          "lit": ""
+        },
+        {
+          "id": "u4-g07-e05",
+          "jp": "zeoi3 nin4 hing1 ge3 bok3 si6",
+          "zh": "",
+          "en": "The youngest PhD",
+          "lit": ""
+        },
+        {
+          "id": "u4-g07-e06",
+          "jp": "gam3 daai6 ge3 jing2 hoeng2",
+          "zh": "",
+          "en": "Such a big influence",
+          "lit": ""
+        },
+        {
+          "id": "u4-g07-e07",
+          "jp": "ngo5 hou2 hoi1 sam1",
+          "zh": "",
+          "en": "I'm happy",
+          "lit": ""
+        },
+        {
+          "id": "u4-g07-e08",
+          "jp": "di1 tong1 hou2 haam4",
+          "zh": "",
+          "en": "The soup is salty",
+          "lit": ""
+        },
+        {
+          "id": "u4-g07-e09",
+          "jp": "keoi5 gin6 saam1 hou2 leng3",
+          "zh": "",
+          "en": "Her dress is beautiful",
+          "lit": ""
+        },
+        {
+          "id": "u4-g07-e10",
+          "jp": "gam1 jat6 hou2 sap1",
+          "zh": "",
+          "en": "It's humid today",
+          "lit": ""
+        },
+        {
+          "id": "u4-g07-e11",
+          "jp": "di1 gei1 piu3 gei2 peng4",
+          "zh": "",
+          "en": "The air tickets are quite cheap",
+          "lit": ""
+        },
+        {
+          "id": "u4-g07-e12",
+          "jp": "nei5 go3 sau2 tai4 din6 nou5 gam3 gwai3",
+          "zh": "",
+          "en": "Your laptop computer is so expensive",
+          "lit": ""
+        },
+        {
+          "id": "u4-g07-e13",
+          "jp": "go3 daan6 gou1 taai3 tim4",
+          "zh": "",
+          "en": "The cake is too sweet",
+          "lit": ""
+        },
+        {
+          "id": "u4-g07-e14",
+          "jp": "ngon1 cyun4 zeoi3 gan2 jiu3",
+          "zh": "",
+          "en": "Safety is most important",
+          "lit": ""
+        },
+        {
+          "id": "u4-g07-e15",
+          "jp": "tiu4 sing2 gau3 (saai3) coeng4",
+          "zh": "",
+          "en": "The string is (more than) long enough",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "adjectives",
+        "attributive",
+        "predicative",
+        "hou2",
+        "gei2",
+        "gam3",
+        "zeoi3"
+      ]
+    },
+    {
+      "id": "u4-g08",
+      "title": "Reduplicated adjectives",
+      "summary": "Reduplicating an adjective with the suffix -dei2 means 'rather…'; the repeated syllable changes to high rising tone unless it is already tone 1 or 2. Not used with hou2 or gei2.",
+      "body": "Another strategy to modify the meaning of an adjective is reduplication together with the suffix -dei2.\nNote the change to a high rising tone on the repeated syllable: this happens in all cases except where the original tone is high level as in din1 din1 dei2 or already high rising as in fu2 fu2 dei2.\nUsed to qualify the force of an adjective.\nNote these forms are not used together with hou2 or other modifiers such as gei2 'quite': not *ni1 go3 gaau3 sau6 hou2 din1 din1 dei2; not *go3 wu6 si6 gei2 fei4 fei2 dei2.",
+      "examples": [
+        {
+          "id": "u4-g08-e01",
+          "jp": "din1 —> din1 din1 dei2",
+          "zh": "",
+          "en": "Crazy —> rather crazy",
+          "lit": ""
+        },
+        {
+          "id": "u4-g08-e02",
+          "jp": "fu2 —> fu2 fu2 dei2",
+          "zh": "",
+          "en": "Bitter —> rather bitter",
+          "lit": ""
+        },
+        {
+          "id": "u4-g08-e03",
+          "jp": "sau3 —> sau3 sau2 dei2",
+          "zh": "",
+          "en": "Thin —> rather thin",
+          "lit": ""
+        },
+        {
+          "id": "u4-g08-e04",
+          "jp": "tim4 —> tim4 tim2 dei2",
+          "zh": "",
+          "en": "Sweet —> rather sweet",
+          "lit": ""
+        },
+        {
+          "id": "u4-g08-e05",
+          "jp": "jit6 —> jit6 jit2 dei2",
+          "zh": "",
+          "en": "Warm —> rather warm",
+          "lit": ""
+        },
+        {
+          "id": "u4-g08-e06",
+          "jp": "mun6 —> mun6 mun2 dei2",
+          "zh": "",
+          "en": "Bored/boring —> rather bored (or boring)",
+          "lit": ""
+        },
+        {
+          "id": "u4-g08-e07",
+          "jp": "zung1 joek6 fu2 fu2 dei2",
+          "zh": "",
+          "en": "Chinese medicine is rather bitter",
+          "lit": ""
+        },
+        {
+          "id": "u4-g08-e08",
+          "jp": "tiu4 gaai1 sap1 sap1 dei2",
+          "zh": "",
+          "en": "The street is a bit wet",
+          "lit": ""
+        },
+        {
+          "id": "u4-g08-e09",
+          "jp": "tou3 hei6 mun6 mun2 dei2",
+          "zh": "",
+          "en": "The film was fairly boring",
+          "lit": ""
+        },
+        {
+          "id": "u4-g08-e10",
+          "jp": "ngo5 gok3 dak1 mun6 mun2 dei2",
+          "zh": "",
+          "en": "I feel rather bored",
+          "lit": ""
+        },
+        {
+          "id": "u4-g08-e11",
+          "jp": "ni1 go3 gaau3 sau6 din1 din1 dei2",
+          "zh": "",
+          "en": "This professor is pretty crazy",
+          "lit": ""
+        },
+        {
+          "id": "u4-g08-e12",
+          "jp": "go3 wu6 si6 fei4 fei2 dei2",
+          "zh": "",
+          "en": "The nurse is rather chubby",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "adjectives",
+        "reduplication",
+        "dei2",
+        "tone change"
+      ]
+    },
+    {
+      "id": "u4-g09",
+      "title": "Have you done it?",
+      "summary": "To ask if an action has been completed use jau5 mou5 + verb; answer with jau5 (yes) or mou5 (no).",
+      "body": "To ask if an action has been completed, Cantonese (like English) can use the verb to have (jau5).\nThe answer is a simple jau5 yes or mou5 no.",
+      "examples": [
+        {
+          "id": "u4-g09-e01",
+          "jp": "nei5 taai3 taai2 jau5 mou5 faan1 heoi3 aa3?",
+          "zh": "",
+          "en": "Has your wife gone back?",
+          "lit": ""
+        },
+        {
+          "id": "u4-g09-e02",
+          "jp": "keoi5 jau5 mou5 sik6 faan6 aa3?",
+          "zh": "",
+          "en": "Has he eaten?",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "questions",
+        "jau5",
+        "mou5",
+        "completed action"
+      ]
+    },
+    {
+      "id": "u4-g10",
+      "title": "Plurals and quantities with di1",
+      "summary": "di1 啲 refers to an unspecified number of countable items or a quantity of an uncountable substance.",
+      "body": "Referring to an unspecified number of countable items.\nReferring to quantities of uncountable substances.",
+      "examples": [
+        {
+          "id": "u4-g10-e01",
+          "jp": "di1 caang2 hou2 tim4",
+          "zh": "",
+          "en": "The oranges are nice and sweet",
+          "lit": ""
+        },
+        {
+          "id": "u4-g10-e02",
+          "jp": "ngo5 heoi3 taam3 di1 pang4 jau5",
+          "zh": "",
+          "en": "I'm going to visit some friends",
+          "lit": ""
+        },
+        {
+          "id": "u4-g10-e03",
+          "jp": "keoi5 di1 tung4 si6 taai3 mong4",
+          "zh": "",
+          "en": "Her colleagues are too busy",
+          "lit": ""
+        },
+        {
+          "id": "u4-g10-e04",
+          "jp": "di1 seoi2 m4 gau3 jit6",
+          "zh": "",
+          "en": "The water is not hot enough",
+          "lit": ""
+        },
+        {
+          "id": "u4-g10-e05",
+          "jp": "ngo5 jiu3 maai5 di1 sin1 naai5",
+          "zh": "",
+          "en": "I need to buy some fresh milk",
+          "lit": ""
+        },
+        {
+          "id": "u4-g10-e06",
+          "jp": "nei5 di1 caa4 hou2 hoeng1",
+          "zh": "",
+          "en": "Your tea smells good",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "classifiers",
+        "di1",
+        "plural",
+        "quantity"
+      ]
+    },
+    {
+      "id": "u4-g11",
+      "title": "Compare the classifiers",
+      "summary": "Classifiers with ni1/go2/numbers vs. di1 for uncounted plurals; a definite noun at the start of a sentence takes its classifier where English uses 'the'.",
+      "body": "Compare the classifiers in the following.\nWhen a sentence starts with a definite noun (the pen, the food, the Americans) Cantonese uses the appropriate classifier where English uses the.",
+      "examples": [
+        {
+          "id": "u4-g11-e01",
+          "jp": "ni1 go3 jan4",
+          "zh": "",
+          "en": "This person",
+          "lit": ""
+        },
+        {
+          "id": "u4-g11-e02",
+          "jp": "go2 zi1 bat1",
+          "zh": "",
+          "en": "That pen",
+          "lit": ""
+        },
+        {
+          "id": "u4-g11-e03",
+          "jp": "go2 ng5 zi1 bat1",
+          "zh": "",
+          "en": "Those five pens",
+          "lit": ""
+        },
+        {
+          "id": "u4-g11-e04",
+          "jp": "saam1 go2 jing1 gwok3 jan4",
+          "zh": "",
+          "en": "Three British people",
+          "lit": ""
+        },
+        {
+          "id": "u4-g11-e05",
+          "jp": "go2 di1 jan4",
+          "zh": "",
+          "en": "Those people (plural but not counted)",
+          "lit": ""
+        },
+        {
+          "id": "u4-g11-e06",
+          "jp": "bin1 di1 bat1 aa3?",
+          "zh": "",
+          "en": "Which pens (plural but not counted)",
+          "lit": ""
+        },
+        {
+          "id": "u4-g11-e07",
+          "jp": "zi1 bat1 hou2 leng3",
+          "zh": "",
+          "en": "The pen is very nice",
+          "lit": ""
+        },
+        {
+          "id": "u4-g11-e08",
+          "jp": "di1 sung3 m4 gwai3",
+          "zh": "",
+          "en": "The food is not expensive",
+          "lit": ""
+        },
+        {
+          "id": "u4-g11-e09",
+          "jp": "di1 mei5 gwok3 jan4 lai4 m4 lai4 aa3?",
+          "zh": "",
+          "en": "Are the Americans coming?",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "classifiers",
+        "di1",
+        "definite",
+        "demonstratives"
+      ]
+    },
+    {
+      "id": "u4-g12",
+      "title": "The adverb dou1 again",
+      "summary": "dou1 means also, all or both; it comes immediately before the verb and after the noun it refers to.",
+      "body": "In unit 1 we met the adverb dou1 meaning also. Other meanings are all and both. dou1 must come immediately before a verb and it obeys a further rule that it must come after the noun it refers to. Note carefully the placing of dou1 in the following.",
+      "examples": [
+        {
+          "id": "u4-g12-e01",
+          "jp": "nei5 jau5 bat1, keoi5 dou1 jau5 bat1",
+          "zh": "",
+          "en": "You have a pen, and he has too",
+          "lit": ""
+        },
+        {
+          "id": "u4-g12-e02",
+          "jp": "ngo5 dei6 dou1 jau5 ce1",
+          "zh": "",
+          "en": "All of us have cars",
+          "lit": ""
+        },
+        {
+          "id": "u4-g12-e03",
+          "jp": "wong4 sin1 saang1 wong4 siu2 ze2 dou1 faan1 zo2 se2 zi6 lau4 laak3",
+          "zh": "",
+          "en": "Both Mr. and Miss Wong have gone to the office",
+          "lit": ""
+        },
+        {
+          "id": "u4-g12-e04",
+          "jp": "go2 loeng5 go3 jing1 gwok3 jan4 dou1 m4 soeng2 sik6 faan6",
+          "zh": "",
+          "en": "Neither of those two British people wants to eat",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "adverbs",
+        "dou1",
+        "word order"
+      ]
+    },
+    {
+      "id": "u4-g13",
+      "title": "To give",
+      "summary": "sung3 (to present, make a gift) usually appears with bei2 (to give to): sung3 X bei2 Y. bei2 alone more commonly means to give to, to hand over to.",
+      "body": "Sung3 means to present, to make a gift. It usually appears with bei2… which itself means to give, to give to. The word order for giving a present to someone is a comfortable one for an English speaker.\nbei2… is sometimes used on its own to mean to present, but it is more commonly found meaning just to give to, to hand over to.",
+      "examples": [
+        {
+          "id": "u4-g13-e01",
+          "jp": "keoi5 sung3 jat1 zi1 bat1 bei2 ngo5",
+          "zh": "佢送一枝笔俾我。",
+          "en": "He gives a pen to me (as a gift)",
+          "lit": ""
+        },
+        {
+          "id": "u4-g13-e02",
+          "jp": "keoi5 bei2 jat1 zi1 bat1 ngo5",
+          "zh": "",
+          "en": "He hands a pen to me/hands me a pen",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "verbs",
+        "sung3",
+        "bei2",
+        "giving"
+      ]
+    },
+    {
+      "id": "u4-g14",
+      "title": "Shortcuts",
+      "summary": "Common phrases are shortened: gam1 jat6 ziu1 zou2 > gam1 ziu1, wong4 sin1 saang1 > wong4 saang1, m4 hou2 > mai5 (ruder).",
+      "body": "Cantonese is a lively quick-fire language and speakers often find ways of shortening phrases which seem to them to be too tediously long. Here is a list of shortened forms of phrases which you have met so far.\nM4 hou2 / Mai5: both mean don't but mai5 is a bit ruder because it is so abrupt sounding.",
+      "examples": [
+        {
+          "id": "u4-g14-e01",
+          "jp": "gam1 jat6 ziu1 zou2 = gam1 ziu1 zou2 = gam1 ziu1",
+          "zh": "",
+          "en": "This morning",
+          "lit": ""
+        },
+        {
+          "id": "u4-g14-e02",
+          "jp": "zok6 jat6 ziu1 zou2 = zok6 ziu1 zou2 = zok6 ziu1",
+          "zh": "",
+          "en": "Yesterday morning",
+          "lit": ""
+        },
+        {
+          "id": "u4-g14-e03",
+          "jp": "wong4 sin1 saang1 = wong4 saang1",
+          "zh": "",
+          "en": "Mr. Wong",
+          "lit": ""
+        },
+        {
+          "id": "u4-g14-e04",
+          "jp": "wong4 taai3 taai2 = wong4 taai2",
+          "zh": "",
+          "en": "Mrs. Wong",
+          "lit": ""
+        },
+        {
+          "id": "u4-g14-e05",
+          "jp": "m4 hou2 = mai5",
+          "zh": "",
+          "en": "Don't (mai5 is a bit ruder because it is so abrupt sounding)",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "shortcuts",
+        "colloquial",
+        "mai5"
+      ]
+    },
+    {
+      "id": "u4-g15",
+      "title": "Don't",
+      "summary": "To tell someone not to do something use m4 hou2 (it's not good to…) or nei5 m4 hou2 (it's not good that you should…).",
+      "body": "To tell someone not to do something, Cantonese uses m4 hou2 it's not good to… to nei5 m4 hou2 it's not good that you should…",
+      "examples": [
+        {
+          "id": "u4-g15-e01",
+          "jp": "m4 hou2 heoi3!",
+          "zh": "",
+          "en": "Don't go!",
+          "lit": ""
+        },
+        {
+          "id": "u4-g15-e02",
+          "jp": "nei5 m4 hou2 maai6 ce1!",
+          "zh": "",
+          "en": "Don't sell a car!",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "imperatives",
+        "negation",
+        "m4 hou2"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "u4-e1",
+      "title": "True or False?",
+      "source": "Unit 4 Eating in and Eating Out.pdf",
+      "instructions": "True or False? (based on Dialogue 1)",
+      "type": "truefalse",
+      "items": [
+        {
+          "id": "u4-e1-i01",
+          "prompt": "Ho4 sin1 saang1 cing2 Wong4 sin1 saang1 heoi3 zau2 lau4 sik6 faan6.",
+          "answer": "False",
+          "answer_en": "",
+          "hint": "Mr. Ho invited Mr. Wong to his home, not to a restaurant",
+          "confidence": "high"
+        },
+        {
+          "id": "u4-e1-i02",
+          "prompt": "Ho4 sin1 saang1 zyu2 zo2 loeng5 go3 sung3 cing2 Wong4 sin1 saang1 sik6.",
+          "answer": "False",
+          "answer_en": "",
+          "hint": "Mr. Ho did not cook; the dishes were bought from the restaurant nearby",
+          "confidence": "high"
+        },
+        {
+          "id": "u4-e1-i03",
+          "prompt": "Ho4 sin1 saang1 bong1 Ho4 taai3 taai2 sau2 zyu2 faan6.",
+          "answer": "False",
+          "answer_en": "",
+          "hint": "He says mou5 aa3, he did not help",
+          "confidence": "high"
+        },
+        {
+          "id": "u4-e1-i04",
+          "prompt": "Ho4 sin1 saang1, Ho4 taai3 taai2 jung6 zo2 loeng5 go3 bun3 zung1 tau4 zyu2 faan6.",
+          "answer": "False",
+          "answer_en": "",
+          "hint": "Mrs. Ho only used half an hour",
+          "confidence": "high"
+        },
+        {
+          "id": "u4-e1-i05",
+          "prompt": "Ho4 taai3 taai2 m4 zyu2 sung3, keoi5 zi2 hai6 heoi3 zau2 lau4 maai5 sung3.",
+          "answer": "True",
+          "answer_en": "",
+          "hint": "The dishes were all bought from the restaurant nearby",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "id": "u4-e2",
+      "title": "Exercise 1",
+      "source": "Unit 4 Eating in and Eating Out.pdf",
+      "instructions": "Make meaningful sentences from the jumbled words",
+      "type": "reorder",
+      "items": [
+        {
+          "id": "u4-e2-i01",
+          "prompt": "Ho4 taai3 taai2 soeng2 Wong4 sin1 saang1 sik6 faan6 dang2 jat1 cai4.",
+          "answer": "Ho4 taai3 taai2 soeng2 dang2 Wong4 sin1 saang1 jat1 cai4 sik6 faan6",
+          "answer_en": "Mrs. Ho wants to wait for Mr. Wong to eat together",
+          "hint": "",
+          "confidence": "medium"
+        },
+        {
+          "id": "u4-e2-i02",
+          "prompt": "Cyu4 fong2 hai2 zyu2-gan2 faan6 Ho4 taai3 taai2.",
+          "answer": "Ho4 taai3 taai2 hai2 cyu4 fong2 zyu2-gan2 faan6",
+          "answer_en": "Mrs. Ho is cooking in the kitchen",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u4-e2-i03",
+          "prompt": "Maa3? man6 Wong4 sin1 saang1 Ho4 taai3 taai2 hou2 mei6 zyu2 ge3 sung3 keoi5.",
+          "answer": "Wong4 sin1 saang1 man6 keoi5 Ho4 taai3 taai2 zyu2 ge3 sung3 hou2 mei6 maa3?",
+          "answer_en": "Mr. Wong asks him whether the food Mrs. Ho cooked is delicious",
+          "hint": "",
+          "confidence": "medium"
+        },
+        {
+          "id": "u4-e2-i04",
+          "prompt": "Sau2 Ho4 taai3 taai2 Ho4 sin1 saang1 jau5 aa3? mou5 bong1",
+          "answer": "Ho4 sin1 saang1 jau5 mou5 bong1 Ho4 taai3 taai2 sau2 aa3?",
+          "answer_en": "Did Mr. Ho help Mrs. Ho?",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u4-e2-i05",
+          "prompt": "Zyu2 ge3 sung3 zau2 lau4 jat1 joeng6 ge3 hou2 ci5 Ho4 taai3 taai2.",
+          "answer": "Ho4 taai3 taai2 zyu2 ge3 sung3 hou2 ci5 zau2 lau4 ge3 jat1 joeng6",
+          "answer_en": "The food Mrs. Ho cooks is just like the restaurant's",
+          "hint": "",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "id": "u4-e3",
+      "title": "Exercise 2",
+      "source": "Unit 4 Eating in and Eating Out.pdf",
+      "instructions": "Answer these questions in Cantonese",
+      "type": "reply",
+      "items": [
+        {
+          "id": "u4-e3-i01",
+          "prompt": "nei5 sik6 m4 sik6 ngau4 juk6 tong1 aa3?",
+          "answer": "",
+          "answer_en": "",
+          "hint": "Do you eat beef soup?",
+          "confidence": "none"
+        },
+        {
+          "id": "u4-e3-i02",
+          "prompt": "nei5 nguk1 kei5 fu6 gan6 jau5 mou5 zau2 lau4 aa3?",
+          "answer": "",
+          "answer_en": "",
+          "hint": "Is there a Chinese restaurant near your home?",
+          "confidence": "none"
+        },
+        {
+          "id": "u4-e3-i03",
+          "prompt": "zok6 jat6 nei5 jau5 mou5 bong1 nei5 maa4 maa1 sau2 zyu2 faan6 aa3?",
+          "answer": "",
+          "answer_en": "",
+          "hint": "Did you help your mother cook yesterday?",
+          "confidence": "none"
+        },
+        {
+          "id": "u4-e3-i04",
+          "prompt": "dim2 gaai2 nei5 gam1 ziu1 zou2 gam3 nau1 aa3?",
+          "answer": "",
+          "answer_en": "",
+          "hint": "Why were you so angry this morning?",
+          "confidence": "none"
+        },
+        {
+          "id": "u4-e3-i05",
+          "prompt": "nei5 zi2 hai6 sik1 zou6 saang1 ji3 m4 sik1 zyu2 faan6, hai6 m4 hai6 aa3?",
+          "answer": "",
+          "answer_en": "",
+          "hint": "You only know how to do business and not how to cook, is that right?",
+          "confidence": "none"
+        }
+      ]
+    },
+    {
+      "id": "u4-e4",
+      "title": "Exercise 3",
+      "source": "Unit 4 Eating in and Eating Out.pdf",
+      "instructions": "Answer the question based on the picture (a kitchen with a cook, pots on the stove, bowls of rice, dishes, fruit, a lobster and a bottle)",
+      "type": "open",
+      "items": [
+        {
+          "id": "u4-e4-i01",
+          "prompt": "a. Hai2 cyu4 fong2 jau5 mat1 je5 aa3? Hai2 cyu4 fong2 jau5 jat1 zek3 lung4 haa1, jau5…",
+          "answer": "",
+          "answer_en": "",
+          "hint": "What is in the kitchen? Continue the list: there is a lobster, there is…",
+          "confidence": "none"
+        },
+        {
+          "id": "u4-e4-i02",
+          "prompt": "b. Hai2 cyu4 fong2 jau5 mou5 laap6 sap6 tung2 aa3?",
+          "answer": "mou5",
+          "answer_en": "No",
+          "hint": "Is there a rubbish bin in the kitchen? (slide prints laap6 sap6)",
+          "confidence": "low"
+        }
+      ]
+    },
+    {
+      "id": "u4-e5",
+      "title": "Practice 1",
+      "source": "Unit 4 Practice.pdf",
+      "instructions": "Use appropriate predicative adjectives to describe the following. Example: the film on an airplane: tou3 hei6 hou2 coeng4 the film was long",
+      "type": "open",
+      "items": [
+        {
+          "id": "u4-e5-i01",
+          "prompt": "Your girlfriend",
+          "answer": "",
+          "answer_en": "",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u4-e5-i02",
+          "prompt": "Your children or your friend's children",
+          "answer": "",
+          "answer_en": "",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u4-e5-i03",
+          "prompt": "A teacher you like",
+          "answer": "",
+          "answer_en": "",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u4-e5-i04",
+          "prompt": "A colleague at work",
+          "answer": "",
+          "answer_en": "",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u4-e5-i05",
+          "prompt": "Your good points (to your boss)",
+          "answer": "",
+          "answer_en": "",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u4-e5-i06",
+          "prompt": "Your favorite film star",
+          "answer": "",
+          "answer_en": "",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u4-e5-i07",
+          "prompt": "A car you would like to own",
+          "answer": "",
+          "answer_en": "",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u4-e5-i08",
+          "prompt": "The food at school or university",
+          "answer": "",
+          "answer_en": "",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u4-e5-i09",
+          "prompt": "The weather in Hong Kong",
+          "answer": "",
+          "answer_en": "",
+          "hint": "",
+          "confidence": "none"
+        },
+        {
+          "id": "u4-e5-i10",
+          "prompt": "A novel you have been reading",
+          "answer": "",
+          "answer_en": "",
+          "hint": "",
+          "confidence": "none"
+        }
+      ]
+    },
+    {
+      "id": "u4-e6",
+      "title": "Practice 2",
+      "source": "Unit 4 Practice.pdf",
+      "instructions": "Add an appropriate attributive adjective to modify the following. Example: ngo5 go4 go1 hai2 jat1 gaan1 hou2 jau5 meng2 ge3 gung1 si1 zou6 je5 — my (elder) brother works for a famous company",
+      "type": "fill",
+      "items": [
+        {
+          "id": "u4-e6-i01",
+          "prompt": "keoi5 nguk1 kei5 jau5 go3 ______ haak3 teng1",
+          "answer": "",
+          "answer_en": "",
+          "hint": "At his home there is a…living room",
+          "confidence": "none"
+        },
+        {
+          "id": "u4-e6-i02",
+          "prompt": "deoi3 min6 jau5 gaan1 ______ caan1 teng1",
+          "answer": "",
+          "answer_en": "",
+          "hint": "Across the street there is a…restaurant",
+          "confidence": "none"
+        },
+        {
+          "id": "u4-e6-i03",
+          "prompt": "ngo5 zeoi3 gan6 tai2 gwo3 bun2 ______ syu1",
+          "answer": "",
+          "answer_en": "",
+          "hint": "I have recently read a…book",
+          "confidence": "none"
+        },
+        {
+          "id": "u4-e6-i04",
+          "prompt": "ngo5 soeng2 jiu3 zek3 ______ gau2 zai2",
+          "answer": "",
+          "answer_en": "",
+          "hint": "I would like a…puppy",
+          "confidence": "none"
+        },
+        {
+          "id": "u4-e6-i05",
+          "prompt": "ngo5 tai2 gwo3 jat1 tou3 ______ hei3",
+          "answer": "",
+          "answer_en": "",
+          "hint": "I have seen a…film",
+          "confidence": "none"
+        },
+        {
+          "id": "u4-e6-i06",
+          "prompt": "ngo5 dei6 jau5 di1 ______ gung1 fo3",
+          "answer": "",
+          "answer_en": "",
+          "hint": "We have some…homework",
+          "confidence": "none"
+        },
+        {
+          "id": "u4-e6-i07",
+          "prompt": "keoi5 nguk1 kei5 jau5 go3 ______ man6 tai4",
+          "answer": "",
+          "answer_en": "",
+          "hint": "There is a…problem at his home",
+          "confidence": "none"
+        },
+        {
+          "id": "u4-e6-i08",
+          "prompt": "ngo5 ji5 cin4 jau5 go3 ______ lou5 si1",
+          "answer": "",
+          "answer_en": "",
+          "hint": "I used to have a…teacher",
+          "confidence": "none"
+        }
+      ]
+    },
+    {
+      "id": "u4-e7",
+      "title": "Practice 3",
+      "source": "Unit 4 Practice.pdf",
+      "instructions": "Substitute a modifier (e.g., gei2, gam3, taai3, gau3 saai3) for hou2",
+      "type": "open",
+      "items": [
+        {
+          "id": "u4-e7-i01",
+          "prompt": "ngo5 dei6 hou2 mun5 ji3",
+          "answer": "",
+          "answer_en": "",
+          "hint": "We are satisfied",
+          "confidence": "none"
+        },
+        {
+          "id": "u4-e7-i02",
+          "prompt": "keoi5 hou2 lek1",
+          "answer": "",
+          "answer_en": "",
+          "hint": "She's smart (capable)",
+          "confidence": "none"
+        },
+        {
+          "id": "u4-e7-i03",
+          "prompt": "keoi5 dei6 hou2 gui6",
+          "answer": "",
+          "answer_en": "",
+          "hint": "They're tired",
+          "confidence": "none"
+        },
+        {
+          "id": "u4-e7-i04",
+          "prompt": "di1 sai3 lou6 zai2 hou2 dak1 ji3",
+          "answer": "",
+          "answer_en": "",
+          "hint": "The children are cute",
+          "confidence": "none"
+        },
+        {
+          "id": "u4-e7-i05",
+          "prompt": "tou3 hei3 hou2 long6 maan6",
+          "answer": "",
+          "answer_en": "",
+          "hint": "The film is romantic",
+          "confidence": "none"
+        },
+        {
+          "id": "u4-e7-i06",
+          "prompt": "keoi5 di1 tau4 faat3 hou2 dyun2",
+          "answer": "",
+          "answer_en": "",
+          "hint": "Her hair is very short",
+          "confidence": "none"
+        },
+        {
+          "id": "u4-e7-i07",
+          "prompt": "di1 gaa1 si1 hou2 peng4",
+          "answer": "",
+          "answer_en": "",
+          "hint": "The furniture is cheap",
+          "confidence": "none"
+        },
+        {
+          "id": "u4-e7-i08",
+          "prompt": "go3 gaau3 sau6 hou2 jau5 meng2",
+          "answer": "",
+          "answer_en": "",
+          "hint": "The professor is famous",
+          "confidence": "none"
+        },
+        {
+          "id": "u4-e7-i09",
+          "prompt": "go3 hok6 saang1 hou2 laan5",
+          "answer": "",
+          "answer_en": "",
+          "hint": "The student is lazy",
+          "confidence": "none"
+        },
+        {
+          "id": "u4-e7-i10",
+          "prompt": "di1 soeng2 hou2 leng3",
+          "answer": "",
+          "answer_en": "",
+          "hint": "The photos are pretty",
+          "confidence": "none"
+        }
+      ]
+    },
+    {
+      "id": "u4-e8",
+      "title": "Practice 4",
+      "source": "Unit 4 Practice.pdf",
+      "instructions": "Form reduplicated adjectives to express the meaning based on the adjective provided, remembering the change of tone. Example: the baby is chubby (fei4) go3 bi5 bi1 fei4 fei2 dei2",
+      "type": "fill",
+      "items": [
+        {
+          "id": "u4-e8-i01",
+          "prompt": "This dish (dip6 sung3) is a bit hot (laat6)",
+          "answer": "dip6 sung3 laat6 laat2 dei2",
+          "answer_en": "This dish is a bit hot",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u4-e8-i02",
+          "prompt": "The soup (di1 tong1) is rather sour (syun1)",
+          "answer": "di1 tong1 syun1 syun1 dei2",
+          "answer_en": "The soup is rather sour",
+          "hint": "Tone 1 does not change",
+          "confidence": "high"
+        },
+        {
+          "id": "u4-e8-i03",
+          "prompt": "Your clothes (di1 saam1) are a bit wet (sap1)",
+          "answer": "di1 saam1 sap1 sap1 dei2",
+          "answer_en": "Your clothes are a bit wet",
+          "hint": "Tone 1 does not change",
+          "confidence": "high"
+        },
+        {
+          "id": "u4-e8-i04",
+          "prompt": "The weather (tin1 hei3) is rather cold (dung3)",
+          "answer": "tin1 hei3 dung3 dung2 dei2",
+          "answer_en": "The weather is rather cold",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u4-e8-i05",
+          "prompt": "Her face (faai3 min6) is rather round (jyun4)",
+          "answer": "faai3 min6 jyun4 jyun2 dei2",
+          "answer_en": "Her face is rather round",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u4-e8-i06",
+          "prompt": "Her eyes (deoi3 ngaan5) are a little red (hung4)",
+          "answer": "deoi3 ngaan5 hung4 hung2 dei2",
+          "answer_en": "Her eyes are a little red",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u4-e8-i07",
+          "prompt": "His office (go3 baan6 gung1 sat1) is rather messy (lyun6)",
+          "answer": "go3 baan6 gung1 sat1 lyun6 lyun2 dei2",
+          "answer_en": "His office is rather messy",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u4-e8-i08",
+          "prompt": "The button (lap1 nau2) is rather loose (sung1)",
+          "answer": "lap1 nau2 sung1 sung1 dei2",
+          "answer_en": "The button is rather loose",
+          "hint": "Tone 1 does not change",
+          "confidence": "high"
+        },
+        {
+          "id": "u4-e8-i09",
+          "prompt": "Your glasses (fu3 ngaan5 geng2) are rather blurry (mung4)",
+          "answer": "fu3 ngaan5 geng2 mung4 mung2 dei2",
+          "answer_en": "Your glasses are rather blurry",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u4-e8-i10",
+          "prompt": "Your husband (lou5 gung1) is a bit drunk (zeoi3)",
+          "answer": "lou5 gung1 zeoi3 zeoi2 dei2",
+          "answer_en": "Your husband is a bit drunk",
+          "hint": "",
+          "confidence": "high"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "u4-n1",
+      "title": "Rice",
+      "body": "Rice is the staple food of the south China and is much appreciated as the superior grain in the north too. Not surprisingly, rice figures large in Chinese culture: it is offered in religious sacrifices to the ancestors; it is thrown over newly-weds to bring fertility to them; bags of it are laid on babies' stomaches to comfort them and stop them crying; the language is full sayings about it: English has only one the word rice but Cantonese has many words for it. Faan6 means rice only when it is cooked rice. There are different words for rice when growing, rice when harvested but not husked, rice husked but not cooked, and rice cooked into a gruel, as well as yet other terms for different kinds of rice such as red rice, glutinous rice and non-glutinous rice."
+    }
+  ]
+}

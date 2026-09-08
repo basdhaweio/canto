@@ -1,0 +1,3288 @@
+{
+  "id": "unit-2",
+  "number": 2,
+  "title": "Personal Property",
+  "sources": [
+    "Unit 2 Personal Property.pdf",
+    "Unit 1-2 Practice.pdf"
+  ],
+  "goals": [
+    "Numbers",
+    "Classifiers (words which introduce different types of nouns)"
+  ],
+  "vocab": [
+    {
+      "id": "u2-v001",
+      "zh": "揾",
+      "jp": "wan2",
+      "en": "To look for",
+      "section": "Dialogue 1",
+      "pos": "verb",
+      "notes": ""
+    },
+    {
+      "id": "u2-v002",
+      "zh": "边个",
+      "jp": "bin1 go3",
+      "en": "Who? Which person?",
+      "section": "Dialogue 1",
+      "pos": "pronoun",
+      "notes": "Question word; comes in the same position as its answer"
+    },
+    {
+      "id": "u2-v003",
+      "zh": "中国",
+      "jp": "zung1 gwok3",
+      "en": "China",
+      "section": "Dialogue 1",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u2-v004",
+      "zh": "嘅",
+      "jp": "ge3",
+      "en": "'s (shows possession)",
+      "section": "Dialogue 1",
+      "pos": "particle",
+      "notes": "Shows possession, like the apostrophe s in English"
+    },
+    {
+      "id": "u2-v005",
+      "zh": "我嘅",
+      "jp": "ngo5 ge3",
+      "en": "My",
+      "section": "Dialogue 1",
+      "pos": "pronoun",
+      "notes": ""
+    },
+    {
+      "id": "u2-v006",
+      "zh": "朋友",
+      "jp": "pang4 jau5",
+      "en": "Friend",
+      "section": "Dialogue 1",
+      "pos": "noun",
+      "notes": "Two-syllable relationship term, so ge3 is often left out: ngo5 pang4 jau5"
+    },
+    {
+      "id": "u2-v007",
+      "zh": "有",
+      "jp": "jau5",
+      "en": "To have",
+      "section": "Dialogue 1",
+      "pos": "verb",
+      "notes": ""
+    },
+    {
+      "id": "u2-v008",
+      "zh": "乜嘢",
+      "jp": "mat1 je5",
+      "en": "What? What kind of?",
+      "section": "Dialogue 1",
+      "pos": "pronoun",
+      "notes": "Question word; some people say mi1 je5 instead, with no difference in meaning"
+    },
+    {
+      "id": "u2-v009",
+      "zh": "事",
+      "jp": "si6",
+      "en": "Matter, business, affair",
+      "section": "Dialogue 1",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u2-v010",
+      "zh": "有乜嘢事呀?",
+      "jp": "jau5 mat1 je5 si6 aa3",
+      "en": "For what purpose? Why?",
+      "section": "Dialogue 1",
+      "pos": "phrase",
+      "notes": ""
+    },
+    {
+      "id": "u2-v011",
+      "zh": "想",
+      "jp": "soeng2",
+      "en": "To want to",
+      "section": "Dialogue 1",
+      "pos": "verb",
+      "notes": ""
+    },
+    {
+      "id": "u2-v012",
+      "zh": "买",
+      "jp": "maai5",
+      "en": "To buy",
+      "section": "Dialogue 1",
+      "pos": "verb",
+      "notes": "Contrast maai6 (tone 6) = to sell"
+    },
+    {
+      "id": "u2-v013",
+      "zh": "带",
+      "jp": "daai3",
+      "en": "To lead, to bring",
+      "section": "Dialogue 1",
+      "pos": "verb",
+      "notes": ""
+    },
+    {
+      "id": "u2-v014",
+      "zh": "去",
+      "jp": "heoi3",
+      "en": "To go to",
+      "section": "Dialogue 1",
+      "pos": "verb",
+      "notes": ""
+    },
+    {
+      "id": "u2-v015",
+      "zh": "写字楼",
+      "jp": "se2 zi6 lau4",
+      "en": "Office",
+      "section": "Dialogue 1",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u2-v016",
+      "zh": "唔该你",
+      "jp": "m4 goi1 nei5",
+      "en": "Thank you",
+      "section": "Dialogue 1",
+      "pos": "phrase",
+      "notes": "m4 goi1 literally means 'not ought to' but is the most common word for thank you"
+    },
+    {
+      "id": "u2-v017",
+      "zh": "一",
+      "jp": "jat1",
+      "en": "One",
+      "section": "Dialogue 2",
+      "pos": "number",
+      "notes": ""
+    },
+    {
+      "id": "u2-v018",
+      "zh": "个",
+      "jp": "go3",
+      "en": "Classifier word for people and many objects",
+      "section": "Dialogue 2",
+      "pos": "classifier",
+      "notes": "Classifier word for people and many objects; also abstract things"
+    },
+    {
+      "id": "u2-v019",
+      "zh": "手表",
+      "jp": "sau2 biu1",
+      "en": "Wristwatch",
+      "section": "Dialogue 2",
+      "pos": "noun",
+      "notes": "Classifier go3 in Dialogue 2 (zek3 in the practice sheet)"
+    },
+    {
+      "id": "u2-v020",
+      "zh": "枝",
+      "jp": "zi1",
+      "en": "Classifier word for stick-like things",
+      "section": "Dialogue 2",
+      "pos": "classifier",
+      "notes": "Classifier word for stick-like (cylindrical) things, e.g. zi1 bat1"
+    },
+    {
+      "id": "u2-v021",
+      "zh": "笔",
+      "jp": "bat1",
+      "en": "A pen, any writing tool",
+      "section": "Dialogue 2",
+      "pos": "noun",
+      "notes": "Classifier zi1"
+    },
+    {
+      "id": "u2-v022",
+      "zh": "呢",
+      "jp": "ni1",
+      "en": "This",
+      "section": "Dialogue 2",
+      "pos": "pronoun",
+      "notes": "Demonstrative; must be followed by a classifier (ni1 go3 sau2 biu1)"
+    },
+    {
+      "id": "u2-v023",
+      "zh": "同埋",
+      "jp": "tung4 maai4",
+      "en": "And, with",
+      "section": "Dialogue 2",
+      "pos": "",
+      "notes": ""
+    },
+    {
+      "id": "u2-v024",
+      "zh": "嗰",
+      "jp": "go2",
+      "en": "That",
+      "section": "Dialogue 2",
+      "pos": "pronoun",
+      "notes": "Demonstrative; must be followed by a classifier (go2 zi1 bat1)"
+    },
+    {
+      "id": "u2-v025",
+      "zh": "架",
+      "jp": "gaa3",
+      "en": "ge3 + aa3? (combined sentence-final particle)",
+      "section": "Dialogue 2",
+      "pos": "particle",
+      "notes": "ge3 + aa3 fused into one syllable at the end of a question"
+    },
+    {
+      "id": "u2-v026",
+      "zh": "估",
+      "jp": "gu2",
+      "en": "To guess, reckon",
+      "section": "Dialogue 2",
+      "pos": "verb",
+      "notes": ""
+    },
+    {
+      "id": "u2-v027",
+      "zh": "问",
+      "jp": "man6",
+      "en": "To ask a question",
+      "section": "Dialogue 2",
+      "pos": "verb",
+      "notes": ""
+    },
+    {
+      "id": "u2-v028",
+      "zh": "而家",
+      "jp": "ji4 gaa1",
+      "en": "Now",
+      "section": "Dialogue 2",
+      "pos": "",
+      "notes": ""
+    },
+    {
+      "id": "u2-v029",
+      "zh": "喺",
+      "jp": "hai2",
+      "en": "At/in/on; to be at/in/on",
+      "section": "Dialogue 2",
+      "pos": "verb",
+      "notes": "Be located at/in/on; note the tone difference from hai6 'to be'"
+    },
+    {
+      "id": "u2-v030",
+      "zh": "唔紧要",
+      "jp": "m4 gan2 jiu3",
+      "en": "Never mind, it doesn't matter",
+      "section": "Dialogue 2",
+      "pos": "phrase",
+      "notes": ""
+    },
+    {
+      "id": "u2-v031",
+      "zh": "迟啲",
+      "jp": "ci4 di1",
+      "en": "Later on",
+      "section": "Dialogue 2",
+      "pos": "",
+      "notes": ""
+    },
+    {
+      "id": "u2-v032",
+      "zh": "零",
+      "jp": "ling4",
+      "en": "0",
+      "section": "Numbers",
+      "pos": "number",
+      "notes": ""
+    },
+    {
+      "id": "u2-v033",
+      "zh": "一",
+      "jp": "jat1",
+      "en": "1",
+      "section": "Numbers",
+      "pos": "number",
+      "notes": ""
+    },
+    {
+      "id": "u2-v034",
+      "zh": "二",
+      "jp": "ji6",
+      "en": "2",
+      "section": "Numbers",
+      "pos": "number",
+      "notes": ""
+    },
+    {
+      "id": "u2-v035",
+      "zh": "三",
+      "jp": "saam1",
+      "en": "3",
+      "section": "Numbers",
+      "pos": "number",
+      "notes": ""
+    },
+    {
+      "id": "u2-v036",
+      "zh": "四",
+      "jp": "sei3",
+      "en": "4",
+      "section": "Numbers",
+      "pos": "number",
+      "notes": ""
+    },
+    {
+      "id": "u2-v037",
+      "zh": "五",
+      "jp": "ng5",
+      "en": "5",
+      "section": "Numbers",
+      "pos": "number",
+      "notes": ""
+    },
+    {
+      "id": "u2-v038",
+      "zh": "六",
+      "jp": "luk6",
+      "en": "6",
+      "section": "Numbers",
+      "pos": "number",
+      "notes": ""
+    },
+    {
+      "id": "u2-v039",
+      "zh": "七",
+      "jp": "cat1",
+      "en": "7",
+      "section": "Numbers",
+      "pos": "number",
+      "notes": ""
+    },
+    {
+      "id": "u2-v040",
+      "zh": "八",
+      "jp": "baat3",
+      "en": "8",
+      "section": "Numbers",
+      "pos": "number",
+      "notes": ""
+    },
+    {
+      "id": "u2-v041",
+      "zh": "九",
+      "jp": "gau2",
+      "en": "9",
+      "section": "Numbers",
+      "pos": "number",
+      "notes": ""
+    },
+    {
+      "id": "u2-v042",
+      "zh": "十",
+      "jp": "sap6",
+      "en": "10",
+      "section": "Numbers",
+      "pos": "number",
+      "notes": ""
+    },
+    {
+      "id": "u2-v043",
+      "zh": "十一",
+      "jp": "sap6 jat1",
+      "en": "11",
+      "section": "Numbers",
+      "pos": "number",
+      "notes": ""
+    },
+    {
+      "id": "u2-v044",
+      "zh": "二十",
+      "jp": "ji6 sap6",
+      "en": "20",
+      "section": "Numbers",
+      "pos": "number",
+      "notes": ""
+    },
+    {
+      "id": "u2-v045",
+      "zh": "二十二",
+      "jp": "ji6 sap6 ji6",
+      "en": "22",
+      "section": "Numbers",
+      "pos": "number",
+      "notes": ""
+    },
+    {
+      "id": "u2-v046",
+      "zh": "三十",
+      "jp": "saam1 sap6",
+      "en": "30",
+      "section": "Numbers",
+      "pos": "number",
+      "notes": ""
+    },
+    {
+      "id": "u2-v047",
+      "zh": "三十三",
+      "jp": "saam1 sap6 saam1",
+      "en": "33",
+      "section": "Numbers",
+      "pos": "number",
+      "notes": ""
+    },
+    {
+      "id": "u2-v048",
+      "zh": "四十",
+      "jp": "sei3 sap6",
+      "en": "40",
+      "section": "Numbers",
+      "pos": "number",
+      "notes": ""
+    },
+    {
+      "id": "u2-v049",
+      "zh": "四十四",
+      "jp": "sei3 sap6 sei3",
+      "en": "44",
+      "section": "Numbers",
+      "pos": "number",
+      "notes": ""
+    },
+    {
+      "id": "u2-v050",
+      "zh": "五十",
+      "jp": "ng5 sap6",
+      "en": "50",
+      "section": "Numbers",
+      "pos": "number",
+      "notes": ""
+    },
+    {
+      "id": "u2-v051",
+      "zh": "五十五",
+      "jp": "ng5 sap6 ng5",
+      "en": "55",
+      "section": "Numbers",
+      "pos": "number",
+      "notes": ""
+    },
+    {
+      "id": "u2-v052",
+      "zh": "六十",
+      "jp": "luk6 sap6",
+      "en": "60",
+      "section": "Numbers",
+      "pos": "number",
+      "notes": ""
+    },
+    {
+      "id": "u2-v053",
+      "zh": "六十六",
+      "jp": "luk6 sap6 luk6",
+      "en": "66",
+      "section": "Numbers",
+      "pos": "number",
+      "notes": ""
+    },
+    {
+      "id": "u2-v054",
+      "zh": "七十",
+      "jp": "cat1 sap6",
+      "en": "70",
+      "section": "Numbers",
+      "pos": "number",
+      "notes": ""
+    },
+    {
+      "id": "u2-v055",
+      "zh": "七十七",
+      "jp": "cat1 sap6 cat1",
+      "en": "77",
+      "section": "Numbers",
+      "pos": "number",
+      "notes": ""
+    },
+    {
+      "id": "u2-v056",
+      "zh": "八十",
+      "jp": "baat3 sap6",
+      "en": "80",
+      "section": "Numbers",
+      "pos": "number",
+      "notes": ""
+    },
+    {
+      "id": "u2-v057",
+      "zh": "八十八",
+      "jp": "baat3 sap6 baat3",
+      "en": "88",
+      "section": "Numbers",
+      "pos": "number",
+      "notes": ""
+    },
+    {
+      "id": "u2-v058",
+      "zh": "九十",
+      "jp": "gau2 sap6",
+      "en": "90",
+      "section": "Numbers",
+      "pos": "number",
+      "notes": ""
+    },
+    {
+      "id": "u2-v059",
+      "zh": "九十九",
+      "jp": "gau2 sap6 gau2",
+      "en": "99",
+      "section": "Numbers",
+      "pos": "number",
+      "notes": ""
+    },
+    {
+      "id": "u2-v060",
+      "zh": "一百",
+      "jp": "jat1 baak3",
+      "en": "100",
+      "section": "Numbers",
+      "pos": "number",
+      "notes": ""
+    },
+    {
+      "id": "u2-v061",
+      "zh": "两",
+      "jp": "loeng5",
+      "en": "Two (used instead of ji6 when followed by a classifier)",
+      "section": "Numbers",
+      "pos": "number",
+      "notes": "Only the number two itself changes; sap6 ji6 zi1 bat1 = twelve pens"
+    },
+    {
+      "id": "u2-v062",
+      "zh": "",
+      "jp": "di1",
+      "en": "Plural classifier: more than one (ngo5 di1 zai2 neoi2 my children; keoi5 di1 saam1 her clothes)",
+      "section": "Grammar",
+      "pos": "classifier",
+      "notes": "Used in place of ge3 to specify more than one item (p11)"
+    },
+    {
+      "id": "u2-v063",
+      "zh": "",
+      "jp": "baa2",
+      "en": "Classifier for tools, instruments (baa2 dou1 knife)",
+      "section": "Grammar",
+      "pos": "classifier",
+      "notes": "Also 'a pair of scissors' = jat1 baa2 gaau3 zin2"
+    },
+    {
+      "id": "u2-v064",
+      "zh": "",
+      "jp": "gaa3",
+      "en": "Classifier for machines, vehicles (gaa3 ce1 the car)",
+      "section": "Grammar",
+      "pos": "classifier",
+      "notes": ""
+    },
+    {
+      "id": "u2-v065",
+      "zh": "",
+      "jp": "gaan1",
+      "en": "Classifier for buildings (gaan1 nguk1 the house)",
+      "section": "Grammar",
+      "pos": "classifier",
+      "notes": ""
+    },
+    {
+      "id": "u2-v066",
+      "zh": "",
+      "jp": "gin6",
+      "en": "Classifier for most clothes (gin6 saam1 shirt, dress)",
+      "section": "Grammar",
+      "pos": "classifier",
+      "notes": "Elongated clothing (trousers, skirts) takes tiu4 instead"
+    },
+    {
+      "id": "u2-v067",
+      "zh": "",
+      "jp": "zek3",
+      "en": "Classifier for most animals (zek3 gau2 a dog) and one of a pair (jat1 zek3 sau2 one hand)",
+      "section": "Grammar",
+      "pos": "classifier",
+      "notes": "Elongated animals (fish, snakes) take tiu4 instead"
+    },
+    {
+      "id": "u2-v068",
+      "zh": "",
+      "jp": "faai3",
+      "en": "Classifier for things with a vertical surface (jat1 faai3 geng3 a mirror)",
+      "section": "Grammar",
+      "pos": "classifier",
+      "notes": ""
+    },
+    {
+      "id": "u2-v069",
+      "zh": "",
+      "jp": "fuk1",
+      "en": "Classifier for square/rectangular things (jat1 fuk1 waa2 a picture)",
+      "section": "Grammar",
+      "pos": "classifier",
+      "notes": ""
+    },
+    {
+      "id": "u2-v070",
+      "zh": "",
+      "jp": "zoeng1",
+      "en": "Classifier for flat surfaces (jat1 zoeng1 toi2 a table)",
+      "section": "Grammar",
+      "pos": "classifier",
+      "notes": ""
+    },
+    {
+      "id": "u2-v071",
+      "zh": "",
+      "jp": "lap1",
+      "en": "Classifier for small and round things (jat1 lap1 tong2 a sweet)",
+      "section": "Grammar",
+      "pos": "classifier",
+      "notes": ""
+    },
+    {
+      "id": "u2-v072",
+      "zh": "",
+      "jp": "tiu4",
+      "en": "Classifier for long and narrow things (tiu4 lou6 the road; tiu4 jyu2 fish; tiu4 fu3 trousers)",
+      "section": "Grammar",
+      "pos": "classifier",
+      "notes": "Shape overrides semantic class: fish, snakes, skirts and trousers take tiu4"
+    },
+    {
+      "id": "u2-v073",
+      "zh": "",
+      "jp": "tou3",
+      "en": "Classifier for films and sets (sap6 tou3 hei3 ten films; jat1 tou3 san1 saam1 a set of new clothes)",
+      "section": "Grammar",
+      "pos": "classifier",
+      "notes": ""
+    },
+    {
+      "id": "u2-v074",
+      "zh": "",
+      "jp": "deoi3",
+      "en": "Collective classifier: pair (go2 deoi3 haai4 that pair of shoes; jat1 deoi3 fu1 fu5 a married couple)",
+      "section": "Grammar",
+      "pos": "classifier",
+      "notes": "Not everything that is a pair in English takes deoi3: trousers jat1 tiu4 fu3, scissors jat1 baa2 gaau3 zin2"
+    },
+    {
+      "id": "u2-v075",
+      "zh": "",
+      "jp": "baan1",
+      "en": "Collective classifier: class, group (ni1 baan1 hok6 saang1 this class of students)",
+      "section": "Grammar",
+      "pos": "classifier",
+      "notes": ""
+    },
+    {
+      "id": "u2-v076",
+      "zh": "",
+      "jp": "deoi1",
+      "en": "Collective classifier: pile, heap (go2 deoi1 laap6 saap3 that pile of rubbish)",
+      "section": "Grammar",
+      "pos": "classifier",
+      "notes": ""
+    },
+    {
+      "id": "u2-v077",
+      "zh": "",
+      "jp": "daap6",
+      "en": "Collective classifier: pile, stack (jat1 daap6 syu1 a pile of books)",
+      "section": "Grammar",
+      "pos": "classifier",
+      "notes": ""
+    },
+    {
+      "id": "u2-v078",
+      "zh": "",
+      "jp": "bong6",
+      "en": "Measure: pound (loeng5 bong6 ngau4 juk6 two pounds of beef)",
+      "section": "Grammar",
+      "pos": "classifier",
+      "notes": ""
+    },
+    {
+      "id": "u2-v079",
+      "zh": "",
+      "jp": "gan1",
+      "en": "Measure: catty (jat1 gan1 coi3 a catty of vegetables)",
+      "section": "Grammar",
+      "pos": "classifier",
+      "notes": ""
+    },
+    {
+      "id": "u2-v080",
+      "zh": "",
+      "jp": "daa1",
+      "en": "Measure: dozen (bun3 daa1 gai1 daan2 half a dozen eggs)",
+      "section": "Grammar",
+      "pos": "classifier",
+      "notes": ""
+    },
+    {
+      "id": "u2-v081",
+      "zh": "",
+      "jp": "bui1",
+      "en": "Container measure: cup, glass (saam1 bui1 caa4 three cups of tea)",
+      "section": "Grammar",
+      "pos": "classifier",
+      "notes": "As a noun it takes go3: do1 jat1 go3 bui1 another glass/cup"
+    },
+    {
+      "id": "u2-v082",
+      "zh": "",
+      "jp": "hap6",
+      "en": "Container measure: box (loeng5 hap6 tong2 two boxes of sweets)",
+      "section": "Grammar",
+      "pos": "classifier",
+      "notes": "As a noun it is hap2 and takes go3: loeng5 go3 hap2 two boxes"
+    },
+    {
+      "id": "u2-v083",
+      "zh": "",
+      "jp": "baau1",
+      "en": "Container measure: bag, packet (jat1 baau1 mai5 a bag of uncooked rice)",
+      "section": "Grammar",
+      "pos": "classifier",
+      "notes": ""
+    },
+    {
+      "id": "u2-v084",
+      "zh": "",
+      "jp": "dip6",
+      "en": "Container measure: dish, plate (jat1 dip6 coi3 a dish of vegetables)",
+      "section": "Grammar",
+      "pos": "classifier",
+      "notes": "As a noun it is dip2 and takes go3: gei2 go3 dip2 several plates"
+    },
+    {
+      "id": "u2-v085",
+      "zh": "",
+      "jp": "wun2",
+      "en": "Container measure: bowl (jat1 go3 wun2 a bowl; saam1 wun2 faan6 three bowls of rice)",
+      "section": "Grammar",
+      "pos": "classifier",
+      "notes": "As a noun it takes go3"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "u2-d1",
+      "title": "Dialogue 1",
+      "setting": "Mr. Ho is working in his office when a woman comes in.",
+      "lines": [
+        {
+          "id": "u2-d1-l01",
+          "speaker": "Ho",
+          "zh": "太太，你揾边个啊？",
+          "jp": "taai3 taai2, nei5 wan2 bin1 go3 aa3",
+          "en": "Mrs., who are you looking for?"
+        },
+        {
+          "id": "u2-d1-l02",
+          "speaker": "Lady",
+          "zh": "我揾王国美先生，佢係中国人，係我嘅朋友。",
+          "jp": "ngo5 wan2 Wong4 Gwok3 Mei5 sin1 saang1, keoi5 hai6 zung1 gwok3 jan4, hai6 ngo5 ge3 pang4 jau5",
+          "en": "I'm looking for Mr. Wong, he is Chinese, he's my friend"
+        },
+        {
+          "id": "u2-d1-l03",
+          "speaker": "Ho",
+          "zh": "你揾王先生有乜嘢事呀？",
+          "jp": "nei5 wan2 wong4 sin1 saang1 jau5 mat1 je5 si6 aa3",
+          "en": "What is your matter with him?"
+        },
+        {
+          "id": "u2-d1-l04",
+          "speaker": "Lady",
+          "zh": "我要卖我嘅美国车，王先生想买",
+          "jp": "ngo5 jiu3 maai6 ngo5 ge3 mei5 gwok3 ce1, wong4 sin1 saang1 soeng2 maai5",
+          "en": "I want to sell my American car, Mr. Wong wants to buy it"
+        },
+        {
+          "id": "u2-d1-l05",
+          "speaker": "Ho",
+          "zh": "好，我带你去王先生嘅写字楼",
+          "jp": "hou2, ngo5 daai3 nei5 heoi3 wong4 sin1 saang1 ge3 se2 zi6 lau4",
+          "en": "Ok, I will bring you to Mr. Wong's office"
+        },
+        {
+          "id": "u2-d1-l06",
+          "speaker": "Lady",
+          "zh": "唔该你。",
+          "jp": "m4 goi1 nei5",
+          "en": "Thank you"
+        }
+      ],
+      "questions": [
+        "True or false? Wong4 Gwok3 Mei5 sin1 saang1 soeng2 maai6 ce1.",
+        "True or false? Wong4 sin1 saang1 soeng2 maai5 Jat6 bun2 ce1.",
+        "True or false? Ho4 sin1 saang1, Wong4 sin1 saang1 keoi5 dei6 hai6 pang4 jau5.",
+        "True or false? Wong4 taai3 taai2 wan2 Wong4 sin1 saang1."
+      ]
+    },
+    {
+      "id": "u2-d2",
+      "title": "Dialogue 2",
+      "setting": "Miss Cheung has found a watch and a pen on her desk. She asks Mr. Ho if they are his.",
+      "lines": [
+        {
+          "id": "u2-d2-l01",
+          "speaker": "Cheung",
+          "zh": "噢，一个手表，一枝笔…何先生，呢个手表同埋枝笔係唔係你架？",
+          "jp": "ou3, jat1 go3 sau2 biu1, jat1 zi1 bat1 … ho4 sin1 saang1, ni1 go3 sau2 biu1 tung4 maai4 zi1 bat1 hai6 m4 hai6 nei5 gaa3",
+          "en": "Oh, a watch, a pen… Mr. Ho, are the watch and pen yours?"
+        },
+        {
+          "id": "u2-d2-l02",
+          "speaker": "Ho",
+          "zh": "呢个手表唔係我嘅：嗰枝笔係我嘅。",
+          "jp": "ni1 go3 sau2 biu1 m4 hai6 ngo5 ge3, go2 zi1 bat1 hai6 ngo5 ge3",
+          "en": "This watch is not mine, that pen is mine"
+        },
+        {
+          "id": "u2-d2-l03",
+          "speaker": "Cheung",
+          "zh": "呢个手表好靓，係美国手表。你估係边个架？",
+          "jp": "ni1 go3 sau2 biu1 hou2 leng3, hai6 mei5 gwok3 sau2 biu1. nei5 gu2 hai6 bin1 go3 gaa3",
+          "en": "This watch is very pretty, it's an American watch. Who do you think it belongs to?"
+        },
+        {
+          "id": "u2-d2-l04",
+          "speaker": "Ho",
+          "zh": "我估係王先生嘅。",
+          "jp": "ngo5 gu2 hai6 wong4 sin1 saang1 ge3",
+          "en": "I think it is Mr. Wong's"
+        },
+        {
+          "id": "u2-d2-l05",
+          "speaker": "Cheung",
+          "zh": "我都估係佢嘅。我地去问佢，好唔好呀？",
+          "jp": "ngo5 dou1 gu2 hai6 keoi5 ge3. ngo5 dei6 heoi3 man6 keoi5, hou2 m4 hou2 aa3",
+          "en": "I think it's Mr. Wong's too. Let's go ask him, ok?"
+        },
+        {
+          "id": "u2-d2-l06",
+          "speaker": "Ho",
+          "zh": "王先生而家唔喺佢嘅写字楼。",
+          "jp": "wong4 sin1 saang1 ji4 gaa1 m4 hai2 keoi5 ge3 se2 zi6 lau4",
+          "en": "Mr. Wong is not at his office"
+        },
+        {
+          "id": "u2-d2-l07",
+          "speaker": "Cheung",
+          "zh": "唔紧要，我迟啲问佢。",
+          "jp": "m4 gan2 jiu3, ngo5 ci4 di1 man6 keoi5",
+          "en": "It's ok, let me ask him later"
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "grammar": [
+    {
+      "id": "u2-g01",
+      "title": "Question words",
+      "summary": "Question words like bin1 go3? who? and mat1 je5? what? come in the same position in the sentence as the answer to them does.",
+      "body": "Question words like bin1-go3? who? and mat1-je5? what? come in the same position in the sentence as the answer to them does. In English question and answer have different word orders, but in Chinese they have the same word order. In the two examples following note how the English is twisted but the Chinese is not.\nSome people say mi1 je5? instead of mat1 je5?: there is no difference in meaning.\nNote how aa3 is used at the end of sentences which are questions.",
+      "examples": [
+        {
+          "id": "u2-g01-e01",
+          "jp": "A: keoi5 sing3 mat1 je5 aa3?",
+          "zh": "",
+          "en": "What is his surname?",
+          "lit": ""
+        },
+        {
+          "id": "u2-g01-e02",
+          "jp": "B: keoi5 sing3 Ho4",
+          "zh": "",
+          "en": "His surname is Ho",
+          "lit": ""
+        },
+        {
+          "id": "u2-g01-e03",
+          "jp": "A: keoi5 wan2 bin1 go3 aa3?",
+          "zh": "",
+          "en": "Who is she looking for?",
+          "lit": ""
+        },
+        {
+          "id": "u2-g01-e04",
+          "jp": "B: keoi5 wan2 Ho4 siu2 ze2",
+          "zh": "",
+          "en": "She is looking for Miss Ho",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "question words",
+        "word order",
+        "aa3"
+      ]
+    },
+    {
+      "id": "u2-g02",
+      "title": "Possession: ge3",
+      "summary": "The little word ge3 shows possession, like the apostrophe s ('s) in English.",
+      "body": "The little word “ge3” shows possession, like the apostrophe s (’s) in English.",
+      "examples": [
+        {
+          "id": "u2-g02-e01",
+          "jp": "ngo5 ge3",
+          "zh": "我嘅",
+          "en": "My, mine",
+          "lit": ""
+        },
+        {
+          "id": "u2-g02-e02",
+          "jp": "nei5 ge3",
+          "zh": "",
+          "en": "Your, yours",
+          "lit": ""
+        },
+        {
+          "id": "u2-g02-e03",
+          "jp": "keoi5 ge3",
+          "zh": "",
+          "en": "His/her, hers",
+          "lit": ""
+        },
+        {
+          "id": "u2-g02-e04",
+          "jp": "zi6 gei2 ge3",
+          "zh": "",
+          "en": "One's own",
+          "lit": ""
+        },
+        {
+          "id": "u2-g02-e05",
+          "jp": "ngo5 dei6 ge3",
+          "zh": "",
+          "en": "Our, ours",
+          "lit": ""
+        },
+        {
+          "id": "u2-g02-e06",
+          "jp": "nei5 dei6 ge3",
+          "zh": "",
+          "en": "Your, yours (plural)",
+          "lit": ""
+        },
+        {
+          "id": "u2-g02-e07",
+          "jp": "keoi5 dei6 ge3",
+          "zh": "",
+          "en": "Their, theirs",
+          "lit": ""
+        },
+        {
+          "id": "u2-g02-e08",
+          "jp": "bin1 go3 ge3",
+          "zh": "",
+          "en": "Whose",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "possession",
+        "ge3",
+        "pronouns"
+      ]
+    },
+    {
+      "id": "u2-g03",
+      "title": "Ge3 is used in two ways",
+      "summary": "Ge3 comes before a possessed noun, or stands as a predicate, usually following the verb hai6 'to be'.",
+      "body": "Before a possessed noun (ngo5 ge3 dei6 zi2 my address; Wong4 taai3 taai2 ge3 ce1 Mrs. Wong's car).\nAs predicates, usually following the verb hai6 ‘to be’ (ni1 go3 hai6 nei5 ge3 this is yours).",
+      "examples": [
+        {
+          "id": "u2-g03-e01",
+          "jp": "ngo5 ge3 dei6 zi2 hai2 ni1 dou6",
+          "zh": "",
+          "en": "My address is here",
+          "lit": ""
+        },
+        {
+          "id": "u2-g03-e02",
+          "jp": "nei5 ge3 gwong2 dung1 waa2 m4 co3",
+          "zh": "",
+          "en": "Your Cantonese is not bad",
+          "lit": ""
+        },
+        {
+          "id": "u2-g03-e03",
+          "jp": "keoi5 ge3 gin6 hong1 m4 hai6 gei2 hou2",
+          "zh": "",
+          "en": "Her health is not too good",
+          "lit": ""
+        },
+        {
+          "id": "u2-g03-e04",
+          "jp": "zi6 gei2 ge3 gaa1 ting4 zeoi3 gan2 jiu3",
+          "zh": "",
+          "en": "One's own family is most important",
+          "lit": ""
+        },
+        {
+          "id": "u2-g03-e05",
+          "jp": "Wong4 taai3 taai2 ge3 ce1",
+          "zh": "",
+          "en": "Mrs. Wong's car",
+          "lit": ""
+        },
+        {
+          "id": "u2-g03-e06",
+          "jp": "Ngo5 dei6 ge3 se2 zi6 lau4",
+          "zh": "",
+          "en": "Our office",
+          "lit": ""
+        },
+        {
+          "id": "u2-g03-e07",
+          "jp": "ni1 go3 hai6 nei5 ge3",
+          "zh": "",
+          "en": "This is yours",
+          "lit": ""
+        },
+        {
+          "id": "u2-g03-e08",
+          "jp": "di1 cin2 hai6 keoi5 ge3",
+          "zh": "",
+          "en": "The money is his",
+          "lit": ""
+        },
+        {
+          "id": "u2-g03-e09",
+          "jp": "hai6 m4 hai6 ngo5 ge3?",
+          "zh": "",
+          "en": "Is it mine?",
+          "lit": ""
+        },
+        {
+          "id": "u2-g03-e10",
+          "jp": "Ce1 hai6 Wong4 siu2 ze2 ge3",
+          "zh": "",
+          "en": "The car is Miss Wong's",
+          "lit": ""
+        },
+        {
+          "id": "u2-g03-e11",
+          "jp": "Zung1 gwok3 ce1 hai6 keoi5 ge3",
+          "zh": "",
+          "en": "The Chinese car is his",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "possession",
+        "ge3",
+        "hai6"
+      ]
+    },
+    {
+      "id": "u2-g04",
+      "title": "Ge3: omitting hai6, and close relationships",
+      "summary": "The verb hai6 can be understood from context and omitted; with close personal relationship terms of two or more syllables, ge3 itself is often left out.",
+      "body": "The verb hai6 can be understood from the context, so sometimes it's omitted (baa2 ze1 keoi5 ge3 this umbrella is hers).\nWhen there is a close personal relationship with a person, ge3 is often left out, but the relationship term must have at least two syllables, as with taai3 taai2 and pang4 jau5 (keoi5 sai3 lou2 her younger brother).",
+      "examples": [
+        {
+          "id": "u2-g04-e01",
+          "jp": "baa2 ze1 keoi5 ge3",
+          "zh": "",
+          "en": "This umbrella is hers",
+          "lit": ""
+        },
+        {
+          "id": "u2-g04-e02",
+          "jp": "Zek3 maau1 keoi5 dei6 ge3",
+          "zh": "",
+          "en": "The cat is theirs",
+          "lit": ""
+        },
+        {
+          "id": "u2-g04-e03",
+          "jp": "ni1 tiu4 so2 si4 bin1 go3 ge3?",
+          "zh": "",
+          "en": "Whose key is this?",
+          "lit": ""
+        },
+        {
+          "id": "u2-g04-e04",
+          "jp": "keoi5 sai3 lou2",
+          "zh": "",
+          "en": "Her younger brother",
+          "lit": ""
+        },
+        {
+          "id": "u2-g04-e05",
+          "jp": "ngo5 lou5 gung1",
+          "zh": "",
+          "en": "My husband (colloquial)",
+          "lit": ""
+        },
+        {
+          "id": "u2-g04-e06",
+          "jp": "nei5 gu1 ze1",
+          "zh": "",
+          "en": "Your aunt (father's younger sister)",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "possession",
+        "ge3",
+        "hai6",
+        "family"
+      ]
+    },
+    {
+      "id": "u2-g05",
+      "title": "Ge3: possessor phrases",
+      "summary": "Relationship phrases like keoi5 sai3 lou2 can themselves serve as the possessor of another noun, followed by ge3.",
+      "body": "These phrases can themselves serve as the possessor of another noun (keoi5 sai3 lou2 ge3 man6 tai4 her younger brother's problems).",
+      "examples": [
+        {
+          "id": "u2-g05-e01",
+          "jp": "keoi5 sai3 lou2 ge3 man6 tai4 hou2 do1",
+          "zh": "",
+          "en": "Her younger brother's problems are many",
+          "lit": ""
+        },
+        {
+          "id": "u2-g05-e02",
+          "jp": "ngo5 lou5 gung1 ge3 nguk1 kei2 jan4 lai4 saai3",
+          "zh": "",
+          "en": "My husband's family have all come",
+          "lit": ""
+        },
+        {
+          "id": "u2-g05-e03",
+          "jp": "nei5 gu1 ze1 ge3 mat6 jip6 hou2 zik6 cin2",
+          "zh": "",
+          "en": "Your aunt's property is worth a lot of money",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "possession",
+        "ge3"
+      ]
+    },
+    {
+      "id": "u2-g06",
+      "title": "Classifier in place of ge3; plural di1",
+      "summary": "Before nouns the appropriate classifier is often used instead of ge3, denoting a particular individual or object; for more than one, the plural classifier di1 is used.",
+      "body": "Before nouns, the appropriate classifier is often used in place of ge3, especially in colloquial language (ngo5 go3 neoi2 my daughter).\nThis has a similar meaning to the corresponding phrase with ge3, but denotes a particular individual or object.\nTo specify more than one, the plural classifier di1 is used (ngo5 di1 zai2 neoi2 my children).",
+      "examples": [
+        {
+          "id": "u2-g06-e01",
+          "jp": "ngo5 go3 neoi2",
+          "zh": "",
+          "en": "My daughter",
+          "lit": ""
+        },
+        {
+          "id": "u2-g06-e02",
+          "jp": "keoi5 gaa3 ce1",
+          "zh": "",
+          "en": "His car",
+          "lit": ""
+        },
+        {
+          "id": "u2-g06-e03",
+          "jp": "nei5 gin6 saam1",
+          "zh": "",
+          "en": "Your shirt",
+          "lit": ""
+        },
+        {
+          "id": "u2-g06-e04",
+          "jp": "ngo5 di1 zai2 neoi2",
+          "zh": "",
+          "en": "My children",
+          "lit": ""
+        },
+        {
+          "id": "u2-g06-e05",
+          "jp": "keoi5 di1 saam1",
+          "zh": "",
+          "en": "Her clothes",
+          "lit": ""
+        },
+        {
+          "id": "u2-g06-e06",
+          "jp": "Peter di1 hok6 saang1",
+          "zh": "",
+          "en": "Peter's students",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "possession",
+        "classifiers",
+        "di1"
+      ]
+    },
+    {
+      "id": "u2-g07",
+      "title": "Thank you: m4 goi1",
+      "summary": "m4 goi1 literally means 'not ought to', but it is the most common word for thank you.",
+      "body": "m4 goi1 literally means “not ought to”, but it is the most common word for thank you.\nIf someone holds the door open for you, passes you the soy sauce or tells you your shoelace is undone, you should politely say m4 goi1 to them.",
+      "examples": [
+        {
+          "id": "u2-g07-e01",
+          "jp": "m4 goi1",
+          "zh": "唔该",
+          "en": "Thank you",
+          "lit": "Not ought to"
+        }
+      ],
+      "tags": [
+        "politeness",
+        "phrases"
+      ]
+    },
+    {
+      "id": "u2-g08",
+      "title": "Hai6 vs. hai2",
+      "summary": "hai6 means 'be' (identity); hai2, with a different tone, means 'be at/in/on' (location).",
+      "body": "Notice the difference in tone between hai6 and hai2, which can also be translated as ‘be’ but in the sense of being located.\nhai6 = be; hai2 = be at/in/on.",
+      "examples": [
+        {
+          "id": "u2-g08-e01",
+          "jp": "keoi5 hai6 jat6 bun2 jan4",
+          "zh": "",
+          "en": "She's Japanese",
+          "lit": ""
+        },
+        {
+          "id": "u2-g08-e02",
+          "jp": "keoi5 hai6 haau6 zoeng2",
+          "zh": "",
+          "en": "He's the principal",
+          "lit": ""
+        },
+        {
+          "id": "u2-g08-e03",
+          "jp": "keoi5 hai2 soeng6 hoi2",
+          "zh": "",
+          "en": "She's in Shanghai",
+          "lit": ""
+        },
+        {
+          "id": "u2-g08-e04",
+          "jp": "keoi5 hai2 syu1 fong2",
+          "zh": "",
+          "en": "He's in the study",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "hai6",
+        "hai2",
+        "location",
+        "tones"
+      ]
+    },
+    {
+      "id": "u2-g09",
+      "title": "Classifiers",
+      "summary": "In Cantonese, this, that, which? and numbers must be followed by a classifier word before the noun.",
+      "body": "In English when you specify a word with this, that, or which?, you just put it in front of the word (this man, that ship, which pen?), but in Cantonese you need to use a classifier word as well (this classifier man, that classifier ship, which classifier pen?).\nClassifiers pose two different problems: 1. Which one to use with which noun. 2. When and where to use them.",
+      "examples": [
+        {
+          "id": "u2-g09-e01",
+          "jp": "jat1 go3 jan4",
+          "zh": "",
+          "en": "One person",
+          "lit": ""
+        },
+        {
+          "id": "u2-g09-e02",
+          "jp": "loeng5 tiu4 jyu2",
+          "zh": "",
+          "en": "Two fish",
+          "lit": ""
+        },
+        {
+          "id": "u2-g09-e03",
+          "jp": "sei3 zek3 gau2",
+          "zh": "",
+          "en": "Four dogs",
+          "lit": ""
+        },
+        {
+          "id": "u2-g09-e04",
+          "jp": "sap6 tou3 hei3",
+          "zh": "",
+          "en": "Ten films",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "classifiers"
+      ]
+    },
+    {
+      "id": "u2-g10",
+      "title": "Subtypes of classifiers: measures and containers",
+      "summary": "Measures count quantities (pounds, catties, dozens); any container can serve as a measure; container words used as nouns take the classifier go3.",
+      "body": "Measures: words used in counting quantities as in “two dozen eggs” (loeng5 bong6 ngau4 juk6 two pounds of beef).\nContainers: these form an open-ended category since any container can serve as a measure (saam1 bui1 caa4 three cups of tea).\nThese container words can also be used as nouns, in which case they take the classifier go3 (jat1 go3 wun2 a bowl).",
+      "examples": [
+        {
+          "id": "u2-g10-e01",
+          "jp": "loeng5 bong6 ngau4 juk6",
+          "zh": "",
+          "en": "Two pounds of beef",
+          "lit": ""
+        },
+        {
+          "id": "u2-g10-e02",
+          "jp": "jat1 gan1 coi3",
+          "zh": "",
+          "en": "A catty of vegetables",
+          "lit": ""
+        },
+        {
+          "id": "u2-g10-e03",
+          "jp": "bun3 daa1 gai1 daan2",
+          "zh": "",
+          "en": "Half a dozen eggs",
+          "lit": ""
+        },
+        {
+          "id": "u2-g10-e04",
+          "jp": "saam1 bui1 caa4",
+          "zh": "",
+          "en": "Three cups of tea",
+          "lit": ""
+        },
+        {
+          "id": "u2-g10-e05",
+          "jp": "loeng5 hap6 tong2",
+          "zh": "",
+          "en": "Two boxes of sweets",
+          "lit": ""
+        },
+        {
+          "id": "u2-g10-e06",
+          "jp": "jat1 baau1 mai5",
+          "zh": "",
+          "en": "A bag of (uncooked) rice",
+          "lit": ""
+        },
+        {
+          "id": "u2-g10-e07",
+          "jp": "jat1 dip6 coi3",
+          "zh": "",
+          "en": "A dish of vegetables",
+          "lit": ""
+        },
+        {
+          "id": "u2-g10-e08",
+          "jp": "jat1 go3 wun2",
+          "zh": "",
+          "en": "A bowl",
+          "lit": ""
+        },
+        {
+          "id": "u2-g10-e09",
+          "jp": "do1 jat1 go3 bui1",
+          "zh": "",
+          "en": "Another glass/cup",
+          "lit": ""
+        },
+        {
+          "id": "u2-g10-e10",
+          "jp": "loeng5 go3 hap2",
+          "zh": "",
+          "en": "Two boxes",
+          "lit": ""
+        },
+        {
+          "id": "u2-g10-e11",
+          "jp": "gei2 go3 dip2",
+          "zh": "",
+          "en": "Several plates",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "classifiers",
+        "measures",
+        "containers"
+      ]
+    },
+    {
+      "id": "u2-g11",
+      "title": "Collective classifiers",
+      "summary": "Collective classifiers group items: a class, a pile, a set, a pair (deoi3). Not everything that is a pair in English takes deoi3.",
+      "body": "A grouping of items (ni1 baan1 hok6 saang1 this class of students; jat1 daap6 syu1 a pile of books; go2 deoi3 haai4 that pair of shoes).\nNot all things that are treated as pairs in English take deoi3: ‘a pair of trousers’ is jat1 tiu4 fu3, ‘a pair of scissors’ jat1 baa2 gaau3 zin2.\nOn the other hand, there are other uses of deoi3 which are understandable (ngo5 deoi3 sau2 my (two) hands).",
+      "examples": [
+        {
+          "id": "u2-g11-e01",
+          "jp": "ni1 baan1 hok6 saang1",
+          "zh": "",
+          "en": "This class of students",
+          "lit": ""
+        },
+        {
+          "id": "u2-g11-e02",
+          "jp": "go2 deoi1 laap6 saap3",
+          "zh": "",
+          "en": "That pile of rubbish",
+          "lit": ""
+        },
+        {
+          "id": "u2-g11-e03",
+          "jp": "jat1 daap6 syu1",
+          "zh": "",
+          "en": "A pile of books",
+          "lit": ""
+        },
+        {
+          "id": "u2-g11-e04",
+          "jp": "jat1 tou3 san1 saam1",
+          "zh": "",
+          "en": "A set of new clothes",
+          "lit": ""
+        },
+        {
+          "id": "u2-g11-e05",
+          "jp": "go2 deoi3 haai4",
+          "zh": "",
+          "en": "That pair of shoes",
+          "lit": ""
+        },
+        {
+          "id": "u2-g11-e06",
+          "jp": "jat1 tiu4 fu3",
+          "zh": "",
+          "en": "A pair of trousers",
+          "lit": ""
+        },
+        {
+          "id": "u2-g11-e07",
+          "jp": "jat1 baa2 gaau3 zin2",
+          "zh": "",
+          "en": "A pair of scissors",
+          "lit": ""
+        },
+        {
+          "id": "u2-g11-e08",
+          "jp": "ngo5 deoi3 sau2",
+          "zh": "",
+          "en": "My (two) hands",
+          "lit": "My pair (of) hands"
+        },
+        {
+          "id": "u2-g11-e09",
+          "jp": "jat1 deoi3 fu1 fu5",
+          "zh": "",
+          "en": "A (married) couple",
+          "lit": "One pair couple"
+        },
+        {
+          "id": "u2-g11-e10",
+          "jp": "ni1 deoi3 maa1 neoi2",
+          "zh": "",
+          "en": "These twin girls",
+          "lit": "This pair twin girls"
+        }
+      ],
+      "tags": [
+        "classifiers",
+        "collective",
+        "deoi3"
+      ]
+    },
+    {
+      "id": "u2-g12",
+      "title": "Which classifier? Semantic classes",
+      "summary": "Classifiers generally serve to sort nouns into semantic classes of objects: baa2 tools, gaa3 vehicles, gaan1 buildings, gin6 clothes, go3 people and abstract things, zek3 animals and one of a pair.",
+      "body": "Classifiers generally serve to sort nouns into semantic classes of objects:\nbaa2 — tools, instruments: baa2 dou1 knife\ngaa3 — machines, vehicles: gaa3 ce1 the car\ngaan1 — buildings: gaan1 nguk1 the house\ngin6 — most clothes: gin6 saam1 shirt, dress\ngo3 — people: jat1 go3 ji1 sang1 a doctor; abstract things: ni1 go3 kyut3 ding6 this decision, jat1 go3 mung6 a dream\nzek3 — most animals: zek3 gau2 a dog; one of a pair: jat1 zek3 sau2 one hand",
+      "examples": [
+        {
+          "id": "u2-g12-e01",
+          "jp": "baa2 dou1",
+          "zh": "",
+          "en": "Knife (baa2: tools, instruments)",
+          "lit": ""
+        },
+        {
+          "id": "u2-g12-e02",
+          "jp": "gaa3 ce1",
+          "zh": "",
+          "en": "The car (gaa3: machines, vehicles)",
+          "lit": ""
+        },
+        {
+          "id": "u2-g12-e03",
+          "jp": "gaan1 nguk1",
+          "zh": "",
+          "en": "The house (gaan1: buildings)",
+          "lit": ""
+        },
+        {
+          "id": "u2-g12-e04",
+          "jp": "gin6 saam1",
+          "zh": "",
+          "en": "Shirt, dress (gin6: most clothes)",
+          "lit": ""
+        },
+        {
+          "id": "u2-g12-e05",
+          "jp": "jat1 go3 ji1 sang1",
+          "zh": "",
+          "en": "A doctor (go3: people)",
+          "lit": ""
+        },
+        {
+          "id": "u2-g12-e06",
+          "jp": "ni1 go3 kyut3 ding6",
+          "zh": "",
+          "en": "This decision (go3: abstract things)",
+          "lit": ""
+        },
+        {
+          "id": "u2-g12-e07",
+          "jp": "jat1 go3 mung6",
+          "zh": "",
+          "en": "A dream (go3: abstract things)",
+          "lit": ""
+        },
+        {
+          "id": "u2-g12-e08",
+          "jp": "Zek3 gau2",
+          "zh": "",
+          "en": "A dog (zek3: most animals)",
+          "lit": ""
+        },
+        {
+          "id": "u2-g12-e09",
+          "jp": "jat1 zek3 sau2",
+          "zh": "",
+          "en": "One hand (zek3: one of a pair)",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "classifiers",
+        "table"
+      ]
+    },
+    {
+      "id": "u2-g13",
+      "title": "Which classifier? Shape",
+      "summary": "Many common classifiers categorize objects by their shape: faai3 vertical surface, fuk1 square/rectangular, zoeng1 flat surface, zi1 cylindrical, lap1 small and round, tiu4 long and narrow.",
+      "body": "A further important criterion is that many common classifiers categorize objects by their shape:\nfaai3 — vertical surface: jat1 faai3 geng3 a mirror\nfuk1 — square/rectangular: jat1 fuk1 waa2 a picture\nzoeng1 — flat surface: jat1 zoeng1 toi2 a table\nzi1 — cylindrical: zi1 bat1 a pen/pencil\nlap1 — small and round: jat1 lap1 tong2 a sweet\ntiu4 — long and narrow: tiu4 lou6 the road",
+      "examples": [
+        {
+          "id": "u2-g13-e01",
+          "jp": "jat1 faai3 geng3",
+          "zh": "",
+          "en": "A mirror (faai3: vertical surface)",
+          "lit": ""
+        },
+        {
+          "id": "u2-g13-e02",
+          "jp": "jat1 fuk1 waa2",
+          "zh": "",
+          "en": "A picture (fuk1: square/rectangular)",
+          "lit": ""
+        },
+        {
+          "id": "u2-g13-e03",
+          "jp": "jat1 zoeng1 toi2",
+          "zh": "",
+          "en": "A table (zoeng1: flat surface)",
+          "lit": ""
+        },
+        {
+          "id": "u2-g13-e04",
+          "jp": "zi1 bat1",
+          "zh": "",
+          "en": "A pen/pencil (zi1: cylindrical)",
+          "lit": ""
+        },
+        {
+          "id": "u2-g13-e05",
+          "jp": "jat1 lap1 tong2",
+          "zh": "",
+          "en": "A sweet (lap1: small and round)",
+          "lit": ""
+        },
+        {
+          "id": "u2-g13-e06",
+          "jp": "tiu4 lou6",
+          "zh": "",
+          "en": "The road (tiu4: long and narrow)",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "classifiers",
+        "shape",
+        "table"
+      ]
+    },
+    {
+      "id": "u2-g14",
+      "title": "Which classifier? Shape overrides semantic class",
+      "summary": "Animals and items of clothing distinguished by their elongated shape take tiu4 rather than zek3 or gin6.",
+      "body": "The shape criterion can override the semantic class criterion, so that animals and items of clothing distinguished by their elongated shape take tiu4, rather than zek3 or gin6.",
+      "examples": [
+        {
+          "id": "u2-g14-e01",
+          "jp": "tiu4 jyu2",
+          "zh": "",
+          "en": "Fish",
+          "lit": ""
+        },
+        {
+          "id": "u2-g14-e02",
+          "jp": "tiu4 se4",
+          "zh": "",
+          "en": "Snake",
+          "lit": ""
+        },
+        {
+          "id": "u2-g14-e03",
+          "jp": "tiu4 kwan4",
+          "zh": "",
+          "en": "Skirt/dress",
+          "lit": ""
+        },
+        {
+          "id": "u2-g14-e04",
+          "jp": "tiu4 fu3",
+          "zh": "",
+          "en": "Trousers",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "classifiers",
+        "shape",
+        "tiu4"
+      ]
+    },
+    {
+      "id": "u2-g15",
+      "title": "Using classifiers: when a classifier must be used",
+      "summary": "A classifier must be used (i) following a number, (ii) with the demonstratives this and that, (iii) in a possessive construction, (iv) with a noun alone.",
+      "body": "The main cases in which a classifier must be used are:\n(i) following a number: jat1 go3 ji1 sang1 one doctor\n(ii) with the demonstrative ‘this’ and ‘that’: ni1 go3 sai3 lou6 this child\n(iii) in a possessive construction: ngo5 go3 zai2 my son\n(iv) with a noun alone: go3 hok6 saang1 a/the student",
+      "examples": [
+        {
+          "id": "u2-g15-e01",
+          "jp": "jat1 go3 ji1 sang1",
+          "zh": "",
+          "en": "One doctor",
+          "lit": ""
+        },
+        {
+          "id": "u2-g15-e02",
+          "jp": "saam1 go3 jan4",
+          "zh": "",
+          "en": "Three people",
+          "lit": ""
+        },
+        {
+          "id": "u2-g15-e03",
+          "jp": "loeng5 go3 din6 nou5",
+          "zh": "",
+          "en": "Two computers",
+          "lit": ""
+        },
+        {
+          "id": "u2-g15-e04",
+          "jp": "sap6 go3 hap2",
+          "zh": "",
+          "en": "Ten boxes",
+          "lit": ""
+        },
+        {
+          "id": "u2-g15-e05",
+          "jp": "ni1 go3 sai3 lou6",
+          "zh": "",
+          "en": "This child",
+          "lit": ""
+        },
+        {
+          "id": "u2-g15-e06",
+          "jp": "go2 go3 beng6 jan4",
+          "zh": "",
+          "en": "That patient",
+          "lit": ""
+        },
+        {
+          "id": "u2-g15-e07",
+          "jp": "ni1 go3 jin2 jyun4",
+          "zh": "",
+          "en": "This actor",
+          "lit": ""
+        },
+        {
+          "id": "u2-g15-e08",
+          "jp": "go2 go3 coeng1",
+          "zh": "",
+          "en": "That window",
+          "lit": ""
+        },
+        {
+          "id": "u2-g15-e09",
+          "jp": "ngo5 go3 zai2",
+          "zh": "",
+          "en": "My son",
+          "lit": ""
+        },
+        {
+          "id": "u2-g15-e10",
+          "jp": "keoi5 gaan1 fong2",
+          "zh": "",
+          "en": "Her room",
+          "lit": ""
+        },
+        {
+          "id": "u2-g15-e11",
+          "jp": "nei5 gin6 saam1",
+          "zh": "",
+          "en": "Your shirt",
+          "lit": ""
+        },
+        {
+          "id": "u2-g15-e12",
+          "jp": "nei5 dei6 cang4 lau2",
+          "zh": "",
+          "en": "Your flat",
+          "lit": ""
+        },
+        {
+          "id": "u2-g15-e13",
+          "jp": "go3 hok6 saang1",
+          "zh": "",
+          "en": "A/the student",
+          "lit": ""
+        },
+        {
+          "id": "u2-g15-e14",
+          "jp": "go3 gaau3 sau6",
+          "zh": "",
+          "en": "A/the professor",
+          "lit": ""
+        },
+        {
+          "id": "u2-g15-e15",
+          "jp": "gin6 saam1",
+          "zh": "",
+          "en": "A/the shirt",
+          "lit": ""
+        },
+        {
+          "id": "u2-g15-e16",
+          "jp": "zek3 gau2 zai2",
+          "zh": "",
+          "en": "A/the puppy",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "classifiers",
+        "numbers",
+        "demonstratives",
+        "possession"
+      ]
+    },
+    {
+      "id": "u2-g16",
+      "title": "Using classifiers: definite and indefinite",
+      "summary": "Classifier + noun before the verb is definite ('the'); after the verb it can be definite or refer to an indefinite but specific item.",
+      "body": "This usage typically refers to a particular item. When the noun it goes with comes before the verb it is definite (corresponding to “the” in English).\nWhen the classifier and noun come after the verb it can be definite, but can also refer to an indefinite, but specific item.",
+      "examples": [
+        {
+          "id": "u2-g16-e01",
+          "jp": "gin6 saam1 hou2 gwai3",
+          "zh": "",
+          "en": "The shirt is expensive",
+          "lit": ""
+        },
+        {
+          "id": "u2-g16-e02",
+          "jp": "gaa3 ce1 zau2 zo2",
+          "zh": "",
+          "en": "The car has gone",
+          "lit": ""
+        },
+        {
+          "id": "u2-g16-e03",
+          "jp": "go3 wai6 hou2 tung3",
+          "zh": "",
+          "en": "The stomach hurts",
+          "lit": ""
+        },
+        {
+          "id": "u2-g16-e04",
+          "jp": "keoi5 maai5 zo2 gin6 saam1",
+          "zh": "",
+          "en": "She's bought a/the shirt",
+          "lit": ""
+        },
+        {
+          "id": "u2-g16-e05",
+          "jp": "ngo5 gam1 jat6 tai2 zo2 bun2 syu1",
+          "zh": "",
+          "en": "I read a/the book today",
+          "lit": ""
+        },
+        {
+          "id": "u2-g16-e06",
+          "jp": "keoi5 dei6 hoi1 zo2 go3 wu6 hau2",
+          "zh": "",
+          "en": "They opened an/the account",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "classifiers",
+        "definiteness"
+      ]
+    },
+    {
+      "id": "u2-g17",
+      "title": "More on classifiers: dropping the noun",
+      "summary": "If it is clear what is meant, the noun can be dropped, but the classifier must still be used.",
+      "body": "If it is clear what is meant, it is possible to drop off the noun, but the classifier must still be used. Note the following question and answer.",
+      "examples": [
+        {
+          "id": "u2-g17-e01",
+          "jp": "A: nei5 jiu3 bin1 zi1 bat1 aa3",
+          "zh": "",
+          "en": "Which pen do you want?",
+          "lit": ""
+        },
+        {
+          "id": "u2-g17-e02",
+          "jp": "B: ngo5 jiu3 ni1 zi1",
+          "zh": "",
+          "en": "I want this one",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "classifiers",
+        "bin1"
+      ]
+    },
+    {
+      "id": "u2-g18",
+      "title": "How about it? hou2 m4 hou2 aa3",
+      "summary": "hou2 m4 hou2 aa3? literally means 'is it good?' but is also used at the end of sentences meaning 'what do you say?', 'how about it?', 'OK?'.",
+      "body": "hou2 m4 hou2 aa3? literally means is it good? But it is also used at the ends of sentences meaning what do you say?, how about it? OK?\n(And there is aa3 at the end of a question sentence again!)",
+      "examples": [
+        {
+          "id": "u2-g18-e01",
+          "jp": "hou2 m4 hou2 aa3?",
+          "zh": "好唔好呀？",
+          "en": "What do you say? How about it? OK?",
+          "lit": "Is it good?"
+        }
+      ],
+      "tags": [
+        "phrases",
+        "aa3",
+        "questions"
+      ]
+    },
+    {
+      "id": "u2-g19",
+      "title": "Numbers",
+      "summary": "The numbers one to ten are single-syllable words; 11 is 10+1, 20 is 2x10, 21 is 2x10+1, and so on.",
+      "body": "The Cantonese number system is very straightforward. The numbers one to ten are all single-syllable words; 11 is 10+1, 12 is 10+2, 13 is 10+3, and so on up to 20 which is 2x10; 21 is 2x10+1, 29 is 2x10+9; 30 is 3x10, 31 is 3x10+1…",
+      "examples": [
+        {
+          "id": "u2-g19-e01",
+          "jp": "ling4",
+          "zh": "零",
+          "en": "0",
+          "lit": ""
+        },
+        {
+          "id": "u2-g19-e02",
+          "jp": "jat1",
+          "zh": "一",
+          "en": "1",
+          "lit": ""
+        },
+        {
+          "id": "u2-g19-e03",
+          "jp": "ji6",
+          "zh": "二",
+          "en": "2",
+          "lit": ""
+        },
+        {
+          "id": "u2-g19-e04",
+          "jp": "saam1",
+          "zh": "三",
+          "en": "3",
+          "lit": ""
+        },
+        {
+          "id": "u2-g19-e05",
+          "jp": "sei3",
+          "zh": "四",
+          "en": "4",
+          "lit": ""
+        },
+        {
+          "id": "u2-g19-e06",
+          "jp": "ng5",
+          "zh": "五",
+          "en": "5",
+          "lit": ""
+        },
+        {
+          "id": "u2-g19-e07",
+          "jp": "luk6",
+          "zh": "六",
+          "en": "6",
+          "lit": ""
+        },
+        {
+          "id": "u2-g19-e08",
+          "jp": "cat1",
+          "zh": "七",
+          "en": "7",
+          "lit": ""
+        },
+        {
+          "id": "u2-g19-e09",
+          "jp": "baat3",
+          "zh": "八",
+          "en": "8",
+          "lit": ""
+        },
+        {
+          "id": "u2-g19-e10",
+          "jp": "gau2",
+          "zh": "九",
+          "en": "9",
+          "lit": ""
+        },
+        {
+          "id": "u2-g19-e11",
+          "jp": "sap6",
+          "zh": "十",
+          "en": "10",
+          "lit": ""
+        },
+        {
+          "id": "u2-g19-e12",
+          "jp": "ji6 sap6",
+          "zh": "二十",
+          "en": "20",
+          "lit": ""
+        },
+        {
+          "id": "u2-g19-e13",
+          "jp": "saam1 sap6",
+          "zh": "三十",
+          "en": "30",
+          "lit": ""
+        },
+        {
+          "id": "u2-g19-e14",
+          "jp": "sei3 sap6",
+          "zh": "四十",
+          "en": "40",
+          "lit": ""
+        },
+        {
+          "id": "u2-g19-e15",
+          "jp": "ng5 sap6",
+          "zh": "五十",
+          "en": "50",
+          "lit": ""
+        },
+        {
+          "id": "u2-g19-e16",
+          "jp": "luk6 sap6",
+          "zh": "六十",
+          "en": "60",
+          "lit": ""
+        },
+        {
+          "id": "u2-g19-e17",
+          "jp": "cat1 sap6",
+          "zh": "七十",
+          "en": "70",
+          "lit": ""
+        },
+        {
+          "id": "u2-g19-e18",
+          "jp": "baat3 sap6",
+          "zh": "八十",
+          "en": "80",
+          "lit": ""
+        },
+        {
+          "id": "u2-g19-e19",
+          "jp": "gau2 sap6",
+          "zh": "九十",
+          "en": "90",
+          "lit": ""
+        },
+        {
+          "id": "u2-g19-e20",
+          "jp": "jat1 baak3",
+          "zh": "一百",
+          "en": "100",
+          "lit": ""
+        },
+        {
+          "id": "u2-g19-e21",
+          "jp": "sap6 jat1",
+          "zh": "十一",
+          "en": "11",
+          "lit": ""
+        },
+        {
+          "id": "u2-g19-e22",
+          "jp": "ji6 sap6 ji6",
+          "zh": "二十二",
+          "en": "22",
+          "lit": ""
+        },
+        {
+          "id": "u2-g19-e23",
+          "jp": "saam1 sap6 saam1",
+          "zh": "三十三",
+          "en": "33",
+          "lit": ""
+        },
+        {
+          "id": "u2-g19-e24",
+          "jp": "sei3 sap6 sei3",
+          "zh": "四十四",
+          "en": "44",
+          "lit": ""
+        },
+        {
+          "id": "u2-g19-e25",
+          "jp": "ng5 sap6 ng5",
+          "zh": "五十五",
+          "en": "55",
+          "lit": ""
+        },
+        {
+          "id": "u2-g19-e26",
+          "jp": "luk6 sap6 luk6",
+          "zh": "六十六",
+          "en": "66",
+          "lit": ""
+        },
+        {
+          "id": "u2-g19-e27",
+          "jp": "cat1 sap6 cat1",
+          "zh": "七十七",
+          "en": "77",
+          "lit": ""
+        },
+        {
+          "id": "u2-g19-e28",
+          "jp": "baat3 sap6 baat3",
+          "zh": "八十八",
+          "en": "88",
+          "lit": ""
+        },
+        {
+          "id": "u2-g19-e29",
+          "jp": "gau2 sap6 gau2",
+          "zh": "九十九",
+          "en": "99",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "numbers"
+      ]
+    },
+    {
+      "id": "u2-g20",
+      "title": "Numbers: loeng5 vs. ji6",
+      "summary": "The number two is not ji6 but loeng5 when it is followed by a classifier; complex numbers ending in two (sap6 ji6) are not affected.",
+      "body": "The whole number system is nice and regular with one exception: the number two is not ji6 but loeng5 when it is followed by a classifier.\nIt is only the number two itself which plays this trick; complex numbers which end in a two are not affected, as you can see from the example of sap6 ji6 zi1 bat1 twelve pens.",
+      "examples": [
+        {
+          "id": "u2-g20-e01",
+          "jp": "jat1, ji6, saam1, sei3",
+          "zh": "一，二，三，四",
+          "en": "One, two, three, four",
+          "lit": ""
+        },
+        {
+          "id": "u2-g20-e02",
+          "jp": "jat1 zi1 bat1, loeng5 zi1 bat1, saam1 zi1 bat1, sei3 zi1 bat1",
+          "zh": "",
+          "en": "One pen, two pens, three pens, four pens",
+          "lit": ""
+        },
+        {
+          "id": "u2-g20-e03",
+          "jp": "sap6 ji6 zi1 bat1",
+          "zh": "",
+          "en": "Twelve pens",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "numbers",
+        "loeng5",
+        "classifiers"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "u2-e1",
+      "title": "Exercise 1",
+      "source": "Unit 2 Personal Property.pdf",
+      "instructions": "Try to answer the following questions:",
+      "type": "reply",
+      "items": [
+        {
+          "id": "u2-e1-i01",
+          "prompt": "gwai3 sing3 aa3?",
+          "answer": "",
+          "answer_en": "",
+          "hint": "What is your surname? Answer with ngo5 sing3 …",
+          "confidence": "none"
+        },
+        {
+          "id": "u2-e1-i02",
+          "prompt": "Wong4 sin1 saang1 hai6 m4 hai6 Zung1 gwok3 jan4 aa3?",
+          "answer": "hai6, Wong4 sin1 saang1 hai6 Zung1 gwok3 jan4",
+          "answer_en": "Yes, Mr. Wong is Chinese",
+          "hint": "Is Mr. Wong Chinese? (see Dialogue 1)",
+          "confidence": "medium"
+        },
+        {
+          "id": "u2-e1-i03",
+          "prompt": "nei5 maai6 m4 maai6 ce1 aa3?",
+          "answer": "",
+          "answer_en": "",
+          "hint": "Are you selling a car? Answer about yourself: maai6 / m4 maai6",
+          "confidence": "none"
+        },
+        {
+          "id": "u2-e1-i04",
+          "prompt": "nei5 jau5 jat6 bun2 pang4 jau5 maa3?",
+          "answer": "",
+          "answer_en": "",
+          "hint": "Do you have Japanese friends? Answer about yourself: jau5 / mou5",
+          "confidence": "none"
+        }
+      ]
+    },
+    {
+      "id": "u2-e2",
+      "title": "Exercise 2",
+      "source": "Unit 2 Personal Property.pdf",
+      "instructions": "Practice saying these sentences",
+      "type": "open",
+      "items": [
+        {
+          "id": "u2-e2-i01",
+          "prompt": "sau2 biu1 tung4 maai4 bat1 dou1 hai6 Ho4 sin1 saang1 ge3.",
+          "answer": "",
+          "answer_en": "",
+          "hint": "The watch and the pen are both Mr. Ho's",
+          "confidence": "none"
+        },
+        {
+          "id": "u2-e2-i02",
+          "prompt": "go2 go3 sau2 biu1 hou2 leng3.",
+          "answer": "",
+          "answer_en": "",
+          "hint": "That watch is very pretty",
+          "confidence": "none"
+        },
+        {
+          "id": "u2-e2-i03",
+          "prompt": "Ho4 sin1 saang1 ci4 di1 heoi3 man6 Wong4 taai3 taai2.",
+          "answer": "",
+          "answer_en": "",
+          "hint": "Mr. Ho will go and ask Mrs. Wong later",
+          "confidence": "none"
+        },
+        {
+          "id": "u2-e2-i04",
+          "prompt": "bin1 zi1 bat1 hai6 Zoeng1 siu2 ze2 ge3?",
+          "answer": "",
+          "answer_en": "",
+          "hint": "Which pen is Miss Cheung's?",
+          "confidence": "none"
+        }
+      ]
+    },
+    {
+      "id": "u2-e3",
+      "title": "Exercise 3",
+      "source": "Unit 2 Personal Property.pdf",
+      "instructions": "Fill in the blanks to make correct and meaningful sentences",
+      "type": "fill",
+      "items": [
+        {
+          "id": "u2-e3-i01",
+          "prompt": "Ni1 ____ sau2 biu1 hai6 Ho4 taai3 taai2 ge3.",
+          "answer": "Ni1 go3 sau2 biu1 hai6 Ho4 taai3 taai2 ge3.",
+          "answer_en": "This watch is Mrs. Ho's",
+          "hint": "Classifier",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e3-i02",
+          "prompt": "Nei5 hai6 m4 hai6 Jing1-gwok3 ____ aa3?",
+          "answer": "Nei5 hai6 m4 hai6 Jing1-gwok3 jan4 aa3?",
+          "answer_en": "Are you British?",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e3-i03",
+          "prompt": "Ngo5 gu2 Jat6-____ ce1 hou2 gwai3.",
+          "answer": "Ngo5 gu2 Jat6-bun2 ce1 hou2 gwai3.",
+          "answer_en": "I think Japanese cars are very expensive",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e3-i04",
+          "prompt": "Wong4 siu2 ze2 leng3 ____ leng3 aa3?",
+          "answer": "Wong4 siu2 ze2 leng3 m4 leng3 aa3?",
+          "answer_en": "Is Miss Wong pretty?",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e3-i05",
+          "prompt": "Nei5 soeng2 maai5 ____-je5 aa3?",
+          "answer": "Nei5 soeng2 maai5 mat1-je5 aa3?",
+          "answer_en": "What do you want to buy?",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e3-i06",
+          "prompt": "____-go3 hai6 Zoeng1 siu2 ze2 aa3?",
+          "answer": "Bin1-go3 hai6 Zoeng1 siu2 ze2 aa3?",
+          "answer_en": "Who is Miss Cheung?",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e3-i07",
+          "prompt": "Keoi5 m4 hai6 Jing1 gwok3 jan4, ____ m4 hai6 Mei5 gwok3 jan4; keoi5 hai6 Jat6 bun2 jan4.",
+          "answer": "Keoi5 m4 hai6 Jing1 gwok3 jan4, dou1 m4 hai6 Mei5 gwok3 jan4; keoi5 hai6 Jat6 bun2 jan4.",
+          "answer_en": "He is not British, nor is he American; he is Japanese",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e3-i08",
+          "prompt": "Ngo5 ____ Wong4 sin1 saang1, ‘Nei5 jau5 Jing1-gwok3 ce1 maa3?’",
+          "answer": "Ngo5 man6 Wong4 sin1 saang1, ‘Nei5 jau5 Jing1-gwok3 ce1 maa3?’",
+          "answer_en": "I asked Mr. Wong, 'Do you have a British car?'",
+          "hint": "",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "id": "u2-e4",
+      "title": "Exercise 4",
+      "source": "Unit 2 Personal Property.pdf",
+      "instructions": "Make up your own conversation.",
+      "type": "open",
+      "items": [
+        {
+          "id": "u2-e4-i01",
+          "prompt": "Tell Mr. Wong that you want to go to England to buy a British car. He tells you that British cars are expensive. Ask him what kind of car he's got. He says that he has a British car too.",
+          "answer": "",
+          "answer_en": "",
+          "hint": "Useful: soeng2 heoi3 Jing1 gwok3 maai5 Jing1 gwok3 ce1; hou2 gwai3; mat1 je5 ce1; dou1",
+          "confidence": "none"
+        }
+      ]
+    },
+    {
+      "id": "u2-e5",
+      "title": "Exercise 5",
+      "source": "Unit 2 Personal Property.pdf",
+      "instructions": "In this picture all the women are American, all the men are Chinese, all the children are Japanese. Try saying in Cantonese how many of each there are, say how many watches Mr Wong is selling and describe what the woman is doing with her money at the stationery stall.",
+      "type": "open",
+      "items": [
+        {
+          "id": "u2-e5-i01",
+          "prompt": "Describe the picture (Wong's Watches / Pong's Pens stalls): how many American women, Chinese men and Japanese children; how many watches Mr Wong is selling; what the woman at the stationery stall is doing with her money.",
+          "answer": "",
+          "answer_en": "",
+          "hint": "Number + go3 + jan4; Wong4 sin1 saang1 maai6 … go3 sau2 biu1; maai5 … zi1 bat1",
+          "confidence": "none"
+        }
+      ]
+    },
+    {
+      "id": "u2-e6",
+      "title": "Practice 1: Supplying the missing pronouns",
+      "source": "Unit 1-2 Practice.pdf",
+      "instructions": "Supplying the missing pronouns:",
+      "type": "fill",
+      "items": [
+        {
+          "id": "u2-e6-i01",
+          "prompt": "_____ zyu6 hai2 gau2 lung4",
+          "answer": "ngo5 zyu6 hai2 gau2 lung4",
+          "answer_en": "I live in Kowloon",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e6-i02",
+          "prompt": "hou2 hoi1 sam1 gin3 dou2 _____",
+          "answer": "hou2 hoi1 sam1 gin3 dou2 nei5",
+          "answer_en": "Glad to see you",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e6-i03",
+          "prompt": "_____ sik1 _____",
+          "answer": "ngo5 dei6 sik1 keoi5 dei6",
+          "answer_en": "We know them",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e6-i04",
+          "prompt": "_____ hai6 go3 hou2 ji1 sang1",
+          "answer": "nei5 hai6 go3 hou2 ji1 sang1",
+          "answer_en": "You are a nice doctor",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e6-i05",
+          "prompt": "_____ hai6 hok6 saang1",
+          "answer": "nei5 dei6 hai6 hok6 saang1",
+          "answer_en": "You are students",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e6-i06",
+          "prompt": "_____ hou2 zung1 ji3 jam1 ngok6",
+          "answer": "keoi5 hou2 zung1 ji3 jam1 ngok6",
+          "answer_en": "He likes music",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e6-i07",
+          "prompt": "_____ daa2 zo2 din6 waa2 bei2 lou5 baan2",
+          "answer": "ngo5 daa2 zo2 din6 waa2 bei2 lou5 baan2",
+          "answer_en": "I phoned the boss",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e6-i08",
+          "prompt": "_____ heoi3 gwo3 ou3 mun2",
+          "answer": "keoi5 dei6 heoi3 gwo3 ou3 mun2",
+          "answer_en": "They've been to Macau",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e6-i09",
+          "prompt": "_____ gei3 dak1 _____",
+          "answer": "keoi5 gei3 dak1 ngo5",
+          "answer_en": "She remembered me",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e6-i10",
+          "prompt": "_____ hou2 gwaa3 zyu6 _____",
+          "answer": "keoi5 dei6 hou2 gwaa3 zyu6 ngo5 dei6",
+          "answer_en": "They missed us very much",
+          "hint": "",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "id": "u2-e7",
+      "title": "Practice 2: Replace phrases with pronouns",
+      "source": "Unit 1-2 Practice.pdf",
+      "instructions": "Replace the italicized phrases (shown in [brackets]) with pronouns in the following sentences:",
+      "type": "fill",
+      "items": [
+        {
+          "id": "u2-e7-i01",
+          "prompt": "[siu2 ming4] hou2 leng3 zai2",
+          "answer": "keoi5 hou2 leng3 zai2",
+          "answer_en": "He is very handsome",
+          "hint": "Ming is very handsome",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e7-i02",
+          "prompt": "ngo5 heoi3 tai2 [ngo5 aa3 maa4]",
+          "answer": "ngo5 heoi3 tai2 keoi5",
+          "answer_en": "I'm going to visit her",
+          "hint": "I'm going to visit my grandmother",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e7-i03",
+          "prompt": "maa5 ji1 sang1 ji1 hou2 zo2 [gei2 go3 beng6 jan4]",
+          "answer": "maa5 ji1 sang1 ji1 hou2 zo2 keoi5 dei6",
+          "answer_en": "Dr. Ma has cured them",
+          "hint": "Dr. Ma has cured several patients",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e7-i04",
+          "prompt": "Susan gaa3 zo2 [John] go3 sai3 lou2",
+          "answer": "Susan gaa3 zo2 keoi5 go3 sai3 lou2",
+          "answer_en": "Susan has married his brother",
+          "hint": "Susan has married John's brother",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e7-i05",
+          "prompt": "[di1 hok6 saang1] ge3 gung1 fo3 taai3 do1 laa3",
+          "answer": "keoi5 dei6 ge3 gung1 fo3 taai3 do1 laa3",
+          "answer_en": "Their homework is too much",
+          "hint": "The students' homework is too much",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e7-i06",
+          "prompt": "[lou5 baan2 tung4 go2 go3 bei3 syu1] git3 zo2 fan1",
+          "answer": "keoi5 dei6 git3 zo2 fan1",
+          "answer_en": "They got married",
+          "hint": "The boss and the secretary got married",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e7-i07",
+          "prompt": "ngo5 hou2 gwaa3 zyu6 [go3 neoi2]",
+          "answer": "ngo5 hou2 gwaa3 zyu6 keoi5",
+          "answer_en": "I'm missing her very much",
+          "hint": "I'm missing my daughter very much",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e7-i08",
+          "prompt": "keoi5 tai2 zo2 [di1 tung4 si6] ge3 seon3",
+          "answer": "keoi5 tai2 zo2 keoi5 dei6 ge3 seon3",
+          "answer_en": "She read their letter(s)",
+          "hint": "She read her colleagues' letter(s)",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e7-i09",
+          "prompt": "[ngo5 tung4 ngo5 sai3 lou2] jat1 cai4 hap6 zok3",
+          "answer": "ngo5 dei6 jat1 cai4 hap6 zok3",
+          "answer_en": "We collaborate together",
+          "hint": "My brother and I collaborate together",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e7-i10",
+          "prompt": "[nei5 tung4 nei5 go3 zai2] hou2 ci5 joeng2",
+          "answer": "nei5 dei6 hou2 ci5 joeng2",
+          "answer_en": "You look like each other",
+          "hint": "You and your son look like each other",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "id": "u2-e8",
+      "title": "Practice 3: Answer the questions",
+      "source": "Unit 1-2 Practice.pdf",
+      "instructions": "Answer the following questions, considering whether a pronoun is needed or not:",
+      "type": "reply",
+      "items": [
+        {
+          "id": "u2-e8-i01",
+          "prompt": "Nei5 zung1 m4 zung1 ji3 Hoeng1 gong2 aa3?",
+          "answer": "",
+          "answer_en": "",
+          "hint": "Do you like Hong Kong?",
+          "confidence": "none"
+        },
+        {
+          "id": "u2-e8-i02",
+          "prompt": "Kam4 jat6 tin1 hei3 dim2 aa3?",
+          "answer": "",
+          "answer_en": "",
+          "hint": "How was the weather yesterday?",
+          "confidence": "none"
+        },
+        {
+          "id": "u2-e8-i03",
+          "prompt": "Bin1 go3 ho2 ji5 bong1 ngo5 aa3?",
+          "answer": "",
+          "answer_en": "",
+          "hint": "Who can help me?",
+          "confidence": "none"
+        },
+        {
+          "id": "u2-e8-i04",
+          "prompt": "Nei5 tou5 m4 tou5 ngo6 aa3?",
+          "answer": "",
+          "answer_en": "",
+          "hint": "Are you hungry?",
+          "confidence": "none"
+        },
+        {
+          "id": "u2-e8-i05",
+          "prompt": "Keoi5 dei6 zau2 zo2 mei6 aa3?",
+          "answer": "",
+          "answer_en": "",
+          "hint": "Have they left?",
+          "confidence": "none"
+        },
+        {
+          "id": "u2-e8-i06",
+          "prompt": "Keoi5 ze3 zo2 cin2 bei2 bin1 go3 aa3?",
+          "answer": "",
+          "answer_en": "",
+          "hint": "Who did he lend money to?",
+          "confidence": "none"
+        },
+        {
+          "id": "u2-e8-i07",
+          "prompt": "Nei5 maai6 zo2 gaa3 ce1 mei6 aa3?",
+          "answer": "",
+          "answer_en": "",
+          "hint": "Have you sold the car?",
+          "confidence": "none"
+        },
+        {
+          "id": "u2-e8-i08",
+          "prompt": "Fuk1 waa2 leng3 m4 leng3 aa3?",
+          "answer": "",
+          "answer_en": "",
+          "hint": "Is the picture beautiful?",
+          "confidence": "none"
+        },
+        {
+          "id": "u2-e8-i09",
+          "prompt": "Gaa3 ce1 zing2 hou2 mei6 aa3?",
+          "answer": "",
+          "answer_en": "",
+          "hint": "Is the car mended?",
+          "confidence": "none"
+        },
+        {
+          "id": "u2-e8-i10",
+          "prompt": "Di1 gu2 piu3 jau5 mou5 sing1 aa3?",
+          "answer": "",
+          "answer_en": "",
+          "hint": "Have the shares gone up?",
+          "confidence": "none"
+        }
+      ]
+    },
+    {
+      "id": "u2-e9",
+      "title": "Practice 4: hai6 or hai2",
+      "source": "Unit 1-2 Practice.pdf",
+      "instructions": "Choose hai6 or hai2 as required:",
+      "type": "fill",
+      "items": [
+        {
+          "id": "u2-e9-i01",
+          "prompt": "keoi5 dei6 ______ mei5 gwok3 jan4",
+          "answer": "keoi5 dei6 hai6 mei5 gwok3 jan4",
+          "answer_en": "They are American",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e9-i02",
+          "prompt": "keoi5 ______ ngo5 sai3 lou2",
+          "answer": "keoi5 hai6 ngo5 sai3 lou2",
+          "answer_en": "He's my brother",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e9-i03",
+          "prompt": "keoi5 ______ hok6 haau6",
+          "answer": "keoi5 hai2 hok6 haau6",
+          "answer_en": "She's at school",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e9-i04",
+          "prompt": "keoi5 dei6 m4 ______ Hoeng1 gong2",
+          "answer": "keoi5 dei6 m4 hai2 Hoeng1 gong2",
+          "answer_en": "They are not in Hong Kong",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e9-i05",
+          "prompt": "ngo5 _____ Soeng6 hoi2 jan4",
+          "answer": "ngo5 hai6 Soeng6 hoi2 jan4",
+          "answer_en": "I'm Shanghainese",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e9-i06",
+          "prompt": "go3 doi2 ______ keoi5 ge3",
+          "answer": "go3 doi2 hai6 keoi5 ge3",
+          "answer_en": "The bag is his",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e9-i07",
+          "prompt": "Lei5 saang1 ______ gung1 si1",
+          "answer": "Lei5 saang1 hai2 gung1 si1",
+          "answer_en": "Mr Lee is at the office",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e9-i08",
+          "prompt": "ngo5 dei6 ______ pang4 jau5",
+          "answer": "ngo5 dei6 hai6 pang4 jau5",
+          "answer_en": "We're friends",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e9-i09",
+          "prompt": "ngo5 go3 zai2 ______ nguk1 kei2",
+          "answer": "ngo5 go3 zai2 hai2 nguk1 kei2",
+          "answer_en": "My son is home",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e9-i10",
+          "prompt": "keoi5 ______ ngo5 tung4 hok6",
+          "answer": "keoi5 hai6 ngo5 tung4 hok6",
+          "answer_en": "He's my classmate",
+          "hint": "",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "id": "u2-e10",
+      "title": "Practice 5: Possessive markers",
+      "source": "Unit 1-2 Practice.pdf",
+      "instructions": "Express the following by using the possessive marker provided (i.e. classifier, ge3, or di1). Example: my book (syu1: bun2) —> ngo5 bun2 syu1",
+      "type": "translate",
+      "items": [
+        {
+          "id": "u2-e10-i01",
+          "prompt": "Your nose (bei6: go3)",
+          "answer": "nei5 go3 bei6",
+          "answer_en": "Your nose",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e10-i02",
+          "prompt": "Her friends (pang4 jau5: di1)",
+          "answer": "keoi5 di1 pang4 jau5",
+          "answer_en": "Her friends",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e10-i03",
+          "prompt": "Her eyes (ngaan5: deoi3)",
+          "answer": "keoi5 deoi3 ngaan5",
+          "answer_en": "Her eyes",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e10-i04",
+          "prompt": "His desk (toi2: zoeng1)",
+          "answer": "keoi5 zoeng1 toi2",
+          "answer_en": "His desk",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e10-i05",
+          "prompt": "My letters (seon3: ge3)",
+          "answer": "ngo5 ge3 seon3",
+          "answer_en": "My letters",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e10-i06",
+          "prompt": "Her handbag (sau2 doi2: go3)",
+          "answer": "keoi5 go3 sau2 doi2",
+          "answer_en": "Her handbag",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e10-i07",
+          "prompt": "My foot (geok3: zek3)",
+          "answer": "ngo5 zek3 geok3",
+          "answer_en": "My foot",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e10-i08",
+          "prompt": "Hong Kong's weather (tin1 hei3: ge3)",
+          "answer": "Hoeng1 gong2 ge3 tin1 hei3",
+          "answer_en": "Hong Kong's weather",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e10-i09",
+          "prompt": "Today's news (san1 man2: di1)",
+          "answer": "gam1 jat6 di1 san1 man2",
+          "answer_en": "Today's news",
+          "hint": "gam1 jat6 = today (see grammar: ngo5 gam1 jat6 tai2 zo2 bun2 syu1)",
+          "confidence": "medium"
+        },
+        {
+          "id": "u2-e10-i10",
+          "prompt": "Tomorrow's temperature (hei3 wan1: ge3)",
+          "answer": "",
+          "answer_en": "",
+          "hint": "'Tomorrow' has not been taught in these units; pattern is [tomorrow] ge3 hei3 wan1",
+          "confidence": "none"
+        }
+      ]
+    },
+    {
+      "id": "u2-e11",
+      "title": "Practice 6: Appropriate possessive marker",
+      "source": "Unit 1-2 Practice.pdf",
+      "instructions": "Express the following by using the appropriate possessive marker. Example: My computer is too slow —> ngo5 go3 din6 nou5 taai3 maan6",
+      "type": "fill",
+      "items": [
+        {
+          "id": "u2-e11-i01",
+          "prompt": "Compliment someone on their shoes (deoi3): ____ ____ haai4 hou2 leng3 aa3",
+          "answer": "nei5 deoi3 haai4 hou2 leng3 aa3",
+          "answer_en": "Your shoes are very pretty",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e11-i02",
+          "prompt": "Ask for the price of your friend's coat (gin6): ____ ____ lau1 gei2 do1 cin2 aa3?",
+          "answer": "nei5 gin6 lau1 gei2 do1 cin2 aa3?",
+          "answer_en": "How much is your coat?",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e11-i03",
+          "prompt": "Describe Hong Kong's airport (go3) to a friend: ____ ____ gei1 coeng4 hou2 daai6 gaa3",
+          "answer": "Hoeng1 gong2 go3 gei1 coeng4 hou2 daai6 gaa3",
+          "answer_en": "Hong Kong's airport is very big",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e11-i04",
+          "prompt": "My sports car (gaa3) has broken down: ____ ____ paau2 ce1 waai6 zo2",
+          "answer": "ngo5 gaa3 paau2 ce1 waai6 zo2",
+          "answer_en": "My sports car has broken down",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e11-i05",
+          "prompt": "More than one of my relatives (ge3) is coming to see me: ____ ____ can1 cik1 lai4 taam3 ngo5",
+          "answer": "ngo5 ge3 can1 cik1 lai4 taam3 ngo5",
+          "answer_en": "My relatives are coming to see me",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e11-i06",
+          "prompt": "My wife (go3) is waiting for me: ____ ____ taai3 taai2 dang2 gan2 ngo5",
+          "answer": "ngo5 go3 taai3 taai2 dang2 gan2 ngo5",
+          "answer_en": "My wife is waiting for me",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e11-i07",
+          "prompt": "My son (go3) likes to sing: ____ ____ zai2 zung1 ji3 coeng3 go1",
+          "answer": "ngo5 go3 zai2 zung1 ji3 coeng3 go1",
+          "answer_en": "My son likes to sing",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e11-i08",
+          "prompt": "My children (di1) are in secondary school: ____ ____ zai2 neoi2 duk6 gan2 zung1 hok6",
+          "answer": "ngo5 di1 zai2 neoi2 duk6 gan2 zung1 hok6",
+          "answer_en": "My children are in secondary school",
+          "hint": "",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "id": "u2-e12",
+      "title": "Practice 7: Translate into Cantonese",
+      "source": "Unit 1-2 Practice.pdf",
+      "instructions": "Translate into Cantonese:",
+      "type": "translate",
+      "items": [
+        {
+          "id": "u2-e12-i01",
+          "prompt": "This watch (zek3 sau2 biu1) is mine",
+          "answer": "ni1 zek3 sau2 biu1 hai6 ngo5 ge3",
+          "answer_en": "This watch is mine",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e12-i02",
+          "prompt": "The piano (go3 gong3 kam4) is hers",
+          "answer": "go3 gong3 kam4 hai6 keoi5 ge3",
+          "answer_en": "The piano is hers",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e12-i03",
+          "prompt": "That house (gaan1 nguk1) is theirs",
+          "answer": "go2 gaan1 nguk1 hai6 keoi5 dei6 ge3",
+          "answer_en": "That house is theirs",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e12-i04",
+          "prompt": "These books (di1 syu1) are yours",
+          "answer": "ni1 di1 syu1 hai6 nei5 ge3",
+          "answer_en": "These books are yours",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e12-i05",
+          "prompt": "Those pictures (di1 waa2) are Miss Chan's",
+          "answer": "go2 di1 waa2 hai6 Can4 siu2 ze2 ge3",
+          "answer_en": "Those pictures are Miss Chan's",
+          "hint": "Chan = Can4",
+          "confidence": "medium"
+        },
+        {
+          "id": "u2-e12-i06",
+          "prompt": "This place (go3 wai2) is ours",
+          "answer": "ni1 go3 wai2 hai6 ngo5 dei6 ge3",
+          "answer_en": "This place is ours",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e12-i07",
+          "prompt": "This office (go3 baan6 gung1 sat1) is Mr. Lam's",
+          "answer": "ni1 go3 baan6 gung1 sat1 hai6 Lam4 sin1 saang1 ge3",
+          "answer_en": "This office is Mr. Lam's",
+          "hint": "Lam = Lam4",
+          "confidence": "medium"
+        },
+        {
+          "id": "u2-e12-i08",
+          "prompt": "The money (di1 cin2) is my wife's.",
+          "answer": "di1 cin2 hai6 ngo5 taai3 taai2 ge3",
+          "answer_en": "The money is my wife's",
+          "hint": "",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "id": "u2-e13",
+      "title": "Practice 8: Fill the gap with a suitable measure",
+      "source": "Unit 1-2 Practice.pdf",
+      "instructions": "Fill the gap with a suitable measure:",
+      "type": "fill",
+      "items": [
+        {
+          "id": "u2-e13-i01",
+          "prompt": "jat1 ______ baak6 coi3 (Chinese cabbage)",
+          "answer": "jat1 gan1 baak6 coi3",
+          "answer_en": "A catty of Chinese cabbage",
+          "hint": "Measure taught: gan1 catty (jat1 gan1 coi3)",
+          "confidence": "medium"
+        },
+        {
+          "id": "u2-e13-i02",
+          "prompt": "bun3 ______ mui4 gwai3 faa1 (roses)",
+          "answer": "bun3 daa1 mui4 gwai3 faa1",
+          "answer_en": "Half a dozen roses",
+          "hint": "bun3 daa1 = half a dozen",
+          "confidence": "medium"
+        },
+        {
+          "id": "u2-e13-i03",
+          "prompt": "jat1 ______ seon3 (letter)",
+          "answer": "",
+          "answer_en": "",
+          "hint": "The measure for letters has not been taught in these units",
+          "confidence": "none"
+        },
+        {
+          "id": "u2-e13-i04",
+          "prompt": "jat1 ______ zyu1 juk6 (pork)",
+          "answer": "jat1 bong6 zyu1 juk6",
+          "answer_en": "A pound of pork",
+          "hint": "bong6 = pound (loeng5 bong6 ngau4 juk6)",
+          "confidence": "medium"
+        },
+        {
+          "id": "u2-e13-i05",
+          "prompt": "jat1 ______ si4 gaan3 (time)",
+          "answer": "",
+          "answer_en": "",
+          "hint": "The measure for a period of time has not been taught in these units",
+          "confidence": "none"
+        },
+        {
+          "id": "u2-e13-i06",
+          "prompt": "loeng5 ______ be1 zau2 (beer)",
+          "answer": "loeng5 bui1 be1 zau2",
+          "answer_en": "Two glasses of beer",
+          "hint": "bui1 glass; zeon1 bottle also possible (Practice 9)",
+          "confidence": "medium"
+        },
+        {
+          "id": "u2-e13-i07",
+          "prompt": "jat1 ______ to1 haai2 (slippers)",
+          "answer": "jat1 deoi3 to1 haai2",
+          "answer_en": "A pair of slippers",
+          "hint": "deoi3 = pair",
+          "confidence": "medium"
+        },
+        {
+          "id": "u2-e13-i08",
+          "prompt": "gei2 ______ sai1 zong1 (suit)",
+          "answer": "gei2 tou3 sai1 zong1",
+          "answer_en": "Several suits",
+          "hint": "tou3 = set (jat1 tou3 san1 saam1)",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "id": "u2-e14",
+      "title": "Practice 9: Order at a restaurant",
+      "source": "Unit 1-2 Practice.pdf",
+      "instructions": "Order the following items at a restaurant, adding m4 goi1 for politeness at the beginning or end of the sentence:",
+      "type": "translate",
+      "items": [
+        {
+          "id": "u2-e14-i01",
+          "prompt": "Two glasses (bui1) of red wine (hung4 zau2)",
+          "answer": "m4 goi1, loeng5 bui1 hung4 zau2",
+          "answer_en": "Two glasses of red wine, please",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e14-i02",
+          "prompt": "A dish (dip6) of fried noodles (caau2 min6)",
+          "answer": "m4 goi1, jat1 dip6 caau2 min6",
+          "answer_en": "A dish of fried noodles, please",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e14-i03",
+          "prompt": "Three bowls (wun2) of rice (faan6)",
+          "answer": "m4 goi1, saam1 wun2 faan6",
+          "answer_en": "Three bowls of rice, please",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e14-i04",
+          "prompt": "Another pair (deoi3) of chopsticks (faai3 zi2)",
+          "answer": "m4 goi1, do1 jat1 deoi3 faai3 zi2",
+          "answer_en": "Another pair of chopsticks, please",
+          "hint": "do1 jat1 = another (do1 jat1 go3 bui1)",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e14-i05",
+          "prompt": "A bottle (zeon1) of water (seoi2)",
+          "answer": "m4 goi1, jat1 zeon1 seoi2",
+          "answer_en": "A bottle of water, please",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e14-i06",
+          "prompt": "A menu (coi3 paai2)",
+          "answer": "m4 goi1, jat1 go3 coi3 paai2",
+          "answer_en": "A menu, please",
+          "hint": "No classifier given; go3 is the general classifier",
+          "confidence": "medium"
+        },
+        {
+          "id": "u2-e14-i07",
+          "prompt": "Two wine glasses (zau2 bui1)",
+          "answer": "m4 goi1, loeng5 go3 zau2 bui1",
+          "answer_en": "Two wine glasses, please",
+          "hint": "Container words used as nouns take go3",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e14-i08",
+          "prompt": "A pot (wu4) of hot water (jit6 seoi2)",
+          "answer": "m4 goi1, jat1 wu4 jit6 seoi2",
+          "answer_en": "A pot of hot water, please",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e14-i09",
+          "prompt": "A piece (gin6) of cake (daan3 gou1)",
+          "answer": "m4 goi1, jat1 gin6 daan3 gou1",
+          "answer_en": "A piece of cake, please",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e14-i10",
+          "prompt": "A cup (bui1) of coffee (gaa3 fe1)",
+          "answer": "m4 goi1, jat1 bui1 gaa3 fe1",
+          "answer_en": "A cup of coffee, please",
+          "hint": "",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "id": "u2-e15",
+      "title": "Practice 10: Match items with classifiers",
+      "source": "Unit 1-2 Practice.pdf",
+      "instructions": "Match the following items with the appropriate classifier or measures. A. Clothing: A gin6, B tiu4, C deng2, D zek3, E tou3. B. Stationery: A fuk1, B baa2, C zoeng1, D zi1, E faai3.",
+      "type": "fill",
+      "items": [
+        {
+          "id": "u2-e15-i01",
+          "prompt": "A1. taai1 (Tie)",
+          "answer": "tiu4 (B)",
+          "answer_en": "Tie: tiu4",
+          "hint": "Long and narrow",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e15-i02",
+          "prompt": "A2. haai4 ((One) shoe)",
+          "answer": "zek3 (D)",
+          "answer_en": "One shoe: zek3",
+          "hint": "One of a pair",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e15-i03",
+          "prompt": "A3. sai1 zong1 (suit)",
+          "answer": "tou3 (E)",
+          "answer_en": "Suit: tou3",
+          "hint": "A set",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e15-i04",
+          "prompt": "A4. mou5 (hat)",
+          "answer": "deng2 (C)",
+          "answer_en": "Hat: deng2",
+          "hint": "By elimination; deng2 is not on the unit slides",
+          "confidence": "medium"
+        },
+        {
+          "id": "u2-e15-i05",
+          "prompt": "A5. lau1 (Coat)",
+          "answer": "gin6 (A)",
+          "answer_en": "Coat: gin6",
+          "hint": "Most clothes",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e15-i06",
+          "prompt": "B1. gaau3 zin2 (Scissors)",
+          "answer": "baa2 (B)",
+          "answer_en": "Scissors: baa2",
+          "hint": "jat1 baa2 gaau3 zin2 (collective classifiers slide)",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e15-i07",
+          "prompt": "B2. Bat1 (Pen)",
+          "answer": "zi1 (D)",
+          "answer_en": "Pen: zi1",
+          "hint": "Cylindrical",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e15-i08",
+          "prompt": "B3. Baan5 (Board)",
+          "answer": "faai3 (E)",
+          "answer_en": "Board: faai3",
+          "hint": "Vertical surface",
+          "confidence": "medium"
+        },
+        {
+          "id": "u2-e15-i09",
+          "prompt": "B4. jau4 waa2 (Oil painting)",
+          "answer": "fuk1 (A)",
+          "answer_en": "Oil painting: fuk1",
+          "hint": "Square/rectangular (jat1 fuk1 waa2)",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e15-i10",
+          "prompt": "B5. kaa1 pin2 (Business card)",
+          "answer": "zoeng1 (C)",
+          "answer_en": "Business card: zoeng1",
+          "hint": "Flat surface",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "id": "u2-e16",
+      "title": "Practice 11: Replace ge3 with a classifier",
+      "source": "Unit 1-2 Practice.pdf",
+      "instructions": "Choose the appropriate classifier to replace ge3 in the following possessive expressions: A zoeng1, B tiu4, C zek3, D gaa3, E dou6.",
+      "type": "fill",
+      "items": [
+        {
+          "id": "u2-e16-i01",
+          "prompt": "keoi5 ge3 sau2 biu1 (Her watch)",
+          "answer": "keoi5 zek3 sau2 biu1 (C)",
+          "answer_en": "Her watch",
+          "hint": "zek3 sau2 biu1 (Practice 7)",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e16-i02",
+          "prompt": "lou5 baan2 ge3 toi2 (The boss's desk)",
+          "answer": "lou5 baan2 zoeng1 toi2 (A)",
+          "answer_en": "The boss's desk",
+          "hint": "Flat surface",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e16-i03",
+          "prompt": "go2 cang4 lau2 ge3 mun4 (The door of that flat)",
+          "answer": "go2 cang4 lau2 dou6 mun4 (E)",
+          "answer_en": "The door of that flat",
+          "hint": "By elimination; dou6 is not on the unit slides",
+          "confidence": "medium"
+        },
+        {
+          "id": "u2-e16-i04",
+          "prompt": "ngo5 ge3 so2 si4 (My key)",
+          "answer": "ngo5 tiu4 so2 si4 (B)",
+          "answer_en": "My key",
+          "hint": "ni1 tiu4 so2 si4 (grammar slide)",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e16-i05",
+          "prompt": "nei5 ge3 soeng2 gei1 (Your camera)",
+          "answer": "nei5 gaa3 soeng2 gei1 (D)",
+          "answer_en": "Your camera",
+          "hint": "Machines take gaa3",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "id": "u2-e17",
+      "title": "Dialogue 1 questions: True or false?",
+      "source": "Unit 2 Personal Property.pdf",
+      "instructions": "True or false? (after Dialogue 1)",
+      "type": "truefalse",
+      "items": [
+        {
+          "id": "u2-e17-i01",
+          "prompt": "Wong4 Gwok3 Mei5 sin1 saang1 soeng2 maai6 ce1.",
+          "answer": "False",
+          "answer_en": "Mr. Wong Gwok Mei wants to buy the car; it is the lady who wants to sell",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e17-i02",
+          "prompt": "Wong4 sin1 saang1 soeng2 maai5 Jat6 bun2 ce1.",
+          "answer": "False",
+          "answer_en": "He wants to buy an American car",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u2-e17-i03",
+          "prompt": "Ho4 sin1 saang1, Wong4 sin1 saang1 keoi5 dei6 hai6 pang4 jau5.",
+          "answer": "False",
+          "answer_en": "The dialogue only says the lady is Mr. Wong's friend",
+          "hint": "",
+          "confidence": "medium"
+        },
+        {
+          "id": "u2-e17-i04",
+          "prompt": "Wong4 taai3 taai2 wan2 Wong4 sin1 saang1.",
+          "answer": "False",
+          "answer_en": "The lady's surname is not given; Mr. Ho just addresses her as taai3 taai2",
+          "hint": "",
+          "confidence": "medium"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "u2-n1",
+      "title": "The Magic of Numbers",
+      "body": "Cantonese people are very interested in numbers and many people believe that numbers can influence fate.\n(Lucky) baat3 eight — sounds like faat3 get rich.\n(Unlucky) sei3 four — sounds like sei2 to die.\n(Lucky) ji6 baat3 two eight — sounds like ji6 faat3 easy to get rich.\n(Unlucky) ng5 baat3 five eight — sounds like m4 faat3 not get rich.\nA Chinese buyer recently insisted on paying $280,000 for a house in the south of England rather than the asking price of $279,500 believing that the larger sum was much luckier sounding! For many years the Hong Kong government auctioned ‘lucky’ car registration numbers for charity; an astronomical price was paid for 8888, which adorned one of the territory’s many Rolls-Royces."
+    }
+  ]
+}

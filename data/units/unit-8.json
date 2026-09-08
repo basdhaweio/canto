@@ -1,0 +1,468 @@
+{
+  "id": "unit-8",
+  "number": 8,
+  "title": "Weather",
+  "sources": ["Unit 8 Weather.pdf"],
+  "goals": [],
+  "vocab": [
+    { "id": "u8-v001", "zh": "天气", "jp": "tin1 hei3", "en": "Weather", "section": "Dialogue 1", "pos": "noun", "notes": "" },
+    { "id": "u8-v002", "zh": "渐渐", "jp": "zim6 zim6", "en": "Gradually", "section": "Dialogue 1", "pos": "", "notes": "" },
+    { "id": "u8-v003", "zh": "冷", "jp": "laang5", "en": "Cold", "section": "Dialogue 1", "pos": "adj", "notes": "" },
+    { "id": "u8-v004", "zh": "晒太阳", "jp": "saai3 taai3 joeng4", "en": "To sunbathe", "section": "Dialogue 1", "pos": "verb", "notes": "" },
+    { "id": "u8-v005", "zh": "怕", "jp": "paa3", "en": "To fear; to dislike", "section": "Dialogue 1", "pos": "verb", "notes": "" },
+    { "id": "u8-v006", "zh": "天文台", "jp": "tin1 man4 toi4", "en": "Observatory", "section": "Dialogue 1", "pos": "noun", "notes": "" },
+    { "id": "u8-v007", "zh": "落雨", "jp": "lok6 jyu5", "en": "To rain", "section": "Dialogue 1", "pos": "verb", "notes": "" },
+    { "id": "u8-v008", "zh": "仲", "jp": "zung6", "en": "In addition", "section": "Dialogue 1", "pos": "", "notes": "Adverb; the final particle tim1 is usually added to back it up" },
+    { "id": "u8-v009", "zh": "会", "jp": "wui5", "en": "It is likely that", "section": "Dialogue 1", "pos": "", "notes": "" },
+    { "id": "u8-v010", "zh": "落雪", "jp": "lok6 syut3", "en": "To snow", "section": "Dialogue 1", "pos": "verb", "notes": "" },
+    { "id": "u8-v011", "zh": "添", "jp": "tim1", "en": "(final particle) as well, also", "section": "Dialogue 1", "pos": "particle", "notes": "" },
+    { "id": "u8-v012", "zh": "已经", "jp": "ji5 ging1", "en": "Already", "section": "Dialogue 1", "pos": "", "notes": "" },
+    { "id": "u8-v013", "zh": "冷天", "jp": "laang5 tin1", "en": "Cold weather, winter", "section": "Dialogue 1", "pos": "noun", "notes": "" },
+    { "id": "u8-v014", "zh": "衫", "jp": "saam1", "en": "Clothing", "section": "Dialogue 1", "pos": "noun", "notes": "" },
+    { "id": "u8-v015", "zh": "听日", "jp": "ting1 jat6", "en": "Tomorrow", "section": "Dialogue 1", "pos": "", "notes": "" },
+    { "id": "u8-v016", "zh": "电暖炉", "jp": "din6 nyun5 lou4", "en": "Electric heater", "section": "Dialogue 1", "pos": "noun", "notes": "" },
+    { "id": "u8-v017", "zh": "几时?", "jp": "gei2 si4?", "en": "When?", "section": "Dialogue 1", "pos": "", "notes": "Question word; sits where the time-when answer goes" },
+    { "id": "u8-v018", "zh": "嘢", "jp": "je5", "en": "Thing, object", "section": "Dialogue 1", "pos": "noun", "notes": "" },
+    { "id": "u8-v019", "zh": "时时（都）", "jp": "si4 si4 (dou1)", "en": "Always, frequently", "section": "Dialogue 1", "pos": "", "notes": "dou1 is usually added to back it up" },
+    { "id": "u8-v020", "zh": "实用", "jp": "sat6 jung6", "en": "Practical", "section": "Dialogue 1", "pos": "adj", "notes": "" },
+    { "id": "u8-v021", "zh": "同意", "jp": "tung4 ji3", "en": "To agree", "section": "Dialogue 1", "pos": "verb", "notes": "" },
+    { "id": "u8-v022", "zh": "知道，知", "jp": "zi1 dou6, zi1", "en": "To know a fact, to understand", "section": "Dialogue 1", "pos": "verb", "notes": "" },
+    { "id": "u8-v023", "zh": "嘥", "jp": "saai1", "en": "To waste", "section": "Dialogue 1", "pos": "verb", "notes": "" },
+    { "id": "u8-v024", "zh": "挤", "jp": "zai1", "en": "To put, to place", "section": "Dialogue 1", "pos": "verb", "notes": "" },
+    { "id": "u8-v025", "zh": "走廊", "jp": "zau2 long4", "en": "Passage, corridor", "section": "Dialogue 1", "pos": "noun", "notes": "" },
+    { "id": "u8-v026", "zh": "墙角", "jp": "coeng4 gok3", "en": "Corner (of house, room)", "section": "Dialogue 1", "pos": "noun", "notes": "" },
+    { "id": "u8-v027", "zh": "手提", "jp": "sau2 tai4", "en": "Hand held, portable", "section": "Dialogue 1", "pos": "adj", "notes": "" },
+    { "id": "u8-v028", "zh": "灭火筒", "jp": "mit6 fo2 tung2", "en": "Fire extinguisher", "section": "Dialogue 1", "pos": "noun", "notes": "" },
+    { "id": "u8-v029", "zh": "旧年", "jp": "gau6 nin2", "en": "Last year", "section": "Dialogue 1", "pos": "", "notes": "Note the tone change: nin4 becomes nin2" },
+    { "id": "u8-v030", "zh": "年", "jp": "nin4", "en": "Year", "section": "Dialogue 1", "pos": "noun", "notes": "Takes no classifier" },
+    { "id": "u8-v031", "zh": "丫?", "jp": "aa1?", "en": "(particle) (triumphantly scoring a point) didn't I tell you so!", "section": "Dialogue 1", "pos": "particle", "notes": "" },
+
+    { "id": "u8-v032", "zh": "冷气机", "jp": "laang5 hei3 gei1", "en": "Air-conditioner", "section": "Dialogue 2", "pos": "noun", "notes": "" },
+    { "id": "u8-v033", "zh": "热", "jp": "jit6", "en": "Hot", "section": "Dialogue 2", "pos": "adj", "notes": "" },
+    { "id": "u8-v034", "zh": "时候", "jp": "si4 hau6", "en": "Time", "section": "Dialogue 2", "pos": "noun", "notes": "" },
+    { "id": "u8-v035", "zh": "打算", "jp": "daa2 syun3", "en": "To intent, intention", "section": "Dialogue 2", "pos": "verb", "notes": "" },
+    { "id": "u8-v036", "zh": "海滩", "jp": "hoi2 taan1", "en": "Beach", "section": "Dialogue 2", "pos": "noun", "notes": "" },
+    { "id": "u8-v037", "zh": "饮", "jp": "jam2", "en": "To drink", "section": "Dialogue 2", "pos": "verb", "notes": "" },
+    { "id": "u8-v038", "zh": "啤酒", "jp": "be1 zau2", "en": "Beer", "section": "Dialogue 2", "pos": "noun", "notes": "" },
+    { "id": "u8-v039", "zh": "酒", "jp": "zau2", "en": "Any alcoholic drink", "section": "Dialogue 2", "pos": "noun", "notes": "" },
+    { "id": "u8-v040", "zh": "雪糕", "jp": "syut3 gou1", "en": "Ice cream", "section": "Dialogue 2", "pos": "noun", "notes": "" },
+    { "id": "u8-v041", "zh": "打风", "jp": "daa2 fung1", "en": "To have a typhoon", "section": "Dialogue 2", "pos": "verb", "notes": "" },
+    { "id": "u8-v042", "zh": "风", "jp": "fung1", "en": "Wind", "section": "Dialogue 2", "pos": "noun", "notes": "" },
+    { "id": "u8-v043", "zh": "算", "jp": "syun3", "en": "To be regarded as", "section": "Dialogue 2", "pos": "verb", "notes": "" },
+    { "id": "u8-v044", "zh": "有用", "jp": "jau5 jung6", "en": "Useful", "section": "Dialogue 2", "pos": "adj", "notes": "" },
+    { "id": "u8-v045", "zh": "悭", "jp": "haan1", "en": "To save, stingy", "section": "Dialogue 2", "pos": "", "notes": "" },
+    { "id": "u8-v046", "zh": "仲", "jp": "zung6", "en": "Even more", "section": "Dialogue 2", "pos": "", "notes": "" },
+    { "id": "u8-v047", "zh": "点样…法?", "jp": "dim2 joeng2 … faat3?", "en": "In what way…?", "section": "Dialogue 2", "pos": "", "notes": "The object of the verb moves to the front and -faat3 tacks onto the verb" },
+    { "id": "u8-v048", "zh": "百货公司", "jp": "baak3 fo3 gung1 si1", "en": "Department store", "section": "Dialogue 2", "pos": "noun", "notes": "" },
+    { "id": "u8-v049", "zh": "公司", "jp": "gung1 si1", "en": "A company", "section": "Dialogue 2", "pos": "noun", "notes": "" },
+    { "id": "u8-v050", "zh": "游水裤", "jp": "jau4 seoi2 fu3", "en": "Swimming trunks", "section": "Dialogue 2", "pos": "noun", "notes": "" },
+    { "id": "u8-v051", "zh": "见", "jp": "gin3", "en": "To see, to meet", "section": "Dialogue 2", "pos": "verb", "notes": "" },
+    { "id": "u8-v052", "zh": "倒", "jp": "dou2", "en": "(verb ending) to succeed in", "section": "Dialogue 2", "pos": "", "notes": "" },
+    { "id": "u8-v053", "zh": "开心", "jp": "hoi1 sam1", "en": "Happy", "section": "Dialogue 2", "pos": "adj", "notes": "" },
+    { "id": "u8-v054", "zh": "话…知 = 话…听", "jp": "waa6 …zi1 = waa6 …teng1", "en": "To tell", "section": "Dialogue 2", "pos": "verb", "notes": "" },
+    { "id": "u8-v055", "zh": "条", "jp": "tiu4", "en": "Classifier for long, thin, flexible things", "section": "Dialogue 2", "pos": "classifier", "notes": "" },
+    { "id": "u8-v056", "zh": "旧", "jp": "gau6", "en": "Old, used", "section": "Dialogue 2", "pos": "adj", "notes": "" },
+    { "id": "u8-v057", "zh": "领呔", "jp": "leng5 taai1", "en": "Necktie", "section": "Dialogue 2", "pos": "noun", "notes": "" },
+    { "id": "u8-v058", "zh": "改", "jp": "goi2", "en": "To alter, to change (usually for the better)", "section": "Dialogue 2", "pos": "verb", "notes": "" },
+    { "id": "u8-v059", "zh": "成", "jp": "sing4", "en": "(verb ending) …to become, …into", "section": "Dialogue 2", "pos": "", "notes": "" },
+    { "id": "u8-v060", "zh": "套", "jp": "tou3", "en": "Classifier for a set of, a suit of", "section": "Dialogue 2", "pos": "classifier", "notes": "" },
+    { "id": "u8-v061", "zh": "比基尼", "jp": "bei2 gei1 nei4", "en": "Bikini", "section": "Dialogue 2", "pos": "noun", "notes": "" },
+
+    { "id": "u8-v062", "zh": "", "jp": "gam1 nin2", "en": "This year", "section": "Grammar", "pos": "", "notes": "Tone change: nin4 becomes nin2" },
+    { "id": "u8-v063", "zh": "", "jp": "ceot1 nin2", "en": "Next year", "section": "Grammar", "pos": "", "notes": "Tone change: nin4 becomes nin2" },
+    { "id": "u8-v064", "zh": "", "jp": "gam1 jat6", "en": "Today", "section": "Grammar", "pos": "", "notes": "" },
+    { "id": "u8-v065", "zh": "", "jp": "kam4 jat6", "en": "Yesterday", "section": "Grammar", "pos": "", "notes": "" },
+    { "id": "u8-v066", "zh": "", "jp": "daai6 fung1", "en": "Great wind (probable origin of the word typhoon)", "section": "Grammar", "pos": "noun", "notes": "From the Typhoons culture box" },
+    { "id": "u8-v067", "zh": "", "jp": "haak3 hei3", "en": "Polite", "section": "Grammar", "pos": "adj", "notes": "" },
+    { "id": "u8-v068", "zh": "", "jp": "nau1", "en": "Angry", "section": "Grammar", "pos": "adj", "notes": "" },
+    { "id": "u8-v069", "zh": "", "jp": "hai2", "en": "At/in/on (also hoeng2)", "section": "Grammar", "pos": "", "notes": "Preposition" },
+    { "id": "u8-v070", "zh": "", "jp": "hoeng3", "en": "Towards", "section": "Grammar", "pos": "", "notes": "Preposition" },
+    { "id": "u8-v071", "zh": "", "jp": "tung4", "en": "With", "section": "Grammar", "pos": "", "notes": "Preposition" },
+    { "id": "u8-v072", "zh": "", "jp": "jau4", "en": "(starting) from", "section": "Grammar", "pos": "", "notes": "Preposition" },
+    { "id": "u8-v073", "zh": "", "jp": "lei4", "en": "(away) from", "section": "Grammar", "pos": "", "notes": "Preposition" },
+    { "id": "u8-v074", "zh": "", "jp": "ging1", "en": "(passing) via", "section": "Grammar", "pos": "", "notes": "Preposition" },
+    { "id": "u8-v075", "zh": "", "jp": "ni1 dou6", "en": "Here (also ni1 cyu3)", "section": "Grammar", "pos": "", "notes": "Demonstrative" },
+    { "id": "u8-v076", "zh": "", "jp": "ni1 bin1", "en": "Over here, this way", "section": "Grammar", "pos": "", "notes": "Demonstrative" },
+    { "id": "u8-v077", "zh": "", "jp": "ni1 tau4", "en": "Around here (in this area)", "section": "Grammar", "pos": "", "notes": "Demonstrative" },
+    { "id": "u8-v078", "zh": "", "jp": "go2 dou6", "en": "There (also go2 cyu3)", "section": "Grammar", "pos": "", "notes": "Demonstrative" },
+    { "id": "u8-v079", "zh": "", "jp": "go2 bin1", "en": "Over there, that way", "section": "Grammar", "pos": "", "notes": "Demonstrative" },
+    { "id": "u8-v080", "zh": "", "jp": "go2 tau4", "en": "Around there (in that area)", "section": "Grammar", "pos": "", "notes": "Demonstrative" },
+    { "id": "u8-v081", "zh": "", "jp": "soeng6 bin6", "en": "On top of", "section": "Grammar", "pos": "", "notes": "Localizer" },
+    { "id": "u8-v082", "zh": "", "jp": "haa6 bin6", "en": "Below", "section": "Grammar", "pos": "", "notes": "Localizer" },
+    { "id": "u8-v083", "zh": "", "jp": "cin4 bin6", "en": "In front of", "section": "Grammar", "pos": "", "notes": "Localizer" },
+    { "id": "u8-v084", "zh": "", "jp": "hau6 bin6", "en": "Behind", "section": "Grammar", "pos": "", "notes": "Localizer" },
+    { "id": "u8-v085", "zh": "", "jp": "jap6 bin6", "en": "Inside", "section": "Grammar", "pos": "", "notes": "Localizer" },
+    { "id": "u8-v086", "zh": "", "jp": "ceot1 bin6", "en": "Outside", "section": "Grammar", "pos": "", "notes": "Localizer" },
+    { "id": "u8-v087", "zh": "", "jp": "leoi5 min6", "en": "Inside, within", "section": "Grammar", "pos": "", "notes": "Localizer" },
+    { "id": "u8-v088", "zh": "", "jp": "ngoi6 bin6", "en": "Outside", "section": "Grammar", "pos": "", "notes": "Localizer" },
+    { "id": "u8-v089", "zh": "", "jp": "deoi3 min6", "en": "Opposite", "section": "Grammar", "pos": "", "notes": "Localizer" },
+    { "id": "u8-v090", "zh": "", "jp": "zak1 bin1", "en": "Beside", "section": "Grammar", "pos": "", "notes": "Localizer" },
+    { "id": "u8-v091", "zh": "", "jp": "zung1 gaan1", "en": "In the middle of", "section": "Grammar", "pos": "", "notes": "Localizer" },
+    { "id": "u8-v092", "zh": "", "jp": "zi1 gaan1", "en": "Between", "section": "Grammar", "pos": "", "notes": "Localizer; joins the two noun phrases concerned" }
+  ],
+  "dialogues": [
+    {
+      "id": "u8-d1",
+      "title": "Dialogue 1",
+      "setting": "A husband and wife agree about the temperature, but not about much else.",
+      "lines": [
+        { "id": "u8-d1-l01", "speaker": "Mr. Wong", "zh": "而家天气渐渐冷勒。我好怕冷，我最中意晒太阳嘅。天文台话今日会落雨，呢个星期六仲会落雪添。", "jp": "ji4 gaa1 tin1 hei3 zim6 zim6 laang5 laak3. ngo5 hou2 paa3 laang5, ngo5 zeoi3 zung1 ji3 saai3 taai3 joeng4 ge3. tin1 man4 toi4 waa6 gam1 jat6 wui2 lok6 jyu5, ni1 go3 sing1 kei4 luk6 zung6 wui5 lok6 syut3 tim1", "en": "Right now the weather is gradually getting colder. I dislike coldness. I love sunbathing. The observatory said today there will be rain. There will even be snow this Saturday" },
+        { "id": "u8-d1-l02", "speaker": "Mrs. Wong", "zh": "我已经预备咗啲冷天衫啦。", "jp": "ngo5 ji5 ging1 jyu6 bei6 zo2 di1 laang5 tin1 saam1 laa3", "en": "I have already prepared winter clothing" },
+        { "id": "u8-d1-l03", "speaker": "Mr. Wong", "zh": "我想听日买个电暖炉返黎，你话好唔好呀？", "jp": "ngo5 soeng2 ting1 jat6 maai5 go3 din6 nyun5 lou4 faan1 lai4, nei5 waa6 hou2 m4 hou2 aa3?", "en": "I want to buy an electric heater tomorrow, what do you think?" },
+        { "id": "u8-d1-l04", "speaker": "Mrs. Wong", "zh": "唔好。", "jp": "m4 hou2", "en": "Don't" },
+        { "id": "u8-d1-l05", "speaker": "Mr. Wong", "zh": "咁，我要几时买呀？", "jp": "gam2, ngo5 jiu3 gei2 si4 maai5 aa3?", "en": "Then, when should I buy it?" },
+        { "id": "u8-d1-l06", "speaker": "Mrs. Wong", "zh": "唔好买电暖炉啦！你买嘅嘢时时都唔实用嘅。", "jp": "m4 hou2 maai5 din6 nyun5 lou4 laa1! nei5 maai5 ge3 je5 si4 si4 dou1 m4 sat6 jung6 ge3", "en": "Don't buy the electric heater! The things you bought are often impractical" },
+        { "id": "u8-d1-l07", "speaker": "Mr. Wong", "zh": "我唔同意，我买嘅嘢最实用嘅勒。", "jp": "ngo5 m4 tung4 ji3, ngo5 maai5 ge3 je5 zeoi3 sat6 jung6 ge3 laak3", "en": "I don't agree, the things I bought are always the most practical" },
+        { "id": "u8-d1-l08", "speaker": "Mrs. Wong", "zh": "你要知道买唔实用嘅嘢即係嘥钱。", "jp": "nei5 jiu3 zi1 dou6 maai5 m4 sat6 jung6 ge3 je5 zik1 hai6 saai1 cin2", "en": "You need to understand buying impractical things is the same as wasting money" },
+        { "id": "u8-d1-l09", "speaker": "Mr. Wong", "zh": "你话我听，我买咗乜嘢唔实用呀？", "jp": "nei5 waa6 ngo5 teng1, ngo5 maai5 zo2 mat1 je5 m4 sat6 jung6 aa3?", "en": "Tell me, what did I buy that is impractical?" },
+        { "id": "u8-d1-l10", "speaker": "Mrs. Wong", "zh": "挤喺走廊墙角嗰个手提灭火筒，你旧年买嘅，一年之内都冇用过，你话係唔係唔实用丫！", "jp": "zai1 hai2 zau2 long4 coeng4 gok3 go2 go3 sau2 tai4 mit6 fo2 tung2, nei5 gau6 nin2 maai5 ge3, jat1 nin4 zi1 noi6 dou1 mou5 jung6 gwo3, nei5 waa6 hai6 m4 hai6 m4 sat6 jung6 aa1!", "en": "The portable fire extinguisher placed at the corner of the corridor, you bought it last year, we didn't use it within one year, you said isn't it impractical?" }
+      ],
+      "questions": [
+        "Select the correct phrase: Wong4 sin1 saang1 daa2 syun3 maai5 (din6 nyun5 lou4 / mit6 fo2 tung2).",
+        "Select the correct phrase: Wong4 taai3 taai2 waa6 Wong4 sin1 saang1 maai5 ge3 je5 si4 si4 dou1 (jau5 jung6 / mou5 jung6 / m4 sat6 jung6).",
+        "Select the correct phrase: Go2 go3 sau2 tai4 mit6 fo2 tung2 zai1 hai2 (zau2 lau4 / se2 zi6 lau4 / coeng4 gok3).",
+        "Select the correct phrase: Go2 go3 sau2 tai4 mit6 fo2 tung2 (jung6 gwo3 jat1 ci3 / mou5 jung6 gwo3 / si4 si4 jung6)."
+      ]
+    },
+    {
+      "id": "u8-d2",
+      "title": "Dialogue 2",
+      "setting": "Mr. Chan and Mr. Cheung demonstrate how buying an air conditioner can lead to a conflict of stinginess",
+      "lines": [
+        { "id": "u8-d2-l01", "speaker": "Chan", "zh": "张先生，你好。去边处呀？", "jp": "zoeng1 sin1 saang1, nei5 hou2. heoi3 bin1 cyu3 aa3?", "en": "Mr. Cheung, hello. Where are you going?" },
+        { "id": "u8-d2-l02", "speaker": "Cheung", "zh": "我去买冷气机。", "jp": "ngo5 heoi3 maai5 laang5 hei3 gei1", "en": "I'm going to buy an air conditioner" },
+        { "id": "u8-d2-l03", "speaker": "Chan", "zh": "係呀！天气渐渐热，买冷气机係时候啦。", "jp": "hai6 aa3! tin1 hei3 zim6 zim6 jit6, maai5 laang5 hei3 gei1 hai6 si4 hau6 laa3", "en": "Right, the weather is getting hotter, this is the right time to buy an air conditioner" },
+        { "id": "u8-d2-l04", "speaker": "Cheung", "zh": "陈先生，你有乜嘢打算呢？", "jp": "can4 sin1 saang1, nei5 jau5 mat1 je5 daa2 syun3 ne1?", "en": "Mr. Chan, what are you going to do?" },
+        { "id": "u8-d2-l05", "speaker": "Chan", "zh": "我冇钱买冷气机。天气太热嘅时候，我会去海滩游水，饮啤酒，食雪糕，咁就唔热喇。", "jp": "ngo5 mou5 cin2 maai5 laang5 hei3 gei1. tin1 hei3 taai3 jit6 ge3 si4 hau6, ngo5 wui5 heoi3 hoi2 taan1 jau4 seoi2, jam2 be1 zau2, sik6 syut3 gou1, gam3 zau6 m4 jit6 laa1", "en": "I don't have money to buy an air conditioner. When the weather gets too hot, I will go to the beach to swim, drink beer, eat ice cream, then I won't be hot anymore" },
+        { "id": "u8-d2-l06", "speaker": "Cheung", "zh": "但係如果打风就唔可以去海滩，落雨就唔可以去买雪糕……咁，就点呀？冷气机唔算好贵，但係好有用：你都唔买，真係悭勒！", "jp": "daan6 hai6 jyu4 gwo2 daa2 fung1 zau6 m4 ho2 ji5 heoi3 hoi2 taan1, lok6 jyu5 zau6 m4 ho2 ji5 heoi3 maai5 syut3 gou1 … gam2, zau6 dim2 aa1? laang5 hei3 gei1 m4 syun3 hou2 gwai3, daan6 hai6 hou2 jau5 jung6: nei5 dou1 m4 maai5, zan1 hai6 haan1 laak3!", "en": "But if there's a typhoon you can't go to the beach, if it rains you can't buy ice cream, then what are you going to do? An air conditioner isn't too expensive, but it's very useful: but you still won't buy it, you are so stingy" },
+        { "id": "u8-d2-l07", "speaker": "Chan", "zh": "我唔算悭啦！我话你太太仲悭喇！", "jp": "ngo5 m4 syun3 haan1 laa1! ngo5 waa6 nei5 taai3 taai2 zung6 haan1 laa1!", "en": "I'm not stingy! I think your wife is even more stingy!" },
+        { "id": "u8-d2-l08", "speaker": "Cheung", "zh": "佢点样悭法呀！", "jp": "keoi5 dim2 joeng2 haan1 faat3 aa3?", "en": "She is stingy in what way?" },
+        { "id": "u8-d2-l09", "speaker": "Chan", "zh": "呢个礼拜二我喺百货公司买游水裤嘅时候，见到你太太，佢好开心咁话我知，佢只係用咗一条你嘅旧领呔就可以改成一套“比基尼”勒。你话佢悭唔悭呢呀！", "jp": "ni1 go3 lai5 baai3 ji6 ngo5 hai2 baak3 fo3 gung1 si1 maai5 jau4 seoi2 fu3 ge3 si4 hau6, gin3 dou2 nei5 taai3 taai2, keoi5 hou2 hoi1 sam1 gam2 waa6 ngo5 zi1, keoi5 zi2 hai6 jung6 zo2 jat1 tiu4 nei5 ge3 gau6 leng5 taai1 zau6 ho2 ji5 goi2 sing4 jat1 tou3 \"bei2 gei1 nei4\" laak3. nei5 waa6 keoi5 haan1 m4 haan1 ne1 aa3!", "en": "This Tuesday I went to the department store to buy swim trunks, I saw your wife, she told me excitedly, she used your old necktie and alter it to make a set of bikini. You said isn't she stingy!" }
+      ],
+      "questions": []
+    }
+  ],
+  "grammar": [
+    {
+      "id": "u8-g01",
+      "title": "What's more",
+      "summary": "zung6 means furthermore, in addition; it is an adverb placed before the verb and is usually backed up by the final particle tim1.",
+      "body": "仲 zung6 means furthermore, in addition (you met the same word in Unit 3 when it means still, yet). It is an adverb and therefore, as you now know, comes before the verb in the sentence.\nThe final particle tim1 is usually added on at the end to give additional force to zung6.",
+      "examples": [
+        { "id": "u8-g01-e01", "jp": "ngo5 zung6 jau5 loeng5 go3 tim1", "zh": "", "en": "I've got two more as well", "lit": "" },
+        { "id": "u8-g01-e02", "jp": "keoi5 zung6 soeng2 heoi3 mei5 gwok3 jat1 ci3 tim1", "zh": "", "en": "What's more she wants to go to the States once as well", "lit": "" }
+      ],
+      "tags": ["adverbs", "particles", "zung6", "tim1"]
+    },
+    {
+      "id": "u8-g02",
+      "title": "When?",
+      "summary": "gei2 si4? asks for a time-when answer and sits where that answer would go in the sentence.",
+      "body": "gei2 si4? when? is the question word which asks for a time when answer.\nYou will find gei2 si4? in the same place in the sentence where the time when answer comes.",
+      "examples": [
+        { "id": "u8-g02-e01", "jp": "nei5 gei2 si4 heoi3 aa3?", "zh": "", "en": "When are you going?", "lit": "" },
+        { "id": "u8-g02-e02", "jp": "ngo5 lai5 baai3 jat6 heoi3", "zh": "", "en": "I'm going on Sunday", "lit": "" }
+      ],
+      "tags": ["questions", "time", "gei2 si4"]
+    },
+    {
+      "id": "u8-g03",
+      "title": "More on dou1",
+      "summary": "dou1 (all, both, also) goes immediately before the verb and is thrown in whenever there is a plural idea or an idea of wholeness.",
+      "body": "都 dou1 is an adverb which means all, both, also and that it is placed like other adverbs immediately in front of the verb. Sometimes it is used where there seems no need for it in English: for instance, in the dialogue Mrs. Wong says nei5 maai5 ge3 je5 si4 si4 dou1 m4 sat6 jung6 ge3 (the things you buy are always impractical). What dou1 is doing is backing up the word si4 si4 always, and it does so because si4 si4 feels like a plural idea in Cantonese - it literally means time-time.\nWhenever there are plural ideas (the cows all….; Mr. and Mrs. Wong…; electric heaters…) or ideas of wholeness (the entire population…; the whole busload…) you can expect dou1 to be thrown in for good measure.",
+      "examples": [
+        { "id": "u8-g03-e01", "jp": "keoi5 dei6 cyun4 dou1 hai6 zung1 gwok3 jan4", "zh": "", "en": "They are all Chinese", "lit": "" },
+        { "id": "u8-g03-e02", "jp": "di1 ngau4 dou1 hai6 sik6 cou2 daai6 ge3", "zh": "", "en": "The cows were all grass-fed", "lit": "" }
+      ],
+      "tags": ["adverbs", "dou1", "plural"]
+    },
+    {
+      "id": "u8-g04",
+      "title": "More about most",
+      "summary": "zeoi3 makes superlatives; the final particle laak3 is often tagged on to back it up, just as tim1 backs up zung6.",
+      "body": "In Unit 6 we met 最 zeoi3 most and you will have no difficulty in using it to make superlatives (biggest, coldest, best, etc.).\nQuite often you will find that the final particle laak3 is tagged onto the sentence to back up zeoi3, just as tim1 backs up zung6.",
+      "examples": [
+        { "id": "u8-g04-e01", "jp": "zeoi3 daai6 laak3", "zh": "", "en": "Biggest", "lit": "" },
+        { "id": "u8-g04-e02", "jp": "zeoi3 hou2 sik6 laak3", "zh": "", "en": "Most delicious", "lit": "" },
+        { "id": "u8-g04-e03", "jp": "zeoi3 hou2 laak3", "zh": "", "en": "Best", "lit": "" },
+        { "id": "u8-g04-e04", "jp": "lou4 si1 loi4 si1 hai6 jing1 gwok3 zeoi3 gwai3 ge3 ce1 laak3", "zh": "", "en": "The Rolls-Royce is Britain's most expensive car", "lit": "" }
+      ],
+      "tags": ["superlatives", "zeoi3", "laak3", "particles"]
+    },
+    {
+      "id": "u8-g05",
+      "title": "Tone changes",
+      "summary": "nin4 year changes to the high-rising tone nin2 in last year, this year and next year only.",
+      "body": "In the dialogue you will notice that the word for year appears in two different tones. The usual tone is nin4 (low falling), but in last year gau6 nin2 it becomes high-rising. There is no obvious reason why this tone change should occur, but take heart that it only happens in the following common words.\nIn all other cases year is pronounced in the low falling tone nin4.",
+      "examples": [
+        { "id": "u8-g05-e01", "jp": "gau6 nin2", "zh": "", "en": "Last year", "lit": "" },
+        { "id": "u8-g05-e02", "jp": "gam1 nin2", "zh": "", "en": "This year", "lit": "" },
+        { "id": "u8-g05-e03", "jp": "ceot1 nin2", "zh": "", "en": "Next year", "lit": "" }
+      ],
+      "tags": ["phonology", "tone change", "nin4"]
+    },
+    {
+      "id": "u8-g06",
+      "title": "Years and days",
+      "summary": "nin4 year and jat6 day take no classifier; they combine the roles of classifier and noun.",
+      "body": "When we were talking about nin4, you might note that it is one of a very small number of nouns which do not need a classifier. You have learned that nouns must have a classifier when they are counted or specified with words like this, that and which, so you know that two pens must be loeng5 zi1 bat1 and three Americans must be saam1 go3 mei5 gwok3 jan4.\nnin4 year and jat6 day, however, along with one or two other nouns that you have not met, do not have a classifier; they seem to combine the role of classifier and noun at the same time. So one day is jat1 jat6 and two years is loeng5 nin4.",
+      "examples": [
+        { "id": "u8-g06-e01", "jp": "gam1 jat6", "zh": "", "en": "Today", "lit": "" },
+        { "id": "u8-g06-e02", "jp": "kam4 jat6", "zh": "", "en": "Yesterday", "lit": "" },
+        { "id": "u8-g06-e03", "jp": "ting1 jat6", "zh": "", "en": "Tomorrow", "lit": "" },
+        { "id": "u8-g06-e04", "jp": "gam1 nin2", "zh": "", "en": "This year", "lit": "" },
+        { "id": "u8-g06-e05", "jp": "gau6 nin2", "zh": "", "en": "Last year", "lit": "" },
+        { "id": "u8-g06-e06", "jp": "ceot1 nin2", "zh": "", "en": "Next year", "lit": "" }
+      ],
+      "tags": ["classifiers", "time", "nin4", "jat6"]
+    },
+    {
+      "id": "u8-g07",
+      "title": "In what way?",
+      "summary": "dim2 joeng2 can pair with the verb ending -faat3 way of…; the object then moves to the front of the sentence.",
+      "body": "We first met dim2 joeng2 in what way? how? in Unit 5. In the dialogue we see that it appears with the verb ending -faat3 way of… You do not have to use this new form, but it is quite good racy-sounding Cantonese to do so. Here are two example sentences each using both forms.\nWhen the -faat3 form is used, note how in each case the object of the verb moves to the front of the sentence and the -faat3 tacks onto the verb. There is a useful principle to be learned: Cantonese verbs are sensitive creatures (remember how some of them feel lonely?) And they don't feel happy with too many ideas hanging on them. Verb endings must add directly onto the verb and so if there is an object as well and it makes the verb feel overburdened, it often feels more comfortable to shift that object to the front of the sentence.",
+      "examples": [
+        { "id": "u8-g07-e01", "jp": "keoi5 dim2 joeng2 heoi3 fei1 gei1 coeng4 aa3?", "zh": "", "en": "How is he going to the airport?", "lit": "" },
+        { "id": "u8-g07-e02", "jp": "fei1 gei1 coeng4 keoi5 dim2 joeng2 heoi3 faat3 aa3?", "zh": "", "en": "How is he going to the airport?", "lit": "" },
+        { "id": "u8-g07-e03", "jp": "keoi5 dim2 joeng2 haan1 cin2 aa3?", "zh": "", "en": "How does she save money?", "lit": "" },
+        { "id": "u8-g07-e04", "jp": "cin2 keoi5 dim2 joeng2 haan1 faat3 aa3?", "zh": "", "en": "How does she save money?", "lit": "" }
+      ],
+      "tags": ["questions", "verb endings", "dim2 joeng2", "faat3", "word order"]
+    },
+    {
+      "id": "u8-g08",
+      "title": "si4 hau6 Time",
+      "summary": "hai6 si4 hau6 means it is the right time to…; … ge3 si4 hau6 means when… or while….",
+      "body": "Hai6 si4 hau6 is a colloquial way to say it is the right time to … Here are two ways of using it.\nPerhaps more common is the expression … ge3 si4 hau6, which means when… or while… study these two sentences carefully.",
+      "examples": [
+        { "id": "u8-g08-e01", "jp": "ji4 gaa1 hai6 si4 hau6 faan1 se2 zi6 lau4 laa3", "zh": "", "en": "It's time to go to the office now", "lit": "" },
+        { "id": "u8-g08-e02", "jp": "ji4 gaa1 faan1 se2 zi6 lau4 hai6 si4 hau6 laa3", "zh": "", "en": "It's time to go to the office now", "lit": "" },
+        { "id": "u8-g08-e03", "jp": "ngo5 zyu2 sung3 ge3 si4 hau6 m4 soeng2 maa4 maa1 bong1 ngo5 sau2", "zh": "", "en": "I don't want mummy to help me while I'm cooking", "lit": "" },
+        { "id": "u8-g08-e04", "jp": "keoi5 hai2 jing1 gwok3 ge3 si4 hau6 si4 si4 dou1 lai4 taam3 ngo5", "zh": "", "en": "She often comes to see me when she's in Britain", "lit": "" }
+      ],
+      "tags": ["time", "si4 hau6", "clauses"]
+    },
+    {
+      "id": "u8-g09",
+      "title": "Making adverbs from adjectives",
+      "summary": "Bracketing an adjective with hou2…gam2 turns it into an adverb.",
+      "body": "If you bracket an adjective with hou2…gam2 you turn it into an adverb.",
+      "examples": [
+        { "id": "u8-g09-e01", "jp": "hoi1 sam1", "zh": "", "en": "Happy", "lit": "" },
+        { "id": "u8-g09-e02", "jp": "hou2 hoi1 sam1 gam2", "zh": "", "en": "Happily", "lit": "" },
+        { "id": "u8-g09-e03", "jp": "haak3 hei3", "zh": "", "en": "Polite", "lit": "" },
+        { "id": "u8-g09-e04", "jp": "hou2 haak3 hei3 gam2", "zh": "", "en": "Politely", "lit": "" },
+        { "id": "u8-g09-e05", "jp": "keoi5 hou2 nau1", "zh": "", "en": "He's very angry", "lit": "" },
+        { "id": "u8-g09-e06", "jp": "keoi5 hou2 nau1 gam2 waa6 ngo5 zi1", "zh": "", "en": "He told me angrily", "lit": "" }
+      ],
+      "tags": ["adverbs", "adjectives", "hou2 gam2"]
+    },
+    {
+      "id": "u8-g10",
+      "title": "-dou2 to succeed in",
+      "summary": "The verb ending -dou2 can mean to succeed in, successfully or actually, and often adds little to the verb's meaning.",
+      "body": "It is not easy to put a specific meaning on the verb ending -dou2. Sometimes you might want to translate it as to succeed in, sometimes as successfully, sometimes as actually and quite often seems to add nothing much at all to the meaning of the verb to which it is attached. Here are four examples of it with different verbs.",
+      "examples": [
+        { "id": "u8-g10-e01", "jp": "ngo5 tai2 dou2 wong4 siu2 ze2 hai2 go2 cyu3", "zh": "", "en": "I caught sight of Miss Wong there", "lit": "" },
+        { "id": "u8-g10-e02", "jp": "ngo5 gu2 dou2 nei5 hai2 cyu4 fong2", "zh": "", "en": "I guessed rightly that you were in the kitchen", "lit": "" },
+        { "id": "u8-g10-e03", "jp": "keoi5 daap3 dou2 baa1 si2", "zh": "", "en": "He actually caught the bus", "lit": "" },
+        { "id": "u8-g10-e04", "jp": "ngo5 gin3 dou2 nei5 taai3 taai3", "zh": "", "en": "I met your wife", "lit": "" }
+      ],
+      "tags": ["verb endings", "dou2"]
+    },
+    {
+      "id": "u8-g11",
+      "title": "-sing4 to become",
+      "summary": "As a verb ending -sing4 means to become or to make into.",
+      "body": "As a verb ending -sing4 means to become or to make into. You will find an example in the dialogue where Mrs. Cheung claims to make a tie into a bikini. Here is another one.",
+      "examples": [
+        { "id": "u8-g11-e01", "jp": "ngo5 jung6 ngau4 juk6 zou6 sing4 jat1 go3 tong1", "zh": "", "en": "I'm making the beef into a soup", "lit": "" }
+      ],
+      "tags": ["verb endings", "sing4"]
+    },
+    {
+      "id": "u8-g12",
+      "title": "Space and time: prepositions and demonstratives",
+      "summary": "Three classes of words express location: prepositions, demonstratives based on ni1 and go2, and localizers.",
+      "body": "3 important classes of words involved in the expression of location.\n1. Prepositions.\n2. Demonstrative terms based on ni1 'this' and go2 'that'.",
+      "examples": [
+        { "id": "u8-g12-e01", "jp": "hai2", "zh": "", "en": "At/in/on (also hoeng2)", "lit": "" },
+        { "id": "u8-g12-e02", "jp": "jau4", "zh": "", "en": "(starting) from", "lit": "" },
+        { "id": "u8-g12-e03", "jp": "hoeng3", "zh": "", "en": "Towards", "lit": "" },
+        { "id": "u8-g12-e04", "jp": "lei4", "zh": "", "en": "(away) from", "lit": "" },
+        { "id": "u8-g12-e05", "jp": "tung4", "zh": "", "en": "With", "lit": "" },
+        { "id": "u8-g12-e06", "jp": "ging1", "zh": "", "en": "(passing) via", "lit": "" },
+        { "id": "u8-g12-e07", "jp": "ni1 dou6", "zh": "", "en": "Here (also ni1 cyu3)", "lit": "" },
+        { "id": "u8-g12-e08", "jp": "go2 dou6", "zh": "", "en": "There (also go2 cyu3)", "lit": "" },
+        { "id": "u8-g12-e09", "jp": "ni1 bin1", "zh": "", "en": "Over here, this way", "lit": "" },
+        { "id": "u8-g12-e10", "jp": "go2 bin1", "zh": "", "en": "Over there, that way", "lit": "" },
+        { "id": "u8-g12-e11", "jp": "ni1 tau4", "zh": "", "en": "Around here (in this area)", "lit": "" },
+        { "id": "u8-g12-e12", "jp": "go2 tau4", "zh": "", "en": "Around there (in that area)", "lit": "" }
+      ],
+      "tags": ["location", "prepositions", "demonstratives"]
+    },
+    {
+      "id": "u8-g13",
+      "title": "Space and time: localizers",
+      "summary": "Localizers (postpositions) indicate spatial relationships; bin6 and min6 both mean 'side' and are mostly interchangeable.",
+      "body": "3. Localizers or postpositions indicating spatial relationships.\nBin6 and min6, both meaning 'side' are interchangeable in most cases.",
+      "examples": [
+        { "id": "u8-g13-e01", "jp": "soeng6 bin6", "zh": "", "en": "On top of", "lit": "" },
+        { "id": "u8-g13-e02", "jp": "haa6 bin6", "zh": "", "en": "Below", "lit": "" },
+        { "id": "u8-g13-e03", "jp": "cin4 bin6", "zh": "", "en": "In front of", "lit": "" },
+        { "id": "u8-g13-e04", "jp": "hau6 bin6", "zh": "", "en": "Behind", "lit": "" },
+        { "id": "u8-g13-e05", "jp": "jap6 bin6", "zh": "", "en": "Inside", "lit": "" },
+        { "id": "u8-g13-e06", "jp": "ceot1 bin6", "zh": "", "en": "Outside", "lit": "" },
+        { "id": "u8-g13-e07", "jp": "leoi5 min6", "zh": "", "en": "Inside, within", "lit": "" },
+        { "id": "u8-g13-e08", "jp": "ngoi6 bin6", "zh": "", "en": "Outside", "lit": "" },
+        { "id": "u8-g13-e09", "jp": "deoi3 min6", "zh": "", "en": "Opposite", "lit": "" },
+        { "id": "u8-g13-e10", "jp": "zak1 bin1", "zh": "", "en": "Beside", "lit": "" },
+        { "id": "u8-g13-e11", "jp": "zung1 gaan1", "zh": "", "en": "In the middle of", "lit": "" },
+        { "id": "u8-g13-e12", "jp": "zi1 gaan1", "zh": "", "en": "Between", "lit": "" }
+      ],
+      "tags": ["location", "localizers", "postpositions"]
+    },
+    {
+      "id": "u8-g14",
+      "title": "Location (i): hai2 followed by names of places",
+      "summary": "hai2 plus a place name states where someone or something is; hai2 dou6 'to be here' is used when presence or absence is at issue.",
+      "body": "Using the words introduced above, several characteristic patterns are used to indicate location in space.\n(i) hai2 followed by names of places.\nThe word hai2 dou6 'to be here' is generally used instead of hai2 ni1 dou6 when presence or absence is at issue. For example on the phone: lei5 sin1 saang1 m4 hai2 dou6 (Mr. Lee is not here).",
+      "examples": [
+        { "id": "u8-g14-e01", "jp": "di1 sai3 lou6 zai2 hai2 go2 dou6", "zh": "", "en": "The children are over there", "lit": "" },
+        { "id": "u8-g14-e02", "jp": "keoi5 dei6 nei1 maai4 hai2 ni1 dou6", "zh": "", "en": "They are hiding here", "lit": "" },
+        { "id": "u8-g14-e03", "jp": "ngo5 gam1 jat6 sing4 jat6 hai2 nguk1 kei2", "zh": "", "en": "I was at home all day today", "lit": "" },
+        { "id": "u8-g14-e04", "jp": "keoi5 hai2 mei5 gwok3 duk6 syu1", "zh": "", "en": "She studies in America", "lit": "" },
+        { "id": "u8-g14-e05", "jp": "ngo5 dei6 hai2 hok6 haau6 hoi1 wui2", "zh": "", "en": "We're having a meeting at school", "lit": "" },
+        { "id": "u8-g14-e06", "jp": "keoi5 ji4 gaa1 m4 hai2 gung1 si1", "zh": "", "en": "She is not at the office at the moment", "lit": "" },
+        { "id": "u8-g14-e07", "jp": "lei5 sin1 saang1 m4 hai2 dou6", "zh": "", "en": "Mr. Lee is not here", "lit": "" }
+      ],
+      "tags": ["location", "hai2"]
+    },
+    {
+      "id": "u8-g15",
+      "title": "Location (ii): hai2 together with a localizer",
+      "summary": "hai2 can be followed by a localizer, and a noun phrase can come between them in the pattern hai2 (…) X-min6/bin6.",
+      "body": "(ii) hai2 together with a localizer.\nA noun phrase can come between hai2 and the localizer, in the pattern hai2 (…) X-min6/bin6.",
+      "examples": [
+        { "id": "u8-g15-e01", "jp": "ji1 sang1 hai2 soeng6 bin6", "zh": "", "en": "The doctor is upstairs", "lit": "" },
+        { "id": "u8-g15-e02", "jp": "hei3 jyun2 hai2 deoi3 min6", "zh": "", "en": "The cinema is just opposite (across the street)", "lit": "" },
+        { "id": "u8-g15-e03", "jp": "ging2 caat3 hai2 jap6 bin6", "zh": "", "en": "The police are inside", "lit": "" },
+        { "id": "u8-g15-e04", "jp": "bun2 syu1 hai2 zoeng1 toi2 soeng6 bin6", "zh": "", "en": "The book is on the table", "lit": "The book on the table top" },
+        { "id": "u8-g15-e05", "jp": "keoi5 kei5 hai2 po1 syu6 hau6 min6", "zh": "", "en": "She stood behind the tree", "lit": "She stood at the tree behind" },
+        { "id": "u8-g15-e06", "jp": "ngo5 zyu6 hai2 keoi5 nguk1 kei5 deoi3 min6", "zh": "", "en": "I live opposite her (home)", "lit": "I live at her home opposite" }
+      ],
+      "tags": ["location", "hai2", "localizers"]
+    },
+    {
+      "id": "u8-g16",
+      "title": "Location: dou6 as a localizer",
+      "summary": "dou6 'there' serves colloquially as a localizer after a noun phrase, and is required after nouns like car or computer.",
+      "body": "Dou6 'there' serves colloquially as a localizer in this pattern.\nWhile this pattern with two separate expressions of location may appear redundant, dou6 is required here.",
+      "examples": [
+        { "id": "u8-g16-e01", "jp": "aa3 maa1 hai2 teng1 dou6", "zh": "", "en": "Mom's in the living room", "lit": "" },
+        { "id": "u8-g16-e02", "jp": "di1 soeng2 hai2 ngo5 dou6", "zh": "", "en": "The pictures are with me/at my place", "lit": "" },
+        { "id": "u8-g16-e03", "jp": "keoi5 dei6 hai2 gaa3 ce1 dou6", "zh": "", "en": "They're in the car (not *keoi5 dei6 hai2 gaa3 ce1)", "lit": "" },
+        { "id": "u8-g16-e04", "jp": "di1 zi1 liu2 hai2 din2 nou5 dou6", "zh": "", "en": "The data are in the computer (not *di1 zi1 liu2 hai2 din6 nou5)", "lit": "" }
+      ],
+      "tags": ["location", "dou6", "localizers"]
+    },
+    {
+      "id": "u8-g17",
+      "title": "Location: zi1 gaan1 and existential patterns",
+      "summary": "zi1 gaan1 'between' joins two noun phrases; a demonstrative or localizer can be followed by jau5/mou5 or another verb, optionally with a noun phrase before the localizer.",
+      "body": "With zi1 gaan1 'between', tung4 is used to join the two noun phrases concerned.\nA demonstrative form or localizer followed by the existential jau5 or its negative counterpart mou5 or another verb.\nA noun phrase can be added before the localizer.",
+      "examples": [
+        { "id": "u8-g17-e01", "jp": "ngo5 tung4 keoi5 zi1 gaan1 mou5 saai3 gam2 cing4", "zh": "", "en": "There's no feeling left between us", "lit": "I and him between haven't all feeling" },
+        { "id": "u8-g17-e02", "jp": "cing4 gam2 tung4 lei5 zi3 zi1 gaan1 hou2 naan4 syun2 zaak6", "zh": "", "en": "It's difficult to choose between emotion and rationality", "lit": "Emotion and rationality between very hard to choose" },
+        { "id": "u8-g17-e03", "jp": "ni1 dou6 jau5 hou2 do1 sai3 lou6 zai2", "zh": "", "en": "There's many children here", "lit": "" },
+        { "id": "u8-g17-e04", "jp": "go2 dou6 mou5 jau4 wing6 ci4", "zh": "", "en": "There's no swimming pool there", "lit": "" },
+        { "id": "u8-g17-e05", "jp": "jap6 bin6 jau5 hou2 do1 je5", "zh": "", "en": "There are lots of things inside", "lit": "" },
+        { "id": "u8-g17-e06", "jp": "ceot1 bin6 lok6 gan2 jyu5", "zh": "", "en": "It's raining outside", "lit": "" },
+        { "id": "u8-g17-e07", "jp": "daai6 hok6 leoi5 min6 jau5 saam1 go3 tou4 syu1 gun2", "zh": "", "en": "There are three libraries in the university", "lit": "" },
+        { "id": "u8-g17-e08", "jp": "gaan1 fong2 zung1 gaan1 jau5 go3 gong3 kam4", "zh": "", "en": "There's a piano in the middle of the room", "lit": "" }
+      ],
+      "tags": ["location", "zi1 gaan1", "existential", "jau5", "mou5"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "u8-e1",
+      "title": "Exercise 1",
+      "source": "Unit 8 Weather.pdf",
+      "instructions": "Match the correct Part B with its part A to make meaningful sentences. Part B options: …zik1 hai6 saai1 cin2 / …maai5 laang5 hei3 gei1 hai6 si4 hau6 laa1 / …ngo5 dei6 di1 laang5 tin1 saam1 laa1 / …daan6 hai6 hou2 jau5 jung6",
+      "type": "fill",
+      "items": [
+        { "id": "u8-e1-i01", "prompt": "tin1 hei3 zim6 zim6 jit6 …", "answer": "tin1 hei3 zim6 zim6 jit6, maai5 laang5 hei3 gei1 hai6 si4 hau6 laa1", "answer_en": "The weather is gradually getting hot, it's the right time to buy an air conditioner", "hint": "", "confidence": "high" },
+        { "id": "u8-e1-i02", "prompt": "laang5 hei3 gei1 m4 syun3 hou2 gwai3 …", "answer": "laang5 hei3 gei1 m4 syun3 hou2 gwai3, daan6 hai6 hou2 jau5 jung6", "answer_en": "An air conditioner isn't too expensive, but it's very useful", "hint": "", "confidence": "high" },
+        { "id": "u8-e1-i03", "prompt": "jyu4 gwo2 maai5 m4 sat6 jung6 ge3 je5 …", "answer": "jyu4 gwo2 maai5 m4 sat6 jung6 ge3 je5 zik1 hai6 saai1 cin2", "answer_en": "If you buy impractical things it is the same as wasting money", "hint": "", "confidence": "high" },
+        { "id": "u8-e1-i04", "prompt": "ngo5 ji5 ging1 jyu6 bei6 zo2 …", "answer": "ngo5 ji5 ging1 jyu6 bei6 zo2 ngo5 dei6 di1 laang5 tin1 saam1 laa1", "answer_en": "I have already prepared our winter clothing", "hint": "", "confidence": "high" }
+      ]
+    },
+    {
+      "id": "u8-e2",
+      "title": "Exercise 2",
+      "source": "Unit 8 Weather.pdf",
+      "instructions": "How can you turn these two sentences into one? Example: go2 cyu3 jau5 ce1. ce1 hou2 gwai3. Answer: go2 cyu3 jau5 hou2 gwai3 ge3 ce1. Try to do the same with the following sentences.",
+      "type": "reorder",
+      "items": [
+        { "id": "u8-e2-i01", "prompt": "Zoeng1 siu2 ze2 hai6 jat6 bun2 jan4. keoi5 hou2 leng3.", "answer": "Zoeng1 siu2 ze2 hai6 hou2 leng3 ge3 jat6 bun2 jan4", "answer_en": "Miss Cheung is a very pretty Japanese", "hint": "Turn the second sentence into a ge3 modifier before the noun", "confidence": "medium" },
+        { "id": "u8-e2-i02", "prompt": "ngo5 m4 soeng2 maai5 bat1. Can4 sin1 saang1 ge3 pou3 tau2 maai6 mei5 gwok3 bat1.", "answer": "ngo5 m4 soeng2 maai5 Can4 sin1 saang1 ge3 pou3 tau2 maai6 ge3 mei5 gwok3 bat1", "answer_en": "I don't want to buy the American pens that Mr. Chan's shop sells", "hint": "Turn the second sentence into a ge3 modifier before the noun", "confidence": "low" },
+        { "id": "u8-e2-i03", "prompt": "ngo5 hou2 soeng2 sik6 lung4 haa1. Ho4 taai2 zing2 lung4 haa1.", "answer": "ngo5 hou2 soeng2 sik6 Ho4 taai2 zing2 ge3 lung4 haa1", "answer_en": "I very much want to eat the lobster that Mrs. Ho makes", "hint": "Turn the second sentence into a ge3 modifier before the noun", "confidence": "medium" }
+      ]
+    },
+    {
+      "id": "u8-e3",
+      "title": "Exercise 3",
+      "source": "Unit 8 Weather.pdf",
+      "instructions": "Choose from the following words to complete sentences a-d: san1 sin1 / mei5 gwok3 ge3 / jing1 gwok3 ge3 / sau2 tai4 / min5 fai3 / jat1 tou3 leng3 ge3 / gaai3 siu6 / hung4 sik1 / jyu4 gong2",
+      "type": "fill",
+      "items": [
+        { "id": "u8-e3-i01", "prompt": "_______ mit6 fo2 tung2 hou2 jau5 jung6.", "answer": "sau2 tai4", "answer_en": "A portable fire extinguisher is very useful", "hint": "", "confidence": "high" },
+        { "id": "u8-e3-i02", "prompt": "Hai2 ni1 cyu3 jam2 seoi2 hai6 _______ ge3: nei5 m4 sai2 bei2 cin2.", "answer": "min5 fai3", "answer_en": "Drinking water here is free: you don't need to pay", "hint": "", "confidence": "medium" },
+        { "id": "u8-e3-i03", "prompt": "_______ bei2 gei1 nei4 m4 peng4.", "answer": "jat1 tou3 leng3 ge3", "answer_en": "A pretty bikini isn't cheap", "hint": "", "confidence": "high" },
+        { "id": "u8-e3-i04", "prompt": "Jyu4 gwo2 di1 ngau4 juk6 m4 _______, ngo5 zau6 m4 soeng2 sik6.", "answer": "san1 sin1", "answer_en": "If the beef isn't fresh, I don't want to eat it", "hint": "", "confidence": "medium" }
+      ]
+    },
+    {
+      "id": "u8-e4",
+      "title": "Exercise 4",
+      "source": "Unit 8 Weather.pdf",
+      "instructions": "A creative test. Can you supply the cartoon caption in Cantonese? Mr Wong is saying: Don't be angry. I told you the fire extinguisher was a practical object.",
+      "type": "translate",
+      "items": [
+        { "id": "u8-e4-i01", "prompt": "Don't be angry. I told you the fire extinguisher was a practical object.", "answer": "", "answer_en": "", "hint": "Use m4 hou2 for don't, nau1 for angry, waa6 … teng1 / waa6 … zi1 for tell, and sat6 jung6 ge3 je5 for practical object", "confidence": "none" }
+      ]
+    },
+    {
+      "id": "u8-e5",
+      "title": "Have you understood?",
+      "source": "Unit 8 Weather.pdf",
+      "instructions": "Select the correct phrases from the ones in brackets (based on Dialogue 1).",
+      "type": "fill",
+      "items": [
+        { "id": "u8-e5-i01", "prompt": "Wong4 sin1 saang1 daa2 syun3 maai5 (din6 nyun5 lou4 / mit6 fo2 tung2).", "answer": "din6 nyun5 lou4", "answer_en": "Mr. Wong intends to buy an electric heater", "hint": "", "confidence": "high" },
+        { "id": "u8-e5-i02", "prompt": "Wong4 taai3 taai2 waa6 Wong4 sin1 saang1 maai5 ge3 je5 si4 si4 dou1 (jau5 jung6 / mou5 jung6 / m4 sat6 jung6).", "answer": "m4 sat6 jung6", "answer_en": "Mrs. Wong says the things Mr. Wong buys are always impractical", "hint": "", "confidence": "high" },
+        { "id": "u8-e5-i03", "prompt": "Go2 go3 sau2 tai4 mit6 fo2 tung2 zai1 hai2 (zau2 lau4 / se2 zi6 lau4 / coeng4 gok3).", "answer": "coeng4 gok3", "answer_en": "That portable fire extinguisher is placed at the corner", "hint": "", "confidence": "high" },
+        { "id": "u8-e5-i04", "prompt": "Go2 go3 sau2 tai4 mit6 fo2 tung2 (jung6 gwo3 jat1 ci3 / mou5 jung6 gwo3 / si4 si4 jung6).", "answer": "mou5 jung6 gwo3", "answer_en": "That portable fire extinguisher has never been used", "hint": "", "confidence": "high" }
+      ]
+    },
+    {
+      "id": "u8-e6",
+      "title": "Picture Quiz",
+      "source": "Unit 8 Weather.pdf",
+      "instructions": "Look at the picture (Mrs. Cheung holding a necktie beside a table with scissors and thread) and answer the questions.",
+      "type": "open",
+      "items": [
+        { "id": "u8-e6-i01", "prompt": "Nei5 waa6 Zoeng1 taai2 jung6 ni1 tiu4 leng5 taai1 goi2 sing4 bei2 gei1 nei5 dak1 m4 dak1 aa3?", "answer": "", "answer_en": "Do you think Mrs. Cheung can make this necktie into a bikini?", "hint": "", "confidence": "none" },
+        { "id": "u8-e6-i02", "prompt": "Jat1 tou3 bei2 gei1 nei4 hai6 gei2 do1 gin3 aa3?", "answer": "", "answer_en": "How many pieces is a bikini?", "hint": "", "confidence": "none" }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "u8-n1",
+      "title": "Typhoons",
+      "body": "It is likely that the word typhoon comes from the Cantonese word daai6 fung1 great wind. The summer monsoon season is the usual time for these swirling torrents of rain and ferocious winds which can exceed speeds of 160km/h, and woe betide those who are caught unprepared. In recent years few really bad typhoons have hit Hong Kong and early warning systems mean that there is usually plenty of time to get to safety and put up shutters. During a typhoon Hong Kong comes to a standstill, creating an unaccustomed silence which even the noise of the wind cannot disguise."
+    }
+  ]
+}

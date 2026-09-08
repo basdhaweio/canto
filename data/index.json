@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "course": "Cantonese Tutoring Beginner",
+  "tutor": "Dr. Candise Lin",
+  "units": [
+    { "id": "unit-0", "number": 0, "title": "Phonology", "file": "units/unit-0.json" },
+    { "id": "unit-1", "number": 1, "title": "Encounters", "file": "units/unit-1.json" },
+    { "id": "unit-2", "number": 2, "title": "Personal Property", "file": "units/unit-2.json" },
+    { "id": "unit-3", "number": 3, "title": "Family and Friends", "file": "units/unit-3.json" },
+    { "id": "unit-4", "number": 4, "title": "Eating in and Eating Out", "file": "units/unit-4.json" },
+    { "id": "unit-5", "number": 5, "title": "Shops and Markets", "file": "units/unit-5.json" },
+    { "id": "unit-6", "number": 6, "title": "Getting Around", "file": "units/unit-6.json" },
+    { "id": "unit-7", "number": 7, "title": "Review of Units 1-6", "file": "units/unit-7.json" },
+    { "id": "unit-8", "number": 8, "title": "Weather", "file": "units/unit-8.json" }
+  ],
+  "syllabus": "syllabus.json"
+}

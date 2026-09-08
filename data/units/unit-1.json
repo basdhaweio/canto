@@ -1,0 +1,392 @@
+{
+  "id": "unit-1",
+  "number": 1,
+  "title": "Encounters",
+  "sources": ["Unit 1 Encounters.pdf"],
+  "goals": [
+    "How to greet and address people",
+    "How to ask questions",
+    "How to use descriptive words"
+  ],
+  "vocab": [
+    { "id": "u1-v001", "zh": "早晨", "jp": "zou2 san4", "en": "Good morning", "section": "Dialogue 1", "pos": "phrase", "notes": "" },
+    { "id": "u1-v002", "zh": "你", "jp": "nei5", "en": "You", "section": "Dialogue 1", "pos": "pronoun", "notes": "singular" },
+    { "id": "u1-v003", "zh": "太太", "jp": "taai3 taai2", "en": "Mrs.; wife, married woman", "section": "Dialogue 1", "pos": "noun", "notes": "note the tone change on the second syllable (taai3 taai2)" },
+    { "id": "u1-v004", "zh": "王", "jp": "wong4", "en": "Surname, Wong/Wang", "section": "Dialogue 1", "pos": "surname", "notes": "" },
+    { "id": "u1-v005", "zh": "好", "jp": "hou2", "en": "Very, well, fine, nice, good, OK", "section": "Dialogue 1", "pos": "adj", "notes": "also the adverb 'very' (hou2 hou2 = very good); can act as a verb 'to be good'" },
+    { "id": "u1-v006", "zh": "佢", "jp": "keoi5", "en": "She, her, he, him, it", "section": "Dialogue 1", "pos": "pronoun", "notes": "no gender distinction" },
+    { "id": "u1-v007", "zh": "先生", "jp": "sin1 saang1", "en": "Mr., Sir, gentleman, husband", "section": "Dialogue 1", "pos": "noun", "notes": "follows the surname: Wong4 sin1 saang1" },
+    { "id": "u1-v008", "zh": "吗?", "jp": "maa3", "en": "A word that makes a sentence into a question", "section": "Dialogue 1", "pos": "particle", "notes": "sentence-final; used mainly for polite questions" },
+    { "id": "u1-v009", "zh": "都", "jp": "dou1", "en": "Also", "section": "Dialogue 1", "pos": "adverb", "notes": "always comes just before a verb" },
+    { "id": "u1-v010", "zh": "张", "jp": "zoeng1", "en": "Surname, Cheung/Zhang", "section": "Dialogue 1", "pos": "surname", "notes": "" },
+    { "id": "u1-v011", "zh": "我", "jp": "ngo5", "en": "I, me", "section": "Dialogue 1", "pos": "pronoun", "notes": "" },
+    { "id": "u1-v012", "zh": "有心", "jp": "jau5 sam1", "en": "Kind of you to ask", "section": "Dialogue 1", "pos": "phrase", "notes": "" },
+    { "id": "u1-v013", "zh": "小姐", "jp": "siu2 ze2", "en": "Miss, young lady", "section": "Dialogue 1", "pos": "noun", "notes": "follows the surname: Zoeng1 siu2 ze2" },
+    { "id": "u1-v014", "zh": "呢?", "jp": "ne1", "en": "A word that repeats the same question about a different matter", "section": "Dialogue 1", "pos": "particle", "notes": "sentence-final follow-up question particle" },
+    { "id": "u1-v015", "zh": "噢", "jp": "ou3", "en": "Oh! (surprise)", "section": "Dialogue 2", "pos": "interjection", "notes": "" },
+    { "id": "u1-v016", "zh": "係", "jp": "hai6", "en": "To be", "section": "Dialogue 2", "pos": "verb", "notes": "used to introduce noun phrases; not used with adjectives" },
+    { "id": "u1-v017", "zh": "人", "jp": "jan4", "en": "Person", "section": "Dialogue 2", "pos": "noun", "notes": "also 'people'; nouns have no plural form" },
+    { "id": "u1-v018", "zh": "对唔住", "jp": "deoi3 m4 zyu6", "en": "I'm sorry, excuse me, pardon me", "section": "Dialogue 2", "pos": "phrase", "notes": "" },
+    { "id": "u1-v019", "zh": "李", "jp": "lei5", "en": "A surname, Li/Lee", "section": "Dialogue 2", "pos": "surname", "notes": "" },
+    { "id": "u1-v020", "zh": "呀?", "jp": "aa3", "en": "Word used at the end of a question", "section": "Dialogue 2", "pos": "particle", "notes": "no meaning on its own; rounds off a question" },
+    { "id": "u1-v021", "zh": "贵姓呀?", "jp": "gwai3 sing3 aa3", "en": "What is your surname?", "section": "Dialogue 2", "pos": "phrase", "notes": "polite" },
+    { "id": "u1-v022", "zh": "唔", "jp": "m4", "en": "Not", "section": "Dialogue 2", "pos": "adverb", "notes": "always comes in front of the word it refers to" },
+    { "id": "u1-v023", "zh": "英国人", "jp": "jing1 gwok3 jan4", "en": "British person", "section": "Dialogue 2", "pos": "noun", "notes": "" },
+    { "id": "u1-v024", "zh": "姓", "jp": "sing3", "en": "Surname", "section": "Dialogue 2", "pos": "verb", "notes": "used as a verb: ngo5 sing3 Ho4 = my surname is Ho" },
+    { "id": "u1-v025", "zh": "美国人", "jp": "mei5 gwok3 jan4", "en": "American person", "section": "Dialogue 2", "pos": "noun", "notes": "" },
+    { "id": "u1-v026", "zh": "英国", "jp": "jing1 gwok3", "en": "Britain", "section": "Dialogue 2", "pos": "noun", "notes": "" },
+    { "id": "u1-v027", "zh": "何", "jp": "ho4", "en": "A surname, Ho/He", "section": "Dialogue 2", "pos": "surname", "notes": "" },
+    { "id": "u1-v028", "zh": "美国", "jp": "mei5 gwok3", "en": "America, USA", "section": "Dialogue 2", "pos": "noun", "notes": "" },
+    { "id": "u1-v029", "zh": "卖", "jp": "maai6", "en": "To sell", "section": "Dialogue 2", "pos": "verb", "notes": "" },
+    { "id": "u1-v030", "zh": "车", "jp": "ce1", "en": "Cars", "section": "Dialogue 2", "pos": "noun", "notes": "singular or plural" },
+    { "id": "u1-v031", "zh": "靓", "jp": "leng3", "en": "Pretty", "section": "Dialogue 2", "pos": "adj", "notes": "" },
+    { "id": "u1-v032", "zh": "要", "jp": "jiu3", "en": "To want", "section": "Dialogue 2", "pos": "verb", "notes": "" },
+    { "id": "u1-v033", "zh": "日本人", "jp": "jat6 bun2 jan4", "en": "Japanese person", "section": "Dialogue 2", "pos": "noun", "notes": "" },
+    { "id": "u1-v034", "zh": "贵", "jp": "gwai3", "en": "Expensive", "section": "Dialogue 2", "pos": "adj", "notes": "" },
+    { "id": "u1-v035", "zh": "再见", "jp": "zoi3 gin3", "en": "Goodbye", "section": "Dialogue 2", "pos": "phrase", "notes": "" }
+  ],
+  "dialogues": [
+    {
+      "id": "u1-d1",
+      "title": "Dialogue 1",
+      "setting": "Mr. Wong and his boss Miss Cheung meet in the lift on the way up to the office",
+      "lines": [
+        { "id": "u1-d1-l01", "speaker": "Cheung", "zh": "早晨，王先生", "jp": "zou2 san4, wong4 sin1 saang1", "en": "Good morning, Mr. Wong" },
+        { "id": "u1-d1-l02", "speaker": "Wong", "zh": "早晨，张小姐，你好吗?", "jp": "zou2 san4, zoeng1 siu2 ze2, nei5 hou2 maa3?", "en": "Good morning, Miss Cheung, how are you?" },
+        { "id": "u1-d1-l03", "speaker": "Cheung", "zh": "我好好。你呢?", "jp": "ngo5 hou2 hou2. nei5 ne1?", "en": "I'm very good, how about you?" },
+        { "id": "u1-d1-l04", "speaker": "Wong", "zh": "好好。", "jp": "hou2 hou2", "en": "Very good" },
+        { "id": "u1-d1-l05", "speaker": "Cheung", "zh": "你太太呢?", "jp": "nei5 taai3 taai2 ne1?", "en": "What about your wife?" },
+        { "id": "u1-d1-l06", "speaker": "Wong", "zh": "佢都好，有心。", "jp": "keoi5 dou1 hou2, jau5 sam1", "en": "She's good too. Kind of you to ask" }
+      ],
+      "questions": [
+        "Whether Zoeng1 siu2 ze2 has a husband or not?",
+        "Are any of the three people (including Wong4 sin1 saang1's wife) unwell?",
+        "How would you address the person that Miss Cheung inquires about?"
+      ]
+    },
+    {
+      "id": "u1-d2",
+      "title": "Dialogue 2",
+      "setting": "When she gets to the office, Miss Cheung is surprised to find a visitor waiting for her",
+      "lines": [
+        { "id": "u1-d2-l01", "speaker": "Cheung", "zh": "噢，对唔住，贵姓呀?", "jp": "Ou3, deoi3 m4 zyu6, gwai3 sing3 aa3?", "en": "Oh, sorry, what's your surname?" },
+        { "id": "u1-d2-l02", "speaker": "Ho", "zh": "我姓何，你係李小姐吗?", "jp": "ngo5 sing3 Ho4, nei5 hai6 Lei5 siu2 ze2 maa3?", "en": "My surname is Ho, are you Miss Li?" },
+        { "id": "u1-d2-l03", "speaker": "Cheung", "zh": "唔係，我姓张。何先生，你係唔係美国人呀?", "jp": "m4 hai6, ngo5 sing3 Zoeng1. Ho4 sin1 saang1, nei5 hai6 m4 hai6 mei5 gwok3 jan4 aa3?", "en": "No, my surname is Cheung, Mr. Ho, are you American?" },
+        { "id": "u1-d2-l04", "speaker": "Ho", "zh": "唔係，我係英国人，我卖美国车：美国车好靓，你要唔要呀?", "jp": "m4 hai6, ngo5 hai6 jing1 gwok3 jan4, ngo5 maai6 mei5 gwok3 ce1: mei5 gwok3 ce1 hou2 leng3, nei5 jiu3 m4 jiu3 aa3?", "en": "No, I'm British, I sell American cars. American cars are nice, do you want it?" },
+        { "id": "u1-d2-l05", "speaker": "Cheung", "zh": "唔要，唔要。美国车好贵：我要日本车。再见，何先生。", "jp": "m4 jiu3, m4 jiu3. mei5 gwok3 ce1 hou2 gwai3: ngo5 jiu3 jat6 bun2 ce1. zoi3 gin3, Ho4 sin1 saang1", "en": "No, no. American cars are expensive. I want Japanese car. Bye Mr. Ho" },
+        { "id": "u1-d2-l06", "speaker": "Ho", "zh": "你唔要，李小姐要唔要?", "jp": "nei5 m4 jiu3, Lei5 siu2 ze2 jiu3 m4 jiu3?", "en": "You don't want it, what about Miss Li?" },
+        { "id": "u1-d2-l07", "speaker": "Cheung", "zh": "李小姐都唔要，再见，再见。", "jp": "Lei5 siu2 ze2 dou1 m4 jiu3, zoi3 gin3, zoi3 gin3", "en": "Miss Li doesn't want it either, Bye Bye" }
+      ],
+      "questions": [
+        "Why did Miss Cheung not want an American car?",
+        "What kind of car did she want?",
+        "Could Mr. Ho supply it?",
+        "Was he going to have better luck with Miss Li?",
+        "Zoeng1 siu2 ze2 hai6 Mei5 gwok3 jan4 (True/False)",
+        "Ho4 sin1 saang1 m4 maai6 Mei5 gwok3 ce1 (True/False)",
+        "Wong4 sin1 saang1 maai6 ce1 (True/False)",
+        "Zoeng1 siu2 ze2 hai6 taai3 taai2 (True/False)"
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "u1-g01",
+      "title": "Identifying people and things",
+      "summary": "Each personal pronoun is made plural by adding the suffix 哋 dei6.",
+      "body": "Each of the personal pronoun can be made plural by the addition of 哋 dei6",
+      "examples": [
+        { "id": "u1-g01-e01", "jp": "ngo5", "zh": "我", "en": "I, me", "lit": "" },
+        { "id": "u1-g01-e02", "jp": "ngo5 dei6", "zh": "我哋", "en": "We, us", "lit": "" },
+        { "id": "u1-g01-e03", "jp": "nei5", "zh": "你", "en": "You (singular)", "lit": "" },
+        { "id": "u1-g01-e04", "jp": "nei5 dei6", "zh": "你哋", "en": "You (plural)", "lit": "" },
+        { "id": "u1-g01-e05", "jp": "keoi5", "zh": "佢", "en": "He, she, him, her, it", "lit": "" },
+        { "id": "u1-g01-e06", "jp": "keoi5 dei6", "zh": "佢哋", "en": "They, them", "lit": "" }
+      ],
+      "tags": ["pronouns", "plural"]
+    },
+    {
+      "id": "u1-g02",
+      "title": "The suffix dei6",
+      "summary": "dei6 only pluralises pronouns; its other uses are the indefinite pronoun jan4 dei6 and contracted forms with names.",
+      "body": "The suffix dei6 cannot be used to form plural forms of nouns (e.g., we cannot use 先生哋 sin1 saang1 dei6 to mean “teachers”)\nApart from the personal pronouns as shown above its only uses are:\nIn the form 人哋 jan4 dei6 which serves as a kind of indefinite pronoun (people, one, etc.)\nThis form can also be used to refer indirectly to oneself\nIn contracted forms with names, as in: Paul keoi5 dei6 —> Paul dei6; aa3 Can2 keoi5 dei6 —> aa3 Can2 dei6",
+      "examples": [
+        { "id": "u1-g02-e01", "jp": "jan4 dei6 tai2 gan2 nei5", "zh": "", "en": "People are watching you", "lit": "" },
+        { "id": "u1-g02-e02", "jp": "m4 hou2 cou4 jan4 dei6", "zh": "", "en": "Don't disturb (other) people", "lit": "" },
+        { "id": "u1-g02-e03", "jp": "A: nei5 dim2 gaai2 m4 ceot1 seng1 gaa3?", "zh": "", "en": "Why don't you say anything?", "lit": "" },
+        { "id": "u1-g02-e04", "jp": "B: jan4 dei6 m4 hou2 ji3 si1 aa3", "zh": "", "en": "Maybe I'm embarrased", "lit": "" },
+        { "id": "u1-g02-e05", "jp": "Paul keoi5 dei6 —> Paul dei6", "zh": "", "en": "Paul and his family/friends", "lit": "" },
+        { "id": "u1-g02-e06", "jp": "aa3 Can2 keoi5 dei6 —> aa3 Can2 dei6", "zh": "", "en": "Chan and his family/company, etc.", "lit": "" }
+      ],
+      "tags": ["pronouns", "plural", "suffix"]
+    },
+    {
+      "id": "u1-g03",
+      "title": "Using pronouns",
+      "summary": "Pronouns introduce and identify people, but both subject and object pronouns are dropped when understood from context; in a self-introduction ngo5 is used only once.",
+      "body": "Pronouns are used to refer to individuals, as in introductions\nPronouns can be omitted when they are understood from the context\nPro-drop also applies to objects\nWhen several statement are made about the same subjects, it is usually understood after its first mention, in self-introduction, it is sufficient to use ngo5 once",
+      "examples": [
+        { "id": "u1-g03-e01", "jp": "ngo5 giu3 Stephen", "zh": "", "en": "My name is Stephen", "lit": "" },
+        { "id": "u1-g03-e02", "jp": "ngo5 hai6 go3 hok6 saang1", "zh": "", "en": "I'm a student", "lit": "" },
+        { "id": "u1-g03-e03", "jp": "keoi5 hai6 mei5 gwok3 jan4", "zh": "", "en": "He's American", "lit": "" },
+        { "id": "u1-g03-e04", "jp": "ngo5 dei6 hai6 jau4 haak3", "zh": "", "en": "We're tourists", "lit": "" },
+        { "id": "u1-g03-e05", "jp": "A: heoi3 bin1 dou6", "zh": "", "en": "Where are you going?", "lit": "Go where?" },
+        { "id": "u1-g03-e06", "jp": "B: faan1 nguk1 kei2", "zh": "", "en": "I'm going home", "lit": "Return home" },
+        { "id": "u1-g03-e07", "jp": "A: aa3 Jing1 zou6 mat1 je5 gung1 gaa3?", "zh": "", "en": "What does Ying do for a living?", "lit": "Ying does what job?" },
+        { "id": "u1-g03-e08", "jp": "B: zou6 wu6 si6 ge3", "zh": "", "en": "She's a nurse", "lit": "Does nurse" },
+        { "id": "u1-g03-e09", "jp": "A: jam2 m4 jam2 zau2 aa3?", "zh": "", "en": "Would you like some wine?", "lit": "Drink wine or not?" },
+        { "id": "u1-g03-e10", "jp": "B: m4 jam2 laa3, m4 goi1", "zh": "", "en": "I won't, thanks", "lit": "Not drink, thanks a lot" },
+        { "id": "u1-g03-e11", "jp": "A: ni1 go3 sung3 bei2 nei5 ge3", "zh": "", "en": "This is for you", "lit": "This give to you" },
+        { "id": "u1-g03-e12", "jp": "B: do1 ze6! ngo5 hou2 zung1 ji3 aa3!", "zh": "", "en": "Thank you! I like it!", "lit": "Thank you! I very much like!" },
+        { "id": "u1-g03-e13", "jp": "ngo5 giu3 Mary, gam1 nin2 sap6 baat3 seoi3, lai4 hoeng1 gong2 zou6 gaau1 wun6 hok6 saang1", "zh": "", "en": "My name is Mary. [I'm] 18 this year, [I] came to Hong Kong as an exchange student", "lit": "I called Mary, this year 18 years old, come Hong Kong as exchange student" }
+      ],
+      "tags": ["pronouns", "pro-drop", "introductions"]
+    },
+    {
+      "id": "u1-g04",
+      "title": "The third person: keoi5 he, she and it",
+      "summary": "keoi5 has no gender and normally does not translate English 'it'; things are simply left unmentioned.",
+      "body": "It does not differentiate gender, normally do not correspond to the English pronoun it.\nFor example when referring to a picture or a piece of clothing\nA sequence of statement can be made about the same topic",
+      "examples": [
+        { "id": "u1-g04-e01", "jp": "hou2 leng3 aa3! ngo5 jiu3 aa3!", "zh": "", "en": "It's beautiful! I want it!", "lit": "Very nice! I want" },
+        { "id": "u1-g04-e02", "jp": "keoi5 maai5 zo2 gaa3 san1 ce1 hou2 gwai3 ge3, hou2 coi2 keoi5 taai3 taai2 dou1 hou2 zung1 ji3 ze1", "zh": "", "en": "He's bought a new car, [it was] very expensive, fortunately his wife likes [it] too", "lit": "He bought a new car, very expensive, fortunately his wife also likes" }
+      ],
+      "tags": ["pronouns", "third-person", "pro-drop"]
+    },
+    {
+      "id": "u1-g05",
+      "title": "No counterpart to “it”",
+      "summary": "Cantonese has no dummy subject 'it' for weather or general statements.",
+      "body": "Whether it is referring to the weather, or to nothing in particular",
+      "examples": [
+        { "id": "u1-g05-e01", "jp": "gam1 jat6 hou2 jit6 aa3!", "zh": "", "en": "It's hot today", "lit": "Today very hot" },
+        { "id": "u1-g05-e02", "jp": "lok6 jyu5 aa3!", "zh": "", "en": "It's raining!", "lit": "Falls rain" },
+        { "id": "u1-g05-e03", "jp": "hou2 naan4 gong2", "zh": "", "en": "It's hard to say", "lit": "Very hard to say" }
+      ],
+      "tags": ["pronouns", "it", "weather"]
+    },
+    {
+      "id": "u1-g06",
+      "title": "Reflexive zi6 gei2",
+      "summary": "自己 zi6 gei2 is the reflexive for all persons: used alone, to reinforce a pronoun, or as an adverb 'by oneself'.",
+      "body": "The reflexive form 自己 zi6 gei2 is used for all persons: myself, yourself, herself, ourselves, etc. It is used:\n(i) Alone, referring back to the subject of the sentence\n(ii) Reinforcing a pronoun\n(iii) As an adverb meaning “by oneself”",
+      "examples": [
+        { "id": "u1-g06-e01", "jp": "nei5 jiu3 siu2 sam1 ziu3 gu3 zi6 gei2", "zh": "", "en": "You should look after yourself carefully", "lit": "You should carefully look after yourself" },
+        { "id": "u1-g06-e02", "jp": "m4 hou2 gwaai3 zi6 gei2", "zh": "", "en": "Don't blame yourself all the time", "lit": "Don't always blame yourself" },
+        { "id": "u1-g06-e03", "jp": "keoi5 deoi3 zi6 gei2 hou2 jau5 seon3 sam1", "zh": "", "en": "He has confidence in himself", "lit": "He towards himself very confident" },
+        { "id": "u1-g06-e04", "jp": "ngo5 zi6 gei2 m4 wui5 gam2 zou6", "zh": "", "en": "I myself would not behave like that", "lit": "I myself not would so do" },
+        { "id": "u1-g06-e05", "jp": "nei5 zi6 gei2 sin1 zi1 daap3 ngon3", "zh": "", "en": "Only you yourself know the answer", "lit": "You self only know answer" },
+        { "id": "u1-g06-e06", "jp": "aa3 Yan sing4 jat6 zaan3 keoi5 zi6 gei2", "zh": "", "en": "Yan is always praising herself", "lit": "Yan always praise herself" },
+        { "id": "u1-g06-e07", "jp": "ngo5 zi6 gei2 maai5 sung3 zyu2 faan6", "zh": "", "en": "I'll buy the groceries and cook by myself", "lit": "I myself buy groceries cook rice" },
+        { "id": "u1-g06-e08", "jp": "nei5 jing1 goi1 zi6 gei2 lam2 cing1 co2", "zh": "", "en": "You should think things over by yourself", "lit": "You should yourself think clearly" },
+        { "id": "u1-g06-e09", "jp": "keoi5 soeng2 zi6 gei2 zou6 hai6 zyu2 jam6", "zh": "", "en": "He wants to be the department chairperson himself", "lit": "He want self do department chairperson" }
+      ],
+      "tags": ["pronouns", "reflexive"]
+    },
+    {
+      "id": "u1-g07",
+      "title": "Addressing people",
+      "summary": "Surnames come before titles (and before personal names) in Cantonese.",
+      "body": "Unlike English, Chinese surnames are always given before titles\nAs well as other titles like president, doctor, professor, ambassador, sister\nPersonal name follow the surname, Mr. John Smith —> Smith John Mr. in Cantonese\nThis shows the great stress in which Chinese people have traditionally placed on the family",
+      "examples": [
+        { "id": "u1-g07-e01", "jp": "Wong4 sin1 saang1", "zh": "", "en": "Mr. Wong", "lit": "" },
+        { "id": "u1-g07-e02", "jp": "Wong4 taai3 taai2", "zh": "", "en": "Mrs. Wong", "lit": "" },
+        { "id": "u1-g07-e03", "jp": "Wong4 siu2 ze2", "zh": "", "en": "Miss Wong", "lit": "" }
+      ],
+      "tags": ["titles", "names", "culture"]
+    },
+    {
+      "id": "u1-g08",
+      "title": "Adjectives or verbs? Both!",
+      "summary": "All adjectives can also act as descriptive verbs: hou2 means both 'good' and 'to be good'.",
+      "body": "Hou2 means good, nice, well, fine, OK, and so on.\nAs in English, adjectives go in front of nouns\nIn Cantonese, all adjectives can also act as verbs to describe things (descriptive verbs) and so hou2 means not only good also to be good\nAll adjectives behave the same. ugly (cau2) also means to be ugly",
+      "examples": [
+        { "id": "u1-g08-e01", "jp": "hou2 sin1 saang1", "zh": "", "en": "A good husband", "lit": "" },
+        { "id": "u1-g08-e02", "jp": "keoi5 dei6 hou2", "zh": "", "en": "They are well", "lit": "" },
+        { "id": "u1-g08-e03", "jp": "Wong4 sin1 saang1 hou2", "zh": "", "en": "Mr. Wong is fine", "lit": "" },
+        { "id": "u1-g08-e04", "jp": "keoi5 cau2", "zh": "", "en": "He is ugly", "lit": "" },
+        { "id": "u1-g08-e05", "jp": "cau2 jan4", "zh": "", "en": "Ugly person", "lit": "" }
+      ],
+      "tags": ["adjectives", "verbs", "hou2"]
+    },
+    {
+      "id": "u1-g09",
+      "title": "Simple questions",
+      "summary": "Adding maa3? to the end of a sentence makes a question, but in Cantonese this is used only for polite questions.",
+      "body": "In Mandarin (now usually known as Putonghua, the official common language of China) you can ask a question simply by putting the word ma? on the end of the sentence\nYou can also do the same in Cantonese, but less common.\nThe only time is when you are asking a polite question",
+      "examples": [
+        { "id": "u1-g09-e01", "jp": "nei5 hou2 maa3?", "zh": "", "en": "How are you?", "lit": "" },
+        { "id": "u1-g09-e02", "jp": "Zoeng1 sin1 saang1 hou2 maa3?", "zh": "", "en": "Is Mr. Cheung OK?", "lit": "" }
+      ],
+      "tags": ["questions", "particles", "maa3"]
+    },
+    {
+      "id": "u1-g10",
+      "title": "Two for the price of one + Follow-up question",
+      "summary": "hou2 also means 'very' (hou2 hou2 = very good); the particle ne1? asks a follow-up question without repeating what went before.",
+      "body": "When you learned hou2 you got double value, because it not only means good, well, but very as well.\nSo means A special kind of shortcut question is formed with the little ne1? This asks a follow-up question without the tedium of repeating in full what went before",
+      "examples": [
+        { "id": "u1-g10-e01", "jp": "hou2 hou2", "zh": "", "en": "Very good", "lit": "" },
+        { "id": "u1-g10-e02", "jp": "A: Zoeng1 taai2 hou2 maa3?", "zh": "", "en": "Is Mrs. Cheung OK?", "lit": "" },
+        { "id": "u1-g10-e03", "jp": "B: Keoi5 hou2 hou2", "zh": "", "en": "She's very well", "lit": "" },
+        { "id": "u1-g10-e04", "jp": "A: Wong4 siu2 ze2 ne1?", "zh": "", "en": "And how's Miss Wong?", "lit": "" }
+      ],
+      "tags": ["hou2", "very", "questions", "particles", "ne1"]
+    },
+    {
+      "id": "u1-g11",
+      "title": "dou1 also",
+      "summary": "dou1 'also, too' always comes just before the verb; verbs have only one form regardless of tense or subject.",
+      "body": "dou1 means also, too. It always comes just before a verb\nVerbs only have one form! The same word hou2 was translated as am well, is well, and are well in our earlier examples. Regardless of the tense, the mood, the subject or anything else, the verb will always be simply hou2. This applies to all verbs, there are no irregularities.",
+      "examples": [
+        { "id": "u1-g11-e01", "jp": "A: Ngo5 hou2", "zh": "", "en": "I'm well", "lit": "" },
+        { "id": "u1-g11-e02", "jp": "B: Keoi5 dou1 hou2", "zh": "", "en": "She's well too", "lit": "" }
+      ],
+      "tags": ["adverbs", "dou1", "verbs"]
+    },
+    {
+      "id": "u1-g12",
+      "title": "People (jan4)",
+      "summary": "jan4 means both 'person' and 'people'; nouns have no plural form, so number is read from context.",
+      "body": "Jan4 means person but it also means people. In fact, all nouns in Cantonese are the same whether single or plural and you can only tell which is meant from the sense of the conversation. These is usually no problem by looking the personal pronouns you can easily tell which is which",
+      "examples": [
+        { "id": "u1-g12-e01", "jp": "ngo5 hai6 jat1 go3 jan4", "zh": "", "en": "I am a person", "lit": "" },
+        { "id": "u1-g12-e02", "jp": "keoi5 dei6 hai6 jat1 baan1 jan4", "zh": "", "en": "They are a group of people", "lit": "" }
+      ],
+      "tags": ["nouns", "plural", "jan4"]
+    },
+    {
+      "id": "u1-g13",
+      "title": "hai6 to be",
+      "summary": "係 hai6 introduces noun phrases (and can often be omitted); it is not used with adjectives. hai6 aa3 / m4 hai6 aa3 answer questions, but hai6 agrees with the statement rather than meaning 'yes', and most questions are answered by repeating the verb.",
+      "body": "Hai6 ‘to be’ is used to introduce noun phrases, as in making introductions and identifying people\nBut many such statements can also be made without hai6\nHai6 is not used with predicative adjectives, which are typically introduced by hou2 (lit. very): ngo5 ji4 gaa1 hou2 mong4 (Not *ngo5 ji4 gaa1 hai6 hou2 mong4); nei5 gaa1 ze1 hou2 leng3 (Not *nei5 gaa1 ze1 hai6 hou2 leng3); ngo5 tung4 keoi5 hou2 suk6 (Not *ngo5 tung4 keoi5 hai6 hou2 suk6)\nHai6 also serves to indicate agreement and as an answer to certain types of question, Hai6 meaning ‘yes’ and its negative form m4 hai6 ‘no’\nhai6 shouldn't be taken simply as a counterpart to English ‘yes’ since (i) hai6 can indicate agreement with a negative sentence\nThe most common type of question do not take hai6 for an answer, instead the verb of the original question is repeated",
+      "examples": [
+        { "id": "u1-g13-e01", "jp": "ngo5 hai6 can4 siu2 ming4", "zh": "", "en": "I'm Chan Siu Ming", "lit": "" },
+        { "id": "u1-g13-e02", "jp": "nei5 hai6 bin1 go3 aa3?", "zh": "", "en": "Who are you?", "lit": "" },
+        { "id": "u1-g13-e03", "jp": "keoi5 hai6 ji1 sang1", "zh": "", "en": "She's a doctor", "lit": "" },
+        { "id": "u1-g13-e04", "jp": "ni1 go3 hai6 ngo5 naam4 pang4 jau5", "zh": "", "en": "This is my boyfriend", "lit": "" },
+        { "id": "u1-g13-e05", "jp": "ni1 go3 ngo5 naam4 pang4 jau5", "zh": "", "en": "This is my boyfriend (alternative without hai6)", "lit": "" },
+        { "id": "u1-g13-e06", "jp": "ngo5 dei6 hai6 ciu4 zau1 jan4", "zh": "", "en": "We are Chiu Chow (people)", "lit": "" },
+        { "id": "u1-g13-e07", "jp": "ngo5 dei6 ciu4 zau1 jan4", "zh": "", "en": "We are Chiu Chow (people) (alternative without hai6)", "lit": "" },
+        { "id": "u1-g13-e08", "jp": "ngo5 ji4 gaa1 hou2 mong4", "zh": "", "en": "I'm busy now", "lit": "" },
+        { "id": "u1-g13-e09", "jp": "nei5 gaa1 ze1 hou2 leng3", "zh": "", "en": "Your (elder) sister is beautiful", "lit": "" },
+        { "id": "u1-g13-e10", "jp": "ngo5 tung4 keoi5 hou2 suk6", "zh": "", "en": "I know him well", "lit": "I with him familiar" },
+        { "id": "u1-g13-e11", "jp": "A: hou2 gwai3 aa4?", "zh": "", "en": "It's very expensive?", "lit": "" },
+        { "id": "u1-g13-e12", "jp": "B: hai6 aa3", "zh": "", "en": "Yes, it is", "lit": "" },
+        { "id": "u1-g13-e13", "jp": "A: nei5 zan1 hai6 seon3 me1?", "zh": "", "en": "Do you really believe it?", "lit": "" },
+        { "id": "u1-g13-e14", "jp": "B: m4 hai6 aa3", "zh": "", "en": "No, I don't", "lit": "" },
+        { "id": "u1-g13-e15", "jp": "A: nei5 m4 seon3 aa4?", "zh": "", "en": "Don't you believe it?", "lit": "" },
+        { "id": "u1-g13-e16", "jp": "B: hai6 aa3", "zh": "", "en": "No (I don't)", "lit": "" },
+        { "id": "u1-g13-e17", "jp": "A: keoi5 dei6 mei6 dou3 me1?", "zh": "", "en": "Haven't they arrived yet?", "lit": "" },
+        { "id": "u1-g13-e18", "jp": "B: hai6 aa3", "zh": "", "en": "No (they haven't)", "lit": "" },
+        { "id": "u1-g13-e19", "jp": "A: ngo5 dei6 heoi3 m4 heoi3 maai5 je5 aa3?", "zh": "", "en": "Are we going shopping?", "lit": "" },
+        { "id": "u1-g13-e20", "jp": "B: heoi3 aa3", "zh": "", "en": "Yes (not *hai6)", "lit": "" },
+        { "id": "u1-g13-e21", "jp": "A: nei5 zung1 m4 zung1 ji3 aa3?", "zh": "", "en": "Do you like it?", "lit": "" },
+        { "id": "u1-g13-e22", "jp": "B: zung1 ji3 aa3", "zh": "", "en": "Yes (not *hai6)", "lit": "" }
+      ],
+      "tags": ["hai6", "to be", "copula", "yes-no", "answers"]
+    },
+    {
+      "id": "u1-g14",
+      "title": "Negatives m4",
+      "summary": "唔 m4 'not' always comes in front of the word it negates.",
+      "body": "The word for not is m4. It always comes in front of the word it refers to",
+      "examples": [
+        { "id": "u1-g14-e01", "jp": "Wong4 sin1 saang1 m4 leng3 zai2", "zh": "", "en": "Mr. Wong isn't handsome", "lit": "" },
+        { "id": "u1-g14-e02", "jp": "ngo5 m4 jiu3 ce1", "zh": "", "en": "I don't want a car", "lit": "" }
+      ],
+      "tags": ["negation", "m4"]
+    },
+    {
+      "id": "u1-g15",
+      "title": "Another way to ask questions",
+      "summary": "The commonest question form pairs the positive and negative of the verb (leng3 m4 leng3) and adds the particle aa3?; the answer repeats the verb.",
+      "body": "The most common way to ask a question in Cantonese is by using the positive and negative of a verb together and adding the little word “aa3?” at the end of the sentence\nWhat you are really doing is offering your listener a choice of answers (She pretty? Not pretty? Eh?) and the answer is going to be either keoi5 leng3 or keoi5 m4 leng3\nIn the same way to you can ask: nei5 maai6 m4 maai6 ce1 aa3?\nCantonese people like to have a comfortable noise to round off their sentences with and they have a whole string of little words (usually called particles) which they use. Aa3? Has no meaning on its own, it is just used to punch home the question which has been asked in the sentence. Maa3? And ne1? Which we have already met are other examples of particles.",
+      "examples": [
+        { "id": "u1-g15-e01", "jp": "keoi5 leng3 m4 leng3 aa3?", "zh": "", "en": "Is she pretty?", "lit": "" },
+        { "id": "u1-g15-e02", "jp": "keoi5 leng3", "zh": "", "en": "She's pretty", "lit": "" },
+        { "id": "u1-g15-e03", "jp": "keoi5 m4 leng3", "zh": "", "en": "She's not pretty", "lit": "" },
+        { "id": "u1-g15-e04", "jp": "nei5 maai6 m4 maai6 ce1 aa3?", "zh": "", "en": "Are you selling cars?", "lit": "" }
+      ],
+      "tags": ["questions", "verb-not-verb", "particles", "aa3"]
+    },
+    {
+      "id": "u1-g16",
+      "title": "The unspoken if",
+      "summary": "Cantonese often omits any word for 'if', letting the conditional meaning flow from context.",
+      "body": "There are various words for if in Cantonese, but quite often none of them is used, the meaning seeming to flow naturally from the context.\nIn the dialogue the sentence: nei5 m4 jiu3, Lei5 siu2 ze2 jiu3 m4 jiu3 aa3?",
+      "examples": [
+        { "id": "u1-g16-e01", "jp": "nei5 m4 jiu3, Lei5 siu2 ze2 jiu3 m4 jiu3 aa3?", "zh": "", "en": "If you don't want one, does Miss Li?", "lit": "You not want, Miss Li want not want, eh?" }
+      ],
+      "tags": ["conditionals", "if", "context"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "u1-e1",
+      "title": "Exercise 1",
+      "source": "Unit 1 Encounters.pdf",
+      "instructions": "The following words have got all jumbled up. Sort them out and make meaningful sentences of them. For example, Taai3 taai2 Wong4 leng3 hou2 does not make sense, but rearranged into Wong4 taai3 taai2 hou2 leng3 it is a correct sentence meaning “Mrs. Wong is very beautiful.”",
+      "type": "reorder",
+      "items": [
+        { "id": "u1-e1-i01", "prompt": "Hou2 keoi5 dei6 hou2", "answer": "Keoi5 dei6 hou2 hou2", "answer_en": "They are very well", "hint": "", "confidence": "high" },
+        { "id": "u1-e1-i02", "prompt": "Sin1 saang1 Wong4 hou2", "answer": "Wong4 sin1 saang1 hou2", "answer_en": "Mr. Wong is fine", "hint": "Surname comes before the title", "confidence": "high" },
+        { "id": "u1-e1-i03", "prompt": "Dou1 Zoeng1 hou2 Siu2-ze2", "answer": "Zoeng1 siu2 ze2 dou1 hou2", "answer_en": "Miss Cheung is fine too", "hint": "dou1 goes just before the verb", "confidence": "high" }
+      ]
+    },
+    {
+      "id": "u1-e2",
+      "title": "Exercise 2",
+      "source": "Unit 1 Encounters.pdf",
+      "instructions": "What would you reply?",
+      "type": "reply",
+      "items": [
+        { "id": "u1-e2-i01", "prompt": "早晨 zou2 san4", "answer": "", "answer_en": "", "hint": "See how Mr. Wong answers in Dialogue 1", "confidence": "none" },
+        { "id": "u1-e2-i02", "prompt": "你好吗? nei5 hou2 maa3?", "answer": "", "answer_en": "", "hint": "See how Miss Cheung answers in Dialogue 1", "confidence": "none" },
+        { "id": "u1-e2-i03", "prompt": "再见 zoi3 gin3", "answer": "", "answer_en": "", "hint": "See the end of Dialogue 2", "confidence": "none" }
+      ]
+    },
+    {
+      "id": "u1-e3",
+      "title": "Exercise 3",
+      "source": "Unit 1 Encounters.pdf",
+      "instructions": "Fill in the blanks with words which will make sense.",
+      "type": "fill",
+      "items": [
+        { "id": "u1-e3-i01", "prompt": "Wong4 sin1 saang1 ___ jiu3 Mei5 gwok3 ce1.", "answer": "m4", "answer_en": "Mr. Wong doesn't want an American car", "hint": "", "confidence": "high" },
+        { "id": "u1-e3-i02", "prompt": "Can4 siu2 ze2 leng3 ___ leng3 aa3?", "answer": "m4", "answer_en": "Is Miss Chan pretty?", "hint": "Positive + negative of the verb", "confidence": "high" },
+        { "id": "u1-e3-i03", "prompt": "Keoi5 dei6 hai6 m4 ___ Jat6 bun2 jan4 aa3?", "answer": "hai6", "answer_en": "Are they Japanese?", "hint": "", "confidence": "high" },
+        { "id": "u1-e3-i04", "prompt": "Ngo5 m4 maai6 Jat6 bun2 ce1, ngo5 maai6 ____.", "answer": "Mei5 gwok3 ce1", "answer_en": "I don't sell Japanese cars, I sell American cars", "hint": "Any other kind of car from the unit (e.g. Jing1 gwok3 ce1) also works", "confidence": "medium" }
+      ]
+    },
+    {
+      "id": "u1-e4",
+      "title": "Exercise 4",
+      "source": "Unit 1 Encounters.pdf",
+      "instructions": "Translate into Cantonese",
+      "type": "translate",
+      "items": [
+        { "id": "u1-e4-i01", "prompt": "Japanese cars aren't expensive", "answer": "Jat6 bun2 ce1 m4 gwai3", "answer_en": "", "hint": "", "confidence": "high" },
+        { "id": "u1-e4-i02", "prompt": "He isn't nice", "answer": "Keoi5 m4 hou2", "answer_en": "", "hint": "", "confidence": "high" },
+        { "id": "u1-e4-i03", "prompt": "You are very pretty", "answer": "Nei5 hou2 leng3", "answer_en": "", "hint": "", "confidence": "high" },
+        { "id": "u1-e4-i04", "prompt": "Do they want cars?", "answer": "Keoi5 dei6 jiu3 m4 jiu3 ce1 aa3?", "answer_en": "", "hint": "Positive + negative of the verb, then aa3?", "confidence": "high" },
+        { "id": "u1-e4-i05", "prompt": "He is good-looking too", "answer": "Keoi5 dou1 hou2 leng3", "answer_en": "", "hint": "The Negatives slide also gives leng3 zai2 for 'handsome': Keoi5 dou1 leng3 zai2", "confidence": "medium" },
+        { "id": "u1-e4-i06", "prompt": "They are Americans", "answer": "Keoi5 dei6 hai6 Mei5 gwok3 jan4", "answer_en": "", "hint": "", "confidence": "high" },
+        { "id": "u1-e4-i07", "prompt": "Mr Wong sells cars", "answer": "Wong4 sin1 saang1 maai6 ce1", "answer_en": "", "hint": "", "confidence": "high" },
+        { "id": "u1-e4-i08", "prompt": "British people don't sell American cars", "answer": "Jing1 gwok3 jan4 m4 maai6 Mei5 gwok3 ce1", "answer_en": "", "hint": "", "confidence": "high" }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "u1-n1",
+      "title": "Cantonese surnames",
+      "body": "The most common: Wong 王，黄 wong4; Cheung 张 zoeng1; Ho 何 ho4; Lee 李 lei5; Leung 梁 loeng4; Chan 陈 can4"
+    },
+    {
+      "id": "u1-n2",
+      "title": "Names and family",
+      "body": "Surnames are always given before titles (Wong4 sin1 saang1 = Mr. Wong) and before personal names (Mr. John Smith —> Smith John Mr.). This shows the great stress in which Chinese people have traditionally placed on the family."
+    }
+  ]
+}
