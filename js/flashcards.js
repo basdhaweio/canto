@@ -117,23 +117,21 @@
   // ---------- Card faces ----------
   function faces(card, { showJpOnFront = P.settings().showJpOnFront } = {}) {
     const front = h('div'), back = h('div', { class: 'back' });
-    // Canto.ui.append skips null/false children; native append would print "null".
-    front.append = (...c) => Canto.ui.append(front, c);
-    back.append = (...c) => Canto.ui.append(back, c);
+    const add = (el, ...c) => Canto.ui.append(el, c);   // skips null children (native append prints "null")
     const long = (s) => (s || '').length > 10;
     if (card.kind === 'f') {
-      front.append(h('div', { class: 'zh' + (long(card.v.zh) ? ' long' : ''), text: card.v.zh || '' }));
-      if (!card.v.zh || showJpOnFront) front.append(h('div', { class: 'jp' }, jp(card.v.jp)));
-      back.append(!showJpOnFront && card.v.zh ? h('div', { class: 'jp' }, jp(card.v.jp)) : null, h('div', { class: 'en' + (long(card.v.en) ? ' long' : ''), text: card.v.en }), card.v.notes ? h('div', { class: 'notes', text: card.v.notes }) : null);
+      add(front, h('div', { class: 'zh' + (long(card.v.zh) ? ' long' : ''), text: card.v.zh || '' }));
+      if (!card.v.zh || showJpOnFront) add(front, h('div', { class: 'jp' }, jp(card.v.jp)));
+      add(back, !showJpOnFront && card.v.zh ? h('div', { class: 'jp' }, jp(card.v.jp)) : null, h('div', { class: 'en' + (long(card.v.en) ? ' long' : ''), text: card.v.en }), card.v.notes ? h('div', { class: 'notes', text: card.v.notes }) : null);
     } else if (card.kind === 'r') {
-      front.append(h('div', { class: 'en' + (long(card.v.en) ? ' long' : ''), text: card.v.en }), card.v.pos ? h('div', { class: 'small muted', text: card.v.pos }) : null);
-      back.append(h('div', { class: 'zh' + (long(card.v.zh) ? ' long' : ''), text: card.v.zh || '' }), h('div', { class: 'jp' }, jp(card.v.jp)), card.v.notes ? h('div', { class: 'notes', text: card.v.notes }) : null);
+      add(front, h('div', { class: 'en' + (long(card.v.en) ? ' long' : ''), text: card.v.en }), card.v.pos ? h('div', { class: 'small muted', text: card.v.pos }) : null);
+      add(back, h('div', { class: 'zh' + (long(card.v.zh) ? ' long' : ''), text: card.v.zh || '' }), h('div', { class: 'jp' }, jp(card.v.jp)), card.v.notes ? h('div', { class: 'notes', text: card.v.notes }) : null);
     } else if (card.kind === 'g') {
-      front.append(h('div', { class: 'small muted mb', text: card.g.title }), h('div', { class: 'en long', text: card.e.en }));
-      back.append(h('div', { class: 'jp' }, jp(card.e.jp)), card.e.zh ? h('div', { class: 'zh long', text: card.e.zh }) : null, card.e.lit ? h('div', { class: 'lit', text: 'lit. ' + card.e.lit }) : null);
+      add(front, h('div', { class: 'small muted mb', text: card.g.title }), h('div', { class: 'en long', text: card.e.en }));
+      add(back, h('div', { class: 'jp' }, jp(card.e.jp)), card.e.zh ? h('div', { class: 'zh long', text: card.e.zh }) : null, card.e.lit ? h('div', { class: 'lit', text: 'lit. ' + card.e.lit }) : null);
     } else if (card.kind === 'd') {
-      front.append(h('div', { class: 'small muted mb', text: `${card.d.title} · ${card.l.speaker || ''}` }), h('div', { class: 'en long', text: card.l.en }));
-      back.append(h('div', { class: 'jp' }, jp(card.l.jp)), card.l.zh ? h('div', { class: 'zh long', text: card.l.zh }) : null);
+      add(front, h('div', { class: 'small muted mb', text: `${card.d.title} · ${card.l.speaker || ''}` }), h('div', { class: 'en long', text: card.l.en }));
+      add(back, h('div', { class: 'jp' }, jp(card.l.jp)), card.l.zh ? h('div', { class: 'zh long', text: card.l.zh }) : null);
     }
     return { front, back };
   }

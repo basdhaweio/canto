@@ -1,5 +1,5 @@
 /* Canto service worker: app shell cached, content JSON network-first. */
-const VERSION = 'canto-v1';
+const VERSION = 'canto-v3';
 const SHELL = [
   './', './index.html', './manifest.json', './css/app.css',
   './js/ui.js', './js/data.js', './js/progress.js', './js/unit.js', './js/flashcards.js',
@@ -8,7 +8,8 @@ const SHELL = [
 ];
 
 self.addEventListener('install', (e) => {
-  e.waitUntil(caches.open(VERSION).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting()));
+  // cache: 'reload' bypasses the browser HTTP cache so a new worker never installs stale files.
+  e.waitUntil(caches.open(VERSION).then((c) => c.addAll(SHELL.map((u) => new Request(u, { cache: 'reload' })))).then(() => self.skipWaiting()));
 });
 
 self.addEventListener('activate', (e) => {
@@ -43,7 +44,7 @@ self.addEventListener('fetch', (e) => {
   // Shell: cache first, refresh in the background.
   e.respondWith(
     caches.match(req).then((cached) => {
-      const network = fetch(req).then((res) => {
+      const network = fetch(req, { cache: 'no-cache' }).then((res) => {
         if (res && res.ok) caches.open(VERSION).then((c) => c.put(req, res.clone()));
         return res;
       }).catch(() => cached);
