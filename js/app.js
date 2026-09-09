@@ -279,7 +279,17 @@
     window.addEventListener('hashchange', render);
     render();
     if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
-      navigator.serviceWorker.register('./sw.js').catch((e) => console.warn('sw', e));
+      const hadController = !!navigator.serviceWorker.controller;
+      navigator.serviceWorker.register('./sw.js').then((reg) => reg.update().catch(() => {})).catch((e) => console.warn('sw', e));
+      // When a new worker takes over, reload once so the page runs the new code immediately
+      // (unless a flashcard session is in progress; then apply it on the next launch).
+      let reloaded = false;
+      navigator.serviceWorker.addEventListener('controllerchange', () => {
+        if (reloaded || !hadController) return;
+        reloaded = true;
+        if (Canto.session) { toast('Update ready — it applies next time you open the app', 3500); return; }
+        location.reload();
+      });
     }
     window.addEventListener('beforeinstallprompt', (e) => { e.preventDefault(); Canto.installPrompt = e; });
   }
