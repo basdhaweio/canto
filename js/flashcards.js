@@ -84,8 +84,8 @@
     const t = today(); const p = P.load();
     const due = [], fresh = [];
     for (const c of cards) { const s = p.cards[c.key]; if (S.isNew(s)) fresh.push(c); else if (S.isDue(s, t)) due.push(c); }
-    due.sort((a, b) => ((p.cards[a.key] || {}).due || '').localeCompare((p.cards[b.key] || {}).due || ''));
-    return { due, fresh };
+    // Due cards are shuffled: sorting by date would replay them in the order they were learned.
+    return { due: shuffle(due), fresh };
   }
   function plannedCount(cards, state) {
     const { due, fresh } = split(cards);
