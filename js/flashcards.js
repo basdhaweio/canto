@@ -94,10 +94,15 @@
     if (state.mode === 'new') return Math.min(fresh.length, state.limit);
     return due.length + Math.min(fresh.length, state.limit);
   }
-  // New cards: all word→meaning cards first (in slide order), then meaning→word, then grammar and
-  // dialogue lines. Otherwise the reverse card of a word would follow its forward card and give the answer away.
+  // New cards: all word→meaning cards first, then meaning→word, then grammar and dialogue lines
+  // (otherwise a word's reverse card would follow its forward card and give the answer away),
+  // shuffled within each group so the order isn't memorised.
   const KIND_RANK = { f: 0, r: 1, g: 2, d: 3 };
-  function orderNew(fresh) { return fresh.map((c, i) => [c, i]).sort((a, b) => (KIND_RANK[a[0].kind] - KIND_RANK[b[0].kind]) || (a[1] - b[1])).map((x) => x[0]); }
+  function orderNew(fresh) {
+    const groups = [[], [], [], []];
+    for (const c of fresh) groups[KIND_RANK[c.kind] ?? 3].push(c);
+    return groups.flatMap((g) => shuffle(g));
+  }
   Canto.orderNew = orderNew;
 
   function buildQueue(cards, state) {
