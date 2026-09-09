@@ -84,9 +84,11 @@
       const cur = P.load().sessions.current || 1;
       const s = syl.sessions.find((x) => x.n === cur) || syl.sessions[0];
       const u = s.unit ? D.unit(s.unit) : null;
+      const when = nextSessionDate(syl);
       wrap.append(h('div', { class: 'card mt' },
-        h('div', { class: 'row between' }, h('div', null, h('div', { class: 'eyebrow', text: `Next session · #${s.n} · ${syl.schedule}` }), h('h2', { text: s.title })), h('a', { class: 'btn sm', href: '#/sessions', text: 'All sessions' })),
+        h('div', { class: 'row between' }, h('div', null, h('div', { class: 'eyebrow', text: `Next session · #${s.n} · ${when.label}` }), h('h2', { text: s.title })), h('a', { class: 'btn sm', href: '#/sessions', text: 'All sessions' })),
         h('div', { class: 'muted small', text: (s.topics || []).join(' · ') + (s.episode ? ` · watch episode ${s.episode}` : '') }),
+        when.overdue ? h('div', { class: 'small', style: { color: 'var(--amber)', marginTop: '4px' } }, 'That date has passed — mark it done in ', h('a', { href: '#/sessions', text: 'Sessions' }), ' to move on.') : null,
         h('div', { class: 'btngroup mt' },
           u ? h('a', { class: 'btn', href: '#/unit/' + u.id, text: `Open Unit ${u.number}` }) : null,
           u ? h('a', { class: 'btn', href: `#/study?unit=${u.id}&mode=mixed&go=1`, text: 'Prep flashcards' }) : null,
@@ -113,6 +115,24 @@
     wrap.append(prog);
     return wrap;
   };
+
+  // Next session date: the date set in Sessions if any, otherwise the next occurrence of the syllabus weekday.
+  function nextSessionDate(syl) {
+    const today = Canto.ui.today();
+    let date = P.load().sessions.nextDate || '';
+    if (!date) {
+      const d = new Date(today + 'T00:00:00');
+      const wd = syl.weekday ?? 1;
+      let add = (wd - d.getDay() + 7) % 7;
+      if (add === 0 && new Date().getHours() >= 20) add = 7;
+      date = Canto.ui.addDays(today, add);
+    }
+    const days = Math.round((new Date(date + 'T00:00:00') - new Date(today + 'T00:00:00')) / 86400000);
+    const pretty = new Date(date + 'T00:00:00').toLocaleDateString(undefined, { weekday: 'short', month: 'short', day: 'numeric' });
+    const rel = days < 0 ? `${-days} day${days === -1 ? '' : 's'} ago` : days === 0 ? 'today' : days === 1 ? 'tomorrow' : `in ${days} days`;
+    return { date, days, overdue: days < 0, label: `${pretty} · ${rel}` + (syl.time_local ? ` · ${syl.time_local.replace(/^(\d\d):(\d\d)$/, (m, hh, mm) => ((+hh % 12) || 12) + (mm !== '00' ? ':' + mm : '') + (+hh >= 12 ? 'pm' : 'am'))}` : '') };
+  }
+  Canto.nextSessionDate = nextSessionDate;
 
   // ---------- Dictionary ----------
   Canto.views.dictionary = (query = {}) => {
@@ -160,10 +180,34 @@
     if (!syl) return h('div', { class: 'empty', text: 'No syllabus loaded.' });
     const cur = () => P.load().sessions.current || 1;
     wrap.append(h('div', { class: 'pagehead' }, h('h1', { text: 'Sessions' }),
-      h('div', { class: 'sub' }, `${syl.tutor} · ${syl.schedule} · `, h('a', { href: syl.meeting_link, target: '_blank', rel: 'noopener', text: 'Meeting link' })),
+      h('div', { class: 'sub' }, `${syl.tutor} · usually ${syl.schedule} · `, h('a', { href: syl.meeting_link, target: '_blank', rel: 'noopener', text: 'Meeting link' })),
       h('div', { class: 'small muted mt', text: `Homework series: ${syl.series.title} (${syl.series.year}, ${syl.series.episodes} episodes) — ${syl.series.where}. ${syl.series.notes}` })));
+    // Next-session picker: which session, and on what date (the syllabus weekday is only a default).
+    const nextBox = h('div', { class: 'card mb' });
+    function renderNext() {
+      nextBox.innerHTML = '';
+      const s = syl.sessions.find((x) => x.n === cur()) || syl.sessions[0];
+      const when = nextSessionDate(syl);
+      const dateIn = h('input', { type: 'date', value: when.date, style: { width: 'auto' } });
+      dateIn.addEventListener('change', () => { P.load().sessions.nextDate = dateIn.value; P.save(); renderNext(); });
+      nextBox.append(
+        h('div', { class: 'eyebrow', text: 'Next session' }),
+        h('div', { class: 'row between' },
+          h('div', null, h('h2', { text: `#${s.n} · ${s.title}` }), h('div', { class: 'small muted', text: when.label })),
+          h('div', { class: 'row' }, h('span', { class: 'small muted', text: 'Date' }), dateIn)),
+        h('div', { class: 'small muted mt', text: 'Use "Set as next" on any session below to change which one is coming up; "Mark done" on the next session advances to the following one a week later.' }));
+    }
+    function setNext(n, dateStr) {
+      const p = P.load();
+      p.sessions.current = n;
+      for (const s of syl.sessions) if (s.n < n) p.sessions.completed[s.n] = true;
+      if (dateStr !== undefined) p.sessions.nextDate = dateStr;
+      P.save();
+    }
+    wrap.append(nextBox);
     const list = h('div', { class: 'stack' });
     function render() {
+      renderNext();
       list.innerHTML = '';
       for (const s of syl.sessions) {
         const done = !!P.load().sessions.completed[s.n];
@@ -174,8 +218,15 @@
           h('div', null, h('div', { class: 'eyebrow', text: `Session ${s.n}` + (isCur ? ' · next' : done ? ' · done' : '') }), h('h2', { text: s.title })),
           h('div', { class: 'btngroup' },
             u ? h('a', { class: 'btn sm', href: '#/unit/' + u.id, text: `Unit ${u.number}` }) : null,
-            h('button', { class: 'btn sm ' + (done ? '' : 'ghost'), text: done ? 'Undo done' : 'Mark done', onClick: () => { const p = P.load(); if (done) delete p.sessions.completed[s.n]; else { p.sessions.completed[s.n] = true; p.sessions.current = Math.max(p.sessions.current, s.n + 1); } P.save(); render(); } }),
-            !isCur ? h('button', { class: 'btn sm ghost', text: 'Set as next', onClick: () => { P.load().sessions.current = s.n; P.save(); render(); } }) : null)));
+            h('button', { class: 'btn sm ' + (done ? '' : 'ghost'), text: done ? 'Undo done' : 'Mark done', onClick: () => {
+              const p = P.load();
+              if (done) { delete p.sessions.completed[s.n]; P.save(); render(); return; }
+              p.sessions.completed[s.n] = true;
+              if (isCur) { const when = nextSessionDate(syl); setNext(s.n + 1, Canto.ui.addDays(when.date, 7)); }
+              else if (s.n >= p.sessions.current) setNext(s.n + 1, undefined);
+              P.save(); render();
+            } }),
+            !isCur ? h('button', { class: 'btn sm ghost', text: 'Set as next', onClick: () => { setNext(s.n, ''); render(); } }) : null)));
         card.append(h('div', { class: 'muted small', text: (s.topics || []).join(' · ') }));
         if (s.questions && s.questions.length) {
           const qs = h('div', { class: 'mt' }, h('div', { class: 'eyebrow', text: `Episode ${s.episode} questions` }));
