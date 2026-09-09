@@ -94,12 +94,17 @@
     if (state.mode === 'new') return Math.min(fresh.length, state.limit);
     return due.length + Math.min(fresh.length, state.limit);
   }
+  // New cards: all word→meaning cards first (in slide order), then meaning→word, then grammar and
+  // dialogue lines. Otherwise the reverse card of a word would follow its forward card and give the answer away.
+  const KIND_RANK = { f: 0, r: 1, g: 2, d: 3 };
+  function orderNew(fresh) { return fresh.map((c, i) => [c, i]).sort((a, b) => (KIND_RANK[a[0].kind] - KIND_RANK[b[0].kind]) || (a[1] - b[1])).map((x) => x[0]); }
+  Canto.orderNew = orderNew;
+
   function buildQueue(cards, state) {
     const { due, fresh } = split(cards);
     if (state.mode === 'cram') return shuffle([...cards]);
     if (state.mode === 'due') return due;
-    // keep vocab order for new cards (slides order = pedagogical order) but interleave a little
-    const news = fresh.slice(0, state.limit);
+    const news = orderNew(fresh).slice(0, state.limit);
     if (state.mode === 'new') return news;
     return [...due, ...news];
   }
@@ -109,7 +114,7 @@
     const cards = P.buildCards({ unitIds: null, kinds });
     const { due, fresh } = split(cards);
     if (!due.length && !fresh.length) return h('div', { class: 'empty' }, 'Nothing due right now. ', h('a', { href: '#/study', text: 'Start a custom session' }), '.');
-    const queue = [...due, ...(due.length ? [] : fresh.slice(0, P.settings().newPerDay))];
+    const queue = [...due, ...(due.length ? [] : orderNew(fresh).slice(0, P.settings().newPerDay))];
     setTimeout(() => Canto.startSession(queue, { title: due.length ? 'Daily review' : 'New cards' }), 0);
     return h('div', { class: 'loading', text: 'Starting…' });
   };
