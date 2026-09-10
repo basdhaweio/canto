@@ -613,129 +613,157 @@
     },
     {
       "id": "u4-v068",
-      "zh": "",
+      "zh": "癫",
       "jp": "din1",
       "en": "Crazy",
       "section": "Grammar",
       "pos": "adj",
-      "notes": "Reduplicated: din1 din1 dei2 rather crazy (tone 1 unchanged)"
+      "notes": "Reduplicated: din1 din1 dei2 rather crazy (tone 1 unchanged)",
+      "zh_source": "supplied",
+      "zh_confidence": "high"
     },
     {
       "id": "u4-v069",
-      "zh": "",
+      "zh": "苦",
       "jp": "fu2",
       "en": "Bitter",
       "section": "Grammar",
       "pos": "adj",
-      "notes": "Reduplicated: fu2 fu2 dei2 rather bitter (tone 2 unchanged)"
+      "notes": "Reduplicated: fu2 fu2 dei2 rather bitter (tone 2 unchanged)",
+      "zh_source": "supplied",
+      "zh_confidence": "high"
     },
     {
       "id": "u4-v070",
-      "zh": "",
+      "zh": "瘦",
       "jp": "sau3",
       "en": "Thin",
       "section": "Grammar",
       "pos": "adj",
-      "notes": "Reduplicated: sau3 sau2 dei2 rather thin"
+      "notes": "Reduplicated: sau3 sau2 dei2 rather thin",
+      "zh_source": "supplied",
+      "zh_confidence": "high"
     },
     {
       "id": "u4-v071",
-      "zh": "",
+      "zh": "甜",
       "jp": "tim4",
       "en": "Sweet",
       "section": "Grammar",
       "pos": "adj",
-      "notes": "Reduplicated: tim4 tim2 dei2 rather sweet"
+      "notes": "Reduplicated: tim4 tim2 dei2 rather sweet",
+      "zh_source": "supplied",
+      "zh_confidence": "high"
     },
     {
       "id": "u4-v072",
-      "zh": "",
+      "zh": "热",
       "jp": "jit6",
       "en": "Warm",
       "section": "Grammar",
       "pos": "adj",
-      "notes": "Reduplicated: jit6 jit2 dei2 rather warm"
+      "notes": "Reduplicated: jit6 jit2 dei2 rather warm",
+      "zh_source": "supplied",
+      "zh_confidence": "high"
     },
     {
       "id": "u4-v073",
-      "zh": "",
+      "zh": "闷",
       "jp": "mun6",
       "en": "Bored/boring",
       "section": "Grammar",
       "pos": "adj",
-      "notes": "Reduplicated: mun6 mun2 dei2 rather bored (or boring)"
+      "notes": "Reduplicated: mun6 mun2 dei2 rather bored (or boring)",
+      "zh_source": "supplied",
+      "zh_confidence": "high"
     },
     {
       "id": "u4-v074",
-      "zh": "",
+      "zh": "…哋",
       "jp": "… dei2",
       "en": "Suffix for reduplicated adjectives (rather…)",
       "section": "Grammar",
       "pos": "particle",
-      "notes": "Repeated syllable changes to high rising tone unless already tone 1 or 2"
+      "notes": "Repeated syllable changes to high rising tone unless already tone 1 or 2",
+      "zh_source": "supplied",
+      "zh_confidence": "medium"
     },
     {
       "id": "u4-v075",
-      "zh": "",
+      "zh": "几",
       "jp": "gei2",
       "en": "Quite",
       "section": "Grammar",
       "pos": "adverb",
-      "notes": "Modifies adjectives in place of hou2"
+      "notes": "Modifies adjectives in place of hou2",
+      "zh_source": "supplied",
+      "zh_confidence": "high"
     },
     {
       "id": "u4-v076",
-      "zh": "",
+      "zh": "最",
       "jp": "zeoi3",
       "en": "Most",
       "section": "Grammar",
       "pos": "adverb",
-      "notes": "Modifies adjectives: zeoi3 nin4 hing1 the youngest"
+      "notes": "Modifies adjectives: zeoi3 nin4 hing1 the youngest",
+      "zh_source": "supplied",
+      "zh_confidence": "high"
     },
     {
       "id": "u4-v077",
-      "zh": "",
+      "zh": "够（晒）",
       "jp": "gau3 (saai3)",
       "en": "(More than) enough",
       "section": "Grammar",
       "pos": "adverb",
-      "notes": "tiu4 sing2 gau3 (saai3) coeng4 the string is (more than) long enough"
+      "notes": "tiu4 sing2 gau3 (saai3) coeng4 the string is (more than) long enough",
+      "zh_source": "supplied",
+      "zh_confidence": "high"
     },
     {
       "id": "u4-v078",
-      "zh": "",
+      "zh": "俾",
       "jp": "bei2",
       "en": "To give, to give to, to hand over to",
       "section": "Grammar",
       "pos": "verb",
-      "notes": "keoi5 bei2 jat1 zi1 bat1 ngo5 he hands me a pen"
+      "notes": "keoi5 bei2 jat1 zi1 bat1 ngo5 he hands me a pen",
+      "zh_source": "supplied",
+      "zh_confidence": "high"
     },
     {
       "id": "u4-v079",
-      "zh": "",
+      "zh": "咪",
       "jp": "mai5",
       "en": "Don't",
       "section": "Grammar",
       "pos": "verb",
-      "notes": "Shortcut for m4 hou2; a bit ruder because it is so abrupt sounding"
+      "notes": "Shortcut for m4 hou2; a bit ruder because it is so abrupt sounding",
+      "zh_source": "supplied",
+      "zh_confidence": "high"
     },
     {
       "id": "u4-v080",
-      "zh": "",
+      "zh": "今朝（早）",
       "jp": "gam1 ziu1 (zou2)",
       "en": "This morning",
       "section": "Grammar",
       "pos": "noun",
-      "notes": "Shortcut for gam1 jat6 ziu1 zou2"
+      "notes": "Shortcut for gam1 jat6 ziu1 zou2",
+      "zh_source": "supplied",
+      "zh_confidence": "high"
     },
     {
       "id": "u4-v081",
-      "zh": "",
+      "zh": "昨朝（早）",
       "jp": "zok6 ziu1 (zou2)",
       "en": "Yesterday morning",
       "section": "Grammar",
       "pos": "noun",
-      "notes": "Shortcut for zok6 jat6 ziu1 zou2"
+      "notes": "Shortcut for zok6 jat6 ziu1 zou2",
+      "zh_source": "supplied",
+      "zh_confidence": "high"
     }
   ],
   "dialogues": [

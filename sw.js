@@ -1,5 +1,5 @@
 /* Canto service worker: app shell cached, content JSON network-first. */
-const VERSION = 'canto-v8';
+const VERSION = 'canto-v9';
 const SHELL = [
   './', './index.html', './manifest.json', './css/app.css',
   './js/ui.js', './js/data.js', './js/progress.js', './js/unit.js', './js/flashcards.js',

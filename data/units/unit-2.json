@@ -562,219 +562,267 @@
     },
     {
       "id": "u2-v062",
-      "zh": "",
+      "zh": "啲",
       "jp": "di1",
       "en": "Plural classifier: more than one (ngo5 di1 zai2 neoi2 my children; keoi5 di1 saam1 her clothes)",
       "section": "Grammar",
       "pos": "classifier",
-      "notes": "Used in place of ge3 to specify more than one item (p11)"
+      "notes": "Used in place of ge3 to specify more than one item (p11)",
+      "zh_source": "supplied",
+      "zh_confidence": "high"
     },
     {
       "id": "u2-v063",
-      "zh": "",
+      "zh": "把",
       "jp": "baa2",
       "en": "Classifier for tools, instruments (baa2 dou1 knife)",
       "section": "Grammar",
       "pos": "classifier",
-      "notes": "Also 'a pair of scissors' = jat1 baa2 gaau3 zin2"
+      "notes": "Also 'a pair of scissors' = jat1 baa2 gaau3 zin2",
+      "zh_source": "supplied",
+      "zh_confidence": "high"
     },
     {
       "id": "u2-v064",
-      "zh": "",
+      "zh": "架",
       "jp": "gaa3",
       "en": "Classifier for machines, vehicles (gaa3 ce1 the car)",
       "section": "Grammar",
       "pos": "classifier",
-      "notes": ""
+      "notes": "",
+      "zh_source": "supplied",
+      "zh_confidence": "high"
     },
     {
       "id": "u2-v065",
-      "zh": "",
+      "zh": "间",
       "jp": "gaan1",
       "en": "Classifier for buildings (gaan1 nguk1 the house)",
       "section": "Grammar",
       "pos": "classifier",
-      "notes": ""
+      "notes": "",
+      "zh_source": "supplied",
+      "zh_confidence": "high"
     },
     {
       "id": "u2-v066",
-      "zh": "",
+      "zh": "件",
       "jp": "gin6",
       "en": "Classifier for most clothes (gin6 saam1 shirt, dress)",
       "section": "Grammar",
       "pos": "classifier",
-      "notes": "Elongated clothing (trousers, skirts) takes tiu4 instead"
+      "notes": "Elongated clothing (trousers, skirts) takes tiu4 instead",
+      "zh_source": "supplied",
+      "zh_confidence": "high"
     },
     {
       "id": "u2-v067",
-      "zh": "",
+      "zh": "只",
       "jp": "zek3",
       "en": "Classifier for most animals (zek3 gau2 a dog) and one of a pair (jat1 zek3 sau2 one hand)",
       "section": "Grammar",
       "pos": "classifier",
-      "notes": "Elongated animals (fish, snakes) take tiu4 instead"
+      "notes": "Elongated animals (fish, snakes) take tiu4 instead",
+      "zh_source": "supplied",
+      "zh_confidence": "high"
     },
     {
       "id": "u2-v068",
-      "zh": "",
+      "zh": "块",
       "jp": "faai3",
       "en": "Classifier for things with a vertical surface (jat1 faai3 geng3 a mirror)",
       "section": "Grammar",
       "pos": "classifier",
-      "notes": ""
+      "notes": "",
+      "zh_source": "supplied",
+      "zh_confidence": "high"
     },
     {
       "id": "u2-v069",
-      "zh": "",
+      "zh": "幅",
       "jp": "fuk1",
       "en": "Classifier for square/rectangular things (jat1 fuk1 waa2 a picture)",
       "section": "Grammar",
       "pos": "classifier",
-      "notes": ""
+      "notes": "",
+      "zh_source": "supplied",
+      "zh_confidence": "high"
     },
     {
       "id": "u2-v070",
-      "zh": "",
+      "zh": "张",
       "jp": "zoeng1",
       "en": "Classifier for flat surfaces (jat1 zoeng1 toi2 a table)",
       "section": "Grammar",
       "pos": "classifier",
-      "notes": ""
+      "notes": "",
+      "zh_source": "supplied",
+      "zh_confidence": "high"
     },
     {
       "id": "u2-v071",
-      "zh": "",
+      "zh": "粒",
       "jp": "lap1",
       "en": "Classifier for small and round things (jat1 lap1 tong2 a sweet)",
       "section": "Grammar",
       "pos": "classifier",
-      "notes": ""
+      "notes": "",
+      "zh_source": "supplied",
+      "zh_confidence": "high"
     },
     {
       "id": "u2-v072",
-      "zh": "",
+      "zh": "条",
       "jp": "tiu4",
       "en": "Classifier for long and narrow things (tiu4 lou6 the road; tiu4 jyu2 fish; tiu4 fu3 trousers)",
       "section": "Grammar",
       "pos": "classifier",
-      "notes": "Shape overrides semantic class: fish, snakes, skirts and trousers take tiu4"
+      "notes": "Shape overrides semantic class: fish, snakes, skirts and trousers take tiu4",
+      "zh_source": "supplied",
+      "zh_confidence": "high"
     },
     {
       "id": "u2-v073",
-      "zh": "",
+      "zh": "套",
       "jp": "tou3",
       "en": "Classifier for films and sets (sap6 tou3 hei3 ten films; jat1 tou3 san1 saam1 a set of new clothes)",
       "section": "Grammar",
       "pos": "classifier",
-      "notes": ""
+      "notes": "",
+      "zh_source": "supplied",
+      "zh_confidence": "high"
     },
     {
       "id": "u2-v074",
-      "zh": "",
+      "zh": "对",
       "jp": "deoi3",
       "en": "Collective classifier: pair (go2 deoi3 haai4 that pair of shoes; jat1 deoi3 fu1 fu5 a married couple)",
       "section": "Grammar",
       "pos": "classifier",
-      "notes": "Not everything that is a pair in English takes deoi3: trousers jat1 tiu4 fu3, scissors jat1 baa2 gaau3 zin2"
+      "notes": "Not everything that is a pair in English takes deoi3: trousers jat1 tiu4 fu3, scissors jat1 baa2 gaau3 zin2",
+      "zh_source": "supplied",
+      "zh_confidence": "high"
     },
     {
       "id": "u2-v075",
-      "zh": "",
+      "zh": "班",
       "jp": "baan1",
       "en": "Collective classifier: class, group (ni1 baan1 hok6 saang1 this class of students)",
       "section": "Grammar",
       "pos": "classifier",
-      "notes": ""
+      "notes": "",
+      "zh_source": "supplied",
+      "zh_confidence": "high"
     },
     {
       "id": "u2-v076",
-      "zh": "",
+      "zh": "堆",
       "jp": "deoi1",
       "en": "Collective classifier: pile, heap (go2 deoi1 laap6 saap3 that pile of rubbish)",
       "section": "Grammar",
       "pos": "classifier",
-      "notes": ""
+      "notes": "",
+      "zh_source": "supplied",
+      "zh_confidence": "high"
     },
     {
       "id": "u2-v077",
-      "zh": "",
+      "zh": "叠",
       "jp": "daap6",
       "en": "Collective classifier: pile, stack (jat1 daap6 syu1 a pile of books)",
       "section": "Grammar",
       "pos": "classifier",
-      "notes": ""
+      "notes": "",
+      "zh_source": "supplied",
+      "zh_confidence": "high"
     },
     {
       "id": "u2-v078",
-      "zh": "",
+      "zh": "磅",
       "jp": "bong6",
       "en": "Measure: pound (loeng5 bong6 ngau4 juk6 two pounds of beef)",
       "section": "Grammar",
       "pos": "classifier",
-      "notes": ""
+      "notes": "",
+      "zh_source": "supplied",
+      "zh_confidence": "high"
     },
     {
       "id": "u2-v079",
-      "zh": "",
+      "zh": "斤",
       "jp": "gan1",
       "en": "Measure: catty (jat1 gan1 coi3 a catty of vegetables)",
       "section": "Grammar",
       "pos": "classifier",
-      "notes": ""
+      "notes": "",
+      "zh_source": "supplied",
+      "zh_confidence": "high"
     },
     {
       "id": "u2-v080",
-      "zh": "",
+      "zh": "打",
       "jp": "daa1",
       "en": "Measure: dozen (bun3 daa1 gai1 daan2 half a dozen eggs)",
       "section": "Grammar",
       "pos": "classifier",
-      "notes": ""
+      "notes": "",
+      "zh_source": "supplied",
+      "zh_confidence": "high"
     },
     {
       "id": "u2-v081",
-      "zh": "",
+      "zh": "杯",
       "jp": "bui1",
       "en": "Container measure: cup, glass (saam1 bui1 caa4 three cups of tea)",
       "section": "Grammar",
       "pos": "classifier",
-      "notes": "As a noun it takes go3: do1 jat1 go3 bui1 another glass/cup"
+      "notes": "As a noun it takes go3: do1 jat1 go3 bui1 another glass/cup",
+      "zh_source": "supplied",
+      "zh_confidence": "high"
     },
     {
       "id": "u2-v082",
-      "zh": "",
+      "zh": "盒",
       "jp": "hap6",
       "en": "Container measure: box (loeng5 hap6 tong2 two boxes of sweets)",
       "section": "Grammar",
       "pos": "classifier",
-      "notes": "As a noun it is hap2 and takes go3: loeng5 go3 hap2 two boxes"
+      "notes": "As a noun it is hap2 and takes go3: loeng5 go3 hap2 two boxes",
+      "zh_source": "supplied",
+      "zh_confidence": "high"
     },
     {
       "id": "u2-v083",
-      "zh": "",
+      "zh": "包",
       "jp": "baau1",
       "en": "Container measure: bag, packet (jat1 baau1 mai5 a bag of uncooked rice)",
       "section": "Grammar",
       "pos": "classifier",
-      "notes": ""
+      "notes": "",
+      "zh_source": "supplied",
+      "zh_confidence": "high"
     },
     {
       "id": "u2-v084",
-      "zh": "",
+      "zh": "碟",
       "jp": "dip6",
       "en": "Container measure: dish, plate (jat1 dip6 coi3 a dish of vegetables)",
       "section": "Grammar",
       "pos": "classifier",
-      "notes": "As a noun it is dip2 and takes go3: gei2 go3 dip2 several plates"
+      "notes": "As a noun it is dip2 and takes go3: gei2 go3 dip2 several plates",
+      "zh_source": "supplied",
+      "zh_confidence": "high"
     },
     {
       "id": "u2-v085",
-      "zh": "",
+      "zh": "碗",
       "jp": "wun2",
       "en": "Container measure: bowl (jat1 go3 wun2 a bowl; saam1 wun2 faan6 three bowls of rice)",
       "section": "Grammar",
       "pos": "classifier",
-      "notes": "As a noun it takes go3"
+      "notes": "As a noun it takes go3",
+      "zh_source": "supplied",
+      "zh_confidence": "high"
     }
   ],
   "dialogues": [

@@ -83,7 +83,7 @@
         const c = P.card(P.cardKey(v.id, 'f'));
         const star = h('span', { class: 'star ' + (P.star(v.id) ? 'on' : ''), text: '★', onClick: (e) => { e.stopPropagation(); star.classList.toggle('on', P.toggleStar(v.id)); } });
         tb.append(h('tr', { class: 'clickable', onClick: () => Canto.views.wordSheet([v]) },
-          h('td', { class: 'zh', text: v.zh }),
+          h('td', { class: 'zh' }, v.zh, v.zh_source === 'supplied' ? h('sup', { class: 'small muted', title: 'Characters added by the app; the slides print only the romanisation', text: '†' }) : null),
           h('td', null, jp(v.jp)),
           h('td', null, v.en, v.notes ? h('div', { class: 'small muted', text: v.notes }) : null),
           h('td', { class: 'right' }, c && c.reps ? pill(c.interval >= 21 ? 'mature' : 'learning', c.interval >= 21 ? 'pill-green' : 'pill-amber') : null, ' ', star)));
@@ -101,8 +101,9 @@
       });
       el.append(chips);
     }
+    const suppliedN = u.vocab.filter((v) => v.zh_source === 'supplied').length;
     el.append(h('div', { class: 'row between mb' },
-      h('span', { class: 'muted small', text: `${u.vocab.length} words · tap a row for details` }),
+      h('span', { class: 'muted small', text: `${u.vocab.length} words · tap a row for details` + (suppliedN ? ` · † = characters added by the app (${suppliedN})` : '') }),
       h('a', { class: 'btn sm', href: `#/study?unit=${u.id}&kinds=f&mode=cram&go=1`, text: 'Cram all' })));
     render();
     el.append(h('div', { style: { overflowX: 'auto' } }, table));

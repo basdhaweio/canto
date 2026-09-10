@@ -6,7 +6,7 @@ The app never edits these files; they are the source of truth transcribed from t
 ## Conventions
 
 - **Romanisation is Jyutping with tone digits**, exactly as printed in the slides (`zou2 san4`). Syllables separated by single spaces. Keep the slides' spelling even when it differs from standard Jyutping (e.g. the course writes `nguk1`, `cing2`, `lai4`).
-- **Characters**: use the characters printed on the slides (they are simplified). Never substitute "more correct" characters. If the slide prints no characters for an item, use `""`.
+- **Characters**: use the characters printed on the slides (they are simplified). Never substitute "more correct" characters. If the slide prints no characters for an item, transcription leaves `""`; a separate pass may then fill `zh` from standard usage and mark it `"zh_source": "supplied"` with `"zh_confidence": "high" | "medium" | "none"` so the app can show that the characters are not from the course deck.
 - **English**: as printed, lightly tidied (capitalised first letter, no trailing period). Keep parenthetical notes.
 - **IDs**: stable, lowercase, unit-prefixed: vocab `u1-v012`, dialogues `u1-d1`, dialogue lines `u1-d1-l03`, grammar `u1-g03`, examples `u1-g03-e02`, exercises `u1-e2`, exercise items `u1-e2-i03`. Numbers are zero-padded to the width shown. IDs are referenced by saved progress, so never renumber existing items; append new ones.
 - Use `""` (not `null`) for missing strings, `[]` for missing lists.

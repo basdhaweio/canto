@@ -129,13 +129,14 @@
     const front = h('div'), back = h('div', { class: 'back' });
     const add = (el, ...c) => Canto.ui.append(el, c);   // skips null children (native append prints "null")
     const long = (s) => (s || '').length > 10;
+    const supplied = (v) => v.zh_source === 'supplied' ? h('sup', { class: 'small muted', title: 'Characters added by the app; the slides print only the romanisation', text: '†' }) : null;
     if (card.kind === 'f') {
-      add(front, h('div', { class: 'zh' + (long(card.v.zh) ? ' long' : ''), text: card.v.zh || '' }));
+      add(front, h('div', { class: 'zh' + (long(card.v.zh) ? ' long' : '') }, card.v.zh || '', supplied(card.v)));
       if (!card.v.zh || showJpOnFront) add(front, h('div', { class: 'jp' }, jp(card.v.jp)));
       add(back, !showJpOnFront && card.v.zh ? h('div', { class: 'jp' }, jp(card.v.jp)) : null, h('div', { class: 'en' + (long(card.v.en) ? ' long' : ''), text: card.v.en }), card.v.notes ? h('div', { class: 'notes', text: card.v.notes }) : null);
     } else if (card.kind === 'r') {
       add(front, h('div', { class: 'en' + (long(card.v.en) ? ' long' : ''), text: card.v.en }), card.v.pos ? h('div', { class: 'small muted', text: card.v.pos }) : null);
-      add(back, h('div', { class: 'zh' + (long(card.v.zh) ? ' long' : ''), text: card.v.zh || '' }), h('div', { class: 'jp' }, jp(card.v.jp)), card.v.notes ? h('div', { class: 'notes', text: card.v.notes }) : null);
+      add(back, h('div', { class: 'zh' + (long(card.v.zh) ? ' long' : '') }, card.v.zh || '', supplied(card.v)), h('div', { class: 'jp' }, jp(card.v.jp)), card.v.notes ? h('div', { class: 'notes', text: card.v.notes }) : null);
     } else if (card.kind === 'g') {
       add(front, h('div', { class: 'small muted mb', text: card.g.title }), h('div', { class: 'en long', text: card.e.en }));
       add(back, h('div', { class: 'jp' }, jp(card.e.jp)), card.e.zh ? h('div', { class: 'zh long', text: card.e.zh }) : null, card.e.lit ? h('div', { class: 'lit', text: 'lit. ' + card.e.lit }) : null);
@@ -246,6 +247,7 @@
         h('div', { class: 'jp' }, jp(v.jp)),
         h('div', { class: 'en', text: v.en }),
         v.notes ? h('div', { class: 'small muted', text: v.notes }) : null,
+        v.zh_source === 'supplied' ? h('div', { class: 'small muted', text: 'Characters added by the app (the course slides print only the romanisation)' + (v.zh_confidence === 'medium' ? ' — worth confirming with your tutor' : '') }) : null,
         h('div', { class: 'row mt' },
           u ? h('a', { class: 'pill', href: `#/unit/${u.id}/vocab`, text: `Unit ${u.number}` + (v.section ? ' · ' + v.section : '') }) : null,
           c && c.reps ? pill(`next ${c.due}`, c.due <= today() ? 'pill-due' : '') : pill('new'),
