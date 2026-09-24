@@ -100,12 +100,14 @@
       h('a', { href: '#/units' }, h('b', { text: 'Units' }), h('small', { text: `${D.units().length} units` })),
       h('a', { href: '#/dictionary' }, h('b', { text: 'Dictionary' }), h('small', { text: `${D.allVocab().length} words` })),
       h('a', { href: '#/dictionary?starred=1' }, h('b', { text: 'Starred words' }), h('small', { text: `${Object.keys(P.load().starred).length} starred` })),
-      h('a', { href: '#/study?kinds=g&mode=mixed' }, h('b', { text: 'Grammar drill' }), h('small', { text: 'example sentences' }))));
+      h('a', { href: '#/study?kinds=p&mode=mixed&units=all' }, h('b', { text: 'Particles & endings' }), h('small', { text: `${D.allVocab().filter((v) => v.deck === 'particles').length} cards · maa3, ne1, zo2, gan2…` })),
+      h('a', { href: '#/study?kinds=g&mode=mixed&units=all' }, h('b', { text: 'Grammar drill' }), h('small', { text: 'example sentences' }))));
 
     // Unit progress
     const prog = h('div', { class: 'card mt' }, h('h2', { text: 'Progress by unit' }));
     for (const u of D.units()) {
       const st = P.unitStats(u.id);
+      if (!st.total) continue;   // Unit 0 and review units have no word cards
       const uc = P.dueCount(P.buildCards({ unitIds: [u.id], kinds: P.settings().cardKinds }));
       prog.append(h('a', { class: 'unitrow', href: '#/unit/' + u.id, style: { color: 'inherit' } },
         h('div', { class: 'n', text: String(u.number) }),
@@ -165,7 +167,8 @@
       }
       table.append(tb);
       results.append(h('div', { style: { overflowX: 'auto' } }, table));
-      if (list.length) results.append(h('div', { class: 'btngroup mt' }, h('button', { class: 'btn sm', text: `Flashcards for these ${Math.min(list.length, 200)}`, onClick: () => Canto.startSession(Canto.ui.shuffle(shown.map((v) => ({ key: P.cardKey(v.id, 'f'), kind: 'f', id: v.id, unitId: v.unitId, v }))), { title: q ? `Search: ${q}` : 'Dictionary' }) })));
+      const cardable = shown.map((v) => P.cardFor(v)).filter(Boolean);
+      if (cardable.length) results.append(h('div', { class: 'btngroup mt' }, h('button', { class: 'btn sm', text: cardable.length === 1 ? 'Flashcard for the course word here' : `Flashcards for the ${cardable.length} course words here`, onClick: () => Canto.startSession(Canto.ui.shuffle(cardable), { title: q ? `Search: ${q}` : 'Dictionary' }) })));
     }
     let t; input.addEventListener('input', () => { clearTimeout(t); t = setTimeout(run, 120); });
     run();
@@ -260,7 +263,7 @@
     const jpFront = h('input', { type: 'checkbox', checked: st.showJpOnFront });
     jpFront.addEventListener('change', () => P.setSetting('showJpOnFront', jpFront.checked));
     const kinds = h('div', { class: 'chips' });
-    for (const [k, label] of [['f', 'Word → meaning'], ['r', 'Meaning → word'], ['g', 'Grammar examples'], ['d', 'Dialogue lines']]) {
+    for (const [k, label] of [['f', 'Word → meaning'], ['r', 'Meaning → word'], ['p', 'Particles & endings'], ['g', 'Grammar examples'], ['d', 'Dialogue lines']]) {
       kinds.append(Canto.ui.chip(label, !!st.cardKinds[k], (on) => { st.cardKinds[k] = on; P.setSetting('cardKinds', st.cardKinds); Canto.updateDuePill(); }));
     }
     wrap.append(h('div', { class: 'card' }, h('h2', { text: 'Study' }),
@@ -327,6 +330,7 @@
       document.getElementById('view').append(h('div', { class: 'empty' }, 'Could not load course data. ', h('code', { text: e.message })));
       return;
     }
+    P.migrate();
     window.addEventListener('hashchange', render);
     render();
     if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {

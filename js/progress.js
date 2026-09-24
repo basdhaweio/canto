@@ -59,7 +59,7 @@ Canto.progress = (() => {
       theme: 'auto',
       newPerDay: 15,
       showJpOnFront: true,
-      cardKinds: { f: true, r: true, g: false, d: false },
+      cardKinds: { f: true, r: true, p: true, g: false, d: false },
       hideTones: false,
     },
     lastStudy: null,  // remembered flashcard setup
@@ -140,9 +140,30 @@ Canto.progress = (() => {
   }
   function reset() { data = JSON.parse(JSON.stringify(DEFAULTS)); saveNow(); }
 
+  // One-time upgrades after content loads: new card types default on, and a particle that was
+  // studied as a word card keeps its schedule in the particles deck.
+  function migrate() {
+    const d = load();
+    let changed = false;
+    if (d.settings.cardKinds.p === undefined) { d.settings.cardKinds.p = true; changed = true; }
+    if (d.lastStudy && d.lastStudy.kinds && d.lastStudy.kinds.p === undefined) { d.lastStudy.kinds.p = true; changed = true; }
+    for (const v of Canto.data.allVocab()) {
+      if (v.deck !== 'particles') continue;
+      const f = d.cards[cardKey(v.id, 'f')];
+      if (f && !d.cards[cardKey(v.id, 'p')]) { d.cards[cardKey(v.id, 'p')] = Object.assign({}, f); changed = true; }
+    }
+    if (changed) saveNow();
+  }
+
   // ---- Card catalogue: everything that can be a flashcard ----
-  // kinds: f = zh/jp -> en, r = en -> zh/jp, g = grammar example en -> jp, d = dialogue line en -> jp
+  // kinds: f = zh/jp -> en, r = en -> zh/jp (Vocabulary-slide words only), p = particles & verb endings,
+  // g = grammar example en -> jp, d = dialogue line en -> jp
   function cardKey(id, kind) { return id + ':' + kind; }
+  function cardFor(v) {
+    if (v.deck === 'vocab') return { key: cardKey(v.id, 'f'), kind: 'f', id: v.id, unitId: v.unitId, v };
+    if (v.deck === 'particles') return { key: cardKey(v.id, 'p'), kind: 'p', id: v.id, unitId: v.unitId, v };
+    return null;
+  }
   function buildCards({ unitIds, sections, kinds }) {
     const out = [];
     const D = Canto.data;
@@ -150,11 +171,13 @@ Canto.progress = (() => {
       if (unitIds && unitIds.length && !unitIds.includes(u.id)) continue;
       if (kinds.f || kinds.r) {
         for (const v of u.vocab) {
+          if (v.deck !== 'vocab') continue;
           if (sections && sections.length && !sections.includes(v.section || 'Other')) continue;
           if (kinds.f) out.push({ key: cardKey(v.id, 'f'), kind: 'f', id: v.id, unitId: u.id, v });
           if (kinds.r) out.push({ key: cardKey(v.id, 'r'), kind: 'r', id: v.id, unitId: u.id, v });
         }
       }
+      if (kinds.p) for (const v of u.vocab) if (v.deck === 'particles') out.push({ key: cardKey(v.id, 'p'), kind: 'p', id: v.id, unitId: u.id, v });
       if (kinds.g) for (const g of u.grammar) for (const e of g.examples || []) if (e.jp && e.en) out.push({ key: cardKey(e.id, 'g'), kind: 'g', id: e.id, unitId: u.id, e, g });
       if (kinds.d) for (const d of u.dialogues) for (const l of d.lines || []) if (l.jp && l.en) out.push({ key: cardKey(l.id, 'd'), kind: 'd', id: l.id, unitId: u.id, l, d });
     }
@@ -179,5 +202,5 @@ Canto.progress = (() => {
     return { total: cards.length, seen, mature };
   }
 
-  return { load, save, saveNow, card, setCard, grade, resetCard, streak, reviewedToday, exercise, setExercise, note, setNote, star, toggleStar, settings, setSetting, exportJSON, importJSON, reset, cardKey, buildCards, dueCount, unitStats };
+  return { load, save, saveNow, card, setCard, grade, resetCard, streak, reviewedToday, exercise, setExercise, note, setNote, star, toggleStar, settings, setSetting, exportJSON, importJSON, reset, migrate, cardKey, cardFor, buildCards, dueCount, unitStats };
 })();

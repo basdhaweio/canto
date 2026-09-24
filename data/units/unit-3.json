@@ -114,7 +114,8 @@
       "en": "A question word (that's right), isn't it?",
       "section": "Dialogue 1",
       "pos": "particle",
-      "notes": "Final particle asking for confirmation"
+      "notes": "Final particle asking for confirmation",
+      "fn": "particle"
     },
     {
       "id": "u3-v013",
@@ -195,7 +196,8 @@
       "en": "A statement word (that's how the case stands now)",
       "section": "Dialogue 1",
       "pos": "particle",
-      "notes": "Final particle"
+      "notes": "Final particle",
+      "fn": "particle"
     },
     {
       "id": "u3-v022",
@@ -447,7 +449,8 @@
       "en": "(Particle) only, and that's all",
       "section": "Dialogue 2",
       "pos": "particle",
-      "notes": "Final particle"
+      "notes": "Final particle",
+      "fn": "particle"
     },
     {
       "id": "u3-v050",
@@ -465,7 +468,8 @@
       "en": "(Particle) Makes a statement more emphatic: that's how it is and that's how it's going to stay",
       "section": "Dialogue 2",
       "pos": "particle",
-      "notes": "Final particle"
+      "notes": "Final particle",
+      "fn": "particle"
     },
     {
       "id": "u3-v052",
@@ -474,7 +478,8 @@
       "en": "A particle urging someone to agree with you or to do one thing for you",
       "section": "Dialogue 2",
       "pos": "particle",
-      "notes": "Final particle"
+      "notes": "Final particle",
+      "fn": "particle"
     },
     {
       "id": "u3-v053",

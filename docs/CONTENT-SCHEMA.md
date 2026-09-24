@@ -12,6 +12,12 @@ The app never edits these files; they are the source of truth transcribed from t
 - Use `""` (not `null`) for missing strings, `[]` for missing lists.
 - Unicode ellipsis `…` for slot markers as printed (`太…啦…`).
 
+## Flashcard rule (from the tutor)
+
+- **Word cards** come only from each unit's Vocabulary slides: `section` starting with `Dialogue` (or `Vocabulary`). Unit 0 and grammar-slide words (`section: "Grammar"`, `"Numbers"`, `"Phonology"`, `"Review"`) are dictionary-only.
+- **Particles & endings deck**: every vocab entry with `fn` set, from any section of Units 1+. These are not also word cards. Their card backs show example sentences picked from the grammar slide that teaches them and the unit's own dialogues.
+- When transcribing a new unit, set `fn` on sentence particles and verb endings, and add a vocab entry (section `Grammar`, `fn` set) for any ending that is taught only on a grammar slide.
+
 ## Unit file
 
 ```jsonc
@@ -29,7 +35,8 @@ The app never edits these files; they are the source of truth transcribed from t
       "en": "Good morning",
       "section": "Dialogue 1",        // slide grouping: "Dialogue 1", "Dialogue 2", "Numbers", "Phonology", "Grammar"
       "pos": "",                      // optional: noun, verb, adj, particle, classifier, pronoun, number, phrase, surname
-      "notes": ""                     // e.g. "note the tone change", "used before a classifier"
+      "notes": "",                    // e.g. "note the tone change", "used before a classifier"
+      "fn": ""                        // optional: "particle" (sentence particles, possessive ge3) or "ending" (verb/adjective endings like zo2, gan2, dei2)
     }
   ],
   "dialogues": [

@@ -45,7 +45,8 @@
       "en": "'s (shows possession)",
       "section": "Dialogue 1",
       "pos": "particle",
-      "notes": "Shows possession, like the apostrophe s in English"
+      "notes": "Shows possession, like the apostrophe s in English",
+      "fn": "particle"
     },
     {
       "id": "u2-v005",
@@ -234,7 +235,8 @@
       "en": "ge3 + aa3? (combined sentence-final particle)",
       "section": "Dialogue 2",
       "pos": "particle",
-      "notes": "ge3 + aa3 fused into one syllable at the end of a question"
+      "notes": "ge3 + aa3 fused into one syllable at the end of a question",
+      "fn": "particle"
     },
     {
       "id": "u2-v026",

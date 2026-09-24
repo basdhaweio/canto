@@ -77,9 +77,12 @@
     // Study buttons
     const vocabIds = new Set();
     for (const l of d.lines || []) for (const t of D.tokenizeJp(l.jp || '')) if (t.vocab) t.vocab.forEach((v) => vocabIds.add(v.id));
-    const words = [...vocabIds].map((vid) => D.byId.vocab[vid]).filter(Boolean);
+    // Only flashcard-eligible words (Vocabulary-slide words and particles), deduplicated by card.
+    const byKey = new Map();
+    for (const vid of vocabIds) { const v = D.byId.vocab[vid]; const c = v && P.cardFor(v); if (c && !byKey.has(c.key)) byKey.set(c.key, c); }
+    const wordCards = [...byKey.values()];
     wrap.append(h('div', { class: 'btngroup mt' },
-      h('button', { class: 'btn', text: `Flashcards: ${words.length} words in this dialogue`, onClick: () => Canto.startSession(Canto.ui.shuffle(words.map((v) => ({ key: P.cardKey(v.id, 'f'), kind: 'f', id: v.id, unitId: v.unitId, v }))), { title: d.title + ' words' }) }),
+      wordCards.length ? h('button', { class: 'btn', text: `Flashcards: ${wordCards.length} words in this dialogue`, onClick: () => Canto.startSession(Canto.ui.shuffle(wordCards), { title: d.title + ' words' }) }) : null,
       h('button', { class: 'btn', text: 'Flashcards: lines (EN → Cantonese)', onClick: () => Canto.startSession((d.lines || []).filter((l) => l.jp && l.en).map((l) => ({ key: P.cardKey(l.id, 'd'), kind: 'd', id: l.id, unitId: d.unitId, l, d })), { title: d.title + ' lines' }) })));
 
     if ((d.questions || []).length) {

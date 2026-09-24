@@ -50,7 +50,8 @@
     const dc = P.dueCount(cards);
     const el = h('div', { class: 'stack' });
     if (u.goals.length) el.append(h('div', { class: 'card' }, h('h2', { text: 'In this unit' }), h('ul', { class: 'gbody' }, u.goals.map((g) => h('li', { text: g })))));
-    el.append(h('div', { class: 'card' },
+    if (!D.hasCards(u.id)) el.append(h('div', { class: 'card small muted', text: u.vocab.length ? 'This unit\'s words are for reference only and aren\'t used as flashcards. Find them in the Vocabulary tab or the Dictionary.' : 'This unit has no flashcards.' }));
+    else el.append(h('div', { class: 'card' },
       h('div', { class: 'grid', style: { gridTemplateColumns: 'repeat(3, 1fr)' } },
         h('div', { class: 'stat' }, h('b', { text: String(dc.due) }), h('span', { text: 'due' })),
         h('div', { class: 'stat' }, h('b', { text: String(dc.fresh) }), h('span', { text: 'new' })),
@@ -80,13 +81,16 @@
       const tb = h('tbody');
       for (const v of u.vocab) {
         if (filter && (v.section || 'Other') !== filter) continue;
-        const c = P.card(P.cardKey(v.id, 'f'));
+        const fc = P.cardFor(v);
+        const c = fc ? P.card(fc.key) : null;
         const star = h('span', { class: 'star ' + (P.star(v.id) ? 'on' : ''), text: '★', onClick: (e) => { e.stopPropagation(); star.classList.toggle('on', P.toggleStar(v.id)); } });
         tb.append(h('tr', { class: 'clickable', onClick: () => Canto.views.wordSheet([v]) },
           h('td', { class: 'zh' }, v.zh, v.zh_source === 'supplied' ? h('sup', { class: 'small muted', title: 'Characters added by the app; the slides print only the romanisation', text: '†' }) : null),
           h('td', null, jp(v.jp)),
           h('td', null, v.en, v.notes ? h('div', { class: 'small muted', text: v.notes }) : null),
-          h('td', { class: 'right' }, c && c.reps ? pill(c.interval >= 21 ? 'mature' : 'learning', c.interval >= 21 ? 'pill-green' : 'pill-amber') : null, ' ', star)));
+          h('td', { class: 'right' },
+            !fc ? pill('dictionary only') : fc.kind === 'p' ? pill('particles', 'pill-purple') : null, ' ',
+            c && c.reps ? pill(c.interval >= 21 ? 'mature' : 'learning', c.interval >= 21 ? 'pill-green' : 'pill-amber') : null, ' ', star)));
       }
       table.append(tb);
     };

@@ -132,7 +132,8 @@
       "en": "A verb ending for continuing action, -ing",
       "section": "Dialogue 1",
       "pos": "particle",
-      "notes": "Verb ending: action going on at the time"
+      "notes": "Verb ending: action going on at the time",
+      "fn": "ending"
     },
     {
       "id": "u4-v015",
@@ -213,7 +214,8 @@
       "en": "A verb ending for completed action, -ed",
       "section": "Dialogue 1",
       "pos": "particle",
-      "notes": "Verb ending: completed action; usually backed up by laak3"
+      "notes": "Verb ending: completed action; usually backed up by laak3",
+      "fn": "ending"
     },
     {
       "id": "u4-v024",
@@ -686,7 +688,8 @@
       "pos": "particle",
       "notes": "Repeated syllable changes to high rising tone unless already tone 1 or 2",
       "zh_source": "supplied",
-      "zh_confidence": "medium"
+      "zh_confidence": "medium",
+      "fn": "ending"
     },
     {
       "id": "u4-v075",

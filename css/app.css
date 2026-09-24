@@ -224,3 +224,11 @@ label.field > span { display: block; font-size: 0.8rem; color: var(--muted); mar
 .unitrow .n { width: 34px; height: 34px; border-radius: 10px; background: var(--bg3); display: flex; align-items: center; justify-content: center; font-weight: 600; color: var(--accent); }
 .unitrow .t { flex: 1; min-width: 0; }
 .unitrow .progress { width: 110px; }
+
+/* ---------- Particle cards: course examples on the back ---------- */
+.fc .exs { width: 100%; text-align: left; margin-top: 12px; font-size: 0.9rem; }
+.fc .exs .ex { padding: 6px 0; border-bottom: 1px solid var(--border); }
+.fc .exs .ex:last-child { border-bottom: none; }
+.fc .exs .ejp { color: var(--accent); font-size: 1rem; margin-top: 0; }
+.fc .exs .ezh { font-size: 1rem; line-height: 1.4; }
+.fc .exs .een { color: var(--muted); }

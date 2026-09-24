@@ -95,18 +95,77 @@ Canto.data = (() => {
       for (const n of u.notes) { n.unitId = u.id; byId.note[n.id] = n; }
     });
     try { state.syllabus = await fetchJson('./data/' + (index.syllabus || 'syllabus.json')); } catch (e) { state.syllabus = null; }
+    // Flashcard decks (tutor's rule): only words from each unit's Vocabulary slides are word cards;
+    // particles and verb endings get their own deck; Unit 0 and grammar-slide words are dictionary-only.
+    for (const u of units()) for (const v of u.vocab) v.deck = deckOf(v, u);
+    // Lookups list course words before Unit 0 drill words.
+    const rank = (v) => (state.units[v.unitId].number === 0 ? 1 : 0);
+    for (const m of [byJp, byZh]) for (const list of m.values()) list.sort((a, b) => rank(a) - rank(b));
     state.loaded = true;
     return state;
+  }
+
+  const VOCAB_SLIDE = /^(dialogue|vocabulary)/i;
+  function deckOf(v, u) {
+    if (!u.number) return null;
+    if (v.fn) return 'particles';
+    return VOCAB_SLIDE.test(v.section || '') ? 'vocab' : null;
+  }
+
+  // Example sentences for a particle/ending card: grammar examples and dialogue lines that use it,
+  // preferring the grammar point that teaches it, then the same unit.
+  const exCache = {};
+  function examplesFor(v, n = 2) {
+    if (exCache[v.id]) return exCache[v.id];
+    const keys = jpVariants(v.jp);
+    const esc = (k) => k.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    // Sentence-final particles only count at the end of a sentence; otherwise homophones creep in
+    // (gaa3 the particle vs gaa3 the classifier for vehicles). Possessive ge3 and endings sit mid-sentence.
+    const finalOnly = v.fn === 'particle' && !/possess/i.test(v.en);
+    // Verb endings follow a verb, so they never start the sentence (keeps sing4 "become" apart from sing4 jat6 "always").
+    const lead = v.fn === 'ending' ? ' ' : '(^| )';
+    const res = keys.map((k) => new RegExp(lead + esc(k) + (finalOnly ? '$' : '( |$)')));
+    const keySyl = new Set(keys.flatMap((k) => k.split(' ')));
+    const hit = (jp) => {
+      const s = normJp(jp);
+      if (s.split(' ').every((t) => keySyl.has(t))) return false;   // the bare word itself, not an example
+      // "Final" means the end of any sentence in the line, not only the end of the line.
+      const parts = finalOnly ? String(jp).split(/[?.!？。！]+/).map(normJp).filter(Boolean) : [s];
+      return parts.some((p) => res.some((r) => r.test(p)));
+    };
+    // Sources, best first: examples on the grammar slide that teaches it, then lines from the unit's own
+    // dialogues. Other slides and other units' dialogues are only a last resort (homophones like
+    // gu1 ze1 "aunt" or sing4 jat6 "always" would otherwise creep in).
+    let cands = [];
+    for (const u of units()) {
+      if (!u.number) continue;
+      const same = u.id === v.unitId;
+      for (const g of u.grammar) {
+        const about = [g.title, ...(g.tags || [])].join(' ').toLowerCase();
+        const body = ' ' + normJp(g.body || '') + ' ';
+        // A slide teaches the word if its title/tags name it, or (same unit only) its explanation does.
+        const teaches = keys.some((k) => about.includes(k)) ? 2 : same && keys.some((k) => body.includes(' ' + k + ' ')) ? 1 : 0;
+        for (const e of g.examples || []) if (e.jp && e.en && hit(e.jp)) cands.push({ e, score: teaches ? 10 + teaches + (same ? 1 : 0) : 0 });
+      }
+      for (const d of u.dialogues) for (const l of d.lines || []) if (l.jp && l.en && hit(l.jp)) cands.push({ e: l, score: same ? 5 : 0 });
+    }
+    if (cands.some((c) => c.score > 0)) cands = cands.filter((c) => c.score > 0);
+    cands.sort((a, b) => b.score - a.score);
+    const seen = new Set(), out = [];
+    for (const c of cands) { const k = normJp(c.e.jp); if (seen.has(k)) continue; seen.add(k); out.push(c.e); if (out.length >= n) break; }
+    return (exCache[v.id] = out);
   }
 
   function unit(id) { return state.units[id]; }
   function units() { return state.order.map((id) => state.units[id]); }
   function allVocab() { return units().flatMap((u) => u.vocab); }
+  // Sections that contain word cards (used by the flashcard setup filter).
   function sections(unitIds) {
     const s = new Set();
-    for (const u of units()) if (!unitIds || unitIds.includes(u.id)) for (const v of u.vocab) s.add(v.section || 'Other');
+    for (const u of units()) if (!unitIds || unitIds.includes(u.id)) for (const v of u.vocab) if (v.deck === 'vocab') s.add(v.section || 'Other');
     return [...s];
   }
+  function hasCards(unitId) { return (state.units[unitId] || { vocab: [] }).vocab.some((v) => v.deck); }
 
   // ---- Tokenizers ----
   // Split a Jyutping line into tokens, greedily matching vocabulary (longest first).
@@ -185,5 +244,5 @@ Canto.data = (() => {
     return results.sort((a, b) => b.score - a.score).map((r) => r.v);
   }
 
-  return { state, load, unit, units, allVocab, sections, byId, tokenizeJp, tokenizeZh, lookupJp, lookupZh, search, normJp, normZh };
+  return { state, load, unit, units, allVocab, sections, hasCards, examplesFor, byId, tokenizeJp, tokenizeZh, lookupJp, lookupZh, search, normJp, normZh };
 })();

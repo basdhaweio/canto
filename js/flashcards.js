@@ -3,14 +3,16 @@
   const { h, jp, pill, toast, sheet, shuffle, today } = Canto.ui;
   const D = Canto.data, P = Canto.progress, S = Canto.srs;
 
-  const KIND_LABEL = { f: 'Word → meaning', r: 'Meaning → word', g: 'Grammar examples', d: 'Dialogue lines' };
+  const KIND_LABEL = { f: 'Word → meaning', r: 'Meaning → word', p: 'Particles & endings', g: 'Grammar examples', d: 'Dialogue lines' };
+  const KINDS = ['f', 'r', 'p', 'g', 'd'];
   const MODES = [['mixed', 'Due + new', 'Cards due today first, then new cards up to your daily limit'], ['due', 'Due only', 'Just what the schedule says'], ['new', 'New only', 'Cards you have never seen'], ['cram', 'Cram', 'Everything in scope, shuffled']];
 
   // ---------- Setup ----------
   Canto.views.study = (query = {}) => {
     const saved = P.load().lastStudy || {};
-    const unitIds = query.unit ? [query.unit] : (saved.unitIds || D.units().map((u) => u.id));
-    const kinds = query.kinds ? Object.fromEntries(['f', 'r', 'g', 'd'].map((k) => [k, query.kinds.split(',').includes(k)])) : (saved.kinds || P.settings().cardKinds);
+    const cardUnits = () => D.units().filter((u) => D.hasCards(u.id));
+    const unitIds = (query.unit ? [query.unit] : query.units === 'all' || !saved.unitIds ? cardUnits().map((u) => u.id) : saved.unitIds).filter((id) => D.hasCards(id));
+    const kinds = query.kinds ? Object.fromEntries(KINDS.map((k) => [k, query.kinds.split(',').includes(k)])) : Object.assign({}, P.settings().cardKinds, saved.kinds || {});
     let mode = query.mode || saved.mode || 'mixed';
     let sections = saved.sections || [];
     let limit = saved.limit || P.settings().newPerDay;
@@ -22,15 +24,16 @@
 
     // Units
     const unitChips = h('div', { class: 'chips' });
-    const unitSec = h('div', { class: 'setup-section' }, h('div', { class: 'row between' }, h('h3', { text: 'Units' }), h('div', { class: 'btngroup' }, h('button', { class: 'btn sm ghost', text: 'All', onClick: () => setUnits(D.units().map((u) => u.id)) }), h('button', { class: 'btn sm ghost', text: 'None', onClick: () => setUnits([]) }))), unitChips);
+    const unitSec = h('div', { class: 'setup-section' }, h('div', { class: 'row between' }, h('h3', { text: 'Units' }), h('div', { class: 'btngroup' }, h('button', { class: 'btn sm ghost', text: 'All', onClick: () => setUnits(cardUnits().map((u) => u.id)) }), h('button', { class: 'btn sm ghost', text: 'None', onClick: () => setUnits([]) }))), unitChips,
+      h('div', { class: 'small muted', style: { marginTop: '6px' }, text: 'Word cards come only from each unit\'s Vocabulary slides. Unit 0 and grammar-slide words are in the Dictionary.' }));
     function setUnits(ids) { state.unitIds = ids; renderUnits(); renderSections(); update(); }
     function renderUnits() {
       unitChips.innerHTML = '';
-      for (const u of D.units()) unitChips.append(Canto.ui.chip(`${u.number} · ${u.title}`, state.unitIds.includes(u.id), (on) => { state.unitIds = on ? [...state.unitIds, u.id] : state.unitIds.filter((x) => x !== u.id); renderSections(); update(); }));
+      for (const u of cardUnits()) unitChips.append(Canto.ui.chip(`${u.number} · ${u.title}`, state.unitIds.includes(u.id), (on) => { state.unitIds = on ? [...state.unitIds, u.id] : state.unitIds.filter((x) => x !== u.id); renderSections(); update(); }));
     }
     // Sections
     const secChips = h('div', { class: 'chips' });
-    const secSec = h('div', { class: 'setup-section' }, h('h3', { text: 'Sections' }), h('div', { class: 'small muted mb', text: 'Leave all off to include every section.' }), secChips);
+    const secSec = h('div', { class: 'setup-section' }, h('h3', { text: 'Sections' }), h('div', { class: 'small muted mb', text: 'Leave all off to include every section. Applies to word cards only.' }), secChips);
     function renderSections() {
       secChips.innerHTML = '';
       const secs = D.sections(state.unitIds);
@@ -39,7 +42,7 @@
     }
     // Kinds
     const kindChips = h('div', { class: 'chips' });
-    for (const k of ['f', 'r', 'g', 'd']) kindChips.append(Canto.ui.chip(KIND_LABEL[k], state.kinds[k], (on) => { state.kinds[k] = on; update(); }));
+    for (const k of KINDS) kindChips.append(Canto.ui.chip(KIND_LABEL[k], !!state.kinds[k], (on) => { state.kinds[k] = on; update(); }));
     const kindSec = h('div', { class: 'setup-section' }, h('h3', { text: 'Card types' }), kindChips);
     // Mode
     const modeChips = h('div', { class: 'chips' });
@@ -97,10 +100,10 @@
   // New cards: all word→meaning cards first, then meaning→word, then grammar and dialogue lines
   // (otherwise a word's reverse card would follow its forward card and give the answer away),
   // shuffled within each group so the order isn't memorised.
-  const KIND_RANK = { f: 0, r: 1, g: 2, d: 3 };
+  const KIND_RANK = { f: 0, p: 1, r: 2, g: 3, d: 4 };
   function orderNew(fresh) {
-    const groups = [[], [], [], []];
-    for (const c of fresh) groups[KIND_RANK[c.kind] ?? 3].push(c);
+    const groups = [[], [], [], [], []];
+    for (const c of fresh) groups[KIND_RANK[c.kind] ?? 4].push(c);
     return groups.flatMap((g) => shuffle(g));
   }
   Canto.orderNew = orderNew;
@@ -137,6 +140,13 @@
     } else if (card.kind === 'r') {
       add(front, h('div', { class: 'en' + (long(card.v.en) ? ' long' : ''), text: card.v.en }), card.v.pos ? h('div', { class: 'small muted', text: card.v.pos }) : null);
       add(back, h('div', { class: 'zh' + (long(card.v.zh) ? ' long' : '') }, card.v.zh || '', supplied(card.v)), h('div', { class: 'jp' }, jp(card.v.jp)), card.v.notes ? h('div', { class: 'notes', text: card.v.notes }) : null);
+    } else if (card.kind === 'p') {
+      // Particles and endings are learned by what they do, so the back shows the course's own examples.
+      add(front, h('div', { class: 'small muted mb', text: card.v.fn === 'ending' ? 'Ending' : 'Particle' }),
+        h('div', { class: 'zh' + (long(card.v.zh) ? ' long' : '') }, card.v.zh || '', supplied(card.v)), h('div', { class: 'jp' }, jp(card.v.jp)));
+      const exs = D.examplesFor(card.v);
+      add(back, h('div', { class: 'en' + (long(card.v.en) ? ' long' : ''), text: card.v.en }), card.v.notes ? h('div', { class: 'notes', text: card.v.notes }) : null,
+        exs.length ? h('div', { class: 'exs' }, exs.map((e) => h('div', { class: 'ex' }, h('div', { class: 'ejp' }, jp(e.jp)), e.zh ? h('div', { class: 'zh ezh', text: e.zh }) : null, h('div', { class: 'een', text: e.en })))) : null);
     } else if (card.kind === 'g') {
       add(front, h('div', { class: 'small muted mb', text: card.g.title }), h('div', { class: 'en long', text: card.e.en }));
       add(back, h('div', { class: 'jp' }, jp(card.e.jp)), card.e.zh ? h('div', { class: 'zh long', text: card.e.zh }) : null, card.e.lit ? h('div', { class: 'lit', text: 'lit. ' + card.e.lit }) : null);
@@ -240,7 +250,8 @@
     const body = h('div');
     for (const v of vocabs) {
       const u = D.unit(v.unitId);
-      const c = P.card(P.cardKey(v.id, 'f'));
+      const fc = P.cardFor(v);   // null = dictionary-only word
+      const c = fc ? P.card(fc.key) : null;
       const star = h('span', { class: 'star ' + (P.star(v.id) ? 'on' : ''), text: '★', onClick: () => star.classList.toggle('on', P.toggleStar(v.id)) });
       body.append(h('div', { class: 'def' },
         h('div', { class: 'row between' }, h('span', { class: 'zh', text: v.zh || '—' }), star),
@@ -250,10 +261,11 @@
         v.zh_source === 'supplied' ? h('div', { class: 'small muted', text: 'Characters added by the app (the course slides print only the romanisation)' + (v.zh_confidence === 'medium' ? ' — worth confirming with your tutor' : '') }) : null,
         h('div', { class: 'row mt' },
           u ? h('a', { class: 'pill', href: `#/unit/${u.id}/vocab`, text: `Unit ${u.number}` + (v.section ? ' · ' + v.section : '') }) : null,
-          c && c.reps ? pill(`next ${c.due}`, c.due <= today() ? 'pill-due' : '') : pill('new'),
+          !fc ? pill('dictionary only') : c && c.reps ? pill(`next ${c.due}`, c.due <= today() ? 'pill-due' : '') : pill('new'),
+          fc && fc.kind === 'p' ? pill('particles deck', 'pill-purple') : null,
           h('span', { class: 'grow' }),
-          h('button', { class: 'btn sm', text: 'Quiz me', onClick: () => { sh.close(); Canto.views.quickQuiz(v); } }),
-          h('button', { class: 'btn sm ghost', text: 'Due now', onClick: () => { const cur = P.card(P.cardKey(v.id, 'f')) || S.fresh(); if (cur.reps) { cur.due = today(); P.setCard(P.cardKey(v.id, 'f'), cur); } toast('Added to today\'s review'); updateDuePill(); } }))));
+          fc ? h('button', { class: 'btn sm', text: 'Quiz me', onClick: () => { sh.close(); Canto.views.quickQuiz(v, fc.kind); } }) : null,
+          fc ? h('button', { class: 'btn sm ghost', text: 'Due now', onClick: () => { const cur = P.card(fc.key) || S.fresh(); if (cur.reps) { cur.due = today(); P.setCard(fc.key, cur); } toast('Added to today\'s review'); updateDuePill(); } }) : null)));
     }
     const sh = sheet(body);
     return sh;

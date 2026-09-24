@@ -69,7 +69,8 @@
       "en": "Final particle, you should realize, don't you know",
       "section": "Dialogue 1",
       "pos": "particle",
-      "notes": "Written 吖嘛 in the dialogues"
+      "notes": "Written 吖嘛 in the dialogues",
+      "fn": "particle"
     },
     {
       "id": "u5-v008",
@@ -96,7 +97,8 @@
       "en": "Verb ending, have a little-",
       "section": "Dialogue 1",
       "pos": "particle",
-      "notes": "Printed as Haa5 on the vocabulary slide; written 下 in the Dialogue 1 characters"
+      "notes": "Printed as Haa5 on the vocabulary slide; written 下 in the Dialogue 1 characters",
+      "fn": "ending"
     },
     {
       "id": "u5-v011",
@@ -141,7 +143,8 @@
       "en": "Final particle, let me remind you, let me tell you",
       "section": "Dialogue 1",
       "pos": "particle",
-      "notes": ""
+      "notes": "",
+      "fn": "particle"
     },
     {
       "id": "u5-v016",
@@ -231,7 +234,8 @@
       "en": "Final particle, do you mean to say that…",
       "section": "Dialogue 1",
       "pos": "particle",
-      "notes": "Expresses great surprise or disbelief"
+      "notes": "Expresses great surprise or disbelief",
+      "fn": "particle"
     },
     {
       "id": "u5-v026",
@@ -375,7 +379,8 @@
       "en": "Final particle giving strong emphasis",
       "section": "Dialogue 2",
       "pos": "particle",
-      "notes": ""
+      "notes": "",
+      "fn": "particle"
     },
     {
       "id": "u5-v042",
