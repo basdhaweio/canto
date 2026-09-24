@@ -109,6 +109,7 @@ Canto.data = (() => {
   function deckOf(v, u) {
     if (!u.number) return null;
     if (v.fn) return 'particles';
+    if (v.section === 'Numbers') return 'numbers';
     return VOCAB_SLIDE.test(v.section || '') ? 'vocab' : null;
   }
 

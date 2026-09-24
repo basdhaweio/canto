@@ -15,6 +15,8 @@ The app never edits these files; they are the source of truth transcribed from t
 ## Flashcard rule (from the tutor)
 
 - **Word cards** come only from each unit's Vocabulary slides: `section` starting with `Dialogue` (or `Vocabulary`). Unit 0 and grammar-slide words (`section: "Grammar"`, `"Numbers"`, `"Phonology"`, `"Review"`) are dictionary-only.
+- New nouns that appear only on a practice sheet go in `vocab` with `section: "Practice"` (dictionary-only) so exercise prompts are tappable.
+- **Numbers deck**: vocab entries with `section: "Numbers"` (Unit 2). Cards show the numeral and ask for the Cantonese.
 - **Particles & endings deck**: every vocab entry with `fn` set, from any section of Units 1+. These are not also word cards. Their card backs show example sentences picked from the grammar slide that teaches them and the unit's own dialogues.
 - When transcribing a new unit, set `fn` on sentence particles and verb endings, and add a vocab entry (section `Grammar`, `fn` set) for any ending that is taught only on a grammar slide.
 

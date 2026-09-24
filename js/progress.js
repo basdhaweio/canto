@@ -59,7 +59,7 @@ Canto.progress = (() => {
       theme: 'auto',
       newPerDay: 15,
       showJpOnFront: true,
-      cardKinds: { f: true, r: true, p: true, g: false, d: false },
+      cardKinds: { f: true, r: true, p: true, n: true, g: false, d: false },
       hideTones: false,
     },
     lastStudy: null,  // remembered flashcard setup
@@ -145,8 +145,8 @@ Canto.progress = (() => {
   function migrate() {
     const d = load();
     let changed = false;
-    if (d.settings.cardKinds.p === undefined) { d.settings.cardKinds.p = true; changed = true; }
-    if (d.lastStudy && d.lastStudy.kinds && d.lastStudy.kinds.p === undefined) { d.lastStudy.kinds.p = true; changed = true; }
+    for (const k of ['p', 'n']) if (d.settings.cardKinds[k] === undefined) { d.settings.cardKinds[k] = true; changed = true; }
+    for (const k of ['p', 'n']) if (d.lastStudy && d.lastStudy.kinds && d.lastStudy.kinds[k] === undefined) { d.lastStudy.kinds[k] = true; changed = true; }
     for (const v of Canto.data.allVocab()) {
       if (v.deck !== 'particles') continue;
       const f = d.cards[cardKey(v.id, 'f')];
@@ -156,12 +156,13 @@ Canto.progress = (() => {
   }
 
   // ---- Card catalogue: everything that can be a flashcard ----
-  // kinds: f = zh/jp -> en, r = en -> zh/jp (Vocabulary-slide words only), p = particles & verb endings,
+  // kinds: f = zh/jp -> en, r = en -> zh/jp (Vocabulary-slide words only), p = particles & verb endings, n = numbers (numeral -> Cantonese),
   // g = grammar example en -> jp, d = dialogue line en -> jp
   function cardKey(id, kind) { return id + ':' + kind; }
   function cardFor(v) {
     if (v.deck === 'vocab') return { key: cardKey(v.id, 'f'), kind: 'f', id: v.id, unitId: v.unitId, v };
     if (v.deck === 'particles') return { key: cardKey(v.id, 'p'), kind: 'p', id: v.id, unitId: v.unitId, v };
+    if (v.deck === 'numbers') return { key: cardKey(v.id, 'n'), kind: 'n', id: v.id, unitId: v.unitId, v };
     return null;
   }
   function buildCards({ unitIds, sections, kinds }) {
@@ -178,6 +179,7 @@ Canto.progress = (() => {
         }
       }
       if (kinds.p) for (const v of u.vocab) if (v.deck === 'particles') out.push({ key: cardKey(v.id, 'p'), kind: 'p', id: v.id, unitId: u.id, v });
+      if (kinds.n) for (const v of u.vocab) if (v.deck === 'numbers') out.push({ key: cardKey(v.id, 'n'), kind: 'n', id: v.id, unitId: u.id, v });
       if (kinds.g) for (const g of u.grammar) for (const e of g.examples || []) if (e.jp && e.en) out.push({ key: cardKey(e.id, 'g'), kind: 'g', id: e.id, unitId: u.id, e, g });
       if (kinds.d) for (const d of u.dialogues) for (const l of d.lines || []) if (l.jp && l.en) out.push({ key: cardKey(l.id, 'd'), kind: 'd', id: l.id, unitId: u.id, l, d });
     }

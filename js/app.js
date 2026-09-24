@@ -101,6 +101,7 @@
       h('a', { href: '#/dictionary' }, h('b', { text: 'Dictionary' }), h('small', { text: `${D.allVocab().length} words` })),
       h('a', { href: '#/dictionary?starred=1' }, h('b', { text: 'Starred words' }), h('small', { text: `${Object.keys(P.load().starred).length} starred` })),
       h('a', { href: '#/study?kinds=p&mode=mixed&units=all' }, h('b', { text: 'Particles & endings' }), h('small', { text: `${D.allVocab().filter((v) => v.deck === 'particles').length} cards · maa3, ne1, zo2, gan2…` })),
+      h('a', { href: '#/study?kinds=n&mode=mixed&units=all' }, h('b', { text: 'Numbers' }), h('small', { text: `${D.allVocab().filter((v) => v.deck === 'numbers').length} cards · 0–100` })),
       h('a', { href: '#/study?kinds=g&mode=mixed&units=all' }, h('b', { text: 'Grammar drill' }), h('small', { text: 'example sentences' }))));
 
     // Unit progress
@@ -263,7 +264,7 @@
     const jpFront = h('input', { type: 'checkbox', checked: st.showJpOnFront });
     jpFront.addEventListener('change', () => P.setSetting('showJpOnFront', jpFront.checked));
     const kinds = h('div', { class: 'chips' });
-    for (const [k, label] of [['f', 'Word → meaning'], ['r', 'Meaning → word'], ['p', 'Particles & endings'], ['g', 'Grammar examples'], ['d', 'Dialogue lines']]) {
+    for (const [k, label] of [['f', 'Word → meaning'], ['r', 'Meaning → word'], ['p', 'Particles & endings'], ['n', 'Numbers'], ['g', 'Grammar examples'], ['d', 'Dialogue lines']]) {
       kinds.append(Canto.ui.chip(label, !!st.cardKinds[k], (on) => { st.cardKinds[k] = on; P.setSetting('cardKinds', st.cardKinds); Canto.updateDuePill(); }));
     }
     wrap.append(h('div', { class: 'card' }, h('h2', { text: 'Study' }),

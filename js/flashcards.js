@@ -3,8 +3,8 @@
   const { h, jp, pill, toast, sheet, shuffle, today } = Canto.ui;
   const D = Canto.data, P = Canto.progress, S = Canto.srs;
 
-  const KIND_LABEL = { f: 'Word → meaning', r: 'Meaning → word', p: 'Particles & endings', g: 'Grammar examples', d: 'Dialogue lines' };
-  const KINDS = ['f', 'r', 'p', 'g', 'd'];
+  const KIND_LABEL = { f: 'Word → meaning', r: 'Meaning → word', p: 'Particles & endings', n: 'Numbers', g: 'Grammar examples', d: 'Dialogue lines' };
+  const KINDS = ['f', 'r', 'p', 'n', 'g', 'd'];
   const MODES = [['mixed', 'Due + new', 'Cards due today first, then new cards up to your daily limit'], ['due', 'Due only', 'Just what the schedule says'], ['new', 'New only', 'Cards you have never seen'], ['cram', 'Cram', 'Everything in scope, shuffled']];
 
   // ---------- Setup ----------
@@ -100,7 +100,7 @@
   // New cards: all word→meaning cards first, then meaning→word, then grammar and dialogue lines
   // (otherwise a word's reverse card would follow its forward card and give the answer away),
   // shuffled within each group so the order isn't memorised.
-  const KIND_RANK = { f: 0, p: 1, r: 2, g: 3, d: 4 };
+  const KIND_RANK = { f: 0, p: 1, n: 1, r: 2, g: 3, d: 4 };
   function orderNew(fresh) {
     const groups = [[], [], [], [], []];
     for (const c of fresh) groups[KIND_RANK[c.kind] ?? 4].push(c);
@@ -147,6 +147,11 @@
       const exs = D.examplesFor(card.v);
       add(back, h('div', { class: 'en' + (long(card.v.en) ? ' long' : ''), text: card.v.en }), card.v.notes ? h('div', { class: 'notes', text: card.v.notes }) : null,
         exs.length ? h('div', { class: 'exs' }, exs.map((e) => h('div', { class: 'ex' }, h('div', { class: 'ejp' }, jp(e.jp)), e.zh ? h('div', { class: 'zh ezh', text: e.zh }) : null, h('div', { class: 'een', text: e.en })))) : null);
+    } else if (card.kind === 'n') {
+      // Say the number: numeral on the front, Cantonese on the back.
+      const numeral = /^\d+$/.test(card.v.en);
+      add(front, h('div', { class: numeral ? 'zh' : 'en' + (long(card.v.en) ? ' long' : ''), text: card.v.en }), numeral ? h('div', { class: 'small muted', text: 'say it in Cantonese' }) : null);
+      add(back, h('div', { class: 'zh' }, card.v.zh || ''), h('div', { class: 'jp' }, jp(card.v.jp)), card.v.notes ? h('div', { class: 'notes', text: card.v.notes }) : null);
     } else if (card.kind === 'g') {
       add(front, h('div', { class: 'small muted mb', text: card.g.title }), h('div', { class: 'en long', text: card.e.en }));
       add(back, h('div', { class: 'jp' }, jp(card.e.jp)), card.e.zh ? h('div', { class: 'zh long', text: card.e.zh }) : null, card.e.lit ? h('div', { class: 'lit', text: 'lit. ' + card.e.lit }) : null);
@@ -262,7 +267,7 @@
         h('div', { class: 'row mt' },
           u ? h('a', { class: 'pill', href: `#/unit/${u.id}/vocab`, text: `Unit ${u.number}` + (v.section ? ' · ' + v.section : '') }) : null,
           !fc ? pill('dictionary only') : c && c.reps ? pill(`next ${c.due}`, c.due <= today() ? 'pill-due' : '') : pill('new'),
-          fc && fc.kind === 'p' ? pill('particles deck', 'pill-purple') : null,
+          fc && fc.kind === 'p' ? pill('particles deck', 'pill-purple') : fc && fc.kind === 'n' ? pill('numbers deck', 'pill-purple') : null,
           h('span', { class: 'grow' }),
           fc ? h('button', { class: 'btn sm', text: 'Quiz me', onClick: () => { sh.close(); Canto.views.quickQuiz(v, fc.kind); } }) : null,
           fc ? h('button', { class: 'btn sm ghost', text: 'Due now', onClick: () => { const cur = P.card(fc.key) || S.fresh(); if (cur.reps) { cur.due = today(); P.setCard(fc.key, cur); } toast('Added to today\'s review'); updateDuePill(); } }) : null)));

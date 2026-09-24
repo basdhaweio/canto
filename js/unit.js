@@ -89,7 +89,7 @@
           h('td', null, jp(v.jp)),
           h('td', null, v.en, v.notes ? h('div', { class: 'small muted', text: v.notes }) : null),
           h('td', { class: 'right' },
-            !fc ? pill('dictionary only') : fc.kind === 'p' ? pill('particles', 'pill-purple') : null, ' ',
+            !fc ? pill('dictionary only') : fc.kind === 'p' ? pill('particles', 'pill-purple') : fc.kind === 'n' ? pill('numbers', 'pill-purple') : null, ' ',
             c && c.reps ? pill(c.interval >= 21 ? 'mature' : 'learning', c.interval >= 21 ? 'pill-green' : 'pill-amber') : null, ' ', star)));
       }
       table.append(tb);
