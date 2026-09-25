@@ -13,7 +13,7 @@
       "zh": "礼拜",
       "jp": "lai5 baai3",
       "en": "Week",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "noun",
       "notes": "Classified with go3; printed together with 星期 sing1 kei4 on the slide"
     },
@@ -22,7 +22,7 @@
       "zh": "星期",
       "jp": "sing1 kei4",
       "en": "Week",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "noun",
       "notes": "Alternative to lai5 baai3; substitute it in any day-of-the-week word"
     },
@@ -31,7 +31,7 @@
       "zh": "礼拜一",
       "jp": "lai5 baai3 jat1",
       "en": "Monday",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "noun",
       "notes": "Careful with the tone: jat1 Monday vs jat6 Sunday"
     },
@@ -40,7 +40,7 @@
       "zh": "礼拜日",
       "jp": "lai5 baai3 jat6",
       "en": "Sunday",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "noun",
       "notes": "jat6 = sun; not numbered like the other days"
     },
@@ -49,7 +49,7 @@
       "zh": "大减价",
       "jp": "daai6 gaam2 gaa3",
       "en": "A sale",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "noun",
       "notes": ""
     },
@@ -58,7 +58,7 @@
       "zh": "铺头",
       "jp": "pou3 tau2",
       "en": "Shop",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "noun",
       "notes": "Classifier gaan1"
     },
@@ -67,7 +67,7 @@
       "zh": "吖吗",
       "jp": "aa1 maa3",
       "en": "Final particle, you should realize, don't you know",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "particle",
       "notes": "Written 吖嘛 in the dialogues",
       "fn": "particle"
@@ -77,7 +77,7 @@
       "zh": "入",
       "jp": "jap6",
       "en": "To enter",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "verb",
       "notes": ""
     },
@@ -86,7 +86,7 @@
       "zh": "睇",
       "jp": "tai2",
       "en": "To look at",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "verb",
       "notes": ""
     },
@@ -95,7 +95,7 @@
       "zh": "吓",
       "jp": "haa5",
       "en": "Verb ending, have a little-",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "particle",
       "notes": "Printed as Haa5 on the vocabulary slide; written 下 in the Dialogue 1 characters",
       "fn": "ending"
@@ -105,7 +105,7 @@
       "zh": "哇",
       "jp": "waa3",
       "en": "Wow!",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "particle",
       "notes": ""
     },
@@ -114,7 +114,7 @@
       "zh": "件",
       "jp": "gin6",
       "en": "Classifier for most items of clothing",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "classifier",
       "notes": ""
     },
@@ -123,7 +123,7 @@
       "zh": "衫裙",
       "jp": "saam1 kwan4",
       "en": "Dress",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "noun",
       "notes": ""
     },
@@ -132,7 +132,7 @@
       "zh": "平",
       "jp": "peng4",
       "en": "Cheap",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "adj",
       "notes": ""
     },
@@ -141,7 +141,7 @@
       "zh": "啵",
       "jp": "bo3",
       "en": "Final particle, let me remind you, let me tell you",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "particle",
       "notes": "",
       "fn": "particle"
@@ -151,7 +151,7 @@
       "zh": "质地",
       "jp": "zat1 dei2",
       "en": "Quality",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "noun",
       "notes": ""
     },
@@ -160,7 +160,7 @@
       "zh": "又…又…",
       "jp": "jau6 … jau6 …",
       "en": "Both…and…",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "adverb",
       "notes": "jau6 is an adverb and comes in front of each verb"
     },
@@ -169,7 +169,7 @@
       "zh": "款式",
       "jp": "fun2 sik1",
       "en": "Style",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "noun",
       "notes": ""
     },
@@ -178,7 +178,7 @@
       "zh": "新",
       "jp": "san1",
       "en": "New, up to date",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "adj",
       "notes": ""
     },
@@ -187,7 +187,7 @@
       "zh": "红色嘅",
       "jp": "hung4 sik1 ge3",
       "en": "Red",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "adj",
       "notes": "hung4 red + sik1 color + ge3 linking to a noun"
     },
@@ -196,7 +196,7 @@
       "zh": "颜色",
       "jp": "ngaan4 sik1",
       "en": "Color",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "noun",
       "notes": ""
     },
@@ -205,7 +205,7 @@
       "zh": "呢处",
       "jp": "ni1 cyu3",
       "en": "Here",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "pronoun",
       "notes": "Also ni1 dou6"
     },
@@ -214,7 +214,7 @@
       "zh": "少少",
       "jp": "siu2 siu2",
       "en": "A little bit, somewhat",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "adverb",
       "notes": ""
     },
@@ -223,7 +223,7 @@
       "zh": "烂",
       "jp": "laan6",
       "en": "Broken, damaged",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "adj",
       "notes": ""
     },
@@ -232,7 +232,7 @@
       "zh": "咩",
       "jp": "me1",
       "en": "Final particle, do you mean to say that…",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "particle",
       "notes": "Expresses great surprise or disbelief",
       "fn": "particle"
@@ -242,7 +242,7 @@
       "zh": "等",
       "jp": "dang2",
       "en": "Let, allow",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "verb",
       "notes": "Also 'to wait' (Unit 4); dang2 ngo5 at the start of a sentence = let me…"
     },
@@ -251,7 +251,7 @@
       "zh": "其他",
       "jp": "kei4 taa1",
       "en": "Other",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "adj",
       "notes": ""
     },
@@ -260,7 +260,7 @@
       "zh": "次货",
       "jp": "ci3 fo3",
       "en": "Seconds",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "noun",
       "notes": ""
     },
@@ -269,7 +269,7 @@
       "zh": "咦",
       "jp": "ji2",
       "en": "Exclamation of surprise, hello, what's this?",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "particle",
       "notes": ""
     },
@@ -278,7 +278,7 @@
       "zh": "虾",
       "jp": "haa1",
       "en": "Prawn, shrimp",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": "Classifier zek3"
     },
@@ -287,7 +287,7 @@
       "zh": "几多",
       "jp": "gei2 do1",
       "en": "How much? How many?",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "pronoun",
       "notes": ""
     },
@@ -296,7 +296,7 @@
       "zh": "钱",
       "jp": "cin2",
       "en": "Money",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": ""
     },
@@ -305,7 +305,7 @@
       "zh": "斤",
       "jp": "gan1",
       "en": "A catty (= 20 ounces)",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "classifier",
       "notes": ""
     },
@@ -314,7 +314,7 @@
       "zh": "蚊",
       "jp": "man1",
       "en": "Dollar",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "classifier",
       "notes": ""
     },
@@ -323,7 +323,7 @@
       "zh": "细",
       "jp": "sai3",
       "en": "Small",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "adj",
       "notes": ""
     },
@@ -332,7 +332,7 @@
       "zh": "会",
       "jp": "wui5",
       "en": "To be able to, to know how to",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "verb",
       "notes": ""
     },
@@ -341,7 +341,7 @@
       "zh": "得",
       "jp": "dak1",
       "en": "OK, can do, acceptable",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "adj",
       "notes": "dak1 m4 dak1 aa3? = will that do?"
     },
@@ -350,7 +350,7 @@
       "zh": "只",
       "jp": "zek3",
       "en": "Classifier for animals",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "classifier",
       "notes": ""
     },
@@ -359,7 +359,7 @@
       "zh": "游水",
       "jp": "jau4 seoi2",
       "en": "To swim",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "verb",
       "notes": ""
     },
@@ -368,7 +368,7 @@
       "zh": "水",
       "jp": "seoi2",
       "en": "Water",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": ""
     },
@@ -377,7 +377,7 @@
       "zh": "嘅啦",
       "jp": "ge3 laa3",
       "en": "Final particle giving strong emphasis",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "particle",
       "notes": "",
       "fn": "particle"
@@ -387,7 +387,7 @@
       "zh": "档口",
       "jp": "dong3 hau2",
       "en": "Street stall",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": ""
     },
@@ -396,7 +396,7 @@
       "zh": "点样",
       "jp": "dim2 joeng2",
       "en": "How, in what way?",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "pronoun",
       "notes": ""
     },
@@ -405,7 +405,7 @@
       "zh": "即係",
       "jp": "zik1 hai6",
       "en": "That is, that is to say",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "phrase",
       "notes": ""
     },
@@ -414,7 +414,7 @@
       "zh": "免费",
       "jp": "min5 fai3",
       "en": "Free of charge",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "adj",
       "notes": ""
     },
@@ -423,7 +423,7 @@
       "zh": "呐",
       "jp": "naa4",
       "en": "There, here you go, here it is, look",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "particle",
       "notes": "Written 嗱 in the Dialogue 2 characters"
     },
@@ -432,7 +432,7 @@
       "zh": "多谢",
       "jp": "do1 ze6",
       "en": "Thank you",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "phrase",
       "notes": "Heartfelt thanks; always used when receiving money (cf. m4 goi1)"
     },
@@ -441,7 +441,7 @@
       "zh": "死",
       "jp": "sei2",
       "en": "Dead, to die",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "adj",
       "notes": ""
     },

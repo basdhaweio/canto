@@ -13,7 +13,7 @@
       "zh": "天气",
       "jp": "tin1 hei3",
       "en": "Weather",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "noun",
       "notes": ""
     },
@@ -22,7 +22,7 @@
       "zh": "渐渐",
       "jp": "zim6 zim6",
       "en": "Gradually",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "",
       "notes": ""
     },
@@ -31,7 +31,7 @@
       "zh": "冷",
       "jp": "laang5",
       "en": "Cold",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "adj",
       "notes": ""
     },
@@ -40,7 +40,7 @@
       "zh": "晒太阳",
       "jp": "saai3 taai3 joeng4",
       "en": "To sunbathe",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "verb",
       "notes": ""
     },
@@ -49,7 +49,7 @@
       "zh": "怕",
       "jp": "paa3",
       "en": "To fear; to dislike",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "verb",
       "notes": ""
     },
@@ -58,7 +58,7 @@
       "zh": "天文台",
       "jp": "tin1 man4 toi4",
       "en": "Observatory",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "noun",
       "notes": ""
     },
@@ -67,7 +67,7 @@
       "zh": "落雨",
       "jp": "lok6 jyu5",
       "en": "To rain",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "verb",
       "notes": ""
     },
@@ -76,7 +76,7 @@
       "zh": "仲",
       "jp": "zung6",
       "en": "In addition",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "",
       "notes": "Adverb; the final particle tim1 is usually added to back it up"
     },
@@ -85,7 +85,7 @@
       "zh": "会",
       "jp": "wui5",
       "en": "It is likely that",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "",
       "notes": ""
     },
@@ -94,7 +94,7 @@
       "zh": "落雪",
       "jp": "lok6 syut3",
       "en": "To snow",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "verb",
       "notes": ""
     },
@@ -103,7 +103,7 @@
       "zh": "添",
       "jp": "tim1",
       "en": "(final particle) as well, also",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "particle",
       "notes": "",
       "fn": "particle"
@@ -113,7 +113,7 @@
       "zh": "已经",
       "jp": "ji5 ging1",
       "en": "Already",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "",
       "notes": ""
     },
@@ -122,7 +122,7 @@
       "zh": "冷天",
       "jp": "laang5 tin1",
       "en": "Cold weather, winter",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "noun",
       "notes": ""
     },
@@ -131,7 +131,7 @@
       "zh": "衫",
       "jp": "saam1",
       "en": "Clothing",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "noun",
       "notes": ""
     },
@@ -140,7 +140,7 @@
       "zh": "听日",
       "jp": "ting1 jat6",
       "en": "Tomorrow",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "",
       "notes": ""
     },
@@ -149,7 +149,7 @@
       "zh": "电暖炉",
       "jp": "din6 nyun5 lou4",
       "en": "Electric heater",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "noun",
       "notes": ""
     },
@@ -158,7 +158,7 @@
       "zh": "几时?",
       "jp": "gei2 si4?",
       "en": "When?",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "",
       "notes": "Question word; sits where the time-when answer goes"
     },
@@ -167,7 +167,7 @@
       "zh": "嘢",
       "jp": "je5",
       "en": "Thing, object",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "noun",
       "notes": ""
     },
@@ -176,7 +176,7 @@
       "zh": "时时（都）",
       "jp": "si4 si4 (dou1)",
       "en": "Always, frequently",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "",
       "notes": "dou1 is usually added to back it up"
     },
@@ -185,7 +185,7 @@
       "zh": "实用",
       "jp": "sat6 jung6",
       "en": "Practical",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "adj",
       "notes": ""
     },
@@ -194,7 +194,7 @@
       "zh": "同意",
       "jp": "tung4 ji3",
       "en": "To agree",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "verb",
       "notes": ""
     },
@@ -203,7 +203,7 @@
       "zh": "知道，知",
       "jp": "zi1 dou6, zi1",
       "en": "To know a fact, to understand",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "verb",
       "notes": ""
     },
@@ -212,7 +212,7 @@
       "zh": "嘥",
       "jp": "saai1",
       "en": "To waste",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "verb",
       "notes": ""
     },
@@ -221,7 +221,7 @@
       "zh": "挤",
       "jp": "zai1",
       "en": "To put, to place",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "verb",
       "notes": ""
     },
@@ -230,7 +230,7 @@
       "zh": "走廊",
       "jp": "zau2 long4",
       "en": "Passage, corridor",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "noun",
       "notes": ""
     },
@@ -239,7 +239,7 @@
       "zh": "墙角",
       "jp": "coeng4 gok3",
       "en": "Corner (of house, room)",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "noun",
       "notes": ""
     },
@@ -248,7 +248,7 @@
       "zh": "手提",
       "jp": "sau2 tai4",
       "en": "Hand held, portable",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "adj",
       "notes": ""
     },
@@ -257,7 +257,7 @@
       "zh": "灭火筒",
       "jp": "mit6 fo2 tung2",
       "en": "Fire extinguisher",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "noun",
       "notes": ""
     },
@@ -266,7 +266,7 @@
       "zh": "旧年",
       "jp": "gau6 nin2",
       "en": "Last year",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "",
       "notes": "Note the tone change: nin4 becomes nin2"
     },
@@ -275,7 +275,7 @@
       "zh": "年",
       "jp": "nin4",
       "en": "Year",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "noun",
       "notes": "Takes no classifier"
     },
@@ -284,7 +284,7 @@
       "zh": "丫?",
       "jp": "aa1?",
       "en": "(particle) (triumphantly scoring a point) didn't I tell you so!",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "particle",
       "notes": "",
       "fn": "particle"
@@ -294,7 +294,7 @@
       "zh": "冷气机",
       "jp": "laang5 hei3 gei1",
       "en": "Air-conditioner",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": ""
     },
@@ -303,7 +303,7 @@
       "zh": "热",
       "jp": "jit6",
       "en": "Hot",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "adj",
       "notes": ""
     },
@@ -312,7 +312,7 @@
       "zh": "时候",
       "jp": "si4 hau6",
       "en": "Time",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": ""
     },
@@ -321,7 +321,7 @@
       "zh": "打算",
       "jp": "daa2 syun3",
       "en": "To intent, intention",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "verb",
       "notes": ""
     },
@@ -330,7 +330,7 @@
       "zh": "海滩",
       "jp": "hoi2 taan1",
       "en": "Beach",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": ""
     },
@@ -339,7 +339,7 @@
       "zh": "饮",
       "jp": "jam2",
       "en": "To drink",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "verb",
       "notes": ""
     },
@@ -348,7 +348,7 @@
       "zh": "啤酒",
       "jp": "be1 zau2",
       "en": "Beer",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": ""
     },
@@ -357,7 +357,7 @@
       "zh": "酒",
       "jp": "zau2",
       "en": "Any alcoholic drink",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": ""
     },
@@ -366,7 +366,7 @@
       "zh": "雪糕",
       "jp": "syut3 gou1",
       "en": "Ice cream",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": ""
     },
@@ -375,7 +375,7 @@
       "zh": "打风",
       "jp": "daa2 fung1",
       "en": "To have a typhoon",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "verb",
       "notes": ""
     },
@@ -384,7 +384,7 @@
       "zh": "风",
       "jp": "fung1",
       "en": "Wind",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": ""
     },
@@ -393,7 +393,7 @@
       "zh": "算",
       "jp": "syun3",
       "en": "To be regarded as",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "verb",
       "notes": ""
     },
@@ -402,7 +402,7 @@
       "zh": "有用",
       "jp": "jau5 jung6",
       "en": "Useful",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "adj",
       "notes": ""
     },
@@ -411,7 +411,7 @@
       "zh": "悭",
       "jp": "haan1",
       "en": "To save, stingy",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "",
       "notes": ""
     },
@@ -420,7 +420,7 @@
       "zh": "仲",
       "jp": "zung6",
       "en": "Even more",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "",
       "notes": ""
     },
@@ -429,7 +429,7 @@
       "zh": "点样…法?",
       "jp": "dim2 joeng2 … faat3?",
       "en": "In what way…?",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "",
       "notes": "The object of the verb moves to the front and -faat3 tacks onto the verb"
     },
@@ -438,7 +438,7 @@
       "zh": "百货公司",
       "jp": "baak3 fo3 gung1 si1",
       "en": "Department store",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": ""
     },
@@ -447,7 +447,7 @@
       "zh": "公司",
       "jp": "gung1 si1",
       "en": "A company",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": ""
     },
@@ -456,7 +456,7 @@
       "zh": "游水裤",
       "jp": "jau4 seoi2 fu3",
       "en": "Swimming trunks",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": ""
     },
@@ -465,7 +465,7 @@
       "zh": "见",
       "jp": "gin3",
       "en": "To see, to meet",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "verb",
       "notes": ""
     },
@@ -474,7 +474,7 @@
       "zh": "倒",
       "jp": "dou2",
       "en": "(verb ending) to succeed in",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "",
       "notes": "",
       "fn": "ending"
@@ -484,7 +484,7 @@
       "zh": "开心",
       "jp": "hoi1 sam1",
       "en": "Happy",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "adj",
       "notes": ""
     },
@@ -493,7 +493,7 @@
       "zh": "话…知 = 话…听",
       "jp": "waa6 …zi1 = waa6 …teng1",
       "en": "To tell",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "verb",
       "notes": ""
     },
@@ -502,7 +502,7 @@
       "zh": "条",
       "jp": "tiu4",
       "en": "Classifier for long, thin, flexible things",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "classifier",
       "notes": ""
     },
@@ -511,7 +511,7 @@
       "zh": "旧",
       "jp": "gau6",
       "en": "Old, used",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "adj",
       "notes": ""
     },
@@ -520,7 +520,7 @@
       "zh": "领呔",
       "jp": "leng5 taai1",
       "en": "Necktie",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": ""
     },
@@ -529,7 +529,7 @@
       "zh": "改",
       "jp": "goi2",
       "en": "To alter, to change (usually for the better)",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "verb",
       "notes": ""
     },
@@ -538,7 +538,7 @@
       "zh": "成",
       "jp": "sing4",
       "en": "(verb ending) …to become, …into",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "",
       "notes": "",
       "fn": "ending"
@@ -548,7 +548,7 @@
       "zh": "套",
       "jp": "tou3",
       "en": "Classifier for a set of, a suit of",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "classifier",
       "notes": ""
     },
@@ -557,7 +557,7 @@
       "zh": "比基尼",
       "jp": "bei2 gei1 nei4",
       "en": "Bikini",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": ""
     },

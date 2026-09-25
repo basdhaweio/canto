@@ -13,7 +13,7 @@
       "zh": "太…啦…",
       "jp": "taai3 … laa3 …",
       "en": "Too… exceedingly…",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "phrase",
       "notes": "Frame: taai3 + adjective + laa3"
     },
@@ -22,7 +22,7 @@
       "zh": "客气",
       "jp": "haak3 hei3",
       "en": "Polite",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "adj",
       "notes": ""
     },
@@ -31,7 +31,7 @@
       "zh": "煮",
       "jp": "zyu2",
       "en": "To cook",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "verb",
       "notes": "Lonely verb: takes faan6 as all-purpose object"
     },
@@ -40,7 +40,7 @@
       "zh": "咁",
       "jp": "gam3",
       "en": "So",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "adverb",
       "notes": ""
     },
@@ -49,7 +49,7 @@
       "zh": "𩠌",
       "jp": "sung3",
       "en": "Food, dish other than rice or soup",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "noun",
       "notes": "Rare character 𩠌"
     },
@@ -58,7 +58,7 @@
       "zh": "请",
       "jp": "cing2",
       "en": "To invite",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "verb",
       "notes": "Also means please (Unit 3)"
     },
@@ -67,7 +67,7 @@
       "zh": "食饭",
       "jp": "sik6 faan6",
       "en": "To eat",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "verb",
       "notes": "sik6 is a lonely verb: faan6 is its all-purpose object"
     },
@@ -76,7 +76,7 @@
       "zh": "食",
       "jp": "sik6",
       "en": "To eat",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "verb",
       "notes": ""
     },
@@ -85,7 +85,7 @@
       "zh": "饭",
       "jp": "faan6",
       "en": "Rice, food",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "noun",
       "notes": "Cooked rice only"
     },
@@ -94,7 +94,7 @@
       "zh": "便饭",
       "jp": "bin6 faan6",
       "en": "A meal of whatever",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "noun",
       "notes": ""
     },
@@ -103,7 +103,7 @@
       "zh": "随便",
       "jp": "ceoi4 bin2",
       "en": "As you please",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "phrase",
       "notes": ""
     },
@@ -112,7 +112,7 @@
       "zh": "茶",
       "jp": "caa4",
       "en": "Tea",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "noun",
       "notes": ""
     },
@@ -121,7 +121,7 @@
       "zh": "厨房",
       "jp": "cyu4 fong2",
       "en": "Kitchen",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "noun",
       "notes": ""
     },
@@ -130,7 +130,7 @@
       "zh": "…紧",
       "jp": "… gan2",
       "en": "A verb ending for continuing action, -ing",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "particle",
       "notes": "Verb ending: action going on at the time",
       "fn": "ending"
@@ -140,7 +140,7 @@
       "zh": "唔使",
       "jp": "m4 sai2",
       "en": "No need to",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "verb",
       "notes": "Negative of jiu3 'need to'; question form sai2 m4 sai2"
     },
@@ -149,7 +149,7 @@
       "zh": "等",
       "jp": "dang2",
       "en": "To wait",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "verb",
       "notes": ""
     },
@@ -158,7 +158,7 @@
       "zh": "真（係）",
       "jp": "zan1 (hai6)",
       "en": "Truly, really",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "adverb",
       "notes": ""
     },
@@ -167,7 +167,7 @@
       "zh": "好食",
       "jp": "hou2 sik6",
       "en": "Delicious",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "adj",
       "notes": ""
     },
@@ -176,7 +176,7 @@
       "zh": "好似…一样",
       "jp": "hou2 ci5 … jat1 joeng6",
       "en": "Just like…",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "phrase",
       "notes": ""
     },
@@ -185,7 +185,7 @@
       "zh": "酒楼",
       "jp": "zau2 lau4",
       "en": "Chinese restaurant",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "noun",
       "notes": ""
     },
@@ -194,7 +194,7 @@
       "zh": "帮…手",
       "jp": "bong1 … sau2",
       "en": "To help…",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "verb",
       "notes": "Object goes between bong1 and sau2"
     },
@@ -203,7 +203,7 @@
       "zh": "用",
       "jp": "jung6",
       "en": "To use, to spend",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "verb",
       "notes": ""
     },
@@ -212,7 +212,7 @@
       "zh": "…咗",
       "jp": "… zo2",
       "en": "A verb ending for completed action, -ed",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "particle",
       "notes": "Verb ending: completed action; usually backed up by laak3",
       "fn": "ending"
@@ -222,7 +222,7 @@
       "zh": "预备",
       "jp": "jyu6 bei6",
       "en": "To prepare, to get ready",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "verb",
       "notes": ""
     },
@@ -231,7 +231,7 @@
       "zh": "餐",
       "jp": "caan1",
       "en": "Classifier for food, a meal",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "classifier",
       "notes": ""
     },
@@ -240,7 +240,7 @@
       "zh": "半",
       "jp": "bun3",
       "en": "Half",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "number",
       "notes": ""
     },
@@ -249,7 +249,7 @@
       "zh": "钟头",
       "jp": "zung1 tau4",
       "en": "Hour",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "noun",
       "notes": ""
     },
@@ -258,7 +258,7 @@
       "zh": "只（係）",
       "jp": "zi2 (hai6)",
       "en": "Only",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "adverb",
       "notes": ""
     },
@@ -267,7 +267,7 @@
       "zh": "信",
       "jp": "seon3",
       "en": "To believe, to trust",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "verb",
       "notes": ""
     },
@@ -276,7 +276,7 @@
       "zh": "啲",
       "jp": "di1",
       "en": "Plural classifier",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "classifier",
       "notes": "Plural / unspecified quantity"
     },
@@ -285,7 +285,7 @@
       "zh": "都",
       "jp": "dou1",
       "en": "All, both",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "adverb",
       "notes": "Also 'also'; comes immediately before the verb and after the noun it refers to"
     },
@@ -294,7 +294,7 @@
       "zh": "附近",
       "jp": "fu6 gan6",
       "en": "Nearby",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "noun",
       "notes": ""
     },
@@ -303,7 +303,7 @@
       "zh": "哦",
       "jp": "ngo5",
       "en": "Oh really! Oh, now I understand",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "particle",
       "notes": "Exclamation"
     },
@@ -312,7 +312,7 @@
       "zh": "伙计",
       "jp": "fo2 gei3",
       "en": "Waiter",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": ""
     },
@@ -321,7 +321,7 @@
       "zh": "汤",
       "jp": "tong1",
       "en": "Soup",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": ""
     },
@@ -330,7 +330,7 @@
       "zh": "新鲜",
       "jp": "san1 sin1",
       "en": "Fresh",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "adj",
       "notes": ""
     },
@@ -339,7 +339,7 @@
       "zh": "牛肉",
       "jp": "ngau4 juk6",
       "en": "Beef",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": ""
     },
@@ -348,7 +348,7 @@
       "zh": "牛",
       "jp": "ngau4",
       "en": "Cow, ox",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": ""
     },
@@ -357,7 +357,7 @@
       "zh": "肉",
       "jp": "juk6",
       "en": "Meat, flesh",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": ""
     },
@@ -366,7 +366,7 @@
       "zh": "就",
       "jp": "zau6",
       "en": "Then",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "adverb",
       "notes": ""
     },
@@ -375,7 +375,7 @@
       "zh": "主菜",
       "jp": "zyu2 coi3",
       "en": "Main course",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": ""
     },
@@ -384,7 +384,7 @@
       "zh": "介绍",
       "jp": "gaai3 siu6",
       "en": "Recommend",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "verb",
       "notes": ""
     },
@@ -393,7 +393,7 @@
       "zh": "龙虾",
       "jp": "lung4 haa1",
       "en": "Lobster",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": ""
     },
@@ -402,7 +402,7 @@
       "zh": "好味",
       "jp": "hou2 mei6",
       "en": "Delicious",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "adj",
       "notes": ""
     },
@@ -411,7 +411,7 @@
       "zh": "如果",
       "jp": "jyu4 gwo2",
       "en": "If",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "conjunction",
       "notes": ""
     },
@@ -420,7 +420,7 @@
       "zh": "送…俾…",
       "jp": "sung3 … bei2 …",
       "en": "To give x as a present to y",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "verb",
       "notes": "sung3 X bei2 Y; bei2 alone = to give to, hand over to"
     },
@@ -429,7 +429,7 @@
       "zh": "生果",
       "jp": "saang1 gwo2",
       "en": "Fruit",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": ""
     },
@@ -438,7 +438,7 @@
       "zh": "沙律",
       "jp": "saa1 leot2",
       "en": "Salad",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": ""
     },
@@ -447,7 +447,7 @@
       "zh": "点解?",
       "jp": "dim2 gaai2",
       "en": "Why?",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "phrase",
       "notes": ""
     },
@@ -456,7 +456,7 @@
       "zh": "因为",
       "jp": "jan1 wai6",
       "en": "Because",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "conjunction",
       "notes": ""
     },
@@ -465,7 +465,7 @@
       "zh": "昨日",
       "jp": "zok6 jat6",
       "en": "Yesterday",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": ""
     },
@@ -474,7 +474,7 @@
       "zh": "整",
       "jp": "zing2",
       "en": "To make",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "verb",
       "notes": ""
     },
@@ -483,7 +483,7 @@
       "zh": "今日",
       "jp": "gam1 jat6",
       "en": "Today",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": ""
     },
@@ -492,7 +492,7 @@
       "zh": "少",
       "jp": "siu2",
       "en": "Few",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "adj",
       "notes": ""
     },
@@ -501,7 +501,7 @@
       "zh": "所以",
       "jp": "so2 ji5",
       "en": "Therefore",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "conjunction",
       "notes": ""
     },
@@ -510,7 +510,7 @@
       "zh": "识",
       "jp": "sik1",
       "en": "To know how to",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "verb",
       "notes": ""
     },
@@ -519,7 +519,7 @@
       "zh": "做生意",
       "jp": "zou6 saang1 ji3",
       "en": "To do business",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "verb",
       "notes": ""
     },
@@ -528,7 +528,7 @@
       "zh": "唔好",
       "jp": "m4 hou2",
       "en": "Don't",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "phrase",
       "notes": "mai5 is a ruder equivalent"
     },
@@ -537,7 +537,7 @@
       "zh": "嬲",
       "jp": "nau1",
       "en": "Angry",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "adj",
       "notes": ""
     },
@@ -546,7 +546,7 @@
       "zh": "再",
       "jp": "zoi3",
       "en": "Again",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "adverb",
       "notes": ""
     },
@@ -555,7 +555,7 @@
       "zh": "朝早",
       "jp": "ziu1 zou2",
       "en": "Morning",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": ""
     },
@@ -564,7 +564,7 @@
       "zh": "早",
       "jp": "zou2",
       "en": "Early",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "adj",
       "notes": ""
     },
@@ -573,7 +573,7 @@
       "zh": "甜品",
       "jp": "tim4 ban2",
       "en": "Dessert",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": ""
     },
@@ -582,7 +582,7 @@
       "zh": "话",
       "jp": "waa6",
       "en": "Words",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": ""
     },
@@ -591,7 +591,7 @@
       "zh": "当",
       "jp": "dong3",
       "en": "To regard as",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "verb",
       "notes": ""
     },
@@ -600,7 +600,7 @@
       "zh": "垃圾桶",
       "jp": "laap6 saap6 tung2",
       "en": "Rubbish bin",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": ""
     },
@@ -609,7 +609,7 @@
       "zh": "垃圾",
       "jp": "laap6 saap6",
       "en": "Rubbish",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": ""
     },

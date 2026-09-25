@@ -16,7 +16,7 @@
       "zh": "早晨",
       "jp": "zou2 san4",
       "en": "Good morning",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "phrase",
       "notes": ""
     },
@@ -25,7 +25,7 @@
       "zh": "你",
       "jp": "nei5",
       "en": "You",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "pronoun",
       "notes": "singular"
     },
@@ -34,7 +34,7 @@
       "zh": "太太",
       "jp": "taai3 taai2",
       "en": "Mrs.; wife, married woman",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "noun",
       "notes": "note the tone change on the second syllable (taai3 taai2)"
     },
@@ -43,7 +43,7 @@
       "zh": "王",
       "jp": "wong4",
       "en": "Surname, Wong/Wang",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "surname",
       "notes": ""
     },
@@ -52,7 +52,7 @@
       "zh": "好",
       "jp": "hou2",
       "en": "Very, well, fine, nice, good, OK",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "adj",
       "notes": "also the adverb 'very' (hou2 hou2 = very good); can act as a verb 'to be good'"
     },
@@ -61,7 +61,7 @@
       "zh": "佢",
       "jp": "keoi5",
       "en": "She, her, he, him, it",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "pronoun",
       "notes": "no gender distinction"
     },
@@ -70,7 +70,7 @@
       "zh": "先生",
       "jp": "sin1 saang1",
       "en": "Mr., Sir, gentleman, husband",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "noun",
       "notes": "follows the surname: Wong4 sin1 saang1"
     },
@@ -79,7 +79,7 @@
       "zh": "吗?",
       "jp": "maa3",
       "en": "A word that makes a sentence into a question",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "particle",
       "notes": "sentence-final; used mainly for polite questions",
       "fn": "particle"
@@ -89,7 +89,7 @@
       "zh": "都",
       "jp": "dou1",
       "en": "Also",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "adverb",
       "notes": "always comes just before a verb"
     },
@@ -98,7 +98,7 @@
       "zh": "张",
       "jp": "zoeng1",
       "en": "Surname, Cheung/Zhang",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "surname",
       "notes": ""
     },
@@ -107,7 +107,7 @@
       "zh": "我",
       "jp": "ngo5",
       "en": "I, me",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "pronoun",
       "notes": ""
     },
@@ -116,7 +116,7 @@
       "zh": "有心",
       "jp": "jau5 sam1",
       "en": "Kind of you to ask",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "phrase",
       "notes": ""
     },
@@ -125,7 +125,7 @@
       "zh": "小姐",
       "jp": "siu2 ze2",
       "en": "Miss, young lady",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "noun",
       "notes": "follows the surname: Zoeng1 siu2 ze2"
     },
@@ -134,7 +134,7 @@
       "zh": "呢?",
       "jp": "ne1",
       "en": "A word that repeats the same question about a different matter",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "particle",
       "notes": "sentence-final follow-up question particle",
       "fn": "particle"
@@ -144,7 +144,7 @@
       "zh": "噢",
       "jp": "ou3",
       "en": "Oh! (surprise)",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "interjection",
       "notes": ""
     },
@@ -153,7 +153,7 @@
       "zh": "係",
       "jp": "hai6",
       "en": "To be",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "verb",
       "notes": "used to introduce noun phrases; not used with adjectives"
     },
@@ -162,7 +162,7 @@
       "zh": "人",
       "jp": "jan4",
       "en": "Person",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": "also 'people'; nouns have no plural form"
     },
@@ -171,7 +171,7 @@
       "zh": "对唔住",
       "jp": "deoi3 m4 zyu6",
       "en": "I'm sorry, excuse me, pardon me",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "phrase",
       "notes": ""
     },
@@ -180,7 +180,7 @@
       "zh": "李",
       "jp": "lei5",
       "en": "A surname, Li/Lee",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "surname",
       "notes": ""
     },
@@ -189,7 +189,7 @@
       "zh": "呀?",
       "jp": "aa3",
       "en": "Word used at the end of a question",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "particle",
       "notes": "no meaning on its own; rounds off a question",
       "fn": "particle"
@@ -199,7 +199,7 @@
       "zh": "贵姓呀?",
       "jp": "gwai3 sing3 aa3",
       "en": "What is your surname?",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "phrase",
       "notes": "polite"
     },
@@ -208,7 +208,7 @@
       "zh": "唔",
       "jp": "m4",
       "en": "Not",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "adverb",
       "notes": "always comes in front of the word it refers to"
     },
@@ -217,7 +217,7 @@
       "zh": "英国人",
       "jp": "jing1 gwok3 jan4",
       "en": "British person",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": ""
     },
@@ -226,7 +226,7 @@
       "zh": "姓",
       "jp": "sing3",
       "en": "Surname",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "verb",
       "notes": "used as a verb: ngo5 sing3 Ho4 = my surname is Ho"
     },
@@ -235,7 +235,7 @@
       "zh": "美国人",
       "jp": "mei5 gwok3 jan4",
       "en": "American person",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": ""
     },
@@ -244,7 +244,7 @@
       "zh": "英国",
       "jp": "jing1 gwok3",
       "en": "Britain",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": ""
     },
@@ -253,7 +253,7 @@
       "zh": "何",
       "jp": "ho4",
       "en": "A surname, Ho/He",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "surname",
       "notes": ""
     },
@@ -262,7 +262,7 @@
       "zh": "美国",
       "jp": "mei5 gwok3",
       "en": "America, USA",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": ""
     },
@@ -271,7 +271,7 @@
       "zh": "卖",
       "jp": "maai6",
       "en": "To sell",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "verb",
       "notes": ""
     },
@@ -280,7 +280,7 @@
       "zh": "车",
       "jp": "ce1",
       "en": "Cars",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": "singular or plural"
     },
@@ -289,7 +289,7 @@
       "zh": "靓",
       "jp": "leng3",
       "en": "Pretty",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "adj",
       "notes": ""
     },
@@ -298,7 +298,7 @@
       "zh": "要",
       "jp": "jiu3",
       "en": "To want",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "verb",
       "notes": ""
     },
@@ -307,7 +307,7 @@
       "zh": "日本人",
       "jp": "jat6 bun2 jan4",
       "en": "Japanese person",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": ""
     },
@@ -316,7 +316,7 @@
       "zh": "贵",
       "jp": "gwai3",
       "en": "Expensive",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "adj",
       "notes": ""
     },
@@ -325,7 +325,7 @@
       "zh": "再见",
       "jp": "zoi3 gin3",
       "en": "Goodbye",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "phrase",
       "notes": ""
     }

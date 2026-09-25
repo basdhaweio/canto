@@ -13,7 +13,7 @@
       "zh": "边处，边度",
       "jp": "bin1 cyu3, bin1 dou6",
       "en": "Where? Which place?",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "pronoun",
       "notes": "Either form may be used"
     },
@@ -22,7 +22,7 @@
       "zh": "返",
       "jp": "faan1",
       "en": "To return",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "verb",
       "notes": "Also: to go where one usually goes"
     },
@@ -31,7 +31,7 @@
       "zh": "屋企",
       "jp": "nguk1 kei2",
       "en": "Family, home",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "noun",
       "notes": ""
     },
@@ -40,7 +40,7 @@
       "zh": "做乜嘢",
       "jp": "zou6 mat1 je5",
       "en": "Why? For what reason?",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "phrase",
       "notes": "Literally 'to do what?'"
     },
@@ -49,7 +49,7 @@
       "zh": "做",
       "jp": "zou6",
       "en": "To do",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "verb",
       "notes": ""
     },
@@ -58,7 +58,7 @@
       "zh": "妈妈",
       "jp": "maa4 maa1",
       "en": "Mother",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "noun",
       "notes": ""
     },
@@ -67,7 +67,7 @@
       "zh": "睇医生",
       "jp": "tai2 ji1 sang1",
       "en": "To see the doctor",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "phrase",
       "notes": ""
     },
@@ -76,7 +76,7 @@
       "zh": "医生",
       "jp": "ji1 sang1",
       "en": "Doctor",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "noun",
       "notes": ""
     },
@@ -85,7 +85,7 @@
       "zh": "同",
       "jp": "tung4",
       "en": "With, and (a shorter form of tung4 maai4)",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "",
       "notes": ""
     },
@@ -94,7 +94,7 @@
       "zh": "一齐",
       "jp": "jat1 cai4",
       "en": "Together",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "adverb",
       "notes": "Comes in front of the verb"
     },
@@ -103,7 +103,7 @@
       "zh": "住",
       "jp": "zyu6",
       "en": "To dwell, to live",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "verb",
       "notes": ""
     },
@@ -112,7 +112,7 @@
       "zh": "吖",
       "jp": "aa4",
       "en": "A question word (that's right), isn't it?",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "particle",
       "notes": "Final particle asking for confirmation",
       "fn": "particle"
@@ -122,7 +122,7 @@
       "zh": "爸爸",
       "jp": "baa4 baa1",
       "en": "Father",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "noun",
       "notes": ""
     },
@@ -131,7 +131,7 @@
       "zh": "兄弟",
       "jp": "hing1 dai6",
       "en": "Brothers",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "noun",
       "notes": ""
     },
@@ -140,7 +140,7 @@
       "zh": "姐妹",
       "jp": "ze2 mui6",
       "en": "Sisters",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "noun",
       "notes": ""
     },
@@ -149,7 +149,7 @@
       "zh": "咁，咁样",
       "jp": "gam2, gam2 joeng2",
       "en": "In that case, so",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "",
       "notes": ""
     },
@@ -158,7 +158,7 @@
       "zh": "间",
       "jp": "gaan1",
       "en": "Classifier for houses and rooms",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "classifier",
       "notes": ""
     },
@@ -167,7 +167,7 @@
       "zh": "屋",
       "jp": "nguk1",
       "en": "House",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "noun",
       "notes": ""
     },
@@ -176,7 +176,7 @@
       "zh": "一定",
       "jp": "jat1 ding6",
       "en": "Certainly",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "adverb",
       "notes": ""
     },
@@ -185,7 +185,7 @@
       "zh": "大",
       "jp": "daai6",
       "en": "Big",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "adj",
       "notes": ""
     },
@@ -194,7 +194,7 @@
       "zh": "勒",
       "jp": "laak3",
       "en": "A statement word (that's how the case stands now)",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "particle",
       "notes": "Final particle",
       "fn": "particle"
@@ -204,7 +204,7 @@
       "zh": "都几，几",
       "jp": "dou1 gei2, gei2",
       "en": "Quite, rather, fairly",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "adverb",
       "notes": ""
     },
@@ -213,7 +213,7 @@
       "zh": "要",
       "jp": "jiu3",
       "en": "Must, need to",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "verb",
       "notes": ""
     },
@@ -222,7 +222,7 @@
       "zh": "走",
       "jp": "zau2",
       "en": "To run, to run away, to leave",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "verb",
       "notes": ""
     },
@@ -231,7 +231,7 @@
       "zh": "耐",
       "jp": "noi6",
       "en": "A long time",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "",
       "notes": ""
     },
@@ -240,7 +240,7 @@
       "zh": "好耐冇见",
       "jp": "hou2 noi6 mou5 gin3",
       "en": "Long time no see",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "phrase",
       "notes": ""
     },
@@ -249,7 +249,7 @@
       "zh": "冇",
       "jp": "mou5",
       "en": "Have not (negative of jau5)",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "verb",
       "notes": "jau5 is not negated with m4"
     },
@@ -258,7 +258,7 @@
       "zh": "香港",
       "jp": "hoeng1 gong2",
       "en": "Hong Kong",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": ""
     },
@@ -267,7 +267,7 @@
       "zh": "花园道",
       "jp": "faa1 jyun4 dou6",
       "en": "Garden Road",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": ""
     },
@@ -276,7 +276,7 @@
       "zh": "花园",
       "jp": "faa1 jyun2",
       "en": "Garden (note the tone change)",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": "Note the tone change: jyun4 in faa1 jyun4 dou6, jyun2 on its own"
     },
@@ -285,7 +285,7 @@
       "zh": "道",
       "jp": "dou6",
       "en": "Street, road",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": ""
     },
@@ -294,7 +294,7 @@
       "zh": "号",
       "jp": "hou6",
       "en": "Number",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": ""
     },
@@ -303,7 +303,7 @@
       "zh": "楼",
       "jp": "lau4",
       "en": "Flat, a high building, a story",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": "Pronounced lau2 in the dialogue (saam1 lau2, jat1 cang4 lau2)"
     },
@@ -312,7 +312,7 @@
       "zh": "多",
       "jp": "do1",
       "en": "Many, much",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "adj",
       "notes": ""
     },
@@ -321,7 +321,7 @@
       "zh": "巴士",
       "jp": "baa1 si2",
       "en": "Bus",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": ""
     },
@@ -330,7 +330,7 @@
       "zh": "的士",
       "jp": "dik1 si2",
       "en": "Taxi",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": ""
     },
@@ -339,7 +339,7 @@
       "zh": "搭",
       "jp": "daap3",
       "en": "To travel by/catch/take (public transport)",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "verb",
       "notes": ""
     },
@@ -348,7 +348,7 @@
       "zh": "仲",
       "jp": "zung6",
       "en": "Still, yet",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "adverb",
       "notes": ""
     },
@@ -357,7 +357,7 @@
       "zh": "咖啡",
       "jp": "gaa3 fe1",
       "en": "Coffee",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": ""
     },
@@ -366,7 +366,7 @@
       "zh": "街",
       "jp": "gaai1",
       "en": "Street",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": ""
     },
@@ -375,7 +375,7 @@
       "zh": "地下",
       "jp": "dei6 haa2",
       "en": "Ground floor, the ground, the floor",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": ""
     },
@@ -384,7 +384,7 @@
       "zh": "时间",
       "jp": "si4 gaan3",
       "en": "Time",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": ""
     },
@@ -393,7 +393,7 @@
       "zh": "请",
       "jp": "cing2",
       "en": "Please",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "",
       "notes": ""
     },
@@ -402,7 +402,7 @@
       "zh": "黎",
       "jp": "lai4",
       "en": "To come",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "verb",
       "notes": ""
     },
@@ -411,7 +411,7 @@
       "zh": "坐",
       "jp": "co5",
       "en": "To sit",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "verb",
       "notes": ""
     },
@@ -420,7 +420,7 @@
       "zh": "探",
       "jp": "taam3",
       "en": "To see, to visit",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "verb",
       "notes": ""
     },
@@ -429,7 +429,7 @@
       "zh": "车房",
       "jp": "ce1 fong4",
       "en": "Garage",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": ""
     },
@@ -438,7 +438,7 @@
       "zh": "层",
       "jp": "cang4",
       "en": "Classifier for a flat, story, deck",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "classifier",
       "notes": ""
     },
@@ -447,7 +447,7 @@
       "zh": "啫",
       "jp": "ze1/zek1",
       "en": "(Particle) only, and that's all",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "particle",
       "notes": "Final particle",
       "fn": "particle"
@@ -457,7 +457,7 @@
       "zh": "唔係几/好",
       "jp": "m4 hai6 gei2/hou2",
       "en": "Not very",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "phrase",
       "notes": "hai6 is slipped into the 'not very' construction"
     },
@@ -466,7 +466,7 @@
       "zh": "嘅",
       "jp": "ge3",
       "en": "(Particle) Makes a statement more emphatic: that's how it is and that's how it's going to stay",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "particle",
       "notes": "Final particle",
       "fn": "particle"
@@ -476,7 +476,7 @@
       "zh": "喇",
       "jp": "laa1",
       "en": "A particle urging someone to agree with you or to do one thing for you",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "particle",
       "notes": "Final particle",
       "fn": "particle"

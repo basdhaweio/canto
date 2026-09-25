@@ -58,7 +58,9 @@
         h('div', { class: 'stat' }, h('b', { text: st.total ? Math.round((st.seen / st.total) * 100) + '%' : '–' }), h('span', { text: 'seen' }))),
       h('div', { class: 'btngroup mt' },
         h('a', { class: 'btn primary', href: `#/study?unit=${u.id}&mode=mixed&go=1`, text: dc.due ? `Review ${dc.due} due` : 'Study this unit' }),
-        h('a', { class: 'btn', href: `#/study?unit=${u.id}`, text: 'Custom session' }))));
+        ...[...new Set(u.vocab.filter((v) => v.deck && /^Set /.test(v.section || '')).map((v) => v.section))].sort()
+          .map((s) => h('a', { class: 'btn', href: `#/study?unit=${u.id}&sets=${encodeURIComponent(s)}&mode=mixed&go=1`, text: `Study ${s}` })),
+        h('a', { class: 'btn ghost', href: `#/study?unit=${u.id}`, text: 'Custom session' }))));
     const quick = h('div', { class: 'grid' });
     for (const d of u.dialogues) quick.append(h('a', { class: 'card clickable', href: '#/dialogue/' + d.id }, h('div', { class: 'eyebrow', text: 'Dialogue' }), h('b', { text: d.title }), h('div', { class: 'small muted', text: d.setting || '' })));
     for (const x of u.exercises) {

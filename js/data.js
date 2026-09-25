@@ -105,7 +105,7 @@ Canto.data = (() => {
     return state;
   }
 
-  const VOCAB_SLIDE = /^(dialogue|vocabulary)/i;
+  const VOCAB_SLIDE = /^(set|dialogue|vocabulary)/i;
   function deckOf(v, u) {
     if (!u.number) return null;
     if (v.fn) return 'particles';

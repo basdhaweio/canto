@@ -16,7 +16,7 @@
       "zh": "揾",
       "jp": "wan2",
       "en": "To look for",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "verb",
       "notes": ""
     },
@@ -25,7 +25,7 @@
       "zh": "边个",
       "jp": "bin1 go3",
       "en": "Who? Which person?",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "pronoun",
       "notes": "Question word; comes in the same position as its answer"
     },
@@ -34,7 +34,7 @@
       "zh": "中国",
       "jp": "zung1 gwok3",
       "en": "China",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "noun",
       "notes": ""
     },
@@ -43,7 +43,7 @@
       "zh": "嘅",
       "jp": "ge3",
       "en": "'s (shows possession)",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "particle",
       "notes": "Shows possession, like the apostrophe s in English",
       "fn": "particle"
@@ -53,7 +53,7 @@
       "zh": "我嘅",
       "jp": "ngo5 ge3",
       "en": "My",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "pronoun",
       "notes": ""
     },
@@ -62,7 +62,7 @@
       "zh": "朋友",
       "jp": "pang4 jau5",
       "en": "Friend",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "noun",
       "notes": "Two-syllable relationship term, so ge3 is often left out: ngo5 pang4 jau5"
     },
@@ -71,7 +71,7 @@
       "zh": "有",
       "jp": "jau5",
       "en": "To have",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "verb",
       "notes": ""
     },
@@ -80,7 +80,7 @@
       "zh": "乜嘢",
       "jp": "mat1 je5",
       "en": "What? What kind of?",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "pronoun",
       "notes": "Question word; some people say mi1 je5 instead, with no difference in meaning"
     },
@@ -89,7 +89,7 @@
       "zh": "事",
       "jp": "si6",
       "en": "Matter, business, affair",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "noun",
       "notes": ""
     },
@@ -98,7 +98,7 @@
       "zh": "有乜嘢事呀?",
       "jp": "jau5 mat1 je5 si6 aa3",
       "en": "For what purpose? Why?",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "phrase",
       "notes": ""
     },
@@ -107,7 +107,7 @@
       "zh": "想",
       "jp": "soeng2",
       "en": "To want to",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "verb",
       "notes": ""
     },
@@ -116,7 +116,7 @@
       "zh": "买",
       "jp": "maai5",
       "en": "To buy",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "verb",
       "notes": "Contrast maai6 (tone 6) = to sell"
     },
@@ -125,7 +125,7 @@
       "zh": "带",
       "jp": "daai3",
       "en": "To lead, to bring",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "verb",
       "notes": ""
     },
@@ -134,7 +134,7 @@
       "zh": "去",
       "jp": "heoi3",
       "en": "To go to",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "verb",
       "notes": ""
     },
@@ -143,7 +143,7 @@
       "zh": "写字楼",
       "jp": "se2 zi6 lau4",
       "en": "Office",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "noun",
       "notes": ""
     },
@@ -152,7 +152,7 @@
       "zh": "唔该你",
       "jp": "m4 goi1 nei5",
       "en": "Thank you",
-      "section": "Dialogue 1",
+      "section": "Set 1",
       "pos": "phrase",
       "notes": "m4 goi1 literally means 'not ought to' but is the most common word for thank you"
     },
@@ -161,7 +161,7 @@
       "zh": "一",
       "jp": "jat1",
       "en": "One",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "number",
       "notes": ""
     },
@@ -170,7 +170,7 @@
       "zh": "个",
       "jp": "go3",
       "en": "Classifier word for people and many objects",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "classifier",
       "notes": "Classifier word for people and many objects; also abstract things"
     },
@@ -179,7 +179,7 @@
       "zh": "手表",
       "jp": "sau2 biu1",
       "en": "Wristwatch",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": "Classifier go3 in Dialogue 2 (zek3 in the practice sheet)"
     },
@@ -188,7 +188,7 @@
       "zh": "枝",
       "jp": "zi1",
       "en": "Classifier word for stick-like things",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "classifier",
       "notes": "Classifier word for stick-like (cylindrical) things, e.g. zi1 bat1"
     },
@@ -197,7 +197,7 @@
       "zh": "笔",
       "jp": "bat1",
       "en": "A pen, any writing tool",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "noun",
       "notes": "Classifier zi1"
     },
@@ -206,7 +206,7 @@
       "zh": "呢",
       "jp": "ni1",
       "en": "This",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "pronoun",
       "notes": "Demonstrative; must be followed by a classifier (ni1 go3 sau2 biu1)"
     },
@@ -215,7 +215,7 @@
       "zh": "同埋",
       "jp": "tung4 maai4",
       "en": "And, with",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "",
       "notes": ""
     },
@@ -224,7 +224,7 @@
       "zh": "嗰",
       "jp": "go2",
       "en": "That",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "pronoun",
       "notes": "Demonstrative; must be followed by a classifier (go2 zi1 bat1)"
     },
@@ -233,7 +233,7 @@
       "zh": "架",
       "jp": "gaa3",
       "en": "ge3 + aa3? (combined sentence-final particle)",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "particle",
       "notes": "ge3 + aa3 fused into one syllable at the end of a question",
       "fn": "particle"
@@ -243,7 +243,7 @@
       "zh": "估",
       "jp": "gu2",
       "en": "To guess, reckon",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "verb",
       "notes": ""
     },
@@ -252,7 +252,7 @@
       "zh": "问",
       "jp": "man6",
       "en": "To ask a question",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "verb",
       "notes": ""
     },
@@ -261,7 +261,7 @@
       "zh": "而家",
       "jp": "ji4 gaa1",
       "en": "Now",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "",
       "notes": ""
     },
@@ -270,7 +270,7 @@
       "zh": "喺",
       "jp": "hai2",
       "en": "At/in/on; to be at/in/on",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "verb",
       "notes": "Be located at/in/on; note the tone difference from hai6 'to be'"
     },
@@ -279,7 +279,7 @@
       "zh": "唔紧要",
       "jp": "m4 gan2 jiu3",
       "en": "Never mind, it doesn't matter",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "phrase",
       "notes": ""
     },
@@ -288,7 +288,7 @@
       "zh": "迟啲",
       "jp": "ci4 di1",
       "en": "Later on",
-      "section": "Dialogue 2",
+      "section": "Set 2",
       "pos": "",
       "notes": ""
     },

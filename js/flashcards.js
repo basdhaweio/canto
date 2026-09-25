@@ -12,12 +12,16 @@
     const saved = P.load().lastStudy || {};
     const cardUnits = () => D.units().filter((u) => D.hasCards(u.id));
     const unitIds = (query.unit ? [query.unit] : query.units === 'all' || !saved.unitIds ? cardUnits().map((u) => u.id) : saved.unitIds).filter((id) => D.hasCards(id));
-    const kinds = query.kinds ? Object.fromEntries(KINDS.map((k) => [k, query.kinds.split(',').includes(k)])) : Object.assign({}, P.settings().cardKinds, saved.kinds || {});
+    // Unit buttons ("Study this unit", "Study Set 1") use the default card types from Settings,
+    // not whatever the last custom session happened to use.
+    const kinds = query.kinds ? Object.fromEntries(KINDS.map((k) => [k, query.kinds.split(',').includes(k)]))
+      : query.unit ? Object.assign({}, P.settings().cardKinds)
+      : Object.assign({}, P.settings().cardKinds, saved.kinds || {});
     let mode = query.mode || saved.mode || 'mixed';
     let sections = saved.sections || [];
     let limit = saved.limit || P.settings().newPerDay;
     const state = { unitIds: [...unitIds], kinds: { ...kinds }, sections: [...sections], mode, limit };
-    if (query.unit) state.sections = [];
+    if (query.unit) state.sections = query.sets ? query.sets.split(',') : [];
 
     const wrap = h('div', { class: 'fc-wrap' });
     wrap.append(h('div', { class: 'pagehead' }, h('h1', { text: 'Flashcards' }), h('div', { class: 'sub', text: 'Pick a scope. Grades feed the schedule, so daily review stays honest.' })));
@@ -33,7 +37,7 @@
     }
     // Sections
     const secChips = h('div', { class: 'chips' });
-    const secSec = h('div', { class: 'setup-section' }, h('h3', { text: 'Sections' }), h('div', { class: 'small muted mb', text: 'Leave all off to include every section. Applies to word cards only.' }), secChips);
+    const secSec = h('div', { class: 'setup-section' }, h('h3', { text: 'Sets' }), h('div', { class: 'small muted mb', text: 'Each unit has two vocabulary sets, one per Vocabulary slide. Leave both off for the whole unit. A set includes the particles on its slide; numbers belong to no set.' }), secChips);
     function renderSections() {
       secChips.innerHTML = '';
       const secs = D.sections(state.unitIds);

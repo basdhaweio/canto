@@ -14,7 +14,7 @@ The app never edits these files; they are the source of truth transcribed from t
 
 ## Flashcard rule (from the tutor)
 
-- **Word cards** come only from each unit's Vocabulary slides: `section` starting with `Dialogue` (or `Vocabulary`). Unit 0 and grammar-slide words (`section: "Grammar"`, `"Numbers"`, `"Phonology"`, `"Review"`) are dictionary-only.
+- **Word cards** come only from each unit's Vocabulary slides: `section: "Set 1"` / `"Set 2"` (the tutor's name for each Vocabulary slide, usually one per dialogue). Unit 0 and grammar-slide words (`section: "Grammar"`, `"Numbers"`, `"Phonology"`, `"Review"`) are dictionary-only.
 - New nouns that appear only on a practice sheet go in `vocab` with `section: "Practice"` (dictionary-only) so exercise prompts are tappable.
 - **Numbers deck**: vocab entries with `section: "Numbers"` (Unit 2). Cards show the numeral and ask for the Cantonese.
 - **Particles & endings deck**: every vocab entry with `fn` set, from any section of Units 1+. These are not also word cards. Their card backs show example sentences picked from the grammar slide that teaches them and the unit's own dialogues.
@@ -35,7 +35,7 @@ The app never edits these files; they are the source of truth transcribed from t
       "zh": "早晨",
       "jp": "zou2 san4",
       "en": "Good morning",
-      "section": "Dialogue 1",        // slide grouping: "Dialogue 1", "Dialogue 2", "Numbers", "Phonology", "Grammar"
+      "section": "Set 1",             // "Set 1" / "Set 2" = the unit's Vocabulary slides; else "Numbers", "Phonology", "Grammar", "Practice"
       "pos": "",                      // optional: noun, verb, adj, particle, classifier, pronoun, number, phrase, surname
       "notes": "",                    // e.g. "note the tone change", "used before a classifier"
       "fn": ""                        // optional: "particle" (sentence particles, possessive ge3) or "ending" (verb/adjective endings like zo2, gan2, dei2)

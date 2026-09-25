@@ -178,8 +178,9 @@ Canto.progress = (() => {
           if (kinds.r) out.push({ key: cardKey(v.id, 'r'), kind: 'r', id: v.id, unitId: u.id, v });
         }
       }
-      if (kinds.p) for (const v of u.vocab) if (v.deck === 'particles') out.push({ key: cardKey(v.id, 'p'), kind: 'p', id: v.id, unitId: u.id, v });
-      if (kinds.n) for (const v of u.vocab) if (v.deck === 'numbers') out.push({ key: cardKey(v.id, 'n'), kind: 'n', id: v.id, unitId: u.id, v });
+      const inSets = (v) => !sections || !sections.length || sections.includes(v.section || 'Other');
+      if (kinds.p) for (const v of u.vocab) if (v.deck === 'particles' && inSets(v)) out.push({ key: cardKey(v.id, 'p'), kind: 'p', id: v.id, unitId: u.id, v });
+      if (kinds.n) for (const v of u.vocab) if (v.deck === 'numbers' && inSets(v)) out.push({ key: cardKey(v.id, 'n'), kind: 'n', id: v.id, unitId: u.id, v });
       if (kinds.g) for (const g of u.grammar) for (const e of g.examples || []) if (e.jp && e.en) out.push({ key: cardKey(e.id, 'g'), kind: 'g', id: e.id, unitId: u.id, e, g });
       if (kinds.d) for (const d of u.dialogues) for (const l of d.lines || []) if (l.jp && l.en) out.push({ key: cardKey(l.id, 'd'), kind: 'd', id: l.id, unitId: u.id, l, d });
     }
