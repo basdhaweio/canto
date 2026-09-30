@@ -7,6 +7,7 @@ A personal study app for the Cantonese tutoring course (Dr. Candise Lin). Everyt
 ## What it does
 
 - **Flashcards** with spaced repetition (SM-2). Scope by unit, section, or card type (word→meaning, meaning→word, grammar examples, dialogue lines). Modes: daily review (due + new), due only, new only, cram.
+- **Quiz** where the app grades you: multiple choice or typed Jyutping, particles as fill-the-gap in course sentences. Wrong resets the word, a near miss (tones off) or slow answer counts as Hard, a quick right answer as Good/Easy; misses are counted per word and listed as Trouble words.
 - **Dialogues** with read / run-through (English hidden) / role-play (your lines hidden) modes. Tap any word for its meaning and a quick quiz that feeds the schedule.
 - **Grammar** notes per unit with every example from the slides; hide a column to test yourself, or drill the examples as cards.
 - **Exercises** unit by unit, with answers where they follow from the slides (confidence marked), self-marking, saved answers.

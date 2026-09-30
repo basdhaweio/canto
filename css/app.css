@@ -232,3 +232,21 @@ label.field > span { display: block; font-size: 0.8rem; color: var(--muted); mar
 .fc .exs .ejp { color: var(--accent); font-size: 1rem; margin-top: 0; }
 .fc .exs .ezh { font-size: 1rem; line-height: 1.4; }
 .fc .exs .een { color: var(--muted); }
+
+/* ---------- Quiz ---------- */
+.fc.quiz { cursor: default; min-height: 220px; }
+.fc .qzh { font-family: var(--zh); font-size: 2.6rem; line-height: 1.2; }
+.fc .qjp { font-size: 1.25rem; color: var(--accent); margin-top: 6px; }
+.fc .qen { font-size: 1.4rem; }
+.fc .qsent { font-size: 1.2rem; color: var(--accent); line-height: 1.5; }
+.fc .qsentzh { font-size: 1.3rem; margin-top: 4px; }
+.qopts { display: grid; gap: 8px; margin-top: 14px; }
+.qopt { display: flex; align-items: center; gap: 10px; width: 100%; text-align: left; padding: 12px 14px; border-radius: 12px; border: 1px solid var(--border2); background: var(--bg2); cursor: pointer; font-size: 1.02rem; }
+.qopt:hover:not(:disabled) { border-color: var(--accent); }
+.qopt:disabled { cursor: default; opacity: 0.75; }
+.qopt.ok { border-color: var(--green); background: var(--green-dim); opacity: 1; }
+.qopt.bad { border-color: var(--red); background: var(--red-dim); opacity: 1; }
+.qopt .qn { font-size: 0.75rem; color: var(--muted2); border: 1px solid var(--border2); border-radius: 6px; padding: 0 6px; }
+.qanswer { margin-top: 8px; }
+.qanswer .zh { font-size: 1.3rem; }
+input.qtype { font-size: 1.05rem; }

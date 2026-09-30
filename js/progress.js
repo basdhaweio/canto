@@ -52,6 +52,7 @@ Canto.progress = (() => {
     cards: {},        // cardKey -> srs card
     reviews: {},      // YYYY-MM-DD -> count of grades given
     exercises: {},    // itemId -> { answer, result, done, ts }
+    quiz: {},         // cardKey -> { r: right, w: wrong, c: close (tones off), last }
     notes: {},        // id -> text
     sessions: { current: 1, completed: {} },
     starred: {},      // vocabId -> true
@@ -135,6 +136,10 @@ Canto.progress = (() => {
     for (const [k, x] of Object.entries(incoming.exercises || {})) if (!d.exercises[k] || (x.ts || 0) > (d.exercises[k].ts || 0)) d.exercises[k] = x;
     Object.assign(d.notes, incoming.notes || {});
     Object.assign(d.starred, incoming.starred || {});
+    for (const [k, q] of Object.entries(incoming.quiz || {})) {
+      const cur = d.quiz[k];
+      if (!cur || (q.last || '') > (cur.last || '')) d.quiz[k] = q;
+    }
     if (incoming.sessions) { d.sessions.current = Math.max(d.sessions.current, incoming.sessions.current || 1); Object.assign(d.sessions.completed, incoming.sessions.completed || {}); }
     saveNow();
   }

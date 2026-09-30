@@ -29,6 +29,7 @@
         case 'study': el = seg[1] === 'session' ? Canto.views.session() : Canto.views.study(query); break;
         case 'review': el = Canto.views.review(); nav = 'study'; break;
         case 'q': el = Canto.views.cardQuiz(seg[1]); nav = 'study'; break;
+        case 'quiz': el = seg[1] === 'run' ? Canto.views.quizRun() : Canto.views.quiz(query); nav = 'quiz'; break;
         case 'dictionary': el = Canto.views.dictionary(query); break;
         case 'sessions': el = Canto.views.sessions(); break;
         case 'settings': el = Canto.views.settings(); break;
@@ -102,6 +103,7 @@
       h('a', { href: '#/dictionary' }, h('b', { text: 'Dictionary' }), h('small', { text: `${D.allVocab().length} words` })),
       h('a', { href: '#/dictionary?starred=1' }, h('b', { text: 'Starred words' }), h('small', { text: `${Object.keys(P.load().starred).length} starred` })),
       h('a', { href: '#/study?kinds=p&mode=mixed&units=all' }, h('b', { text: 'Particles & endings' }), h('small', { text: `${D.allVocab().filter((v) => v.deck === 'particles').length} cards · maa3, ne1, zo2, gan2…` })),
+      h('a', { href: '#/quiz' }, h('b', { text: 'Quiz' }), h('small', { text: (() => { const t = Canto.quizStats.trouble(99).length; return t ? `${t} trouble word${t === 1 ? '' : 's'}` : 'graded for you'; })() })),
       h('a', { href: '#/study?kinds=n&mode=mixed&units=all' }, h('b', { text: 'Numbers' }), h('small', { text: `${D.allVocab().filter((v) => v.deck === 'numbers').length} cards · 0–100` })),
       h('a', { href: '#/study?kinds=g&mode=mixed&units=all' }, h('b', { text: 'Grammar drill' }), h('small', { text: 'example sentences' }))));
 
