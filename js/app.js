@@ -28,6 +28,7 @@
         case 'exercise': el = Canto.views.exercise(seg[1]); nav = 'units'; break;
         case 'study': el = seg[1] === 'session' ? Canto.views.session() : Canto.views.study(query); break;
         case 'review': el = Canto.views.review(); nav = 'study'; break;
+        case 'q': el = Canto.views.cardQuiz(seg[1]); nav = 'study'; break;
         case 'dictionary': el = Canto.views.dictionary(query); break;
         case 'sessions': el = Canto.views.sessions(); break;
         case 'settings': el = Canto.views.settings(); break;

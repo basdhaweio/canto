@@ -123,6 +123,12 @@ def main():
     for e in errors:
         print("ERROR", e)
     print(f"\n{len(errors)} errors, {len(warnings)} warnings")
+    import subprocess
+    chk = subprocess.run([sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), "build_widget.py"), "--check"],
+                         capture_output=True, text=True)
+    if chk.returncode:
+        print("ERROR", chk.stdout.strip())
+        errors.append("widget decks stale")
     sys.exit(1 if errors else 0)
 
 

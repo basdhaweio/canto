@@ -280,6 +280,55 @@
     return sh;
   };
 
+  // One card, opened from the home-screen widget's Grade button (#/q/<cardKey>).
+  Canto.views.cardQuiz = (rawKey) => {
+    const key = decodeURIComponent(rawKey || '');
+    const [id, kind] = key.split(':');
+    const v = D.byId.vocab[id];
+    const card = v ? P.cardFor(v) : null;
+    if (!card || (card.kind !== kind && !(kind === 'r' && card.kind === 'f'))) {
+      return h('div', { class: 'empty' }, 'That card isn\'t in your flashcards any more. ', h('a', { href: '#/review', text: 'Go to daily review' }), '.');
+    }
+    if (kind === 'r') { card.kind = 'r'; card.key = key; }
+    const wrap = h('div', { class: 'fc-wrap' });
+    wrap.append(h('div', { class: 'fc-top' }, h('a', { href: '#/', class: 'btn sm ghost', text: '✕' }), h('span', { text: 'From your widget' })));
+    const { front, back } = faces(card);
+    const u = D.unit(card.unitId);
+    const fc = h('div', { class: 'fc' }, h('span', { class: 'kind', text: KIND_LABEL[card.kind] }), h('span', { class: 'unitref', text: u ? 'Unit ' + u.number : '' }), front, h('div', { class: 'hint', text: 'tap or press space to flip' }));
+    const after = h('div');
+    const grades = h('div', { class: 'fc-grades' });
+    const flipBtn = h('button', { class: 'btn block fc-flip', text: 'Show answer' });
+    let flipped = false;
+    const flip = () => {
+      if (flipped) return; flipped = true;
+      fc.append(back); fc.querySelector('.hint').remove(); flipBtn.remove();
+      const prev = S.preview(P.card(card.key), today());
+      [['Again', prev[0]], ['Hard', prev[1]], ['Good', prev[2]], ['Easy', prev[3]]].forEach(([label, sub], g) =>
+        grades.append(h('button', { class: 'g' + g, onClick: () => grade(g, sub) }, label, h('small', { text: sub + ' · ' + (g + 1) }))));
+    };
+    const grade = (g, sub) => {
+      P.grade(card.key, g);
+      grades.remove();
+      updateDuePill();
+      const due = P.dueCount(P.buildCards({ unitIds: null, kinds: P.settings().cardKinds })).due;
+      after.append(h('div', { class: 'card center mt' },
+        h('div', { text: g ? `Saved. Next review in ${sub}.` : 'Saved. It will come back today.' }),
+        h('div', { class: 'btngroup mt', style: { justifyContent: 'center' } },
+          due ? h('a', { class: 'btn primary', href: '#/review', text: `Review ${due} due` }) : null,
+          h('a', { class: 'btn', href: '#/', text: 'Home' }))));
+    };
+    fc.addEventListener('click', flip); flipBtn.addEventListener('click', flip);
+    wrap.append(fc, flipBtn, grades, after);
+    wrap._keys = (e) => {
+      if (e.target && e.target.matches && e.target.matches('input, textarea, select')) return;
+      if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); flip(); }
+      else if (/^[1-4]$/.test(e.key) && flipped && grades.isConnected) grades.children[+e.key - 1].click();
+    };
+    document.addEventListener('keydown', wrap._keys);
+    wrap._cleanup = () => document.removeEventListener('keydown', wrap._keys);
+    return wrap;
+  };
+
   Canto.views.quickQuiz = (v, kind = 'f') => {
     const card = { key: P.cardKey(v.id, kind), kind, id: v.id, unitId: v.unitId, v };
     const { front, back } = faces(card);

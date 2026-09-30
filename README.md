@@ -12,6 +12,7 @@ A personal study app for the Cantonese tutoring course (Dr. Candise Lin). Everyt
 - **Exercises** unit by unit, with answers where they follow from the slides (confidence marked), self-marking, saved answers.
 - **Dictionary** across every unit (characters, Jyutping with or without tones, English), starred words.
 - **Sessions** — the syllabus, homework episode questions with saved answers, "next session" prep on the home screen.
+- **Home-screen widget** (KWGT on Android): flip cards, next card, and a Grade button that opens the card in the app. Setup in [docs/WIDGET.md](docs/WIDGET.md). Long-press the app icon for Review / Particles / Numbers / Dictionary shortcuts.
 - Works offline once loaded (service worker); progress lives in the browser, with export/import to move between devices.
 
 ## Layout
@@ -22,7 +23,8 @@ data/index.json           list of units
 data/units/unit-N.json    transcribed course content (see docs/CONTENT-SCHEMA.md)
 data/syllabus.json        session plan + homework questions
 tools/extract_pdf.py      PDF -> page images + text dump
-tools/validate.py         checks every unit file
+tools/validate.py         checks every unit file (and that widget decks are current)
+tools/build_widget.py     builds widget/*.json decks for the home-screen widget
 docs/INGEST.md            how to add a new unit from a PDF
 docs/ROADMAP.md           what's planned next (notifications, AI, sync)
 ```

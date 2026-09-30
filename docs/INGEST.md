@@ -28,10 +28,16 @@ python tools/validate.py
 
 Fix anything it prints (duplicate ids, odd Jyutping, missing fields).
 
+Then rebuild the home-screen widget decks (validate fails until you do):
+
+```bash
+python tools/build_widget.py
+```
+
 ## 4. Publish
 
 ```bash
-git add data && git commit -m "content: unit 9" && git push
+git add data widget && git commit -m "content: unit 9" && git push
 ```
 
 GitHub Pages redeploys in about a minute. The app fetches data network-first, so a reload picks it up; the installed app gets it on next launch.
