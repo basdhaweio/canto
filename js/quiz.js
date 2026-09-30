@@ -17,8 +17,7 @@
     ['all', 'Everything', 'Any card in scope, shuffled (still updates the schedule)'],
     ['practice', 'Practice', 'Any card in scope; nothing is scheduled, answers still counted'],
   ];
-  // How the app grades a correct answer: fast = Easy (only for cards you've seen before), slow = Hard.
-  const SPEED = { mc: { fast: 3500, slow: 10000 }, type: { fast: 7000, slow: 20000 } };
+  // Grading ignores time on purpose: the quiz is often left open while doing something else.
   const GRADE = ['Again', 'Hard', 'Good', 'Easy'];
 
   // ---------- Stats ----------
@@ -69,12 +68,9 @@
     if (vs.some((v) => strip(v) === strip(typed))) return 'close';
     return 'wrong';
   }
-  function autoGrade(result, ms, style, prev) {
+  function autoGrade(result) {
     if (result === 'wrong') return 0;
     if (result === 'close') return 1;
-    const t = SPEED[style];
-    if (ms > t.slow) return 1;
-    if (ms <= t.fast && prev && prev.reps > 0) return 3;
     return 2;
   }
   Canto.quizCheck = { checkTyped, autoGrade, variants };
@@ -179,7 +175,7 @@
     };
     const wrap = h('div', { class: 'fc-wrap' });
     wrap.append(h('div', { class: 'pagehead' }, h('h1', { text: 'Quiz' }),
-      h('div', { class: 'sub', text: 'The app checks each answer and grades it for you: wrong resets the word, a near miss or a slow answer counts as Hard, a quick right answer as Good or Easy.' })));
+      h('div', { class: 'sub', text: 'The app checks each answer and grades it for you: right = Good, a near miss (tones off) = Hard, wrong = the word resets and comes back. How long you take is not counted. Tap "I guessed" if you got lucky.' })));
 
     const unitChips = h('div', { class: 'chips' });
     const setChips = h('div', { class: 'chips' });
@@ -281,21 +277,19 @@
       const card = z.queue[z.i];
       const q = makeQuestion(card, z.style);
       const u = D.unit(card.unitId);
-      const started = performance.now();
       const box = h('div', { class: 'fc quiz' }, h('span', { class: 'kind', text: q.ask }), h('span', { class: 'unitref', text: u ? `Unit ${u.number}` + (card.v.section && /^Set /.test(card.v.section) ? ' · ' + card.v.section : '') : '' }), ...q.prompt);
       host.append(box);
       const feedback = h('div');
       let done = false;
       const finish = (result, chosenEl) => {
         if (done) return; done = true;
-        const ms = performance.now() - started;
         const prev = P.card(card.key);
         const before = prev ? Object.assign({}, prev) : null;
         const firstTime = !z.requeued.has(card.key);
         // A retry after a miss in this quiz tops out at Good, so the word comes back tomorrow.
-        let g = firstTime ? autoGrade(result, ms, q.style, prev) : Math.min(2, autoGrade(result, ms, q.style, prev));
+        let g = autoGrade(result);
         record(card.key, result);
-        if (firstTime) { z.results.push({ card, result, ms }); if (result === 'right') z.firstTry++; }
+        if (firstTime) { z.results.push({ card, result }); if (result === 'right') z.firstTry++; }
         let applied = false;
         const apply = (grade) => {
           if (z.practice) return;
@@ -307,11 +301,10 @@
           z.requeued.add(card.key);
           z.queue.splice(Math.min(z.queue.length, z.i + 4), 0, card);
         } else z.answered++;
-        const secs = (ms / 1000).toFixed(1) + 's';
         const verdict = result === 'right' ? '✓ Right' : result === 'close' ? '≈ Close — check the tones' : '✗ Not quite';
         const color = result === 'right' ? 'var(--green)' : result === 'close' ? 'var(--amber)' : 'var(--red)';
         const gradeLine = h('span', { class: 'small muted' });
-        const setGradeLine = () => { gradeLine.textContent = z.practice ? `${secs} · practice, not scheduled` : `${secs} → ${GRADE[g]}` + (g ? ` · next in ${P.card(card.key).interval}d` : ' · back later today'); };
+        const setGradeLine = () => { gradeLine.textContent = z.practice ? 'practice, not scheduled' : `${GRADE[g]}` + (g ? ` · next in ${P.card(card.key).interval}d` : ' · back later today'); };
         setGradeLine();
         const answer = h('div', { class: 'qanswer' },
           card.v.zh ? h('span', { class: 'zh', text: card.v.zh + '  ' }) : null, jp(card.v.jp), h('div', { class: 'small', text: card.v.en }),
