@@ -67,6 +67,8 @@
       });
       if (st.mode !== 'read') {
         const all = (d.lines || []).every((l) => st.revealed.has(l.id));
+        // Working through every line in run-through or role-play counts as practising the dialogue (once a day).
+        if (all && st.revealed.size && Canto.game.onDialoguePractised(d.id)) { toast(`💬 Dialogue practised  +${Canto.game.XP.dialogue} XP`); setTimeout(() => Canto.game.afterChange(), 0); }
         linesEl.append(h('div', { class: 'btngroup mt' },
           h('button', { class: 'btn sm', text: all ? 'Hide all again' : 'Reveal next', onClick: () => { if (all) { st.revealed.clear(); } else { const next = (d.lines || []).find((l) => !st.revealed.has(l.id) && (st.mode === 'run' || (st.speaker && l.speaker === st.speaker))); if (next) st.revealed.add(next.id); else (d.lines || []).forEach((l) => st.revealed.add(l.id)); } render(); } }),
           h('button', { class: 'btn sm ghost', text: 'Reveal all', onClick: () => { (d.lines || []).forEach((l) => st.revealed.add(l.id)); render(); } })));

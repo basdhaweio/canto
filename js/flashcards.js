@@ -170,7 +170,7 @@
   // ---------- Session ----------
   Canto.session = null;
   Canto.startSession = (queue, { title = 'Study', affectSchedule = true } = {}) => {
-    Canto.session = { queue: [...queue], i: 0, done: 0, title, affectSchedule, grades: [0, 0, 0, 0], total: queue.length, again: 0 };
+    Canto.session = { queue: [...queue], i: 0, done: 0, title, affectSchedule, grades: [0, 0, 0, 0], total: queue.length, again: 0, xp0: Canto.game.compute().total };
     location.hash = '#/study/session';
   };
 
@@ -240,6 +240,10 @@
           h('a', { class: 'btn', href: '#/', text: 'Home' }))));
       counter.textContent = `${s.total} / ${s.total}`; bar.firstChild.style.width = '100%';
       Canto.session = null;
+      const gained = Canto.game.compute().total - (s.xp0 || 0);
+      const head = cardHost.querySelector('.card.center h2');
+      if (gained > 0 && head) head.after(h('div', { class: 'xp-gain', text: `+${gained.toLocaleString()} XP` }));
+      Canto.game.afterChange();
     }
     renderCard();
     wrap._keys = (e) => {
@@ -308,6 +312,7 @@
     };
     const grade = (g, sub) => {
       P.grade(card.key, g);
+      Canto.game.afterChange();
       grades.remove();
       updateDuePill();
       const due = P.dueCount(P.buildCards({ unitIds: null, kinds: P.settings().cardKinds })).due;
@@ -339,7 +344,7 @@
       if (flipped) return; flipped = true;
       fc.append(back); fc.querySelector('.hint').remove();
       const prev = S.preview(P.card(card.key), today());
-      [['Again', prev[0]], ['Hard', prev[1]], ['Good', prev[2]], ['Easy', prev[3]]].forEach(([label, sub], g) => grades.append(h('button', { class: 'g' + g, onClick: () => { P.grade(card.key, g); toast(g ? `Next review in ${sub}` : 'Will come back today'); sh.close(); updateDuePill(); } }, label, h('small', { text: sub }))));
+      [['Again', prev[0]], ['Hard', prev[1]], ['Good', prev[2]], ['Easy', prev[3]]].forEach(([label, sub], g) => grades.append(h('button', { class: 'g' + g, onClick: () => { P.grade(card.key, g); toast(g ? `Next review in ${sub}` : 'Will come back today'); sh.close(); updateDuePill(); Canto.game.afterChange(); } }, label, h('small', { text: sub }))));
     });
     const sh = sheet(h('div', null, fc, grades));
   };

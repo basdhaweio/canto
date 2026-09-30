@@ -32,6 +32,7 @@
         case 'quiz': el = seg[1] === 'run' ? Canto.views.quizRun() : Canto.views.quiz(query); nav = 'quiz'; break;
         case 'dictionary': el = Canto.views.dictionary(query); break;
         case 'sessions': el = Canto.views.sessions(); break;
+        case 'journey': el = Canto.views.journey(); break;
         case 'settings': el = Canto.views.settings(); break;
         default: el = h('div', { class: 'empty', text: 'Page not found.' });
       }
@@ -45,6 +46,7 @@
     document.querySelectorAll('[data-nav]').forEach((a) => a.classList.toggle('active', a.dataset.nav === nav));
     window.scrollTo(0, 0);
     Canto.updateDuePill();
+    Canto.game.afterChange();
   }
 
   Canto.updateDuePill = () => {
@@ -63,6 +65,7 @@
     const c = P.dueCount(cards);
     const streak = P.streak();
     const todayN = P.reviewedToday();
+    const GC = Canto.game.compute();
     const wrap = h('div');
     const hour = new Date().getHours();
     const greet = hour < 12 ? '早晨' : hour < 18 ? '午安' : '晚上好';
@@ -73,12 +76,9 @@
       h('div', { class: 'btngroup mt' },
         c.due ? h('a', { class: 'btn primary', href: '#/review', text: `Review ${c.due} due` }) : c.fresh ? h('a', { class: 'btn primary', href: '#/review', text: `Learn ${Math.min(c.fresh, P.settings().newPerDay)} new` }) : null,
         h('a', { class: 'btn', href: '#/study', text: 'Custom session' })),
-      h('div', { class: 'grid mt', style: { gridTemplateColumns: 'repeat(4, 1fr)' } },
-        h('div', { class: 'stat' }, h('b', { text: String(streak) }), h('span', { text: streak === 1 ? 'day streak' : 'day streak' })),
-        h('div', { class: 'stat' }, h('b', { text: String(todayN) }), h('span', { text: 'reviews today' })),
-        h('div', { class: 'stat' }, h('b', { text: String(c.learned) }), h('span', { text: 'cards learned' })),
-        h('div', { class: 'stat' }, h('b', { text: String(c.fresh) }), h('span', { text: 'unseen' }))));
+      h('div', { class: 'mt' }, Canto.views.levelStrip(GC)));
     wrap.append(hero);
+    wrap.append(h('div', { class: 'mt' }, Canto.views.questsCard(GC)));
 
     // Next session
     const syl = D.state.syllabus;
@@ -228,7 +228,7 @@
             h('button', { class: 'btn sm ' + (done ? '' : 'ghost'), text: done ? 'Undo done' : 'Mark done', onClick: () => {
               const p = P.load();
               if (done) { delete p.sessions.completed[s.n]; P.save(); render(); return; }
-              p.sessions.completed[s.n] = true;
+              p.sessions.completed[s.n] = Canto.ui.today();
               if (isCur) { const when = nextSessionDate(syl); setNext(s.n + 1, Canto.ui.addDays(when.date, 7)); }
               else if (s.n >= p.sessions.current) setNext(s.n + 1, undefined);
               P.save(); render();
@@ -273,6 +273,7 @@
     wrap.append(h('div', { class: 'card' }, h('h2', { text: 'Study' }),
       h('label', { class: 'field' }, h('span', { text: 'Theme' }), themeSel),
       h('label', { class: 'field' }, h('span', { text: 'New cards per day (daily review)' }), newPerDay),
+      goalsField(),
       h('label', { class: 'toggle mb' }, jpFront, ' Show Jyutping on the front of character cards'),
       h('div', { class: 'field' }, h('span', { class: 'small muted', text: 'Card types counted in daily review and the due badge' }), kinds)));
 
@@ -306,6 +307,14 @@
         h('li', { text: 'Cross-device sync without manual export.' }))));
     return wrap;
   };
+
+  // Daily quest targets (Journey).
+  function goalsField() {
+    const g = Canto.game.goals();
+    const inp = (k) => { const i = h('input', { type: 'number', min: 1, max: 500, value: g[k], style: { width: '80px' } }); i.addEventListener('change', () => { const cur = Object.assign({}, P.settings().goals || {}); cur[k] = Math.max(1, +i.value || Canto.game.DEFAULT_GOALS[k]); P.setSetting('goals', cur); Canto.game.chrome(); }); return i; };
+    return h('div', { class: 'field' }, h('span', { class: 'small muted', text: 'Daily quests (Journey)' }),
+      h('div', { class: 'row' }, h('span', { class: 'small', text: 'Review' }), inp('reviews'), h('span', { class: 'small', text: 'cards · learn' }), inp('learn'), h('span', { class: 'small', text: 'new · answer' }), inp('quiz'), h('span', { class: 'small', text: 'quiz questions' })));
+  }
 
   function downloadText(name, text) {
     const blob = new Blob([text], { type: 'application/json' });

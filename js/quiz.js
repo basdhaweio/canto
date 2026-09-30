@@ -251,7 +251,7 @@
   Canto.quiz = null;
   function startQuiz(queue, { style = 'mix', practice = false, title = 'Quiz' } = {}) {
     if (!queue.length) { toast('Nothing to quiz'); return; }
-    Canto.quiz = { queue: [...queue], i: 0, style, practice, title, total: queue.length, answered: 0, firstTry: 0, results: [], requeued: new Set() };
+    Canto.quiz = { queue: [...queue], i: 0, style, practice, title, total: queue.length, answered: 0, firstTry: 0, results: [], requeued: new Set(), xp0: Canto.game.compute().total };
     // Already on the quiz page (e.g. 'Retry the missed')? The hash won't change, so redraw explicitly.
     if (location.hash === '#/quiz/run') window.dispatchEvent(new HashChangeEvent('hashchange'));
     else location.hash = '#/quiz/run';
@@ -289,6 +289,7 @@
         // A retry after a miss in this quiz tops out at Good, so the word comes back tomorrow.
         let g = autoGrade(result);
         record(card.key, result);
+        Canto.game.onQuizAnswer(result, q.style === 'type' && result === 'right');
         if (firstTime) { z.results.push({ card, result }); if (result === 'right') z.firstTry++; }
         let applied = false;
         const apply = (grade) => {
@@ -362,7 +363,13 @@
         h('a', { class: 'btn', href: '#/quiz', text: 'New quiz' }),
         h('a', { class: 'btn ghost', href: '#/', text: 'Home' })));
       counter.textContent = `${z.total} / ${z.total}`; bar.firstChild.style.width = '100%';
+      let best = 0, run = 0;
+      for (const x of z.results) { run = x.result === 'right' ? run + 1 : 0; best = Math.max(best, run); }
+      Canto.game.onQuizRun({ n, first: z.firstTry, best, units: [...new Set(z.results.map((x) => x.card.unitId))].sort(), practice: !!z.practice });
       Canto.quiz = null;
+      const gained = Canto.game.compute().total - (z.xp0 || 0);
+      if (gained > 0) box.querySelector('h2').after(h('div', { class: 'xp-gain', text: `+${gained.toLocaleString()} XP` }));
+      Canto.game.afterChange();
       onKey = null;
     }
 

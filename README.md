@@ -8,6 +8,7 @@ A personal study app for the Cantonese tutoring course (Dr. Candise Lin). Everyt
 
 - **Flashcards** with spaced repetition (SM-2). Scope by unit, section, or card type (word→meaning, meaning→word, grammar examples, dialogue lines). Modes: daily review (due + new), due only, new only, cram.
 - **Quiz** where the app grades you: multiple choice or typed Jyutping, particles as fill-the-gap in course sentences. Right = Good, near miss (tones off) or 'I guessed' = Hard, wrong = Again; time taken is ignored; misses are counted per word and listed as Trouble words.
+- **Journey** (gamified like Forge): XP and levels with Cantonese titles, a streak with freezes, daily and weekly quests, an epic quest per unit, six stats, 34 achievements, an activity heatmap and celebrations. Rules in [docs/GAME.md](docs/GAME.md).
 - **Dialogues** with read / run-through (English hidden) / role-play (your lines hidden) modes. Tap any word for its meaning and a quick quiz that feeds the schedule.
 - **Grammar** notes per unit with every example from the slides; hide a column to test yourself, or drill the examples as cards.
 - **Exercises** unit by unit, with answers where they follow from the slides (confidence marked), self-marking, saved answers.
@@ -27,6 +28,7 @@ tools/extract_pdf.py      PDF -> page images + text dump
 tools/validate.py         checks every unit file (and that widget decks are current)
 tools/build_widget.py     builds widget/*.json decks for the home-screen widget
 docs/INGEST.md            how to add a new unit from a PDF
+docs/GAME.md              XP, levels, streak, quests, achievements
 docs/ROADMAP.md           what's planned next (notifications, AI, sync)
 ```
 

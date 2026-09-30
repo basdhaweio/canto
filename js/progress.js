@@ -53,6 +53,10 @@ Canto.progress = (() => {
     reviews: {},      // YYYY-MM-DD -> count of grades given
     exercises: {},    // itemId -> { answer, result, done, ts }
     quiz: {},         // cardKey -> { r: right, w: wrong, c: close (tones off), last }
+    activity: {},     // date -> { g: {kind: n graded}, learned, q: {r, w, c}, tone, clear }  (game log)
+    quizRuns: [],     // finished quizzes: { date, n, first, best, units, practice }
+    dlg: {},          // dialogueId -> [dates practised]
+    seen: {},         // what the game has already celebrated
     notes: {},        // id -> text
     sessions: { current: 1, completed: {} },
     starred: {},      // vocabId -> true
@@ -89,9 +93,11 @@ Canto.progress = (() => {
   function setCard(key, c) { load().cards[key] = c; save(); }
   function grade(key, g) {
     const today = Canto.ui.today();
-    const c = Canto.srs.schedule(card(key), g, today);
+    const before = card(key);
+    const c = Canto.srs.schedule(before, g, today);
     load().cards[key] = c;
     data.reviews[today] = (data.reviews[today] || 0) + 1;
+    if (Canto.game) Canto.game.onGrade(key, !before || !before.reps);
     save();
     return c;
   }
@@ -111,7 +117,11 @@ Canto.progress = (() => {
   function exercise(itemId) { return load().exercises[itemId] || null; }
   function setExercise(itemId, patch) {
     const d = load();
-    d.exercises[itemId] = Object.assign({ answer: '', result: null, done: false }, d.exercises[itemId] || {}, patch, { ts: Date.now() });
+    const prev = d.exercises[itemId] || {};
+    const next = Object.assign({ answer: '', result: null, done: false }, prev, patch, { ts: Date.now() });
+    if (next.done && !prev.done) next.doneAt = Canto.ui.today();   // the game counts the day it was finished
+    if (!next.done) delete next.doneAt;
+    d.exercises[itemId] = next;
     save();
   }
   function note(id) { return load().notes[id] || ''; }
@@ -136,6 +146,17 @@ Canto.progress = (() => {
     for (const [k, x] of Object.entries(incoming.exercises || {})) if (!d.exercises[k] || (x.ts || 0) > (d.exercises[k].ts || 0)) d.exercises[k] = x;
     Object.assign(d.notes, incoming.notes || {});
     Object.assign(d.starred, incoming.starred || {});
+    for (const [date, a] of Object.entries(incoming.activity || {})) {
+      const cur = d.activity[date];
+      if (!cur) { d.activity[date] = a; continue; }
+      for (const [k, n] of Object.entries(a.g || {})) cur.g[k] = Math.max(cur.g[k] || 0, n);
+      for (const k of ['r', 'w', 'c']) cur.q[k] = Math.max(cur.q[k] || 0, (a.q || {})[k] || 0);
+      cur.learned = Math.max(cur.learned || 0, a.learned || 0); cur.tone = Math.max(cur.tone || 0, a.tone || 0); cur.clear = cur.clear || a.clear;
+    }
+    const runKeys = new Set(d.quizRuns.map((r) => JSON.stringify(r)));
+    for (const r of incoming.quizRuns || []) if (!runKeys.has(JSON.stringify(r))) d.quizRuns.push(r);
+    for (const [id, list] of Object.entries(incoming.dlg || {})) d.dlg[id] = [...new Set([...(d.dlg[id] || []), ...list])].sort();
+    for (const k of ['ach', 'steps', 'days', 'weeks', 'q']) if (incoming.seen && incoming.seen[k]) d.seen[k] = Object.assign({}, incoming.seen[k], d.seen[k] || {});
     for (const [k, q] of Object.entries(incoming.quiz || {})) {
       const cur = d.quiz[k];
       if (!cur || (q.last || '') > (cur.last || '')) d.quiz[k] = q;
