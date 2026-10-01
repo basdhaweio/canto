@@ -4,6 +4,8 @@ A personal study app for the Cantonese tutoring course (Dr. Candise Lin). Everyt
 
 **Live:** https://basdhaweio.github.io/canto/
 
+**Android app:** https://github.com/basdhaweio/canto/releases/download/android-latest/canto.apk — the live site in a native shell, with a home-screen flashcard widget (flip, skip, grade; grades saved when the app next opens) and long-press shortcuts. See [android/README.md](android/README.md).
+
 ## What it does
 
 - **Flashcards** with spaced repetition (SM-2). Scope by unit, section, or card type (word→meaning, meaning→word, grammar examples, dialogue lines). Modes: daily review (due + new), due only, new only, cram.
@@ -26,7 +28,9 @@ data/units/unit-N.json    transcribed course content (see docs/CONTENT-SCHEMA.md
 data/syllabus.json        session plan + homework questions
 tools/extract_pdf.py      PDF -> page images + text dump
 tools/validate.py         checks every unit file (and that widget decks are current)
-tools/build_widget.py     builds widget/*.json decks for the home-screen widget
+tools/build_widget.py     builds widget/*.json decks for the KWGT widget (docs/WIDGET.md)
+android/                  the Android app (Kotlin WebView shell + native widget); CI builds the APK
+js/native.js              the page's side of the Android bridge
 docs/INGEST.md            how to add a new unit from a PDF
 docs/GAME.md              XP, levels, streak, quests, achievements
 docs/ROADMAP.md           what's planned next (notifications, AI, sync)

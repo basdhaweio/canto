@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="canto_bg">#0F1318</color>
+    <color name="widget_bg">#F2161C24</color>
+    <color name="widget_card">#1F2731</color>
+    <color name="widget_text">#E6EBF2</color>
+    <color name="widget_muted">#8A9BB0</color>
+    <color name="widget_btn">#29333F</color>
+    <color name="widget_track">#1F2731</color>
+    <color name="widget_accent">#C8974A</color>
+    <color name="widget_red">#FC8181</color>
+    <color name="widget_amber">#F6AD55</color>
+    <color name="widget_green">#48BB78</color>
+</resources>

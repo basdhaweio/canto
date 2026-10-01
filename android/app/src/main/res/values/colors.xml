@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Canto's palette (css/app.css, light theme); night values in values-night -->
+    <color name="canto_bg">#F6F4EF</color>
+    <color name="canto_icon_bg">#0F1318</color>
+    <color name="widget_bg">#F2FFFFFF</color>
+    <color name="widget_card">#F0ECE4</color>
+    <color name="widget_text">#1C2129</color>
+    <color name="widget_muted">#5B6B7F</color>
+    <color name="widget_btn">#E6E0D4</color>
+    <color name="widget_track">#E6E0D4</color>
+    <color name="widget_accent">#A3742C</color>
+    <color name="widget_red">#C53030</color>
+    <color name="widget_amber">#C05621</color>
+    <color name="widget_green">#2F855A</color>
+</resources>

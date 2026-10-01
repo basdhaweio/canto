@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- RemoteViews layout: only LinearLayout / TextView / ProgressBar. Colours come from values/colors.xml and
+     values-night/colors.xml so the widget follows the system theme. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/widget_bg"
+    android:paddingStart="12dp"
+    android:paddingEnd="12dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="8dp">
+
+    <!-- streak, level and XP: opens Canto -->
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/streak"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/widget_accent"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:text="@string/placeholder_streak" />
+
+            <TextView
+                android:id="@+id/level"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:textColor="@color/widget_muted"
+                android:textSize="12sp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:text="" />
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/xp_bar"
+            style="@style/WidgetBar"
+            android:layout_marginTop="4dp"
+            android:progressTint="@color/widget_accent" />
+    </LinearLayout>
+
+    <!-- the card: tap to flip -->
+    <LinearLayout
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="6dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/widget_card"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp">
+
+        <TextView
+            android:id="@+id/tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/widget_muted"
+            android:textSize="10sp"
+            android:maxLines="1"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/front1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/widget_text"
+            android:textSize="24sp"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:text="@string/placeholder_front" />
+
+        <TextView
+            android:id="@+id/front2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/widget_accent"
+            android:textSize="14sp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="@string/placeholder_front2" />
+
+        <TextView
+            android:id="@+id/back1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:textColor="@color/widget_text"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:visibility="gone"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/back2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/widget_muted"
+            android:textSize="11sp"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:visibility="gone"
+            android:text="" />
+    </LinearLayout>
+
+    <!-- before flipping -->
+    <LinearLayout
+        android:id="@+id/row_front"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView android:id="@+id/btn_show" style="@style/WidgetButton" android:layout_weight="2" android:layout_marginEnd="5dp" android:text="@string/btn_show" />
+        <TextView android:id="@+id/btn_skip" style="@style/WidgetButton" android:text="@string/btn_skip" />
+    </LinearLayout>
+
+    <!-- after flipping -->
+    <LinearLayout
+        android:id="@+id/row_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView android:id="@+id/btn_again" style="@style/WidgetButton" android:layout_marginEnd="5dp" android:textColor="@color/widget_red" android:text="@string/btn_again" />
+        <TextView android:id="@+id/btn_hard" style="@style/WidgetButton" android:layout_marginEnd="5dp" android:textColor="@color/widget_amber" android:text="@string/btn_hard" />
+        <TextView android:id="@+id/btn_good" style="@style/WidgetButton" android:textColor="@color/widget_green" android:text="@string/btn_good" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:textSize="10sp"
+        android:textColor="@color/widget_muted"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:text="@string/placeholder_status" />
+</LinearLayout>

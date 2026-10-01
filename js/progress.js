@@ -91,13 +91,13 @@ Canto.progress = (() => {
 
   function card(key) { return load().cards[key]; }
   function setCard(key, c) { load().cards[key] = c; save(); }
-  function grade(key, g) {
-    const today = Canto.ui.today();
+  function grade(key, g) { return gradeAt(key, g, Canto.ui.today()); }
+  function gradeAt(key, g, today) {
     const before = card(key);
     const c = Canto.srs.schedule(before, g, today);
     load().cards[key] = c;
     data.reviews[today] = (data.reviews[today] || 0) + 1;
-    if (Canto.game) Canto.game.onGrade(key, !before || !before.reps);
+    if (Canto.game) Canto.game.onGrade(key, !before || !before.reps, today);
     save();
     return c;
   }
@@ -231,5 +231,5 @@ Canto.progress = (() => {
     return { total: cards.length, seen, mature };
   }
 
-  return { load, save, saveNow, card, setCard, grade, resetCard, streak, reviewedToday, exercise, setExercise, note, setNote, star, toggleStar, settings, setSetting, exportJSON, importJSON, reset, migrate, cardKey, cardFor, buildCards, dueCount, unitStats };
+  return { load, save, saveNow, card, setCard, grade, gradeAt, resetCard, streak, reviewedToday, exercise, setExercise, note, setNote, star, toggleStar, settings, setSetting, exportJSON, importJSON, reset, migrate, cardKey, cardFor, buildCards, dueCount, unitStats };
 })();

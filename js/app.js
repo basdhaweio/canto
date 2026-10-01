@@ -47,6 +47,7 @@
     window.scrollTo(0, 0);
     Canto.updateDuePill();
     Canto.game.afterChange();
+    Canto.native.push();
   }
 
   Canto.updateDuePill = () => {
@@ -78,6 +79,14 @@
         h('a', { class: 'btn', href: '#/study', text: 'Custom session' })),
       h('div', { class: 'mt' }, Canto.views.levelStrip(GC)));
     wrap.append(hero);
+    // In the Android app with nothing studied yet: offer to bring progress over from the browser version.
+    if (Canto.native.on() && !Object.keys(P.load().cards).length && !P.load().movedPrompt) {
+      const fileIn = h('input', { type: 'file', accept: '.json,application/json', hidden: true });
+      fileIn.addEventListener('change', async () => { const f = fileIn.files[0]; if (!f) return; try { P.importJSON(await f.text(), { merge: true }); P.load().movedPrompt = true; P.saveNow(); toast('Progress imported — welcome back'); render(); } catch (e) { toast('That file isn\u2019t a Canto progress file: ' + e.message, 4000); } });
+      wrap.append(h('div', { class: 'card mt' }, h('h2', { text: 'Studied in the browser before?' }),
+        h('p', { class: 'small muted', text: 'The app keeps its own copy of your progress. In Chrome, open Canto → Settings → Export progress, then import that file here.' }),
+        h('div', { class: 'btngroup mt' }, h('button', { class: 'btn primary', text: 'Import progress file', onClick: () => fileIn.click() }), h('button', { class: 'btn ghost', text: 'Start fresh', onClick: () => { P.load().movedPrompt = true; P.save(); render(); } }), fileIn)));
+    }
     wrap.append(h('div', { class: 'mt' }, Canto.views.questsCard(GC)));
 
     // Next session
@@ -287,7 +296,7 @@
     wrap.append(h('div', { class: 'card mt' }, h('h2', { text: 'Your progress' }),
       h('p', { class: 'small muted', text: `Stored only in this browser (${cardsN} cards scheduled, ${Object.keys(P.load().exercises).length} exercise answers, ${Object.keys(P.load().notes).length} notes). Export to move it to another device or keep a backup; importing merges by most-recent.` }),
       h('div', { class: 'btngroup mt' },
-        h('button', { class: 'btn', text: 'Export progress', onClick: () => downloadText('canto-progress-' + Canto.ui.today() + '.json', P.exportJSON()) }),
+        h('button', { class: 'btn', text: 'Export progress', onClick: () => { const name = 'canto-progress-' + Canto.ui.today() + '.json', text = P.exportJSON(); if (!Canto.native.saveFile(name, text)) downloadText(name, text); } }),
         h('button', { class: 'btn', text: 'Import (merge)', onClick: () => fileIn.click() }),
         h('button', { class: 'btn danger', text: 'Reset everything', onClick: async () => { if (await Canto.ui.confirmDlg('Delete all progress, answers and notes on this device?', { ok: 'Delete', danger: true })) { P.reset(); toast('Progress cleared'); render(); } } }),
         fileIn)));
@@ -327,6 +336,7 @@
     const t = P.settings().theme;
     const dark = t === 'dark' || (t === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches);
     document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+    Canto.native.theme(dark);
     const meta = document.querySelector('meta[name=theme-color]');
     if (meta) meta.content = dark ? '#0f1318' : '#f6f4ef';
   }
@@ -344,6 +354,7 @@
       return;
     }
     P.migrate();
+    Canto.native.pull();   // grades made on the Android widget while the app was closed
     window.addEventListener('hashchange', render);
     render();
     if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {

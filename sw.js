@@ -1,8 +1,8 @@
 /* Canto service worker: app shell cached, content JSON network-first. */
-const VERSION = 'canto-v25';
+const VERSION = 'canto-v26';
 const SHELL = [
   './', './index.html', './manifest.json', './css/app.css',
-  './js/ui.js', './js/data.js', './js/progress.js', './js/game.js', './js/journey.js', './js/unit.js', './js/flashcards.js', './js/quiz.js',
+  './js/ui.js', './js/data.js', './js/progress.js', './js/game.js', './js/journey.js', './js/native.js', './js/unit.js', './js/flashcards.js', './js/quiz.js',
   './js/dialogue.js', './js/grammar.js', './js/exercises.js', './js/app.js',
   './icons/icon-192.png', './icons/icon-512.png'
 ];

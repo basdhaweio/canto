@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Canto</string>
+    <string name="widget_label">Canto flashcards</string>
+    <string name="widget_description">Your due Cantonese cards on the home screen: tap to flip, then grade. Grades are saved the next time Canto opens.</string>
+    <string name="btn_show">Show answer</string>
+    <string name="btn_skip">Skip ›</string>
+    <string name="btn_again">Again</string>
+    <string name="btn_hard">Hard</string>
+    <string name="btn_good">Good</string>
+    <string name="placeholder_streak">粵 Canto</string>
+    <string name="placeholder_front">早晨</string>
+    <string name="placeholder_front2">zou2 san4</string>
+    <string name="placeholder_status">tap to open Canto</string>
+    <string name="shortcut_review">Review</string>
+    <string name="shortcut_review_long">Review due cards</string>
+    <string name="shortcut_quiz">Quiz</string>
+    <string name="shortcut_quiz_long">Start a quiz</string>
+    <string name="shortcut_particles">Particles</string>
+    <string name="shortcut_particles_long">Particles &amp; endings</string>
+    <string name="shortcut_dictionary">Dictionary</string>
+    <string name="shortcut_dictionary_long">Look up a word</string>
+</resources>

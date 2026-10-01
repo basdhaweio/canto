@@ -35,11 +35,11 @@ Canto.game = (() => {
     p.activity = p.activity || {};
     return p.activity[date] || (p.activity[date] = { g: {}, learned: 0, q: { r: 0, w: 0, c: 0 }, tone: 0, clear: false });
   }
-  function onGrade(key, wasNew) {
-    const d = day(today()), kind = key.split(':')[1] || 'f';
+  function onGrade(key, wasNew, date) {
+    const t = today(), d = day(date || t), kind = key.split(':')[1] || 'f';
     d.g[kind] = (d.g[kind] || 0) + 1;
     if (wasNew) d.learned++;
-    if (!d.clear) {
+    if (!d.clear && (date || t) === t) {
       const C = P().dueCount(P().buildCards({ unitIds: null, kinds: P().settings().cardKinds }));
       if (C.due === 0) d.clear = true;
     }

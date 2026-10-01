@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Long-press the Canto icon. Each opens the app on a page URL. -->
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="review"
+        android:enabled="true"
+        android:icon="@drawable/ic_sc_review"
+        android:shortcutShortLabel="@string/shortcut_review"
+        android:shortcutLongLabel="@string/shortcut_review_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="io.basdhaweio.canto"
+            android:targetClass="io.basdhaweio.canto.MainActivity"
+            android:data="https://basdhaweio.github.io/canto/#/review" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="quiz"
+        android:enabled="true"
+        android:icon="@drawable/ic_sc_quiz"
+        android:shortcutShortLabel="@string/shortcut_quiz"
+        android:shortcutLongLabel="@string/shortcut_quiz_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="io.basdhaweio.canto"
+            android:targetClass="io.basdhaweio.canto.MainActivity"
+            android:data="https://basdhaweio.github.io/canto/#/quiz" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="particles"
+        android:enabled="true"
+        android:icon="@drawable/ic_sc_particles"
+        android:shortcutShortLabel="@string/shortcut_particles"
+        android:shortcutLongLabel="@string/shortcut_particles_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="io.basdhaweio.canto"
+            android:targetClass="io.basdhaweio.canto.MainActivity"
+            android:data="https://basdhaweio.github.io/canto/#/study?kinds=p&amp;mode=mixed&amp;units=all&amp;go=1" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="dictionary"
+        android:enabled="true"
+        android:icon="@drawable/ic_sc_dictionary"
+        android:shortcutShortLabel="@string/shortcut_dictionary"
+        android:shortcutLongLabel="@string/shortcut_dictionary_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="io.basdhaweio.canto"
+            android:targetClass="io.basdhaweio.canto.MainActivity"
+            android:data="https://basdhaweio.github.io/canto/#/dictionary" />
+    </shortcut>
+</shortcuts>

@@ -1,5 +1,7 @@
 # Home-screen flashcard widget (KWGT)
 
+> With the Canto **Android app** installed, use its built-in widget instead (long-press the home screen → Widgets → Canto). It grades into your schedule directly. This KWGT version is for using Canto in the browser.
+
 A KWGT widget that shows one Canto card at a time. Tap the card to flip it, tap **Next** for another card, tap **Grade** to open that exact card in the Canto app and grade it into your schedule. Same approach as the library widget: the site publishes small JSON files and the widget reads them. Nothing on the phone talks back to GitHub.
 
 ## What the site publishes
