@@ -5,7 +5,7 @@
 
   const KIND_LABEL = { f: 'Word → meaning', r: 'Meaning → word', p: 'Particles & endings', n: 'Numbers', g: 'Grammar examples', d: 'Dialogue lines' };
   const KINDS = ['f', 'r', 'p', 'n', 'g', 'd'];
-  const MODES = [['mixed', 'Due + new', 'Cards due today first, then new cards up to your daily limit'], ['due', 'Due only', 'Just what the schedule says'], ['new', 'New only', 'Cards you have never seen'], ['cram', 'Cram', 'Everything in scope, shuffled']];
+  const MODES = [['mixed', 'Due + new', 'Cards due today first, then new cards up to your daily limit'], ['due', 'Due only', 'Just what the schedule says'], ['new', 'New only', 'Cards you have never seen'], ['cram', 'Cram', 'Everything in scope, shuffled'], ['set', 'Whole set', 'Every card in the chosen units and sets, seen or new, no daily limit']];
 
   // ---------- Setup ----------
   Canto.views.study = (query = {}) => {
@@ -72,7 +72,8 @@
       startBtn.textContent = n ? `Start · ${n} cards` : 'Nothing to study with this scope';
     }
     startBtn.addEventListener('click', () => {
-      P.load().lastStudy = { unitIds: state.unitIds, kinds: state.kinds, sections: state.sections, mode: state.mode, limit: state.limit }; P.save();
+      // Remember the custom setup, but not one-tap sessions from a unit's buttons.
+      if (!query.unit) { P.load().lastStudy = { unitIds: state.unitIds, kinds: state.kinds, sections: state.sections, mode: state.mode, limit: state.limit }; P.save(); }
       const cards = P.buildCards({ unitIds: state.unitIds, sections: state.sections, kinds: state.kinds });
       Canto.startSession(buildQueue(cards, state), { title: sessionTitle(state) });
     });
@@ -84,6 +85,8 @@
 
   function sessionTitle(state) {
     const us = state.unitIds.length === D.units().length ? 'All units' : state.unitIds.map((id) => 'U' + (D.unit(id) || {}).number).join(' ');
+    // A unit's Study Set button: name the set itself, e.g. "Unit 8 · Set 2".
+    if (state.mode === 'set' && state.unitIds.length === 1) return `Unit ${(D.unit(state.unitIds[0]) || {}).number} · ${state.sections.length ? state.sections.join(' + ') : 'all sets'}`;
     return `${MODES.find((m) => m[0] === state.mode)[1]} · ${us}`;
   }
 
@@ -96,7 +99,7 @@
   }
   function plannedCount(cards, state) {
     const { due, fresh } = split(cards);
-    if (state.mode === 'cram') return cards.length;
+    if (state.mode === 'cram' || state.mode === 'set') return cards.length;
     if (state.mode === 'due') return due.length;
     if (state.mode === 'new') return Math.min(fresh.length, state.limit);
     return due.length + Math.min(fresh.length, state.limit);
@@ -115,6 +118,8 @@
   function buildQueue(cards, state) {
     const { due, fresh } = split(cards);
     if (state.mode === 'cram') return shuffle([...cards]);
+    // Whole set: everything in scope, word cards before reverse cards (so one never gives the other away), shuffled.
+    if (state.mode === 'set') return orderNew([...cards]);
     if (state.mode === 'due') return due;
     const news = orderNew(fresh).slice(0, state.limit);
     if (state.mode === 'new') return news;
