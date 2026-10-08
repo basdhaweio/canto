@@ -115,7 +115,9 @@ class MainActivity : ComponentActivity() {
                 WindowInsetsCompat.Type.systemBars() or WindowInsetsCompat.Type.displayCutout() or WindowInsetsCompat.Type.ime()
             )
             view.setPadding(bars.left, bars.top, bars.right, bars.bottom)
-            insets
+            // Consumed here: passed on, the WebView would also report them as CSS safe-area insets and the page's
+            // bottom menu would pad for the navigation bar a second time.
+            WindowInsetsCompat.CONSUMED
         }
         applyBars(systemDark())
 
