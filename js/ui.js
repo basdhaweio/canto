@@ -94,5 +94,8 @@ Canto.ui = (() => {
   }
   function shuffle(a) { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
 
-  return { h, append, esc, toast, sheet, confirmDlg, chip, pill, jp, today, addDays, shuffle };
+  // Bring buttons that just appeared below the fold into view (html's scroll-padding keeps them clear of the bottom menu).
+  function reveal(el) { requestAnimationFrame(() => el && el.isConnected && el.scrollIntoView({ block: 'nearest', behavior: 'smooth' })); }
+
+  return { h, append, esc, toast, sheet, confirmDlg, chip, pill, jp, today, addDays, shuffle, reveal };
 })();

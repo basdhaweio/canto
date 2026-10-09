@@ -316,7 +316,8 @@
         if (chosenEl) chosenEl.classList.add(result === 'right' ? 'ok' : 'bad');
         host.querySelectorAll('.qopt').forEach((b) => { b.disabled = true; if (b._v === card.v) b.classList.add('ok'); });
         const inp = host.querySelector('input.qtype'); if (inp) inp.disabled = true;
-        setTimeout(() => nextBtn.focus(), 0);
+        setTimeout(() => nextBtn.focus({ preventScroll: true }), 0);
+        Canto.ui.reveal(nextBtn);
       };
       if (q.style === 'mc') {
         const opts = h('div', { class: 'qopts' });

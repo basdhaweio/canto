@@ -210,6 +210,7 @@
         const labels = [['Again', prev[0]], ['Hard', prev[1]], ['Good', prev[2]], ['Easy', prev[3]]];
         labels.forEach(([label, sub], g) => grades.append(h('button', { class: 'g' + g, onClick: () => grade(g) }, label, h('small', { text: sub + ' · ' + (g + 1) }))));
         cardHost.append(grades);
+        Canto.ui.reveal(grades);
       };
       fc.addEventListener('click', flip); flipBtn.addEventListener('click', flip);
       cardHost.append(fc, flipBtn);
@@ -314,6 +315,7 @@
       const prev = S.preview(P.card(card.key), today());
       [['Again', prev[0]], ['Hard', prev[1]], ['Good', prev[2]], ['Easy', prev[3]]].forEach(([label, sub], g) =>
         grades.append(h('button', { class: 'g' + g, onClick: () => grade(g, sub) }, label, h('small', { text: sub + ' · ' + (g + 1) }))));
+      Canto.ui.reveal(grades);
     };
     const grade = (g, sub) => {
       P.grade(card.key, g);
