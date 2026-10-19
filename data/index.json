@@ -11,7 +11,8 @@
     { "id": "unit-5", "number": 5, "title": "Shops and Markets", "file": "units/unit-5.json" },
     { "id": "unit-6", "number": 6, "title": "Getting Around", "file": "units/unit-6.json" },
     { "id": "unit-7", "number": 7, "title": "Review of Units 1-6", "file": "units/unit-7.json" },
-    { "id": "unit-8", "number": 8, "title": "Weather", "file": "units/unit-8.json" }
+    { "id": "unit-8", "number": 8, "title": "Weather", "file": "units/unit-8.json" },
+    { "id": "unit-9", "number": 9, "title": "Fun and Games", "file": "units/unit-9.json" }
   ],
   "syllabus": "syllabus.json"
 }

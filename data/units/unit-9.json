@@ -1,0 +1,2520 @@
+{
+  "id": "unit-9",
+  "number": 9,
+  "title": "Fun and Games",
+  "sources": [
+    "Unit 9 Fun and Games.pdf",
+    "Unit 9 Practice.pdf"
+  ],
+  "goals": [],
+  "vocab": [
+    {
+      "id": "u9-v001",
+      "zh": "前日",
+      "jp": "cin4 jat6",
+      "en": "The day before yesterday",
+      "section": "Set 1",
+      "pos": "",
+      "notes": ""
+    },
+    {
+      "id": "u9-v002",
+      "zh": "放假",
+      "jp": "fong3 gaa3",
+      "en": "Take days off",
+      "section": "Set 1",
+      "pos": "verb",
+      "notes": "Verb-object expression; can be split, e.g. fong3 saam1 jat6 gaa3"
+    },
+    {
+      "id": "u9-v003",
+      "zh": "打波",
+      "jp": "daa2 bo1",
+      "en": "To play a ball game",
+      "section": "Set 1",
+      "pos": "verb",
+      "notes": ""
+    },
+    {
+      "id": "u9-v004",
+      "zh": "电影",
+      "jp": "din6 jing2",
+      "en": "Movie",
+      "section": "Set 1",
+      "pos": "noun",
+      "notes": "Literally 'electric shadows'"
+    },
+    {
+      "id": "u9-v005",
+      "zh": "出",
+      "jp": "ceot1",
+      "en": "Classifier for films and stage plays",
+      "section": "Set 1",
+      "pos": "classifier",
+      "notes": ""
+    },
+    {
+      "id": "u9-v006",
+      "zh": "离开",
+      "jp": "lei4 hoi1",
+      "en": "To leave",
+      "section": "Set 1",
+      "pos": "verb",
+      "notes": ""
+    },
+    {
+      "id": "u9-v007",
+      "zh": "而且",
+      "jp": "ji4 ce2",
+      "en": "Moreover",
+      "section": "Set 1",
+      "pos": "",
+      "notes": ""
+    },
+    {
+      "id": "u9-v008",
+      "zh": "刺激",
+      "jp": "ci3 gik1",
+      "en": "Exciting",
+      "section": "Set 1",
+      "pos": "adj",
+      "notes": ""
+    },
+    {
+      "id": "u9-v009",
+      "zh": "觉得",
+      "jp": "gok3 dak1",
+      "en": "To feel",
+      "section": "Set 1",
+      "pos": "verb",
+      "notes": ""
+    },
+    {
+      "id": "u9-v010",
+      "zh": "记得",
+      "jp": "gei3 dak1",
+      "en": "To remember",
+      "section": "Set 1",
+      "pos": "verb",
+      "notes": "Choice question: gei3 m4 gei3 dak1 (shortened form of gei3 dak1 m4 gei3 dak1)"
+    },
+    {
+      "id": "u9-v011",
+      "zh": "内容",
+      "jp": "noi6 jung4",
+      "en": "Contents",
+      "section": "Set 1",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u9-v012",
+      "zh": "一啲",
+      "jp": "jat1 di1",
+      "en": "A little bit",
+      "section": "Set 1",
+      "pos": "",
+      "notes": "With dou1 + m4/mou5: not even a little bit"
+    },
+    {
+      "id": "u9-v013",
+      "zh": "男",
+      "jp": "naam4",
+      "en": "Male",
+      "section": "Set 1",
+      "pos": "",
+      "notes": "Printed 'Naam4' on the slide; naam4 pang4 jau5 = boyfriend"
+    },
+    {
+      "id": "u9-v014",
+      "zh": "运动",
+      "jp": "wan6 dung6",
+      "en": "To exercise",
+      "section": "Set 2",
+      "pos": "verb",
+      "notes": ""
+    },
+    {
+      "id": "u9-v015",
+      "zh": "减少",
+      "jp": "gaam2 siu2",
+      "en": "To reduce, cut down",
+      "section": "Set 2",
+      "pos": "verb",
+      "notes": ""
+    },
+    {
+      "id": "u9-v016",
+      "zh": "身体",
+      "jp": "san1 tai2",
+      "en": "The body",
+      "section": "Set 2",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u9-v017",
+      "zh": "里便",
+      "jp": "leoi5 bin6",
+      "en": "Inside",
+      "section": "Set 2",
+      "pos": "",
+      "notes": ""
+    },
+    {
+      "id": "u9-v018",
+      "zh": "多余",
+      "jp": "do1 jyu4",
+      "en": "Surplus",
+      "section": "Set 2",
+      "pos": "adj",
+      "notes": ""
+    },
+    {
+      "id": "u9-v019",
+      "zh": "脂肪",
+      "jp": "zi1 fong1",
+      "en": "(body) fat",
+      "section": "Set 2",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u9-v020",
+      "zh": "对",
+      "jp": "deoi3",
+      "en": "With regard to, towards",
+      "section": "Set 2",
+      "pos": "",
+      "notes": "Basic meaning 'to face'; also a pair (classifier for chopsticks) and, in Guangzhou, correct"
+    },
+    {
+      "id": "u9-v021",
+      "zh": "健康",
+      "jp": "gin6 hong1",
+      "en": "Health",
+      "section": "Set 2",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u9-v022",
+      "zh": "行路",
+      "jp": "haang4 lou6",
+      "en": "To walk",
+      "section": "Set 2",
+      "pos": "verb",
+      "notes": ""
+    },
+    {
+      "id": "u9-v023",
+      "zh": "爬山",
+      "jp": "paa4 saan1",
+      "en": "To climb mountains",
+      "section": "Set 2",
+      "pos": "verb",
+      "notes": ""
+    },
+    {
+      "id": "u9-v024",
+      "zh": "山",
+      "jp": "saan1",
+      "en": "Mountain, hill",
+      "section": "Set 2",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u9-v025",
+      "zh": "几",
+      "jp": "gei2",
+      "en": "Several",
+      "section": "Set 2",
+      "pos": "",
+      "notes": "Also how many? (gei2 go3 jan4 aa3?); with numbers: ji6 sap6 gei2 = twenty-odd"
+    },
+    {
+      "id": "u9-v026",
+      "zh": "岁",
+      "jp": "seoi3",
+      "en": "Year of age",
+      "section": "Set 2",
+      "pos": "noun",
+      "notes": "Takes no classifier; often used without a verb (or with hai6)"
+    },
+    {
+      "id": "u9-v027",
+      "zh": "咁上下",
+      "jp": "gam3 soeng6 haa2",
+      "en": "Approximately, thereabouts",
+      "section": "Set 2",
+      "pos": "",
+      "notes": "Follows what it refers to. The grammar slide spells it gam3 soeng5 haa2 (lit. thus up and down)"
+    },
+    {
+      "id": "u9-v028",
+      "zh": "只要",
+      "jp": "zi2 jiu3",
+      "en": "So long as, provided that",
+      "section": "Set 2",
+      "pos": "",
+      "notes": ""
+    },
+    {
+      "id": "u9-v029",
+      "zh": "成日",
+      "jp": "sing4 jat6",
+      "en": "The whole day, always",
+      "section": "Set 2",
+      "pos": "",
+      "notes": ""
+    },
+    {
+      "id": "u9-v030",
+      "zh": "讲",
+      "jp": "gong2",
+      "en": "To speak, talk, say",
+      "section": "Set 2",
+      "pos": "verb",
+      "notes": "A 'lonely' verb: needs an object, so gong2 je5"
+    },
+    {
+      "id": "u9-v031",
+      "zh": "口部",
+      "jp": "hau2 bou6",
+      "en": "The mouth",
+      "section": "Set 2",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u9-v032",
+      "zh": "肌肉",
+      "jp": "gei1 juk6",
+      "en": "Muscle",
+      "section": "Set 2",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u9-v033",
+      "zh": "双",
+      "jp": "soeng1",
+      "en": "Double",
+      "section": "Set 2",
+      "pos": "adj",
+      "notes": ""
+    },
+    {
+      "id": "u9-v034",
+      "zh": "下巴",
+      "jp": "haa6 paa4",
+      "en": "Chin",
+      "section": "Set 2",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u9-v035",
+      "zh": "打",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "daa2",
+      "en": "To hit",
+      "section": "Grammar",
+      "pos": "verb",
+      "notes": "daa2 bo1 to play a ball game"
+    },
+    {
+      "id": "u9-v036",
+      "zh": "波",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "bo1",
+      "en": "Ball (from the English word ball)",
+      "section": "Grammar",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u9-v037",
+      "zh": "生意",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "saang1 ji3",
+      "en": "Business",
+      "section": "Grammar",
+      "pos": "noun",
+      "notes": "keoi5 zou6 zau2 lau4 ge3 saang1 ji3 He is in the restaurant business"
+    },
+    {
+      "id": "u9-v038",
+      "zh": "睇戏",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "tai2 hei3",
+      "en": "To see a play (now commonly: to go to the pictures)",
+      "section": "Grammar",
+      "pos": "verb",
+      "notes": "Verb-object expression"
+    },
+    {
+      "id": "u9-v039",
+      "zh": "戏",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "hei3",
+      "en": "Play, show; film",
+      "section": "Grammar",
+      "pos": "noun",
+      "notes": "go2 tou3 hei3 that film (Practice sheet)"
+    },
+    {
+      "id": "u9-v040",
+      "zh": "电",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "din6",
+      "en": "Electric (originally borrowed from the word for lightning)",
+      "section": "Grammar",
+      "pos": "",
+      "notes": "From the 'It's electric' box"
+    },
+    {
+      "id": "u9-v041",
+      "zh": "电车",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "din6 ce1",
+      "en": "Tram",
+      "section": "Grammar",
+      "pos": "noun",
+      "notes": "Lit. electric vehicle"
+    },
+    {
+      "id": "u9-v042",
+      "zh": "电话",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "din6 waa2",
+      "en": "Telephone",
+      "section": "Grammar",
+      "pos": "noun",
+      "notes": "Lit. electric speech"
+    },
+    {
+      "id": "u9-v043",
+      "zh": "电视",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "din6 si6",
+      "en": "Television",
+      "section": "Grammar",
+      "pos": "noun",
+      "notes": "Lit. electric vision"
+    },
+    {
+      "id": "u9-v044",
+      "zh": "对",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "deoi3",
+      "en": "To face; correct (Guangzhou usage)",
+      "section": "Grammar",
+      "pos": "verb",
+      "notes": "Also a pair: classifier for chopsticks. deoi3 m4 zyu6 (I face you but can't stand my ground) I'm sorry"
+    },
+    {
+      "id": "u9-v045",
+      "zh": "啱",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "ngaam1",
+      "en": "Correct (Hong Kong usage)",
+      "section": "Grammar",
+      "pos": "adj",
+      "notes": ""
+    },
+    {
+      "id": "u9-v046",
+      "zh": "成…",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "sing4 …",
+      "en": "The whole… (combines with classifiers)",
+      "section": "Grammar",
+      "pos": "",
+      "notes": "sing4 go3 lai5 baai3 the whole week; sing4 jat6 all day long; sing4 nin4 the whole year long"
+    },
+    {
+      "id": "u9-v047",
+      "zh": "唔係",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "m4 hai6",
+      "en": "Is not, it's not",
+      "section": "Grammar",
+      "pos": "",
+      "notes": "Negative of hai6; negates adjectives modified by an adverb (m4 hai6 hou2 leng3). Also written mhai6"
+    },
+    {
+      "id": "u9-v048",
+      "zh": "未",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "mei6",
+      "en": "Not yet",
+      "section": "Grammar",
+      "pos": "",
+      "notes": "Auxiliary: ngo5 dei6 zung6 mei6 bun1 nguk1 We haven't moved house yet"
+    },
+    {
+      "id": "u9-v049",
+      "zh": "…未?",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "… mei6?",
+      "en": "(sentence-final) …yet? Makes a question, typically with zo2 or gwo3",
+      "section": "Grammar",
+      "pos": "particle",
+      "notes": "nei5 zou6 zo2 gung1 fo3 mei6 aa3? Have you done your homework (yet)? nei5 heoi3 gwo3 hoi2 joeng4 gung1 jyun2 mei6 aa3? Have you ever been to Ocean Park?",
+      "fn": "particle"
+    },
+    {
+      "id": "u9-v050",
+      "zh": "清楚",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "cing1 co2",
+      "en": "Clear",
+      "section": "Grammar",
+      "pos": "adj",
+      "notes": "m4 cing1 co2 unclear"
+    },
+    {
+      "id": "u9-v051",
+      "zh": "公平",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "gung1 ping4",
+      "en": "Fair",
+      "section": "Grammar",
+      "pos": "adj",
+      "notes": "m4 gung1 ping4 unfair"
+    },
+    {
+      "id": "u9-v052",
+      "zh": "唔见",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "m4 gin3",
+      "en": "To lose",
+      "section": "Grammar",
+      "pos": "verb",
+      "notes": "From gin3 see"
+    },
+    {
+      "id": "u9-v053",
+      "zh": "唔记得",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "m4 gei3 dak1",
+      "en": "To forget",
+      "section": "Grammar",
+      "pos": "verb",
+      "notes": "From gei3 dak1 remember"
+    },
+    {
+      "id": "u9-v054",
+      "zh": "唔同",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "m4 tung4",
+      "en": "Different",
+      "section": "Grammar",
+      "pos": "adj",
+      "notes": "From tung4 same"
+    },
+    {
+      "id": "u9-v055",
+      "zh": "得闲",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "dak1 haan4",
+      "en": "At leisure, free",
+      "section": "Grammar",
+      "pos": "adj",
+      "notes": ""
+    },
+    {
+      "id": "u9-v056",
+      "zh": "唔得闲",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "m4 dak1 haan4",
+      "en": "Busy",
+      "section": "Grammar",
+      "pos": "adj",
+      "notes": ""
+    },
+    {
+      "id": "u9-v057",
+      "zh": "舒服",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "syu1 fuk6",
+      "en": "Comfortable",
+      "section": "Grammar",
+      "pos": "adj",
+      "notes": ""
+    },
+    {
+      "id": "u9-v058",
+      "zh": "唔舒服",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "m4 syu1 fuk6",
+      "en": "Unwell, sick",
+      "section": "Grammar",
+      "pos": "adj",
+      "notes": ""
+    },
+    {
+      "id": "u9-v059",
+      "zh": "唔好意思",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "m4 hou2 ji3 si1",
+      "en": "Embarrassed",
+      "section": "Grammar",
+      "pos": "adj",
+      "notes": "Inherently negative: does not occur without m4"
+    },
+    {
+      "id": "u9-v060",
+      "zh": "唔忿气",
+      "zh_source": "supplied",
+      "zh_confidence": "medium",
+      "jp": "m4 fan6 hei3",
+      "en": "Discontented",
+      "section": "Grammar",
+      "pos": "adj",
+      "notes": "Inherently negative: does not occur without m4"
+    },
+    {
+      "id": "u9-v061",
+      "zh": "经验",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "ging1 jim6",
+      "en": "Experience",
+      "section": "Grammar",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u9-v062",
+      "zh": "字",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "zi6",
+      "en": "Writing, (written) characters",
+      "section": "Grammar",
+      "pos": "noun",
+      "notes": "di1 zi6 m4 cing1 co2 The writing is not clear"
+    },
+    {
+      "id": "u9-v063",
+      "zh": "返学",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "faan1 hok6",
+      "en": "To go to school",
+      "section": "Grammar",
+      "pos": "verb",
+      "notes": ""
+    },
+    {
+      "id": "u9-v064",
+      "zh": "收",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "sau1",
+      "en": "To accept, receive",
+      "section": "Grammar",
+      "pos": "verb",
+      "notes": ""
+    },
+    {
+      "id": "u9-v065",
+      "zh": "现金",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "jin6 gam1",
+      "en": "Cash",
+      "section": "Grammar",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u9-v066",
+      "zh": "暂时",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "zaam6 si4",
+      "en": "For the moment, so far",
+      "section": "Grammar",
+      "pos": "",
+      "notes": ""
+    },
+    {
+      "id": "u9-v067",
+      "zh": "请",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "ceng2",
+      "en": "To hire",
+      "section": "Grammar",
+      "pos": "verb",
+      "notes": ""
+    },
+    {
+      "id": "u9-v068",
+      "zh": "工人",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "gung1 jan4",
+      "en": "(Domestic) helper",
+      "section": "Grammar",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u9-v069",
+      "zh": "通知",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "tung1 zi1",
+      "en": "To inform",
+      "section": "Grammar",
+      "pos": "verb",
+      "notes": ""
+    },
+    {
+      "id": "u9-v070",
+      "zh": "搬屋",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "bun1 nguk1",
+      "en": "To move house",
+      "section": "Grammar",
+      "pos": "verb",
+      "notes": ""
+    },
+    {
+      "id": "u9-v071",
+      "zh": "老板",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "lou5 baan2",
+      "en": "Boss",
+      "section": "Grammar",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u9-v072",
+      "zh": "消息",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "siu1 sik1",
+      "en": "News",
+      "section": "Grammar",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u9-v073",
+      "zh": "功课",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "gung1 fo3",
+      "en": "Homework",
+      "section": "Grammar",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u9-v074",
+      "zh": "海洋公园",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "hoi2 joeng4 gung1 jyun2",
+      "en": "Ocean Park",
+      "section": "Grammar",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u9-v075",
+      "zh": "熟",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "suk6",
+      "en": "Familiar (with each other)",
+      "section": "Grammar",
+      "pos": "adj",
+      "notes": ""
+    },
+    {
+      "id": "u9-v076",
+      "zh": "提议",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "tai4 ji5",
+      "en": "Proposal",
+      "section": "Grammar",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u9-v077",
+      "zh": "咁样",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "gam2 joeng2",
+      "en": "This, like this (this way)",
+      "section": "Grammar",
+      "pos": "",
+      "notes": "Gam2 joeng2 deoi3 ngo5 taai3 m4 gung1 ping4 This is too unfair to me"
+    },
+    {
+      "id": "u9-v078",
+      "zh": "可能",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "ho2 nang4",
+      "en": "Possible",
+      "section": "Grammar",
+      "pos": "adj",
+      "notes": "m4 hai6 m4 ho2 nang4 ge3 It's not impossible"
+    },
+    {
+      "id": "u9-v079",
+      "zh": "希望",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "hei1 mong6",
+      "en": "Hope",
+      "section": "Grammar",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u9-v080",
+      "zh": "俾钱",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "bei2 cin2",
+      "en": "To pay",
+      "section": "Grammar",
+      "pos": "verb",
+      "notes": ""
+    },
+    {
+      "id": "u9-v081",
+      "zh": "问题",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "man6 tai4",
+      "en": "Problem",
+      "section": "Practice",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u9-v082",
+      "zh": "药",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "joek6",
+      "en": "Medicine",
+      "section": "Practice",
+      "pos": "noun",
+      "notes": "sik6 joek6 to take medicine"
+    },
+    {
+      "id": "u9-v083",
+      "zh": "海鲜",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "hoi2 sin1",
+      "en": "Seafood",
+      "section": "Practice",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u9-v084",
+      "zh": "法文",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "faat3 man2",
+      "en": "French (language)",
+      "section": "Practice",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u9-v085",
+      "zh": "考试题目",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "haau2 si3 tai4 muk6",
+      "en": "Exam questions",
+      "section": "Practice",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u9-v086",
+      "zh": "堂",
+      "zh_source": "supplied",
+      "zh_confidence": "medium",
+      "jp": "tong4",
+      "en": "Lesson, class",
+      "section": "Practice",
+      "pos": "noun",
+      "notes": "gam1 jat6 mou5 tong4 There are no lessons today"
+    },
+    {
+      "id": "u9-v087",
+      "zh": "蛇羹",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "se4 gang1",
+      "en": "Snake soup",
+      "section": "Practice",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u9-v088",
+      "zh": "时间",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "si4 gaan1",
+      "en": "Time",
+      "section": "Practice",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u9-v089",
+      "zh": "信心",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "seon3 sam1",
+      "en": "Confidence",
+      "section": "Practice",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u9-v090",
+      "zh": "道理",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "dou6 lei5",
+      "en": "Reason, sense",
+      "section": "Practice",
+      "pos": "noun",
+      "notes": "mou5 dou6 lei5 unreasonable"
+    },
+    {
+      "id": "u9-v091",
+      "zh": "家姐",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "gaa1 ze1",
+      "en": "Elder sister",
+      "section": "Practice",
+      "pos": "noun",
+      "notes": ""
+    },
+    {
+      "id": "u9-v092",
+      "zh": "人工",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "jan4 gung1",
+      "en": "Wages, salary",
+      "section": "Practice",
+      "pos": "noun",
+      "notes": "gaa1 jan4 gung1 to raise salaries"
+    },
+    {
+      "id": "u9-v093",
+      "zh": "剑桥大学",
+      "zh_source": "supplied",
+      "zh_confidence": "high",
+      "jp": "gim3 kiu4 daai6 hok6",
+      "en": "Cambridge University",
+      "section": "Practice",
+      "pos": "noun",
+      "notes": "From Exercise 4 on the unit slides"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "u9-d1",
+      "title": "Dialogue 1",
+      "setting": "Mr Chan finds out how his colleague Miss Cheung spends her time off",
+      "lines": [
+        {
+          "id": "u9-d1-l01",
+          "speaker": "Mr Chan",
+          "zh": "张小姐，昨日同前日都放假。你有冇去打波呀？",
+          "jp": "zoeng1 siu2 ze2, zok6 jat6 tung4 cin4 jat6 dou1 fong3 gaa3. nei5 jau5 mou5 heoi3 daa2 bo1 aa3?",
+          "en": "Miss Cheung, you take times off for the past two days, did you go play a ball game?"
+        },
+        {
+          "id": "u9-d1-l02",
+          "speaker": "Miss Cheung",
+          "zh": "我唔中意打波嘅。",
+          "jp": "ngo5 m4 zung1 ji3 daa2 bo1 ge3",
+          "en": "I don't like playing ball games"
+        },
+        {
+          "id": "u9-d1-l03",
+          "speaker": "Mr Chan",
+          "zh": "有冇去其他地方玩呢？",
+          "jp": "jau5 mou5 heoi3 kei4 taa1 dei6 fong1 waan2 ne1?",
+          "en": "Did you go to other places?"
+        },
+        {
+          "id": "u9-d1-l04",
+          "speaker": "Miss Cheung",
+          "zh": "我都唔中意离开香港嘅，我只係中意睇电影啫。",
+          "jp": "ngo5 dou1 m4 zung1 ji3 lei4 hoi1 hoeng1 gong2 ge3, ngo5 zi2 hai6 zung1 ji3 tai2 din6 jing2 ze1",
+          "en": "I don't like leaving Hong Kong. I only like watching movies"
+        },
+        {
+          "id": "u9-d1-l05",
+          "speaker": "Mr Chan",
+          "zh": "我知道昨日喺大会堂有一出好有名嘅电影。你有冇去睇呀？",
+          "jp": "ngo5 zi1 dou6 zok6 jat6 hai2 daai6 wui6 tong4 jau5 jat1 ceot1 hou2 jau5 meng2 ge3 din6 jing2. nei5 jau5 mou5 heoi3 tai2 aa3?",
+          "en": "I know yesterday there was a famous movie at the city hall. Did you go watch it?"
+        },
+        {
+          "id": "u9-d1-l06",
+          "speaker": "Miss Cheung",
+          "zh": "有呀！真係好好睇呀。而且仲好刺激添。",
+          "jp": "jau5 aa3! zan1 hai6 hou2 hou2 tai2 aa3. ji4 ce2 zung6 hou2 ci3 gik1 tim1",
+          "en": "Yes! It was really good. And it was also very exciting!"
+        },
+        {
+          "id": "u9-d1-l07",
+          "speaker": "Mr Chan",
+          "zh": "刺激！我唔觉得啵。你记唔记得嗰出电影嘅内容呀？",
+          "jp": "ci3 gik1! ngo5 m4 gok3 dak1 bo3. nei5 gei3 m4 gei3 dak1 go2 ceot1 din6 jing2 ge3 noi6 jung4 aa3?",
+          "en": "Exciting! I don't feel that way. Do you remember the content of the movie?"
+        },
+        {
+          "id": "u9-d1-l08",
+          "speaker": "Miss Cheung",
+          "zh": "对唔住，我一啲都唔记得勒，因为我同男朋友一齐去睇嘅。",
+          "jp": "deoi3 m4 zyu6, ngo5 jat1 di1 dou1 m4 gei3 dak1 laak3, jan1 wai4 ngo5 tung4 naam4 pang4 jau5 jat1 cai4 heoi3 tai2 ge3",
+          "en": "Sorry, I don't remember any bit, because I went to watch it with my boyfriend"
+        }
+      ],
+      "questions": []
+    },
+    {
+      "id": "u9-d2",
+      "title": "Dialogue 2",
+      "setting": "Mr Wong and Mr Cheung discuss keeping fit, but Mr Wong is not sure that the theories apply to his wife!",
+      "lines": [
+        {
+          "id": "u9-d2-l01",
+          "speaker": "Mr Wong",
+          "zh": "张先生，你话时时运动可以减少身体里便多余嘅脂肪，对健康好好，係唔係呀？",
+          "jp": "zoeng1 sin1 saang1, nei5 waa6 si4 si4 wan6 dung6 ho2 ji5 gaam2 siu2 san1 tai2 leoi5 bin6 do1 jyu4 ge3 zi1 fong1, deoi3 gin6 hong1 hou2 hou2, hai6 m4 hai6 aa3?",
+          "en": "Mr Cheung, you said exercise frequently can reduce the surplus fats in the body, it's good for health, is it right?"
+        },
+        {
+          "id": "u9-d2-l02",
+          "speaker": "Mr Cheung",
+          "zh": "係呀！我时时都行路，爬山，同打波。你睇我已经五十几岁勒，仲係好健康，好似四十几岁咁上下。",
+          "jp": "hai6 aa3! ngo5 si4 si4 dou1 haang4 lou6, paa4 saan1, tung4 daa2 bo1. nei5 tai2 ngo5 ji5 ging1 ng5 sap6 gei2 seoi3 laak3, zung6 hai6 hou2 gin6 hong1, hou2 ci5 sei3 sap6 gei2 seoi3 gam3 soeng6 haa2",
+          "en": "Right! I walk, climb mountains, and play balls frequently. I am already 50 something, but I'm still very healthy, I only look like I'm in my 40s"
+        },
+        {
+          "id": "u9-d2-l03",
+          "speaker": "Mr Wong",
+          "zh": "但係我觉得健康对我太太一啲用都冇。",
+          "jp": "daan6 hai6 ngo5 gok3 dak1 gin6 hong1 deoi3 ngo5 taai3 taai3 jat1 di1 jung6 dou1 mou5",
+          "en": "But I think health has no use for my wife"
+        },
+        {
+          "id": "u9-d2-l04",
+          "speaker": "Mr Cheung",
+          "zh": "一定有用嘅。只要你太太时时运动，身体里便一定冇多余脂肪嘅。",
+          "jp": "jat1 ding6 jau5 jung6 ge3. zi2 jiu3 nei5 taai3 taai2 si4 si4 wan6 dung6, san1 tai2 leoi5 bin6 jat1 ding6 mou5 do1 jyu4 zi1 fong1 ge3",
+          "en": "It must have some kind of use. If your wife often exercises, her body should have no surplus fats"
+        },
+        {
+          "id": "u9-d2-l05",
+          "speaker": "Mr Wong",
+          "zh": "我太太成日讲嘢，口部嘅肌肉有好多运动喇。点解佢仲有一个好多脂肪嘅双下巴呢？",
+          "jp": "ngo5 taai3 taai2 sing4 jat6 gong2 je5, hau2 bou6 ge3 gei1 juk6 jau5 hou2 do1 wan6 dung6 laa1. dim2 gaai2 keoi5 zung6 jau5 jat1 go3 hou2 do1 zi1 fong1 ge3 soeng1 haa6 paa4 ne1?",
+          "en": "My wife talks the whole day, she exercises her mouth muscle frequently, how come she still has a double chin with lots of fats?"
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "grammar": [
+    {
+      "id": "u9-g01",
+      "title": "fong3 gaa3 to have a holiday",
+      "summary": "fong3 gaa3 (lit. to release a day off) is a verb-object expression, and such expressions can be split up if the sense allows.",
+      "body": "fong3 gaa3 literally means to release a day off. It is one of a quite a large group of expressions which are made up of a verb and an object and these expressions can all be split up if the sense allows. Here are a couple of examples:",
+      "examples": [
+        {
+          "id": "u9-g01-e01",
+          "jp": "ngo5 ni1 go3 sing1 kei4 fong3 saam1 jat6 gaa3",
+          "zh": "",
+          "en": "I have three days' holiday this week",
+          "lit": ""
+        },
+        {
+          "id": "u9-g01-e02",
+          "jp": "keoi5 zou6 zau2 lau4 ge3 saang1 ji3",
+          "zh": "",
+          "en": "He is in the restaurant business",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "verb-object",
+        "fong3 gaa3"
+      ]
+    },
+    {
+      "id": "u9-g02",
+      "title": "Playing ball",
+      "summary": "bo1 comes from English 'ball' and daa2 means to hit, so daa2 bo1 is the regular way to say to play a ball game; tai2 daa2 bo1 is to watch the game.",
+      "body": "The word bo1 originally came from the English word ball. Daa2 means to hit and daa2 bo1 is the regular way to say to play a ball game. The problem is Which ball game? For a majority of people it means soccer, but if you happen to be a football fan then it means football, or for a basketball fan it means basketball, and then of course there is table tennis, tennis…For the moment, daa2 bo1 is all you need, but you might note the very logical difference between the following:",
+      "examples": [
+        {
+          "id": "u9-g02-e01",
+          "jp": "ngo5 heoi3 daa2 bo1",
+          "zh": "",
+          "en": "I'm going off to play ball",
+          "lit": ""
+        },
+        {
+          "id": "u9-g02-e02",
+          "jp": "ngo5 heoi3 tai2 daa2 bo1",
+          "zh": "",
+          "en": "I'm going off to watch the game",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "verb-object",
+        "daa2 bo1",
+        "bo1"
+      ]
+    },
+    {
+      "id": "u9-g03",
+      "title": "Going to the movies",
+      "summary": "tai2 din6 jing2 is to see a film (a verb plus object expression); tai2 hei3 to see a play is now also commonly used for going to the pictures.",
+      "body": "Tai2 din6 jing2 means to see a film and heoi3 tai2 din6 jing2 is to go to the movies. You will notice that tai2 din6 jing2 is also a verb plus object expression. So another example for this might be:\nThere is another expression tai2 hei3, which means to see a play, but far more people go to the cinema than go to the live theatre and it is now very common to hear someone say ngo5 heoi3 tai2 hei3 when they mean I'm going to the pictures.",
+      "examples": [
+        {
+          "id": "u9-g03-e01",
+          "jp": "Wong4 taai2 soeng2 heoi3 tai2 mei5 gwok3 din6 jing2",
+          "zh": "",
+          "en": "Mrs. Wong wants to go to see an American film",
+          "lit": ""
+        },
+        {
+          "id": "u9-g03-e02",
+          "jp": "ngo5 heoi3 tai2 hei3",
+          "zh": "",
+          "en": "I'm going to the pictures",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "verb-object",
+        "tai2 din6 jing2",
+        "tai2 hei3"
+      ]
+    },
+    {
+      "id": "u9-g04",
+      "title": "Taking shortcuts again",
+      "summary": "Choice questions with a two-syllable verb can be shortened: nei5 gei3 m4 gei3 dak1 for nei5 gei3 dak1 m4 gei3 dak1.",
+      "body": "In Unit 3 we met the sentence nei5 faan1 m4 faan1 heoi3 aa3? and it was explained that this was a common shortened form of nei5 faan1 heoi3 m4 faan1 heoi3 aa3?\nYou can do the same thing with any two-syllable verb and in the dialogue you will have noticed nei5 gei3 m4 gei3 dak1 where Mr Chan might equally well correctly have said nei5 gei3 dak1 m4 gei3 dak1. Here is another example:",
+      "examples": [
+        {
+          "id": "u9-g04-e01",
+          "jp": "nei5 faan1 m4 faan1 heoi3 aa3?",
+          "zh": "",
+          "en": "Are you going back? (shortened form)",
+          "lit": ""
+        },
+        {
+          "id": "u9-g04-e02",
+          "jp": "nei5 faan1 heoi3 m4 faan1 heoi3 aa3?",
+          "zh": "",
+          "en": "Are you going back? (full form)",
+          "lit": ""
+        },
+        {
+          "id": "u9-g04-e03",
+          "jp": "nei5 gei3 m4 gei3 dak1",
+          "zh": "",
+          "en": "Do you remember? (shortened form)",
+          "lit": ""
+        },
+        {
+          "id": "u9-g04-e04",
+          "jp": "nei5 gei3 dak1 m4 gei3 dak1",
+          "zh": "",
+          "en": "Do you remember? (full form)",
+          "lit": ""
+        },
+        {
+          "id": "u9-g04-e05",
+          "jp": "nei5 zung1 m4 zung1 ji3 leon4 deon1 aa3?",
+          "zh": "",
+          "en": "Do you like London?",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "questions",
+        "choice questions",
+        "verb-not-verb"
+      ]
+    },
+    {
+      "id": "u9-g05",
+      "title": "Not even a little bit!",
+      "summary": "jat1 di1 a little bit combined with dou1 and the negatives m4 or mou5 means not even a little bit.",
+      "body": "Jat1 di1 means a little bit and combined with dou1 and the negatives m4 or mou5 it means not even a little bit.\nAlong the same line, you can also say ngo5 dei6 jat1 di1 cin2 dou1 mou5 (can you guess the meaning of this? This is something that lots of Cantonese people say all the time)",
+      "examples": [
+        {
+          "id": "u9-g05-e01",
+          "jp": "ngo5 dei6 jat1 di1 cin2 dou1 mou5",
+          "zh": "",
+          "en": "We haven't got any money at all",
+          "lit": ""
+        },
+        {
+          "id": "u9-g05-e02",
+          "jp": "ngo5 jat1 di1 dou1 m4 gei3 dak1 laak3",
+          "zh": "",
+          "en": "I don't remember any bit (Dialogue 1)",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "negation",
+        "jat1 di1",
+        "dou1",
+        "m4",
+        "mou5"
+      ]
+    },
+    {
+      "id": "u9-g06",
+      "title": "Deoi3 to face",
+      "summary": "deoi3 means to face; from it come towards, regarding / with regard to, a pair (classifier for chopsticks) and, in Guangzhou, correct (Hong Kong uses ngaam1).",
+      "body": "Deoi3 means to face, and from this a number of other meanings and expressions derive. We have already met deoi3 m4 zyu6 (I face you but can't stand my ground) I'm sorry.\nAnd if you face something you are looking towards it, so deoi3 also means towards and regarding, and from that it means with regard to, concerning.\nThings which face each other and match make a pair, and deoi3 means a pair too, so it is the classifier for chopsticks.\nAnd from there an answer which matches a question is also deoi3 correct (or at least it is in Guangzhou, but Hong Kong people tend to use another word for correct – ngaam1).",
+      "examples": [
+        {
+          "id": "u9-g06-e01",
+          "jp": "deoi3 m4 zyu6",
+          "zh": "",
+          "en": "I'm sorry",
+          "lit": "I face you but can't stand my ground"
+        },
+        {
+          "id": "u9-g06-e02",
+          "jp": "gin6 hong1 deoi3 ngo5 taai3 taai3 jat1 di1 jung6 dou1 mou5",
+          "zh": "",
+          "en": "Health has no use for my wife (Dialogue 2)",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "deoi3",
+        "ngaam1",
+        "classifiers"
+      ]
+    },
+    {
+      "id": "u9-g07",
+      "title": "gei2 several",
+      "summary": "gei2 means how many? but also several, often combined with numbers (ji6 sap6 gei2 twenty-odd, gei2 sap6 several tens).",
+      "body": "We met gei2 in the expression gei2 do1? how many? in Unit 5 and gei2 si4? when? in Unit 8. On its own gei2 can also mean how many?, but it has the meaning several as well, and that could be quite confusing.\nSupposing someone were to say to you gei2 go3 jan4, you couldn't be sure whether they were saying how many people? or several people. Obviously the context in which they said it would help a lot, but in practice if it were a question most people would add aa3? on the end and that would of course make it clear.\nIn its several meaning, gei2 gets involved with numbers quite a lot.",
+      "examples": [
+        {
+          "id": "u9-g07-e01",
+          "jp": "gei2 go3 jan4",
+          "zh": "",
+          "en": "How many people? / several people",
+          "lit": ""
+        },
+        {
+          "id": "u9-g07-e02",
+          "jp": "ji6 sap6 gei2 go3 jan4",
+          "zh": "",
+          "en": "More than 20 people (i.e. more than 20 but fewer than 30)",
+          "lit": ""
+        },
+        {
+          "id": "u9-g07-e03",
+          "jp": "sap6 gei2 seoi3 ge3 zung1 gwok3 jan4",
+          "zh": "",
+          "en": "A Chinese in his teens",
+          "lit": ""
+        },
+        {
+          "id": "u9-g07-e04",
+          "jp": "gei2 sap6 go3 jan4",
+          "zh": "",
+          "en": "Dozens of people (several tens of people)",
+          "lit": ""
+        },
+        {
+          "id": "u9-g07-e05",
+          "jp": "gei2 sap6 nin4",
+          "zh": "",
+          "en": "Several decades",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "gei2",
+        "numbers",
+        "questions"
+      ]
+    },
+    {
+      "id": "u9-g08",
+      "title": "seoi3 years of age",
+      "summary": "seoi3 takes no classifier (like jat6 and nin4) and is often used without a verb; if a verb is used it is usually hai6.",
+      "body": "There are two points to be noted about seoi3.\nFirst, it is one of those few words which (like jat6 and nin4) do not need a classifier.\nSecond, it is often used without a verb. If you want to or feel the need to put in a verb, the most commonly used one is hai6 to be. Mr Cheung could have said: ngo5 ji5 ging1 hai6 ng5 sap6 gei2 seoi3 laak3 and it would have meant the same",
+      "examples": [
+        {
+          "id": "u9-g08-e01",
+          "jp": "ngo5 ji5 ging1 ng5 sap6 gei2 seoi3 laak3",
+          "zh": "",
+          "en": "I am already 50 something (Dialogue 2)",
+          "lit": ""
+        },
+        {
+          "id": "u9-g08-e02",
+          "jp": "ngo5 ji5 ging1 hai6 ng5 sap6 gei2 seoi3 laak3",
+          "zh": "",
+          "en": "I am already 50 something (with hai6)",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "seoi3",
+        "age",
+        "classifiers"
+      ]
+    },
+    {
+      "id": "u9-g09",
+      "title": "Approximately",
+      "summary": "gam3 soeng5 haa2 (lit. thus up and down) means approximately and usually follows whatever it refers to.",
+      "body": "Gam3 soeng5 haa2 literally means thus up and down and from that comes to mean approximately.\nIt usually follows whatever it refers to, as it does where you met it in the dialogue: ng5 sap6 gei2 seoi3 gam3 soeng5 haa2",
+      "examples": [
+        {
+          "id": "u9-g09-e01",
+          "jp": "gam3 soeng5 haa2",
+          "zh": "",
+          "en": "Approximately",
+          "lit": "Thus up and down"
+        },
+        {
+          "id": "u9-g09-e02",
+          "jp": "ng5 sap6 gei2 seoi3 gam3 soeng5 haa2",
+          "zh": "",
+          "en": "About fifty-something years old",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "gam3 soeng5 haa2",
+        "approximation",
+        "word order"
+      ]
+    },
+    {
+      "id": "u9-g10",
+      "title": "sing4 the whole",
+      "summary": "sing4- combines with classifiers to make the whole….",
+      "body": "Sing4- combines with classifiers to make the whole…",
+      "examples": [
+        {
+          "id": "u9-g10-e01",
+          "jp": "sing4 go3 lai5 baai3",
+          "zh": "",
+          "en": "The whole week",
+          "lit": ""
+        },
+        {
+          "id": "u9-g10-e02",
+          "jp": "sing4 jat6",
+          "zh": "",
+          "en": "The whole day, all day long",
+          "lit": ""
+        },
+        {
+          "id": "u9-g10-e03",
+          "jp": "sing4 nin4",
+          "zh": "",
+          "en": "The whole year long",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "sing4",
+        "classifiers",
+        "time"
+      ]
+    },
+    {
+      "id": "u9-g11",
+      "title": "Another lonely verb",
+      "summary": "gong2 is a 'lonely' verb that needs an object; je5 things is handy as the supplied object (gong2 je5, sik6 je5, maai5 je5, jam2 je5).",
+      "body": "In Mr Wong's last speech, he says ngo5 taai3 taai2 sing4 jat6 gong2 je5. Je5 means things, as we learned in Unit 8, but here it is merely doing duty as the supplied object for the verb gong2 which is one of those which gets lonely on its own.\nJe5 is quite handy for this purpose: here are a few more examples of it with lonely verbs:",
+      "examples": [
+        {
+          "id": "u9-g11-e01",
+          "jp": "ngo5 taai3 taai2 sing4 jat6 gong2 je5",
+          "zh": "",
+          "en": "My wife talks the whole day (Dialogue 2)",
+          "lit": ""
+        },
+        {
+          "id": "u9-g11-e02",
+          "jp": "nei5 soeng2 m4 soeng2 sik6 je5?",
+          "zh": "",
+          "en": "Do you want to eat?",
+          "lit": ""
+        },
+        {
+          "id": "u9-g11-e03",
+          "jp": "ngo5 taai3 taai2 heoi3 zo2 maai5 je5",
+          "zh": "",
+          "en": "My wife's gone shopping",
+          "lit": ""
+        },
+        {
+          "id": "u9-g11-e04",
+          "jp": "keoi5 sing4 jat6 dou1 jam2 je5",
+          "zh": "",
+          "en": "He drinks all day long",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "lonely verbs",
+        "je5",
+        "verb-object"
+      ]
+    },
+    {
+      "id": "u9-g12",
+      "title": "Negation",
+      "summary": "Cantonese negative words all begin with the nasal m and have low-register tones: m4, mou5, mei6, m4 hai6 and the prefix m-.",
+      "body": "To express negation, Cantonese uses negative words that all begin with the nasal consonant m and have low-register tones:\nm4 not – used with adjectives, verbs referring to the present\nmou5 have not – used with nouns, verbs referring to the past\nmei6 not yet – used with verbs\nm4 hai6 is not – used with sentences\nm- un- – antonyms of adjectives and verbs",
+      "examples": [
+        {
+          "id": "u9-g12-e01",
+          "jp": "m4",
+          "zh": "",
+          "en": "Not (adjectives, verbs referring to the present)",
+          "lit": ""
+        },
+        {
+          "id": "u9-g12-e02",
+          "jp": "mou5",
+          "zh": "",
+          "en": "Have not (nouns, verbs referring to the past)",
+          "lit": ""
+        },
+        {
+          "id": "u9-g12-e03",
+          "jp": "mei6",
+          "zh": "",
+          "en": "Not yet (verbs)",
+          "lit": ""
+        },
+        {
+          "id": "u9-g12-e04",
+          "jp": "m4 hai6",
+          "zh": "",
+          "en": "Is not (sentences)",
+          "lit": ""
+        },
+        {
+          "id": "u9-g12-e05",
+          "jp": "m4",
+          "zh": "",
+          "en": "Un- (as the prefix m-: antonyms of adjectives and verbs)",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "negation",
+        "m4",
+        "mou5",
+        "mei6",
+        "m4 hai6"
+      ]
+    },
+    {
+      "id": "u9-g13",
+      "title": "m4 is used to negate",
+      "summary": "m4 negates most adjectives and verbs referring to the present.",
+      "body": "m4 is used to negate:\n(i) most adjectives\n(ii) verbs referring to the present:",
+      "examples": [
+        {
+          "id": "u9-g13-e01",
+          "jp": "ni1 gin6 saam1 m4 peng4 gaa3",
+          "zh": "",
+          "en": "This shirt is not cheap",
+          "lit": ""
+        },
+        {
+          "id": "u9-g13-e02",
+          "jp": "di1 zi6 m4 cing1 co2",
+          "zh": "",
+          "en": "The writing is not clear",
+          "lit": ""
+        },
+        {
+          "id": "u9-g13-e03",
+          "jp": "ngo5 ging1 jim6 m4 gau3",
+          "zh": "",
+          "en": "My experience is not sufficient",
+          "lit": ""
+        },
+        {
+          "id": "u9-g13-e04",
+          "jp": "ngo5 gam1 jat6 m4 faan1 hok6",
+          "zh": "",
+          "en": "I'm not going to school today",
+          "lit": ""
+        },
+        {
+          "id": "u9-g13-e05",
+          "jp": "keoi5 dei6 m4 sau1 jin6 gam1",
+          "zh": "",
+          "en": "They do not accept cash",
+          "lit": ""
+        },
+        {
+          "id": "u9-g13-e06",
+          "jp": "gung1 si1 zaam6 si4 m4 ceng2 jan4",
+          "zh": "",
+          "en": "The company is not hiring anyone right now",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "negation",
+        "m4"
+      ]
+    },
+    {
+      "id": "u9-g14",
+      "title": "mou5 is the negative form of jau5",
+      "summary": "mou5 (negative of jau5) is used as a main verb (not have) and as an auxiliary, where it is the negative counterpart of zo2.",
+      "body": "Mou5 is the negative form of jau5, used in two main ways:\n(i) as a main verb:\n(ii) as an auxiliary verb:\nUsed in this way serves as the negative counterpart to zo2 as can be seen in pairs like the following:",
+      "examples": [
+        {
+          "id": "u9-g14-e01",
+          "jp": "keoi5 mou5 naam4 pang4 jau5 ge3",
+          "zh": "",
+          "en": "She doesn't have a boyfriend",
+          "lit": ""
+        },
+        {
+          "id": "u9-g14-e02",
+          "jp": "ngo5 dei6 ji4 gaa1 mou5 gung1 jan4",
+          "zh": "",
+          "en": "We don't have a (domestic) helper now",
+          "lit": ""
+        },
+        {
+          "id": "u9-g14-e03",
+          "jp": "ngo5 mou5 leng3 saam1 zeok3",
+          "zh": "",
+          "en": "I have no nice clothes to wear",
+          "lit": ""
+        },
+        {
+          "id": "u9-g14-e04",
+          "jp": "ngo5 gam1 jat6 mou5 gin3 dou2 keoi5 aa3",
+          "zh": "",
+          "en": "I haven't seen her today",
+          "lit": ""
+        },
+        {
+          "id": "u9-g14-e05",
+          "jp": "keoi5 mou5 lai4 hoi1 wui2",
+          "zh": "",
+          "en": "He didn't come to the meeting",
+          "lit": ""
+        },
+        {
+          "id": "u9-g14-e06",
+          "jp": "keoi5 dei6 mou5 tung1 zi1 ngo5 dei6",
+          "zh": "",
+          "en": "They didn't inform us",
+          "lit": ""
+        },
+        {
+          "id": "u9-g14-e07",
+          "jp": "ngo5 kam4 jat6 maai5 zo2 coi3",
+          "zh": "",
+          "en": "I bought vegetables yesterday",
+          "lit": ""
+        },
+        {
+          "id": "u9-g14-e08",
+          "jp": "ngo5 kam4 jat6 mou5 maai5 coi3",
+          "zh": "",
+          "en": "I didn't buy (any) vegetables yesterday",
+          "lit": ""
+        },
+        {
+          "id": "u9-g14-e09",
+          "jp": "gung1 si1 ceng2 zo2 keoi5",
+          "zh": "",
+          "en": "The company has hired him",
+          "lit": ""
+        },
+        {
+          "id": "u9-g14-e10",
+          "jp": "gung1 si1 mou5 ceng2 keoi5",
+          "zh": "",
+          "en": "The company has not hired him",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "negation",
+        "mou5",
+        "jau5",
+        "zo2"
+      ]
+    },
+    {
+      "id": "u9-g15",
+      "title": "mei6 not yet",
+      "summary": "mei6 as an auxiliary means not yet; attached to the end of a statement it makes a special form of question, typically with zo2 or gwo3.",
+      "body": "Mei6 as an auxiliary has the meaning 'not yet'\nAttached to the end of a statement, mei6 makes a special form of question, typically with zo2 or gwo3:",
+      "examples": [
+        {
+          "id": "u9-g15-e01",
+          "jp": "ngo5 dei6 zung6 mei6 bun1 nguk1",
+          "zh": "",
+          "en": "We haven't moved house yet",
+          "lit": ""
+        },
+        {
+          "id": "u9-g15-e02",
+          "jp": "lou5 baan2 zung6 mei6 faan1 lai4",
+          "zh": "",
+          "en": "The boss hasn't come in yet",
+          "lit": ""
+        },
+        {
+          "id": "u9-g15-e03",
+          "jp": "zaam6 si4 mei6 jau5 siu1 sik1",
+          "zh": "",
+          "en": "So far there hasn't been any news",
+          "lit": ""
+        },
+        {
+          "id": "u9-g15-e04",
+          "jp": "nei5 zou6 zo2 gung1 fo3 mei6 aa3?",
+          "zh": "",
+          "en": "Have you done your homework (yet)?",
+          "lit": ""
+        },
+        {
+          "id": "u9-g15-e05",
+          "jp": "nei5 heoi3 gwo3 hoi2 joeng4 gung1 jyun2 mei6 aa3",
+          "zh": "",
+          "en": "Have you ever been to Ocean Park?",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "negation",
+        "mei6",
+        "questions",
+        "zo2",
+        "gwo3"
+      ]
+    },
+    {
+      "id": "u9-g16",
+      "title": "m4 hai6 it's not",
+      "summary": "m4 hai6 (mhai6) it's not is the negative of hai6 to be; it is used to negate adjectives modified by an adverb.",
+      "body": "Mhai6 'it's not' is the negative form of the verb hai6 'to be'. It's used in negating adjectives modified by an adverb:",
+      "examples": [
+        {
+          "id": "u9-g16-e01",
+          "jp": "m4 hai6 hou2 leng3",
+          "zh": "",
+          "en": "Not very pretty",
+          "lit": ""
+        },
+        {
+          "id": "u9-g16-e02",
+          "jp": "m4 hai6 gei2 gung1 ping4",
+          "zh": "",
+          "en": "Not quite fair",
+          "lit": ""
+        },
+        {
+          "id": "u9-g16-e03",
+          "jp": "ngo5 dei6 m4 hai6 gam3 suk6",
+          "zh": "",
+          "en": "We're not that familiar (with each other)",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "negation",
+        "m4 hai6",
+        "hai6",
+        "adverbs"
+      ]
+    },
+    {
+      "id": "u9-g17",
+      "title": "Antonyms formed with negation",
+      "summary": "Adding the prefix m- forms antonyms of many adjectives and some verbs; some carry a related but not simply opposite meaning, and a few words are inherently negative.",
+      "body": "Antonyms of many adjectives (and some verbs) can be formed by adding a prefix m-:\nSome of these negative forms carry a meaning related to that of the underlying verb or adjective but not simply its opposite:\nModified by hou2 or other adverbs:\nA few words are inherently negative, without the prefix m-, they do not occur in an affirmative statement:",
+      "examples": [
+        {
+          "id": "u9-g17-e01",
+          "jp": "hoi1 sam1 —> m4 hoi1 sam1",
+          "zh": "",
+          "en": "Happy —> Unhappy",
+          "lit": ""
+        },
+        {
+          "id": "u9-g17-e02",
+          "jp": "cing1 co2 —> m4 cing1 co2",
+          "zh": "",
+          "en": "Clear —> Unclear",
+          "lit": ""
+        },
+        {
+          "id": "u9-g17-e03",
+          "jp": "gung1 ping4 —> m4 gung1 ping4",
+          "zh": "",
+          "en": "Fair —> Unfair",
+          "lit": ""
+        },
+        {
+          "id": "u9-g17-e04",
+          "jp": "tung4 ji3 —> m4 tung4 ji3",
+          "zh": "",
+          "en": "Agree —> Disagree",
+          "lit": ""
+        },
+        {
+          "id": "u9-g17-e05",
+          "jp": "gin3 —> m4 gin3",
+          "zh": "",
+          "en": "See —> lose",
+          "lit": ""
+        },
+        {
+          "id": "u9-g17-e06",
+          "jp": "gei3 dak1 —> m4 gei3 dak1",
+          "zh": "",
+          "en": "Remember —> forget",
+          "lit": ""
+        },
+        {
+          "id": "u9-g17-e07",
+          "jp": "tung4 —> m4 tung4",
+          "zh": "",
+          "en": "Same —> different",
+          "lit": ""
+        },
+        {
+          "id": "u9-g17-e08",
+          "jp": "dak1 haan4 —> m4 dak1 haan4",
+          "zh": "",
+          "en": "At leisure —> busy",
+          "lit": ""
+        },
+        {
+          "id": "u9-g17-e09",
+          "jp": "syu1 fuk6 —> m4 syu1 fuk6",
+          "zh": "",
+          "en": "Comfortable —> unwell, sick",
+          "lit": ""
+        },
+        {
+          "id": "u9-g17-e10",
+          "jp": "keoi5 hou2 m4 zung1 ji3 ni1 go3 tai4 ji5",
+          "zh": "",
+          "en": "She really dislikes this proposal",
+          "lit": ""
+        },
+        {
+          "id": "u9-g17-e11",
+          "jp": "Gam2 joeng2 deoi3 ngo5 taai3 m4 gung1 ping4",
+          "zh": "",
+          "en": "This is too unfair to me",
+          "lit": ""
+        },
+        {
+          "id": "u9-g17-e12",
+          "jp": "m4 hou2 ji3 si1",
+          "zh": "",
+          "en": "Embarrassed",
+          "lit": ""
+        },
+        {
+          "id": "u9-g17-e13",
+          "jp": "m4 fan6 hei3",
+          "zh": "",
+          "en": "Discontented",
+          "lit": ""
+        },
+        {
+          "id": "u9-g17-e14",
+          "jp": "keoi5 gok3 dak1 hou2 m4 hou2 ji3 si1",
+          "zh": "",
+          "en": "She feels very embarrassed",
+          "lit": ""
+        },
+        {
+          "id": "u9-g17-e15",
+          "jp": "ngo5 gok3 dak1 hou2 m4 fan6 hei3",
+          "zh": "",
+          "en": "I feel very discontented",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "negation",
+        "antonyms",
+        "m4",
+        "prefix"
+      ]
+    },
+    {
+      "id": "u9-g18",
+      "title": "Double negatives",
+      "summary": "Two negatives combine to give a qualified or indirect positive: m4 hai6 denying a negative statement, or negating both an auxiliary and the main verb.",
+      "body": "Combinations of two negative forms are widely used to give a qualified or indirect positive meaning. A typical case is to use m4 hai6 to deny a negative statement:\nAnother case involves negating both the main verb and an auxiliary",
+      "examples": [
+        {
+          "id": "u9-g18-e01",
+          "jp": "ngo5 m4 hai6 m4 seon3 nei5",
+          "zh": "",
+          "en": "It's not that I don't believe you",
+          "lit": ""
+        },
+        {
+          "id": "u9-g18-e02",
+          "jp": "m4 hai6 m4 ho2 nang4 ge3",
+          "zh": "",
+          "en": "It's not impossible",
+          "lit": ""
+        },
+        {
+          "id": "u9-g18-e03",
+          "jp": "ngo5 dei6 m4 hai6 mou5 hei1 mong6",
+          "zh": "",
+          "en": "We're not without hope (i.e. we still have a chance)",
+          "lit": ""
+        },
+        {
+          "id": "u9-g18-e04",
+          "jp": "keoi5 m4 wui5 m4 faan1 lai4",
+          "zh": "",
+          "en": "He won't fail to come back",
+          "lit": ""
+        },
+        {
+          "id": "u9-g18-e05",
+          "jp": "Gam2 joeng2 m4 wui5 m4 gung1 ping4",
+          "zh": "",
+          "en": "That would not be unfair",
+          "lit": ""
+        },
+        {
+          "id": "u9-g18-e06",
+          "jp": "nei5 m4 ho2 ji5 m4 bei2 cin2",
+          "zh": "",
+          "en": "You cannot choose not to pay (i.e. you have to pay)",
+          "lit": ""
+        }
+      ],
+      "tags": [
+        "negation",
+        "double negatives",
+        "m4 hai6"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "u9-e1",
+      "title": "Picture quiz",
+      "source": "Unit 9 Fun and Games.pdf",
+      "instructions": "Give the cartoon a caption. Supply the caption for the market researcher's question. He is asking: Did you feel that this was an exciting film?",
+      "type": "translate",
+      "items": [
+        {
+          "id": "u9-e1-i01",
+          "prompt": "Did you feel that this was an exciting film?",
+          "answer": "nei5 gok3 m4 gok3 dak1 ni1 ceot1 din6 jing2 hou2 ci3 gik1 aa3?",
+          "answer_en": "Did you feel that this film was very exciting?",
+          "hint": "Uses the shortened choice question gok3 m4 gok3 dak1 (Grammar 5) and the classifier ceot1 for films; gok3 dak1 m4 gok3 dak1 is equally correct",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "id": "u9-e2",
+      "title": "Exercise 1",
+      "source": "Unit 9 Fun and Games.pdf",
+      "instructions": "Make meaningful sentences out of the following jumbled elements",
+      "type": "reorder",
+      "items": [
+        {
+          "id": "u9-e2-i01",
+          "prompt": "gam3 soeng6 haa2 / ho4 sin1 saang1 / ng5 sap6 seoi3 / hou2 ci5",
+          "answer": "ho4 sin1 saang1 hou2 ci5 ng5 sap6 seoi3 gam3 soeng6 haa2",
+          "answer_en": "Mr Ho looks about fifty",
+          "hint": "gam3 soeng6 haa2 follows what it refers to",
+          "confidence": "high"
+        },
+        {
+          "id": "u9-e2-i02",
+          "prompt": "hou2 hou2 / si4 si4 / deoi3 / wan6 dung6 / gin6 hong1",
+          "answer": "si4 si4 wan6 dung6 deoi3 gin6 hong1 hou2 hou2",
+          "answer_en": "Exercising often is very good for your health",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u9-e2-i03",
+          "prompt": "ngo5 / daa2 bo1 / zung1 ji3 / ze1 / paa4 saan1 / zi2 hai6 / tung4 jau4 seoi2",
+          "answer": "ngo5 zi2 hai6 zung1 ji3 daa2 bo1, paa4 saan1 tung4 jau4 seoi2 ze1",
+          "answer_en": "I only like playing ball games, climbing mountains and swimming",
+          "hint": "daa2 bo1 and paa4 saan1 can swap places; tung4 jau4 seoi2 stays last before ze1",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "id": "u9-e3",
+      "title": "Exercise 2",
+      "source": "Unit 9 Fun and Games.pdf",
+      "instructions": "Make the connection between each of the words in A and one of the words in B. B: jau4 seoi2 / san1 sin1 / laap6 saap6 tung2 / din6 nyun5 lou4 / baak3 fo3 gung1 si1",
+      "type": "fill",
+      "items": [
+        {
+          "id": "u9-e3-i01",
+          "prompt": "sung3",
+          "answer": "san1 sin1",
+          "answer_en": "Dish of food — fresh",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u9-e3-i02",
+          "prompt": "daai6 gaam2 gaa3",
+          "answer": "baak3 fo3 gung1 si1",
+          "answer_en": "A sale — department store",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u9-e3-i03",
+          "prompt": "laan6",
+          "answer": "laap6 saap6 tung2",
+          "answer_en": "Broken — rubbish bin",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u9-e3-i04",
+          "prompt": "hoi2 taan1",
+          "answer": "jau4 seoi2",
+          "answer_en": "Beach — to swim",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u9-e3-i05",
+          "prompt": "lok6 syut3",
+          "answer": "din6 nyun5 lou4",
+          "answer_en": "To snow — electric heater",
+          "hint": "",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "id": "u9-e4",
+      "title": "Exercise 3",
+      "source": "Unit 9 Fun and Games.pdf",
+      "instructions": "Translate the following remarks by the British Foreign Secretary accurately or there may be a diplomatic incident with the state of Cantonia! (You are the interpreter; translate each FS remark a–f into Cantonese.)",
+      "type": "translate",
+      "items": [
+        {
+          "id": "u9-e4-i01",
+          "prompt": "a. FS: Good morning, Mr Wong.",
+          "answer": "zou2 san4, Wong4 sin1 saang1",
+          "answer_en": "Good morning, Mr Wong",
+          "hint": "Mr Wong replies: 早晨 zou2 san4",
+          "confidence": "high"
+        },
+        {
+          "id": "u9-e4-i02",
+          "prompt": "b. FS: Would you like to have a beer?",
+          "answer": "nei5 soeng2 m4 soeng2 jam2 be1 zau2 aa3?",
+          "answer_en": "Would you like to drink beer?",
+          "hint": "nei5 jiu3 m4 jiu3 jam2 be1 zau2 aa3? also works. Mr Wong replies: 我唔中意饮啤酒 ngo5 m4 zung1 ji3 jam2 be1 zau2 (I don't like drinking beer)",
+          "confidence": "medium"
+        },
+        {
+          "id": "u9-e4-i03",
+          "prompt": "c. FS: Oh, well how about coffee? Or tea?",
+          "answer": "gam2, gaa1 fe1 ne1? caa4 ne1?",
+          "answer_en": "Well then, how about coffee? Tea?",
+          "hint": "Several phrasings possible, e.g. nei5 jam2 m4 jam2 gaa1 fe1 aa3? Mr Wong replies: 咖啡同茶都对身体唔好。我只係饮水啫。gaa1 fe1 tung4 caa4 dou1 deoi3 san1 tai2 m4 hou2. ngo5 zi2 hai6 jam2 seoi2 ze1 (Coffee and tea are both bad for the body. I only drink water)",
+          "confidence": "low"
+        },
+        {
+          "id": "u9-e4-i04",
+          "prompt": "d. FS: I'm sorry, we have no water. My wife told me that the water here is not good to drink. Why don't you have some beer?",
+          "answer": "deoi3 m4 zyu6, ngo5 dei6 mou5 seoi2. ngo5 taai3 taai2 waa6 ngo5 zi1 ni1 dou6 di1 seoi2 m4 hou2 jam2. nei5 jam2 di1 be1 zau2 laa1",
+          "answer_en": "Sorry, we have no water. My wife told me the water here is not good to drink. Have some beer",
+          "hint": "Free translation; check with tutor. Mr Wong replies: 你成日话我要饮啤酒。我已经话你知我唔中意饮。你真係好唔客气。nei5 sing4 jat6 waa6 ngo5 jiu3 jam2 be1 zau2. ngo5 ji5 ging1 waa6 nei5 zi1 ngo5 m4 zung1 ji3 jam2. nei5 zan1 hai6 hou2 m4 haak3 hei3 (You keep telling me to drink beer. I've already told you I don't like drinking it. You are really impolite)",
+          "confidence": "low"
+        },
+        {
+          "id": "u9-e4-i05",
+          "prompt": "e. FS: The beer is very good, it's British beer. Please drink a little.",
+          "answer": "di1 be1 zau2 hou2 hou2, hai6 jing1 gwok3 be1 zau2. ceng2 nei5 jam2 jat1 di1 laa1",
+          "answer_en": "The beer is very good, it's British beer. Please drink a little",
+          "hint": "Free translation; check with tutor. Mr Wong replies: 呢个人真唔客气勒！我走勒！ni1 go3 jan4 zan1 m4 haak3 hei3 laak3! ngo5 zau2 laak3! (This person is really impolite! I'm leaving!)",
+          "confidence": "low"
+        },
+        {
+          "id": "u9-e4-i06",
+          "prompt": "f. FS: Oh, he's gone!",
+          "answer": "keoi5 zau2 zo2 laak3!",
+          "answer_en": "He's gone!",
+          "hint": "",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "id": "u9-e5",
+      "title": "Exercise 4",
+      "source": "Unit 9 Fun and Games.pdf",
+      "instructions": "Pair off the most likely objects in B with their verbs in A (there may be more than one possible pairings). B: je5 / din6 jing2 / tim4 ban2 / cyu4 fong2 / ji1 sang1 / ci3 fo3 / coeng3 go1 / gim3 kiu4 daai6 hok6",
+      "type": "fill",
+      "items": [
+        {
+          "id": "u9-e5-i01",
+          "prompt": "tai2",
+          "answer": "tai2 din6 jing2",
+          "answer_en": "To watch a film",
+          "hint": "Also tai2 ji1 sang1 (to see a doctor)",
+          "confidence": "medium"
+        },
+        {
+          "id": "u9-e5-i02",
+          "prompt": "jiu3",
+          "answer": "jiu3 ci3 fo3",
+          "answer_en": "To want seconds",
+          "hint": "jiu3 (want) can take almost any object: jiu3 tim4 ban2, jiu3 je5",
+          "confidence": "low"
+        },
+        {
+          "id": "u9-e5-i03",
+          "prompt": "gong2",
+          "answer": "gong2 je5",
+          "answer_en": "To talk",
+          "hint": "gong2 is a 'lonely' verb that takes je5 (Grammar 12)",
+          "confidence": "high"
+        },
+        {
+          "id": "u9-e5-i04",
+          "prompt": "caam1 gun1",
+          "answer": "caam1 gun1 gim3 kiu4 daai6 hok6",
+          "answer_en": "To visit Cambridge University",
+          "hint": "Also caam1 gun1 cyu4 fong2 (to look round the kitchen)",
+          "confidence": "medium"
+        },
+        {
+          "id": "u9-e5-i05",
+          "prompt": "sik6",
+          "answer": "sik6 tim4 ban2",
+          "answer_en": "To eat dessert",
+          "hint": "Also sik6 je5 (to eat)",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "id": "u9-e6",
+      "title": "Exercise 5",
+      "source": "Unit 9 Fun and Games.pdf",
+      "instructions": "Answer these questions in Cantonese so all the answers have one word in common (pictures: a man eating at a table, a woman cooking, a woman carrying shopping bags, a man making a speech, three people drinking)",
+      "type": "reply",
+      "items": [
+        {
+          "id": "u9-e6-i01",
+          "prompt": "A. Wong4 saang1 zou6 mat1 je5 aa3?",
+          "answer": "keoi5 sik6 gan2 je5",
+          "answer_en": "He is eating",
+          "hint": "The common word is je5 (Grammar 12: lonely verbs)",
+          "confidence": "medium"
+        },
+        {
+          "id": "u9-e6-i02",
+          "prompt": "B. Wong4 taai2 zou6 mat1 je5 aa3?",
+          "answer": "keoi5 zyu2 gan2 je5",
+          "answer_en": "She is cooking",
+          "hint": "The common word is je5",
+          "confidence": "medium"
+        },
+        {
+          "id": "u9-e6-i03",
+          "prompt": "C. Wong4 siu2 ze2 zou6 mat1 je5 aa3?",
+          "answer": "keoi5 maai5 gan2 je5",
+          "answer_en": "She is shopping",
+          "hint": "The common word is je5",
+          "confidence": "medium"
+        },
+        {
+          "id": "u9-e6-i04",
+          "prompt": "D. Zoeng1 sin1 saang1 zou6 mat1 je5 aa3?",
+          "answer": "keoi5 gong2 gan2 je5",
+          "answer_en": "He is speaking",
+          "hint": "The common word is je5",
+          "confidence": "medium"
+        },
+        {
+          "id": "u9-e6-i05",
+          "prompt": "E. ni1 saam1 go3 jan4 zou6 mat1 je5 aa3?",
+          "answer": "keoi5 dei6 jam2 gan2 je5",
+          "answer_en": "They are drinking",
+          "hint": "The common word is je5",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "id": "u9-e7",
+      "title": "Practice 1",
+      "source": "Unit 9 Practice.pdf",
+      "instructions": "Put these statements in the negative by using mou5 or mhai6",
+      "type": "fill",
+      "items": [
+        {
+          "id": "u9-e7-i01",
+          "prompt": "keoi5 nguk1 kei5 jau5 man6 tai4 (His family has problems)",
+          "answer": "keoi5 nguk1 kei5 mou5 man6 tai4",
+          "answer_en": "His family has no problems",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u9-e7-i02",
+          "prompt": "ngo5 dei6 hou2 gui6 (We're very tired)",
+          "answer": "ngo5 dei6 m4 hai6 hou2 gui6",
+          "answer_en": "We're not very tired",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u9-e7-i03",
+          "prompt": "ngo5 sing1 zo2 zik1 (I got promoted)",
+          "answer": "ngo5 mou5 sing1 zik1",
+          "answer_en": "I didn't get promoted",
+          "hint": "mou5 replaces zo2",
+          "confidence": "high"
+        },
+        {
+          "id": "u9-e7-i04",
+          "prompt": "keoi5 gin6 saam1 hou2 gwai3 (Her dress is very expensive)",
+          "answer": "keoi5 gin6 saam1 m4 hai6 hou2 gwai3",
+          "answer_en": "Her dress is not very expensive",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u9-e7-i05",
+          "prompt": "ngo5 tau4 sin1 sik6 zo2 joek6 (I have taken the medicine just now)",
+          "answer": "ngo5 tau4 sin1 mou5 sik6 joek6",
+          "answer_en": "I didn't take the medicine just now",
+          "hint": "mou5 replaces zo2",
+          "confidence": "high"
+        },
+        {
+          "id": "u9-e7-i06",
+          "prompt": "ji1 sang1 heoi3 zo2 dou6 gaa3 (The doctor has gone on holiday)",
+          "answer": "ji1 sang1 mou5 heoi3 dou6 gaa3",
+          "answer_en": "The doctor hasn't gone on holiday",
+          "hint": "mou5 replaces zo2",
+          "confidence": "high"
+        },
+        {
+          "id": "u9-e7-i07",
+          "prompt": "lou5 baan2 hou2 nau1 (The boss is very angry)",
+          "answer": "lou5 baan2 m4 hai6 hou2 nau1",
+          "answer_en": "The boss is not very angry",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u9-e7-i08",
+          "prompt": "di1 hok6 saang1 jau5 soeng5 mong5 (The students have gotten on the Internet)",
+          "answer": "di1 hok6 saang1 mou5 soeng5 mong5",
+          "answer_en": "The students haven't gotten on the Internet",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u9-e7-i09",
+          "prompt": "di1 hok6 saang1 hou2 kan4 lik6 (The students are very diligent)",
+          "answer": "di1 hok6 saang1 m4 hai6 hou2 kan4 lik6",
+          "answer_en": "The students are not very diligent",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u9-e7-i10",
+          "prompt": "Go2 tou3 hei3 taai3 coeng4 (That film is too long)",
+          "answer": "go2 tou3 hei3 m4 hai6 taai3 coeng4",
+          "answer_en": "That film is not too long",
+          "hint": "",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "id": "u9-e8",
+      "title": "Practice 2",
+      "source": "Unit 9 Practice.pdf",
+      "instructions": "Show your disagreement with the following negative statements by providing the affirmative counterparts. Example: nei5 mou5 si4 gaan1 you have no time —> ngo5 jau5 si4 gaan1 aa3 I do have time (the particle aa3 serves to soften the force of the disagreement)",
+      "type": "reply",
+      "items": [
+        {
+          "id": "u9-e8-i01",
+          "prompt": "sik6 hoi2 sin1 m4 gwai3 (Eating seafood is not expensive)",
+          "answer": "sik6 hoi2 sin1 hou2 gwai3 aa3",
+          "answer_en": "Eating seafood is expensive",
+          "hint": "A bare adjective normally takes hou2 in the affirmative",
+          "confidence": "medium"
+        },
+        {
+          "id": "u9-e8-i02",
+          "prompt": "wong4 sin1 saang1 m4 ceng2 keoi5 (Mr. Wong is not hiring her)",
+          "answer": "wong4 sin1 saang1 ceng2 keoi5 aa3",
+          "answer_en": "Mr. Wong is hiring her",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u9-e8-i03",
+          "prompt": "nei5 mou5 duk6 gwo3 faat3 man2 (You haven't studied French)",
+          "answer": "ngo5 duk6 gwo3 faat3 man2 aa3",
+          "answer_en": "I have studied French",
+          "hint": "nei5 becomes ngo5, as in the example",
+          "confidence": "high"
+        },
+        {
+          "id": "u9-e8-i04",
+          "prompt": "keoi5 dei6 mei6 git3 fan1 (They're not married)",
+          "answer": "keoi5 dei6 git3 zo2 fan1 aa3",
+          "answer_en": "They are married",
+          "hint": "zo2 attaches to the verb git3, splitting git3 fan1",
+          "confidence": "medium"
+        },
+        {
+          "id": "u9-e8-i05",
+          "prompt": "nei5 mou5 bou3 meng2 (You haven't applied)",
+          "answer": "ngo5 bou3 zo2 meng2 aa3",
+          "answer_en": "I have applied",
+          "hint": "nei5 becomes ngo5; zo2 splits bou3 meng2",
+          "confidence": "medium"
+        },
+        {
+          "id": "u9-e8-i06",
+          "prompt": "di1 haau2 si3 tai4 muk6 m4 hai6 hou2 naan4 (The exam questions are not very hard)",
+          "answer": "di1 haau2 si3 tai4 muk6 hou2 naan4 aa3",
+          "answer_en": "The exam questions are very hard",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u9-e8-i07",
+          "prompt": "gaan1 fong2 m4 gon1 zeng6 (The room is not tidy)",
+          "answer": "gaan1 fong2 hou2 gon1 zeng6 aa3",
+          "answer_en": "The room is tidy",
+          "hint": "A bare adjective normally takes hou2 in the affirmative",
+          "confidence": "medium"
+        },
+        {
+          "id": "u9-e8-i08",
+          "prompt": "keoi5 ji4 gaa1 m4 dak1 haan4 (He's busy now)",
+          "answer": "keoi5 ji4 gaa1 dak1 haan4 aa3",
+          "answer_en": "He's free now",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u9-e8-i09",
+          "prompt": "gam1 jat6 mou5 tong4 (There are no lessons today)",
+          "answer": "gam1 jat6 jau5 tong4 aa3",
+          "answer_en": "There are lessons today",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u9-e8-i10",
+          "prompt": "ngo5 dei6 mei6 sik6 gwo3 se4 gang1 (We've never eaten snake soup)",
+          "answer": "nei5 dei6 sik6 gwo3 se4 gang1 aa3",
+          "answer_en": "You have eaten snake soup",
+          "hint": "ngo5 dei6 becomes nei5 dei6 when you disagree with the speaker; keep ngo5 dei6 if you are part of 'we'",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "id": "u9-e9",
+      "title": "Practice 3",
+      "source": "Unit 9 Practice.pdf",
+      "instructions": "Create antonyms based on the following adjectives and verbs, translate and pronounce them",
+      "type": "fill",
+      "items": [
+        {
+          "id": "u9-e9-i01",
+          "prompt": "san1 sin1 (fresh)",
+          "answer": "m4 san1 sin1",
+          "answer_en": "Not fresh",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u9-e9-i02",
+          "prompt": "siu2 sam1 (careful)",
+          "answer": "m4 siu2 sam1",
+          "answer_en": "Careless",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u9-e9-i03",
+          "prompt": "hou2 coi2 (lucky)",
+          "answer": "m4 hou2 coi2",
+          "answer_en": "Unlucky",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u9-e9-i04",
+          "prompt": "gou1 hing3 (glad)",
+          "answer": "m4 gou1 hing3",
+          "answer_en": "Unhappy, displeased",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u9-e9-i05",
+          "prompt": "gin6 hong1 (healthy)",
+          "answer": "m4 gin6 hong1",
+          "answer_en": "Unhealthy",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u9-e9-i06",
+          "prompt": "zung1 ji3 (like)",
+          "answer": "m4 zung1 ji3",
+          "answer_en": "Dislike",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u9-e9-i07",
+          "prompt": "ming4 baak6 (understand)",
+          "answer": "m4 ming4 baak6",
+          "answer_en": "Not understand",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u9-e9-i08",
+          "prompt": "tung4 ji3 (agree)",
+          "answer": "m4 tung4 ji3",
+          "answer_en": "Disagree",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u9-e9-i09",
+          "prompt": "jan1 soeng2 (appreciate)",
+          "answer": "m4 jan1 soeng2",
+          "answer_en": "Not appreciate",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u9-e9-i10",
+          "prompt": "lau4 sam1 (attentive)",
+          "answer": "m4 lau4 sam1",
+          "answer_en": "Inattentive",
+          "hint": "",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "id": "u9-e10",
+      "title": "Practice 4A",
+      "source": "Unit 9 Practice.pdf",
+      "instructions": "Create a double negative based on the sentence provided. Example: ngo5 m4 soeng2 heoi3 I don't want to go —> ngo5 m4 hai6 m4 soeng2 heoi3",
+      "type": "fill",
+      "items": [
+        {
+          "id": "u9-e10-i01",
+          "prompt": "keoi5 mou5 seon3 sam1 (She lacks confidence)",
+          "answer": "keoi5 m4 hai6 mou5 seon3 sam1",
+          "answer_en": "It's not that she lacks confidence",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u9-e10-i02",
+          "prompt": "keoi5 gong2 ge3 je5 mou5 dou6 lei5 (What he says is unreasonable)",
+          "answer": "keoi5 gong2 ge3 je5 m4 hai6 mou5 dou6 lei5",
+          "answer_en": "It's not that what he says is unreasonable",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u9-e10-i03",
+          "prompt": "nei5 gaa1 ze1 m4 wui2 bong1 nei5 (Your sister won't help you)",
+          "answer": "nei5 gaa1 ze1 m4 hai6 m4 wui2 bong1 nei5",
+          "answer_en": "It's not that your sister won't help you",
+          "hint": "The sheet writes wui2; the grammar slides write wui5",
+          "confidence": "high"
+        },
+        {
+          "id": "u9-e10-i04",
+          "prompt": "ngo5 dei6 m4 gau3 cin2 (We don't have enough money)",
+          "answer": "ngo5 dei6 m4 hai6 m4 gau3 cin2",
+          "answer_en": "It's not that we don't have enough money",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u9-e10-i05",
+          "prompt": "nei5 gam1 jat6 m4 dak1 haan4 (You're busy today)",
+          "answer": "nei5 gam1 jat6 m4 hai6 m4 dak1 haan4",
+          "answer_en": "It's not that you're busy today",
+          "hint": "",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "id": "u9-e11",
+      "title": "Practice 4B",
+      "source": "Unit 9 Practice.pdf",
+      "instructions": "Use a double negative to express the following indirectly. Example: nei5 jat1 ding6 jiu3 seon3 keoi5 You must believe him —> nei5 m4 ho2 ji5 m4 seon3 keoi5",
+      "type": "fill",
+      "items": [
+        {
+          "id": "u9-e11-i01",
+          "prompt": "ngo5 dei6 tung4 ji3 (We agree)",
+          "answer": "ngo5 dei6 m4 hai6 m4 tung4 ji3",
+          "answer_en": "It's not that we don't agree",
+          "hint": "",
+          "confidence": "high"
+        },
+        {
+          "id": "u9-e11-i02",
+          "prompt": "ngo5 dei6 jiu3 zau2 (We must leave)",
+          "answer": "ngo5 dei6 m4 ho2 ji5 m4 zau2",
+          "answer_en": "We cannot not leave (we have to leave)",
+          "hint": "Same pattern as the example m4 ho2 ji5 m4 …",
+          "confidence": "high"
+        },
+        {
+          "id": "u9-e11-i03",
+          "prompt": "gung1 si1 hang2 gaa1 jan4 gung1 (The company is willing to raise salaries)",
+          "answer": "gung1 si1 m4 hai6 m4 hang2 gaa1 jan4 gung1",
+          "answer_en": "It's not that the company is unwilling to raise salaries",
+          "hint": "",
+          "confidence": "medium"
+        },
+        {
+          "id": "u9-e11-i04",
+          "prompt": "ngo5 wui2 gei3 dak1 (I'll remember)",
+          "answer": "ngo5 m4 wui2 m4 gei3 dak1",
+          "answer_en": "I won't forget",
+          "hint": "Pattern m4 wui5 m4 … (keoi5 m4 wui5 m4 faan1 lai4); the sheet writes wui2",
+          "confidence": "high"
+        },
+        {
+          "id": "u9-e11-i05",
+          "prompt": "nei5 maai5 dak1 hei2 (You can afford it)",
+          "answer": "nei5 m4 hai6 maai5 m4 hei2",
+          "answer_en": "It's not that you can't afford it",
+          "hint": "maai5 dak1 hei2 / maai5 m4 hei2 = can / can't afford",
+          "confidence": "medium"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "u9-n1",
+      "title": "It's electric",
+      "body": "In this unit we have met the word din6 jing2 for movie film. It literally means electric shadows and was an ingenious way of coping with the new concept when it first burst on to the Chinese scene. The word din6 electric was itself originally borrowed from the word meaning lightning and it has been put to very good use ever since. We met electric heater din6 nyun5 lou4 in Unit 8.\nDin6 ce1 (lit.) electric vehicle: tram\nDin6 waa2 (lit.) electric speech: telephone\nDin6 si6 (lit.) electric vision: television\nDin6 nou5 (lit.) electric brain: computer"
+    },
+    {
+      "id": "u9-n2",
+      "title": "A problem of age",
+      "body": "When someone gives his age he will give it in seoi3 not in nin4. Well, that's easy enough. What is sometimes a problem is sorting out what seoi3 means, because traditionally Chinese people were born one seoi3 old and then added another seoi3 to their age at each Chinese New Year.\nSo a Chinese born on the last day of the lunar year would already be loeng5 seoi3 old the next day, while a Western baby born on the same day would not even have got to 'one' yet!"
+    }
+  ]
+}
