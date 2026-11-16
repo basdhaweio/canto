@@ -63,6 +63,7 @@ Canto.progress = (() => {
     settings: {
       theme: 'auto',
       newPerDay: 15,
+      reviewsPerDay: 30,   // due cards shown per day; a backlog is spread over the following days
       showJpOnFront: true,
       cardKinds: { f: true, r: true, p: true, n: true, g: false, d: false },
       hideTones: false,
@@ -97,6 +98,10 @@ Canto.progress = (() => {
     const c = Canto.srs.schedule(before, g, today);
     load().cards[key] = c;
     data.reviews[today] = (data.reviews[today] || 0) + 1;
+    if (Canto.srs.isDue(before, today)) {   // counts toward today's review limit (once per card)
+      if (!data.dueDone || data.dueDone.date !== today) data.dueDone = { date: today, keys: {} };
+      data.dueDone.keys[key] = 1;
+    }
     if (Canto.game) Canto.game.onGrade(key, !before || !before.reps, today);
     save();
     return c;
@@ -221,7 +226,21 @@ Canto.progress = (() => {
       if (Canto.srs.isNew(s)) fresh++;
       else { learned++; if (Canto.srs.isDue(s, today)) due++; }
     }
-    return { due, fresh, learned, total: cards.length };
+    const today_ = todayDue(cards).length;
+    return { due: today_, backlog: due, later: due - today_, fresh, learned, total: cards.length };
+  }
+
+  // Today's share of the due cards: at most reviewsPerDay a day. Cards already reviewed today that came back (Again)
+  // always stay in; the rest of the quota goes to the cards most at risk of being forgotten — shortest interval first,
+  // then most overdue. Whatever doesn't fit waits for tomorrow.
+  function doneToday() { const dd = load().dueDone; return dd && dd.date === Canto.ui.today() ? dd.keys : {}; }
+  function todayDue(cards, { extra = 0 } = {}) {
+    const today = Canto.ui.today(), d = load(), done = doneToday();
+    const again = [], rest = [];
+    for (const c of cards) { const s = d.cards[c.key]; if (Canto.srs.isDue(s, today)) (done[c.key] ? again : rest).push(c); }
+    const quota = Math.max(0, (settings().reviewsPerDay || 30) - Object.keys(done).length) + extra;
+    rest.sort((a, b) => { const x = d.cards[a.key], y = d.cards[b.key]; return (x.interval || 0) - (y.interval || 0) || (x.due < y.due ? -1 : x.due > y.due ? 1 : 0); });
+    return [...again, ...rest.slice(0, quota)];
   }
   function unitStats(unitId) {
     const cards = buildCards({ unitIds: [unitId], kinds: { f: true, r: false } });
@@ -231,5 +250,5 @@ Canto.progress = (() => {
     return { total: cards.length, seen, mature };
   }
 
-  return { load, save, saveNow, card, setCard, grade, gradeAt, resetCard, streak, reviewedToday, exercise, setExercise, note, setNote, star, toggleStar, settings, setSetting, exportJSON, importJSON, reset, migrate, cardKey, cardFor, buildCards, dueCount, unitStats };
+  return { load, save, saveNow, card, setCard, grade, gradeAt, resetCard, streak, reviewedToday, exercise, setExercise, note, setNote, star, toggleStar, settings, setSetting, todayDue, exportJSON, importJSON, reset, migrate, cardKey, cardFor, buildCards, dueCount, unitStats };
 })();

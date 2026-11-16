@@ -27,7 +27,7 @@
         case 'grammar': el = Canto.views.grammar(seg[1]); nav = 'units'; break;
         case 'exercise': el = Canto.views.exercise(seg[1]); nav = 'units'; break;
         case 'study': el = seg[1] === 'session' ? Canto.views.session() : Canto.views.study(query); break;
-        case 'review': el = Canto.views.review(); nav = 'study'; break;
+        case 'review': el = Canto.views.review(query); nav = 'study'; break;
         case 'q': el = Canto.views.cardQuiz(seg[1]); nav = 'study'; break;
         case 'quiz': el = seg[1] === 'run' ? Canto.views.quizRun() : Canto.views.quiz(query); nav = 'quiz'; break;
         case 'dictionary': el = Canto.views.dictionary(query); break;
@@ -72,10 +72,13 @@
     const greet = hour < 12 ? '早晨' : hour < 18 ? '午安' : '晚上好';
     const hero = h('div', { class: 'hero' },
       h('div', { class: 'eyebrow', text: greet + ' · ' + new Date().toLocaleDateString(undefined, { weekday: 'long', month: 'short', day: 'numeric' }) }),
-      h('h1', { text: c.due ? `${c.due} cards due` : todayN ? 'All caught up' : 'Nothing due yet' }),
-      h('div', { class: 'muted', text: c.due ? 'Daily review keeps the schedule honest.' : c.fresh ? `${c.fresh} new cards waiting whenever you want them.` : 'Add card types in Settings to study more.' }),
+      h('h1', { text: c.due ? `${c.due} cards today` : c.later ? 'Done for today' : todayN ? 'All caught up' : 'Nothing due yet' }),
+      h('div', { class: 'muted', text: c.due ? (c.later ? `Today's share of your reviews. The other ${c.later} wait for the next few days.` : 'Daily review keeps the schedule honest.')
+        : c.later ? `${c.later} more are spread over the next few days. New cards resume once they're cleared.`
+        : c.fresh ? `${c.fresh} new cards waiting whenever you want them.` : 'Add card types in Settings to study more.' }),
       h('div', { class: 'btngroup mt' },
-        c.due ? h('a', { class: 'btn primary', href: '#/review', text: `Review ${c.due} due` }) : c.fresh ? h('a', { class: 'btn primary', href: '#/review', text: `Learn ${Math.min(c.fresh, P.settings().newPerDay)} new` }) : null,
+        c.due ? h('a', { class: 'btn primary', href: '#/review', text: `Review ${c.due}` }) : c.later ? h('a', { class: 'btn', href: '#/review?more=10', text: 'Do 10 more' })
+          : c.fresh ? h('a', { class: 'btn primary', href: '#/review', text: `Learn ${Math.min(c.fresh, P.settings().newPerDay)} new` }) : null,
         h('a', { class: 'btn', href: '#/study', text: 'Custom session' })),
       h('div', { class: 'mt' }, Canto.views.levelStrip(GC)));
     wrap.append(hero);
@@ -273,6 +276,8 @@
     themeSel.addEventListener('change', () => { P.setSetting('theme', themeSel.value); applyTheme(); });
     const newPerDay = h('input', { type: 'number', min: 1, max: 200, value: st.newPerDay });
     newPerDay.addEventListener('change', () => P.setSetting('newPerDay', Math.max(1, +newPerDay.value || 1)));
+    const perDay = h('input', { type: 'number', min: 5, max: 500, value: st.reviewsPerDay });
+    perDay.addEventListener('change', () => { P.setSetting('reviewsPerDay', Math.max(5, +perDay.value || 30)); Canto.updateDuePill(); });
     const jpFront = h('input', { type: 'checkbox', checked: st.showJpOnFront });
     jpFront.addEventListener('change', () => P.setSetting('showJpOnFront', jpFront.checked));
     const kinds = h('div', { class: 'chips' });
@@ -281,6 +286,7 @@
     }
     wrap.append(h('div', { class: 'card' }, h('h2', { text: 'Study' }),
       h('label', { class: 'field' }, h('span', { text: 'Theme' }), themeSel),
+      h('label', { class: 'field' }, h('span', { text: 'Reviews per day (daily review; extra due cards wait for the next days)' }), perDay),
       h('label', { class: 'field' }, h('span', { text: 'New cards per day (daily review)' }), newPerDay),
       goalsField(),
       h('label', { class: 'toggle mb' }, jpFront, ' Show Jyutping on the front of character cards'),

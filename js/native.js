@@ -35,13 +35,14 @@ Canto.native = (() => {
     // New cards: word → meaning before meaning → word, so a reverse card never gives its own answer away.
     const rank = { f: 0, p: 1, n: 1, r: 2, g: 3, d: 4 };
     const news = daySort(fresh, today).sort((a, b) => rank[a.kind] - rank[b.kind]).slice(0, newLeft);
-    const list = [...daySort(due, today).slice(0, 60), ...news];
+    const todays = new Set(P().todayDue(cards).map((c) => c.key));
+    const list = [...daySort(due.filter((c) => todays.has(c.key)), today), ...(due.length ? [] : news)];
     const C = Canto.game.compute();
     return {
       v: 1, date: today, at: Date.now(),
       streak: C.streak.current, freezes: C.streak.freezes,
       level: C.level.level, title: C.level.title.en, pct: Math.round(C.level.pct * 1000) / 1000,
-      due: due.length,
+      due: todays.size,
       cards: list.map((c) => {
         const u = D().unit(c.unitId);
         const set = c.v && /^Set /.test(c.v.section || '') ? ' · ' + c.v.section : '';

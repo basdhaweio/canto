@@ -8,7 +8,7 @@ A personal study app for the Cantonese tutoring course (Dr. Candise Lin). Everyt
 
 ## What it does
 
-- **Flashcards** with spaced repetition (SM-2). Scope by unit, section, or card type (word→meaning, meaning→word, grammar examples, dialogue lines). Modes: daily review (due + new), due only, new only, cram.
+- **Flashcards** with spaced repetition (SM-2). Scope by unit, section, or card type (word→meaning, meaning→word, grammar examples, dialogue lines). Modes: daily review (due + new), due only, new only, cram. Daily review is capped (30 a day by default, in Settings): a backlog is spread over the next days, most at-risk cards first, and new cards resume once it is cleared.
 - **Quiz** where the app grades you: multiple choice or typed Jyutping, particles as fill-the-gap in course sentences. Right = Good, near miss (tones off) or 'I guessed' = Hard, wrong = Again; time taken is ignored; misses are counted per word and listed as Trouble words.
 - **Journey** (gamified like Forge): XP and levels with Cantonese titles, a streak with freezes, daily and weekly quests, an epic quest per unit, six stats, 34 achievements, an activity heatmap and celebrations. Rules in [docs/GAME.md](docs/GAME.md).
 - **Dialogues** with read / run-through (English hidden) / role-play (your lines hidden) modes. Tap any word for its meaning and a quick quiz that feeds the schedule.

@@ -53,7 +53,7 @@
     if (!D.hasCards(u.id)) el.append(h('div', { class: 'card small muted', text: u.vocab.length ? 'This unit\'s words are for reference only and aren\'t used as flashcards. Find them in the Vocabulary tab or the Dictionary.' : 'This unit has no flashcards.' }));
     else el.append(h('div', { class: 'card' },
       h('div', { class: 'grid', style: { gridTemplateColumns: 'repeat(3, 1fr)' } },
-        h('div', { class: 'stat' }, h('b', { text: String(dc.due) }), h('span', { text: 'due' })),
+        h('div', { class: 'stat' }, h('b', { text: String(dc.backlog) }), h('span', { text: 'due' })),
         h('div', { class: 'stat' }, h('b', { text: String(dc.fresh) }), h('span', { text: 'new' })),
         h('div', { class: 'stat' }, h('b', { text: st.total ? Math.round((st.seen / st.total) * 100) + '%' : '–' }), h('span', { text: 'seen' }))),
       h('div', { class: 'btngroup mt' },

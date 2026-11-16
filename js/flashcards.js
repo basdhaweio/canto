@@ -65,7 +65,7 @@
       summary.innerHTML = '';
       summary.append(h('div', { class: 'grid', style: { gridTemplateColumns: 'repeat(4, 1fr)' } },
         h('div', { class: 'stat' }, h('b', { text: String(c.total) }), h('span', { text: 'in scope' })),
-        h('div', { class: 'stat' }, h('b', { text: String(c.due) }), h('span', { text: 'due' })),
+        h('div', { class: 'stat' }, h('b', { text: String(c.backlog) }), h('span', { text: 'due' })),
         h('div', { class: 'stat' }, h('b', { text: String(c.fresh) }), h('span', { text: 'new' })),
         h('div', { class: 'stat' }, h('b', { text: String(n) }), h('span', { text: 'this session' }))));
       startBtn.disabled = n === 0;
@@ -126,13 +126,18 @@
     return [...due, ...news];
   }
 
-  Canto.views.review = () => {
+  Canto.views.review = (query = {}) => {
     const kinds = P.settings().cardKinds;
     const cards = P.buildCards({ unitIds: null, kinds });
-    const { due, fresh } = split(cards);
-    if (!due.length && !fresh.length) return h('div', { class: 'empty' }, 'Nothing due right now. ', h('a', { href: '#/study', text: 'Start a custom session' }), '.');
-    const queue = [...due, ...(due.length ? [] : orderNew(fresh).slice(0, P.settings().newPerDay))];
-    setTimeout(() => Canto.startSession(queue, { title: due.length ? 'Daily review' : 'New cards' }), 0);
+    const { due: allDue, fresh } = split(cards);
+    const extra = Math.max(0, +query.more || 0);
+    const due = shuffle(P.todayDue(cards, { extra }));
+    // New cards wait until the backlog is gone, so it shrinks instead of growing.
+    const news = allDue.length ? [] : orderNew(fresh).slice(0, P.settings().newPerDay);
+    if (!due.length && !news.length) return h('div', { class: 'empty' }, allDue.length ? `Today's reviews are done. ${allDue.length} more are waiting for the next few days. ` : 'Nothing due right now. ',
+      allDue.length ? h('a', { href: '#/review?more=10', text: 'Do 10 more' }) : h('a', { href: '#/study', text: 'Start a custom session' }), '.');
+    const queue = due.length ? due : news;
+    setTimeout(() => Canto.startSession(queue, { title: extra ? 'Extra reviews' : due.length ? 'Daily review' : 'New cards' }), 0);
     return h('div', { class: 'loading', text: 'Starting…' });
   };
 
